@@ -155,6 +155,20 @@
 </div>
 
 <script>
+// 비밀번호 보호
+const HASH = '13be5b896be039957e7996f606c8513fa2d9061132bdcabdbee5a362dd9fd8ff';
+async function checkAuth() {
+  const saved = sessionStorage.getItem('auth');
+  if (saved === HASH) return true;
+  const pw = prompt('비밀번호를 입력하세요:');
+  if (!pw) { document.body.innerHTML = '<p style="text-align:center;padding:40px;color:#888">접근이 거부되었습니다.</p>'; return false; }
+  const buf = await crypto.subtle.digest('SHA-256', new TextEncoder().encode(pw));
+  const hex = Array.from(new Uint8Array(buf)).map(b => b.toString(16).padStart(2,'0')).join('');
+  if (hex === HASH) { sessionStorage.setItem('auth', HASH); return true; }
+  document.body.innerHTML = '<p style="text-align:center;padding:40px;color:#e94560">비밀번호가 틀렸습니다.<br><br><button onclick="location.reload()" style="padding:10px 20px;border:none;background:#0f3460;color:white;border-radius:8px;cursor:pointer">다시 시도</button></p>';
+  return false;
+}
+
 const BASE = './';
 
 async function loadJSON(file) {
@@ -351,7 +365,7 @@ document.getElementById('today-date').textContent =
   d.getFullYear() + '년 ' + (d.getMonth()+1) + '월 ' + d.getDate() + '일 (' +
   ['일','월','화','수','목','금','토'][d.getDay()] + ')';
 
-init();
+checkAuth().then(ok => { if (ok) init(); });
 </script>
 </body>
 </html>
