@@ -1,0 +1,577 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>옥스포드 영단어 3000 - 난이도별 학습 계획</title>
+<style>
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body { font-family: 'Segoe UI', Arial, sans-serif; background: #f0f2f5; color: #1a1a2e; line-height: 1.6; }
+
+  .header {
+    background: linear-gradient(135deg, #1a1a2e 0%, #16213e 50%, #0f3460 100%);
+    color: white; padding: 40px 32px; text-align: center;
+  }
+  .header h1 { font-size: 2rem; margin-bottom: 8px; }
+  .header p { opacity: 0.8; font-size: 1rem; }
+
+  .container { max-width: 960px; margin: 0 auto; padding: 24px 16px; }
+
+  .card {
+    background: white; border-radius: 12px; padding: 24px;
+    margin-bottom: 24px; box-shadow: 0 2px 12px rgba(0,0,0,0.08);
+  }
+  .card h2 { font-size: 1.2rem; margin-bottom: 16px; padding-bottom: 10px;
+    border-bottom: 2px solid #e8ecf0; color: #0f3460; }
+
+  /* Phase Cards */
+  .phase-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: 16px; }
+  .phase-card {
+    border-radius: 10px; padding: 18px; color: white;
+    position: relative; overflow: hidden;
+  }
+  .phase-card::after {
+    content: attr(data-level);
+    position: absolute; right: 12px; top: 12px;
+    font-size: 1.8rem; opacity: 0.25; font-weight: 900;
+  }
+  .phase-1 { background: linear-gradient(135deg, #4CAF50, #2E7D32); }
+  .phase-2 { background: linear-gradient(135deg, #8BC34A, #558B2F); }
+  .phase-3 { background: linear-gradient(135deg, #FFC107, #F57F17); }
+  .phase-4 { background: linear-gradient(135deg, #FF9800, #E65100); }
+  .phase-5 { background: linear-gradient(135deg, #F44336, #B71C1C); }
+  .phase-6 { background: linear-gradient(135deg, #9C27B0, #4A148C); }
+
+  .phase-card h3 { font-size: 1rem; margin-bottom: 10px; opacity: 0.9; }
+  .phase-card .stat { font-size: 2rem; font-weight: 900; margin: 4px 0; }
+  .phase-card .sub { font-size: 0.82rem; opacity: 0.85; margin-top: 8px; }
+  .phase-card .badge {
+    display: inline-block; background: rgba(255,255,255,0.25);
+    border-radius: 20px; padding: 3px 10px; font-size: 0.78rem; margin-top: 8px;
+  }
+
+  /* Timeline */
+  .timeline { position: relative; padding-left: 24px; }
+  .timeline::before {
+    content: ''; position: absolute; left: 8px; top: 0; bottom: 0;
+    width: 2px; background: #e0e0e0;
+  }
+  .tl-item { position: relative; margin-bottom: 20px; }
+  .tl-item::before {
+    content: ''; position: absolute; left: -20px; top: 6px;
+    width: 12px; height: 12px; border-radius: 50%;
+    background: #0f3460; border: 2px solid white;
+    box-shadow: 0 0 0 2px #0f3460;
+  }
+  .tl-item.review::before { background: #e65100; box-shadow: 0 0 0 2px #e65100; }
+  .tl-label { font-weight: 700; font-size: 0.88rem; color: #0f3460; }
+  .tl-item.review .tl-label { color: #e65100; }
+  .tl-desc { font-size: 0.85rem; color: #555; }
+
+  /* Summary table */
+  table { width: 100%; border-collapse: collapse; font-size: 0.9rem; }
+  th { background: #0f3460; color: white; padding: 10px 12px; text-align: left; }
+  td { padding: 9px 12px; border-bottom: 1px solid #f0f0f0; }
+  tr:hover td { background: #f8f9ff; }
+  .tag {
+    display: inline-block; border-radius: 4px; padding: 2px 8px;
+    font-size: 0.78rem; font-weight: 600;
+  }
+  .tag-a1 { background: #E8F5E9; color: #2E7D32; }
+  .tag-a2 { background: #F1F8E9; color: #558B2F; }
+  .tag-b1 { background: #FFF8E1; color: #F57F17; }
+  .tag-b2 { background: #FFF3E0; color: #E65100; }
+  .tag-c1 { background: #FCE4EC; color: #880E4F; }
+
+  /* Review system */
+  .review-box {
+    display: grid; grid-template-columns: repeat(3, 1fr); gap: 12px;
+    margin-top: 8px;
+  }
+  .review-item {
+    text-align: center; padding: 16px 8px; border-radius: 8px;
+    border: 2px solid #e0e0e0;
+  }
+  .review-item .day-num { font-size: 1.6rem; font-weight: 900; color: #0f3460; }
+  .review-item .day-label { font-size: 0.78rem; color: #888; margin-top: 2px; }
+  .review-item .day-action { font-size: 0.82rem; color: #444; margin-top: 8px; }
+
+  /* Error notebook */
+  .notebook {
+    border: 2px dashed #ccc; border-radius: 8px; padding: 20px;
+    font-family: 'Courier New', monospace; font-size: 0.85rem; background: #fffef5;
+  }
+  .notebook-header {
+    display: grid;
+    grid-template-columns: 120px 160px 1fr 90px 90px;
+    gap: 0; border-bottom: 2px solid #333; padding-bottom: 8px; margin-bottom: 8px;
+    font-weight: 700; font-size: 0.8rem;
+  }
+  .notebook-row {
+    display: grid;
+    grid-template-columns: 120px 160px 1fr 90px 90px;
+    gap: 0; padding: 6px 0; border-bottom: 1px dotted #ccc; font-size: 0.8rem;
+  }
+  .notebook-row span { padding-right: 8px; }
+  .blank { border-bottom: 1px solid #999; display: inline-block; min-width: 60px; }
+
+  /* Daily template */
+  .daily-template { background: #f8f9ff; border-radius: 8px; padding: 20px; }
+  .daily-row { display: flex; align-items: flex-start; margin-bottom: 14px; }
+  .daily-num {
+    min-width: 28px; height: 28px; border-radius: 50%; background: #0f3460;
+    color: white; display: flex; align-items: center; justify-content: center;
+    font-size: 0.8rem; font-weight: 700; margin-right: 12px; flex-shrink: 0;
+  }
+  .daily-content h4 { font-size: 0.9rem; margin-bottom: 3px; }
+  .daily-content p { font-size: 0.83rem; color: #666; }
+
+  /* Stats bar */
+  .stats-bar {
+    display: grid; grid-template-columns: repeat(4, 1fr);
+    gap: 12px; margin-bottom: 24px;
+  }
+  .stat-box {
+    background: white; border-radius: 10px; padding: 16px; text-align: center;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.07);
+  }
+  .stat-box .num { font-size: 1.8rem; font-weight: 900; color: #0f3460; }
+  .stat-box .lbl { font-size: 0.78rem; color: #888; margin-top: 2px; }
+
+  .tip-box {
+    background: #E3F2FD; border-left: 4px solid #1565C0;
+    border-radius: 0 8px 8px 0; padding: 12px 16px; margin-top: 12px;
+    font-size: 0.85rem; color: #1a237e;
+  }
+
+  @media print {
+    body { background: white; }
+    .card { box-shadow: none; border: 1px solid #ddd; page-break-inside: avoid; }
+    .header { background: #0f3460 !important; -webkit-print-color-adjust: exact; }
+  }
+</style>
+</head>
+<body>
+
+<div class="header">
+  <h1>옥스포드 영단어 3000 — 난이도별 학습 계획</h1>
+  <p>시작일: 2026-04-12 &nbsp;|&nbsp; 총 3,000단어 &nbsp;|&nbsp; 예상 완료: 409일 (약 13.6개월)</p>
+</div>
+
+<div class="container">
+
+  <!-- 총계 요약 -->
+  <div class="stats-bar">
+    <div class="stat-box">
+      <div class="num">3,000</div>
+      <div class="lbl">총 학습 단어</div>
+    </div>
+    <div class="stat-box">
+      <div class="num">342</div>
+      <div class="lbl">순수 학습일</div>
+    </div>
+    <div class="stat-box">
+      <div class="num">67</div>
+      <div class="lbl">복습일</div>
+    </div>
+    <div class="stat-box">
+      <div class="num">409</div>
+      <div class="lbl">총 학습 기간 (일)</div>
+    </div>
+  </div>
+
+  <!-- 6단계 Phase 카드 -->
+  <div class="card">
+    <h2>Phase별 학습 계획</h2>
+    <div class="phase-grid">
+
+      <div class="phase-card phase-1" data-level="1">
+        <h3>Phase 1 · Ranks 1–500</h3>
+        <div class="stat">20개/일</div>
+        <div class="sub">
+          A1–A2 | 최고빈도 기초 어휘<br>
+          be, the, water, school, food, car…<br><br>
+          학습일 25일 + 복습일 5일 = <strong>30일</strong><br>
+          📅 Day 1 → Day 30
+        </div>
+        <span class="badge">2026-04-12 ~ 2026-05-11</span>
+      </div>
+
+      <div class="phase-card phase-2" data-level="2">
+        <h3>Phase 2 · Ranks 501–800</h3>
+        <div class="stat">15개/일</div>
+        <div class="sub">
+          A2–B1 | 일상 확장 어휘<br>
+          color, basket, truck, shower…<br><br>
+          학습일 20일 + 복습일 4일 = <strong>24일</strong><br>
+          📅 Day 31 → Day 54
+        </div>
+        <span class="badge">2026-05-12 ~ 2026-06-04</span>
+      </div>
+
+      <div class="phase-card phase-3" data-level="3">
+        <h3>Phase 3 · Ranks 801–1000</h3>
+        <div class="stat">12개/일</div>
+        <div class="sub">
+          B1 | 중급 전환 어휘<br>
+          clothe, center, pine, candle…<br><br>
+          학습일 17일 + 복습일 3일 = <strong>20일</strong><br>
+          📅 Day 55 → Day 74
+        </div>
+        <span class="badge">2026-06-05 ~ 2026-06-24</span>
+      </div>
+
+      <div class="phase-card phase-4" data-level="4">
+        <h3>Phase 4 · Ranks 1001–1500</h3>
+        <div class="stat">10개/일</div>
+        <div class="sub">
+          B1–B2 | 중급 학술·사회 어휘<br>
+          benefit, pressure, election, strategy…<br><br>
+          학습일 50일 + 복습일 10일 = <strong>60일</strong><br>
+          📅 Day 75 → Day 134
+        </div>
+        <span class="badge">2026-06-25 ~ 2026-08-23</span>
+      </div>
+
+      <div class="phase-card phase-5" data-level="5">
+        <h3>Phase 5 · Ranks 1501–2000</h3>
+        <div class="stat">8개/일</div>
+        <div class="sub">
+          B2 | 상급 전문·분석 어휘<br>
+          nuclear, psychological, perception…<br><br>
+          학습일 63일 + 복습일 12일 = <strong>75일</strong><br>
+          📅 Day 135 → Day 209
+        </div>
+        <span class="badge">2026-08-24 ~ 2026-11-06</span>
+      </div>
+
+      <div class="phase-card phase-6" data-level="6">
+        <h3>Phase 6 · Ranks 2001–3000</h3>
+        <div class="stat">6개/일</div>
+        <div class="sub">
+          B2–C1 | 고급 어휘<br>
+          난이도 최고 / 심화 학습 필요<br><br>
+          학습일 167일 + 복습일 33일 = <strong>200일</strong><br>
+          📅 Day 210 → Day 409
+        </div>
+        <span class="badge">2026-11-07 ~ 2027-06-25</span>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- 전체 일정 요약 표 -->
+  <div class="card">
+    <h2>전체 일정 요약표</h2>
+    <table>
+      <thead>
+        <tr>
+          <th>Phase</th>
+          <th>단어 범위</th>
+          <th>CEFR</th>
+          <th>하루 단어수</th>
+          <th>학습일</th>
+          <th>복습일</th>
+          <th>총 기간</th>
+          <th>Day 범위</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><strong>Phase 1</strong></td>
+          <td>1–500</td>
+          <td><span class="tag tag-a1">A1–A2</span></td>
+          <td>20개</td>
+          <td>25일</td>
+          <td>5일</td>
+          <td><strong>30일</strong></td>
+          <td>Day 1–30</td>
+        </tr>
+        <tr>
+          <td><strong>Phase 2</strong></td>
+          <td>501–800</td>
+          <td><span class="tag tag-a2">A2–B1</span></td>
+          <td>15개</td>
+          <td>20일</td>
+          <td>4일</td>
+          <td><strong>24일</strong></td>
+          <td>Day 31–54</td>
+        </tr>
+        <tr>
+          <td><strong>Phase 3</strong></td>
+          <td>801–1000</td>
+          <td><span class="tag tag-b1">B1</span></td>
+          <td>12개</td>
+          <td>17일</td>
+          <td>3일</td>
+          <td><strong>20일</strong></td>
+          <td>Day 55–74</td>
+        </tr>
+        <tr>
+          <td><strong>Phase 4</strong></td>
+          <td>1001–1500</td>
+          <td><span class="tag tag-b1">B1–B2</span></td>
+          <td>10개</td>
+          <td>50일</td>
+          <td>10일</td>
+          <td><strong>60일</strong></td>
+          <td>Day 75–134</td>
+        </tr>
+        <tr>
+          <td><strong>Phase 5</strong></td>
+          <td>1501–2000</td>
+          <td><span class="tag tag-b2">B2</span></td>
+          <td>8개</td>
+          <td>63일</td>
+          <td>12일</td>
+          <td><strong>75일</strong></td>
+          <td>Day 135–209</td>
+        </tr>
+        <tr>
+          <td><strong>Phase 6</strong></td>
+          <td>2001–3000</td>
+          <td><span class="tag tag-c1">B2–C1</span></td>
+          <td>6개</td>
+          <td>167일</td>
+          <td>33일</td>
+          <td><strong>200일</strong></td>
+          <td>Day 210–409</td>
+        </tr>
+        <tr style="background:#f0f4ff; font-weight:700;">
+          <td>합계</td>
+          <td>3,000단어</td>
+          <td>—</td>
+          <td>6–20개</td>
+          <td>342일</td>
+          <td>67일</td>
+          <td><strong>409일</strong></td>
+          <td>Day 1–409</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+
+  <!-- Phase 1 상세 일정 (샘플) -->
+  <div class="card">
+    <h2>Phase 1 상세 일정 (Ranks 1–500 / Day 1–30)</h2>
+    <p style="font-size:0.85rem; color:#666; margin-bottom:16px;">
+      5일 학습 → 1일 복습 사이클 반복. 복습일에는 새 단어 없이 지난 5일 단어(100개) 재확인.
+    </p>
+    <table>
+      <thead>
+        <tr><th>Day</th><th>유형</th><th>단어 범위 (Rank)</th><th>학습량</th><th>누적</th></tr>
+      </thead>
+      <tbody>
+        <tr><td>Day 1</td><td>학습</td><td>Rank 1–20</td><td>20개</td><td>20</td></tr>
+        <tr><td>Day 2</td><td>학습</td><td>Rank 21–40</td><td>20개</td><td>40</td></tr>
+        <tr><td>Day 3</td><td>학습</td><td>Rank 41–60</td><td>20개</td><td>60</td></tr>
+        <tr><td>Day 4</td><td>학습</td><td>Rank 61–80</td><td>20개</td><td>80</td></tr>
+        <tr><td>Day 5</td><td>학습</td><td>Rank 81–100</td><td>20개</td><td>100</td></tr>
+        <tr style="background:#FFF8E1;"><td>Day 6</td><td>🔄 복습</td><td>Rank 1–100 전체</td><td>오답 집중</td><td>—</td></tr>
+        <tr><td>Day 7</td><td>학습</td><td>Rank 101–120</td><td>20개</td><td>120</td></tr>
+        <tr><td>Day 8</td><td>학습</td><td>Rank 121–140</td><td>20개</td><td>140</td></tr>
+        <tr><td>Day 9</td><td>학습</td><td>Rank 141–160</td><td>20개</td><td>160</td></tr>
+        <tr><td>Day 10</td><td>학습</td><td>Rank 161–180</td><td>20개</td><td>180</td></tr>
+        <tr><td>Day 11</td><td>학습</td><td>Rank 181–200</td><td>20개</td><td>200</td></tr>
+        <tr style="background:#FFF8E1;"><td>Day 12</td><td>🔄 복습</td><td>Rank 101–200 전체</td><td>오답 집중</td><td>—</td></tr>
+        <tr><td>Day 13</td><td>학습</td><td>Rank 201–220</td><td>20개</td><td>220</td></tr>
+        <tr><td>Day 14</td><td>학습</td><td>Rank 221–240</td><td>20개</td><td>240</td></tr>
+        <tr><td>Day 15</td><td>학습</td><td>Rank 241–260</td><td>20개</td><td>260</td></tr>
+        <tr><td>Day 16</td><td>학습</td><td>Rank 261–280</td><td>20개</td><td>280</td></tr>
+        <tr><td>Day 17</td><td>학습</td><td>Rank 281–300</td><td>20개</td><td>300</td></tr>
+        <tr style="background:#FFF8E1;"><td>Day 18</td><td>🔄 복습</td><td>Rank 201–300 전체</td><td>오답 집중</td><td>—</td></tr>
+        <tr><td>Day 19</td><td>학습</td><td>Rank 301–320</td><td>20개</td><td>320</td></tr>
+        <tr><td>Day 20</td><td>학습</td><td>Rank 321–340</td><td>20개</td><td>340</td></tr>
+        <tr><td>Day 21</td><td>학습</td><td>Rank 341–360</td><td>20개</td><td>360</td></tr>
+        <tr><td>Day 22</td><td>학습</td><td>Rank 361–380</td><td>20개</td><td>380</td></tr>
+        <tr><td>Day 23</td><td>학습</td><td>Rank 381–400</td><td>20개</td><td>400</td></tr>
+        <tr style="background:#FFF8E1;"><td>Day 24</td><td>🔄 복습</td><td>Rank 301–400 전체</td><td>오답 집중</td><td>—</td></tr>
+        <tr><td>Day 25</td><td>학습</td><td>Rank 401–420</td><td>20개</td><td>420</td></tr>
+        <tr><td>Day 26</td><td>학습</td><td>Rank 421–440</td><td>20개</td><td>440</td></tr>
+        <tr><td>Day 27</td><td>학습</td><td>Rank 441–460</td><td>20개</td><td>460</td></tr>
+        <tr><td>Day 28</td><td>학습</td><td>Rank 461–480</td><td>20개</td><td>480</td></tr>
+        <tr><td>Day 29</td><td>학습</td><td>Rank 481–500</td><td>20개</td><td>500</td></tr>
+        <tr style="background:#FFF8E1;"><td>Day 30</td><td>🔄 복습</td><td>Rank 401–500 + Phase 1 총정리</td><td>오답 집중</td><td>—</td></tr>
+      </tbody>
+    </table>
+    <div class="tip-box">
+      Phase 1 완료 후 → 오답노트에 남은 단어만 추려서 Phase 2 시작 전 최종 점검 1회 추천
+    </div>
+  </div>
+
+  <!-- 복습 시스템 -->
+  <div class="card">
+    <h2>복습 시스템 (망각곡선 기반)</h2>
+    <p style="font-size:0.85rem; color:#555; margin-bottom:16px;">
+      복습일(매 6번째 날) + 에빙하우스 간격 복습을 병행합니다.
+    </p>
+
+    <div class="review-box">
+      <div class="review-item">
+        <div class="day-num">+3일</div>
+        <div class="day-label">단기 기억 강화</div>
+        <div class="day-action">한국어 뜻 가리고 영어만 보고 뜻 맞추기</div>
+      </div>
+      <div class="review-item">
+        <div class="day-num">+7일</div>
+        <div class="day-label">1주일 테스트</div>
+        <div class="day-action">영어→한국어 + 예문 빈칸 채우기</div>
+      </div>
+      <div class="review-item">
+        <div class="day-num">+30일</div>
+        <div class="day-label">장기기억 점검</div>
+        <div class="day-action">뜻 + 예문 직접 작성 (아무 힌트 없이)</div>
+      </div>
+    </div>
+
+    <br>
+    <h3 style="font-size:1rem; margin-bottom:12px;">복습일 (매 6번째 날) 진행 방식</h3>
+    <div class="timeline">
+      <div class="tl-item review">
+        <div class="tl-label">Step 1 · 전체 플래시카드 (15분)</div>
+        <div class="tl-desc">최근 5일치 단어를 영어 → 한국어 뜻 순서로 빠르게 점검</div>
+      </div>
+      <div class="tl-item review">
+        <div class="tl-label">Step 2 · 오답 집중 (10분)</div>
+        <div class="tl-desc">틀린 단어만 따로 뽑아 3회 반복 → 오답노트에 기록</div>
+      </div>
+      <div class="tl-item review">
+        <div class="tl-label">Step 3 · 예문 작성 (10분)</div>
+        <div class="tl-desc">틀린 단어 중 3개 선택 → 직접 예문 1개씩 작성</div>
+      </div>
+      <div class="tl-item review">
+        <div class="tl-label">Step 4 · 오답노트 확인 (5분)</div>
+        <div class="tl-desc">누적 오답노트 전체 스캔 → 여전히 모르는 단어 표시</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- 일일 학습 템플릿 -->
+  <div class="card">
+    <h2>일일 학습 세션 템플릿</h2>
+    <div class="daily-template">
+      <div class="daily-row">
+        <div class="daily-num">1</div>
+        <div class="daily-content">
+          <h4>복습 확인 (5분)</h4>
+          <p>"오늘 복습할 단어 있어?" → 3일/7일 도래 단어 먼저 확인</p>
+        </div>
+      </div>
+      <div class="daily-row">
+        <div class="daily-num">2</div>
+        <div class="daily-content">
+          <h4>신규 단어 학습 (20–30분)</h4>
+          <p>"Day N 학습하자" → 단어 + 뜻 + 예문 + 발음 확인<br>
+          각 단어 3회 소리 내어 읽기, 예문 1회 따라쓰기</p>
+        </div>
+      </div>
+      <div class="daily-row">
+        <div class="daily-num">3</div>
+        <div class="daily-content">
+          <h4>자가 테스트 (5분)</h4>
+          <p>방금 배운 단어 한국어 뜻 가리고 영어만 보며 뜻 말하기<br>
+          틀린 단어 → 즉시 오답노트에 기록</p>
+        </div>
+      </div>
+      <div class="daily-row">
+        <div class="daily-num">4</div>
+        <div class="daily-content">
+          <h4>롤플레이 / 예문 연습 (5–10분)</h4>
+          <p>배운 단어 중 2–3개 선택 → 실제 상황 대화 or 예문 작성</p>
+        </div>
+      </div>
+      <div class="daily-row" style="margin-bottom:0">
+        <div class="daily-num">5</div>
+        <div class="daily-content">
+          <h4>진도 업데이트</h4>
+          <p>"진도 업데이트해줘" → 진도관리.json + 오답노트.json 자동 저장</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- 오답노트 -->
+  <div class="card">
+    <h2>오답노트 (Error Notebook) 양식</h2>
+    <p style="font-size:0.85rem; color:#555; margin-bottom:16px;">
+      오답노트.json에 자동 저장됩니다. 아래는 인쇄용 양식입니다.
+    </p>
+    <div class="notebook">
+      <div class="notebook-header">
+        <span>단어 (Word)</span>
+        <span>뜻 (Meaning)</span>
+        <span>예문 (Example)</span>
+        <span>틀린 날짜</span>
+        <span>복습 날짜</span>
+      </div>
+      <div class="notebook-row">
+        <span style="font-style:italic; color:#888;">예) abandon</span>
+        <span style="font-style:italic; color:#888;">포기하다, 버리다</span>
+        <span style="font-style:italic; color:#888;">He abandoned the project.</span>
+        <span style="font-style:italic; color:#888;">2026-04-15</span>
+        <span style="font-style:italic; color:#888;">2026-04-18</span>
+      </div>
+      <div class="notebook-row">
+        <span>&nbsp;</span><span>&nbsp;</span><span>&nbsp;</span><span>&nbsp;</span><span>&nbsp;</span>
+      </div>
+      <div class="notebook-row">
+        <span>&nbsp;</span><span>&nbsp;</span><span>&nbsp;</span><span>&nbsp;</span><span>&nbsp;</span>
+      </div>
+      <div class="notebook-row">
+        <span>&nbsp;</span><span>&nbsp;</span><span>&nbsp;</span><span>&nbsp;</span><span>&nbsp;</span>
+      </div>
+      <div class="notebook-row">
+        <span>&nbsp;</span><span>&nbsp;</span><span>&nbsp;</span><span>&nbsp;</span><span>&nbsp;</span>
+      </div>
+      <div class="notebook-row">
+        <span>&nbsp;</span><span>&nbsp;</span><span>&nbsp;</span><span>&nbsp;</span><span>&nbsp;</span>
+      </div>
+      <div class="notebook-row">
+        <span>&nbsp;</span><span>&nbsp;</span><span>&nbsp;</span><span>&nbsp;</span><span>&nbsp;</span>
+      </div>
+      <div class="notebook-row">
+        <span>&nbsp;</span><span>&nbsp;</span><span>&nbsp;</span><span>&nbsp;</span><span>&nbsp;</span>
+      </div>
+      <div class="notebook-row">
+        <span>&nbsp;</span><span>&nbsp;</span><span>&nbsp;</span><span>&nbsp;</span><span>&nbsp;</span>
+      </div>
+    </div>
+
+    <br>
+    <h3 style="font-size:1rem; margin-bottom:10px;">오답노트 활용 규칙</h3>
+    <table>
+      <thead><tr><th>상황</th><th>액션</th></tr></thead>
+      <tbody>
+        <tr><td>처음 틀린 단어</td><td>오답노트에 추가 → 3일 후 복습 예약</td></tr>
+        <tr><td>2번 연속 틀린 단어</td><td>★ 표시 → 복습일마다 반드시 포함</td></tr>
+        <tr><td>3번 이상 틀린 단어</td><td>★★ 표시 → 예문 직접 작성 + 소리 내어 5회 반복</td></tr>
+        <tr><td>오답 단어 연속 3회 정답</td><td>오답노트에서 제거 (졸업)</td></tr>
+        <tr><td>주간 오답 정리</td><td>매 복습일에 오답노트 전체 스캔</td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <!-- Claude Code 사용법 -->
+  <div class="card">
+    <h2>Claude Code 학습 명령어</h2>
+    <table>
+      <thead><tr><th>명령</th><th>효과</th></tr></thead>
+      <tbody>
+        <tr><td><code>"Day 1 학습하자"</code></td><td>해당 Day 신규 단어 제공 (Rank + 뜻 + 예문 + 패턴)</td></tr>
+        <tr><td><code>"오늘 복습할 단어 있어?"</code></td><td>3일/7일/30일 도래 단어 확인 및 테스트</td></tr>
+        <tr><td><code>"복습일이야"</code></td><td>복습일 루틴 진행 (플래시카드 → 오답 → 예문)</td></tr>
+        <tr><td><code>"오답노트 보여줘"</code></td><td>현재 오답노트 전체 출력 + 복습 우선순위 정렬</td></tr>
+        <tr><td><code>"내 진도 알려줘"</code></td><td>현재 Day, Phase, 누적 단어 수, 오늘 복습 예정 표시</td></tr>
+        <tr><td><code>"[단어] 예문 만들어줘"</code></td><td>해당 단어로 실생활 예문 3개 생성</td></tr>
+        <tr><td><code>"오늘 배운 단어로 대화해보자"</code></td><td>롤플레이 대화 (일상/비즈니스/여행 상황)</td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <p style="text-align:center; color:#aaa; font-size:0.8rem; padding: 16px 0;">
+    생성일: 2026-04-12 &nbsp;|&nbsp; 옥스포드 영단어 3000 (Ranks 1–3000) 기반 &nbsp;|&nbsp; 난이도별 맞춤 학습 계획
+  </p>
+
+</div>
+</body>
+</html>

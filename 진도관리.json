@@ -1,0 +1,31 @@
+{
+  "plan_version": "oxford_3000",
+  "start_date": "2026-04-12",
+  "current_day": 0,
+  "current_phase": 1,
+  "last_studied": null,
+  "total_words_learned": 0,
+
+  "phases": {
+    "1": { "name": "Ranks 1-500",   "cefr": "A1-A2", "words_per_day": 20, "total_words": 500, "study_days": 25, "review_days": 5,  "day_start": 1,   "day_end": 30,  "rank_start": 1,    "rank_end": 500  },
+    "2": { "name": "Ranks 501-800", "cefr": "A2-B1", "words_per_day": 15, "total_words": 300, "study_days": 20, "review_days": 4,  "day_start": 31,  "day_end": 54,  "rank_start": 501,  "rank_end": 800  },
+    "3": { "name": "Ranks 801-1000","cefr": "B1",    "words_per_day": 12, "total_words": 200, "study_days": 17, "review_days": 3,  "day_start": 55,  "day_end": 74,  "rank_start": 801,  "rank_end": 1000 },
+    "4": { "name": "Ranks 1001-1500","cefr":"B1-B2", "words_per_day": 10, "total_words": 500, "study_days": 50, "review_days": 10, "day_start": 75,  "day_end": 134, "rank_start": 1001, "rank_end": 1500 },
+    "5": { "name": "Ranks 1501-2000","cefr":"B2",    "words_per_day": 8,  "total_words": 500, "study_days": 63, "review_days": 12, "day_start": 135, "day_end": 209, "rank_start": 1501, "rank_end": 2000 },
+    "6": { "name": "Ranks 2001-3000","cefr":"B2-C1", "words_per_day": 6,  "total_words": 1000,"study_days": 167,"review_days": 33, "day_start": 210, "day_end": 409, "rank_start": 2001, "rank_end": 3000 }
+  },
+
+  "completed_days": [],
+  "review_schedule": {
+    "day_3":  [],
+    "day_7":  [],
+    "day_30": []
+  },
+
+  "stats": {
+    "total_study_sessions": 0,
+    "total_correct": 0,
+    "total_wrong": 0,
+    "streak": 0
+  }
+}
