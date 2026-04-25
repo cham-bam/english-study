@@ -1,8 +1,135 @@
 {
-  "updated_at": "2026-04-25",
+  "updated_at": "2026-04-26",
   "default_daily_count": 10,
   "source": "01_기초_동사형용사.json",
   "entries": [
+    {
+      "date": "2026-04-26",
+      "day": 2,
+      "title": "Day 2 기본 동사/형용사 10개",
+      "items": [
+        {
+          "word": "apply",
+          "meaning": "지원하다",
+          "example": "Apply for the job.",
+          "note": "지원하다라는 뜻입니다. 예문과 함께 문장째 익혀보세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/apply"
+            }
+          ]
+        },
+        {
+          "word": "arrange",
+          "meaning": "준비하다",
+          "example": "Arrange the meeting please.",
+          "note": "준비하다라는 뜻입니다. 예문과 함께 문장째 익혀보세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/arrange"
+            }
+          ]
+        },
+        {
+          "word": "ask",
+          "meaning": "묻다",
+          "example": "Ask me anything.",
+          "note": "묻다라는 뜻입니다. 예문과 함께 문장째 익혀보세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/ask"
+            }
+          ]
+        },
+        {
+          "word": "avoid",
+          "meaning": "피하다",
+          "example": "Avoid making mistakes.",
+          "note": "피하다라는 뜻입니다. 예문과 함께 문장째 익혀보세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/avoid"
+            }
+          ]
+        },
+        {
+          "word": "begin",
+          "meaning": "시작하다",
+          "example": "Let's begin the meeting.",
+          "note": "시작하다라는 뜻입니다. 예문과 함께 문장째 익혀보세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/begin"
+            }
+          ]
+        },
+        {
+          "word": "believe",
+          "meaning": "믿다",
+          "example": "I believe in you.",
+          "note": "믿다라는 뜻입니다. 예문과 함께 문장째 익혀보세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/believe"
+            }
+          ]
+        },
+        {
+          "word": "belong",
+          "meaning": "속하다",
+          "example": "This belongs to me.",
+          "note": "속하다라는 뜻입니다. 예문과 함께 문장째 익혀보세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/belong"
+            }
+          ]
+        },
+        {
+          "word": "break",
+          "meaning": "부수다",
+          "example": "Don't break the rules.",
+          "note": "부수다라는 뜻입니다. 예문과 함께 문장째 익혀보세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/break"
+            }
+          ]
+        },
+        {
+          "word": "bring",
+          "meaning": "가져오다",
+          "example": "Bring your ID card.",
+          "note": "가져오다라는 뜻입니다. 예문과 함께 문장째 익혀보세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/bring"
+            }
+          ]
+        },
+        {
+          "word": "build",
+          "meaning": "짓다",
+          "example": "Build a strong team.",
+          "note": "짓다라는 뜻입니다. 예문과 함께 문장째 익혀보세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/build"
+            }
+          ]
+        }
+      ]
+    },
     {
       "date": "2026-04-25",
       "day": 1,

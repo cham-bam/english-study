@@ -1,0 +1,405 @@
+{
+  "updated_at": "2026-04-26",
+  "daily_count": 3,
+  "refill_target_unused": 30,
+  "items": [
+    {
+      "id": "science-water-expands-when-frozen",
+      "category": "과학",
+      "title": "물은 얼 때 부피가 커진다",
+      "body": "대부분의 물질은 고체가 되면 더 촘촘해지지만, 물은 얼음이 될 때 분자 배열이 벌어져 부피가 늘어납니다. 그래서 얼음은 물보다 밀도가 낮아 물 위에 뜹니다.",
+      "takeaway": "호수 표면이 먼저 얼어도 아래 물속 생물이 살아남을 수 있는 이유와 연결됩니다.",
+      "sources": [
+        {
+          "label": "USGS Water Density",
+          "url": "https://www.usgs.gov/water-science-school/science/water-density"
+        },
+        {
+          "label": "Britannica",
+          "url": "https://www.britannica.com/science/Why-Does-Ice-Float-on-Water"
+        }
+      ]
+    },
+    {
+      "id": "language-breakfast-breaks-fast",
+      "category": "언어",
+      "title": "영어 breakfast는 금식을 깨는 말이다",
+      "body": "breakfast는 break와 fast가 합쳐진 단어로, 잠자는 동안 이어진 금식 상태를 깬다는 뜻에서 왔습니다. 단어의 구조를 보면 익숙한 표현도 더 오래 기억됩니다.",
+      "takeaway": "영단어는 어원을 함께 보면 암기보다 이해에 가까워집니다.",
+      "sources": [
+        {
+          "label": "Online Etymology Dictionary",
+          "url": "https://www.etymonline.com/word/breakfast"
+        }
+      ]
+    },
+    {
+      "id": "life-fridge-door-temperature",
+      "category": "생활",
+      "title": "냉장고 문 쪽은 온도 변화가 가장 크다",
+      "body": "냉장고 문은 열고 닫을 때마다 외부 공기에 자주 노출되기 때문에 안쪽 선반보다 온도 변화가 큽니다. 그래서 우유나 달걀처럼 온도에 민감한 식품은 문 쪽보다 안쪽에 두는 편이 좋습니다.",
+      "takeaway": "자주 쓰는 소스나 음료는 문 쪽, 쉽게 상하는 식품은 안쪽이 더 알맞습니다.",
+      "sources": [
+        {
+          "label": "University of Minnesota Extension",
+          "url": "https://extension.umn.edu/preserving-and-preparing/packing-cooler-road-trip"
+        },
+        {
+          "label": "UMN Extension Eggs",
+          "url": "https://extension.umn.edu/node/4581"
+        }
+      ]
+    },
+    {
+      "id": "earth-tides-moon-sun-gravity",
+      "category": "지구",
+      "title": "밀물과 썰물은 달과 태양의 중력이 만든다",
+      "body": "바닷물은 달과 태양의 중력, 그리고 지구의 회전에 영향을 받아 주기적으로 높아졌다 낮아집니다. 달의 영향이 더 크지만 태양도 함께 작용합니다.",
+      "takeaway": "해안 여행이나 낚시에서 조석표를 보는 이유가 여기에 있습니다.",
+      "sources": [
+        {
+          "label": "NOAA Ocean Service",
+          "url": "https://oceanservice.noaa.gov/facts/tides.html"
+        }
+      ]
+    },
+    {
+      "id": "space-sky-blue-scattering",
+      "category": "우주",
+      "title": "하늘이 파랗게 보이는 이유는 빛의 산란이다",
+      "body": "태양빛은 여러 색의 빛이 섞여 있는데, 짧은 파장의 파란빛이 공기 분자에 더 잘 흩어집니다. 그 결과 낮 하늘은 우리 눈에 파랗게 보입니다.",
+      "takeaway": "노을이 붉게 보이는 현상도 같은 산란 원리와 연결됩니다.",
+      "sources": [
+        {
+          "label": "NASA Space Place",
+          "url": "https://spaceplace.nasa.gov/blue-sky/en/"
+        }
+      ]
+    },
+    {
+      "id": "measurement-si-seven-base-units",
+      "category": "측정",
+      "title": "국제단위계에는 7개의 기본 단위가 있다",
+      "body": "미터, 킬로그램, 초, 암페어, 켈빈, 몰, 칸델라는 국제단위계의 기본 단위입니다. 대부분의 과학 단위는 이 기본 단위들을 조합해 표현합니다.",
+      "takeaway": "단위가 통일되어야 실험과 산업 결과를 서로 비교할 수 있습니다.",
+      "sources": [
+        {
+          "label": "NIST SI Units",
+          "url": "https://www.nist.gov/pml/owm/metric-si/si-units"
+        }
+      ]
+    },
+    {
+      "id": "technology-gps-needs-satellites",
+      "category": "기술",
+      "title": "GPS 위치 계산에는 여러 위성 신호가 필요하다",
+      "body": "GPS 수신기는 위성에서 온 시간 신호를 비교해 거리를 계산하고, 여러 위성의 정보를 조합해 현재 위치를 추정합니다. 정확한 시간 정보가 핵심입니다.",
+      "takeaway": "스마트폰 위치가 흔들리는 곳은 위성 신호나 주변 환경의 영향을 받는 경우가 많습니다.",
+      "sources": [
+        {
+          "label": "GPS.gov",
+          "url": "https://www.gps.gov/systems/gps/"
+        }
+      ]
+    },
+    {
+      "id": "earth-ocean-covers-most-surface",
+      "category": "지구",
+      "title": "지구 표면의 대부분은 바다다",
+      "body": "지구 표면의 약 70%는 바닷물로 덮여 있습니다. 그래서 해양은 기후, 생태계, 물 순환을 이해하는 데 매우 중요한 역할을 합니다.",
+      "takeaway": "지구를 '푸른 행성'이라고 부르는 이유가 여기에 있습니다.",
+      "sources": [
+        {
+          "label": "NOAA Ocean Service",
+          "url": "https://oceanservice.noaa.gov/facts/oceanwater.html"
+        }
+      ]
+    },
+    {
+      "id": "climate-greenhouse-effect",
+      "category": "기후",
+      "title": "온실효과는 지구를 따뜻하게 유지한다",
+      "body": "대기의 일부 기체는 지표에서 나온 열을 흡수하고 다시 방출해 지구의 평균 온도를 높입니다. 이 자연적 온실효과가 없다면 지구는 지금보다 훨씬 추웠을 것입니다.",
+      "takeaway": "문제는 온실기체가 너무 빠르게 늘어나 균형이 깨질 때 생깁니다.",
+      "sources": [
+        {
+          "label": "NASA Climate",
+          "url": "https://climate.nasa.gov/faq/19/what-is-the-greenhouse-effect/"
+        }
+      ]
+    },
+    {
+      "id": "earth-plate-tectonics",
+      "category": "지구",
+      "title": "대륙은 고정되어 있지 않고 움직인다",
+      "body": "지구의 겉부분은 여러 판으로 나뉘어 있고, 이 판들이 천천히 움직이며 산맥, 지진, 화산 활동을 만듭니다. 사람에게는 느리지만 지질학적으로는 큰 변화입니다.",
+      "takeaway": "지진대와 화산대가 특정 지역에 몰리는 이유를 설명해줍니다.",
+      "sources": [
+        {
+          "label": "USGS This Dynamic Earth",
+          "url": "https://pubs.usgs.gov/gip/dynamic/dynamic.html"
+        }
+      ]
+    },
+    {
+      "id": "weather-thunder-after-lightning",
+      "category": "날씨",
+      "title": "천둥은 번개가 만든 공기의 급격한 팽창 소리다",
+      "body": "번개가 지나가면 주변 공기가 아주 빠르게 가열되고 팽창합니다. 이때 생긴 충격파가 소리로 들리는 것이 천둥입니다.",
+      "takeaway": "번개를 본 뒤 천둥이 들릴 때까지의 시간으로 대략적인 거리를 짐작할 수 있습니다.",
+      "sources": [
+        {
+          "label": "NOAA NSSL",
+          "url": "https://www.nssl.noaa.gov/education/svrwx101/lightning/faq/"
+        }
+      ]
+    },
+    {
+      "id": "space-moon-phases",
+      "category": "우주",
+      "title": "달의 모양은 달 자체가 변해서가 아니다",
+      "body": "달은 항상 태양빛을 받지만, 지구에서 보이는 밝은 부분의 위치가 달라져 초승달, 반달, 보름달처럼 보입니다. 이를 달의 위상이라고 합니다.",
+      "takeaway": "달의 모양 변화는 지구, 달, 태양의 상대적 위치를 보여줍니다.",
+      "sources": [
+        {
+          "label": "NASA Moon Phases",
+          "url": "https://moon.nasa.gov/moon-in-motion/moon-phases/"
+        }
+      ]
+    },
+    {
+      "id": "health-sleep-cycles",
+      "category": "건강",
+      "title": "잠은 여러 단계가 반복되는 과정이다",
+      "body": "수면은 얕은 잠, 깊은 잠, REM 수면 등 여러 단계가 주기적으로 반복됩니다. 각 단계는 기억, 회복, 뇌 기능에 서로 다른 역할을 합니다.",
+      "takeaway": "잠을 단순히 쉬는 시간이 아니라 뇌와 몸의 정비 시간으로 볼 수 있습니다.",
+      "sources": [
+        {
+          "label": "NINDS Brain Basics",
+          "url": "https://www.ninds.nih.gov/health-information/public-education/brain-basics/brain-basics-understanding-sleep"
+        }
+      ]
+    },
+    {
+      "id": "biology-photosynthesis",
+      "category": "생물",
+      "title": "식물은 빛으로 양분을 만든다",
+      "body": "광합성은 식물이 빛 에너지를 이용해 이산화탄소와 물로부터 당을 만드는 과정입니다. 이 과정에서 산소가 부산물로 나옵니다.",
+      "takeaway": "지구 대기의 산소와 먹이사슬은 광합성과 깊게 연결되어 있습니다.",
+      "sources": [
+        {
+          "label": "Britannica Photosynthesis",
+          "url": "https://www.britannica.com/science/photosynthesis"
+        }
+      ]
+    },
+    {
+      "id": "chemistry-ph-scale",
+      "category": "화학",
+      "title": "pH는 산성과 염기성을 나타내는 척도다",
+      "body": "pH 값은 용액이 얼마나 산성 또는 염기성인지 나타냅니다. 보통 7은 중성, 7보다 작으면 산성, 7보다 크면 염기성으로 봅니다.",
+      "takeaway": "세제, 음료, 토양 관리처럼 일상에서도 pH 개념이 자주 쓰입니다.",
+      "sources": [
+        {
+          "label": "Britannica pH",
+          "url": "https://www.britannica.com/science/pH"
+        }
+      ]
+    },
+    {
+      "id": "earth-earthquake-faults",
+      "category": "지구",
+      "title": "지진은 단층에서 에너지가 풀릴 때 발생한다",
+      "body": "지각에 힘이 쌓이다가 암석이 갑자기 미끄러지면 에너지가 지진파로 퍼집니다. 이 움직임이 지표에서 흔들림으로 느껴집니다.",
+      "takeaway": "지진을 완벽히 예측하기 어려운 이유는 지하 응력 상태를 직접 알기 어렵기 때문입니다.",
+      "sources": [
+        {
+          "label": "USGS Earthquake Facts",
+          "url": "https://www.usgs.gov/programs/earthquake-hazards/earthquake-facts-earthquake-fantasy"
+        }
+      ]
+    },
+    {
+      "id": "ocean-coral-animals",
+      "category": "해양",
+      "title": "산호는 식물이 아니라 동물이다",
+      "body": "산호는 바위나 식물처럼 보이지만 실제로는 작은 동물인 폴립들이 모여 만든 군체입니다. 많은 산호는 조류와 공생하며 에너지를 얻습니다.",
+      "takeaway": "산호초는 해양 생물 다양성의 중요한 터전입니다.",
+      "sources": [
+        {
+          "label": "NOAA Ocean Service",
+          "url": "https://oceanservice.noaa.gov/facts/coral.html"
+        }
+      ]
+    },
+    {
+      "id": "weather-air-pressure",
+      "category": "날씨",
+      "title": "기압 차이는 바람을 만든다",
+      "body": "공기는 대체로 기압이 높은 곳에서 낮은 곳으로 이동합니다. 이 이동이 바람이며, 지구의 회전과 지형도 바람의 방향과 세기에 영향을 줍니다.",
+      "takeaway": "일기예보에서 고기압과 저기압을 중요하게 다루는 이유입니다.",
+      "sources": [
+        {
+          "label": "NOAA JetStream",
+          "url": "https://www.noaa.gov/jetstream/atmosphere/air-pressure"
+        }
+      ]
+    },
+    {
+      "id": "time-atomic-clocks",
+      "category": "시간",
+      "title": "원자시계는 매우 안정적인 진동을 이용한다",
+      "body": "원자시계는 원자의 특정 에너지 전이가 만들어내는 일정한 진동을 기준으로 시간을 잽니다. 현대 통신과 GPS에는 이런 정밀한 시간이 필요합니다.",
+      "takeaway": "정확한 시간 측정은 위치 확인과 금융 거래 같은 시스템의 기반입니다.",
+      "sources": [
+        {
+          "label": "NIST Primary Frequency Standards",
+          "url": "https://www.nist.gov/pml/time-and-frequency-division/time-realization/primary-standard-nist-f2"
+        }
+      ]
+    },
+    {
+      "id": "biology-pollinators-food",
+      "category": "생물",
+      "title": "꽃가루받이는 식량 생산과 연결된다",
+      "body": "많은 식물은 열매와 씨앗을 만들기 위해 꽃가루가 옮겨지는 과정이 필요합니다. 벌, 나비, 새, 바람 등이 이 꽃가루받이에 관여합니다.",
+      "takeaway": "생태계의 작은 상호작용이 식탁의 다양성까지 이어집니다.",
+      "sources": [
+        {
+          "label": "USDA Pollinators",
+          "url": "https://www.fs.usda.gov/managing-land/wildflowers/pollinators/importance"
+        }
+      ]
+    },
+    {
+      "id": "space-asteroids-comets",
+      "category": "우주",
+      "title": "소행성과 혜성은 태양계의 초기 흔적을 품고 있다",
+      "body": "소행성과 혜성은 행성이 만들어지고 남은 물질로 볼 수 있습니다. 이들을 연구하면 태양계가 어떻게 형성되었는지 이해하는 데 도움이 됩니다.",
+      "takeaway": "작은 천체 연구가 우주 역사를 읽는 단서가 됩니다.",
+      "sources": [
+        {
+          "label": "NASA Asteroids",
+          "url": "https://science.nasa.gov/solar-system/asteroids/"
+        }
+      ]
+    },
+    {
+      "id": "ocean-rip-current",
+      "category": "안전",
+      "title": "이안류는 해변에서 바다 쪽으로 빠르게 흐른다",
+      "body": "이안류는 해안 가까이에서 바다 쪽으로 좁고 빠르게 흐르는 물길입니다. 물살을 거슬러 바로 헤엄치기보다 해안과 평행하게 빠져나오는 것이 중요합니다.",
+      "takeaway": "해수욕장 안전 수칙에서 이안류를 강조하는 이유입니다.",
+      "sources": [
+        {
+          "label": "NOAA Ocean Service",
+          "url": "https://oceanservice.noaa.gov/facts/ripcurrent.html"
+        }
+      ]
+    },
+    {
+      "id": "health-vaccination-training-immune-system",
+      "category": "건강",
+      "title": "백신은 면역계가 미리 연습하게 돕는다",
+      "body": "백신은 병원체의 일부나 약화된 형태 등을 이용해 면역계가 특정 감염을 인식하도록 준비시킵니다. 실제 감염 때 더 빠르게 대응하는 데 도움이 됩니다.",
+      "takeaway": "예방접종은 개인 보호와 집단 감염 감소에 모두 중요합니다.",
+      "sources": [
+        {
+          "label": "WHO Vaccines and Immunization",
+          "url": "https://www.who.int/news-room/questions-and-answers/item/vaccines-and-immunization-what-is-vaccination"
+        }
+      ]
+    },
+    {
+      "id": "technology-barcode-pattern",
+      "category": "기술",
+      "title": "바코드는 굵기가 다른 선으로 정보를 표현한다",
+      "body": "바코드는 선과 공백의 패턴으로 상품 번호 같은 정보를 담습니다. 스캐너는 빛의 반사를 읽어 이 패턴을 숫자 정보로 바꿉니다.",
+      "takeaway": "작은 인쇄 패턴이 물류와 계산대 처리 속도를 크게 높였습니다.",
+      "sources": [
+        {
+          "label": "GS1 Barcodes",
+          "url": "https://www.gs1.org/standards/barcodes"
+        }
+      ]
+    },
+    {
+      "id": "language-alphabet-word-origin",
+      "category": "언어",
+      "title": "alphabet은 alpha와 beta에서 온 말이다",
+      "body": "alphabet이라는 말은 그리스 문자의 첫 두 글자인 alpha와 beta에서 유래했습니다. 문자 체계의 이름 자체가 첫 글자들의 조합인 셈입니다.",
+      "takeaway": "익숙한 단어 안에도 문자와 문화의 역사가 숨어 있습니다.",
+      "sources": [
+        {
+          "label": "Online Etymology Dictionary",
+          "url": "https://www.etymonline.com/word/alphabet"
+        }
+      ]
+    },
+    {
+      "id": "math-zero-placeholder",
+      "category": "수학",
+      "title": "0은 숫자이면서 자리 표시자 역할도 한다",
+      "body": "0은 아무것도 없음을 나타내는 숫자이지만, 십진법에서는 자릿값을 유지하는 표시자로도 중요합니다. 10과 100을 구분할 수 있는 이유가 여기에 있습니다.",
+      "takeaway": "0의 도입은 계산과 기록 체계를 크게 바꾼 발명에 가깝습니다.",
+      "sources": [
+        {
+          "label": "Britannica Zero",
+          "url": "https://www.britannica.com/science/zero-mathematics"
+        }
+      ]
+    },
+    {
+      "id": "food-pasteurization",
+      "category": "생활",
+      "title": "저온살균은 음식을 완전히 끓이는 과정이 아니다",
+      "body": "저온살균은 식품을 정해진 온도와 시간으로 가열해 해로운 미생물을 줄이는 방법입니다. 맛과 품질을 최대한 유지하면서 안전성을 높이는 것이 목적입니다.",
+      "takeaway": "우유와 주스 같은 식품에서 자주 볼 수 있는 안전 처리 방식입니다.",
+      "sources": [
+        {
+          "label": "FDA Milk Guidance",
+          "url": "https://www.fda.gov/food/buy-store-serve-safe-food/what-you-need-know-about-milk"
+        }
+      ]
+    },
+    {
+      "id": "climate-urban-heat-island",
+      "category": "도시",
+      "title": "도시는 주변보다 더 더워질 수 있다",
+      "body": "아스팔트와 콘크리트는 낮 동안 열을 많이 흡수하고 밤에 천천히 방출합니다. 이런 특성 때문에 도심은 주변 지역보다 기온이 높아지는 열섬 현상이 생길 수 있습니다.",
+      "takeaway": "도시의 나무, 그늘, 밝은 포장재가 더위 완화와 연결됩니다.",
+      "sources": [
+        {
+          "label": "EPA Heat Islands",
+          "url": "https://www.epa.gov/heatislands"
+        }
+      ]
+    },
+    {
+      "id": "space-light-year-distance",
+      "category": "우주",
+      "title": "광년은 시간이 아니라 거리 단위다",
+      "body": "광년은 빛이 1년 동안 이동하는 거리를 뜻합니다. 우주에서는 별과 은하 사이 거리가 매우 크기 때문에 킬로미터보다 광년 같은 단위를 자주 씁니다.",
+      "takeaway": "먼 우주를 본다는 것은 오래전의 빛을 본다는 뜻이기도 합니다.",
+      "sources": [
+        {
+          "label": "NASA Space Place",
+          "url": "https://spaceplace.nasa.gov/light-year/en/"
+        }
+      ]
+    },
+    {
+      "id": "biology-dna-instructions",
+      "category": "생물",
+      "title": "DNA는 생명 활동의 설계 정보를 담는다",
+      "body": "DNA에는 생물이 단백질을 만들고 기능을 유지하는 데 필요한 유전 정보가 저장되어 있습니다. 염기 서열의 차이가 다양한 생물학적 특성으로 이어질 수 있습니다.",
+      "takeaway": "유전 정보는 눈에 보이지 않지만 몸의 작동 방식에 깊게 관여합니다.",
+      "sources": [
+        {
+          "label": "NHGRI DNA Fact Sheet",
+          "url": "https://www.genome.gov/about-genomics/fact-sheets/Deoxyribonucleic-Acid-Fact-Sheet"
+        }
+      ]
+    }
+  ]
+}

@@ -1,7 +1,52 @@
 {
-  "updated_at": "2026-04-25",
+  "updated_at": "2026-04-26",
   "default_daily_count": 3,
   "entries": [
+    {
+      "date": "2026-04-26",
+      "title": "2026.04.26 상식",
+      "items": [
+        {
+          "source_id": "earth-tides-moon-sun-gravity",
+          "category": "지구",
+          "title": "밀물과 썰물은 달과 태양의 중력이 만든다",
+          "body": "바닷물은 달과 태양의 중력, 그리고 지구의 회전에 영향을 받아 주기적으로 높아졌다 낮아집니다. 달의 영향이 더 크지만 태양도 함께 작용합니다.",
+          "takeaway": "해안 여행이나 낚시에서 조석표를 보는 이유가 여기에 있습니다.",
+          "sources": [
+            {
+              "label": "NOAA Ocean Service",
+              "url": "https://oceanservice.noaa.gov/facts/tides.html"
+            }
+          ]
+        },
+        {
+          "source_id": "space-sky-blue-scattering",
+          "category": "우주",
+          "title": "하늘이 파랗게 보이는 이유는 빛의 산란이다",
+          "body": "태양빛은 여러 색의 빛이 섞여 있는데, 짧은 파장의 파란빛이 공기 분자에 더 잘 흩어집니다. 그 결과 낮 하늘은 우리 눈에 파랗게 보입니다.",
+          "takeaway": "노을이 붉게 보이는 현상도 같은 산란 원리와 연결됩니다.",
+          "sources": [
+            {
+              "label": "NASA Space Place",
+              "url": "https://spaceplace.nasa.gov/blue-sky/en/"
+            }
+          ]
+        },
+        {
+          "source_id": "measurement-si-seven-base-units",
+          "category": "측정",
+          "title": "국제단위계에는 7개의 기본 단위가 있다",
+          "body": "미터, 킬로그램, 초, 암페어, 켈빈, 몰, 칸델라는 국제단위계의 기본 단위입니다. 대부분의 과학 단위는 이 기본 단위들을 조합해 표현합니다.",
+          "takeaway": "단위가 통일되어야 실험과 산업 결과를 서로 비교할 수 있습니다.",
+          "sources": [
+            {
+              "label": "NIST SI Units",
+              "url": "https://www.nist.gov/pml/owm/metric-si/si-units"
+            }
+          ]
+        }
+      ]
+    },
     {
       "date": "2026-04-25",
       "title": "2026년 4월 25일 상식",
