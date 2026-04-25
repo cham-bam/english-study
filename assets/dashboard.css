@@ -511,6 +511,58 @@ a {
   margin-top: 10px;
 }
 
+.sync-card {
+  border-color: #cde0e5;
+}
+
+.sync-form {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 8px;
+  margin-top: 12px;
+}
+
+.sync-input {
+  width: 100%;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  outline: none;
+  padding: 11px 12px;
+}
+
+.sync-input:focus {
+  border-color: var(--primary);
+  box-shadow: 0 0 0 4px rgba(31, 111, 139, 0.12);
+}
+
+.sync-button {
+  min-height: 40px;
+  border: 1px solid var(--primary);
+  border-radius: 8px;
+  background: var(--primary);
+  color: #ffffff;
+  cursor: pointer;
+  font-size: 0.84rem;
+  font-weight: 900;
+  padding: 9px 12px;
+}
+
+.sync-button:disabled {
+  border-color: #d7e1e6;
+  background: #edf2f4;
+  color: var(--muted);
+  cursor: default;
+}
+
+.sync-message,
+.sync-user {
+  color: var(--primary-dark);
+  font-size: 0.82rem;
+  font-weight: 800;
+  margin-top: 10px;
+  overflow-wrap: anywhere;
+}
+
 .word-example {
   color: #344452;
   font-size: 0.86rem;

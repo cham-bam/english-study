@@ -5,7 +5,8 @@
     progress: "진도관리.json",
     errors: "오답노트.json",
     knowledge: "data/knowledge.json",
-    englishDaily: "data/english_daily.json"
+    englishDaily: "data/english_daily.json",
+    supabaseConfig: "data/supabase_config.json"
   };
   const LOCAL_WRONG_KEY = "english-study-local-wrong-words-v1";
 
@@ -23,7 +24,16 @@
     data: null,
     openDays: new Set(),
     revealedWords: new Set(),
-    localWrongWords: []
+    localWrongWords: [],
+    remoteWrongWords: [],
+    sync: {
+      config: null,
+      client: null,
+      user: null,
+      ready: false,
+      loading: false,
+      message: ""
+    }
   };
 
   function $(id) {
@@ -140,7 +150,7 @@
   }
 
   function getWrongWords(errors) {
-    return mergeWrongWords([...(errors.words || []), ...state.localWrongWords])
+    return mergeWrongWords([...(errors.words || []), ...state.localWrongWords, ...state.remoteWrongWords])
       .sort((a, b) => (b.wrong_count || 0) - (a.wrong_count || 0));
   }
 
@@ -149,7 +159,7 @@
     if (!target) return false;
 
     const remote = state.data?.errors?.words || [];
-    return [...remote, ...state.localWrongWords]
+    return [...remote, ...state.localWrongWords, ...state.remoteWrongWords]
       .some((item) => getWordKey(item?.word) === target);
   }
 
@@ -157,6 +167,16 @@
     const target = getWordKey(word);
     if (!target) return false;
     return state.localWrongWords.some((item) => getWordKey(item?.word) === target);
+  }
+
+  function isRemoteWrongWord(word) {
+    const target = getWordKey(word);
+    if (!target) return false;
+    return state.remoteWrongWords.some((item) => getWordKey(item?.word) === target);
+  }
+
+  function isUserWrongWord(word) {
+    return isLocalWrongWord(word) || isRemoteWrongWord(word);
   }
 
   function addLocalWrongWord(item) {
@@ -198,6 +218,176 @@
     }
 
     addLocalWrongWord(item);
+  }
+
+  function getSyncTable() {
+    return state.sync.config?.wrongWordsTable || "study_wrong_words";
+  }
+
+  function isSupabaseConfigured(config) {
+    return Boolean(config?.enabled && config?.url && config?.anonKey);
+  }
+
+  async function loadSupabaseClient() {
+    if (state.sync.client) return state.sync.client;
+
+    const { createClient } = await import("https://cdn.jsdelivr.net/npm/@supabase/supabase-js/+esm");
+    state.sync.client = createClient(state.sync.config.url, state.sync.config.anonKey);
+    return state.sync.client;
+  }
+
+  function remoteRowToWrongWord(row) {
+    return {
+      word: row.word,
+      meaning: row.meaning || "",
+      example: row.example || "",
+      category: row.category || "오늘의 영어",
+      wrong_count: row.wrong_count || 1,
+      added_at: row.added_at || null,
+      remote_id: row.id
+    };
+  }
+
+  function wrongWordToRemoteRow(item) {
+    return {
+      user_id: state.sync.user.id,
+      word: item.word,
+      word_key: getWordKey(item.word),
+      meaning: item.meaning || "",
+      example: item.example || "",
+      category: item.category || "오늘의 영어",
+      wrong_count: Number(item.wrong_count || 1),
+      added_at: item.added_at || getLocalDateYMD(),
+      updated_at: new Date().toISOString()
+    };
+  }
+
+  async function loadRemoteWrongWords() {
+    if (!state.sync.ready || !state.sync.user) {
+      state.remoteWrongWords = [];
+      return;
+    }
+
+    const { data, error } = await state.sync.client
+      .from(getSyncTable())
+      .select("id, word, meaning, example, category, wrong_count, added_at")
+      .order("updated_at", { ascending: false });
+
+    if (error) throw error;
+    state.remoteWrongWords = (data || []).map(remoteRowToWrongWord);
+  }
+
+  async function upsertRemoteWrongWord(item) {
+    if (!state.sync.ready || !state.sync.user || !item?.word) return;
+
+    const { error } = await state.sync.client
+      .from(getSyncTable())
+      .upsert(wrongWordToRemoteRow(item), { onConflict: "user_id,word_key" });
+
+    if (error) throw error;
+    await loadRemoteWrongWords();
+  }
+
+  async function deleteRemoteWrongWord(word) {
+    if (!state.sync.ready || !state.sync.user || !word) return;
+
+    const { error } = await state.sync.client
+      .from(getSyncTable())
+      .delete()
+      .eq("user_id", state.sync.user.id)
+      .eq("word_key", getWordKey(word));
+
+    if (error) throw error;
+    await loadRemoteWrongWords();
+  }
+
+  async function syncLocalWrongWordsToRemote() {
+    if (!state.sync.ready || !state.sync.user || !state.localWrongWords.length) return;
+
+    for (const item of state.localWrongWords) {
+      await upsertRemoteWrongWord(item);
+    }
+
+    writeLocalWrongWords([]);
+    await loadRemoteWrongWords();
+  }
+
+  async function toggleWrongWord(item) {
+    if (isUserWrongWord(item?.word)) {
+      removeLocalWrongWord(item.word);
+      await deleteRemoteWrongWord(item.word);
+      return;
+    }
+
+    addLocalWrongWord(item);
+    await upsertRemoteWrongWord({
+      ...item,
+      wrong_count: 1,
+      added_at: getLocalDateYMD()
+    });
+  }
+
+  async function initSync(config) {
+    state.sync.config = config || {};
+    state.sync.message = "";
+
+    if (!isSupabaseConfigured(config)) {
+      state.sync.ready = false;
+      state.sync.user = null;
+      state.remoteWrongWords = [];
+      return;
+    }
+
+    try {
+      state.sync.loading = true;
+      const client = await loadSupabaseClient();
+      const { data, error } = await client.auth.getSession();
+      if (error) throw error;
+
+      state.sync.user = data.session?.user || null;
+      state.sync.ready = true;
+
+      if (state.sync.user) {
+        await syncLocalWrongWordsToRemote();
+        await loadRemoteWrongWords();
+      }
+    } catch (e) {
+      state.sync.ready = false;
+      state.remoteWrongWords = [];
+      state.sync.message = "Supabase 동기화를 시작하지 못했습니다.";
+      console.warn("Supabase sync init failed", e);
+    } finally {
+      state.sync.loading = false;
+    }
+  }
+
+  async function signInToSync(email) {
+    if (!state.sync.client || !email) return;
+
+    state.sync.loading = true;
+    try {
+      const redirectTo = location.href.split("#")[0];
+      const { error } = await state.sync.client.auth.signInWithOtp({
+        email,
+        options: { emailRedirectTo: redirectTo }
+      });
+      if (error) throw error;
+      state.sync.message = "로그인 링크를 이메일로 보냈습니다.";
+    } catch (e) {
+      state.sync.message = "로그인 링크 전송에 실패했습니다.";
+      console.warn("Supabase sign in failed", e);
+    } finally {
+      state.sync.loading = false;
+    }
+  }
+
+  async function signOutFromSync() {
+    if (!state.sync.client) return;
+
+    await state.sync.client.auth.signOut();
+    state.sync.user = null;
+    state.remoteWrongWords = [];
+    state.sync.message = "동기화 로그아웃됨";
   }
 
   function getDatedEntries(store) {
@@ -274,8 +464,8 @@
       const wordId = getWordId(item, context, index);
       const revealed = state.revealedWords.has(wordId);
       const added = isWrongWord(item.word);
-      const localAdded = isLocalWrongWord(item.word);
-      const wrongButtonText = localAdded
+      const userAdded = isUserWrongWord(item.word);
+      const wrongButtonText = userAdded
         ? "오답노트에서 제거"
         : added
           ? "오답노트에 있음"
@@ -294,7 +484,7 @@
             ${revealed ? "뜻 숨기기" : "뜻 보기"}
           </button>
           ${revealed ? `
-            <button class="word-btn secondary${localAdded ? " danger" : ""}" type="button" data-action="toggle-wrong" data-word-payload="${encodePayload(item)}" ${added && !localAdded ? "disabled" : ""}>
+            <button class="word-btn secondary${userAdded ? " danger" : ""}" type="button" data-action="toggle-wrong" data-word-payload="${encodePayload(item)}" ${added && !userAdded ? "disabled" : ""}>
               ${wrongButtonText}
             </button>
           ` : ""}
@@ -373,7 +563,7 @@
         <div class="error-meta">
           <span class="error-tag">틀린 횟수 ${escapeHtml(w.wrong_count || 0)}회</span>
           ${w.category ? `<span class="error-tag">${escapeHtml(w.category)}</span>` : ""}
-          ${isLocalWrongWord(w.word) ? `
+          ${isUserWrongWord(w.word) ? `
             <button class="error-remove" type="button" data-action="toggle-wrong" data-word-payload="${encodePayload(w)}">
               오답노트에서 제거
             </button>
@@ -387,6 +577,49 @@
       : "";
 
     return visible + hidden;
+  }
+
+  function renderSyncPanel() {
+    const configured = isSupabaseConfigured(state.sync.config);
+    const message = state.sync.message ? `<p class="sync-message">${escapeHtml(state.sync.message)}</p>` : "";
+
+    if (!configured) {
+      return `
+        <div class="card compact sync-card">
+          <div class="card-title">기기 간 싱크</div>
+          <p class="hero-sub">현재 오답노트는 이 브라우저에 저장됩니다. Supabase anon key와 테이블 설정을 완료하면 PC와 모바일이 같은 오답노트를 공유합니다.</p>
+        </div>
+      `;
+    }
+
+    if (state.sync.user) {
+      return `
+        <div class="card compact sync-card">
+          <div class="card-title">기기 간 싱크</div>
+          <p class="hero-sub">Supabase에 로그인되어 있습니다. 오답노트는 PC와 모바일에서 동기화됩니다.</p>
+          <div class="sync-user">${escapeHtml(state.sync.user.email || state.sync.user.id)}</div>
+          ${message}
+          <div class="action-row">
+            <button class="action-link primary" type="button" data-action="sync-refresh">싱크 새로고침</button>
+            <button class="action-link" type="button" data-action="sync-logout">로그아웃</button>
+          </div>
+        </div>
+      `;
+    }
+
+    return `
+      <div class="card compact sync-card">
+        <div class="card-title">기기 간 싱크</div>
+        <p class="hero-sub">같은 이메일로 PC와 모바일에서 로그인하면 오답노트가 동기화됩니다.</p>
+        <div class="sync-form">
+          <input class="sync-input" id="sync-email" type="email" placeholder="이메일 입력" autocomplete="email">
+          <button class="sync-button" type="button" data-action="sync-login" ${state.sync.loading ? "disabled" : ""}>
+            ${state.sync.loading ? "전송 중" : "로그인 링크 받기"}
+          </button>
+        </div>
+        ${message}
+      </div>
+    `;
   }
 
   function getDerived(prog, errors, knowledge, englishDaily) {
@@ -494,6 +727,8 @@
 
     return `
       <section class="view english">
+        ${renderSyncPanel()}
+
         <div class="card hero-card">
           <div class="hero-top">
             <div>
@@ -657,14 +892,16 @@
 
     try {
       state.localWrongWords = readLocalWrongWords();
-      const [prog, errors, knowledge, englishDaily] = await Promise.all([
+      const [prog, errors, knowledge, englishDaily, supabaseConfig] = await Promise.all([
         loadJSON(FILES.progress),
         loadJSON(FILES.errors),
         loadJSON(FILES.knowledge, { updated_at: "", entries: [] }),
-        loadJSON(FILES.englishDaily, { updated_at: "", entries: [] })
+        loadJSON(FILES.englishDaily, { updated_at: "", entries: [] }),
+        loadJSON(FILES.supabaseConfig, { enabled: false })
       ]);
 
       state.data = { prog, errors, knowledge, englishDaily };
+      await initSync(supabaseConfig);
       renderDashboard();
     } catch (e) {
       app.innerHTML =
@@ -767,7 +1004,7 @@
       });
     });
 
-    $("app").addEventListener("click", (event) => {
+    $("app").addEventListener("click", async (event) => {
       const viewTarget = event.target.closest("[data-view-target]");
       if (viewTarget) {
         state.activeView = viewTarget.dataset.viewTarget;
@@ -804,11 +1041,35 @@
       if (wrongToggle && !wrongToggle.disabled) {
         try {
           const item = JSON.parse(decodeURIComponent(wrongToggle.dataset.wordPayload || ""));
-          toggleLocalWrongWord(item);
+          await toggleWrongWord(item);
           renderDashboard();
         } catch (e) {
           console.warn("오답노트 변경 실패", e);
         }
+        return;
+      }
+
+      if (event.target.closest("[data-action='sync-login']")) {
+        await signInToSync($("sync-email")?.value.trim());
+        renderDashboard();
+        return;
+      }
+
+      if (event.target.closest("[data-action='sync-logout']")) {
+        await signOutFromSync();
+        renderDashboard();
+        return;
+      }
+
+      if (event.target.closest("[data-action='sync-refresh']")) {
+        try {
+          await loadRemoteWrongWords();
+          state.sync.message = "오답노트를 다시 동기화했습니다.";
+        } catch (e) {
+          state.sync.message = "동기화 새로고침에 실패했습니다.";
+          console.warn("Supabase refresh failed", e);
+        }
+        renderDashboard();
         return;
       }
 
