@@ -1,0 +1,56 @@
+{
+  "updated_at": "2026-04-25",
+  "default_daily_count": 3,
+  "entries": [
+    {
+      "date": "2026-04-25",
+      "title": "2026년 4월 25일 상식",
+      "items": [
+        {
+          "category": "과학",
+          "title": "물은 얼 때 부피가 커진다",
+          "body": "대부분의 물질은 고체가 되면 더 촘촘해지지만, 물은 얼음이 될 때 분자 배열이 벌어져 부피가 늘어납니다. 그래서 얼음은 물보다 밀도가 낮아 물 위에 뜹니다.",
+          "takeaway": "호수 표면이 먼저 얼어도 아래 물속 생물이 살아남을 수 있는 이유와 연결됩니다.",
+          "sources": [
+            {
+              "label": "USGS Water Density",
+              "url": "https://www.usgs.gov/water-science-school/science/water-density"
+            },
+            {
+              "label": "Britannica",
+              "url": "https://www.britannica.com/science/Why-Does-Ice-Float-on-Water"
+            }
+          ]
+        },
+        {
+          "category": "언어",
+          "title": "영어 breakfast는 금식을 깨는 말이다",
+          "body": "breakfast는 break와 fast가 합쳐진 단어로, 잠자는 동안 이어진 금식 상태를 깬다는 뜻에서 왔습니다. 단어의 구조를 보면 익숙한 표현도 더 오래 기억됩니다.",
+          "takeaway": "영단어는 어원을 함께 보면 암기보다 이해에 가까워집니다.",
+          "sources": [
+            {
+              "label": "Online Etymology Dictionary",
+              "url": "https://www.etymonline.com/word/breakfast"
+            }
+          ]
+        },
+        {
+          "category": "생활",
+          "title": "냉장고 문 쪽은 온도 변화가 가장 크다",
+          "body": "냉장고 문은 열고 닫을 때마다 외부 공기에 자주 노출되기 때문에 안쪽 선반보다 온도 변화가 큽니다. 그래서 우유나 달걀처럼 온도에 민감한 식품은 문 쪽보다 안쪽에 두는 편이 좋습니다.",
+          "takeaway": "자주 쓰는 소스나 음료는 문 쪽, 쉽게 상하는 식품은 안쪽이 더 알맞습니다.",
+          "sources": [
+            {
+              "label": "University of Minnesota Extension",
+              "url": "https://extension.umn.edu/preserving-and-preparing/packing-cooler-road-trip"
+            },
+            {
+              "label": "UMN Extension Eggs",
+              "url": "https://extension.umn.edu/node/4581"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

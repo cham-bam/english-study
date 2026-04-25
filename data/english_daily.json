@@ -1,0 +1,134 @@
+{
+  "updated_at": "2026-04-25",
+  "default_daily_count": 10,
+  "source": "01_기초_동사형용사.json",
+  "entries": [
+    {
+      "date": "2026-04-25",
+      "day": 1,
+      "title": "Day 1 기본 동사 10개",
+      "items": [
+        {
+          "word": "accept",
+          "meaning": "받아들이다",
+          "example": "I accept your offer.",
+          "note": "제안, 조건, 사과 등을 받아들일 때 씁니다.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/accept"
+            }
+          ]
+        },
+        {
+          "word": "achieve",
+          "meaning": "성취하다",
+          "example": "She achieved her goal.",
+          "note": "목표나 결과를 노력해서 이룰 때 씁니다.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/achieve"
+            }
+          ]
+        },
+        {
+          "word": "act",
+          "meaning": "행동하다",
+          "example": "Act quickly in emergencies.",
+          "note": "생각만 하지 않고 실제로 움직인다는 느낌입니다.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/act_1"
+            }
+          ]
+        },
+        {
+          "word": "add",
+          "meaning": "추가하다",
+          "example": "Add more details please.",
+          "note": "숫자, 정보, 재료를 더할 때 모두 사용할 수 있습니다.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/add"
+            }
+          ]
+        },
+        {
+          "word": "admit",
+          "meaning": "인정하다",
+          "example": "He admitted his mistake.",
+          "note": "실수나 사실을 마지못해 인정하는 뉘앙스가 자주 있습니다.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/admit"
+            }
+          ]
+        },
+        {
+          "word": "advise",
+          "meaning": "조언하다",
+          "example": "I advise you to rest.",
+          "note": "상대에게 더 나은 선택을 권할 때 씁니다.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/advise"
+            }
+          ]
+        },
+        {
+          "word": "agree",
+          "meaning": "동의하다",
+          "example": "I agree with you.",
+          "note": "사람, 의견, 조건에 동의할 때 자주 씁니다.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/agree"
+            }
+          ]
+        },
+        {
+          "word": "allow",
+          "meaning": "허락하다",
+          "example": "Allow me to explain.",
+          "note": "허용하다, 가능하게 하다 두 뜻으로 자주 쓰입니다.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/allow"
+            }
+          ]
+        },
+        {
+          "word": "answer",
+          "meaning": "대답하다",
+          "example": "Please answer the question.",
+          "note": "질문, 전화, 메시지에 응답할 때 모두 사용할 수 있습니다.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/answer_1"
+            }
+          ]
+        },
+        {
+          "word": "appear",
+          "meaning": "나타나다",
+          "example": "She appeared suddenly.",
+          "note": "눈에 보이게 나타나거나, 어떤 상태처럼 보일 때 씁니다.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/appear"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

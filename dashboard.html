@@ -3,472 +3,59 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
-<title>영어 단어 학습 대시보드</title>
-<style>
-  * { box-sizing: border-box; margin: 0; padding: 0; }
-  :root {
-    --primary: #0f3460;
-    --accent: #e94560;
-    --green: #2ecc71;
-    --orange: #f39c12;
-    --bg: #f4f6fb;
-    --card: #ffffff;
-    --text: #1a1a2e;
-    --sub: #7f8c8d;
-  }
-  body { font-family: -apple-system, 'Segoe UI', sans-serif; background: var(--bg); color: var(--text); padding-bottom: 32px; }
-
-  /* Header */
-  .header {
-    background: linear-gradient(135deg, var(--primary), #16213e);
-    color: white; padding: 20px 16px 28px;
-    position: relative; overflow: hidden;
-  }
-  .header::after {
-    content: ''; position: absolute; bottom: -20px; left: 0; right: 0;
-    height: 40px; background: var(--bg); border-radius: 50% 50% 0 0 / 100% 100% 0 0;
-  }
-  .header h1 { font-size: 1.2rem; font-weight: 700; }
-  .header .date { font-size: 0.8rem; opacity: 0.7; margin-top: 2px; }
-  .streak-badge {
-    position: absolute; top: 20px; right: 16px;
-    background: var(--accent); border-radius: 20px;
-    padding: 4px 12px; font-size: 0.85rem; font-weight: 700;
-  }
-
-  .container { padding: 16px; max-width: 480px; margin: 0 auto; }
-
-  /* Cards */
-  .card {
-    background: var(--card); border-radius: 16px; padding: 16px;
-    margin-bottom: 12px; box-shadow: 0 2px 12px rgba(0,0,0,0.07);
-  }
-  .card-title {
-    font-size: 0.75rem; font-weight: 700; color: var(--sub);
-    text-transform: uppercase; letter-spacing: 0.5px; margin-bottom: 12px;
-  }
-
-  /* Progress Section */
-  .progress-row { display: flex; gap: 10px; margin-bottom: 12px; }
-  .prog-box {
-    flex: 1; background: var(--bg); border-radius: 10px;
-    padding: 12px; text-align: center;
-  }
-  .prog-box .num { font-size: 1.6rem; font-weight: 900; color: var(--primary); }
-  .prog-box .lbl { font-size: 0.7rem; color: var(--sub); margin-top: 2px; }
-
-  .phase-badge {
-    display: inline-block; padding: 4px 12px; border-radius: 20px;
-    font-size: 0.8rem; font-weight: 700; margin-bottom: 8px;
-  }
-  .p1 { background: #E8F5E9; color: #2E7D32; }
-  .p2 { background: #F1F8E9; color: #558B2F; }
-  .p3 { background: #FFF8E1; color: #F57F17; }
-  .p4 { background: #FFF3E0; color: #E65100; }
-  .p5 { background: #FCE4EC; color: #880E4F; }
-  .p6 { background: #F3E5F5; color: #4A148C; }
-
-  .progress-bar-wrap { background: #eee; border-radius: 99px; height: 8px; overflow: hidden; }
-  .progress-bar { height: 100%; border-radius: 99px; background: linear-gradient(90deg, var(--primary), #e94560); transition: width 0.5s; }
-  .progress-label { display: flex; justify-content: space-between; font-size: 0.75rem; color: var(--sub); margin-top: 4px; }
-
-  /* Review Section */
-  .review-list { display: flex; flex-direction: column; gap: 8px; }
-  .review-item {
-    display: flex; align-items: center; gap: 12px;
-    padding: 10px 12px; border-radius: 10px; background: var(--bg);
-  }
-  .review-dot {
-    width: 10px; height: 10px; border-radius: 50%; flex-shrink: 0;
-  }
-  .dot-red { background: var(--accent); }
-  .dot-orange { background: var(--orange); }
-  .dot-green { background: var(--green); }
-  .review-text { flex: 1; font-size: 0.85rem; }
-  .review-count { font-size: 0.8rem; font-weight: 700; color: var(--primary); }
-  .empty-msg { text-align: center; color: var(--sub); font-size: 0.85rem; padding: 8px; }
-
-  /* Error Notebook */
-  .error-list { display: flex; flex-direction: column; gap: 8px; }
-  .error-item {
-    border-left: 3px solid var(--accent); padding: 10px 12px;
-    background: var(--bg); border-radius: 0 10px 10px 0;
-  }
-  .error-word { font-size: 1rem; font-weight: 700; color: var(--primary); }
-  .error-meaning { font-size: 0.82rem; color: var(--sub); margin-top: 2px; }
-  .error-example { font-size: 0.8rem; color: #555; margin-top: 4px; font-style: italic; }
-  .error-meta { display: flex; gap: 8px; margin-top: 6px; }
-  .error-tag {
-    font-size: 0.7rem; padding: 2px 8px; border-radius: 10px;
-    background: #fee; color: var(--accent); font-weight: 600;
-  }
-  .wrong-count { background: #fff3cd; color: #856404; }
-
-  /* Stats */
-  .stats-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 8px; }
-  .stat-item { text-align: center; padding: 10px 4px; background: var(--bg); border-radius: 10px; }
-  .stat-num { font-size: 1.3rem; font-weight: 900; color: var(--primary); }
-  .stat-lbl { font-size: 0.68rem; color: var(--sub); margin-top: 2px; }
-
-  /* Phase roadmap */
-  .roadmap { display: flex; flex-direction: column; gap: 0; }
-  .road-item { display: flex; align-items: center; gap: 12px; padding: 10px 0; position: relative; }
-  .road-item + .road-item::before {
-    content: ''; position: absolute; left: 12px; top: 0;
-    width: 2px; height: 10px; background: #e0e0e0;
-  }
-  .road-circle {
-    width: 26px; height: 26px; border-radius: 50%;
-    display: flex; align-items: center; justify-content: center;
-    font-size: 0.7rem; font-weight: 900; flex-shrink: 0;
-  }
-  .road-done { background: var(--green); color: white; }
-  .road-active { background: var(--primary); color: white; box-shadow: 0 0 0 3px rgba(15,52,96,0.25); }
-  .road-pending { background: #e0e0e0; color: #999; }
-  .road-info { flex: 1; }
-  .road-name { font-size: 0.85rem; font-weight: 600; }
-  .road-sub { font-size: 0.75rem; color: var(--sub); }
-  .road-pct { font-size: 0.8rem; font-weight: 700; color: var(--primary); }
-
-  /* Refresh button */
-  .refresh-btn {
-    width: 100%; padding: 14px; border: none; border-radius: 12px;
-    background: var(--primary); color: white; font-size: 0.9rem; font-weight: 700;
-    cursor: pointer; margin-top: 4px;
-  }
-  .refresh-btn:active { opacity: 0.8; }
-
-  .loading { text-align: center; padding: 40px; color: var(--sub); }
-  .error-load { text-align: center; padding: 20px; color: var(--accent); font-size: 0.85rem; }
-</style>
-
-<style id="__memo_style__">
-#_mp_{position:fixed;top:0;left:0;right:0;z-index:99999;font-family:'Malgun Gothic',sans-serif;font-size:13px;background:#1e1e2e;border-bottom:2px solid #cba6f7;box-shadow:0 2px 12px rgba(0,0,0,.4)}
-#_mh_{display:flex;align-items:center;padding:7px 18px;cursor:pointer;user-select:none;gap:8px}
-#_mh_ .mt{color:#cba6f7;font-weight:bold;font-size:13px}
-#_mc_{font-size:11px;color:#6c7086}
-#_marr_{margin-left:auto;color:#6c7086;font-size:11px;transition:transform .2s}
-#_mb_{display:none;padding:0 16px 12px;max-height:300px;overflow-y:auto}
-.mi{background:#313244;border-radius:8px;padding:10px 12px;margin:6px 0;white-space:pre-wrap;word-break:break-word;line-height:1.65;color:#cdd6f4}
-.mi.ed{background:#45475a}
-.ma{display:flex;gap:6px;margin-top:7px}
-.mb{font-size:11px;padding:3px 10px;border-radius:4px;border:none;cursor:pointer;font-family:'Malgun Gothic',sans-serif}
-.meb{background:#45475a;color:#cdd6f4}.mdb{background:#f38ba822;color:#f38ba8}.msb{background:#a6e3a1;color:#1e1e2e}.mcb{background:#45475a;color:#cdd6f4}
-textarea.meta{width:100%;background:#181825;color:#cdd6f4;border:1px solid #cba6f7;border-radius:6px;padding:7px;font-family:'Malgun Gothic',sans-serif;font-size:13px;resize:vertical;min-height:56px}
-#_mnew_{display:flex;gap:8px;margin-top:10px;align-items:flex-end;border-top:1px solid #313244;padding-top:10px}
-#_mta_{flex:1;background:#181825;color:#cdd6f4;border:1px solid #45475a;border-radius:6px;padding:8px;font-family:'Malgun Gothic',sans-serif;font-size:13px;resize:vertical;min-height:46px}
-#_msv_{padding:8px 18px;background:#cba6f7;color:#1e1e2e;border:none;border-radius:6px;cursor:pointer;font-weight:bold;font-family:'Malgun Gothic',sans-serif;white-space:nowrap;align-self:flex-end}
-#_msv_:hover{background:#b4befe}
-</style>
+<title>상식과 영어 학습 대시보드</title>
+<link rel="stylesheet" href="./assets/dashboard.css">
 </head>
 <body>
-<div id="_mp_">
-  <div id="_mh_" onclick="_mtog_()">
-    <span class="mt">📝 메모</span><span id="_mc_"></span>
-    <span id="_marr_">▶</span>
-  </div>
-  <div id="_mb_">
-    <div id="_ml_"></div>
-    <div id="_mnew_">
-      <textarea id="_mta_" placeholder="새 메모를 입력하세요..."></textarea>
-      <button id="_msv_" onclick="_msave_()">저장</button>
+<div class="memo-panel" id="memo-panel">
+  <button class="memo-head" type="button" id="memo-toggle" aria-expanded="false">
+    <span>메모</span>
+    <span id="memo-count"></span>
+    <span class="memo-arrow" id="memo-arrow">열기</span>
+  </button>
+  <div class="memo-body" id="memo-body">
+    <div id="memo-list"></div>
+    <div class="memo-new">
+      <textarea id="memo-input" placeholder="새 메모"></textarea>
+      <button type="button" id="memo-save">저장</button>
     </div>
   </div>
 </div>
 
-<div class="header">
-  <h1>영어 단어 학습</h1>
-  <div class="date" id="today-date"></div>
-  <div class="streak-badge" id="streak-badge">🔥 0일</div>
+<div class="auth-overlay" id="auth-overlay" aria-hidden="true">
+  <div class="auth-modal" role="dialog" aria-modal="true" aria-labelledby="auth-title">
+    <div class="auth-title" id="auth-title">비밀번호 확인</div>
+    <div class="auth-desc">대시보드에 접근하려면 비밀번호를 입력하세요.</div>
+    <input type="password" class="auth-input" id="auth-input" placeholder="비밀번호" autocomplete="current-password">
+    <div class="auth-error" id="auth-error"></div>
+    <div class="auth-actions">
+      <button class="auth-btn secondary" type="button" id="auth-cancel">취소</button>
+      <button class="auth-btn primary" type="button" id="auth-submit">확인</button>
+    </div>
+  </div>
 </div>
+
+<header class="app-header">
+  <div>
+    <p class="eyebrow">Daily Study</p>
+    <h1>상식과 영어</h1>
+    <div class="date" id="today-date"></div>
+  </div>
+  <div class="streak-badge" id="streak-badge">0일</div>
+</header>
 
 <div class="container">
-  <div id="app"><div class="loading">데이터 불러오는 중...</div></div>
+  <nav class="tabs" aria-label="대시보드 섹션">
+    <button class="tab active" type="button" data-view="today">오늘</button>
+    <button class="tab" type="button" data-view="english">영어</button>
+    <button class="tab" type="button" data-view="knowledge">상식</button>
+  </nav>
+
+  <main id="app">
+    <div class="loading">데이터 불러오는 중...</div>
+  </main>
 </div>
 
-<script>
-// 비밀번호 보호
-const HASH = '5fa75ee2c5383fa601a45136751b99f41f203754378c650440e94c75020b70b0';
-async function checkAuth() {
-  const saved = sessionStorage.getItem('auth');
-  if (saved === HASH) return true;
-  const pw = prompt('비밀번호를 입력하세요:');
-  if (!pw) { document.body.innerHTML = '<p style="text-align:center;padding:40px;color:#888">접근이 거부되었습니다.</p>'; return false; }
-  const buf = await crypto.subtle.digest('SHA-256', new TextEncoder().encode(pw));
-  const hex = Array.from(new Uint8Array(buf)).map(b => b.toString(16).padStart(2,'0')).join('');
-  if (hex === HASH) { sessionStorage.setItem('auth', HASH); return true; }
-  document.body.innerHTML = '<p style="text-align:center;padding:40px;color:#e94560">비밀번호가 틀렸습니다.<br><br><button onclick="location.reload()" style="padding:10px 20px;border:none;background:#0f3460;color:white;border-radius:8px;cursor:pointer">다시 시도</button></p>';
-  return false;
-}
-
-const BASE = './';
-
-async function loadJSON(file) {
-  const res = await fetch(BASE + file + '?t=' + Date.now());
-  if (!res.ok) throw new Error(file + ' 로드 실패');
-  return res.json();
-}
-
-const PHASES = {
-  1: { label: 'Phase 1', range: 'Ranks 1–500',    cefr: 'A1–A2', cls: 'p1', total: 500,  dayEnd: 30  },
-  2: { label: 'Phase 2', range: 'Ranks 501–800',  cefr: 'A2–B1', cls: 'p2', total: 300,  dayEnd: 54  },
-  3: { label: 'Phase 3', range: 'Ranks 801–1000', cefr: 'B1',    cls: 'p3', total: 200,  dayEnd: 74  },
-  4: { label: 'Phase 4', range: 'Ranks 1001–1500',cefr: 'B1–B2', cls: 'p4', total: 500,  dayEnd: 134 },
-  5: { label: 'Phase 5', range: 'Ranks 1501–2000',cefr: 'B2',    cls: 'p5', total: 500,  dayEnd: 209 },
-  6: { label: 'Phase 6', range: 'Ranks 2001–3000',cefr: 'B2–C1', cls: 'p6', total: 1000, dayEnd: 409 }
-};
-
-function getPhase(day) {
-  if (day <= 30)  return 1;
-  if (day <= 54)  return 2;
-  if (day <= 74)  return 3;
-  if (day <= 134) return 4;
-  if (day <= 209) return 5;
-  return 6;
-}
-
-function phaseProgress(day) {
-  const starts = [0, 1, 31, 55, 75, 135, 210];
-  const p = getPhase(day);
-  const ph = PHASES[p];
-  const pStart = starts[p];
-  const pTotal = ph.dayEnd - pStart + 1;
-  return Math.round(((day - pStart + 1) / pTotal) * 100);
-}
-
-function todayReviews(schedule) {
-  const today = new Date().toISOString().split('T')[0];
-  const result = [];
-  ['day_3', 'day_7', 'day_30'].forEach(key => {
-    const label = key === 'day_3' ? '3일 복습' : key === 'day_7' ? '7일 복습' : '30일 복습';
-    const cls = key === 'day_3' ? 'dot-red' : key === 'day_7' ? 'dot-orange' : 'dot-green';
-    const items = (schedule[key] || []).filter(([date]) => date === today);
-    if (items.length > 0) {
-      const days = items.flatMap(([, d]) => d);
-      result.push({ label, cls, days });
-    }
-  });
-  return result;
-}
-
-function render(prog, errors) {
-  const day = prog.current_day || 0;
-  const phase = prog.current_phase || getPhase(Math.max(day, 1));
-  const ph = PHASES[phase];
-  const pct = day > 0 ? phaseProgress(day) : 0;
-  const totalPct = Math.round((prog.total_words_learned || 0) / 3000 * 100);
-  const reviews = todayReviews(prog.review_schedule || {});
-  const wrongWords = (errors.words || []).sort((a, b) => b.wrong_count - a.wrong_count);
-
-  document.getElementById('streak-badge').textContent = '🔥 ' + (prog.stats?.streak || 0) + '일';
-
-  return `
-    <!-- 현재 진도 -->
-    <div class="card">
-      <div class="card-title">현재 진도</div>
-      <span class="phase-badge ${ph.cls}">${ph.label} · ${ph.cefr}</span>
-      <div class="progress-row">
-        <div class="prog-box">
-          <div class="num">Day ${day || '—'}</div>
-          <div class="lbl">현재 학습일</div>
-        </div>
-        <div class="prog-box">
-          <div class="num">${prog.total_words_learned || 0}</div>
-          <div class="lbl">누적 단어</div>
-        </div>
-        <div class="prog-box">
-          <div class="num">${totalPct}%</div>
-          <div class="lbl">전체 달성</div>
-        </div>
-      </div>
-      <div style="margin-bottom:6px; font-size:0.8rem; color:var(--sub);">이번 Phase 진행도</div>
-      <div class="progress-bar-wrap">
-        <div class="progress-bar" style="width:${pct}%"></div>
-      </div>
-      <div class="progress-label">
-        <span>${ph.range}</span>
-        <span>${pct}%</span>
-      </div>
-    </div>
-
-    <!-- 오늘 복습 -->
-    <div class="card">
-      <div class="card-title">오늘 복습 예정</div>
-      <div class="review-list">
-        ${reviews.length === 0
-          ? '<div class="empty-msg">오늘 예정된 복습 없음 ✅</div>'
-          : reviews.map(r => `
-            <div class="review-item">
-              <div class="review-dot ${r.cls}"></div>
-              <div class="review-text">${r.label}</div>
-              <div class="review-count">Day ${r.days.join(', ')}</div>
-            </div>`).join('')
-        }
-      </div>
-    </div>
-
-    <!-- 오답노트 -->
-    <div class="card">
-      <div class="card-title">오답노트 (${wrongWords.length}개)</div>
-      <div class="error-list">
-        ${wrongWords.length === 0
-          ? '<div class="empty-msg">오답 단어 없음 🎉</div>'
-          : wrongWords.slice(0, 20).map(w => `
-            <div class="error-item">
-              <div class="error-word">${w.word}</div>
-              <div class="error-meaning">${w.meaning}</div>
-              ${w.example ? `<div class="error-example">"${w.example}"</div>` : ''}
-              <div class="error-meta">
-                <span class="error-tag wrong-count">틀린 횟수 ${w.wrong_count}회</span>
-                <span class="error-tag">${w.category || ''}</span>
-              </div>
-            </div>`).join('')
-        }
-        ${wrongWords.length > 20 ? `<div class="empty-msg">외 ${wrongWords.length - 20}개 더...</div>` : ''}
-      </div>
-    </div>
-
-    <!-- 통계 -->
-    <div class="card">
-      <div class="card-title">학습 통계</div>
-      <div class="stats-grid">
-        <div class="stat-item">
-          <div class="stat-num">${prog.stats?.total_study_sessions || 0}</div>
-          <div class="stat-lbl">총 세션</div>
-        </div>
-        <div class="stat-item">
-          <div class="stat-num">${prog.stats?.total_correct || 0}</div>
-          <div class="stat-lbl">정답</div>
-        </div>
-        <div class="stat-item">
-          <div class="stat-num">${prog.stats?.total_wrong || 0}</div>
-          <div class="stat-lbl">오답</div>
-        </div>
-      </div>
-    </div>
-
-    <!-- Phase 로드맵 -->
-    <div class="card">
-      <div class="card-title">전체 로드맵</div>
-      <div class="roadmap">
-        ${Object.entries(PHASES).map(([p, ph]) => {
-          const pNum = parseInt(p);
-          const isDone = pNum < phase || (pNum === phase && pct >= 100);
-          const isActive = pNum === phase && !isDone;
-          const circleClass = isDone ? 'road-done' : isActive ? 'road-active' : 'road-pending';
-          const icon = isDone ? '✓' : p;
-          const prog2 = isActive ? pct : isDone ? 100 : 0;
-          return `
-            <div class="road-item">
-              <div class="road-circle ${circleClass}">${icon}</div>
-              <div class="road-info">
-                <div class="road-name">${ph.label} · ${ph.range}</div>
-                <div class="road-sub">${ph.cefr} · ${ph.total}단어</div>
-              </div>
-              <div class="road-pct">${prog2}%</div>
-            </div>`;
-        }).join('')}
-      </div>
-    </div>
-
-    <button class="refresh-btn" onclick="init()">새로고침</button>
-    <div style="text-align:center; font-size:0.72rem; color:var(--sub); margin-top:12px;">
-      마지막 업데이트: ${prog.last_studied || '—'}
-    </div>
-  `;
-}
-
-async function init() {
-  const app = document.getElementById('app');
-  try {
-    const [prog, errors] = await Promise.all([
-      loadJSON('진도관리.json'),
-      loadJSON('오답노트.json')
-    ]);
-    app.innerHTML = render(prog, errors);
-  } catch (e) {
-    app.innerHTML = `<div class="error-load">데이터 로드 실패<br><small>${e.message}</small><br><br><button class="refresh-btn" onclick="init()">다시 시도</button></div>`;
-  }
-}
-
-// 오늘 날짜
-const d = new Date();
-document.getElementById('today-date').textContent =
-  d.getFullYear() + '년 ' + (d.getMonth()+1) + '월 ' + d.getDate() + '일 (' +
-  ['일','월','화','수','목','금','토'][d.getDay()] + ')';
-
-checkAuth().then(ok => { if (ok) init(); });
-</script>
-<script id="__memo_script__">
-(function(){
-  var KEY='__mp__'+(document.title||location.pathname);
-  function get(){try{return JSON.parse(localStorage.getItem(KEY)||'[]')}catch(e){return[]}}
-  function put(a){localStorage.setItem(KEY,JSON.stringify(a))}
-  function esc(s){return s.replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;')}
-  function render(){
-    var memos=get();
-    document.getElementById('_mc_').textContent=memos.length?' ('+memos.length+'개)':'';
-    var ml=document.getElementById('_ml_');ml.innerHTML='';
-    memos.forEach(function(m,i){
-      var d=document.createElement('div');d.className='mi';
-      d.innerHTML='<div class="mt2">'+esc(m).replace(/
-/g,'<br>')+'</div>'
-        +'<div class="ma">'
-        +'<button class="mb meb" onclick="_medit_('+i+',this)">수정</button>'
-        +'<button class="mb mdb" onclick="_mdel_('+i+')">삭제</button>'
-        +'</div>';
-      ml.appendChild(d);
-    });
-    updatePad();
-  }
-  window._mtog_=function(){
-    var b=document.getElementById('_mb_');
-    var a=document.getElementById('_marr_');
-    var open=b.style.display==='block';
-    b.style.display=open?'none':'block';
-    a.textContent=open?'▶':'▼';
-    setTimeout(updatePad,10);
-  };
-  window._msave_=function(){
-    var ta=document.getElementById('_mta_');
-    var v=ta.value.trim();if(!v)return;
-    var a=get();a.push(v);put(a);ta.value='';render();
-  };
-  window._medit_=function(i,btn){
-    var item=btn.parentElement.parentElement;
-    var memos=get();
-    var ta=document.createElement('textarea');
-    ta.className='meta';ta.value=memos[i];
-    var actions=item.querySelector('.ma');
-    item.querySelector('.mt2').style.display='none';
-    actions.innerHTML='<button class="mb msb" onclick="_mupd_('+i+',this)">저장</button>'
-      +'<button class="mb mcb" onclick="render()">취소</button>';
-    item.insertBefore(ta,actions);item.className='mi ed';
-  };
-  window._mupd_=function(i,btn){
-    var ta=btn.parentElement.previousSibling;
-    var v=ta.value.trim();if(!v)return;
-    var a=get();a[i]=v;put(a);render();
-  };
-  window._mdel_=function(i){
-    if(!confirm('이 메모를 삭제할까요?'))return;
-    var a=get();a.splice(i,1);put(a);render();
-  };
-  function updatePad(){
-    var h=document.getElementById('_mp_').offsetHeight;
-    document.body.style.paddingTop=h+'px';
-    var sb=document.querySelector('.toc-sidebar');
-    if(sb)sb.style.top=h+'px';
-    var mn=document.querySelector('.main');
-    if(mn&&mn.style&&!mn.style.marginLeft){}
-  }
-  render();
-  setTimeout(updatePad,150);
-  window.addEventListener('resize',updatePad);
-  document.addEventListener('keydown',function(e){
-    if((e.ctrlKey||e.metaKey)&&e.key==='m'){e.preventDefault();_mtog_();}
-  });
-})();
-</script>
+<script src="./assets/dashboard.js"></script>
 </body>
 </html>
