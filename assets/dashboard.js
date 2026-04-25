@@ -110,6 +110,10 @@
     state.localWrongWords = words;
   }
 
+  function getWordKey(word) {
+    return String(word || "").trim().toLowerCase();
+  }
+
   function mergeWrongWords(words) {
     const merged = new Map();
 
@@ -141,21 +145,27 @@
   }
 
   function isWrongWord(word) {
-    const target = String(word || "").trim().toLowerCase();
+    const target = getWordKey(word);
     if (!target) return false;
 
     const remote = state.data?.errors?.words || [];
     return [...remote, ...state.localWrongWords]
-      .some((item) => String(item?.word || "").trim().toLowerCase() === target);
+      .some((item) => getWordKey(item?.word) === target);
+  }
+
+  function isLocalWrongWord(word) {
+    const target = getWordKey(word);
+    if (!target) return false;
+    return state.localWrongWords.some((item) => getWordKey(item?.word) === target);
   }
 
   function addLocalWrongWord(item) {
     if (!item?.word) return;
 
     const now = getLocalDateYMD();
-    const key = String(item.word).trim().toLowerCase();
+    const key = getWordKey(item.word);
     const next = [...state.localWrongWords];
-    const existing = next.find((word) => String(word.word || "").trim().toLowerCase() === key);
+    const existing = next.find((word) => getWordKey(word.word) === key);
 
     if (existing) {
       existing.wrong_count = Number(existing.wrong_count || 1) + 1;
@@ -172,6 +182,22 @@
     }
 
     writeLocalWrongWords(next);
+  }
+
+  function removeLocalWrongWord(word) {
+    const key = getWordKey(word);
+    if (!key) return;
+
+    writeLocalWrongWords(state.localWrongWords.filter((item) => getWordKey(item.word) !== key));
+  }
+
+  function toggleLocalWrongWord(item) {
+    if (isLocalWrongWord(item?.word)) {
+      removeLocalWrongWord(item.word);
+      return;
+    }
+
+    addLocalWrongWord(item);
   }
 
   function getDatedEntries(store) {
@@ -248,6 +274,12 @@
       const wordId = getWordId(item, context, index);
       const revealed = state.revealedWords.has(wordId);
       const added = isWrongWord(item.word);
+      const localAdded = isLocalWrongWord(item.word);
+      const wrongButtonText = localAdded
+        ? "오답노트에서 제거"
+        : added
+          ? "오답노트에 있음"
+          : "오답노트에 추가";
 
       return `
       <article class="word-item${revealed ? " open" : ""}">
@@ -262,8 +294,8 @@
             ${revealed ? "뜻 숨기기" : "뜻 보기"}
           </button>
           ${revealed ? `
-            <button class="word-btn secondary" type="button" data-action="add-wrong" data-word-payload="${encodePayload(item)}" ${added ? "disabled" : ""}>
-              ${added ? "오답노트에 있음" : "오답노트에 추가"}
+            <button class="word-btn secondary${localAdded ? " danger" : ""}" type="button" data-action="toggle-wrong" data-word-payload="${encodePayload(item)}" ${added && !localAdded ? "disabled" : ""}>
+              ${wrongButtonText}
             </button>
           ` : ""}
         </div>
@@ -341,6 +373,11 @@
         <div class="error-meta">
           <span class="error-tag">틀린 횟수 ${escapeHtml(w.wrong_count || 0)}회</span>
           ${w.category ? `<span class="error-tag">${escapeHtml(w.category)}</span>` : ""}
+          ${isLocalWrongWord(w.word) ? `
+            <button class="error-remove" type="button" data-action="toggle-wrong" data-word-payload="${encodePayload(w)}">
+              오답노트에서 제거
+            </button>
+          ` : ""}
         </div>
       </div>
     `).join("");
@@ -763,14 +800,14 @@
         return;
       }
 
-      const addWrong = event.target.closest("[data-action='add-wrong']");
-      if (addWrong && !addWrong.disabled) {
+      const wrongToggle = event.target.closest("[data-action='toggle-wrong']");
+      if (wrongToggle && !wrongToggle.disabled) {
         try {
-          const item = JSON.parse(decodeURIComponent(addWrong.dataset.wordPayload || ""));
-          addLocalWrongWord(item);
+          const item = JSON.parse(decodeURIComponent(wrongToggle.dataset.wordPayload || ""));
+          toggleLocalWrongWord(item);
           renderDashboard();
         } catch (e) {
-          console.warn("오답노트 추가 실패", e);
+          console.warn("오답노트 변경 실패", e);
         }
         return;
       }

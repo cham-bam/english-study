@@ -494,6 +494,12 @@ a {
   color: var(--primary-dark);
 }
 
+.word-btn.secondary.danger {
+  border-color: #f0c7c7;
+  background: #fff4f4;
+  color: var(--red);
+}
+
 .word-btn:disabled {
   border-color: #d7e1e6;
   background: #edf2f4;
@@ -692,6 +698,18 @@ a {
   border-radius: 8px;
   background: #fff2f7;
   color: var(--accent);
+  font-size: 0.72rem;
+  font-weight: 900;
+  padding: 3px 8px;
+}
+
+.error-remove {
+  min-height: 25px;
+  border: 1px solid #f0c7c7;
+  border-radius: 8px;
+  background: #fff4f4;
+  color: var(--red);
+  cursor: pointer;
   font-size: 0.72rem;
   font-weight: 900;
   padding: 3px 8px;
