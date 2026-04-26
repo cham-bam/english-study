@@ -593,6 +593,12 @@ a {
   padding: 9px 12px;
 }
 
+.sync-button.secondary {
+  border-color: #c6d6dc;
+  background: #ffffff;
+  color: var(--primary-dark);
+}
+
 .sync-button:disabled {
   border-color: #d7e1e6;
   background: #edf2f4;

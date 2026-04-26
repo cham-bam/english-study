@@ -12,6 +12,7 @@
   };
   const LOCAL_WRONG_KEY = "english-study-local-wrong-words-v1";
   const EXTRA_STUDY_KEY = "english-study-extra-study-v1";
+  const SYNC_EMAIL_KEY = "english-study-sync-email-v1";
   const DIFFICULTIES = ["초급", "중급", "고급"];
   const EXTRA_KNOWLEDGE_QUOTA = { "초급": 2, "중급": 2, "고급": 2 };
   const EXTRA_ENGLISH_QUOTA = { "초급": 5, "중급": 5, "고급": 5 };
@@ -44,7 +45,8 @@
       user: null,
       ready: false,
       loading: false,
-      message: ""
+      message: "",
+      email: ""
     }
   };
 
@@ -144,6 +146,20 @@
     } catch (e) {
       return [];
     }
+  }
+
+  function readSyncEmail() {
+    return localStorage.getItem(SYNC_EMAIL_KEY) || "";
+  }
+
+  function writeSyncEmail(email) {
+    const value = String(email || "").trim();
+    if (value) {
+      localStorage.setItem(SYNC_EMAIL_KEY, value);
+    } else {
+      localStorage.removeItem(SYNC_EMAIL_KEY);
+    }
+    state.sync.email = value;
   }
 
   function writeLocalWrongWords(words) {
@@ -292,7 +308,14 @@
     if (state.sync.client) return state.sync.client;
 
     const { createClient } = await import("https://cdn.jsdelivr.net/npm/@supabase/supabase-js/+esm");
-    state.sync.client = createClient(state.sync.config.url, state.sync.config.anonKey);
+    state.sync.client = createClient(state.sync.config.url, state.sync.config.anonKey, {
+      auth: {
+        autoRefreshToken: true,
+        detectSessionInUrl: true,
+        flowType: "implicit",
+        persistSession: true
+      }
+    });
     return state.sync.client;
   }
 
@@ -387,9 +410,17 @@
     });
   }
 
+  function getAuthUrlError() {
+    const params = new URLSearchParams(location.search);
+    const hashParams = new URLSearchParams(location.hash.replace(/^#/, ""));
+    const error = params.get("error_description") || hashParams.get("error_description") || params.get("error") || hashParams.get("error");
+    return error ? decodeURIComponent(error.replace(/\+/g, " ")) : "";
+  }
+
   async function initSync(config) {
     state.sync.config = config || {};
-    state.sync.message = "";
+    state.sync.email = readSyncEmail();
+    state.sync.message = getAuthUrlError();
 
     if (!isSupabaseConfigured(config)) {
       state.sync.ready = false;
@@ -426,6 +457,7 @@
 
     state.sync.loading = true;
     try {
+      writeSyncEmail(email);
       const redirectTo = state.sync.config?.authRedirectUrl || location.href.split("#")[0];
       const { error } = await state.sync.client.auth.signInWithOtp({
         email,
@@ -436,6 +468,34 @@
     } catch (e) {
       state.sync.message = "로그인 링크 전송에 실패했습니다.";
       console.warn("Supabase sign in failed", e);
+    } finally {
+      state.sync.loading = false;
+    }
+  }
+
+  async function verifySyncOtp(email, token) {
+    if (!state.sync.client || !email || !token) return;
+
+    state.sync.loading = true;
+    try {
+      writeSyncEmail(email);
+      const { data, error } = await state.sync.client.auth.verifyOtp({
+        email,
+        token,
+        type: "email"
+      });
+      if (error) throw error;
+
+      state.sync.user = data.user || data.session?.user || null;
+      state.sync.ready = true;
+      if (state.sync.user) {
+        await syncLocalWrongWordsToRemote();
+        await loadRemoteWrongWords();
+      }
+      state.sync.message = "인증코드로 로그인되었습니다.";
+    } catch (e) {
+      state.sync.message = "인증코드 로그인이 실패했습니다. 코드 만료 또는 이메일 불일치일 수 있습니다.";
+      console.warn("Supabase OTP verify failed", e);
     } finally {
       state.sync.loading = false;
     }
@@ -805,11 +865,15 @@
     return `
       <div class="card compact sync-card">
         <div class="card-title">기기 간 싱크</div>
-        <p class="hero-sub">같은 이메일로 PC와 모바일에서 로그인하면 오답노트가 동기화됩니다.</p>
+        <p class="hero-sub">같은 이메일로 PC와 모바일에서 로그인하면 오답노트가 동기화됩니다. 링크가 실패하면 이메일의 6자리 코드를 입력하세요.</p>
         <div class="sync-form">
-          <input class="sync-input" id="sync-email" type="email" placeholder="이메일 입력" autocomplete="email">
+          <input class="sync-input" id="sync-email" type="email" placeholder="이메일 입력" autocomplete="email" value="${escapeHtml(state.sync.email)}">
           <button class="sync-button" type="button" data-action="sync-login" ${state.sync.loading ? "disabled" : ""}>
-            ${state.sync.loading ? "전송 중" : "로그인 링크 받기"}
+            ${state.sync.loading ? "전송 중" : "링크/코드 받기"}
+          </button>
+          <input class="sync-input" id="sync-token" type="text" inputmode="numeric" pattern="[0-9]*" placeholder="인증코드 6자리" autocomplete="one-time-code">
+          <button class="sync-button secondary" type="button" data-action="sync-verify" ${state.sync.loading ? "disabled" : ""}>
+            코드로 로그인
           </button>
         </div>
         ${message}
@@ -1300,6 +1364,12 @@
 
       if (event.target.closest("[data-action='sync-login']")) {
         await signInToSync($("sync-email")?.value.trim());
+        renderDashboard();
+        return;
+      }
+
+      if (event.target.closest("[data-action='sync-verify']")) {
+        await verifySyncOtp($("sync-email")?.value.trim(), $("sync-token")?.value.trim());
         renderDashboard();
         return;
       }
