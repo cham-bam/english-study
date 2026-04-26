@@ -2,5 +2,6 @@
   "enabled": true,
   "url": "https://pospowgsiwdpnwxkcayz.supabase.co",
   "anonKey": "sb_publishable_dasVcCfpj5L2QWPNGwabqQ_BNY6iZMz",
+  "authRedirectUrl": "https://cham-bam.github.io/english-study/dashboard.html",
   "wrongWordsTable": "study_wrong_words"
 }

@@ -426,7 +426,7 @@
 
     state.sync.loading = true;
     try {
-      const redirectTo = location.href.split("#")[0];
+      const redirectTo = state.sync.config?.authRedirectUrl || location.href.split("#")[0];
       const { error } = await state.sync.client.auth.signInWithOtp({
         email,
         options: { emailRedirectTo: redirectTo }
