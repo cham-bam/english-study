@@ -1,8 +1,210 @@
 {
-  "updated_at": "2026-04-26",
+  "updated_at": "2026-04-27",
   "default_daily_count": 15,
   "source": "01_기초_동사형용사.json",
   "entries": [
+    {
+      "date": "2026-04-27",
+      "day": 3,
+      "title": "Day 3 난이도별 영단어 15개",
+      "items": [
+        {
+          "difficulty": "초급",
+          "word": "buy",
+          "meaning": "사다",
+          "example": "Buy the ticket online.",
+          "note": "사다라는 뜻입니다. 예문과 함께 문장째 익혀보세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/buy"
+            }
+          ]
+        },
+        {
+          "difficulty": "초급",
+          "word": "call",
+          "meaning": "부르다",
+          "example": "Call me anytime.",
+          "note": "부르다라는 뜻입니다. 예문과 함께 문장째 익혀보세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/call"
+            }
+          ]
+        },
+        {
+          "difficulty": "초급",
+          "word": "carry",
+          "meaning": "들다",
+          "example": "Carry your passport always.",
+          "note": "들다라는 뜻입니다. 예문과 함께 문장째 익혀보세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/carry"
+            }
+          ]
+        },
+        {
+          "difficulty": "초급",
+          "word": "catch",
+          "meaning": "잡다",
+          "example": "Catch the early flight.",
+          "note": "잡다라는 뜻입니다. 예문과 함께 문장째 익혀보세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/catch"
+            }
+          ]
+        },
+        {
+          "difficulty": "초급",
+          "word": "cause",
+          "meaning": "야기하다",
+          "example": "What caused the delay?",
+          "note": "야기하다라는 뜻입니다. 예문과 함께 문장째 익혀보세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/cause"
+            }
+          ]
+        },
+        {
+          "difficulty": "중급",
+          "word": "fail",
+          "meaning": "실패하다",
+          "example": "Fail fast and learn.",
+          "note": "실패하다라는 뜻입니다. 예문과 함께 문장째 익혀보세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/fail"
+            }
+          ]
+        },
+        {
+          "difficulty": "중급",
+          "word": "find",
+          "meaning": "찾다",
+          "example": "Find a better solution.",
+          "note": "찾다라는 뜻입니다. 예문과 함께 문장째 익혀보세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/find"
+            }
+          ]
+        },
+        {
+          "difficulty": "중급",
+          "word": "finish",
+          "meaning": "끝내다",
+          "example": "Finish the report today.",
+          "note": "끝내다라는 뜻입니다. 예문과 함께 문장째 익혀보세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/finish"
+            }
+          ]
+        },
+        {
+          "difficulty": "중급",
+          "word": "fix",
+          "meaning": "고치다",
+          "example": "Fix the technical issue.",
+          "note": "고치다라는 뜻입니다. 예문과 함께 문장째 익혀보세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/fix"
+            }
+          ]
+        },
+        {
+          "difficulty": "중급",
+          "word": "focus",
+          "meaning": "집중하다",
+          "example": "Focus on your priorities.",
+          "note": "집중하다라는 뜻입니다. 예문과 함께 문장째 익혀보세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/focus"
+            }
+          ]
+        },
+        {
+          "difficulty": "고급",
+          "word": "abate",
+          "meaning": "약해지다",
+          "example": "The storm began to abate after midnight.",
+          "note": "약해지다라는 뜻입니다. 예문과 함께 문장째 익혀보세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/abate"
+            }
+          ]
+        },
+        {
+          "difficulty": "고급",
+          "word": "bolster",
+          "meaning": "강화하다",
+          "example": "The evidence bolstered her argument.",
+          "note": "강화하다라는 뜻입니다. 예문과 함께 문장째 익혀보세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/bolster"
+            }
+          ]
+        },
+        {
+          "difficulty": "고급",
+          "word": "coalesce",
+          "meaning": "합쳐지다",
+          "example": "Several ideas coalesced into one plan.",
+          "note": "합쳐지다라는 뜻입니다. 예문과 함께 문장째 익혀보세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/coalesce"
+            }
+          ]
+        },
+        {
+          "difficulty": "고급",
+          "word": "corroborate",
+          "meaning": "입증하다",
+          "example": "The witness corroborated the report.",
+          "note": "입증하다라는 뜻입니다. 예문과 함께 문장째 익혀보세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/corroborate"
+            }
+          ]
+        },
+        {
+          "difficulty": "고급",
+          "word": "delineate",
+          "meaning": "상세히 설명하다",
+          "example": "The map delineates the disputed border.",
+          "note": "상세히 설명하다라는 뜻입니다. 예문과 함께 문장째 익혀보세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/delineate"
+            }
+          ]
+        }
+      ]
+    },
     {
       "date": "2026-04-26",
       "day": 2,
