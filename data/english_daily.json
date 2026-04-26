@@ -1,6 +1,6 @@
 {
   "updated_at": "2026-04-26",
-  "default_daily_count": 10,
+  "default_daily_count": 15,
   "source": "01_기초_동사형용사.json",
   "entries": [
     {
@@ -18,7 +18,8 @@
               "label": "Oxford Learner's Dictionaries",
               "url": "https://www.oxfordlearnersdictionaries.com/definition/english/apply"
             }
-          ]
+          ],
+          "difficulty": "초급"
         },
         {
           "word": "arrange",
@@ -30,7 +31,8 @@
               "label": "Oxford Learner's Dictionaries",
               "url": "https://www.oxfordlearnersdictionaries.com/definition/english/arrange"
             }
-          ]
+          ],
+          "difficulty": "초급"
         },
         {
           "word": "ask",
@@ -42,7 +44,8 @@
               "label": "Oxford Learner's Dictionaries",
               "url": "https://www.oxfordlearnersdictionaries.com/definition/english/ask"
             }
-          ]
+          ],
+          "difficulty": "초급"
         },
         {
           "word": "avoid",
@@ -54,7 +57,8 @@
               "label": "Oxford Learner's Dictionaries",
               "url": "https://www.oxfordlearnersdictionaries.com/definition/english/avoid"
             }
-          ]
+          ],
+          "difficulty": "초급"
         },
         {
           "word": "begin",
@@ -66,7 +70,8 @@
               "label": "Oxford Learner's Dictionaries",
               "url": "https://www.oxfordlearnersdictionaries.com/definition/english/begin"
             }
-          ]
+          ],
+          "difficulty": "초급"
         },
         {
           "word": "believe",
@@ -78,7 +83,8 @@
               "label": "Oxford Learner's Dictionaries",
               "url": "https://www.oxfordlearnersdictionaries.com/definition/english/believe"
             }
-          ]
+          ],
+          "difficulty": "초급"
         },
         {
           "word": "belong",
@@ -90,7 +96,8 @@
               "label": "Oxford Learner's Dictionaries",
               "url": "https://www.oxfordlearnersdictionaries.com/definition/english/belong"
             }
-          ]
+          ],
+          "difficulty": "초급"
         },
         {
           "word": "break",
@@ -102,7 +109,8 @@
               "label": "Oxford Learner's Dictionaries",
               "url": "https://www.oxfordlearnersdictionaries.com/definition/english/break"
             }
-          ]
+          ],
+          "difficulty": "초급"
         },
         {
           "word": "bring",
@@ -114,7 +122,8 @@
               "label": "Oxford Learner's Dictionaries",
               "url": "https://www.oxfordlearnersdictionaries.com/definition/english/bring"
             }
-          ]
+          ],
+          "difficulty": "초급"
         },
         {
           "word": "build",
@@ -126,7 +135,8 @@
               "label": "Oxford Learner's Dictionaries",
               "url": "https://www.oxfordlearnersdictionaries.com/definition/english/build"
             }
-          ]
+          ],
+          "difficulty": "초급"
         }
       ]
     },
@@ -145,7 +155,8 @@
               "label": "Oxford Learner's Dictionaries",
               "url": "https://www.oxfordlearnersdictionaries.com/definition/english/accept"
             }
-          ]
+          ],
+          "difficulty": "초급"
         },
         {
           "word": "achieve",
@@ -157,7 +168,8 @@
               "label": "Oxford Learner's Dictionaries",
               "url": "https://www.oxfordlearnersdictionaries.com/definition/english/achieve"
             }
-          ]
+          ],
+          "difficulty": "초급"
         },
         {
           "word": "act",
@@ -169,7 +181,8 @@
               "label": "Oxford Learner's Dictionaries",
               "url": "https://www.oxfordlearnersdictionaries.com/definition/english/act_1"
             }
-          ]
+          ],
+          "difficulty": "초급"
         },
         {
           "word": "add",
@@ -181,7 +194,8 @@
               "label": "Oxford Learner's Dictionaries",
               "url": "https://www.oxfordlearnersdictionaries.com/definition/english/add"
             }
-          ]
+          ],
+          "difficulty": "초급"
         },
         {
           "word": "admit",
@@ -193,7 +207,8 @@
               "label": "Oxford Learner's Dictionaries",
               "url": "https://www.oxfordlearnersdictionaries.com/definition/english/admit"
             }
-          ]
+          ],
+          "difficulty": "초급"
         },
         {
           "word": "advise",
@@ -205,7 +220,8 @@
               "label": "Oxford Learner's Dictionaries",
               "url": "https://www.oxfordlearnersdictionaries.com/definition/english/advise"
             }
-          ]
+          ],
+          "difficulty": "초급"
         },
         {
           "word": "agree",
@@ -217,7 +233,8 @@
               "label": "Oxford Learner's Dictionaries",
               "url": "https://www.oxfordlearnersdictionaries.com/definition/english/agree"
             }
-          ]
+          ],
+          "difficulty": "초급"
         },
         {
           "word": "allow",
@@ -229,7 +246,8 @@
               "label": "Oxford Learner's Dictionaries",
               "url": "https://www.oxfordlearnersdictionaries.com/definition/english/allow"
             }
-          ]
+          ],
+          "difficulty": "초급"
         },
         {
           "word": "answer",
@@ -241,7 +259,8 @@
               "label": "Oxford Learner's Dictionaries",
               "url": "https://www.oxfordlearnersdictionaries.com/definition/english/answer_1"
             }
-          ]
+          ],
+          "difficulty": "초급"
         },
         {
           "word": "appear",
@@ -253,9 +272,15 @@
               "label": "Oxford Learner's Dictionaries",
               "url": "https://www.oxfordlearnersdictionaries.com/definition/english/appear"
             }
-          ]
+          ],
+          "difficulty": "초급"
         }
       ]
     }
-  ]
+  ],
+  "daily_by_difficulty": {
+    "초급": 5,
+    "중급": 5,
+    "고급": 5
+  }
 }

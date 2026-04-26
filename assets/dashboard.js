@@ -6,9 +6,15 @@
     errors: "오답노트.json",
     knowledge: "data/knowledge.json",
     englishDaily: "data/english_daily.json",
+    knowledgePool: "data/knowledge_pool.json",
+    englishSource: "01_기초_동사형용사.json",
     supabaseConfig: "data/supabase_config.json"
   };
   const LOCAL_WRONG_KEY = "english-study-local-wrong-words-v1";
+  const EXTRA_STUDY_KEY = "english-study-extra-study-v1";
+  const DIFFICULTIES = ["초급", "중급", "고급"];
+  const EXTRA_KNOWLEDGE_QUOTA = { "초급": 2, "중급": 2, "고급": 2 };
+  const EXTRA_ENGLISH_QUOTA = { "초급": 5, "중급": 5, "고급": 5 };
 
   const PHASES = {
     1: { label: "Phase 1", range: "Ranks 1-500", cefr: "A1-A2", cls: "primary", total: 500, dayEnd: 30 },
@@ -24,6 +30,12 @@
     data: null,
     openDays: new Set(),
     revealedWords: new Set(),
+    extraStudy: {
+      date: "",
+      knowledgeItems: [],
+      englishItems: [],
+      message: ""
+    },
     localWrongWords: [],
     remoteWrongWords: [],
     sync: {
@@ -47,6 +59,25 @@
       .replace(/>/g, "&gt;")
       .replace(/"/g, "&quot;")
       .replace(/'/g, "&#39;");
+  }
+
+  function normalizeDifficulty(value) {
+    const text = String(value || "").trim().toLowerCase();
+    if (["intermediate", "medium", "mid", "중", "중급"].includes(text)) return "중급";
+    if (["advanced", "hard", "high", "고", "고급"].includes(text)) return "고급";
+    return "초급";
+  }
+
+  function difficultyClass(value) {
+    const difficulty = normalizeDifficulty(value);
+    if (difficulty === "중급") return "mid";
+    if (difficulty === "고급") return "high";
+    return "basic";
+  }
+
+  function renderDifficultyTag(value) {
+    const difficulty = normalizeDifficulty(value);
+    return `<span class="difficulty-tag ${difficultyClass(difficulty)}">${escapeHtml(difficulty)}</span>`;
   }
 
   function getLocalDateYMD(date = new Date()) {
@@ -118,6 +149,35 @@
   function writeLocalWrongWords(words) {
     localStorage.setItem(LOCAL_WRONG_KEY, JSON.stringify(words));
     state.localWrongWords = words;
+  }
+
+  function emptyExtraStudy(message = "") {
+    return {
+      date: getLocalDateYMD(),
+      knowledgeItems: [],
+      englishItems: [],
+      message
+    };
+  }
+
+  function readExtraStudy() {
+    try {
+      const parsed = JSON.parse(localStorage.getItem(EXTRA_STUDY_KEY) || "null");
+      if (!parsed || parsed.date !== getLocalDateYMD()) return emptyExtraStudy();
+      return {
+        date: parsed.date,
+        knowledgeItems: Array.isArray(parsed.knowledgeItems) ? parsed.knowledgeItems : [],
+        englishItems: Array.isArray(parsed.englishItems) ? parsed.englishItems : [],
+        message: parsed.message || ""
+      };
+    } catch (e) {
+      return emptyExtraStudy();
+    }
+  }
+
+  function writeExtraStudy(extraStudy) {
+    state.extraStudy = extraStudy;
+    localStorage.setItem(EXTRA_STUDY_KEY, JSON.stringify(extraStudy));
   }
 
   function getWordKey(word) {
@@ -414,6 +474,135 @@
     return Array.isArray(entry.items) ? entry.items : [];
   }
 
+  function collectKnowledgeKeys(knowledge, extraItems = []) {
+    const keys = new Set();
+    getDatedEntries(knowledge).forEach((entry) => {
+      getEntryItems(entry).forEach((item) => {
+        [item.source_id, item.id, item.title]
+          .map((value) => String(value || "").trim().toLowerCase())
+          .filter(Boolean)
+          .forEach((key) => keys.add(key));
+      });
+    });
+    extraItems.forEach((item) => {
+      [item.source_id, item.id, item.title]
+        .map((value) => String(value || "").trim().toLowerCase())
+        .filter(Boolean)
+        .forEach((key) => keys.add(key));
+    });
+    return keys;
+  }
+
+  function collectEnglishKeys(englishDaily, extraItems = []) {
+    const keys = new Set();
+    getDatedEntries(englishDaily).forEach((entry) => {
+      getEntryItems(entry).forEach((item) => keys.add(getWordKey(item.word)));
+    });
+    extraItems.forEach((item) => keys.add(getWordKey(item.word)));
+    keys.delete("");
+    return keys;
+  }
+
+  function pickPoolByDifficulty(items, quota, used, keyFn) {
+    const picked = [];
+    const pickedKeys = new Set();
+
+    for (const difficulty of DIFFICULTIES) {
+      let count = 0;
+      for (const item of items || []) {
+        if (normalizeDifficulty(item.difficulty) !== difficulty) continue;
+
+        const keys = keyFn(item)
+          .map((value) => String(value || "").trim().toLowerCase())
+          .filter(Boolean);
+        if (!keys.length || keys.some((key) => used.has(key) || pickedKeys.has(key))) continue;
+
+        picked.push(item);
+        keys.forEach((key) => pickedKeys.add(key));
+        count += 1;
+        if (count >= quota[difficulty]) break;
+      }
+
+      if (count < quota[difficulty]) {
+        return { ok: false, difficulty, picked };
+      }
+    }
+
+    return { ok: true, picked };
+  }
+
+  function cloneKnowledgePoolItem(item) {
+    return {
+      source_id: item.id,
+      difficulty: normalizeDifficulty(item.difficulty),
+      category: item.category,
+      title: item.title,
+      body: item.body,
+      takeaway: item.takeaway,
+      sources: item.sources || []
+    };
+  }
+
+  function oxfordUrl(word) {
+    const slug = String(word || "").trim().toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/^-|-$/g, "");
+    return `https://www.oxfordlearnersdictionaries.com/definition/english/${slug}`;
+  }
+
+  function cloneEnglishPoolItem(item) {
+    return {
+      difficulty: normalizeDifficulty(item.difficulty),
+      word: item.word,
+      meaning: item.meaning,
+      example: item.example,
+      note: item.note || `${item.meaning || ""}라는 뜻입니다. 예문과 함께 문장째 익혀보세요.`,
+      sources: item.sources || [
+        {
+          label: "Oxford Learner's Dictionaries",
+          url: oxfordUrl(item.word)
+        }
+      ]
+    };
+  }
+
+  function requestExtraStudy(kind) {
+    if (!state.data) return;
+
+    const today = getLocalDateYMD();
+    const current = state.extraStudy.date === today ? state.extraStudy : emptyExtraStudy();
+    const next = {
+      date: today,
+      knowledgeItems: [...current.knowledgeItems],
+      englishItems: [...current.englishItems],
+      message: ""
+    };
+    const messages = [];
+
+    if (kind === "knowledge" || kind === "both") {
+      const used = collectKnowledgeKeys(state.data.knowledge, next.knowledgeItems);
+      const selected = pickPoolByDifficulty(state.data.knowledgePool?.items, EXTRA_KNOWLEDGE_QUOTA, used, (item) => [item.id, item.title]);
+      if (selected.ok) {
+        next.knowledgeItems.push(...selected.picked.map(cloneKnowledgePoolItem));
+        messages.push("상식 추가 학습 6개를 불러왔습니다.");
+      } else {
+        messages.push(`${selected.difficulty} 상식 풀이 부족합니다.`);
+      }
+    }
+
+    if (kind === "english" || kind === "both") {
+      const used = collectEnglishKeys(state.data.englishDaily, next.englishItems);
+      const selected = pickPoolByDifficulty(state.data.englishSource?.words, EXTRA_ENGLISH_QUOTA, used, (item) => [item.word]);
+      if (selected.ok) {
+        next.englishItems.push(...selected.picked.map(cloneEnglishPoolItem));
+        messages.push("영어 추가 학습 15개를 불러왔습니다.");
+      } else {
+        messages.push(`${selected.difficulty} 영어 단어 풀이 부족합니다.`);
+      }
+    }
+
+    next.message = messages.join(" ");
+    writeExtraStudy(next);
+  }
+
   function renderSourceLinks(sources) {
     const list = Array.isArray(sources) ? sources.filter((source) => source?.url) : [];
     if (!list.length) return "";
@@ -437,7 +626,10 @@
 
     return list.map((item) => `
       <article class="knowledge-item">
-        <div class="knowledge-category">${escapeHtml(item.category || "상식")}</div>
+        <div class="meta-row">
+          <span class="knowledge-category">${escapeHtml(item.category || "상식")}</span>
+          ${renderDifficultyTag(item.difficulty)}
+        </div>
         <h3 class="knowledge-title">${escapeHtml(item.title || "")}</h3>
         <p class="knowledge-body">${escapeHtml(item.body || "")}</p>
         ${item.takeaway ? `<p class="knowledge-takeaway">${escapeHtml(item.takeaway)}</p>` : ""}
@@ -476,7 +668,10 @@
         <div class="word-head">
           <span class="word-index">${index + 1}</span>
           <div>
-            <h3 class="word-title">${escapeHtml(item.word || "")}</h3>
+            <div class="word-title-row">
+              <h3 class="word-title">${escapeHtml(item.word || "")}</h3>
+              ${renderDifficultyTag(item.difficulty)}
+            </div>
           </div>
         </div>
         <div class="word-actions">
@@ -622,6 +817,31 @@
     `;
   }
 
+  function renderExtraStatus() {
+    if (!state.extraStudy.message) return "";
+    return `<p class="extra-status">${escapeHtml(state.extraStudy.message)}</p>`;
+  }
+
+  function renderExtraKnowledgeCard() {
+    if (!state.extraStudy.knowledgeItems.length) return "";
+    return `
+      <div class="card extra-card">
+        <div class="card-title">추가 요청 상식 (${state.extraStudy.knowledgeItems.length}개)</div>
+        <div class="knowledge-list">${renderKnowledgeItems(state.extraStudy.knowledgeItems)}</div>
+      </div>
+    `;
+  }
+
+  function renderExtraEnglishCard() {
+    if (!state.extraStudy.englishItems.length) return "";
+    return `
+      <div class="card extra-card">
+        <div class="card-title">추가 요청 영어 (${state.extraStudy.englishItems.length}개)</div>
+        <div class="word-list">${renderEnglishDailyItems(state.extraStudy.englishItems, undefined, "extra-english")}</div>
+      </div>
+    `;
+  }
+
   function getDerived(prog, errors, knowledge, englishDaily) {
     const day = prog.current_day || 0;
     const nextDay = Math.max(1, day || 1);
@@ -667,7 +887,7 @@
           <div class="hero-top">
             <div>
               <h2 class="hero-title">오늘 볼 것</h2>
-              <p class="hero-sub">상식 3개와 영어 단어 10개를 날짜별 기록으로 관리합니다.</p>
+              <p class="hero-sub">상식은 초·중·고 2개씩, 영어는 초·중·고 5개씩 날짜별로 관리합니다.</p>
             </div>
             <span class="pill primary">오늘</span>
           </div>
@@ -688,13 +908,15 @@
           <div class="action-row">
             <button class="action-link primary" type="button" data-view-target="knowledge">상식 보기</button>
             <button class="action-link" type="button" data-view-target="english">영어 보기</button>
+            <button class="action-link" type="button" data-action="request-extra" data-extra-kind="both">추가 학습 요청</button>
           </div>
+          ${renderExtraStatus()}
         </div>
 
         <div class="card knowledge-preview">
           <div class="card-title">${escapeHtml(d.latestKnowledge.title || "오늘의 상식")}</div>
           <div class="knowledge-list">
-            ${renderKnowledgeItems(d.knowledgeItems, 3)}
+            ${renderKnowledgeItems(d.knowledgeItems)}
           </div>
           <div class="updated-at">업데이트: ${updated}</div>
         </div>
@@ -702,9 +924,12 @@
         <div class="card compact">
           <div class="card-title">${escapeHtml(d.latestEnglish.title || "오늘의 영어 단어")}</div>
           <div class="word-list">
-            ${renderEnglishDailyItems(d.englishItems, 10, d.latestEnglish.date || "today")}
+            ${renderEnglishDailyItems(d.englishItems, undefined, d.latestEnglish.date || "today")}
           </div>
         </div>
+
+        ${renderExtraKnowledgeCard()}
+        ${renderExtraEnglishCard()}
 
         <div class="card compact">
           <div class="card-title">영어 진도</div>
@@ -735,14 +960,21 @@
               <h2 class="hero-title">오늘의 영어 단어</h2>
               <p class="hero-sub">${escapeHtml(d.latestEnglish.date || "-")} 기준 ${d.englishItems.length}개</p>
             </div>
-            <span class="pill green">10개</span>
+            <span class="pill green">15개</span>
           </div>
+          <div class="action-row">
+            <button class="action-link primary" type="button" data-action="request-extra" data-extra-kind="english">추가 단어 요청</button>
+            <button class="action-link" type="button" data-action="refresh">새로고침</button>
+          </div>
+          ${renderExtraStatus()}
         </div>
 
         <div class="card">
           <div class="card-title">${escapeHtml(d.latestEnglish.title || "오늘의 영어 단어")}</div>
           <div class="word-list">${renderEnglishDailyItems(d.englishItems, undefined, d.latestEnglish.date || "latest-english")}</div>
         </div>
+
+        ${renderExtraEnglishCard()}
 
         <div class="card">
           <div class="card-title">날짜별 영어 단어</div>
@@ -848,14 +1080,21 @@
               <h2 class="hero-title">오늘의 상식</h2>
               <p class="hero-sub">${escapeHtml(d.latestKnowledge.date || "-")} 기준 ${d.knowledgeItems.length}개</p>
             </div>
-            <span class="pill accent">3개</span>
+            <span class="pill accent">6개</span>
           </div>
+          <div class="action-row">
+            <button class="action-link primary" type="button" data-action="request-extra" data-extra-kind="knowledge">추가 상식 요청</button>
+            <button class="action-link" type="button" data-action="refresh">새로고침</button>
+          </div>
+          ${renderExtraStatus()}
         </div>
 
         <div class="card">
           <div class="card-title">${escapeHtml(d.latestKnowledge.title || "오늘의 상식")}</div>
           <div class="knowledge-list">${renderKnowledgeItems(d.knowledgeItems)}</div>
         </div>
+
+        ${renderExtraKnowledgeCard()}
 
         <div class="card">
           <div class="card-title">날짜별 상식 목록</div>
@@ -892,15 +1131,18 @@
 
     try {
       state.localWrongWords = readLocalWrongWords();
-      const [prog, errors, knowledge, englishDaily, supabaseConfig] = await Promise.all([
+      state.extraStudy = readExtraStudy();
+      const [prog, errors, knowledge, englishDaily, knowledgePool, englishSource, supabaseConfig] = await Promise.all([
         loadJSON(FILES.progress),
         loadJSON(FILES.errors),
         loadJSON(FILES.knowledge, { updated_at: "", entries: [] }),
         loadJSON(FILES.englishDaily, { updated_at: "", entries: [] }),
+        loadJSON(FILES.knowledgePool, { items: [] }),
+        loadJSON(FILES.englishSource, { words: [] }),
         loadJSON(FILES.supabaseConfig, { enabled: false })
       ]);
 
-      state.data = { prog, errors, knowledge, englishDaily };
+      state.data = { prog, errors, knowledge, englishDaily, knowledgePool, englishSource };
       await initSync(supabaseConfig);
       renderDashboard();
     } catch (e) {
@@ -1046,6 +1288,13 @@
         } catch (e) {
           console.warn("오답노트 변경 실패", e);
         }
+        return;
+      }
+
+      const extraRequest = event.target.closest("[data-action='request-extra']");
+      if (extraRequest) {
+        requestExtraStudy(extraRequest.dataset.extraKind || "both");
+        renderDashboard();
         return;
       }
 

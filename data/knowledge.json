@@ -1,6 +1,6 @@
 {
   "updated_at": "2026-04-26",
-  "default_daily_count": 3,
+  "default_daily_count": 6,
   "entries": [
     {
       "date": "2026-04-26",
@@ -17,7 +17,8 @@
               "label": "NOAA Ocean Service",
               "url": "https://oceanservice.noaa.gov/facts/tides.html"
             }
-          ]
+          ],
+          "difficulty": "초급"
         },
         {
           "source_id": "space-sky-blue-scattering",
@@ -30,7 +31,8 @@
               "label": "NASA Space Place",
               "url": "https://spaceplace.nasa.gov/blue-sky/en/"
             }
-          ]
+          ],
+          "difficulty": "초급"
         },
         {
           "source_id": "measurement-si-seven-base-units",
@@ -43,7 +45,8 @@
               "label": "NIST SI Units",
               "url": "https://www.nist.gov/pml/owm/metric-si/si-units"
             }
-          ]
+          ],
+          "difficulty": "초급"
         }
       ]
     },
@@ -65,7 +68,9 @@
               "label": "Britannica",
               "url": "https://www.britannica.com/science/Why-Does-Ice-Float-on-Water"
             }
-          ]
+          ],
+          "source_id": "science-water-expands-when-frozen",
+          "difficulty": "초급"
         },
         {
           "category": "언어",
@@ -77,7 +82,9 @@
               "label": "Online Etymology Dictionary",
               "url": "https://www.etymonline.com/word/breakfast"
             }
-          ]
+          ],
+          "source_id": "language-breakfast-breaks-fast",
+          "difficulty": "초급"
         },
         {
           "category": "생활",
@@ -93,9 +100,16 @@
               "label": "UMN Extension Eggs",
               "url": "https://extension.umn.edu/node/4581"
             }
-          ]
+          ],
+          "source_id": "life-fridge-door-temperature",
+          "difficulty": "초급"
         }
       ]
     }
-  ]
+  ],
+  "daily_by_difficulty": {
+    "초급": 2,
+    "중급": 2,
+    "고급": 2
+  }
 }

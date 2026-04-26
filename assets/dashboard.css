@@ -325,7 +325,7 @@ a {
 
 .action-row {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: repeat(auto-fit, minmax(130px, 1fr));
   gap: 8px;
 }
 
@@ -381,6 +381,40 @@ a {
   display: flex;
   align-items: center;
   gap: 10px;
+}
+
+.meta-row,
+.word-title-row {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 6px;
+}
+
+.difficulty-tag {
+  display: inline-flex;
+  align-items: center;
+  min-height: 22px;
+  border-radius: 8px;
+  font-size: 0.68rem;
+  font-weight: 950;
+  line-height: 1;
+  padding: 4px 7px;
+}
+
+.difficulty-tag.basic {
+  background: #e7f6ee;
+  color: #1f7a45;
+}
+
+.difficulty-tag.mid {
+  background: #fff5d6;
+  color: #8a5a00;
+}
+
+.difficulty-tag.high {
+  background: #f2e9ff;
+  color: #6842a0;
 }
 
 .knowledge-category {
@@ -461,6 +495,18 @@ a {
   font-size: 1rem;
   font-weight: 950;
   line-height: 1.2;
+}
+
+.extra-card {
+  border-color: #d7c7ef;
+}
+
+.extra-status {
+  color: var(--primary-dark);
+  font-size: 0.82rem;
+  font-weight: 800;
+  line-height: 1.45;
+  margin-top: 10px;
 }
 
 .word-meaning {

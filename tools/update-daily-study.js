@@ -5,6 +5,10 @@ const root = path.resolve(__dirname, "..");
 const dryRun = process.argv.includes("--dry-run");
 const printDate = process.argv.includes("--print-date");
 
+const DIFFICULTIES = ["초급", "중급", "고급"];
+const DEFAULT_KNOWLEDGE_QUOTA = { "초급": 2, "중급": 2, "고급": 2 };
+const DEFAULT_ENGLISH_QUOTA = { "초급": 5, "중급": 5, "고급": 5 };
+
 const paths = {
   knowledge: path.join(root, "data", "knowledge.json"),
   knowledgePool: path.join(root, "data", "knowledge_pool.json"),
@@ -39,13 +43,70 @@ function normalizeKey(value) {
   return String(value || "").trim().toLowerCase();
 }
 
+function normalizeDifficulty(value) {
+  const text = String(value || "").trim().toLowerCase();
+  if (["beginner", "basic", "easy", "초", "초급"].includes(text)) return "초급";
+  if (["intermediate", "medium", "mid", "중", "중급"].includes(text)) return "중급";
+  if (["advanced", "hard", "high", "고", "고급"].includes(text)) return "고급";
+  return "초급";
+}
+
 function getEntryItems(entry) {
   return Array.isArray(entry?.items) ? entry.items : [];
+}
+
+function getQuotaMap(source, fallback) {
+  const result = {};
+  DIFFICULTIES.forEach((difficulty) => {
+    result[difficulty] = Number(source?.[difficulty] || fallback[difficulty] || 0);
+  });
+  return result;
+}
+
+function quotaTotal(quota) {
+  return DIFFICULTIES.reduce((sum, difficulty) => sum + Number(quota[difficulty] || 0), 0);
+}
+
+function pickByDifficulty(items, quota, used, keyFns) {
+  const picked = [];
+  const pickedKeys = new Set();
+
+  for (const difficulty of DIFFICULTIES) {
+    let count = 0;
+    for (const item of items) {
+      if (normalizeDifficulty(item.difficulty) !== difficulty) continue;
+
+      const keys = keyFns.flatMap((fn) => {
+        const value = fn(item);
+        return Array.isArray(value) ? value : [value];
+      }).map(normalizeKey).filter(Boolean);
+
+      if (!keys.length || keys.some((key) => used.has(key) || pickedKeys.has(key))) continue;
+
+      picked.push(item);
+      keys.forEach((key) => pickedKeys.add(key));
+      count += 1;
+      if (count >= quota[difficulty]) break;
+    }
+
+    if (count < quota[difficulty]) {
+      return {
+        ok: false,
+        difficulty,
+        needed: quota[difficulty],
+        found: count,
+        picked
+      };
+    }
+  }
+
+  return { ok: true, picked };
 }
 
 function cloneKnowledgeItem(item) {
   return {
     source_id: item.id,
+    difficulty: normalizeDifficulty(item.difficulty),
     category: item.category,
     title: item.title,
     body: item.body,
@@ -59,12 +120,13 @@ function updateKnowledge(date) {
   const pool = readJson(paths.knowledgePool);
   knowledge.entries = Array.isArray(knowledge.entries) ? knowledge.entries : [];
 
-  const dailyCount = Number(knowledge.default_daily_count || pool.daily_count || 3);
   const existing = knowledge.entries.find((entry) => entry.date === date);
-  if (existing && getEntryItems(existing).length >= dailyCount) {
+  if (existing) {
     return { changed: false, reason: "knowledge already exists", picked: [] };
   }
 
+  const quota = getQuotaMap(knowledge.daily_by_difficulty || pool.daily_by_difficulty, DEFAULT_KNOWLEDGE_QUOTA);
+  const dailyCount = quotaTotal(quota);
   const used = new Set();
   knowledge.entries.forEach((entry) => {
     getEntryItems(entry).forEach((item) => {
@@ -75,43 +137,36 @@ function updateKnowledge(date) {
     });
   });
 
-  const picked = [];
-  for (const item of pool.items || []) {
-    const key = normalizeKey(item.id || item.title);
-    const titleKey = normalizeKey(item.title);
-    if (!key || used.has(key) || used.has(titleKey)) continue;
-    picked.push(item);
-    if (picked.length === dailyCount) break;
-  }
+  const picked = pickByDifficulty(pool.items || [], quota, used, [
+    (item) => item.id,
+    (item) => item.title
+  ]);
 
-  if (picked.length < dailyCount) {
+  if (!picked.ok) {
     return {
       changed: false,
-      reason: `knowledge pool needs refill: ${picked.length}/${dailyCount}`,
-      picked: picked.map((item) => item.title)
+      reason: `knowledge pool needs refill: ${picked.difficulty} ${picked.found}/${picked.needed}`,
+      picked: picked.picked.map((item) => item.title)
     };
   }
 
   const entry = {
     date,
-    title: `${date.replace(/-/g, ".")} 상식`,
-    items: picked.map(cloneKnowledgeItem)
+    title: `${date.replace(/-/g, ".")} 난이도별 상식 ${dailyCount}개`,
+    items: picked.picked.map(cloneKnowledgeItem)
   };
 
-  const index = knowledge.entries.findIndex((item) => item.date === date);
-  if (index >= 0) {
-    knowledge.entries[index] = entry;
-  } else {
-    knowledge.entries.unshift(entry);
-  }
+  knowledge.entries.unshift(entry);
   knowledge.updated_at = date;
+  knowledge.default_daily_count = dailyCount;
+  knowledge.daily_by_difficulty = quota;
 
   writeJson(paths.knowledge, knowledge);
 
   return {
     changed: true,
     reason: "knowledge added",
-    picked: picked.map((item) => item.title)
+    picked: picked.picked.map((item) => `${normalizeDifficulty(item.difficulty)}:${item.title}`)
   };
 }
 
@@ -122,6 +177,7 @@ function oxfordUrl(word) {
 
 function cloneEnglishWord(item) {
   return {
+    difficulty: normalizeDifficulty(item.difficulty),
     word: item.word,
     meaning: item.meaning,
     example: item.example,
@@ -140,12 +196,13 @@ function updateEnglish(date) {
   const source = readJson(paths.englishSource);
   english.entries = Array.isArray(english.entries) ? english.entries : [];
 
-  const dailyCount = Number(english.default_daily_count || 10);
   const existing = english.entries.find((entry) => entry.date === date);
-  if (existing && getEntryItems(existing).length >= dailyCount) {
+  if (existing) {
     return { changed: false, reason: "english already exists", day: existing.day, picked: [] };
   }
 
+  const quota = getQuotaMap(english.daily_by_difficulty || source.daily_by_difficulty, DEFAULT_ENGLISH_QUOTA);
+  const dailyCount = quotaTotal(quota);
   const usedWords = new Set();
   let maxUsedDay = 0;
   english.entries.forEach((entry) => {
@@ -153,44 +210,31 @@ function updateEnglish(date) {
     getEntryItems(entry).forEach((item) => usedWords.add(normalizeKey(item.word)));
   });
 
-  const byDay = new Map();
-  (source.words || []).forEach((item) => {
-    if (!byDay.has(item.day)) byDay.set(item.day, []);
-    byDay.get(item.day).push(item);
-  });
+  const picked = pickByDifficulty(source.words || [], quota, usedWords, [
+    (item) => item.word
+  ]);
 
-  const nextDay = [...byDay.keys()].sort((a, b) => a - b).find((day) => day > maxUsedDay);
-  if (!nextDay) {
-    return { changed: false, reason: "english pool needs refill", day: null, picked: [] };
-  }
-
-  const picked = (byDay.get(nextDay) || [])
-    .filter((item) => !usedWords.has(normalizeKey(item.word)))
-    .slice(0, dailyCount);
-
-  if (picked.length < dailyCount) {
+  if (!picked.ok) {
     return {
       changed: false,
-      reason: `english day ${nextDay} has only ${picked.length}/${dailyCount} unused words`,
-      day: nextDay,
-      picked: picked.map((item) => item.word)
+      reason: `english pool needs refill: ${picked.difficulty} ${picked.found}/${picked.needed}`,
+      day: null,
+      picked: picked.picked.map((item) => item.word)
     };
   }
 
+  const nextDay = maxUsedDay + 1;
   const entry = {
     date,
     day: nextDay,
-    title: `Day ${nextDay} 기본 동사/형용사 ${dailyCount}개`,
-    items: picked.map(cloneEnglishWord)
+    title: `Day ${nextDay} 난이도별 영단어 ${dailyCount}개`,
+    items: picked.picked.map(cloneEnglishWord)
   };
 
-  const index = english.entries.findIndex((item) => item.date === date);
-  if (index >= 0) {
-    english.entries[index] = entry;
-  } else {
-    english.entries.unshift(entry);
-  }
+  english.entries.unshift(entry);
   english.updated_at = date;
+  english.default_daily_count = dailyCount;
+  english.daily_by_difficulty = quota;
 
   writeJson(paths.english, english);
 
@@ -198,7 +242,7 @@ function updateEnglish(date) {
     changed: true,
     reason: "english added",
     day: nextDay,
-    picked: picked.map((item) => item.word)
+    picked: picked.picked.map((item) => `${normalizeDifficulty(item.difficulty)}:${item.word}`)
   };
 }
 

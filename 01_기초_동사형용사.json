@@ -1,107 +1,1207 @@
 {
-  "category": "기초 동사/형용사",
-  "day_range": "Day 1~10",
-  "total_words": 100,
+  "category": "난이도별 핵심 영어",
+  "day_range": "Pool 1~12",
+  "total_words": 170,
   "words": [
-    {"day": 1, "word": "accept", "meaning": "받아들이다", "example": "I accept your offer."},
-    {"day": 1, "word": "achieve", "meaning": "성취하다", "example": "She achieved her goal."},
-    {"day": 1, "word": "act", "meaning": "행동하다", "example": "Act quickly in emergencies."},
-    {"day": 1, "word": "add", "meaning": "추가하다", "example": "Add more details please."},
-    {"day": 1, "word": "admit", "meaning": "인정하다", "example": "He admitted his mistake."},
-    {"day": 1, "word": "advise", "meaning": "조언하다", "example": "I advise you to rest."},
-    {"day": 1, "word": "agree", "meaning": "동의하다", "example": "I agree with you."},
-    {"day": 1, "word": "allow", "meaning": "허락하다", "example": "Allow me to explain."},
-    {"day": 1, "word": "answer", "meaning": "대답하다", "example": "Please answer the question."},
-    {"day": 1, "word": "appear", "meaning": "나타나다", "example": "She appeared suddenly."},
-    {"day": 2, "word": "apply", "meaning": "지원하다", "example": "Apply for the job."},
-    {"day": 2, "word": "arrange", "meaning": "준비하다", "example": "Arrange the meeting please."},
-    {"day": 2, "word": "ask", "meaning": "묻다", "example": "Ask me anything."},
-    {"day": 2, "word": "avoid", "meaning": "피하다", "example": "Avoid making mistakes."},
-    {"day": 2, "word": "begin", "meaning": "시작하다", "example": "Let's begin the meeting."},
-    {"day": 2, "word": "believe", "meaning": "믿다", "example": "I believe in you."},
-    {"day": 2, "word": "belong", "meaning": "속하다", "example": "This belongs to me."},
-    {"day": 2, "word": "break", "meaning": "부수다", "example": "Don't break the rules."},
-    {"day": 2, "word": "bring", "meaning": "가져오다", "example": "Bring your ID card."},
-    {"day": 2, "word": "build", "meaning": "짓다", "example": "Build a strong team."},
-    {"day": 3, "word": "buy", "meaning": "사다", "example": "Buy the ticket online."},
-    {"day": 3, "word": "call", "meaning": "부르다", "example": "Call me anytime."},
-    {"day": 3, "word": "carry", "meaning": "들다", "example": "Carry your passport always."},
-    {"day": 3, "word": "catch", "meaning": "잡다", "example": "Catch the early flight."},
-    {"day": 3, "word": "cause", "meaning": "야기하다", "example": "What caused the delay?"},
-    {"day": 3, "word": "change", "meaning": "바꾸다", "example": "Change your password regularly."},
-    {"day": 3, "word": "check", "meaning": "확인하다", "example": "Check the schedule again."},
-    {"day": 3, "word": "choose", "meaning": "선택하다", "example": "Choose your words carefully."},
-    {"day": 3, "word": "claim", "meaning": "주장하다", "example": "She claims to be right."},
-    {"day": 3, "word": "clean", "meaning": "청소하다", "example": "Clean the workspace daily."},
-    {"day": 4, "word": "close", "meaning": "닫다", "example": "Close the door please."},
-    {"day": 4, "word": "collect", "meaning": "모으다", "example": "Collect all the documents."},
-    {"day": 4, "word": "come", "meaning": "오다", "example": "Come to the office."},
-    {"day": 4, "word": "compare", "meaning": "비교하다", "example": "Compare the two options."},
-    {"day": 4, "word": "complete", "meaning": "완료하다", "example": "Complete the form online."},
-    {"day": 4, "word": "confirm", "meaning": "확인하다", "example": "Confirm your reservation now."},
-    {"day": 4, "word": "connect", "meaning": "연결하다", "example": "Connect the devices together."},
-    {"day": 4, "word": "consider", "meaning": "고려하다", "example": "Consider all the options."},
-    {"day": 4, "word": "contact", "meaning": "연락하다", "example": "Contact us for help."},
-    {"day": 4, "word": "continue", "meaning": "계속하다", "example": "Continue your great work."},
-    {"day": 5, "word": "control", "meaning": "통제하다", "example": "Control the situation calmly."},
-    {"day": 5, "word": "copy", "meaning": "복사하다", "example": "Copy the important files."},
-    {"day": 5, "word": "count", "meaning": "세다", "example": "Count the items carefully."},
-    {"day": 5, "word": "cover", "meaning": "다루다", "example": "Cover all the topics."},
-    {"day": 5, "word": "create", "meaning": "만들다", "example": "Create a new account."},
-    {"day": 5, "word": "cut", "meaning": "자르다", "example": "Cut the unnecessary parts."},
-    {"day": 5, "word": "deal", "meaning": "다루다", "example": "Deal with the problem."},
-    {"day": 5, "word": "decide", "meaning": "결정하다", "example": "Decide before the deadline."},
-    {"day": 5, "word": "define", "meaning": "정의하다", "example": "Define your goals clearly."},
-    {"day": 5, "word": "deliver", "meaning": "전달하다", "example": "Deliver the package today."},
-    {"day": 6, "word": "describe", "meaning": "묘사하다", "example": "Describe the situation clearly."},
-    {"day": 6, "word": "design", "meaning": "설계하다", "example": "Design a better system."},
-    {"day": 6, "word": "develop", "meaning": "개발하다", "example": "Develop new skills daily."},
-    {"day": 6, "word": "discuss", "meaning": "논의하다", "example": "Discuss the plan together."},
-    {"day": 6, "word": "do", "meaning": "하다", "example": "Do your best always."},
-    {"day": 6, "word": "drive", "meaning": "운전하다", "example": "Drive carefully on highways."},
-    {"day": 6, "word": "drop", "meaning": "떨어뜨리다", "example": "Don't drop the ball."},
-    {"day": 6, "word": "earn", "meaning": "벌다", "example": "Earn trust through actions."},
-    {"day": 6, "word": "eat", "meaning": "먹다", "example": "Eat before the meeting."},
-    {"day": 6, "word": "enable", "meaning": "가능하게하다", "example": "Enable the new feature."},
-    {"day": 7, "word": "end", "meaning": "끝내다", "example": "End the meeting on time."},
-    {"day": 7, "word": "enjoy", "meaning": "즐기다", "example": "Enjoy your business trip."},
-    {"day": 7, "word": "enter", "meaning": "입력하다", "example": "Enter your password here."},
-    {"day": 7, "word": "establish", "meaning": "설립하다", "example": "Establish clear guidelines first."},
-    {"day": 7, "word": "evaluate", "meaning": "평가하다", "example": "Evaluate the results carefully."},
-    {"day": 7, "word": "expect", "meaning": "기대하다", "example": "I expect good results."},
-    {"day": 7, "word": "explain", "meaning": "설명하다", "example": "Explain your reasoning clearly."},
-    {"day": 7, "word": "express", "meaning": "표현하다", "example": "Express your opinion freely."},
-    {"day": 7, "word": "extend", "meaning": "연장하다", "example": "Extend the deadline please."},
-    {"day": 7, "word": "face", "meaning": "직면하다", "example": "Face the challenge head-on."},
-    {"day": 8, "word": "fail", "meaning": "실패하다", "example": "Fail fast and learn."},
-    {"day": 8, "word": "find", "meaning": "찾다", "example": "Find a better solution."},
-    {"day": 8, "word": "finish", "meaning": "끝내다", "example": "Finish the report today."},
-    {"day": 8, "word": "fix", "meaning": "고치다", "example": "Fix the technical issue."},
-    {"day": 8, "word": "focus", "meaning": "집중하다", "example": "Focus on your priorities."},
-    {"day": 8, "word": "follow", "meaning": "따르다", "example": "Follow the instructions carefully."},
-    {"day": 8, "word": "forget", "meaning": "잊다", "example": "Don't forget the meeting."},
-    {"day": 8, "word": "get", "meaning": "얻다", "example": "Get the approval first."},
-    {"day": 8, "word": "give", "meaning": "주다", "example": "Give clear instructions always."},
-    {"day": 8, "word": "go", "meaning": "가다", "example": "Go to the conference."},
-    {"day": 9, "word": "grow", "meaning": "성장하다", "example": "Grow your professional network."},
-    {"day": 9, "word": "handle", "meaning": "처리하다", "example": "Handle complaints professionally."},
-    {"day": 9, "word": "happen", "meaning": "일어나다", "example": "What happened at the meeting?"},
-    {"day": 9, "word": "have", "meaning": "가지다", "example": "Have a backup plan."},
-    {"day": 9, "word": "hear", "meaning": "듣다", "example": "Hear both sides first."},
-    {"day": 9, "word": "help", "meaning": "돕다", "example": "Help your team members."},
-    {"day": 9, "word": "hold", "meaning": "잡다", "example": "Hold the line please."},
-    {"day": 9, "word": "identify", "meaning": "식별하다", "example": "Identify the root cause."},
-    {"day": 9, "word": "improve", "meaning": "향상시키다", "example": "Improve your communication skills."},
-    {"day": 9, "word": "include", "meaning": "포함하다", "example": "Include all relevant details."},
-    {"day": 10, "word": "increase", "meaning": "증가하다", "example": "Increase your productivity daily."},
-    {"day": 10, "word": "inform", "meaning": "알리다", "example": "Inform the team immediately."},
-    {"day": 10, "word": "join", "meaning": "참가하다", "example": "Join the conference call."},
-    {"day": 10, "word": "keep", "meaning": "유지하다", "example": "Keep your promises always."},
-    {"day": 10, "word": "know", "meaning": "알다", "example": "Know your audience well."},
-    {"day": 10, "word": "learn", "meaning": "배우다", "example": "Learn from every experience."},
-    {"day": 10, "word": "leave", "meaning": "떠나다", "example": "Leave early to avoid traffic."},
-    {"day": 10, "word": "let", "meaning": "허락하다", "example": "Let me know your thoughts."},
-    {"day": 10, "word": "like", "meaning": "좋아하다", "example": "I like this approach."},
-    {"day": 10, "word": "listen", "meaning": "듣다", "example": "Listen to understand not reply."}
-  ]
+    {
+      "day": 1,
+      "word": "accept",
+      "meaning": "받아들이다",
+      "example": "I accept your offer.",
+      "difficulty": "초급"
+    },
+    {
+      "day": 1,
+      "word": "achieve",
+      "meaning": "성취하다",
+      "example": "She achieved her goal.",
+      "difficulty": "초급"
+    },
+    {
+      "day": 1,
+      "word": "act",
+      "meaning": "행동하다",
+      "example": "Act quickly in emergencies.",
+      "difficulty": "초급"
+    },
+    {
+      "day": 1,
+      "word": "add",
+      "meaning": "추가하다",
+      "example": "Add more details please.",
+      "difficulty": "초급"
+    },
+    {
+      "day": 1,
+      "word": "admit",
+      "meaning": "인정하다",
+      "example": "He admitted his mistake.",
+      "difficulty": "초급"
+    },
+    {
+      "day": 1,
+      "word": "advise",
+      "meaning": "조언하다",
+      "example": "I advise you to rest.",
+      "difficulty": "초급"
+    },
+    {
+      "day": 1,
+      "word": "agree",
+      "meaning": "동의하다",
+      "example": "I agree with you.",
+      "difficulty": "초급"
+    },
+    {
+      "day": 1,
+      "word": "allow",
+      "meaning": "허락하다",
+      "example": "Allow me to explain.",
+      "difficulty": "초급"
+    },
+    {
+      "day": 1,
+      "word": "answer",
+      "meaning": "대답하다",
+      "example": "Please answer the question.",
+      "difficulty": "초급"
+    },
+    {
+      "day": 1,
+      "word": "appear",
+      "meaning": "나타나다",
+      "example": "She appeared suddenly.",
+      "difficulty": "초급"
+    },
+    {
+      "day": 2,
+      "word": "apply",
+      "meaning": "지원하다",
+      "example": "Apply for the job.",
+      "difficulty": "초급"
+    },
+    {
+      "day": 2,
+      "word": "arrange",
+      "meaning": "준비하다",
+      "example": "Arrange the meeting please.",
+      "difficulty": "초급"
+    },
+    {
+      "day": 2,
+      "word": "ask",
+      "meaning": "묻다",
+      "example": "Ask me anything.",
+      "difficulty": "초급"
+    },
+    {
+      "day": 2,
+      "word": "avoid",
+      "meaning": "피하다",
+      "example": "Avoid making mistakes.",
+      "difficulty": "초급"
+    },
+    {
+      "day": 2,
+      "word": "begin",
+      "meaning": "시작하다",
+      "example": "Let's begin the meeting.",
+      "difficulty": "초급"
+    },
+    {
+      "day": 2,
+      "word": "believe",
+      "meaning": "믿다",
+      "example": "I believe in you.",
+      "difficulty": "초급"
+    },
+    {
+      "day": 2,
+      "word": "belong",
+      "meaning": "속하다",
+      "example": "This belongs to me.",
+      "difficulty": "초급"
+    },
+    {
+      "day": 2,
+      "word": "break",
+      "meaning": "부수다",
+      "example": "Don't break the rules.",
+      "difficulty": "초급"
+    },
+    {
+      "day": 2,
+      "word": "bring",
+      "meaning": "가져오다",
+      "example": "Bring your ID card.",
+      "difficulty": "초급"
+    },
+    {
+      "day": 2,
+      "word": "build",
+      "meaning": "짓다",
+      "example": "Build a strong team.",
+      "difficulty": "초급"
+    },
+    {
+      "day": 3,
+      "word": "buy",
+      "meaning": "사다",
+      "example": "Buy the ticket online.",
+      "difficulty": "초급"
+    },
+    {
+      "day": 3,
+      "word": "call",
+      "meaning": "부르다",
+      "example": "Call me anytime.",
+      "difficulty": "초급"
+    },
+    {
+      "day": 3,
+      "word": "carry",
+      "meaning": "들다",
+      "example": "Carry your passport always.",
+      "difficulty": "초급"
+    },
+    {
+      "day": 3,
+      "word": "catch",
+      "meaning": "잡다",
+      "example": "Catch the early flight.",
+      "difficulty": "초급"
+    },
+    {
+      "day": 3,
+      "word": "cause",
+      "meaning": "야기하다",
+      "example": "What caused the delay?",
+      "difficulty": "초급"
+    },
+    {
+      "day": 3,
+      "word": "change",
+      "meaning": "바꾸다",
+      "example": "Change your password regularly.",
+      "difficulty": "초급"
+    },
+    {
+      "day": 3,
+      "word": "check",
+      "meaning": "확인하다",
+      "example": "Check the schedule again.",
+      "difficulty": "초급"
+    },
+    {
+      "day": 3,
+      "word": "choose",
+      "meaning": "선택하다",
+      "example": "Choose your words carefully.",
+      "difficulty": "초급"
+    },
+    {
+      "day": 3,
+      "word": "claim",
+      "meaning": "주장하다",
+      "example": "She claims to be right.",
+      "difficulty": "초급"
+    },
+    {
+      "day": 3,
+      "word": "clean",
+      "meaning": "청소하다",
+      "example": "Clean the workspace daily.",
+      "difficulty": "초급"
+    },
+    {
+      "day": 4,
+      "word": "close",
+      "meaning": "닫다",
+      "example": "Close the door please.",
+      "difficulty": "초급"
+    },
+    {
+      "day": 4,
+      "word": "collect",
+      "meaning": "모으다",
+      "example": "Collect all the documents.",
+      "difficulty": "초급"
+    },
+    {
+      "day": 4,
+      "word": "come",
+      "meaning": "오다",
+      "example": "Come to the office.",
+      "difficulty": "초급"
+    },
+    {
+      "day": 4,
+      "word": "compare",
+      "meaning": "비교하다",
+      "example": "Compare the two options.",
+      "difficulty": "초급"
+    },
+    {
+      "day": 4,
+      "word": "complete",
+      "meaning": "완료하다",
+      "example": "Complete the form online.",
+      "difficulty": "초급"
+    },
+    {
+      "day": 4,
+      "word": "confirm",
+      "meaning": "확인하다",
+      "example": "Confirm your reservation now.",
+      "difficulty": "초급"
+    },
+    {
+      "day": 4,
+      "word": "connect",
+      "meaning": "연결하다",
+      "example": "Connect the devices together.",
+      "difficulty": "초급"
+    },
+    {
+      "day": 4,
+      "word": "consider",
+      "meaning": "고려하다",
+      "example": "Consider all the options.",
+      "difficulty": "초급"
+    },
+    {
+      "day": 4,
+      "word": "contact",
+      "meaning": "연락하다",
+      "example": "Contact us for help.",
+      "difficulty": "초급"
+    },
+    {
+      "day": 4,
+      "word": "continue",
+      "meaning": "계속하다",
+      "example": "Continue your great work.",
+      "difficulty": "초급"
+    },
+    {
+      "day": 5,
+      "word": "control",
+      "meaning": "통제하다",
+      "example": "Control the situation calmly.",
+      "difficulty": "초급"
+    },
+    {
+      "day": 5,
+      "word": "copy",
+      "meaning": "복사하다",
+      "example": "Copy the important files.",
+      "difficulty": "초급"
+    },
+    {
+      "day": 5,
+      "word": "count",
+      "meaning": "세다",
+      "example": "Count the items carefully.",
+      "difficulty": "초급"
+    },
+    {
+      "day": 5,
+      "word": "cover",
+      "meaning": "다루다",
+      "example": "Cover all the topics.",
+      "difficulty": "초급"
+    },
+    {
+      "day": 5,
+      "word": "create",
+      "meaning": "만들다",
+      "example": "Create a new account.",
+      "difficulty": "초급"
+    },
+    {
+      "day": 5,
+      "word": "cut",
+      "meaning": "자르다",
+      "example": "Cut the unnecessary parts.",
+      "difficulty": "초급"
+    },
+    {
+      "day": 5,
+      "word": "deal",
+      "meaning": "다루다",
+      "example": "Deal with the problem.",
+      "difficulty": "초급"
+    },
+    {
+      "day": 5,
+      "word": "decide",
+      "meaning": "결정하다",
+      "example": "Decide before the deadline.",
+      "difficulty": "초급"
+    },
+    {
+      "day": 5,
+      "word": "define",
+      "meaning": "정의하다",
+      "example": "Define your goals clearly.",
+      "difficulty": "초급"
+    },
+    {
+      "day": 5,
+      "word": "deliver",
+      "meaning": "전달하다",
+      "example": "Deliver the package today.",
+      "difficulty": "초급"
+    },
+    {
+      "day": 6,
+      "word": "describe",
+      "meaning": "묘사하다",
+      "example": "Describe the situation clearly.",
+      "difficulty": "초급"
+    },
+    {
+      "day": 6,
+      "word": "design",
+      "meaning": "설계하다",
+      "example": "Design a better system.",
+      "difficulty": "초급"
+    },
+    {
+      "day": 6,
+      "word": "develop",
+      "meaning": "개발하다",
+      "example": "Develop new skills daily.",
+      "difficulty": "초급"
+    },
+    {
+      "day": 6,
+      "word": "discuss",
+      "meaning": "논의하다",
+      "example": "Discuss the plan together.",
+      "difficulty": "초급"
+    },
+    {
+      "day": 6,
+      "word": "do",
+      "meaning": "하다",
+      "example": "Do your best always.",
+      "difficulty": "초급"
+    },
+    {
+      "day": 6,
+      "word": "drive",
+      "meaning": "운전하다",
+      "example": "Drive carefully on highways.",
+      "difficulty": "초급"
+    },
+    {
+      "day": 6,
+      "word": "drop",
+      "meaning": "떨어뜨리다",
+      "example": "Don't drop the ball.",
+      "difficulty": "초급"
+    },
+    {
+      "day": 6,
+      "word": "earn",
+      "meaning": "벌다",
+      "example": "Earn trust through actions.",
+      "difficulty": "초급"
+    },
+    {
+      "day": 6,
+      "word": "eat",
+      "meaning": "먹다",
+      "example": "Eat before the meeting.",
+      "difficulty": "초급"
+    },
+    {
+      "day": 6,
+      "word": "enable",
+      "meaning": "가능하게하다",
+      "example": "Enable the new feature.",
+      "difficulty": "초급"
+    },
+    {
+      "day": 7,
+      "word": "end",
+      "meaning": "끝내다",
+      "example": "End the meeting on time.",
+      "difficulty": "초급"
+    },
+    {
+      "day": 7,
+      "word": "enjoy",
+      "meaning": "즐기다",
+      "example": "Enjoy your business trip.",
+      "difficulty": "초급"
+    },
+    {
+      "day": 7,
+      "word": "enter",
+      "meaning": "입력하다",
+      "example": "Enter your password here.",
+      "difficulty": "초급"
+    },
+    {
+      "day": 7,
+      "word": "establish",
+      "meaning": "설립하다",
+      "example": "Establish clear guidelines first.",
+      "difficulty": "초급"
+    },
+    {
+      "day": 7,
+      "word": "evaluate",
+      "meaning": "평가하다",
+      "example": "Evaluate the results carefully.",
+      "difficulty": "초급"
+    },
+    {
+      "day": 7,
+      "word": "expect",
+      "meaning": "기대하다",
+      "example": "I expect good results.",
+      "difficulty": "초급"
+    },
+    {
+      "day": 7,
+      "word": "explain",
+      "meaning": "설명하다",
+      "example": "Explain your reasoning clearly.",
+      "difficulty": "초급"
+    },
+    {
+      "day": 7,
+      "word": "express",
+      "meaning": "표현하다",
+      "example": "Express your opinion freely.",
+      "difficulty": "초급"
+    },
+    {
+      "day": 7,
+      "word": "extend",
+      "meaning": "연장하다",
+      "example": "Extend the deadline please.",
+      "difficulty": "초급"
+    },
+    {
+      "day": 7,
+      "word": "face",
+      "meaning": "직면하다",
+      "example": "Face the challenge head-on.",
+      "difficulty": "초급"
+    },
+    {
+      "day": 8,
+      "word": "fail",
+      "meaning": "실패하다",
+      "example": "Fail fast and learn.",
+      "difficulty": "중급"
+    },
+    {
+      "day": 8,
+      "word": "find",
+      "meaning": "찾다",
+      "example": "Find a better solution.",
+      "difficulty": "중급"
+    },
+    {
+      "day": 8,
+      "word": "finish",
+      "meaning": "끝내다",
+      "example": "Finish the report today.",
+      "difficulty": "중급"
+    },
+    {
+      "day": 8,
+      "word": "fix",
+      "meaning": "고치다",
+      "example": "Fix the technical issue.",
+      "difficulty": "중급"
+    },
+    {
+      "day": 8,
+      "word": "focus",
+      "meaning": "집중하다",
+      "example": "Focus on your priorities.",
+      "difficulty": "중급"
+    },
+    {
+      "day": 8,
+      "word": "follow",
+      "meaning": "따르다",
+      "example": "Follow the instructions carefully.",
+      "difficulty": "중급"
+    },
+    {
+      "day": 8,
+      "word": "forget",
+      "meaning": "잊다",
+      "example": "Don't forget the meeting.",
+      "difficulty": "중급"
+    },
+    {
+      "day": 8,
+      "word": "get",
+      "meaning": "얻다",
+      "example": "Get the approval first.",
+      "difficulty": "중급"
+    },
+    {
+      "day": 8,
+      "word": "give",
+      "meaning": "주다",
+      "example": "Give clear instructions always.",
+      "difficulty": "중급"
+    },
+    {
+      "day": 8,
+      "word": "go",
+      "meaning": "가다",
+      "example": "Go to the conference.",
+      "difficulty": "중급"
+    },
+    {
+      "day": 9,
+      "word": "grow",
+      "meaning": "성장하다",
+      "example": "Grow your professional network.",
+      "difficulty": "중급"
+    },
+    {
+      "day": 9,
+      "word": "handle",
+      "meaning": "처리하다",
+      "example": "Handle complaints professionally.",
+      "difficulty": "중급"
+    },
+    {
+      "day": 9,
+      "word": "happen",
+      "meaning": "일어나다",
+      "example": "What happened at the meeting?",
+      "difficulty": "중급"
+    },
+    {
+      "day": 9,
+      "word": "have",
+      "meaning": "가지다",
+      "example": "Have a backup plan.",
+      "difficulty": "중급"
+    },
+    {
+      "day": 9,
+      "word": "hear",
+      "meaning": "듣다",
+      "example": "Hear both sides first.",
+      "difficulty": "중급"
+    },
+    {
+      "day": 9,
+      "word": "help",
+      "meaning": "돕다",
+      "example": "Help your team members.",
+      "difficulty": "중급"
+    },
+    {
+      "day": 9,
+      "word": "hold",
+      "meaning": "잡다",
+      "example": "Hold the line please.",
+      "difficulty": "중급"
+    },
+    {
+      "day": 9,
+      "word": "identify",
+      "meaning": "식별하다",
+      "example": "Identify the root cause.",
+      "difficulty": "중급"
+    },
+    {
+      "day": 9,
+      "word": "improve",
+      "meaning": "향상시키다",
+      "example": "Improve your communication skills.",
+      "difficulty": "중급"
+    },
+    {
+      "day": 9,
+      "word": "include",
+      "meaning": "포함하다",
+      "example": "Include all relevant details.",
+      "difficulty": "중급"
+    },
+    {
+      "day": 10,
+      "word": "increase",
+      "meaning": "증가하다",
+      "example": "Increase your productivity daily.",
+      "difficulty": "중급"
+    },
+    {
+      "day": 10,
+      "word": "inform",
+      "meaning": "알리다",
+      "example": "Inform the team immediately.",
+      "difficulty": "중급"
+    },
+    {
+      "day": 10,
+      "word": "join",
+      "meaning": "참가하다",
+      "example": "Join the conference call.",
+      "difficulty": "중급"
+    },
+    {
+      "day": 10,
+      "word": "keep",
+      "meaning": "유지하다",
+      "example": "Keep your promises always.",
+      "difficulty": "중급"
+    },
+    {
+      "day": 10,
+      "word": "know",
+      "meaning": "알다",
+      "example": "Know your audience well.",
+      "difficulty": "중급"
+    },
+    {
+      "day": 10,
+      "word": "learn",
+      "meaning": "배우다",
+      "example": "Learn from every experience.",
+      "difficulty": "중급"
+    },
+    {
+      "day": 10,
+      "word": "leave",
+      "meaning": "떠나다",
+      "example": "Leave early to avoid traffic.",
+      "difficulty": "중급"
+    },
+    {
+      "day": 10,
+      "word": "let",
+      "meaning": "허락하다",
+      "example": "Let me know your thoughts.",
+      "difficulty": "중급"
+    },
+    {
+      "day": 10,
+      "word": "like",
+      "meaning": "좋아하다",
+      "example": "I like this approach.",
+      "difficulty": "중급"
+    },
+    {
+      "day": 10,
+      "word": "listen",
+      "meaning": "듣다",
+      "example": "Listen to understand not reply.",
+      "difficulty": "중급"
+    },
+    {
+      "day": 11,
+      "difficulty": "중급",
+      "word": "analyze",
+      "meaning": "분석하다",
+      "example": "Analyze the data before deciding."
+    },
+    {
+      "day": 11,
+      "difficulty": "중급",
+      "word": "prioritize",
+      "meaning": "우선순위를 정하다",
+      "example": "Prioritize the most urgent tasks."
+    },
+    {
+      "day": 11,
+      "difficulty": "중급",
+      "word": "resolve",
+      "meaning": "해결하다",
+      "example": "Resolve the issue before launch."
+    },
+    {
+      "day": 11,
+      "difficulty": "중급",
+      "word": "summarize",
+      "meaning": "요약하다",
+      "example": "Summarize the article in three sentences."
+    },
+    {
+      "day": 11,
+      "difficulty": "중급",
+      "word": "interpret",
+      "meaning": "해석하다",
+      "example": "Interpret the results carefully."
+    },
+    {
+      "day": 11,
+      "difficulty": "중급",
+      "word": "assess",
+      "meaning": "평가하다",
+      "example": "Assess the risk before investing."
+    },
+    {
+      "day": 11,
+      "difficulty": "중급",
+      "word": "justify",
+      "meaning": "정당화하다",
+      "example": "Justify your decision with evidence."
+    },
+    {
+      "day": 11,
+      "difficulty": "중급",
+      "word": "revise",
+      "meaning": "수정하다",
+      "example": "Revise the draft after feedback."
+    },
+    {
+      "day": 11,
+      "difficulty": "중급",
+      "word": "clarify",
+      "meaning": "명확히 하다",
+      "example": "Clarify the requirements first."
+    },
+    {
+      "day": 11,
+      "difficulty": "중급",
+      "word": "coordinate",
+      "meaning": "조율하다",
+      "example": "Coordinate the schedule with the team."
+    },
+    {
+      "day": 12,
+      "difficulty": "중급",
+      "word": "adapt",
+      "meaning": "적응하다",
+      "example": "Adapt your strategy to the situation."
+    },
+    {
+      "day": 12,
+      "difficulty": "중급",
+      "word": "allocate",
+      "meaning": "배분하다",
+      "example": "Allocate enough time for testing."
+    },
+    {
+      "day": 12,
+      "difficulty": "중급",
+      "word": "demonstrate",
+      "meaning": "입증하다",
+      "example": "Demonstrate the feature to the client."
+    },
+    {
+      "day": 12,
+      "difficulty": "중급",
+      "word": "emphasize",
+      "meaning": "강조하다",
+      "example": "Emphasize the main benefit clearly."
+    },
+    {
+      "day": 12,
+      "difficulty": "중급",
+      "word": "estimate",
+      "meaning": "추정하다",
+      "example": "Estimate the cost of the project."
+    },
+    {
+      "day": 12,
+      "difficulty": "중급",
+      "word": "implement",
+      "meaning": "실행하다",
+      "example": "Implement the plan step by step."
+    },
+    {
+      "day": 12,
+      "difficulty": "중급",
+      "word": "indicate",
+      "meaning": "나타내다",
+      "example": "The data indicate a clear trend."
+    },
+    {
+      "day": 12,
+      "difficulty": "중급",
+      "word": "maintain",
+      "meaning": "유지하다",
+      "example": "Maintain a consistent routine."
+    },
+    {
+      "day": 12,
+      "difficulty": "중급",
+      "word": "negotiate",
+      "meaning": "협상하다",
+      "example": "Negotiate the contract terms."
+    },
+    {
+      "day": 12,
+      "difficulty": "중급",
+      "word": "organize",
+      "meaning": "정리하다",
+      "example": "Organize your notes by topic."
+    },
+    {
+      "day": 13,
+      "difficulty": "고급",
+      "word": "abate",
+      "meaning": "약해지다",
+      "example": "The storm began to abate after midnight."
+    },
+    {
+      "day": 13,
+      "difficulty": "고급",
+      "word": "bolster",
+      "meaning": "강화하다",
+      "example": "The evidence bolstered her argument."
+    },
+    {
+      "day": 13,
+      "difficulty": "고급",
+      "word": "coalesce",
+      "meaning": "합쳐지다",
+      "example": "Several ideas coalesced into one plan."
+    },
+    {
+      "day": 13,
+      "difficulty": "고급",
+      "word": "corroborate",
+      "meaning": "입증하다",
+      "example": "The witness corroborated the report."
+    },
+    {
+      "day": 13,
+      "difficulty": "고급",
+      "word": "delineate",
+      "meaning": "상세히 설명하다",
+      "example": "The map delineates the disputed border."
+    },
+    {
+      "day": 13,
+      "difficulty": "고급",
+      "word": "elicit",
+      "meaning": "끌어내다",
+      "example": "The question elicited a thoughtful answer."
+    },
+    {
+      "day": 13,
+      "difficulty": "고급",
+      "word": "exacerbate",
+      "meaning": "악화시키다",
+      "example": "Poor planning can exacerbate delays."
+    },
+    {
+      "day": 13,
+      "difficulty": "고급",
+      "word": "extrapolate",
+      "meaning": "추론하다",
+      "example": "We cannot extrapolate from one example."
+    },
+    {
+      "day": 13,
+      "difficulty": "고급",
+      "word": "facilitate",
+      "meaning": "촉진하다",
+      "example": "Clear rules facilitate cooperation."
+    },
+    {
+      "day": 13,
+      "difficulty": "고급",
+      "word": "galvanize",
+      "meaning": "자극하여 움직이게 하다",
+      "example": "The speech galvanized public support."
+    },
+    {
+      "day": 14,
+      "difficulty": "고급",
+      "word": "impede",
+      "meaning": "방해하다",
+      "example": "Heavy traffic impeded the rescue effort."
+    },
+    {
+      "day": 14,
+      "difficulty": "고급",
+      "word": "mitigate",
+      "meaning": "완화하다",
+      "example": "The policy aims to mitigate risk."
+    },
+    {
+      "day": 14,
+      "difficulty": "고급",
+      "word": "nuance",
+      "meaning": "미묘한 차이를 주다",
+      "example": "Good writing can nuance a simple claim."
+    },
+    {
+      "day": 14,
+      "difficulty": "고급",
+      "word": "obscure",
+      "meaning": "흐리게 하다",
+      "example": "Complex terms can obscure the main point."
+    },
+    {
+      "day": 14,
+      "difficulty": "고급",
+      "word": "permeate",
+      "meaning": "스며들다",
+      "example": "The smell permeated the entire room."
+    },
+    {
+      "day": 14,
+      "difficulty": "고급",
+      "word": "reconcile",
+      "meaning": "조화시키다",
+      "example": "We must reconcile speed with accuracy."
+    },
+    {
+      "day": 14,
+      "difficulty": "고급",
+      "word": "scrutinize",
+      "meaning": "면밀히 조사하다",
+      "example": "Scrutinize the contract before signing."
+    },
+    {
+      "day": 14,
+      "difficulty": "고급",
+      "word": "substantiate",
+      "meaning": "입증하다",
+      "example": "You need evidence to substantiate the claim."
+    },
+    {
+      "day": 14,
+      "difficulty": "고급",
+      "word": "synthesize",
+      "meaning": "종합하다",
+      "example": "Synthesize the findings into a report."
+    },
+    {
+      "day": 14,
+      "difficulty": "고급",
+      "word": "undermine",
+      "meaning": "약화시키다",
+      "example": "Inconsistent rules undermine trust."
+    },
+    {
+      "day": 15,
+      "difficulty": "고급",
+      "word": "ambiguous",
+      "meaning": "모호한",
+      "example": "The instructions were ambiguous."
+    },
+    {
+      "day": 15,
+      "difficulty": "고급",
+      "word": "coherent",
+      "meaning": "일관성 있는",
+      "example": "Her explanation was coherent and concise."
+    },
+    {
+      "day": 15,
+      "difficulty": "고급",
+      "word": "concise",
+      "meaning": "간결한",
+      "example": "Write a concise summary of the meeting."
+    },
+    {
+      "day": 15,
+      "difficulty": "고급",
+      "word": "contingent",
+      "meaning": "조건부의",
+      "example": "Approval is contingent on final review."
+    },
+    {
+      "day": 15,
+      "difficulty": "고급",
+      "word": "empirical",
+      "meaning": "경험적 증거에 근거한",
+      "example": "The theory needs empirical support."
+    },
+    {
+      "day": 15,
+      "difficulty": "고급",
+      "word": "implicit",
+      "meaning": "암묵적인",
+      "example": "There was an implicit agreement to cooperate."
+    },
+    {
+      "day": 15,
+      "difficulty": "고급",
+      "word": "inherent",
+      "meaning": "내재된",
+      "example": "Every approach has inherent limitations."
+    },
+    {
+      "day": 15,
+      "difficulty": "고급",
+      "word": "meticulous",
+      "meaning": "꼼꼼한",
+      "example": "She kept meticulous records."
+    },
+    {
+      "day": 15,
+      "difficulty": "고급",
+      "word": "plausible",
+      "meaning": "그럴듯한",
+      "example": "That is a plausible explanation."
+    },
+    {
+      "day": 15,
+      "difficulty": "고급",
+      "word": "pragmatic",
+      "meaning": "실용적인",
+      "example": "We need a pragmatic solution."
+    },
+    {
+      "day": 16,
+      "difficulty": "고급",
+      "word": "resilient",
+      "meaning": "회복력 있는",
+      "example": "A resilient system can absorb shocks."
+    },
+    {
+      "day": 16,
+      "difficulty": "고급",
+      "word": "rigorous",
+      "meaning": "엄밀한",
+      "example": "The study used rigorous methods."
+    },
+    {
+      "day": 16,
+      "difficulty": "고급",
+      "word": "substantial",
+      "meaning": "상당한",
+      "example": "The project requires substantial resources."
+    },
+    {
+      "day": 16,
+      "difficulty": "고급",
+      "word": "tentative",
+      "meaning": "잠정적인",
+      "example": "This is only a tentative conclusion."
+    },
+    {
+      "day": 16,
+      "difficulty": "고급",
+      "word": "viable",
+      "meaning": "실행 가능한",
+      "example": "The proposal is financially viable."
+    },
+    {
+      "day": 16,
+      "difficulty": "고급",
+      "word": "volatile",
+      "meaning": "변동성이 큰",
+      "example": "The market remained volatile all week."
+    },
+    {
+      "day": 16,
+      "difficulty": "고급",
+      "word": "ubiquitous",
+      "meaning": "어디에나 있는",
+      "example": "Smartphones are ubiquitous today."
+    },
+    {
+      "day": 16,
+      "difficulty": "고급",
+      "word": "arbitrary",
+      "meaning": "임의적인",
+      "example": "The deadline seems arbitrary."
+    },
+    {
+      "day": 16,
+      "difficulty": "고급",
+      "word": "comprehensive",
+      "meaning": "포괄적인",
+      "example": "We need a comprehensive review."
+    },
+    {
+      "day": 16,
+      "difficulty": "고급",
+      "word": "detrimental",
+      "meaning": "해로운",
+      "example": "Lack of sleep is detrimental to health."
+    },
+    {
+      "day": 17,
+      "difficulty": "고급",
+      "word": "equitable",
+      "meaning": "공정한",
+      "example": "The policy should be equitable."
+    },
+    {
+      "day": 17,
+      "difficulty": "고급",
+      "word": "inevitable",
+      "meaning": "불가피한",
+      "example": "Some trade-offs are inevitable."
+    },
+    {
+      "day": 17,
+      "difficulty": "고급",
+      "word": "intricate",
+      "meaning": "복잡한",
+      "example": "The device has an intricate design."
+    },
+    {
+      "day": 17,
+      "difficulty": "고급",
+      "word": "marginal",
+      "meaning": "미미한",
+      "example": "The change had only a marginal effect."
+    },
+    {
+      "day": 17,
+      "difficulty": "고급",
+      "word": "reciprocal",
+      "meaning": "상호적인",
+      "example": "Trust is often reciprocal."
+    },
+    {
+      "day": 17,
+      "difficulty": "고급",
+      "word": "sophisticated",
+      "meaning": "정교한",
+      "example": "The software uses sophisticated algorithms."
+    },
+    {
+      "day": 17,
+      "difficulty": "고급",
+      "word": "transient",
+      "meaning": "일시적인",
+      "example": "The symptoms were transient."
+    },
+    {
+      "day": 17,
+      "difficulty": "고급",
+      "word": "unprecedented",
+      "meaning": "전례 없는",
+      "example": "The team faced unprecedented demand."
+    },
+    {
+      "day": 17,
+      "difficulty": "고급",
+      "word": "warranted",
+      "meaning": "정당한",
+      "example": "Further investigation is warranted."
+    },
+    {
+      "day": 17,
+      "difficulty": "고급",
+      "word": "salient",
+      "meaning": "두드러진",
+      "example": "The report highlights the salient risks."
+    }
+  ],
+  "daily_by_difficulty": {
+    "초급": 5,
+    "중급": 5,
+    "고급": 5
+  },
+  "refill_target_unused_by_difficulty": {
+    "초급": 35,
+    "중급": 35,
+    "고급": 35
+  }
 }
