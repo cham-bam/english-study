@@ -1,8 +1,210 @@
 {
-  "updated_at": "2026-04-27",
+  "updated_at": "2026-04-28",
   "default_daily_count": 15,
   "source": "01_기초_동사형용사.json",
   "entries": [
+    {
+      "date": "2026-04-28",
+      "day": 4,
+      "title": "Day 4 난이도별 영단어 15개",
+      "items": [
+        {
+          "difficulty": "초급",
+          "word": "change",
+          "meaning": "바꾸다",
+          "example": "Change your password regularly.",
+          "note": "바꾸다라는 뜻입니다. 예문과 함께 문장째 익혀보세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/change"
+            }
+          ]
+        },
+        {
+          "difficulty": "초급",
+          "word": "check",
+          "meaning": "확인하다",
+          "example": "Check the schedule again.",
+          "note": "확인하다라는 뜻입니다. 예문과 함께 문장째 익혀보세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/check"
+            }
+          ]
+        },
+        {
+          "difficulty": "초급",
+          "word": "choose",
+          "meaning": "선택하다",
+          "example": "Choose your words carefully.",
+          "note": "선택하다라는 뜻입니다. 예문과 함께 문장째 익혀보세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/choose"
+            }
+          ]
+        },
+        {
+          "difficulty": "초급",
+          "word": "claim",
+          "meaning": "주장하다",
+          "example": "She claims to be right.",
+          "note": "주장하다라는 뜻입니다. 예문과 함께 문장째 익혀보세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/claim"
+            }
+          ]
+        },
+        {
+          "difficulty": "초급",
+          "word": "clean",
+          "meaning": "청소하다",
+          "example": "Clean the workspace daily.",
+          "note": "청소하다라는 뜻입니다. 예문과 함께 문장째 익혀보세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/clean"
+            }
+          ]
+        },
+        {
+          "difficulty": "중급",
+          "word": "follow",
+          "meaning": "따르다",
+          "example": "Follow the instructions carefully.",
+          "note": "따르다라는 뜻입니다. 예문과 함께 문장째 익혀보세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/follow"
+            }
+          ]
+        },
+        {
+          "difficulty": "중급",
+          "word": "forget",
+          "meaning": "잊다",
+          "example": "Don't forget the meeting.",
+          "note": "잊다라는 뜻입니다. 예문과 함께 문장째 익혀보세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/forget"
+            }
+          ]
+        },
+        {
+          "difficulty": "중급",
+          "word": "get",
+          "meaning": "얻다",
+          "example": "Get the approval first.",
+          "note": "얻다라는 뜻입니다. 예문과 함께 문장째 익혀보세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/get"
+            }
+          ]
+        },
+        {
+          "difficulty": "중급",
+          "word": "give",
+          "meaning": "주다",
+          "example": "Give clear instructions always.",
+          "note": "주다라는 뜻입니다. 예문과 함께 문장째 익혀보세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/give"
+            }
+          ]
+        },
+        {
+          "difficulty": "중급",
+          "word": "go",
+          "meaning": "가다",
+          "example": "Go to the conference.",
+          "note": "가다라는 뜻입니다. 예문과 함께 문장째 익혀보세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/go"
+            }
+          ]
+        },
+        {
+          "difficulty": "고급",
+          "word": "elicit",
+          "meaning": "끌어내다",
+          "example": "The question elicited a thoughtful answer.",
+          "note": "끌어내다라는 뜻입니다. 예문과 함께 문장째 익혀보세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/elicit"
+            }
+          ]
+        },
+        {
+          "difficulty": "고급",
+          "word": "exacerbate",
+          "meaning": "악화시키다",
+          "example": "Poor planning can exacerbate delays.",
+          "note": "악화시키다라는 뜻입니다. 예문과 함께 문장째 익혀보세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/exacerbate"
+            }
+          ]
+        },
+        {
+          "difficulty": "고급",
+          "word": "extrapolate",
+          "meaning": "추론하다",
+          "example": "We cannot extrapolate from one example.",
+          "note": "추론하다라는 뜻입니다. 예문과 함께 문장째 익혀보세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/extrapolate"
+            }
+          ]
+        },
+        {
+          "difficulty": "고급",
+          "word": "facilitate",
+          "meaning": "촉진하다",
+          "example": "Clear rules facilitate cooperation.",
+          "note": "촉진하다라는 뜻입니다. 예문과 함께 문장째 익혀보세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/facilitate"
+            }
+          ]
+        },
+        {
+          "difficulty": "고급",
+          "word": "galvanize",
+          "meaning": "자극하여 움직이게 하다",
+          "example": "The speech galvanized public support.",
+          "note": "자극하여 움직이게 하다라는 뜻입니다. 예문과 함께 문장째 익혀보세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/galvanize"
+            }
+          ]
+        }
+      ]
+    },
     {
       "date": "2026-04-27",
       "day": 3,
