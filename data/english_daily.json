@@ -1,8 +1,210 @@
 {
-  "updated_at": "2026-04-28",
+  "updated_at": "2026-04-29",
   "default_daily_count": 15,
   "source": "01_기초_동사형용사.json",
   "entries": [
+    {
+      "date": "2026-04-29",
+      "day": 5,
+      "title": "Day 5 난이도별 영단어 15개",
+      "items": [
+        {
+          "difficulty": "초급",
+          "word": "close",
+          "meaning": "닫다",
+          "example": "Close the door please.",
+          "note": "닫다라는 뜻입니다. 예문과 함께 문장째 익혀보세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/close"
+            }
+          ]
+        },
+        {
+          "difficulty": "초급",
+          "word": "collect",
+          "meaning": "모으다",
+          "example": "Collect all the documents.",
+          "note": "모으다라는 뜻입니다. 예문과 함께 문장째 익혀보세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/collect"
+            }
+          ]
+        },
+        {
+          "difficulty": "초급",
+          "word": "come",
+          "meaning": "오다",
+          "example": "Come to the office.",
+          "note": "오다라는 뜻입니다. 예문과 함께 문장째 익혀보세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/come"
+            }
+          ]
+        },
+        {
+          "difficulty": "초급",
+          "word": "compare",
+          "meaning": "비교하다",
+          "example": "Compare the two options.",
+          "note": "비교하다라는 뜻입니다. 예문과 함께 문장째 익혀보세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/compare"
+            }
+          ]
+        },
+        {
+          "difficulty": "초급",
+          "word": "complete",
+          "meaning": "완료하다",
+          "example": "Complete the form online.",
+          "note": "완료하다라는 뜻입니다. 예문과 함께 문장째 익혀보세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/complete"
+            }
+          ]
+        },
+        {
+          "difficulty": "중급",
+          "word": "grow",
+          "meaning": "성장하다",
+          "example": "Grow your professional network.",
+          "note": "성장하다라는 뜻입니다. 예문과 함께 문장째 익혀보세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/grow"
+            }
+          ]
+        },
+        {
+          "difficulty": "중급",
+          "word": "handle",
+          "meaning": "처리하다",
+          "example": "Handle complaints professionally.",
+          "note": "처리하다라는 뜻입니다. 예문과 함께 문장째 익혀보세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/handle"
+            }
+          ]
+        },
+        {
+          "difficulty": "중급",
+          "word": "happen",
+          "meaning": "일어나다",
+          "example": "What happened at the meeting?",
+          "note": "일어나다라는 뜻입니다. 예문과 함께 문장째 익혀보세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/happen"
+            }
+          ]
+        },
+        {
+          "difficulty": "중급",
+          "word": "have",
+          "meaning": "가지다",
+          "example": "Have a backup plan.",
+          "note": "가지다라는 뜻입니다. 예문과 함께 문장째 익혀보세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/have"
+            }
+          ]
+        },
+        {
+          "difficulty": "중급",
+          "word": "hear",
+          "meaning": "듣다",
+          "example": "Hear both sides first.",
+          "note": "듣다라는 뜻입니다. 예문과 함께 문장째 익혀보세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/hear"
+            }
+          ]
+        },
+        {
+          "difficulty": "고급",
+          "word": "impede",
+          "meaning": "방해하다",
+          "example": "Heavy traffic impeded the rescue effort.",
+          "note": "방해하다라는 뜻입니다. 예문과 함께 문장째 익혀보세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/impede"
+            }
+          ]
+        },
+        {
+          "difficulty": "고급",
+          "word": "mitigate",
+          "meaning": "완화하다",
+          "example": "The policy aims to mitigate risk.",
+          "note": "완화하다라는 뜻입니다. 예문과 함께 문장째 익혀보세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/mitigate"
+            }
+          ]
+        },
+        {
+          "difficulty": "고급",
+          "word": "nuance",
+          "meaning": "미묘한 차이를 주다",
+          "example": "Good writing can nuance a simple claim.",
+          "note": "미묘한 차이를 주다라는 뜻입니다. 예문과 함께 문장째 익혀보세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/nuance"
+            }
+          ]
+        },
+        {
+          "difficulty": "고급",
+          "word": "obscure",
+          "meaning": "흐리게 하다",
+          "example": "Complex terms can obscure the main point.",
+          "note": "흐리게 하다라는 뜻입니다. 예문과 함께 문장째 익혀보세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/obscure"
+            }
+          ]
+        },
+        {
+          "difficulty": "고급",
+          "word": "permeate",
+          "meaning": "스며들다",
+          "example": "The smell permeated the entire room.",
+          "note": "스며들다라는 뜻입니다. 예문과 함께 문장째 익혀보세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/permeate"
+            }
+          ]
+        }
+      ]
+    },
     {
       "date": "2026-04-28",
       "day": 4,

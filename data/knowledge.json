@@ -1,7 +1,97 @@
 {
-  "updated_at": "2026-04-28",
+  "updated_at": "2026-04-29",
   "default_daily_count": 6,
   "entries": [
+    {
+      "date": "2026-04-29",
+      "title": "2026.04.29 난이도별 상식 6개",
+      "items": [
+        {
+          "source_id": "weather-thunder-after-lightning",
+          "difficulty": "초급",
+          "category": "날씨",
+          "title": "천둥은 번개가 만든 공기의 급격한 팽창 소리다",
+          "body": "번개가 지나가면 주변 공기가 아주 빠르게 가열되고 팽창합니다. 이때 생긴 충격파가 소리로 들리는 것이 천둥입니다.",
+          "takeaway": "번개를 본 뒤 천둥이 들릴 때까지의 시간으로 대략적인 거리를 짐작할 수 있습니다.",
+          "sources": [
+            {
+              "label": "NOAA NSSL",
+              "url": "https://www.nssl.noaa.gov/education/svrwx101/lightning/faq/"
+            }
+          ]
+        },
+        {
+          "source_id": "space-moon-phases",
+          "difficulty": "초급",
+          "category": "우주",
+          "title": "달의 모양은 달 자체가 변해서가 아니다",
+          "body": "달은 항상 태양빛을 받지만, 지구에서 보이는 밝은 부분의 위치가 달라져 초승달, 반달, 보름달처럼 보입니다. 이를 달의 위상이라고 합니다.",
+          "takeaway": "달의 모양 변화는 지구, 달, 태양의 상대적 위치를 보여줍니다.",
+          "sources": [
+            {
+              "label": "NASA Moon Phases",
+              "url": "https://moon.nasa.gov/moon-in-motion/moon-phases/"
+            }
+          ]
+        },
+        {
+          "source_id": "mid-compound-interest",
+          "difficulty": "중급",
+          "category": "금융",
+          "title": "복리는 이자에도 다시 이자가 붙는 구조다",
+          "body": "복리는 원금뿐 아니라 이미 붙은 이자에도 다시 이자가 붙는 방식입니다. 기간이 길수록 단리와 차이가 커집니다.",
+          "takeaway": "투자와 대출 모두에서 시간은 복리 효과를 키우는 핵심 변수입니다.",
+          "sources": [
+            {
+              "label": "Investor.gov",
+              "url": "https://www.investor.gov/financial-tools-calculators/calculators/compound-interest-calculator"
+            }
+          ]
+        },
+        {
+          "source_id": "mid-correlation-causation",
+          "difficulty": "중급",
+          "category": "통계",
+          "title": "상관관계는 인과관계와 다르다",
+          "body": "두 값이 함께 움직인다고 해서 하나가 다른 하나의 원인이라고 단정할 수는 없습니다. 제3의 요인이나 우연한 패턴이 있을 수 있습니다.",
+          "takeaway": "뉴스의 그래프를 볼 때 원인 주장과 단순한 동시 변화를 구분해야 합니다.",
+          "sources": [
+            {
+              "label": "NCBI",
+              "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2996198/"
+            }
+          ]
+        },
+        {
+          "source_id": "adv-neuroplasticity",
+          "difficulty": "고급",
+          "category": "뇌과학",
+          "title": "신경가소성은 뇌가 경험에 따라 연결을 바꾸는 능력이다",
+          "body": "학습과 회복 과정에서 뇌의 신경 연결은 강화되거나 약해질 수 있습니다. 이는 습관 형성과 재활 치료를 이해하는 중요한 개념입니다.",
+          "takeaway": "반복 학습은 단순한 의지 문제가 아니라 뇌 회로의 변화와도 관련됩니다.",
+          "sources": [
+            {
+              "label": "NCBI Bookshelf",
+              "url": "https://www.ncbi.nlm.nih.gov/books/NBK557811/"
+            }
+          ]
+        },
+        {
+          "source_id": "adv-blockchain-consensus",
+          "difficulty": "고급",
+          "category": "기술",
+          "title": "블록체인의 합의는 서로 모르는 참여자가 같은 기록을 믿게 하는 절차다",
+          "body": "분산 네트워크에서는 중앙 관리자가 없기 때문에 어떤 거래 기록을 정본으로 볼지 정해야 합니다. 작업증명이나 지분증명은 이런 합의를 위한 방식입니다.",
+          "takeaway": "블록체인의 핵심은 코인보다 분산된 신뢰 구조에 있습니다.",
+          "sources": [
+            {
+              "label": "NIST Blockchain Overview",
+              "url": "https://www.nist.gov/publications/blockchain-technology-overview"
+            }
+          ]
+        }
+      ]
+    },
     {
       "date": "2026-04-28",
       "title": "2026.04.28 난이도별 상식 6개",
