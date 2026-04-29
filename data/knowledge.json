@@ -1,7 +1,97 @@
 {
-  "updated_at": "2026-04-29",
+  "updated_at": "2026-04-30",
   "default_daily_count": 6,
   "entries": [
+    {
+      "date": "2026-04-30",
+      "title": "2026.04.30 난이도별 상식 6개",
+      "items": [
+        {
+          "source_id": "health-sleep-cycles",
+          "difficulty": "초급",
+          "category": "건강",
+          "title": "잠은 여러 단계가 반복되는 과정이다",
+          "body": "수면은 얕은 잠, 깊은 잠, REM 수면 등 여러 단계가 주기적으로 반복됩니다. 각 단계는 기억, 회복, 뇌 기능에 서로 다른 역할을 합니다.",
+          "takeaway": "잠을 단순히 쉬는 시간이 아니라 뇌와 몸의 정비 시간으로 볼 수 있습니다.",
+          "sources": [
+            {
+              "label": "NINDS Brain Basics",
+              "url": "https://www.ninds.nih.gov/health-information/public-education/brain-basics/brain-basics-understanding-sleep"
+            }
+          ]
+        },
+        {
+          "source_id": "biology-photosynthesis",
+          "difficulty": "초급",
+          "category": "생물",
+          "title": "식물은 빛으로 양분을 만든다",
+          "body": "광합성은 식물이 빛 에너지를 이용해 이산화탄소와 물로부터 당을 만드는 과정입니다. 이 과정에서 산소가 부산물로 나옵니다.",
+          "takeaway": "지구 대기의 산소와 먹이사슬은 광합성과 깊게 연결되어 있습니다.",
+          "sources": [
+            {
+              "label": "Britannica Photosynthesis",
+              "url": "https://www.britannica.com/science/photosynthesis"
+            }
+          ]
+        },
+        {
+          "source_id": "mid-transistor-switch",
+          "difficulty": "중급",
+          "category": "기술",
+          "title": "트랜지스터는 전자 회로의 작은 스위치처럼 작동한다",
+          "body": "트랜지스터는 전류의 흐름을 조절해 켜짐과 꺼짐 상태를 만들 수 있습니다. 컴퓨터는 이런 상태를 조합해 계산을 수행합니다.",
+          "takeaway": "반도체 성능 경쟁은 작은 스위치를 얼마나 많이, 효율적으로 넣느냐와 연결됩니다.",
+          "sources": [
+            {
+              "label": "Computer History Museum",
+              "url": "https://www.computerhistory.org/siliconengine/transistors/"
+            }
+          ]
+        },
+        {
+          "source_id": "mid-public-key-cryptography",
+          "difficulty": "중급",
+          "category": "보안",
+          "title": "공개키 암호는 잠그는 열쇠와 여는 열쇠를 분리한다",
+          "body": "공개키 암호에서는 누구나 사용할 수 있는 공개키와 소유자만 가진 개인키가 한 쌍으로 작동합니다. 이를 통해 안전한 통신과 전자서명이 가능해집니다.",
+          "takeaway": "웹사이트의 HTTPS와 온라인 인증의 바탕에 있는 원리입니다.",
+          "sources": [
+            {
+              "label": "Cloudflare Learning",
+              "url": "https://www.cloudflare.com/learning/ssl/how-does-public-key-encryption-work/"
+            }
+          ]
+        },
+        {
+          "source_id": "adv-differential-equations",
+          "difficulty": "고급",
+          "category": "수학",
+          "title": "미분방정식은 변화율로 시스템의 미래를 설명한다",
+          "body": "미분방정식은 어떤 값 자체보다 그 값이 어떻게 변하는지를 식으로 나타냅니다. 물리, 생물, 경제 모델에서 동적인 변화를 다룰 때 쓰입니다.",
+          "takeaway": "현실의 많은 예측 문제는 현재 상태와 변화율의 관계를 세우는 일에서 시작됩니다.",
+          "sources": [
+            {
+              "label": "MIT OpenCourseWare",
+              "url": "https://ocw.mit.edu/courses/18-03-differential-equations-spring-2010/"
+            }
+          ]
+        },
+        {
+          "source_id": "adv-nash-equilibrium",
+          "difficulty": "고급",
+          "category": "경제",
+          "title": "내시균형은 각자가 상대 전략을 고려해 더 나은 단독 선택이 없는 상태다",
+          "body": "게임이론에서 내시균형은 모든 참여자가 다른 사람의 전략을 알고 있을 때 자기 전략을 바꿔도 이득이 없는 상태를 말합니다.",
+          "takeaway": "경쟁과 협상에서 개인의 합리적 선택이 전체 최선과 다를 수 있습니다.",
+          "sources": [
+            {
+              "label": "Britannica",
+              "url": "https://www.britannica.com/science/game-theory/Nash-equilibrium"
+            }
+          ]
+        }
+      ]
+    },
     {
       "date": "2026-04-29",
       "title": "2026.04.29 난이도별 상식 6개",

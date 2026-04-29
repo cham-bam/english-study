@@ -1,8 +1,210 @@
 {
-  "updated_at": "2026-04-29",
+  "updated_at": "2026-04-30",
   "default_daily_count": 15,
   "source": "01_기초_동사형용사.json",
   "entries": [
+    {
+      "date": "2026-04-30",
+      "day": 6,
+      "title": "Day 6 난이도별 영단어 15개",
+      "items": [
+        {
+          "difficulty": "초급",
+          "word": "confirm",
+          "meaning": "확인하다",
+          "example": "Confirm your reservation now.",
+          "note": "확인하다라는 뜻입니다. 예문과 함께 문장째 익혀보세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/confirm"
+            }
+          ]
+        },
+        {
+          "difficulty": "초급",
+          "word": "connect",
+          "meaning": "연결하다",
+          "example": "Connect the devices together.",
+          "note": "연결하다라는 뜻입니다. 예문과 함께 문장째 익혀보세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/connect"
+            }
+          ]
+        },
+        {
+          "difficulty": "초급",
+          "word": "consider",
+          "meaning": "고려하다",
+          "example": "Consider all the options.",
+          "note": "고려하다라는 뜻입니다. 예문과 함께 문장째 익혀보세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/consider"
+            }
+          ]
+        },
+        {
+          "difficulty": "초급",
+          "word": "contact",
+          "meaning": "연락하다",
+          "example": "Contact us for help.",
+          "note": "연락하다라는 뜻입니다. 예문과 함께 문장째 익혀보세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/contact"
+            }
+          ]
+        },
+        {
+          "difficulty": "초급",
+          "word": "continue",
+          "meaning": "계속하다",
+          "example": "Continue your great work.",
+          "note": "계속하다라는 뜻입니다. 예문과 함께 문장째 익혀보세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/continue"
+            }
+          ]
+        },
+        {
+          "difficulty": "중급",
+          "word": "help",
+          "meaning": "돕다",
+          "example": "Help your team members.",
+          "note": "돕다라는 뜻입니다. 예문과 함께 문장째 익혀보세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/help"
+            }
+          ]
+        },
+        {
+          "difficulty": "중급",
+          "word": "hold",
+          "meaning": "잡다",
+          "example": "Hold the line please.",
+          "note": "잡다라는 뜻입니다. 예문과 함께 문장째 익혀보세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/hold"
+            }
+          ]
+        },
+        {
+          "difficulty": "중급",
+          "word": "identify",
+          "meaning": "식별하다",
+          "example": "Identify the root cause.",
+          "note": "식별하다라는 뜻입니다. 예문과 함께 문장째 익혀보세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/identify"
+            }
+          ]
+        },
+        {
+          "difficulty": "중급",
+          "word": "improve",
+          "meaning": "향상시키다",
+          "example": "Improve your communication skills.",
+          "note": "향상시키다라는 뜻입니다. 예문과 함께 문장째 익혀보세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/improve"
+            }
+          ]
+        },
+        {
+          "difficulty": "중급",
+          "word": "include",
+          "meaning": "포함하다",
+          "example": "Include all relevant details.",
+          "note": "포함하다라는 뜻입니다. 예문과 함께 문장째 익혀보세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/include"
+            }
+          ]
+        },
+        {
+          "difficulty": "고급",
+          "word": "reconcile",
+          "meaning": "조화시키다",
+          "example": "We must reconcile speed with accuracy.",
+          "note": "조화시키다라는 뜻입니다. 예문과 함께 문장째 익혀보세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/reconcile"
+            }
+          ]
+        },
+        {
+          "difficulty": "고급",
+          "word": "scrutinize",
+          "meaning": "면밀히 조사하다",
+          "example": "Scrutinize the contract before signing.",
+          "note": "면밀히 조사하다라는 뜻입니다. 예문과 함께 문장째 익혀보세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/scrutinize"
+            }
+          ]
+        },
+        {
+          "difficulty": "고급",
+          "word": "substantiate",
+          "meaning": "입증하다",
+          "example": "You need evidence to substantiate the claim.",
+          "note": "입증하다라는 뜻입니다. 예문과 함께 문장째 익혀보세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/substantiate"
+            }
+          ]
+        },
+        {
+          "difficulty": "고급",
+          "word": "synthesize",
+          "meaning": "종합하다",
+          "example": "Synthesize the findings into a report.",
+          "note": "종합하다라는 뜻입니다. 예문과 함께 문장째 익혀보세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/synthesize"
+            }
+          ]
+        },
+        {
+          "difficulty": "고급",
+          "word": "undermine",
+          "meaning": "약화시키다",
+          "example": "Inconsistent rules undermine trust.",
+          "note": "약화시키다라는 뜻입니다. 예문과 함께 문장째 익혀보세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/undermine"
+            }
+          ]
+        }
+      ]
+    },
     {
       "date": "2026-04-29",
       "day": 5,
