@@ -1,7 +1,97 @@
 {
-  "updated_at": "2026-04-30",
+  "updated_at": "2026-05-01",
   "default_daily_count": 6,
   "entries": [
+    {
+      "date": "2026-05-01",
+      "title": "2026.05.01 난이도별 상식 6개",
+      "items": [
+        {
+          "source_id": "chemistry-ph-scale",
+          "difficulty": "초급",
+          "category": "화학",
+          "title": "pH는 산성과 염기성을 나타내는 척도다",
+          "body": "pH 값은 용액이 얼마나 산성 또는 염기성인지 나타냅니다. 보통 7은 중성, 7보다 작으면 산성, 7보다 크면 염기성으로 봅니다.",
+          "takeaway": "세제, 음료, 토양 관리처럼 일상에서도 pH 개념이 자주 쓰입니다.",
+          "sources": [
+            {
+              "label": "Britannica pH",
+              "url": "https://www.britannica.com/science/pH"
+            }
+          ]
+        },
+        {
+          "source_id": "earth-earthquake-faults",
+          "difficulty": "초급",
+          "category": "지구",
+          "title": "지진은 단층에서 에너지가 풀릴 때 발생한다",
+          "body": "지각에 힘이 쌓이다가 암석이 갑자기 미끄러지면 에너지가 지진파로 퍼집니다. 이 움직임이 지표에서 흔들림으로 느껴집니다.",
+          "takeaway": "지진을 완벽히 예측하기 어려운 이유는 지하 응력 상태를 직접 알기 어렵기 때문입니다.",
+          "sources": [
+            {
+              "label": "USGS Earthquake Facts",
+              "url": "https://www.usgs.gov/programs/earthquake-hazards/earthquake-facts-earthquake-fantasy"
+            }
+          ]
+        },
+        {
+          "source_id": "mid-antibiotic-resistance",
+          "difficulty": "중급",
+          "category": "건강",
+          "title": "항생제 내성은 세균이 약에 살아남는 방향으로 선택될 때 커진다",
+          "body": "항생제를 부적절하게 사용하면 살아남은 세균이 증식해 기존 약이 잘 듣지 않을 수 있습니다. 이는 개인 치료뿐 아니라 공중보건 문제로 이어집니다.",
+          "takeaway": "항생제는 의사의 지시에 맞춰 정확히 사용하는 것이 중요합니다.",
+          "sources": [
+            {
+              "label": "WHO",
+              "url": "https://www.who.int/news-room/fact-sheets/detail/antimicrobial-resistance"
+            }
+          ]
+        },
+        {
+          "source_id": "mid-mitochondria-energy",
+          "difficulty": "중급",
+          "category": "생물",
+          "title": "미토콘드리아는 세포가 쓸 에너지를 만드는 데 핵심적이다",
+          "body": "미토콘드리아는 영양분에서 얻은 에너지를 ATP라는 형태로 바꾸는 데 중요한 역할을 합니다. 그래서 세포의 에너지 공장이라고 자주 설명됩니다.",
+          "takeaway": "운동, 대사, 노화 같은 주제와도 연결되는 세포 소기관입니다.",
+          "sources": [
+            {
+              "label": "Britannica",
+              "url": "https://www.britannica.com/science/mitochondrion"
+            }
+          ]
+        },
+        {
+          "source_id": "adv-externalities",
+          "difficulty": "고급",
+          "category": "경제",
+          "title": "외부효과는 거래 당사자가 아닌 제3자에게 비용이나 이익이 생기는 현상이다",
+          "body": "공장 오염처럼 시장 가격에 반영되지 않은 피해가 생기면 부정적 외부효과가 발생합니다. 백신 접종처럼 주변에 이익을 주는 경우는 긍정적 외부효과입니다.",
+          "takeaway": "세금, 보조금, 규제는 외부효과를 조정하는 수단이 될 수 있습니다.",
+          "sources": [
+            {
+              "label": "IMF",
+              "url": "https://www.imf.org/en/Publications/fandd/issues/Series/Back-to-Basics/Externalities"
+            }
+          ]
+        },
+        {
+          "source_id": "adv-gene-expression",
+          "difficulty": "고급",
+          "category": "생명과학",
+          "title": "유전자 발현은 DNA 정보가 실제 기능으로 이어지는 조절 과정이다",
+          "body": "모든 유전자가 항상 같은 정도로 작동하는 것은 아닙니다. 세포는 환경과 역할에 따라 어떤 유전자를 얼마나 읽을지 조절합니다.",
+          "takeaway": "같은 DNA를 가진 세포가 피부, 근육, 신경처럼 달라지는 이유와 연결됩니다.",
+          "sources": [
+            {
+              "label": "Nature Education",
+              "url": "https://www.nature.com/scitable/topicpage/gene-expression-14121669/"
+            }
+          ]
+        }
+      ]
+    },
     {
       "date": "2026-04-30",
       "title": "2026.04.30 난이도별 상식 6개",

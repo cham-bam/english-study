@@ -1,8 +1,210 @@
 {
-  "updated_at": "2026-04-30",
+  "updated_at": "2026-05-01",
   "default_daily_count": 15,
   "source": "01_기초_동사형용사.json",
   "entries": [
+    {
+      "date": "2026-05-01",
+      "day": 7,
+      "title": "Day 7 난이도별 영단어 15개",
+      "items": [
+        {
+          "difficulty": "초급",
+          "word": "control",
+          "meaning": "통제하다",
+          "example": "Control the situation calmly.",
+          "note": "통제하다라는 뜻입니다. 예문과 함께 문장째 익혀보세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/control"
+            }
+          ]
+        },
+        {
+          "difficulty": "초급",
+          "word": "copy",
+          "meaning": "복사하다",
+          "example": "Copy the important files.",
+          "note": "복사하다라는 뜻입니다. 예문과 함께 문장째 익혀보세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/copy"
+            }
+          ]
+        },
+        {
+          "difficulty": "초급",
+          "word": "count",
+          "meaning": "세다",
+          "example": "Count the items carefully.",
+          "note": "세다라는 뜻입니다. 예문과 함께 문장째 익혀보세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/count"
+            }
+          ]
+        },
+        {
+          "difficulty": "초급",
+          "word": "cover",
+          "meaning": "다루다",
+          "example": "Cover all the topics.",
+          "note": "다루다라는 뜻입니다. 예문과 함께 문장째 익혀보세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/cover"
+            }
+          ]
+        },
+        {
+          "difficulty": "초급",
+          "word": "create",
+          "meaning": "만들다",
+          "example": "Create a new account.",
+          "note": "만들다라는 뜻입니다. 예문과 함께 문장째 익혀보세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/create"
+            }
+          ]
+        },
+        {
+          "difficulty": "중급",
+          "word": "increase",
+          "meaning": "증가하다",
+          "example": "Increase your productivity daily.",
+          "note": "증가하다라는 뜻입니다. 예문과 함께 문장째 익혀보세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/increase"
+            }
+          ]
+        },
+        {
+          "difficulty": "중급",
+          "word": "inform",
+          "meaning": "알리다",
+          "example": "Inform the team immediately.",
+          "note": "알리다라는 뜻입니다. 예문과 함께 문장째 익혀보세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/inform"
+            }
+          ]
+        },
+        {
+          "difficulty": "중급",
+          "word": "join",
+          "meaning": "참가하다",
+          "example": "Join the conference call.",
+          "note": "참가하다라는 뜻입니다. 예문과 함께 문장째 익혀보세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/join"
+            }
+          ]
+        },
+        {
+          "difficulty": "중급",
+          "word": "keep",
+          "meaning": "유지하다",
+          "example": "Keep your promises always.",
+          "note": "유지하다라는 뜻입니다. 예문과 함께 문장째 익혀보세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/keep"
+            }
+          ]
+        },
+        {
+          "difficulty": "중급",
+          "word": "know",
+          "meaning": "알다",
+          "example": "Know your audience well.",
+          "note": "알다라는 뜻입니다. 예문과 함께 문장째 익혀보세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/know"
+            }
+          ]
+        },
+        {
+          "difficulty": "고급",
+          "word": "ambiguous",
+          "meaning": "모호한",
+          "example": "The instructions were ambiguous.",
+          "note": "모호한라는 뜻입니다. 예문과 함께 문장째 익혀보세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/ambiguous"
+            }
+          ]
+        },
+        {
+          "difficulty": "고급",
+          "word": "coherent",
+          "meaning": "일관성 있는",
+          "example": "Her explanation was coherent and concise.",
+          "note": "일관성 있는라는 뜻입니다. 예문과 함께 문장째 익혀보세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/coherent"
+            }
+          ]
+        },
+        {
+          "difficulty": "고급",
+          "word": "concise",
+          "meaning": "간결한",
+          "example": "Write a concise summary of the meeting.",
+          "note": "간결한라는 뜻입니다. 예문과 함께 문장째 익혀보세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/concise"
+            }
+          ]
+        },
+        {
+          "difficulty": "고급",
+          "word": "contingent",
+          "meaning": "조건부의",
+          "example": "Approval is contingent on final review.",
+          "note": "조건부의라는 뜻입니다. 예문과 함께 문장째 익혀보세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/contingent"
+            }
+          ]
+        },
+        {
+          "difficulty": "고급",
+          "word": "empirical",
+          "meaning": "경험적 증거에 근거한",
+          "example": "The theory needs empirical support.",
+          "note": "경험적 증거에 근거한라는 뜻입니다. 예문과 함께 문장째 익혀보세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/empirical"
+            }
+          ]
+        }
+      ]
+    },
     {
       "date": "2026-04-30",
       "day": 6,
