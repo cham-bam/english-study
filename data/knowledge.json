@@ -1,7 +1,97 @@
 {
-  "updated_at": "2026-05-01",
+  "updated_at": "2026-05-02",
   "default_daily_count": 6,
   "entries": [
+    {
+      "date": "2026-05-02",
+      "title": "2026.05.02 난이도별 상식 6개",
+      "items": [
+        {
+          "source_id": "ocean-coral-animals",
+          "difficulty": "초급",
+          "category": "해양",
+          "title": "산호는 식물이 아니라 동물이다",
+          "body": "산호는 바위나 식물처럼 보이지만 실제로는 작은 동물인 폴립들이 모여 만든 군체입니다. 많은 산호는 조류와 공생하며 에너지를 얻습니다.",
+          "takeaway": "산호초는 해양 생물 다양성의 중요한 터전입니다.",
+          "sources": [
+            {
+              "label": "NOAA Ocean Service",
+              "url": "https://oceanservice.noaa.gov/facts/coral.html"
+            }
+          ]
+        },
+        {
+          "source_id": "weather-air-pressure",
+          "difficulty": "초급",
+          "category": "날씨",
+          "title": "기압 차이는 바람을 만든다",
+          "body": "공기는 대체로 기압이 높은 곳에서 낮은 곳으로 이동합니다. 이 이동이 바람이며, 지구의 회전과 지형도 바람의 방향과 세기에 영향을 줍니다.",
+          "takeaway": "일기예보에서 고기압과 저기압을 중요하게 다루는 이유입니다.",
+          "sources": [
+            {
+              "label": "NOAA JetStream",
+              "url": "https://www.noaa.gov/jetstream/atmosphere/air-pressure"
+            }
+          ]
+        },
+        {
+          "source_id": "mid-carbon-cycle",
+          "difficulty": "중급",
+          "category": "환경",
+          "title": "탄소는 대기, 바다, 생물, 암석 사이를 순환한다",
+          "body": "탄소는 이산화탄소, 유기물, 탄산염 등 다양한 형태로 지구 시스템을 이동합니다. 인간 활동은 이 순환의 균형을 바꿀 수 있습니다.",
+          "takeaway": "기후변화를 이해하려면 탄소순환을 함께 봐야 합니다.",
+          "sources": [
+            {
+              "label": "NASA Earth Observatory",
+              "url": "https://earthobservatory.nasa.gov/features/CarbonCycle"
+            }
+          ]
+        },
+        {
+          "source_id": "mid-el-nino",
+          "difficulty": "중급",
+          "category": "기후",
+          "title": "엘니뇨는 태평양의 해수 온도 변화가 전 세계 날씨에 영향을 주는 현상이다",
+          "body": "엘니뇨가 발생하면 열대 태평양의 해수면 온도와 대기 순환이 달라집니다. 그 결과 강수와 기온 패턴이 여러 지역에서 바뀔 수 있습니다.",
+          "takeaway": "먼 바다의 변화가 우리 지역 날씨와 농업에도 영향을 줄 수 있습니다.",
+          "sources": [
+            {
+              "label": "NOAA Climate.gov",
+              "url": "https://www.climate.gov/enso"
+            }
+          ]
+        },
+        {
+          "source_id": "adv-climate-sensitivity",
+          "difficulty": "고급",
+          "category": "기후",
+          "title": "기후 민감도는 이산화탄소 증가에 지구 온도가 얼마나 반응하는지 나타낸다",
+          "body": "기후 민감도는 온실기체 증가가 장기적인 평균 기온에 미치는 영향을 추정하는 개념입니다. 구름, 해양, 얼음 피드백 때문에 추정에는 범위가 있습니다.",
+          "takeaway": "기후 예측의 불확실성은 위험이 없다는 뜻이 아니라 가능한 결과 범위를 뜻합니다.",
+          "sources": [
+            {
+              "label": "IPCC",
+              "url": "https://www.ipcc.ch/report/ar6/wg1/"
+            }
+          ]
+        },
+        {
+          "source_id": "adv-le-chatelier",
+          "difficulty": "고급",
+          "category": "화학",
+          "title": "르샤틀리에 원리는 평형계가 변화에 저항하는 방향으로 이동한다고 설명한다",
+          "body": "화학 평형 상태의 계에 농도, 압력, 온도 변화가 생기면 계는 그 영향을 줄이는 방향으로 새로운 평형을 찾습니다.",
+          "takeaway": "암모니아 합성 같은 산업 공정 조건을 이해할 때 유용합니다.",
+          "sources": [
+            {
+              "label": "ChemLibreTexts",
+              "url": "https://chem.libretexts.org/Bookshelves/Physical_and_Theoretical_Chemistry_Textbook_Maps/Supplemental_Modules_%28Physical_and_Theoretical_Chemistry%29/Equilibria/Le_Chateliers_Principle"
+            }
+          ]
+        }
+      ]
+    },
     {
       "date": "2026-05-01",
       "title": "2026.05.01 난이도별 상식 6개",

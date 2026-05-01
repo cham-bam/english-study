@@ -1,8 +1,210 @@
 {
-  "updated_at": "2026-05-01",
+  "updated_at": "2026-05-02",
   "default_daily_count": 15,
   "source": "01_기초_동사형용사.json",
   "entries": [
+    {
+      "date": "2026-05-02",
+      "day": 8,
+      "title": "Day 8 난이도별 영단어 15개",
+      "items": [
+        {
+          "difficulty": "초급",
+          "word": "cut",
+          "meaning": "자르다",
+          "example": "Cut the unnecessary parts.",
+          "note": "자르다라는 뜻입니다. 예문과 함께 문장째 익혀보세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/cut"
+            }
+          ]
+        },
+        {
+          "difficulty": "초급",
+          "word": "deal",
+          "meaning": "다루다",
+          "example": "Deal with the problem.",
+          "note": "다루다라는 뜻입니다. 예문과 함께 문장째 익혀보세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/deal"
+            }
+          ]
+        },
+        {
+          "difficulty": "초급",
+          "word": "decide",
+          "meaning": "결정하다",
+          "example": "Decide before the deadline.",
+          "note": "결정하다라는 뜻입니다. 예문과 함께 문장째 익혀보세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/decide"
+            }
+          ]
+        },
+        {
+          "difficulty": "초급",
+          "word": "define",
+          "meaning": "정의하다",
+          "example": "Define your goals clearly.",
+          "note": "정의하다라는 뜻입니다. 예문과 함께 문장째 익혀보세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/define"
+            }
+          ]
+        },
+        {
+          "difficulty": "초급",
+          "word": "deliver",
+          "meaning": "전달하다",
+          "example": "Deliver the package today.",
+          "note": "전달하다라는 뜻입니다. 예문과 함께 문장째 익혀보세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/deliver"
+            }
+          ]
+        },
+        {
+          "difficulty": "중급",
+          "word": "learn",
+          "meaning": "배우다",
+          "example": "Learn from every experience.",
+          "note": "배우다라는 뜻입니다. 예문과 함께 문장째 익혀보세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/learn"
+            }
+          ]
+        },
+        {
+          "difficulty": "중급",
+          "word": "leave",
+          "meaning": "떠나다",
+          "example": "Leave early to avoid traffic.",
+          "note": "떠나다라는 뜻입니다. 예문과 함께 문장째 익혀보세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/leave"
+            }
+          ]
+        },
+        {
+          "difficulty": "중급",
+          "word": "let",
+          "meaning": "허락하다",
+          "example": "Let me know your thoughts.",
+          "note": "허락하다라는 뜻입니다. 예문과 함께 문장째 익혀보세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/let"
+            }
+          ]
+        },
+        {
+          "difficulty": "중급",
+          "word": "like",
+          "meaning": "좋아하다",
+          "example": "I like this approach.",
+          "note": "좋아하다라는 뜻입니다. 예문과 함께 문장째 익혀보세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/like"
+            }
+          ]
+        },
+        {
+          "difficulty": "중급",
+          "word": "listen",
+          "meaning": "듣다",
+          "example": "Listen to understand not reply.",
+          "note": "듣다라는 뜻입니다. 예문과 함께 문장째 익혀보세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/listen"
+            }
+          ]
+        },
+        {
+          "difficulty": "고급",
+          "word": "implicit",
+          "meaning": "암묵적인",
+          "example": "There was an implicit agreement to cooperate.",
+          "note": "암묵적인라는 뜻입니다. 예문과 함께 문장째 익혀보세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/implicit"
+            }
+          ]
+        },
+        {
+          "difficulty": "고급",
+          "word": "inherent",
+          "meaning": "내재된",
+          "example": "Every approach has inherent limitations.",
+          "note": "내재된라는 뜻입니다. 예문과 함께 문장째 익혀보세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/inherent"
+            }
+          ]
+        },
+        {
+          "difficulty": "고급",
+          "word": "meticulous",
+          "meaning": "꼼꼼한",
+          "example": "She kept meticulous records.",
+          "note": "꼼꼼한라는 뜻입니다. 예문과 함께 문장째 익혀보세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/meticulous"
+            }
+          ]
+        },
+        {
+          "difficulty": "고급",
+          "word": "plausible",
+          "meaning": "그럴듯한",
+          "example": "That is a plausible explanation.",
+          "note": "그럴듯한라는 뜻입니다. 예문과 함께 문장째 익혀보세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/plausible"
+            }
+          ]
+        },
+        {
+          "difficulty": "고급",
+          "word": "pragmatic",
+          "meaning": "실용적인",
+          "example": "We need a pragmatic solution.",
+          "note": "실용적인라는 뜻입니다. 예문과 함께 문장째 익혀보세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/pragmatic"
+            }
+          ]
+        }
+      ]
+    },
     {
       "date": "2026-05-01",
       "day": 7,
