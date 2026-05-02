@@ -1,8 +1,210 @@
 {
-  "updated_at": "2026-05-02",
+  "updated_at": "2026-05-03",
   "default_daily_count": 15,
   "source": "01_기초_동사형용사.json",
   "entries": [
+    {
+      "date": "2026-05-03",
+      "day": 9,
+      "title": "Day 9 난이도별 영단어 15개",
+      "items": [
+        {
+          "difficulty": "초급",
+          "word": "describe",
+          "meaning": "묘사하다",
+          "example": "Describe the situation clearly.",
+          "note": "묘사하다라는 뜻입니다. 예문과 함께 문장째 익혀보세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/describe"
+            }
+          ]
+        },
+        {
+          "difficulty": "초급",
+          "word": "design",
+          "meaning": "설계하다",
+          "example": "Design a better system.",
+          "note": "설계하다라는 뜻입니다. 예문과 함께 문장째 익혀보세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/design"
+            }
+          ]
+        },
+        {
+          "difficulty": "초급",
+          "word": "develop",
+          "meaning": "개발하다",
+          "example": "Develop new skills daily.",
+          "note": "개발하다라는 뜻입니다. 예문과 함께 문장째 익혀보세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/develop"
+            }
+          ]
+        },
+        {
+          "difficulty": "초급",
+          "word": "discuss",
+          "meaning": "논의하다",
+          "example": "Discuss the plan together.",
+          "note": "논의하다라는 뜻입니다. 예문과 함께 문장째 익혀보세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/discuss"
+            }
+          ]
+        },
+        {
+          "difficulty": "초급",
+          "word": "do",
+          "meaning": "하다",
+          "example": "Do your best always.",
+          "note": "하다라는 뜻입니다. 예문과 함께 문장째 익혀보세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/do"
+            }
+          ]
+        },
+        {
+          "difficulty": "중급",
+          "word": "analyze",
+          "meaning": "분석하다",
+          "example": "Analyze the data before deciding.",
+          "note": "분석하다라는 뜻입니다. 예문과 함께 문장째 익혀보세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/analyze"
+            }
+          ]
+        },
+        {
+          "difficulty": "중급",
+          "word": "prioritize",
+          "meaning": "우선순위를 정하다",
+          "example": "Prioritize the most urgent tasks.",
+          "note": "우선순위를 정하다라는 뜻입니다. 예문과 함께 문장째 익혀보세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/prioritize"
+            }
+          ]
+        },
+        {
+          "difficulty": "중급",
+          "word": "resolve",
+          "meaning": "해결하다",
+          "example": "Resolve the issue before launch.",
+          "note": "해결하다라는 뜻입니다. 예문과 함께 문장째 익혀보세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/resolve"
+            }
+          ]
+        },
+        {
+          "difficulty": "중급",
+          "word": "summarize",
+          "meaning": "요약하다",
+          "example": "Summarize the article in three sentences.",
+          "note": "요약하다라는 뜻입니다. 예문과 함께 문장째 익혀보세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/summarize"
+            }
+          ]
+        },
+        {
+          "difficulty": "중급",
+          "word": "interpret",
+          "meaning": "해석하다",
+          "example": "Interpret the results carefully.",
+          "note": "해석하다라는 뜻입니다. 예문과 함께 문장째 익혀보세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/interpret"
+            }
+          ]
+        },
+        {
+          "difficulty": "고급",
+          "word": "resilient",
+          "meaning": "회복력 있는",
+          "example": "A resilient system can absorb shocks.",
+          "note": "회복력 있는라는 뜻입니다. 예문과 함께 문장째 익혀보세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/resilient"
+            }
+          ]
+        },
+        {
+          "difficulty": "고급",
+          "word": "rigorous",
+          "meaning": "엄밀한",
+          "example": "The study used rigorous methods.",
+          "note": "엄밀한라는 뜻입니다. 예문과 함께 문장째 익혀보세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/rigorous"
+            }
+          ]
+        },
+        {
+          "difficulty": "고급",
+          "word": "substantial",
+          "meaning": "상당한",
+          "example": "The project requires substantial resources.",
+          "note": "상당한라는 뜻입니다. 예문과 함께 문장째 익혀보세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/substantial"
+            }
+          ]
+        },
+        {
+          "difficulty": "고급",
+          "word": "tentative",
+          "meaning": "잠정적인",
+          "example": "This is only a tentative conclusion.",
+          "note": "잠정적인라는 뜻입니다. 예문과 함께 문장째 익혀보세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/tentative"
+            }
+          ]
+        },
+        {
+          "difficulty": "고급",
+          "word": "viable",
+          "meaning": "실행 가능한",
+          "example": "The proposal is financially viable.",
+          "note": "실행 가능한라는 뜻입니다. 예문과 함께 문장째 익혀보세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/viable"
+            }
+          ]
+        }
+      ]
+    },
     {
       "date": "2026-05-02",
       "day": 8,

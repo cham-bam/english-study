@@ -1,7 +1,97 @@
 {
-  "updated_at": "2026-05-02",
+  "updated_at": "2026-05-03",
   "default_daily_count": 6,
   "entries": [
+    {
+      "date": "2026-05-03",
+      "title": "2026.05.03 난이도별 상식 6개",
+      "items": [
+        {
+          "source_id": "time-atomic-clocks",
+          "difficulty": "초급",
+          "category": "시간",
+          "title": "원자시계는 매우 안정적인 진동을 이용한다",
+          "body": "원자시계는 원자의 특정 에너지 전이가 만들어내는 일정한 진동을 기준으로 시간을 잽니다. 현대 통신과 GPS에는 이런 정밀한 시간이 필요합니다.",
+          "takeaway": "정확한 시간 측정은 위치 확인과 금융 거래 같은 시스템의 기반입니다.",
+          "sources": [
+            {
+              "label": "NIST Primary Frequency Standards",
+              "url": "https://www.nist.gov/pml/time-and-frequency-division/time-realization/primary-standard-nist-f2"
+            }
+          ]
+        },
+        {
+          "source_id": "biology-pollinators-food",
+          "difficulty": "초급",
+          "category": "생물",
+          "title": "꽃가루받이는 식량 생산과 연결된다",
+          "body": "많은 식물은 열매와 씨앗을 만들기 위해 꽃가루가 옮겨지는 과정이 필요합니다. 벌, 나비, 새, 바람 등이 이 꽃가루받이에 관여합니다.",
+          "takeaway": "생태계의 작은 상호작용이 식탁의 다양성까지 이어집니다.",
+          "sources": [
+            {
+              "label": "USDA Pollinators",
+              "url": "https://www.fs.usda.gov/managing-land/wildflowers/pollinators/importance"
+            }
+          ]
+        },
+        {
+          "source_id": "mid-supply-demand",
+          "difficulty": "중급",
+          "category": "경제",
+          "title": "가격은 수요와 공급의 균형 신호로 작동한다",
+          "body": "수요가 공급보다 빠르게 늘면 가격은 오르는 경향이 있고, 공급이 충분하면 가격 압력이 낮아질 수 있습니다. 현실에서는 규제, 기대, 비용도 함께 작용합니다.",
+          "takeaway": "가격 변화를 볼 때 사람들의 선택과 생산 여건을 함께 생각해야 합니다.",
+          "sources": [
+            {
+              "label": "Khan Academy",
+              "url": "https://www.khanacademy.org/economics-finance-domain/microeconomics/supply-demand-equilibrium"
+            }
+          ]
+        },
+        {
+          "source_id": "mid-separation-of-powers",
+          "difficulty": "중급",
+          "category": "사회",
+          "title": "권력분립은 권력이 한곳에 집중되는 것을 막기 위한 장치다",
+          "body": "입법, 행정, 사법 기능을 나누고 서로 견제하게 하면 권력 남용을 줄일 수 있습니다. 현대 민주주의 제도의 중요한 원리입니다.",
+          "takeaway": "정치 뉴스를 볼 때 기관 간 견제 구조를 이해하는 데 도움이 됩니다.",
+          "sources": [
+            {
+              "label": "National Constitution Center",
+              "url": "https://constitutioncenter.org/the-constitution/articles/article-i"
+            }
+          ]
+        },
+        {
+          "source_id": "adv-dark-matter",
+          "difficulty": "고급",
+          "category": "우주",
+          "title": "암흑물질은 빛으로 직접 보이지 않지만 중력 효과로 추정된다",
+          "body": "은하 회전 속도와 중력렌즈 관측은 보이는 물질만으로 설명하기 어려운 중력 효과를 보여줍니다. 이를 설명하기 위해 암흑물질 개념이 제안되었습니다.",
+          "takeaway": "우주의 물질 구성은 눈에 보이는 별과 가스만으로 설명되지 않습니다.",
+          "sources": [
+            {
+              "label": "NASA",
+              "url": "https://science.nasa.gov/astrophysics/focus-areas/what-is-dark-energy/"
+            }
+          ]
+        },
+        {
+          "source_id": "adv-sampling-bias",
+          "difficulty": "고급",
+          "category": "통계",
+          "title": "표본편향은 조사 대상이 모집단을 제대로 대표하지 못할 때 생긴다",
+          "body": "표본이 특정 집단에 치우치면 계산은 정교해 보여도 결론은 틀릴 수 있습니다. 온라인 설문이나 자발적 응답 조사는 특히 주의가 필요합니다.",
+          "takeaway": "좋은 데이터 분석은 많은 데이터보다 대표성 있는 데이터에서 출발합니다.",
+          "sources": [
+            {
+              "label": "OECD Data Quality",
+              "url": "https://www.oecd.org/sdd/qualityframeworkforoecdstatisticalactivities.htm"
+            }
+          ]
+        }
+      ]
+    },
     {
       "date": "2026-05-02",
       "title": "2026.05.02 난이도별 상식 6개",
