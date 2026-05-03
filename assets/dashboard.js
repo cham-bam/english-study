@@ -712,14 +712,21 @@
     try {
       writeSyncEmail(email);
       const redirectTo = state.sync.config?.authRedirectUrl || location.href.split("#")[0];
-      const { error } = await state.sync.client.auth.signInWithOtp({
+      let { error } = await state.sync.client.auth.signInWithOtp({
         email,
         options: { emailRedirectTo: redirectTo }
       });
-      if (error) throw error;
-      state.sync.message = "로그인 링크를 이메일로 보냈습니다.";
+
+      if (error) {
+        const fallback = await state.sync.client.auth.signInWithOtp({ email });
+        if (fallback.error) throw fallback.error;
+        state.sync.message = "로그인 메일을 보냈습니다. 링크가 열리지 않으면 6자리 코드를 입력하세요.";
+        return;
+      }
+
+      state.sync.message = "로그인 링크와 6자리 코드를 이메일로 보냈습니다.";
     } catch (e) {
-      state.sync.message = "로그인 링크 전송에 실패했습니다.";
+      state.sync.message = `로그인 링크 전송에 실패했습니다: ${e?.message || e?.error_description || "Supabase 설정을 확인해 주세요."}`;
       console.warn("Supabase sign in failed", e);
     } finally {
       state.sync.loading = false;
