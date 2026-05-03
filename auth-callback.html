@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>로그인 확인 중</title>
+<style>
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body {
+    min-height: 100vh;
+    display: grid;
+    place-items: center;
+    background: #f6f7f9;
+    color: #1f2933;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Malgun Gothic", sans-serif;
+    padding: 24px;
+  }
+  .panel {
+    width: min(100%, 420px);
+    border: 1px solid #dce3e8;
+    border-radius: 8px;
+    background: #ffffff;
+    box-shadow: 0 8px 24px rgba(20, 35, 48, 0.08);
+    padding: 22px;
+  }
+  h1 {
+    color: #145266;
+    font-size: 1.25rem;
+    margin-bottom: 10px;
+  }
+  p {
+    color: #687582;
+    font-size: 0.92rem;
+    line-height: 1.55;
+  }
+  .status {
+    color: #1f6f8b;
+    font-weight: 800;
+    margin-top: 14px;
+  }
+  .error {
+    color: #c44949;
+  }
+  a {
+    color: #1f6f8b;
+    font-weight: 800;
+  }
+</style>
+</head>
+<body>
+<main class="panel">
+  <h1>로그인 확인 중</h1>
+  <p>메일 인증 링크를 확인하고 있습니다. 잠시만 기다려 주세요.</p>
+  <p class="status" id="status">처리 중...</p>
+</main>
+
+<script type="module">
+  const statusEl = document.getElementById("status");
+  const dashboardUrl = "./dashboard.html";
+
+  function setStatus(message, isError = false) {
+    statusEl.textContent = message;
+    statusEl.classList.toggle("error", isError);
+  }
+
+  function getParam(name) {
+    const query = new URLSearchParams(location.search);
+    const hash = new URLSearchParams(location.hash.replace(/^#/, ""));
+    return query.get(name) || hash.get(name) || "";
+  }
+
+  try {
+    const configRes = await fetch("./data/supabase_config.json?t=" + Date.now());
+    if (!configRes.ok) throw new Error("Supabase 설정을 불러오지 못했습니다.");
+    const config = await configRes.json();
+
+    const { createClient } = await import("https://cdn.jsdelivr.net/npm/@supabase/supabase-js/+esm");
+    const supabase = createClient(config.url, config.anonKey, {
+      auth: {
+        autoRefreshToken: true,
+        detectSessionInUrl: true,
+        flowType: "implicit",
+        persistSession: true
+      }
+    });
+
+    const tokenHash = getParam("token_hash");
+
+    if (tokenHash) {
+      const requestedType = getParam("type") || "email";
+      const types = [requestedType, "email", "magiclink", "signup"].filter((type, index, list) => type && list.indexOf(type) === index);
+      let lastError = null;
+
+      for (const type of types) {
+        const { error } = await supabase.auth.verifyOtp({ token_hash: tokenHash, type });
+        if (!error) {
+          lastError = null;
+          break;
+        }
+        lastError = error;
+      }
+
+      if (lastError) throw lastError;
+    } else {
+      const { data, error } = await supabase.auth.getSession();
+      if (error) throw error;
+      if (!data.session) throw new Error("인증 토큰이 링크에 포함되지 않았습니다.");
+    }
+
+    setStatus("로그인 완료. 대시보드로 이동합니다.");
+    setTimeout(() => {
+      location.replace(dashboardUrl);
+    }, 700);
+  } catch (error) {
+    console.warn("Auth callback failed", error);
+    setStatus("로그인 확인에 실패했습니다. 대시보드에서 6자리 인증코드를 입력해 주세요.", true);
+    const link = document.createElement("p");
+    link.innerHTML = '<a href="./dashboard.html">대시보드로 돌아가기</a>';
+    document.querySelector(".panel").appendChild(link);
+  }
+</script>
+</body>
+</html>

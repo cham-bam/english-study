@@ -732,12 +732,21 @@
     state.sync.loading = true;
     try {
       writeSyncEmail(email);
-      const { data, error } = await state.sync.client.auth.verifyOtp({
-        email,
-        token,
-        type: "email"
-      });
-      if (error) throw error;
+      let data = null;
+      let lastError = null;
+      const otpTypes = ["email", "magiclink", "signup"];
+
+      for (const type of otpTypes) {
+        const result = await state.sync.client.auth.verifyOtp({ email, token, type });
+        if (!result.error) {
+          data = result.data;
+          lastError = null;
+          break;
+        }
+        lastError = result.error;
+      }
+
+      if (lastError) throw lastError;
 
       state.sync.user = data.user || data.session?.user || null;
       state.sync.ready = true;
