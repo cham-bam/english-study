@@ -1188,6 +1188,25 @@
     `;
   }
 
+  function renderFavoriteKnowledgeCard(items, limit) {
+    if (!items.length) return "";
+    const title = limit && items.length > limit
+      ? `관심상식 (${limit}/${items.length}개)`
+      : `관심상식 (${items.length}개)`;
+
+    return `
+      <div class="card favorite-knowledge-card">
+        <div class="card-title">${title}</div>
+        <div class="knowledge-list">${renderKnowledgeItems(items, limit)}</div>
+        ${limit && items.length > limit ? `
+          <div class="action-row favorite-actions">
+            <button class="action-link" type="button" data-view-target="knowledge">전체 관심상식 보기</button>
+          </div>
+        ` : ""}
+      </div>
+    `;
+  }
+
   function getDerived(prog, errors, knowledge, englishDaily) {
     const day = prog.current_day || 0;
     const nextDay = Math.max(1, day || 1);
@@ -1249,6 +1268,10 @@
               <div class="summary-label">영어 단어</div>
             </div>
             <div class="summary-item">
+              <div class="summary-num">${d.favoriteKnowledge.length}</div>
+              <div class="summary-label">관심상식</div>
+            </div>
+            <div class="summary-item">
               <div class="summary-num">${d.reviews.length}</div>
               <div class="summary-label">복습</div>
             </div>
@@ -1278,6 +1301,7 @@
 
         ${renderExtraKnowledgeCard()}
         ${renderExtraEnglishCard()}
+        ${renderFavoriteKnowledgeCard(d.favoriteKnowledge, 3)}
 
         <div class="card compact">
           <div class="card-title">영어 진도</div>
@@ -1446,12 +1470,9 @@
 
         ${renderExtraKnowledgeCard()}
 
-        <div class="card">
-          <div class="card-title">관심상식 (${d.favoriteKnowledge.length}개)</div>
-          <div class="knowledge-list">
-            ${d.favoriteKnowledge.length ? renderKnowledgeItems(d.favoriteKnowledge) : '<div class="empty-msg">관심상식에 추가한 항목이 없습니다.</div>'}
-          </div>
-        </div>
+        ${d.favoriteKnowledge.length
+          ? renderFavoriteKnowledgeCard(d.favoriteKnowledge)
+          : '<div class="card"><div class="card-title">관심상식 (0개)</div><div class="empty-msg">관심상식에 추가한 항목이 없습니다.</div></div>'}
 
         <div class="card">
           <div class="card-title">날짜별 상식 목록</div>
