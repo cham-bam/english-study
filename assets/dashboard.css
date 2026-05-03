@@ -466,6 +466,31 @@ a {
   text-decoration: none;
 }
 
+.knowledge-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-top: 10px;
+}
+
+.knowledge-btn {
+  min-height: 32px;
+  border: 1px solid #c6d6dc;
+  border-radius: 8px;
+  background: #ffffff;
+  color: var(--primary-dark);
+  cursor: pointer;
+  font-size: 0.78rem;
+  font-weight: 900;
+  padding: 6px 10px;
+}
+
+.knowledge-btn.danger {
+  border-color: #f0c7c7;
+  background: #fff4f4;
+  color: var(--red);
+}
+
 .word-list {
   gap: 8px;
 }

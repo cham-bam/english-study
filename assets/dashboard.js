@@ -11,6 +11,7 @@
     supabaseConfig: "data/supabase_config.json"
   };
   const LOCAL_WRONG_KEY = "english-study-local-wrong-words-v1";
+  const LOCAL_FAVORITE_KNOWLEDGE_KEY = "english-study-local-favorite-knowledge-v1";
   const EXTRA_STUDY_KEY = "english-study-extra-study-v1";
   const SYNC_EMAIL_KEY = "english-study-sync-email-v1";
   const DIFFICULTIES = ["초급", "중급", "고급"];
@@ -39,6 +40,8 @@
     },
     localWrongWords: [],
     remoteWrongWords: [],
+    localFavoriteKnowledge: [],
+    remoteFavoriteKnowledge: [],
     sync: {
       config: null,
       client: null,
@@ -148,6 +151,15 @@
     }
   }
 
+  function readLocalFavoriteKnowledge() {
+    try {
+      const parsed = JSON.parse(localStorage.getItem(LOCAL_FAVORITE_KNOWLEDGE_KEY) || "[]");
+      return Array.isArray(parsed) ? parsed : [];
+    } catch (e) {
+      return [];
+    }
+  }
+
   function readSyncEmail() {
     return localStorage.getItem(SYNC_EMAIL_KEY) || "";
   }
@@ -165,6 +177,11 @@
   function writeLocalWrongWords(words) {
     localStorage.setItem(LOCAL_WRONG_KEY, JSON.stringify(words));
     state.localWrongWords = words;
+  }
+
+  function writeLocalFavoriteKnowledge(items) {
+    localStorage.setItem(LOCAL_FAVORITE_KNOWLEDGE_KEY, JSON.stringify(items));
+    state.localFavoriteKnowledge = items;
   }
 
   function emptyExtraStudy(message = "") {
@@ -296,8 +313,113 @@
     addLocalWrongWord(item);
   }
 
+  function getKnowledgeKey(item) {
+    return String(item?.source_id || item?.id || item?.title || "").trim().toLowerCase();
+  }
+
+  function normalizeKnowledgeSources(sources) {
+    let list = sources;
+    if (typeof list === "string") {
+      try {
+        list = JSON.parse(list);
+      } catch (e) {
+        list = [];
+      }
+    }
+
+    return Array.isArray(list)
+      ? list
+        .filter((source) => source?.url)
+        .map((source) => ({
+          label: source.label || "출처",
+          url: source.url
+        }))
+      : [];
+  }
+
+  function normalizeFavoriteKnowledgeItem(item) {
+    if (!item?.title) return null;
+
+    return {
+      source_id: item.source_id || item.id || "",
+      difficulty: normalizeDifficulty(item.difficulty),
+      category: item.category || "상식",
+      title: item.title,
+      body: item.body || "",
+      takeaway: item.takeaway || "",
+      sources: normalizeKnowledgeSources(item.sources),
+      added_at: item.added_at || getLocalDateYMD()
+    };
+  }
+
+  function mergeFavoriteKnowledge(items) {
+    const merged = new Map();
+
+    items.forEach((item) => {
+      const normalized = normalizeFavoriteKnowledgeItem(item);
+      const key = getKnowledgeKey(normalized);
+      if (!normalized || !key) return;
+
+      const existing = merged.get(key);
+      if (!existing) {
+        merged.set(key, normalized);
+        return;
+      }
+
+      existing.source_id = existing.source_id || normalized.source_id;
+      existing.body = existing.body || normalized.body;
+      existing.takeaway = existing.takeaway || normalized.takeaway;
+      existing.category = existing.category || normalized.category;
+      existing.sources = existing.sources.length ? existing.sources : normalized.sources;
+      existing.added_at = existing.added_at || normalized.added_at;
+    });
+
+    return [...merged.values()].sort((a, b) => String(b.added_at || "").localeCompare(String(a.added_at || "")));
+  }
+
+  function getFavoriteKnowledge() {
+    return mergeFavoriteKnowledge([...state.localFavoriteKnowledge, ...state.remoteFavoriteKnowledge]);
+  }
+
+  function isLocalFavoriteKnowledge(item) {
+    const target = getKnowledgeKey(item);
+    if (!target) return false;
+    return state.localFavoriteKnowledge.some((saved) => getKnowledgeKey(saved) === target);
+  }
+
+  function isRemoteFavoriteKnowledge(item) {
+    const target = getKnowledgeKey(item);
+    if (!target) return false;
+    return state.remoteFavoriteKnowledge.some((saved) => getKnowledgeKey(saved) === target);
+  }
+
+  function isFavoriteKnowledge(item) {
+    return isLocalFavoriteKnowledge(item) || isRemoteFavoriteKnowledge(item);
+  }
+
+  function addLocalFavoriteKnowledge(item) {
+    const normalized = normalizeFavoriteKnowledgeItem(item);
+    const key = getKnowledgeKey(normalized);
+    if (!normalized || !key) return;
+
+    const next = state.localFavoriteKnowledge.filter((saved) => getKnowledgeKey(saved) !== key);
+    next.unshift(normalized);
+    writeLocalFavoriteKnowledge(next);
+  }
+
+  function removeLocalFavoriteKnowledge(item) {
+    const key = getKnowledgeKey(item);
+    if (!key) return;
+
+    writeLocalFavoriteKnowledge(state.localFavoriteKnowledge.filter((saved) => getKnowledgeKey(saved) !== key));
+  }
+
   function getSyncTable() {
     return state.sync.config?.wrongWordsTable || "study_wrong_words";
+  }
+
+  function getFavoriteKnowledgeTable() {
+    return state.sync.config?.favoriteKnowledgeTable || "study_favorite_knowledge";
   }
 
   function isSupabaseConfigured(config) {
@@ -395,6 +517,94 @@
     await loadRemoteWrongWords();
   }
 
+  function remoteRowToFavoriteKnowledge(row) {
+    return normalizeFavoriteKnowledgeItem({
+      source_id: row.source_id || "",
+      difficulty: row.difficulty,
+      category: row.category,
+      title: row.title,
+      body: row.body,
+      takeaway: row.takeaway,
+      sources: row.sources,
+      added_at: row.added_at || null
+    });
+  }
+
+  function favoriteKnowledgeToRemoteRow(item) {
+    const normalized = normalizeFavoriteKnowledgeItem(item);
+    if (!normalized) return null;
+
+    return {
+      user_id: state.sync.user.id,
+      source_id: normalized.source_id,
+      title_key: getKnowledgeKey(normalized),
+      difficulty: normalized.difficulty,
+      category: normalized.category,
+      title: normalized.title,
+      body: normalized.body,
+      takeaway: normalized.takeaway,
+      sources: normalized.sources,
+      added_at: normalized.added_at || getLocalDateYMD(),
+      updated_at: new Date().toISOString()
+    };
+  }
+
+  async function loadRemoteFavoriteKnowledge() {
+    if (!state.sync.ready || !state.sync.user) {
+      state.remoteFavoriteKnowledge = [];
+      return;
+    }
+
+    const { data, error } = await state.sync.client
+      .from(getFavoriteKnowledgeTable())
+      .select("id, source_id, title_key, difficulty, category, title, body, takeaway, sources, added_at")
+      .order("updated_at", { ascending: false });
+
+    if (error) throw error;
+    state.remoteFavoriteKnowledge = (data || []).map(remoteRowToFavoriteKnowledge).filter(Boolean);
+  }
+
+  async function upsertRemoteFavoriteKnowledge(item) {
+    if (!state.sync.ready || !state.sync.user || !item?.title) return;
+
+    const row = favoriteKnowledgeToRemoteRow(item);
+    if (!row?.title_key) return;
+
+    const { error } = await state.sync.client
+      .from(getFavoriteKnowledgeTable())
+      .upsert(row, { onConflict: "user_id,title_key" });
+
+    if (error) throw error;
+    await loadRemoteFavoriteKnowledge();
+  }
+
+  async function deleteRemoteFavoriteKnowledge(item) {
+    if (!state.sync.ready || !state.sync.user) return;
+
+    const key = getKnowledgeKey(item);
+    if (!key) return;
+
+    const { error } = await state.sync.client
+      .from(getFavoriteKnowledgeTable())
+      .delete()
+      .eq("user_id", state.sync.user.id)
+      .eq("title_key", key);
+
+    if (error) throw error;
+    await loadRemoteFavoriteKnowledge();
+  }
+
+  async function syncLocalFavoriteKnowledgeToRemote() {
+    if (!state.sync.ready || !state.sync.user || !state.localFavoriteKnowledge.length) return;
+
+    for (const item of state.localFavoriteKnowledge) {
+      await upsertRemoteFavoriteKnowledge(item);
+    }
+
+    writeLocalFavoriteKnowledge([]);
+    await loadRemoteFavoriteKnowledge();
+  }
+
   async function toggleWrongWord(item) {
     if (isUserWrongWord(item?.word)) {
       removeLocalWrongWord(item.word);
@@ -408,6 +618,47 @@
       wrong_count: 1,
       added_at: getLocalDateYMD()
     });
+  }
+
+  async function toggleFavoriteKnowledge(item) {
+    if (isFavoriteKnowledge(item)) {
+      removeLocalFavoriteKnowledge(item);
+      try {
+        await deleteRemoteFavoriteKnowledge(item);
+      } catch (e) {
+        state.sync.message = "관심상식 원격 해제에 실패했습니다. 잠시 후 싱크 새로고침을 눌러주세요.";
+        console.warn("Favorite knowledge delete failed", e);
+      }
+      return;
+    }
+
+    addLocalFavoriteKnowledge(item);
+    try {
+      await upsertRemoteFavoriteKnowledge(item);
+    } catch (e) {
+      state.sync.message = "관심상식은 이 기기에 저장되었습니다. Supabase SQL 설정 후 모바일과 동기화됩니다.";
+      console.warn("Favorite knowledge upsert failed", e);
+    }
+  }
+
+  async function syncLocalStudyDataToRemote() {
+    await syncLocalWrongWordsToRemote();
+    try {
+      await syncLocalFavoriteKnowledgeToRemote();
+    } catch (e) {
+      state.sync.message = "관심상식 동기화 테이블 설정이 필요합니다.";
+      console.warn("Favorite knowledge local sync failed", e);
+    }
+  }
+
+  async function refreshRemoteStudyData() {
+    await loadRemoteWrongWords();
+    try {
+      await loadRemoteFavoriteKnowledge();
+    } catch (e) {
+      state.sync.message = "오답노트는 동기화했고, 관심상식은 Supabase SQL 설정이 필요합니다.";
+      console.warn("Favorite knowledge refresh failed", e);
+    }
   }
 
   function getAuthUrlError() {
@@ -426,6 +677,7 @@
       state.sync.ready = false;
       state.sync.user = null;
       state.remoteWrongWords = [];
+      state.remoteFavoriteKnowledge = [];
       return;
     }
 
@@ -439,12 +691,13 @@
       state.sync.ready = true;
 
       if (state.sync.user) {
-        await syncLocalWrongWordsToRemote();
-        await loadRemoteWrongWords();
+        await syncLocalStudyDataToRemote();
+        await refreshRemoteStudyData();
       }
     } catch (e) {
       state.sync.ready = false;
       state.remoteWrongWords = [];
+      state.remoteFavoriteKnowledge = [];
       state.sync.message = "Supabase 동기화를 시작하지 못했습니다.";
       console.warn("Supabase sync init failed", e);
     } finally {
@@ -488,11 +741,14 @@
 
       state.sync.user = data.user || data.session?.user || null;
       state.sync.ready = true;
+      state.sync.message = "";
       if (state.sync.user) {
-        await syncLocalWrongWordsToRemote();
-        await loadRemoteWrongWords();
+        await syncLocalStudyDataToRemote();
+        await refreshRemoteStudyData();
       }
-      state.sync.message = "인증코드로 로그인되었습니다.";
+      if (!state.sync.message) {
+        state.sync.message = "인증코드로 로그인되었습니다.";
+      }
     } catch (e) {
       state.sync.message = "인증코드 로그인이 실패했습니다. 코드 만료 또는 이메일 불일치일 수 있습니다.";
       console.warn("Supabase OTP verify failed", e);
@@ -507,6 +763,7 @@
     await state.sync.client.auth.signOut();
     state.sync.user = null;
     state.remoteWrongWords = [];
+    state.remoteFavoriteKnowledge = [];
     state.sync.message = "동기화 로그아웃됨";
   }
 
@@ -664,7 +921,7 @@
   }
 
   function renderSourceLinks(sources) {
-    const list = Array.isArray(sources) ? sources.filter((source) => source?.url) : [];
+    const list = normalizeKnowledgeSources(sources);
     if (!list.length) return "";
 
     return `
@@ -684,7 +941,10 @@
       return '<div class="empty-msg">상식 데이터가 없습니다.</div>';
     }
 
-    return list.map((item) => `
+    return list.map((item) => {
+      const saved = isFavoriteKnowledge(item);
+
+      return `
       <article class="knowledge-item">
         <div class="meta-row">
           <span class="knowledge-category">${escapeHtml(item.category || "상식")}</span>
@@ -694,8 +954,14 @@
         <p class="knowledge-body">${escapeHtml(item.body || "")}</p>
         ${item.takeaway ? `<p class="knowledge-takeaway">${escapeHtml(item.takeaway)}</p>` : ""}
         ${renderSourceLinks(item.sources)}
+        <div class="knowledge-actions">
+          <button class="knowledge-btn${saved ? " danger" : ""}" type="button" data-action="toggle-knowledge-favorite" data-knowledge-payload="${encodePayload(item)}">
+            ${saved ? "관심상식에서 제거" : "관심상식에 추가"}
+          </button>
+        </div>
       </article>
-    `).join("");
+    `;
+    }).join("");
   }
 
   function getWordId(item, context, index) {
@@ -842,7 +1108,7 @@
       return `
         <div class="card compact sync-card">
           <div class="card-title">기기 간 싱크</div>
-          <p class="hero-sub">현재 오답노트는 이 브라우저에 저장됩니다. Supabase anon key와 테이블 설정을 완료하면 PC와 모바일이 같은 오답노트를 공유합니다.</p>
+          <p class="hero-sub">현재 오답노트와 관심상식은 이 브라우저에 저장됩니다. Supabase 설정을 완료하면 PC와 모바일이 같은 목록을 공유합니다.</p>
         </div>
       `;
     }
@@ -851,7 +1117,7 @@
       return `
         <div class="card compact sync-card">
           <div class="card-title">기기 간 싱크</div>
-          <p class="hero-sub">Supabase에 로그인되어 있습니다. 오답노트는 PC와 모바일에서 동기화됩니다.</p>
+          <p class="hero-sub">Supabase에 로그인되어 있습니다. 오답노트와 관심상식은 PC와 모바일에서 동기화됩니다.</p>
           <div class="sync-user">${escapeHtml(state.sync.user.email || state.sync.user.id)}</div>
           ${message}
           <div class="action-row">
@@ -865,7 +1131,7 @@
     return `
       <div class="card compact sync-card">
         <div class="card-title">기기 간 싱크</div>
-        <p class="hero-sub">같은 이메일로 PC와 모바일에서 로그인하면 오답노트가 동기화됩니다. 링크가 실패하면 이메일의 6자리 코드를 입력하세요.</p>
+        <p class="hero-sub">같은 이메일로 PC와 모바일에서 로그인하면 오답노트와 관심상식이 동기화됩니다. 링크가 실패하면 이메일의 6자리 코드를 입력하세요.</p>
         <div class="sync-form">
           <input class="sync-input" id="sync-email" type="email" placeholder="이메일 입력" autocomplete="email" value="${escapeHtml(state.sync.email)}">
           <button class="sync-button" type="button" data-action="sync-login" ${state.sync.loading ? "disabled" : ""}>
@@ -921,6 +1187,7 @@
     const englishEntries = getDatedEntries(englishDaily);
     const latestEnglish = getLatestEntry(englishDaily);
     const englishItems = getEntryItems(latestEnglish);
+    const favoriteKnowledge = getFavoriteKnowledge();
 
     return {
       day,
@@ -934,6 +1201,7 @@
       knowledgeEntries,
       latestKnowledge,
       knowledgeItems,
+      favoriteKnowledge,
       englishEntries,
       latestEnglish,
       englishItems
@@ -1138,6 +1406,8 @@
 
     return `
       <section class="view knowledge">
+        ${renderSyncPanel()}
+
         <div class="card hero-card">
           <div class="hero-top">
             <div>
@@ -1159,6 +1429,13 @@
         </div>
 
         ${renderExtraKnowledgeCard()}
+
+        <div class="card">
+          <div class="card-title">관심상식 (${d.favoriteKnowledge.length}개)</div>
+          <div class="knowledge-list">
+            ${d.favoriteKnowledge.length ? renderKnowledgeItems(d.favoriteKnowledge) : '<div class="empty-msg">관심상식에 추가한 항목이 없습니다.</div>'}
+          </div>
+        </div>
 
         <div class="card">
           <div class="card-title">날짜별 상식 목록</div>
@@ -1195,6 +1472,7 @@
 
     try {
       state.localWrongWords = readLocalWrongWords();
+      state.localFavoriteKnowledge = readLocalFavoriteKnowledge();
       state.extraStudy = readExtraStudy();
       const [prog, errors, knowledge, englishDaily, knowledgePool, englishSource, supabaseConfig] = await Promise.all([
         loadJSON(FILES.progress),
@@ -1355,6 +1633,20 @@
         return;
       }
 
+      const knowledgeFavoriteToggle = event.target.closest("[data-action='toggle-knowledge-favorite']");
+      if (knowledgeFavoriteToggle) {
+        try {
+          const item = JSON.parse(decodeURIComponent(knowledgeFavoriteToggle.dataset.knowledgePayload || ""));
+          await toggleFavoriteKnowledge(item);
+          renderDashboard();
+        } catch (e) {
+          state.sync.message = "관심상식 변경에 실패했습니다.";
+          console.warn("관심상식 변경 실패", e);
+          renderDashboard();
+        }
+        return;
+      }
+
       const extraRequest = event.target.closest("[data-action='request-extra']");
       if (extraRequest) {
         requestExtraStudy(extraRequest.dataset.extraKind || "both");
@@ -1382,8 +1674,11 @@
 
       if (event.target.closest("[data-action='sync-refresh']")) {
         try {
-          await loadRemoteWrongWords();
-          state.sync.message = "오답노트를 다시 동기화했습니다.";
+          state.sync.message = "";
+          await refreshRemoteStudyData();
+          if (!state.sync.message) {
+            state.sync.message = "오답노트와 관심상식을 다시 동기화했습니다.";
+          }
         } catch (e) {
           state.sync.message = "동기화 새로고침에 실패했습니다.";
           console.warn("Supabase refresh failed", e);

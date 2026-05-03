@@ -43,3 +43,51 @@ on public.study_wrong_words
 for delete
 to authenticated
 using ((select auth.uid()) = user_id);
+
+create table if not exists public.study_favorite_knowledge (
+  id uuid primary key default gen_random_uuid(),
+  user_id uuid not null references auth.users(id) on delete cascade,
+  source_id text,
+  title_key text not null,
+  difficulty text,
+  category text,
+  title text not null,
+  body text,
+  takeaway text,
+  sources jsonb not null default '[]'::jsonb,
+  added_at date not null default current_date,
+  created_at timestamptz not null default now(),
+  updated_at timestamptz not null default now(),
+  unique (user_id, title_key)
+);
+
+alter table public.study_favorite_knowledge enable row level security;
+
+drop policy if exists "Users can read own favorite knowledge" on public.study_favorite_knowledge;
+create policy "Users can read own favorite knowledge"
+on public.study_favorite_knowledge
+for select
+to authenticated
+using ((select auth.uid()) = user_id);
+
+drop policy if exists "Users can insert own favorite knowledge" on public.study_favorite_knowledge;
+create policy "Users can insert own favorite knowledge"
+on public.study_favorite_knowledge
+for insert
+to authenticated
+with check ((select auth.uid()) = user_id);
+
+drop policy if exists "Users can update own favorite knowledge" on public.study_favorite_knowledge;
+create policy "Users can update own favorite knowledge"
+on public.study_favorite_knowledge
+for update
+to authenticated
+using ((select auth.uid()) = user_id)
+with check ((select auth.uid()) = user_id);
+
+drop policy if exists "Users can delete own favorite knowledge" on public.study_favorite_knowledge;
+create policy "Users can delete own favorite knowledge"
+on public.study_favorite_knowledge
+for delete
+to authenticated
+using ((select auth.uid()) = user_id);
