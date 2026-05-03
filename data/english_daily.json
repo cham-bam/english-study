@@ -1,8 +1,210 @@
 {
-  "updated_at": "2026-05-03",
+  "updated_at": "2026-05-04",
   "default_daily_count": 15,
   "source": "01_기초_동사형용사.json",
   "entries": [
+    {
+      "date": "2026-05-04",
+      "day": 10,
+      "title": "Day 10 난이도별 영단어 15개",
+      "items": [
+        {
+          "difficulty": "초급",
+          "word": "drive",
+          "meaning": "운전하다",
+          "example": "Drive carefully on highways.",
+          "note": "운전하다라는 뜻입니다. 예문과 함께 문장째 익혀보세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/drive"
+            }
+          ]
+        },
+        {
+          "difficulty": "초급",
+          "word": "drop",
+          "meaning": "떨어뜨리다",
+          "example": "Don't drop the ball.",
+          "note": "떨어뜨리다라는 뜻입니다. 예문과 함께 문장째 익혀보세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/drop"
+            }
+          ]
+        },
+        {
+          "difficulty": "초급",
+          "word": "earn",
+          "meaning": "벌다",
+          "example": "Earn trust through actions.",
+          "note": "벌다라는 뜻입니다. 예문과 함께 문장째 익혀보세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/earn"
+            }
+          ]
+        },
+        {
+          "difficulty": "초급",
+          "word": "eat",
+          "meaning": "먹다",
+          "example": "Eat before the meeting.",
+          "note": "먹다라는 뜻입니다. 예문과 함께 문장째 익혀보세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/eat"
+            }
+          ]
+        },
+        {
+          "difficulty": "초급",
+          "word": "enable",
+          "meaning": "가능하게하다",
+          "example": "Enable the new feature.",
+          "note": "가능하게하다라는 뜻입니다. 예문과 함께 문장째 익혀보세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/enable"
+            }
+          ]
+        },
+        {
+          "difficulty": "중급",
+          "word": "assess",
+          "meaning": "평가하다",
+          "example": "Assess the risk before investing.",
+          "note": "평가하다라는 뜻입니다. 예문과 함께 문장째 익혀보세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/assess"
+            }
+          ]
+        },
+        {
+          "difficulty": "중급",
+          "word": "justify",
+          "meaning": "정당화하다",
+          "example": "Justify your decision with evidence.",
+          "note": "정당화하다라는 뜻입니다. 예문과 함께 문장째 익혀보세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/justify"
+            }
+          ]
+        },
+        {
+          "difficulty": "중급",
+          "word": "revise",
+          "meaning": "수정하다",
+          "example": "Revise the draft after feedback.",
+          "note": "수정하다라는 뜻입니다. 예문과 함께 문장째 익혀보세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/revise"
+            }
+          ]
+        },
+        {
+          "difficulty": "중급",
+          "word": "clarify",
+          "meaning": "명확히 하다",
+          "example": "Clarify the requirements first.",
+          "note": "명확히 하다라는 뜻입니다. 예문과 함께 문장째 익혀보세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/clarify"
+            }
+          ]
+        },
+        {
+          "difficulty": "중급",
+          "word": "coordinate",
+          "meaning": "조율하다",
+          "example": "Coordinate the schedule with the team.",
+          "note": "조율하다라는 뜻입니다. 예문과 함께 문장째 익혀보세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/coordinate"
+            }
+          ]
+        },
+        {
+          "difficulty": "고급",
+          "word": "volatile",
+          "meaning": "변동성이 큰",
+          "example": "The market remained volatile all week.",
+          "note": "변동성이 큰라는 뜻입니다. 예문과 함께 문장째 익혀보세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/volatile"
+            }
+          ]
+        },
+        {
+          "difficulty": "고급",
+          "word": "ubiquitous",
+          "meaning": "어디에나 있는",
+          "example": "Smartphones are ubiquitous today.",
+          "note": "어디에나 있는라는 뜻입니다. 예문과 함께 문장째 익혀보세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/ubiquitous"
+            }
+          ]
+        },
+        {
+          "difficulty": "고급",
+          "word": "arbitrary",
+          "meaning": "임의적인",
+          "example": "The deadline seems arbitrary.",
+          "note": "임의적인라는 뜻입니다. 예문과 함께 문장째 익혀보세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/arbitrary"
+            }
+          ]
+        },
+        {
+          "difficulty": "고급",
+          "word": "comprehensive",
+          "meaning": "포괄적인",
+          "example": "We need a comprehensive review.",
+          "note": "포괄적인라는 뜻입니다. 예문과 함께 문장째 익혀보세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/comprehensive"
+            }
+          ]
+        },
+        {
+          "difficulty": "고급",
+          "word": "detrimental",
+          "meaning": "해로운",
+          "example": "Lack of sleep is detrimental to health.",
+          "note": "해로운라는 뜻입니다. 예문과 함께 문장째 익혀보세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/detrimental"
+            }
+          ]
+        }
+      ]
+    },
     {
       "date": "2026-05-03",
       "day": 9,

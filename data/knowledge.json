@@ -1,7 +1,97 @@
 {
-  "updated_at": "2026-05-03",
+  "updated_at": "2026-05-04",
   "default_daily_count": 6,
   "entries": [
+    {
+      "date": "2026-05-04",
+      "title": "2026.05.04 난이도별 상식 6개",
+      "items": [
+        {
+          "source_id": "space-asteroids-comets",
+          "difficulty": "초급",
+          "category": "우주",
+          "title": "소행성과 혜성은 태양계의 초기 흔적을 품고 있다",
+          "body": "소행성과 혜성은 행성이 만들어지고 남은 물질로 볼 수 있습니다. 이들을 연구하면 태양계가 어떻게 형성되었는지 이해하는 데 도움이 됩니다.",
+          "takeaway": "작은 천체 연구가 우주 역사를 읽는 단서가 됩니다.",
+          "sources": [
+            {
+              "label": "NASA Asteroids",
+              "url": "https://science.nasa.gov/solar-system/asteroids/"
+            }
+          ]
+        },
+        {
+          "source_id": "ocean-rip-current",
+          "difficulty": "초급",
+          "category": "안전",
+          "title": "이안류는 해변에서 바다 쪽으로 빠르게 흐른다",
+          "body": "이안류는 해안 가까이에서 바다 쪽으로 좁고 빠르게 흐르는 물길입니다. 물살을 거슬러 바로 헤엄치기보다 해안과 평행하게 빠져나오는 것이 중요합니다.",
+          "takeaway": "해수욕장 안전 수칙에서 이안류를 강조하는 이유입니다.",
+          "sources": [
+            {
+              "label": "NOAA Ocean Service",
+              "url": "https://oceanservice.noaa.gov/facts/ripcurrent.html"
+            }
+          ]
+        },
+        {
+          "source_id": "mid-map-projection",
+          "difficulty": "중급",
+          "category": "지리",
+          "title": "세계지도는 둥근 지구를 평면으로 옮기며 반드시 왜곡이 생긴다",
+          "body": "구형에 가까운 지구 표면을 평면 지도에 표현하려면 면적, 방향, 거리, 모양 중 일부를 희생해야 합니다. 지도 투영법마다 강점과 한계가 다릅니다.",
+          "takeaway": "지도는 현실의 완전한 복사본이 아니라 목적에 맞춘 해석입니다.",
+          "sources": [
+            {
+              "label": "National Geographic",
+              "url": "https://education.nationalgeographic.org/resource/map-projections/"
+            }
+          ]
+        },
+        {
+          "source_id": "mid-feedback-loop",
+          "difficulty": "중급",
+          "category": "시스템",
+          "title": "피드백 루프는 시스템의 변화를 키우거나 줄인다",
+          "body": "양의 피드백은 변화를 더 크게 만들고, 음의 피드백은 변화를 안정시키는 방향으로 작동합니다. 생태계, 경제, 기후, 조직 운영에서 모두 나타납니다.",
+          "takeaway": "복잡한 문제는 원인 하나보다 되돌림 구조를 보는 편이 좋습니다.",
+          "sources": [
+            {
+              "label": "MIT System Dynamics",
+              "url": "https://mitsloan.mit.edu/faculty/academic-groups/system-dynamics"
+            }
+          ]
+        },
+        {
+          "source_id": "adv-overfitting",
+          "difficulty": "고급",
+          "category": "AI",
+          "title": "과적합은 모델이 훈련 데이터에만 지나치게 맞춰지는 현상이다",
+          "body": "과적합된 모델은 훈련 데이터에서는 성능이 좋아 보이지만 새로운 데이터에서는 약할 수 있습니다. 검증 데이터와 규제 기법은 이를 줄이는 데 쓰입니다.",
+          "takeaway": "AI 성능은 외운 답보다 처음 보는 상황에 얼마나 일반화되는지가 중요합니다.",
+          "sources": [
+            {
+              "label": "Google Machine Learning Crash Course",
+              "url": "https://developers.google.com/machine-learning/crash-course/overfitting/overfitting"
+            }
+          ]
+        },
+        {
+          "source_id": "adv-roc-curve",
+          "difficulty": "고급",
+          "category": "데이터",
+          "title": "ROC 곡선은 분류 모델의 민감도와 오경보 사이의 균형을 보여준다",
+          "body": "ROC 곡선은 임계값을 바꾸며 참양성률과 거짓양성률이 어떻게 달라지는지 나타냅니다. 의료 진단과 머신러닝 평가에서 자주 쓰입니다.",
+          "takeaway": "분류 모델은 정답률 하나만으로 판단하기 어렵습니다.",
+          "sources": [
+            {
+              "label": "NCBI",
+              "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3755824/"
+            }
+          ]
+        }
+      ]
+    },
     {
       "date": "2026-05-03",
       "title": "2026.05.03 난이도별 상식 6개",
