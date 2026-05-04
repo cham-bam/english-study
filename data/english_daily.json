@@ -1,8 +1,210 @@
 {
-  "updated_at": "2026-05-04",
+  "updated_at": "2026-05-05",
   "default_daily_count": 15,
   "source": "01_기초_동사형용사.json",
   "entries": [
+    {
+      "date": "2026-05-05",
+      "day": 11,
+      "title": "Day 11 난이도별 영단어 15개",
+      "items": [
+        {
+          "difficulty": "초급",
+          "word": "end",
+          "meaning": "끝내다",
+          "example": "End the meeting on time.",
+          "note": "끝내다라는 뜻입니다. 예문과 함께 문장째 익혀보세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/end"
+            }
+          ]
+        },
+        {
+          "difficulty": "초급",
+          "word": "enjoy",
+          "meaning": "즐기다",
+          "example": "Enjoy your business trip.",
+          "note": "즐기다라는 뜻입니다. 예문과 함께 문장째 익혀보세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/enjoy"
+            }
+          ]
+        },
+        {
+          "difficulty": "초급",
+          "word": "enter",
+          "meaning": "입력하다",
+          "example": "Enter your password here.",
+          "note": "입력하다라는 뜻입니다. 예문과 함께 문장째 익혀보세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/enter"
+            }
+          ]
+        },
+        {
+          "difficulty": "초급",
+          "word": "establish",
+          "meaning": "설립하다",
+          "example": "Establish clear guidelines first.",
+          "note": "설립하다라는 뜻입니다. 예문과 함께 문장째 익혀보세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/establish"
+            }
+          ]
+        },
+        {
+          "difficulty": "초급",
+          "word": "evaluate",
+          "meaning": "평가하다",
+          "example": "Evaluate the results carefully.",
+          "note": "평가하다라는 뜻입니다. 예문과 함께 문장째 익혀보세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/evaluate"
+            }
+          ]
+        },
+        {
+          "difficulty": "중급",
+          "word": "adapt",
+          "meaning": "적응하다",
+          "example": "Adapt your strategy to the situation.",
+          "note": "적응하다라는 뜻입니다. 예문과 함께 문장째 익혀보세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/adapt"
+            }
+          ]
+        },
+        {
+          "difficulty": "중급",
+          "word": "allocate",
+          "meaning": "배분하다",
+          "example": "Allocate enough time for testing.",
+          "note": "배분하다라는 뜻입니다. 예문과 함께 문장째 익혀보세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/allocate"
+            }
+          ]
+        },
+        {
+          "difficulty": "중급",
+          "word": "demonstrate",
+          "meaning": "입증하다",
+          "example": "Demonstrate the feature to the client.",
+          "note": "입증하다라는 뜻입니다. 예문과 함께 문장째 익혀보세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/demonstrate"
+            }
+          ]
+        },
+        {
+          "difficulty": "중급",
+          "word": "emphasize",
+          "meaning": "강조하다",
+          "example": "Emphasize the main benefit clearly.",
+          "note": "강조하다라는 뜻입니다. 예문과 함께 문장째 익혀보세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/emphasize"
+            }
+          ]
+        },
+        {
+          "difficulty": "중급",
+          "word": "estimate",
+          "meaning": "추정하다",
+          "example": "Estimate the cost of the project.",
+          "note": "추정하다라는 뜻입니다. 예문과 함께 문장째 익혀보세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/estimate"
+            }
+          ]
+        },
+        {
+          "difficulty": "고급",
+          "word": "equitable",
+          "meaning": "공정한",
+          "example": "The policy should be equitable.",
+          "note": "공정한라는 뜻입니다. 예문과 함께 문장째 익혀보세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/equitable"
+            }
+          ]
+        },
+        {
+          "difficulty": "고급",
+          "word": "inevitable",
+          "meaning": "불가피한",
+          "example": "Some trade-offs are inevitable.",
+          "note": "불가피한라는 뜻입니다. 예문과 함께 문장째 익혀보세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/inevitable"
+            }
+          ]
+        },
+        {
+          "difficulty": "고급",
+          "word": "intricate",
+          "meaning": "복잡한",
+          "example": "The device has an intricate design.",
+          "note": "복잡한라는 뜻입니다. 예문과 함께 문장째 익혀보세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/intricate"
+            }
+          ]
+        },
+        {
+          "difficulty": "고급",
+          "word": "marginal",
+          "meaning": "미미한",
+          "example": "The change had only a marginal effect.",
+          "note": "미미한라는 뜻입니다. 예문과 함께 문장째 익혀보세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/marginal"
+            }
+          ]
+        },
+        {
+          "difficulty": "고급",
+          "word": "reciprocal",
+          "meaning": "상호적인",
+          "example": "Trust is often reciprocal.",
+          "note": "상호적인라는 뜻입니다. 예문과 함께 문장째 익혀보세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/reciprocal"
+            }
+          ]
+        }
+      ]
+    },
     {
       "date": "2026-05-04",
       "day": 10,
