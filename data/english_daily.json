@@ -1,8 +1,210 @@
 {
-  "updated_at": "2026-05-05",
+  "updated_at": "2026-05-06",
   "default_daily_count": 15,
   "source": "01_기초_동사형용사.json",
   "entries": [
+    {
+      "date": "2026-05-06",
+      "day": 12,
+      "title": "Day 12 난이도별 영단어 15개",
+      "items": [
+        {
+          "difficulty": "초급",
+          "word": "expect",
+          "meaning": "기대하다",
+          "example": "I expect good results.",
+          "note": "기대하다라는 뜻입니다. 예문과 함께 문장째 익혀보세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/expect"
+            }
+          ]
+        },
+        {
+          "difficulty": "초급",
+          "word": "explain",
+          "meaning": "설명하다",
+          "example": "Explain your reasoning clearly.",
+          "note": "설명하다라는 뜻입니다. 예문과 함께 문장째 익혀보세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/explain"
+            }
+          ]
+        },
+        {
+          "difficulty": "초급",
+          "word": "express",
+          "meaning": "표현하다",
+          "example": "Express your opinion freely.",
+          "note": "표현하다라는 뜻입니다. 예문과 함께 문장째 익혀보세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/express"
+            }
+          ]
+        },
+        {
+          "difficulty": "초급",
+          "word": "extend",
+          "meaning": "연장하다",
+          "example": "Extend the deadline please.",
+          "note": "연장하다라는 뜻입니다. 예문과 함께 문장째 익혀보세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/extend"
+            }
+          ]
+        },
+        {
+          "difficulty": "초급",
+          "word": "face",
+          "meaning": "직면하다",
+          "example": "Face the challenge head-on.",
+          "note": "직면하다라는 뜻입니다. 예문과 함께 문장째 익혀보세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/face"
+            }
+          ]
+        },
+        {
+          "difficulty": "중급",
+          "word": "implement",
+          "meaning": "실행하다",
+          "example": "Implement the plan step by step.",
+          "note": "실행하다라는 뜻입니다. 예문과 함께 문장째 익혀보세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/implement"
+            }
+          ]
+        },
+        {
+          "difficulty": "중급",
+          "word": "indicate",
+          "meaning": "나타내다",
+          "example": "The data indicate a clear trend.",
+          "note": "나타내다라는 뜻입니다. 예문과 함께 문장째 익혀보세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/indicate"
+            }
+          ]
+        },
+        {
+          "difficulty": "중급",
+          "word": "maintain",
+          "meaning": "유지하다",
+          "example": "Maintain a consistent routine.",
+          "note": "유지하다라는 뜻입니다. 예문과 함께 문장째 익혀보세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/maintain"
+            }
+          ]
+        },
+        {
+          "difficulty": "중급",
+          "word": "negotiate",
+          "meaning": "협상하다",
+          "example": "Negotiate the contract terms.",
+          "note": "협상하다라는 뜻입니다. 예문과 함께 문장째 익혀보세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/negotiate"
+            }
+          ]
+        },
+        {
+          "difficulty": "중급",
+          "word": "organize",
+          "meaning": "정리하다",
+          "example": "Organize your notes by topic.",
+          "note": "정리하다라는 뜻입니다. 예문과 함께 문장째 익혀보세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/organize"
+            }
+          ]
+        },
+        {
+          "difficulty": "고급",
+          "word": "sophisticated",
+          "meaning": "정교한",
+          "example": "The software uses sophisticated algorithms.",
+          "note": "정교한라는 뜻입니다. 예문과 함께 문장째 익혀보세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/sophisticated"
+            }
+          ]
+        },
+        {
+          "difficulty": "고급",
+          "word": "transient",
+          "meaning": "일시적인",
+          "example": "The symptoms were transient.",
+          "note": "일시적인라는 뜻입니다. 예문과 함께 문장째 익혀보세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/transient"
+            }
+          ]
+        },
+        {
+          "difficulty": "고급",
+          "word": "unprecedented",
+          "meaning": "전례 없는",
+          "example": "The team faced unprecedented demand.",
+          "note": "전례 없는라는 뜻입니다. 예문과 함께 문장째 익혀보세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/unprecedented"
+            }
+          ]
+        },
+        {
+          "difficulty": "고급",
+          "word": "warranted",
+          "meaning": "정당한",
+          "example": "Further investigation is warranted.",
+          "note": "정당한라는 뜻입니다. 예문과 함께 문장째 익혀보세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/warranted"
+            }
+          ]
+        },
+        {
+          "difficulty": "고급",
+          "word": "salient",
+          "meaning": "두드러진",
+          "example": "The report highlights the salient risks.",
+          "note": "두드러진라는 뜻입니다. 예문과 함께 문장째 익혀보세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/salient"
+            }
+          ]
+        }
+      ]
+    },
     {
       "date": "2026-05-05",
       "day": 11,
