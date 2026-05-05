@@ -720,11 +720,11 @@
       if (error) {
         const fallback = await state.sync.client.auth.signInWithOtp({ email });
         if (fallback.error) throw fallback.error;
-        state.sync.message = "로그인 메일을 보냈습니다. 링크가 열리지 않으면 6자리 코드를 입력하세요.";
+        state.sync.message = "로그인 메일을 보냈습니다. 링크가 열리지 않으면 메일 인증코드를 입력하세요.";
         return;
       }
 
-      state.sync.message = "로그인 링크와 6자리 코드를 이메일로 보냈습니다.";
+      state.sync.message = "로그인 링크와 인증코드를 이메일로 보냈습니다.";
     } catch (e) {
       state.sync.message = `로그인 링크 전송에 실패했습니다: ${e?.message || e?.error_description || "Supabase 설정을 확인해 주세요."}`;
       console.warn("Supabase sign in failed", e);
@@ -1147,13 +1147,13 @@
     return `
       <div class="card compact sync-card">
         <div class="card-title">기기 간 싱크</div>
-        <p class="hero-sub">같은 이메일로 PC와 모바일에서 로그인하면 오답노트와 관심상식이 동기화됩니다. 링크가 실패하면 이메일의 6자리 코드를 입력하세요.</p>
+        <p class="hero-sub">같은 이메일로 PC와 모바일에서 로그인하면 오답노트와 관심상식이 동기화됩니다. 링크가 실패하면 이메일의 인증코드를 입력하세요.</p>
         <div class="sync-form">
           <input class="sync-input" id="sync-email" type="email" placeholder="이메일 입력" autocomplete="email" value="${escapeHtml(state.sync.email)}">
           <button class="sync-button" type="button" data-action="sync-login" ${state.sync.loading ? "disabled" : ""}>
             ${state.sync.loading ? "전송 중" : "링크/코드 받기"}
           </button>
-          <input class="sync-input" id="sync-token" type="text" inputmode="numeric" pattern="[0-9]*" placeholder="인증코드 6자리" autocomplete="one-time-code">
+          <input class="sync-input" id="sync-token" type="text" inputmode="numeric" pattern="[0-9]*" placeholder="메일 인증코드" autocomplete="one-time-code">
           <button class="sync-button secondary" type="button" data-action="sync-verify" ${state.sync.loading ? "disabled" : ""}>
             코드로 로그인
           </button>

@@ -113,7 +113,7 @@
     }, 700);
   } catch (error) {
     console.warn("Auth callback failed", error);
-    setStatus("로그인 확인에 실패했습니다. 대시보드에서 6자리 인증코드를 입력해 주세요.", true);
+    setStatus("로그인 확인에 실패했습니다. 대시보드에서 메일 인증코드를 입력해 주세요.", true);
     const link = document.createElement("p");
     link.innerHTML = '<a href="./dashboard.html">대시보드로 돌아가기</a>';
     document.querySelector(".panel").appendChild(link);
