@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-05-05",
+  "updated_at": "2026-05-14",
   "daily_count": 1,
   "refill_target_unused": 14,
   "items": [
@@ -146,6 +146,216 @@
           "url": "https://www.iea.org/energy-system/buildings/data-centres-and-data-transmission-networks"
         }
       ]
+    },
+    {
+      "id": "speaking-real-estate-transaction-costs",
+      "topic": "부동산",
+      "titleKo": "부동산 가격은 거래비용까지 합쳐서 봐야 한다",
+      "bodyKo": "집을 볼 때 가장 먼저 눈에 들어오는 숫자는 매매가다. 하지만 실제 부담은 매매가 하나로 끝나지 않는다. 취득세, 중개보수, 대출 관련 비용, 이사비, 수리비, 가전과 가구 교체 비용까지 더해지면 처음 예상한 금액보다 훨씬 큰 현금이 필요해진다. 특히 부동산은 한 번 사고파는 과정에 시간이 오래 걸리고 비용도 크기 때문에, 작은 판단 실수가 오래 남을 수 있다. 그래서 좋은 부동산 판단은 '얼마에 샀는가'보다 '전체 비용을 알고 들어갔는가'에 가깝다. 매수자는 계약 전 총비용표를 만들어야 하고, 보유 중 비용과 다시 팔 때의 비용도 함께 생각해야 한다. 가격은 시작점이고, 거래비용은 실제 의사결정의 바닥이다.",
+      "titleEn": "Real Estate Prices Should Include Transaction Costs",
+      "bodyEn": "The first number people notice in real estate is the purchase price. But the real burden does not end there. Taxes, brokerage fees, loan-related costs, moving expenses, repairs, appliances, and furniture can require much more cash than expected. Real estate also takes time to buy and sell, and the cost of a small mistake can last for years. That is why a good property decision is less about the headline price and more about whether the buyer understands the full cost of entering the deal. Before signing, a buyer should build a total cost sheet and also consider ownership costs and future selling costs. Price is the starting point, but transaction cost is the floor of the real decision.",
+      "point": "부동산 매수 판단은 매매가가 아니라 취득, 보유, 매각까지 포함한 총비용에서 시작해야 한다.",
+      "steps": [
+        "매매가만 보면 부담을 과소평가할 수 있다고 시작하기",
+        "취득세, 중개보수, 수리비 같은 거래비용을 예로 들기",
+        "총비용표를 만들고 오래 감당 가능한지 봐야 한다고 정리하기"
+      ],
+      "questions": [
+        "매매가 외에 내가 놓치기 쉬운 비용은 무엇일까?",
+        "총비용을 미리 계산하면 어떤 실수를 줄일 수 있을까?"
+      ],
+      "sources": [
+        {
+          "label": "Consumer Financial Protection Bureau",
+          "url": "https://www.consumerfinance.gov/owning-a-home/"
+        }
+      ]
+    },
+    {
+      "id": "speaking-real-estate-rent-own-flexibility",
+      "topic": "부동산",
+      "titleKo": "전세와 월세와 매수는 유연성의 차이이기도 하다",
+      "bodyKo": "주거 선택을 비교할 때 사람들은 보통 어느 쪽이 더 싼지를 묻는다. 하지만 주거 방식은 비용만이 아니라 유연성의 차이이기도 하다. 매수는 안정감과 자산 형성 가능성을 주지만, 이사와 직장 변화에 빠르게 대응하기 어렵고 거래비용도 크다. 월세는 자산으로 남는 부분이 적어 보이지만, 이동이 쉽고 큰 목돈을 묶지 않는 장점이 있다. 전세는 두 선택의 중간처럼 보이지만 보증금 안전성, 금리, 대체 투자수익까지 함께 봐야 한다. 결국 좋은 선택은 하나의 정답을 찾는 일이 아니라 나의 소득 안정성, 직업 이동 가능성, 가족 계획, 현금 보유 전략에 맞는 방식을 고르는 일이다. 집은 사는 물건이면서 동시에 삶의 선택지를 조정하는 장치다.",
+      "titleEn": "Renting and Buying Also Differ in Flexibility",
+      "bodyEn": "When people compare housing options, they often ask which one is cheaper. But housing choices are also choices about flexibility. Buying can provide stability and the possibility of asset building, but it makes moving harder and creates large transaction costs. Monthly rent may seem less rewarding as an asset, yet it preserves mobility and avoids tying up a large amount of cash. Korea's jeonse system can look like a middle ground, but it requires thinking about deposit safety, interest rates, and alternative returns. The better choice is not a universal answer. It depends on income stability, job mobility, family plans, and cash strategy. A home is both a place to live and a tool that shapes your future options.",
+      "point": "주거 선택은 비용 비교를 넘어 내가 얼마나 이동성과 현금 유연성을 필요로 하는지의 문제다.",
+      "steps": [
+        "주거 선택은 싸고 비싼 문제만은 아니라고 시작하기",
+        "매수, 월세, 전세가 주는 유연성 차이를 비교하기",
+        "소득과 이동 가능성에 맞춰 선택해야 한다고 마무리하기"
+      ],
+      "questions": [
+        "내 생활에서 주거 안정성과 이동성 중 무엇이 더 중요한가?",
+        "목돈을 집에 묶어두는 것의 장점과 단점은 무엇일까?"
+      ],
+      "sources": []
+    },
+    {
+      "id": "speaking-auto-platform-scale",
+      "topic": "자동차 산업",
+      "titleKo": "자동차 플랫폼은 원가와 속도를 함께 바꾼다",
+      "bodyKo": "자동차 회사가 여러 차종을 만들 때 모든 부품과 구조를 매번 새로 설계하면 비용과 시간이 크게 늘어난다. 그래서 많은 회사는 플랫폼이라는 공통 기반을 활용한다. 플랫폼은 차체 구조, 전장 시스템, 배터리 배치, 생산 공정의 기준이 되는 뼈대에 가깝다. 같은 플랫폼을 쓰면 SUV, 세단, 전기차처럼 다른 제품을 더 빠르게 만들 수 있고 부품 조달과 품질 관리도 쉬워진다. 하지만 플랫폼 전략은 장점만 있는 것은 아니다. 한 플랫폼에 문제가 생기면 여러 차종에 영향을 줄 수 있고, 너무 비슷한 제품이 많아지면 브랜드 차별화가 약해질 수 있다. 자동차 산업에서 규모의 경제는 단순히 많이 만드는 힘이 아니라 공통 기반을 얼마나 똑똑하게 설계하느냐에서 나온다.",
+      "titleEn": "Vehicle Platforms Change Both Cost and Speed",
+      "bodyEn": "If an automaker designed every part and structure from scratch for each model, cost and development time would rise sharply. That is why many companies use shared platforms. A platform is like a common foundation for body structure, electronics, battery layout, and production processes. With one platform, a company can build different products such as SUVs, sedans, and electric vehicles faster, while also simplifying parts sourcing and quality control. But the strategy has risks. A problem in one platform can affect many models, and too many similar products can weaken brand differentiation. In the auto industry, scale is not just about producing more cars. It comes from designing a shared base intelligently.",
+      "point": "자동차 플랫폼은 개발 속도와 원가를 낮추지만, 공통 결함과 차별화 약화라는 위험도 만든다.",
+      "steps": [
+        "차종마다 새로 설계하면 비용이 커진다고 시작하기",
+        "플랫폼이 공통 뼈대 역할을 한다고 설명하기",
+        "규모의 경제와 공통 리스크를 함께 정리하기"
+      ],
+      "questions": [
+        "공통 플랫폼을 쓰면 자동차 회사에 어떤 장점이 생길까?",
+        "하나의 플랫폼 문제가 여러 차종으로 번질 수 있는 이유는 무엇일까?"
+      ],
+      "sources": []
+    },
+    {
+      "id": "speaking-auto-ev-total-cost",
+      "topic": "자동차 산업",
+      "titleKo": "전기차는 구매가보다 총소유비용으로 봐야 한다",
+      "bodyKo": "전기차를 비교할 때 많은 사람은 보조금 적용 후 구매가격을 먼저 본다. 하지만 전기차의 경제성은 구매가 하나로 판단하기 어렵다. 충전 비용, 주행거리, 보험료, 타이어 마모, 배터리 보증, 중고차 잔존가치가 모두 총소유비용에 들어간다. 출퇴근 거리가 길고 집이나 회사에서 충전이 쉬운 사람에게는 전기차가 유리할 수 있지만, 충전 인프라가 부족하거나 장거리 운행이 잦은 사람에게는 불편이 비용으로 바뀔 수 있다. 또한 차량의 소프트웨어 업데이트와 배터리 관리 능력은 시간이 지나며 체감 가치를 바꾼다. 그래서 전기차 선택은 '차값이 얼마인가'보다 '내 사용 패턴에서 5년 동안 어떤 비용과 편익이 생기는가'를 묻는 쪽이 더 정확하다.",
+      "titleEn": "Electric Vehicles Should Be Judged by Total Cost of Ownership",
+      "bodyEn": "When comparing electric vehicles, many people first look at the purchase price after incentives. But the economics of an EV cannot be judged by price alone. Charging cost, driving range, insurance, tire wear, battery warranty, and resale value all belong in total cost of ownership. EVs can be attractive for people with long commutes and easy charging at home or work. But if charging access is limited or long-distance trips are frequent, inconvenience can become a real cost. Software updates and battery management also change the vehicle's value over time. A better EV decision asks not simply how much the car costs, but what costs and benefits will appear over five years of actual use.",
+      "point": "전기차 경제성은 구매가격보다 충전 환경과 사용 패턴을 포함한 총소유비용으로 판단해야 한다.",
+      "steps": [
+        "전기차 판단이 구매가 하나로 끝나지 않는다고 시작하기",
+        "충전비, 보증, 잔존가치 같은 요소를 설명하기",
+        "내 사용 패턴 기준의 5년 비용으로 정리하기"
+      ],
+      "questions": [
+        "내 생활 패턴에서 전기차의 가장 큰 비용 변수는 무엇일까?",
+        "충전 편의성은 왜 경제성 판단에 들어가야 할까?"
+      ],
+      "sources": [
+        {
+          "label": "U.S. Department of Energy Electric Vehicles",
+          "url": "https://www.energy.gov/eere/electricvehicles/electric-vehicles"
+        }
+      ]
+    },
+    {
+      "id": "speaking-ai-data-quality",
+      "topic": "AI",
+      "titleKo": "AI 성능은 모델보다 데이터 습관에서 자주 갈린다",
+      "bodyKo": "AI를 설명할 때 사람들은 모델 이름이나 파라미터 규모를 먼저 떠올린다. 물론 모델 자체도 중요하지만, 실제 업무에서는 데이터 품질이 성능을 크게 좌우한다. 같은 모델을 써도 입력 데이터가 오래됐거나, 기준이 섞여 있거나, 중복과 누락이 많으면 결과는 흔들린다. 반대로 데이터 정의가 명확하고, 최신성이 관리되고, 오류를 발견하는 절차가 있으면 단순한 모델도 꽤 좋은 결과를 낼 수 있다. 그래서 AI 도입은 기술 구매보다 업무 기록 습관을 바꾸는 일에 가깝다. 어떤 데이터를 왜 모으는지, 누가 갱신하는지, 잘못된 값은 어떻게 고치는지 정해야 한다. 좋은 AI 조직은 모델을 잘 고르는 조직이기도 하지만, 더 근본적으로는 데이터를 신뢰할 수 있게 만드는 조직이다.",
+      "titleEn": "AI Performance Often Depends on Data Habits",
+      "bodyEn": "When people explain AI, they often mention model names or parameter size first. The model matters, but in real work, data quality often determines performance. Even the same model can produce unstable results if the input data is outdated, inconsistent, duplicated, or incomplete. On the other hand, clearly defined and well-maintained data can help even a simple model produce useful results. AI adoption is therefore not only a technology purchase. It is also a change in how an organization records work. Teams need to decide what data they collect, why they collect it, who updates it, and how errors are corrected. A good AI organization chooses models well, but more fundamentally, it makes data trustworthy.",
+      "point": "AI 도입의 핵심은 모델 선택만이 아니라 데이터를 신뢰할 수 있게 관리하는 습관이다.",
+      "steps": [
+        "AI 성능을 모델 이름만으로 보면 부족하다고 시작하기",
+        "오래되거나 섞인 데이터가 결과를 흔든다고 설명하기",
+        "데이터 정의와 갱신 절차가 중요하다고 정리하기"
+      ],
+      "questions": [
+        "내가 다루는 데이터 중 AI 결과를 흐리게 만들 수 있는 것은 무엇일까?",
+        "데이터를 신뢰할 수 있게 만들려면 어떤 규칙이 필요할까?"
+      ],
+      "sources": [
+        {
+          "label": "NIST AI Risk Management Framework",
+          "url": "https://www.nist.gov/itl/ai-risk-management-framework"
+        }
+      ]
+    },
+    {
+      "id": "speaking-ai-evaluation-loop",
+      "topic": "AI",
+      "titleKo": "AI를 잘 쓰려면 질문보다 평가 루프가 필요하다",
+      "bodyKo": "많은 사람이 AI 활용을 프롬프트 작성법으로만 이해한다. 좋은 질문은 분명 중요하지만, 한 번의 질문으로 항상 좋은 결과를 얻기는 어렵다. 더 중요한 것은 결과를 평가하고 다시 지시하는 루프다. 먼저 원하는 결과의 기준을 정하고, AI가 만든 초안을 받은 뒤, 사실 오류, 빠진 조건, 어색한 표현, 목적과의 거리감을 확인해야 한다. 그다음 수정 요청을 통해 결과를 좁혀 간다. 이 과정은 사람의 생각을 느리게 만드는 것이 아니라 오히려 빠르게 정리하게 만든다. AI가 초안을 만들고 사람은 기준을 적용하면, 막연한 생각이 비교 가능한 선택지로 바뀐다. 결국 AI 활용력은 좋은 질문 하나보다 결과를 판단하는 기준과 반복 수정 습관에서 커진다.",
+      "titleEn": "Using AI Well Requires an Evaluation Loop",
+      "bodyEn": "Many people understand AI use mainly as prompt writing. Good questions matter, but one question rarely produces the best result every time. The more important skill is the loop of evaluating the output and giving better instructions. First, define what a good result should look like. Then review the AI draft for factual errors, missing conditions, awkward wording, and distance from the goal. After that, ask for revisions and narrow the result. This process does not slow thinking down. It helps organize it faster. AI creates drafts, while the person applies standards, turning vague ideas into comparable options. In the end, AI skill grows less from one perfect prompt and more from judgment criteria and repeated refinement.",
+      "point": "AI 활용력은 완벽한 질문보다 결과를 평가하고 반복 수정하는 루프에서 커진다.",
+      "steps": [
+        "프롬프트만으로 AI 활용을 설명하면 부족하다고 시작하기",
+        "기준 설정, 초안 검토, 수정 요청의 루프를 설명하기",
+        "AI는 초안을 만들고 사람은 판단 기준을 적용한다고 정리하기"
+      ],
+      "questions": [
+        "AI 결과를 평가할 때 내가 가장 먼저 확인해야 할 기준은 무엇일까?",
+        "반복 수정이 생각 정리에 도움이 되는 이유는 무엇일까?"
+      ],
+      "sources": []
+    },
+    {
+      "id": "speaking-real-estate-ai-neighborhood-signals",
+      "topic": "부동산 + AI",
+      "titleKo": "AI는 동네 변화를 신호로 묶어 보여줄 수 있다",
+      "bodyKo": "부동산에서 입지는 한 문장으로 설명하기 어렵다. 교통, 학군, 상권, 일자리, 공원, 병원, 소음, 치안 같은 요소가 서로 겹쳐 체감 가치를 만든다. AI는 이런 다양한 신호를 한 번에 정리하는 데 강점이 있다. 예를 들어 지도 데이터, 거래 사례, 임대료 흐름, 생활시설 분포를 묶어 동네의 장단점을 비교할 수 있다. 하지만 AI가 만든 점수는 현실의 느낌을 모두 대신하지 못한다. 출근길의 피로감, 밤 시간의 분위기, 건물 관리 상태, 이웃의 생활 소음은 직접 확인해야 한다. 그래서 AI는 동네를 고르는 최종 판사가 아니라 후보지를 좁혀 주는 필터에 가깝다. 좋은 활용은 넓게 찾을 때 AI를 쓰고, 마지막 결정은 현장에서 확인하는 방식이다.",
+      "titleEn": "AI Can Organize Neighborhood Change Into Signals",
+      "bodyEn": "Location in real estate is hard to explain in one sentence. Transit, schools, retail, jobs, parks, hospitals, noise, and safety all overlap to create perceived value. AI is useful because it can organize many of these signals at once. For example, it can combine map data, transaction examples, rent patterns, and the distribution of local facilities to compare neighborhood strengths and weaknesses. But an AI score cannot replace the feeling of reality. Commute fatigue, the atmosphere at night, building maintenance, and neighbor noise still require direct checking. AI should therefore be treated less as the final judge of a neighborhood and more as a filter that narrows the search. Use AI to search broadly, then use field visits to decide carefully.",
+      "point": "AI는 동네 후보를 좁히는 필터로 유용하지만 최종 판단은 현장 확인과 함께 해야 한다.",
+      "steps": [
+        "입지는 여러 신호가 겹친 결과라고 시작하기",
+        "AI가 지도와 거래 데이터를 묶어 비교할 수 있다고 설명하기",
+        "최종 결정은 현장 확인이 필요하다고 정리하기"
+      ],
+      "questions": [
+        "AI 점수로는 알기 어려운 동네의 체감 요소는 무엇일까?",
+        "후보지를 좁힐 때 AI가 가장 잘 도와줄 수 있는 부분은 무엇일까?"
+      ],
+      "sources": []
+    },
+    {
+      "id": "speaking-auto-ai-cabin-experience",
+      "topic": "자동차 + AI",
+      "titleKo": "차 안의 AI는 운전보다 생활 경험부터 바꿀 수 있다",
+      "bodyKo": "자동차 AI를 생각하면 많은 사람이 완전 자율주행을 먼저 떠올린다. 하지만 더 가까운 변화는 차 안의 생활 경험에서 시작될 수 있다. 음성 비서가 목적지를 이해하고, 일정에 맞춰 경로를 제안하고, 운전자의 피로를 감지하고, 음악과 온도와 충전 계획을 상황에 맞게 조정하는 식이다. 이런 기능은 운전대를 완전히 넘겨받지 않아도 차를 더 개인화된 공간으로 만든다. 중요한 점은 편리함과 안전의 균형이다. AI가 지나치게 많은 알림을 주거나 운전자의 주의를 빼앗으면 오히려 위험해질 수 있다. 좋은 차량 AI는 많이 말하는 시스템이 아니라 필요한 순간에 정확히 돕는 시스템이다. 자동차의 경쟁력은 이동 수단에서 이동 중 경험을 관리하는 능력으로 넓어지고 있다.",
+      "titleEn": "In-Car AI May Change Daily Experience Before Full Autonomy",
+      "bodyEn": "When people think about AI in cars, they often imagine full self-driving first. But the nearer change may begin with the everyday experience inside the cabin. A voice assistant can understand destinations, suggest routes based on schedules, detect driver fatigue, and adjust music, temperature, or charging plans according to context. These features can make the car feel more personal even before it takes over the steering wheel. The key is balancing convenience and safety. If AI gives too many alerts or steals the driver's attention, it can become dangerous. Good in-car AI is not a system that talks constantly. It helps accurately at the right moment. Auto competition is expanding from transportation to managing the experience during movement.",
+      "point": "차량 AI의 가까운 가치는 완전 자율주행보다 운전 중 생활 경험을 안전하게 개인화하는 데 있다.",
+      "steps": [
+        "자동차 AI를 자율주행만으로 보면 좁다고 시작하기",
+        "음성, 일정, 피로 감지 같은 실내 경험을 설명하기",
+        "편리함과 안전 균형이 핵심이라고 정리하기"
+      ],
+      "questions": [
+        "운전 중 AI가 도와주면 좋지만 방해하면 안 되는 일은 무엇일까?",
+        "차량 경험이 개인화되면 자동차 선택 기준은 어떻게 바뀔까?"
+      ],
+      "sources": [
+        {
+          "label": "NHTSA Driver Assistance Technologies",
+          "url": "https://www.nhtsa.gov/vehicle-safety/driver-assistance-technologies"
+        }
+      ]
+    },
+    {
+      "id": "speaking-auto-ai-predictive-maintenance",
+      "topic": "자동차 + AI",
+      "titleKo": "AI 정비는 고장 후 수리에서 고장 전 관리로 바꾼다",
+      "bodyKo": "자동차 정비는 전통적으로 문제가 생긴 뒤 원인을 찾는 방식이 많았다. 하지만 차량에 센서와 소프트웨어가 늘어나면 정비 방식도 달라질 수 있다. 주행거리, 진동, 온도, 배터리 상태, 브레이크 사용 패턴 같은 데이터를 계속 보면 고장 가능성을 미리 추정할 수 있기 때문이다. AI는 이런 신호를 분석해 평소와 다른 변화를 발견하고, 부품 교체 시점이나 점검 필요성을 알려줄 수 있다. 이 방식은 운전자에게 갑작스러운 고장 위험을 줄이고, 정비소에는 부품 재고와 작업 일정을 더 잘 준비하게 해 준다. 다만 예측이 틀릴 수 있으므로 운전자에게 이유와 확신도를 이해하기 쉽게 보여줘야 한다. 미래의 정비 경쟁력은 고친다는 능력에서 미리 관리한다는 능력으로 이동한다.",
+      "titleEn": "AI Maintenance Shifts Cars From Repair to Prevention",
+      "bodyEn": "Traditional car maintenance often begins after a problem appears. But as vehicles gain more sensors and software, the maintenance model can change. By observing mileage, vibration, temperature, battery health, and braking patterns, a system can estimate the chance of failure before it happens. AI can analyze these signals, find unusual changes, and suggest when parts should be checked or replaced. This reduces the risk of sudden failure for drivers and helps repair shops prepare parts and schedules more efficiently. However, predictions can be wrong, so the system should explain its reasons and confidence clearly. The future of maintenance is moving from the ability to repair after failure to the ability to manage before failure.",
+      "point": "차량 AI 정비는 고장을 기다리는 방식에서 데이터를 바탕으로 미리 관리하는 방식으로 이동시킨다.",
+      "steps": [
+        "기존 정비는 고장 후 대응이 많았다고 시작하기",
+        "센서 데이터가 이상 신호를 미리 보여줄 수 있다고 설명하기",
+        "예측에는 설명과 신뢰도가 필요하다고 마무리하기"
+      ],
+      "questions": [
+        "고장 전 관리가 운전자와 정비소에 주는 장점은 무엇일까?",
+        "AI 정비 알림을 믿기 위해 어떤 설명이 필요할까?"
+      ],
+      "sources": []
+    },
+    {
+      "id": "speaking-ai-industry-process-redesign",
+      "topic": "AI + 산업",
+      "titleKo": "AI 도입은 사람을 줄이는 일보다 과정 재설계에 가깝다",
+      "bodyKo": "기업이 AI를 도입한다고 하면 사람을 대체한다는 이미지가 먼저 떠오르기 쉽다. 하지만 실제 효과는 단순한 인력 감소보다 업무 과정 재설계에서 더 크게 나온다. 예를 들어 고객 문의를 자동 분류하고, 반복 문서를 초안화하고, 품질 이상 신호를 먼저 찾아내고, 보고서를 요약하면 사람은 더 판단이 필요한 일에 시간을 쓸 수 있다. 여기서 중요한 것은 기존 과정을 그대로 둔 채 AI만 붙이는 것이 아니다. 어떤 일을 자동화하고, 어떤 결정은 사람이 승인하며, 오류가 생기면 어디서 멈출지 새로 설계해야 한다. AI는 마법 도구라기보다 병목을 드러내는 거울에 가깝다. 좋은 도입은 기술을 넣는 프로젝트가 아니라 일의 흐름을 다시 그리는 프로젝트다.",
+      "titleEn": "AI Adoption Is More About Process Redesign Than Cutting People",
+      "bodyEn": "When companies adopt AI, people often imagine replacement first. But the bigger effect usually comes from redesigning work processes, not simply reducing headcount. AI can classify customer inquiries, draft repetitive documents, detect quality signals earlier, and summarize reports, giving people more time for judgment-heavy work. The key is not to attach AI to an unchanged process. Teams must decide which tasks should be automated, which decisions require human approval, and where the system should stop when errors appear. AI is less like a magic tool and more like a mirror that reveals bottlenecks. A good AI adoption project is not only about adding technology. It is about redrawing the flow of work.",
+      "point": "AI 도입의 가치는 인력 대체보다 업무 흐름을 다시 설계해 판단이 필요한 일에 집중하게 만드는 데 있다.",
+      "steps": [
+        "AI 도입을 사람 대체로만 보면 좁다고 시작하기",
+        "분류, 초안, 감지, 요약처럼 흐름을 바꾸는 예를 들기",
+        "기술 추가가 아니라 업무 재설계라고 정리하기"
+      ],
+      "questions": [
+        "내 업무에서 AI가 맡으면 사람이 더 중요한 판단에 집중할 수 있는 일은 무엇일까?",
+        "AI가 오류를 냈을 때 멈추는 기준은 어떻게 정해야 할까?"
+      ],
+      "sources": []
     }
   ]
 }

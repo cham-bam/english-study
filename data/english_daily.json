@@ -1,8 +1,210 @@
 {
-  "updated_at": "2026-05-06",
+  "updated_at": "2026-05-14",
   "default_daily_count": 15,
   "source": "01_기초_동사형용사.json",
   "entries": [
+    {
+      "date": "2026-05-14",
+      "day": 13,
+      "title": "Day 13 난이도별 영단어 15개",
+      "items": [
+        {
+          "difficulty": "초급",
+          "word": "arrive",
+          "meaning": "도착하다",
+          "example": "We arrive at noon.",
+          "note": "도착하다라는 뜻입니다. 예문과 함께 문장째 익혀보세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/arrive"
+            }
+          ]
+        },
+        {
+          "difficulty": "초급",
+          "word": "borrow",
+          "meaning": "빌리다",
+          "example": "Can I borrow your pen?",
+          "note": "빌리다라는 뜻입니다. 예문과 함께 문장째 익혀보세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/borrow"
+            }
+          ]
+        },
+        {
+          "difficulty": "초급",
+          "word": "cancel",
+          "meaning": "취소하다",
+          "example": "Please cancel the meeting.",
+          "note": "취소하다라는 뜻입니다. 예문과 함께 문장째 익혀보세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/cancel"
+            }
+          ]
+        },
+        {
+          "difficulty": "초급",
+          "word": "bake",
+          "meaning": "굽다",
+          "example": "I bake bread on Sundays.",
+          "note": "굽다라는 뜻입니다. 예문과 함께 문장째 익혀보세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/bake"
+            }
+          ]
+        },
+        {
+          "difficulty": "초급",
+          "word": "climb",
+          "meaning": "오르다",
+          "example": "They climb the hill.",
+          "note": "오르다라는 뜻입니다. 예문과 함께 문장째 익혀보세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/climb"
+            }
+          ]
+        },
+        {
+          "difficulty": "중급",
+          "word": "adjust",
+          "meaning": "조정하다",
+          "example": "Please adjust the volume.",
+          "note": "조정하다라는 뜻입니다. 예문과 함께 문장째 익혀보세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/adjust"
+            }
+          ]
+        },
+        {
+          "difficulty": "중급",
+          "word": "benchmark",
+          "meaning": "기준을 세우다",
+          "example": "We benchmark the app against the old version.",
+          "note": "기준을 세우다라는 뜻입니다. 예문과 함께 문장째 익혀보세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/benchmark"
+            }
+          ]
+        },
+        {
+          "difficulty": "중급",
+          "word": "categorize",
+          "meaning": "분류하다",
+          "example": "We categorize the tickets by priority.",
+          "note": "분류하다라는 뜻입니다. 예문과 함께 문장째 익혀보세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/categorize"
+            }
+          ]
+        },
+        {
+          "difficulty": "중급",
+          "word": "classify",
+          "meaning": "분류하다",
+          "example": "Classify the files by topic.",
+          "note": "분류하다라는 뜻입니다. 예문과 함께 문장째 익혀보세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/classify"
+            }
+          ]
+        },
+        {
+          "difficulty": "중급",
+          "word": "assemble",
+          "meaning": "조립하다",
+          "example": "The team assembles the machine carefully.",
+          "note": "조립하다라는 뜻입니다. 예문과 함께 문장째 익혀보세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/assemble"
+            }
+          ]
+        },
+        {
+          "difficulty": "고급",
+          "word": "anomalous",
+          "meaning": "이상한",
+          "example": "The results were anomalous.",
+          "note": "이상한라는 뜻입니다. 예문과 함께 문장째 익혀보세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/anomalous"
+            }
+          ]
+        },
+        {
+          "difficulty": "고급",
+          "word": "articulate",
+          "meaning": "명료하게 표현하다",
+          "example": "She can articulate her ideas clearly.",
+          "note": "명료하게 표현하다라는 뜻입니다. 예문과 함께 문장째 익혀보세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/articulate"
+            }
+          ]
+        },
+        {
+          "difficulty": "고급",
+          "word": "candid",
+          "meaning": "솔직한",
+          "example": "He gave a candid answer.",
+          "note": "솔직한라는 뜻입니다. 예문과 함께 문장째 익혀보세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/candid"
+            }
+          ]
+        },
+        {
+          "difficulty": "고급",
+          "word": "cautious",
+          "meaning": "조심스러운",
+          "example": "Be cautious near the road.",
+          "note": "조심스러운라는 뜻입니다. 예문과 함께 문장째 익혀보세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/cautious"
+            }
+          ]
+        },
+        {
+          "difficulty": "고급",
+          "word": "conspicuous",
+          "meaning": "눈에 띄는",
+          "example": "The red sign is conspicuous.",
+          "note": "눈에 띄는라는 뜻입니다. 예문과 함께 문장째 익혀보세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/conspicuous"
+            }
+          ]
+        }
+      ]
+    },
     {
       "date": "2026-05-06",
       "day": 12,

@@ -1,7 +1,7 @@
 {
   "category": "난이도별 핵심 영어",
-  "day_range": "Pool 1~12",
-  "total_words": 170,
+  "day_range": "Pool 1~29",
+  "total_words": 275,
   "words": [
     {
       "day": 1,
@@ -1192,6 +1192,741 @@
       "word": "salient",
       "meaning": "두드러진",
       "example": "The report highlights the salient risks."
+    },
+    {
+      "day": 18,
+      "difficulty": "초급",
+      "word": "arrive",
+      "meaning": "도착하다",
+      "example": "We arrive at noon."
+    },
+    {
+      "day": 18,
+      "difficulty": "초급",
+      "word": "borrow",
+      "meaning": "빌리다",
+      "example": "Can I borrow your pen?"
+    },
+    {
+      "day": 18,
+      "difficulty": "초급",
+      "word": "cancel",
+      "meaning": "취소하다",
+      "example": "Please cancel the meeting."
+    },
+    {
+      "day": 18,
+      "difficulty": "초급",
+      "word": "bake",
+      "meaning": "굽다",
+      "example": "I bake bread on Sundays."
+    },
+    {
+      "day": 18,
+      "difficulty": "초급",
+      "word": "climb",
+      "meaning": "오르다",
+      "example": "They climb the hill."
+    },
+    {
+      "day": 18,
+      "difficulty": "초급",
+      "word": "cook",
+      "meaning": "요리하다",
+      "example": "I cook dinner at home."
+    },
+    {
+      "day": 18,
+      "difficulty": "초급",
+      "word": "dance",
+      "meaning": "춤추다",
+      "example": "We dance after school."
+    },
+    {
+      "day": 18,
+      "difficulty": "초급",
+      "word": "cheer",
+      "meaning": "응원하다",
+      "example": "We cheer for our team."
+    },
+    {
+      "day": 18,
+      "difficulty": "초급",
+      "word": "greet",
+      "meaning": "인사하다",
+      "example": "She greets everyone politely."
+    },
+    {
+      "day": 18,
+      "difficulty": "초급",
+      "word": "hurry",
+      "meaning": "서두르다",
+      "example": "Please hurry to the station."
+    },
+    {
+      "day": 19,
+      "difficulty": "초급",
+      "word": "invite",
+      "meaning": "초대하다",
+      "example": "I invite my friends over."
+    },
+    {
+      "day": 19,
+      "difficulty": "초급",
+      "word": "move",
+      "meaning": "움직이다",
+      "example": "We move to a new office."
+    },
+    {
+      "day": 19,
+      "difficulty": "초급",
+      "word": "pack",
+      "meaning": "싸다",
+      "example": "Please pack your bag."
+    },
+    {
+      "day": 19,
+      "difficulty": "초급",
+      "word": "paint",
+      "meaning": "칠하다",
+      "example": "They paint the wall blue."
+    },
+    {
+      "day": 19,
+      "difficulty": "초급",
+      "word": "pull",
+      "meaning": "당기다",
+      "example": "Pull the door gently."
+    },
+    {
+      "day": 19,
+      "difficulty": "초급",
+      "word": "push",
+      "meaning": "밀다",
+      "example": "Push the box forward."
+    },
+    {
+      "day": 19,
+      "difficulty": "초급",
+      "word": "save",
+      "meaning": "저장하다",
+      "example": "Save the file before you leave."
+    },
+    {
+      "day": 19,
+      "difficulty": "초급",
+      "word": "search",
+      "meaning": "찾다",
+      "example": "We search for the missing key."
+    },
+    {
+      "day": 19,
+      "difficulty": "초급",
+      "word": "share",
+      "meaning": "공유하다",
+      "example": "Share your notes with me."
+    },
+    {
+      "day": 19,
+      "difficulty": "초급",
+      "word": "smile",
+      "meaning": "미소 짓다",
+      "example": "She smiles at the camera."
+    },
+    {
+      "day": 20,
+      "difficulty": "초급",
+      "word": "travel",
+      "meaning": "여행하다",
+      "example": "We travel by train."
+    },
+    {
+      "day": 20,
+      "difficulty": "초급",
+      "word": "wash",
+      "meaning": "씻다",
+      "example": "Please wash your hands."
+    },
+    {
+      "day": 20,
+      "difficulty": "초급",
+      "word": "worry",
+      "meaning": "걱정하다",
+      "example": "Don't worry about it."
+    },
+    {
+      "day": 20,
+      "difficulty": "초급",
+      "word": "bright",
+      "meaning": "밝은",
+      "example": "The room is bright."
+    },
+    {
+      "day": 20,
+      "difficulty": "초급",
+      "word": "calm",
+      "meaning": "차분한",
+      "example": "He stayed calm in the crowd."
+    },
+    {
+      "day": 20,
+      "difficulty": "초급",
+      "word": "empty",
+      "meaning": "빈",
+      "example": "The box is empty."
+    },
+    {
+      "day": 20,
+      "difficulty": "초급",
+      "word": "gentle",
+      "meaning": "부드러운",
+      "example": "Use a gentle touch."
+    },
+    {
+      "day": 20,
+      "difficulty": "초급",
+      "word": "happy",
+      "meaning": "행복한",
+      "example": "She looks happy today."
+    },
+    {
+      "day": 20,
+      "difficulty": "초급",
+      "word": "quick",
+      "meaning": "빠른",
+      "example": "He gave a quick answer."
+    },
+    {
+      "day": 20,
+      "difficulty": "초급",
+      "word": "quiet",
+      "meaning": "조용한",
+      "example": "The library is quiet."
+    },
+    {
+      "day": 21,
+      "difficulty": "초급",
+      "word": "ready",
+      "meaning": "준비된",
+      "example": "I'm ready to go."
+    },
+    {
+      "day": 21,
+      "difficulty": "초급",
+      "word": "safe",
+      "meaning": "안전한",
+      "example": "This route is safe."
+    },
+    {
+      "day": 21,
+      "difficulty": "초급",
+      "word": "soft",
+      "meaning": "부드러운",
+      "example": "The blanket feels soft."
+    },
+    {
+      "day": 21,
+      "difficulty": "초급",
+      "word": "warm",
+      "meaning": "따뜻한",
+      "example": "The tea is warm."
+    },
+    {
+      "day": 21,
+      "difficulty": "초급",
+      "word": "fold",
+      "meaning": "접다",
+      "example": "Fold the paper in half."
+    },
+    {
+      "day": 22,
+      "difficulty": "중급",
+      "word": "adjust",
+      "meaning": "조정하다",
+      "example": "Please adjust the volume."
+    },
+    {
+      "day": 22,
+      "difficulty": "중급",
+      "word": "benchmark",
+      "meaning": "기준을 세우다",
+      "example": "We benchmark the app against the old version."
+    },
+    {
+      "day": 22,
+      "difficulty": "중급",
+      "word": "categorize",
+      "meaning": "분류하다",
+      "example": "We categorize the tickets by priority."
+    },
+    {
+      "day": 22,
+      "difficulty": "중급",
+      "word": "classify",
+      "meaning": "분류하다",
+      "example": "Classify the files by topic."
+    },
+    {
+      "day": 22,
+      "difficulty": "중급",
+      "word": "assemble",
+      "meaning": "조립하다",
+      "example": "The team assembles the machine carefully."
+    },
+    {
+      "day": 22,
+      "difficulty": "중급",
+      "word": "collaborate",
+      "meaning": "협력하다",
+      "example": "The two groups collaborate on the project."
+    },
+    {
+      "day": 22,
+      "difficulty": "중급",
+      "word": "compensate",
+      "meaning": "보상하다",
+      "example": "The company compensates workers fairly."
+    },
+    {
+      "day": 22,
+      "difficulty": "중급",
+      "word": "constrain",
+      "meaning": "제약하다",
+      "example": "Time can constrain our choices."
+    },
+    {
+      "day": 22,
+      "difficulty": "중급",
+      "word": "convene",
+      "meaning": "소집하다",
+      "example": "The committee convenes on Monday."
+    },
+    {
+      "day": 22,
+      "difficulty": "중급",
+      "word": "deduce",
+      "meaning": "추론하다",
+      "example": "We deduce the answer from the clues."
+    },
+    {
+      "day": 23,
+      "difficulty": "중급",
+      "word": "disclose",
+      "meaning": "공개하다",
+      "example": "The report does not disclose the source."
+    },
+    {
+      "day": 23,
+      "difficulty": "중급",
+      "word": "duplicate",
+      "meaning": "복제하다",
+      "example": "Do not duplicate the file."
+    },
+    {
+      "day": 23,
+      "difficulty": "중급",
+      "word": "enrich",
+      "meaning": "풍부하게 하다",
+      "example": "Reading can enrich your vocabulary."
+    },
+    {
+      "day": 23,
+      "difficulty": "중급",
+      "word": "enforce",
+      "meaning": "집행하다",
+      "example": "The city must enforce the rule."
+    },
+    {
+      "day": 23,
+      "difficulty": "중급",
+      "word": "enhance",
+      "meaning": "향상시키다",
+      "example": "This setting enhances the image."
+    },
+    {
+      "day": 23,
+      "difficulty": "중급",
+      "word": "filter",
+      "meaning": "걸러내다",
+      "example": "Filter the water before use."
+    },
+    {
+      "day": 23,
+      "difficulty": "중급",
+      "word": "forecast",
+      "meaning": "예측하다",
+      "example": "Experts forecast more rain."
+    },
+    {
+      "day": 23,
+      "difficulty": "중급",
+      "word": "highlight",
+      "meaning": "강조하다",
+      "example": "The chart highlights the trend."
+    },
+    {
+      "day": 23,
+      "difficulty": "중급",
+      "word": "inspire",
+      "meaning": "영감을 주다",
+      "example": "Her story inspires me."
+    },
+    {
+      "day": 23,
+      "difficulty": "중급",
+      "word": "calculate",
+      "meaning": "계산하다",
+      "example": "Calculate the total cost."
+    },
+    {
+      "day": 24,
+      "difficulty": "중급",
+      "word": "manipulate",
+      "meaning": "조작하다",
+      "example": "The software can manipulate images."
+    },
+    {
+      "day": 24,
+      "difficulty": "중급",
+      "word": "motivate",
+      "meaning": "동기를 부여하다",
+      "example": "Good feedback motivates the team."
+    },
+    {
+      "day": 24,
+      "difficulty": "중급",
+      "word": "narrow",
+      "meaning": "좁히다",
+      "example": "We narrow the list to three."
+    },
+    {
+      "day": 24,
+      "difficulty": "중급",
+      "word": "offset",
+      "meaning": "상쇄하다",
+      "example": "A small gain offsets the loss."
+    },
+    {
+      "day": 24,
+      "difficulty": "중급",
+      "word": "polish",
+      "meaning": "다듬다",
+      "example": "Please polish the draft."
+    },
+    {
+      "day": 24,
+      "difficulty": "중급",
+      "word": "promote",
+      "meaning": "촉진하다",
+      "example": "The campaign promotes healthy habits."
+    },
+    {
+      "day": 24,
+      "difficulty": "중급",
+      "word": "retain",
+      "meaning": "유지하다",
+      "example": "Keep notes to retain the idea."
+    },
+    {
+      "day": 24,
+      "difficulty": "중급",
+      "word": "schedule",
+      "meaning": "일정을 잡다",
+      "example": "We schedule the interview for Friday."
+    },
+    {
+      "day": 24,
+      "difficulty": "중급",
+      "word": "sequence",
+      "meaning": "순서대로 배열하다",
+      "example": "Sequence the steps carefully."
+    },
+    {
+      "day": 24,
+      "difficulty": "중급",
+      "word": "substitute",
+      "meaning": "대체하다",
+      "example": "Use yogurt as a substitute for cream."
+    },
+    {
+      "day": 25,
+      "difficulty": "중급",
+      "word": "sustain",
+      "meaning": "지속하다",
+      "example": "The bridge must sustain heavy loads."
+    },
+    {
+      "day": 25,
+      "difficulty": "중급",
+      "word": "tackle",
+      "meaning": "다루다",
+      "example": "We tackle the problem early."
+    },
+    {
+      "day": 25,
+      "difficulty": "중급",
+      "word": "transition",
+      "meaning": "전환하다",
+      "example": "The city will transition to clean energy."
+    },
+    {
+      "day": 25,
+      "difficulty": "중급",
+      "word": "trim",
+      "meaning": "다듬다",
+      "example": "Trim the edges neatly."
+    },
+    {
+      "day": 25,
+      "difficulty": "중급",
+      "word": "upgrade",
+      "meaning": "업그레이드하다",
+      "example": "We upgrade the system every year."
+    },
+    {
+      "day": 26,
+      "difficulty": "고급",
+      "word": "anomalous",
+      "meaning": "이상한",
+      "example": "The results were anomalous."
+    },
+    {
+      "day": 26,
+      "difficulty": "고급",
+      "word": "articulate",
+      "meaning": "명료하게 표현하다",
+      "example": "She can articulate her ideas clearly."
+    },
+    {
+      "day": 26,
+      "difficulty": "고급",
+      "word": "candid",
+      "meaning": "솔직한",
+      "example": "He gave a candid answer."
+    },
+    {
+      "day": 26,
+      "difficulty": "고급",
+      "word": "cautious",
+      "meaning": "조심스러운",
+      "example": "Be cautious near the road."
+    },
+    {
+      "day": 26,
+      "difficulty": "고급",
+      "word": "conspicuous",
+      "meaning": "눈에 띄는",
+      "example": "The red sign is conspicuous."
+    },
+    {
+      "day": 26,
+      "difficulty": "고급",
+      "word": "discerning",
+      "meaning": "분별력 있는",
+      "example": "A discerning reader notices details."
+    },
+    {
+      "day": 26,
+      "difficulty": "고급",
+      "word": "disparate",
+      "meaning": "상이한",
+      "example": "The two cases are disparate."
+    },
+    {
+      "day": 26,
+      "difficulty": "고급",
+      "word": "elusive",
+      "meaning": "붙잡기 어려운",
+      "example": "The final answer remained elusive."
+    },
+    {
+      "day": 26,
+      "difficulty": "고급",
+      "word": "esoteric",
+      "meaning": "난해한",
+      "example": "The lecture used esoteric terms."
+    },
+    {
+      "day": 26,
+      "difficulty": "고급",
+      "word": "exemplary",
+      "meaning": "모범적인",
+      "example": "Her attendance record is exemplary."
+    },
+    {
+      "day": 27,
+      "difficulty": "고급",
+      "word": "exorbitant",
+      "meaning": "터무니없이 비싼",
+      "example": "The hotel charged an exorbitant fee."
+    },
+    {
+      "day": 27,
+      "difficulty": "고급",
+      "word": "heuristic",
+      "meaning": "경험적인",
+      "example": "The app uses a heuristic rule."
+    },
+    {
+      "day": 27,
+      "difficulty": "고급",
+      "word": "idiosyncratic",
+      "meaning": "독특한",
+      "example": "He has an idiosyncratic style."
+    },
+    {
+      "day": 27,
+      "difficulty": "고급",
+      "word": "incontrovertible",
+      "meaning": "반박할 수 없는",
+      "example": "The evidence was incontrovertible."
+    },
+    {
+      "day": 27,
+      "difficulty": "고급",
+      "word": "juxtapose",
+      "meaning": "나란히 두다",
+      "example": "The exhibit juxtaposes old and new work."
+    },
+    {
+      "day": 27,
+      "difficulty": "고급",
+      "word": "labyrinthine",
+      "meaning": "미로 같은",
+      "example": "The novel has a labyrinthine plot."
+    },
+    {
+      "day": 27,
+      "difficulty": "고급",
+      "word": "malleable",
+      "meaning": "잘 변형되는",
+      "example": "Clay is malleable when wet."
+    },
+    {
+      "day": 27,
+      "difficulty": "고급",
+      "word": "methodical",
+      "meaning": "체계적인",
+      "example": "She keeps a methodical record."
+    },
+    {
+      "day": 27,
+      "difficulty": "고급",
+      "word": "obfuscate",
+      "meaning": "모호하게 만들다",
+      "example": "The jargon can obfuscate the point."
+    },
+    {
+      "day": 27,
+      "difficulty": "고급",
+      "word": "parsimonious",
+      "meaning": "지나치게 절약하는",
+      "example": "He is parsimonious with money."
+    },
+    {
+      "day": 28,
+      "difficulty": "고급",
+      "word": "perfunctory",
+      "meaning": "형식적인",
+      "example": "The review felt perfunctory."
+    },
+    {
+      "day": 28,
+      "difficulty": "고급",
+      "word": "precarious",
+      "meaning": "불안정한",
+      "example": "The ladder is in a precarious position."
+    },
+    {
+      "day": 28,
+      "difficulty": "고급",
+      "word": "quixotic",
+      "meaning": "비현실적인",
+      "example": "The plan seemed quixotic."
+    },
+    {
+      "day": 28,
+      "difficulty": "고급",
+      "word": "recalcitrant",
+      "meaning": "반항적인",
+      "example": "The recalcitrant child refused."
+    },
+    {
+      "day": 28,
+      "difficulty": "고급",
+      "word": "scrupulous",
+      "meaning": "꼼꼼한",
+      "example": "She is scrupulous about accuracy."
+    },
+    {
+      "day": 28,
+      "difficulty": "고급",
+      "word": "superfluous",
+      "meaning": "불필요한",
+      "example": "Cut the superfluous words."
+    },
+    {
+      "day": 28,
+      "difficulty": "고급",
+      "word": "taciturn",
+      "meaning": "말수가 적은",
+      "example": "He was taciturn during the meeting."
+    },
+    {
+      "day": 28,
+      "difficulty": "고급",
+      "word": "tenacious",
+      "meaning": "끈기 있는",
+      "example": "She is tenacious in her work."
+    },
+    {
+      "day": 28,
+      "difficulty": "고급",
+      "word": "uncanny",
+      "meaning": "기묘한",
+      "example": "He has an uncanny memory."
+    },
+    {
+      "day": 28,
+      "difficulty": "고급",
+      "word": "unconventional",
+      "meaning": "관습에 얽매이지 않는",
+      "example": "Their method is unconventional."
+    },
+    {
+      "day": 29,
+      "difficulty": "고급",
+      "word": "verbose",
+      "meaning": "장황한",
+      "example": "The report is too verbose."
+    },
+    {
+      "day": 29,
+      "difficulty": "고급",
+      "word": "vindicate",
+      "meaning": "정당함을 입증하다",
+      "example": "The documents vindicate her."
+    },
+    {
+      "day": 29,
+      "difficulty": "고급",
+      "word": "vociferous",
+      "meaning": "시끄럽게 목소리를 내는",
+      "example": "The crowd was vociferous."
+    },
+    {
+      "day": 29,
+      "difficulty": "고급",
+      "word": "wary",
+      "meaning": "경계하는",
+      "example": "Be wary of scams."
+    },
+    {
+      "day": 29,
+      "difficulty": "고급",
+      "word": "zealous",
+      "meaning": "열성적인",
+      "example": "He is zealous about learning."
     }
   ],
   "daily_by_difficulty": {
