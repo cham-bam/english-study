@@ -1,8 +1,210 @@
 {
-  "updated_at": "2026-05-14",
+  "updated_at": "2026-05-15",
   "default_daily_count": 15,
   "source": "01_기초_동사형용사.json",
   "entries": [
+    {
+      "date": "2026-05-15",
+      "day": 14,
+      "title": "Day 14 난이도별 영단어 15개",
+      "items": [
+        {
+          "difficulty": "초급",
+          "word": "cook",
+          "meaning": "요리하다",
+          "example": "I cook dinner at home.",
+          "note": "요리하다라는 뜻입니다. 예문과 함께 문장째 익혀보세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/cook"
+            }
+          ]
+        },
+        {
+          "difficulty": "초급",
+          "word": "dance",
+          "meaning": "춤추다",
+          "example": "We dance after school.",
+          "note": "춤추다라는 뜻입니다. 예문과 함께 문장째 익혀보세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/dance"
+            }
+          ]
+        },
+        {
+          "difficulty": "초급",
+          "word": "cheer",
+          "meaning": "응원하다",
+          "example": "We cheer for our team.",
+          "note": "응원하다라는 뜻입니다. 예문과 함께 문장째 익혀보세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/cheer"
+            }
+          ]
+        },
+        {
+          "difficulty": "초급",
+          "word": "greet",
+          "meaning": "인사하다",
+          "example": "She greets everyone politely.",
+          "note": "인사하다라는 뜻입니다. 예문과 함께 문장째 익혀보세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/greet"
+            }
+          ]
+        },
+        {
+          "difficulty": "초급",
+          "word": "hurry",
+          "meaning": "서두르다",
+          "example": "Please hurry to the station.",
+          "note": "서두르다라는 뜻입니다. 예문과 함께 문장째 익혀보세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/hurry"
+            }
+          ]
+        },
+        {
+          "difficulty": "중급",
+          "word": "collaborate",
+          "meaning": "협력하다",
+          "example": "The two groups collaborate on the project.",
+          "note": "협력하다라는 뜻입니다. 예문과 함께 문장째 익혀보세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/collaborate"
+            }
+          ]
+        },
+        {
+          "difficulty": "중급",
+          "word": "compensate",
+          "meaning": "보상하다",
+          "example": "The company compensates workers fairly.",
+          "note": "보상하다라는 뜻입니다. 예문과 함께 문장째 익혀보세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/compensate"
+            }
+          ]
+        },
+        {
+          "difficulty": "중급",
+          "word": "constrain",
+          "meaning": "제약하다",
+          "example": "Time can constrain our choices.",
+          "note": "제약하다라는 뜻입니다. 예문과 함께 문장째 익혀보세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/constrain"
+            }
+          ]
+        },
+        {
+          "difficulty": "중급",
+          "word": "convene",
+          "meaning": "소집하다",
+          "example": "The committee convenes on Monday.",
+          "note": "소집하다라는 뜻입니다. 예문과 함께 문장째 익혀보세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/convene"
+            }
+          ]
+        },
+        {
+          "difficulty": "중급",
+          "word": "deduce",
+          "meaning": "추론하다",
+          "example": "We deduce the answer from the clues.",
+          "note": "추론하다라는 뜻입니다. 예문과 함께 문장째 익혀보세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/deduce"
+            }
+          ]
+        },
+        {
+          "difficulty": "고급",
+          "word": "discerning",
+          "meaning": "분별력 있는",
+          "example": "A discerning reader notices details.",
+          "note": "분별력 있는라는 뜻입니다. 예문과 함께 문장째 익혀보세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/discerning"
+            }
+          ]
+        },
+        {
+          "difficulty": "고급",
+          "word": "disparate",
+          "meaning": "상이한",
+          "example": "The two cases are disparate.",
+          "note": "상이한라는 뜻입니다. 예문과 함께 문장째 익혀보세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/disparate"
+            }
+          ]
+        },
+        {
+          "difficulty": "고급",
+          "word": "elusive",
+          "meaning": "붙잡기 어려운",
+          "example": "The final answer remained elusive.",
+          "note": "붙잡기 어려운라는 뜻입니다. 예문과 함께 문장째 익혀보세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/elusive"
+            }
+          ]
+        },
+        {
+          "difficulty": "고급",
+          "word": "esoteric",
+          "meaning": "난해한",
+          "example": "The lecture used esoteric terms.",
+          "note": "난해한라는 뜻입니다. 예문과 함께 문장째 익혀보세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/esoteric"
+            }
+          ]
+        },
+        {
+          "difficulty": "고급",
+          "word": "exemplary",
+          "meaning": "모범적인",
+          "example": "Her attendance record is exemplary.",
+          "note": "모범적인라는 뜻입니다. 예문과 함께 문장째 익혀보세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/exemplary"
+            }
+          ]
+        }
+      ]
+    },
     {
       "date": "2026-05-14",
       "day": 13,

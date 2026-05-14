@@ -1,7 +1,97 @@
 {
-  "updated_at": "2026-05-14",
+  "updated_at": "2026-05-15",
   "default_daily_count": 6,
   "entries": [
+    {
+      "date": "2026-05-15",
+      "title": "2026.05.15 난이도별 상식 6개",
+      "items": [
+        {
+          "source_id": "language-alphabet-word-origin",
+          "difficulty": "초급",
+          "category": "언어",
+          "title": "alphabet은 alpha와 beta에서 온 말이다",
+          "body": "alphabet이라는 말은 그리스 문자의 첫 두 글자인 alpha와 beta에서 유래했습니다. 문자 체계의 이름 자체가 첫 글자들의 조합인 셈입니다.",
+          "takeaway": "익숙한 단어 안에도 문자와 문화의 역사가 숨어 있습니다.",
+          "sources": [
+            {
+              "label": "Online Etymology Dictionary",
+              "url": "https://www.etymonline.com/word/alphabet"
+            }
+          ]
+        },
+        {
+          "source_id": "math-zero-placeholder",
+          "difficulty": "초급",
+          "category": "수학",
+          "title": "0은 숫자이면서 자리 표시자 역할도 한다",
+          "body": "0은 아무것도 없음을 나타내는 숫자이지만, 십진법에서는 자릿값을 유지하는 표시자로도 중요합니다. 10과 100을 구분할 수 있는 이유가 여기에 있습니다.",
+          "takeaway": "0의 도입은 계산과 기록 체계를 크게 바꾼 발명에 가깝습니다.",
+          "sources": [
+            {
+              "label": "Britannica Zero",
+              "url": "https://www.britannica.com/science/zero-mathematics"
+            }
+          ]
+        },
+        {
+          "source_id": "health-immunity-active-passive",
+          "difficulty": "중급",
+          "category": "보건",
+          "title": "면역에는 활성 면역과 수동 면역이 있다",
+          "body": "활성 면역은 감염이나 백신 접종처럼 몸이 직접 항체를 만들 때 생기고, 수동 면역은 이미 만들어진 항체를 받는 경우입니다.",
+          "takeaway": "면역은 스스로 만드는 방식과 받아오는 방식으로 나눌 수 있습니다.",
+          "sources": [
+            {
+              "label": "CDC Immunity Types",
+              "url": "https://www.cdc.gov/vaccines/basics/immunity-types.html"
+            }
+          ]
+        },
+        {
+          "source_id": "biology-abo-blood-types",
+          "difficulty": "중급",
+          "category": "생물",
+          "title": "ABO 혈액형은 적혈구 항원으로 구분된다",
+          "body": "ABO 시스템에서는 A, B, AB, O 네 가지 혈액형이 흔합니다. 어떤 항원이 적혈구 표면에 있느냐가 혈액형을 결정합니다.",
+          "takeaway": "혈액형은 단순히 이름이 아니라 세포 표면의 분자 차이입니다.",
+          "sources": [
+            {
+              "label": "NCBI Bookshelf",
+              "url": "https://www.ncbi.nlm.nih.gov/books/NBK100894"
+            }
+          ]
+        },
+        {
+          "source_id": "math-shannon-entropy",
+          "difficulty": "고급",
+          "category": "정보이론",
+          "title": "정보이론의 엔트로피는 압축 한계를 정한다",
+          "body": "샤논 엔트로피는 메시지의 평균 정보량을 나타내며, 인코딩과 압축의 이론적 한계를 결정합니다. 같은 데이터라도 패턴에 따라 압축 가능성이 달라집니다.",
+          "takeaway": "정보가 얼마나 예측 가능한지에 따라 압축 효율도 달라집니다.",
+          "sources": [
+            {
+              "label": "Britannica",
+              "url": "https://www.britannica.com/science/information-theory/Entropy"
+            }
+          ]
+        },
+        {
+          "source_id": "space-blackhole-event-horizon",
+          "difficulty": "고급",
+          "category": "우주",
+          "title": "사건의 지평선 너머에서는 빛도 빠져나올 수 없다",
+          "body": "블랙홀의 사건의 지평선 안쪽에서는 탈출 속도가 빛의 속도보다 커집니다. 그래서 바깥 관찰자는 그 안의 정보를 직접 받을 수 없습니다.",
+          "takeaway": "사건의 지평선은 블랙홀의 '돌아올 수 없는 경계'입니다.",
+          "sources": [
+            {
+              "label": "NASA Black Holes",
+              "url": "https://science.nasa.gov/universe/black-holes"
+            }
+          ]
+        }
+      ]
+    },
     {
       "date": "2026-05-14",
       "title": "2026.05.14 난이도별 상식 6개",

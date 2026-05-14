@@ -1,7 +1,37 @@
 {
-  "updated_at": "2026-05-14",
+  "updated_at": "2026-05-15",
   "default_daily_count": 1,
   "entries": [
+    {
+      "date": "2026-05-15",
+      "title": "2026.05.15 1분 설명 아티클",
+      "items": [
+        {
+          "id": "speaking-ai-data-quality",
+          "topic": "AI",
+          "titleKo": "AI 성능은 모델보다 데이터 습관에서 자주 갈린다",
+          "bodyKo": "AI를 설명할 때 사람들은 모델 이름이나 파라미터 규모를 먼저 떠올린다. 물론 모델 자체도 중요하지만, 실제 업무에서는 데이터 품질이 성능을 크게 좌우한다. 같은 모델을 써도 입력 데이터가 오래됐거나, 기준이 섞여 있거나, 중복과 누락이 많으면 결과는 흔들린다. 반대로 데이터 정의가 명확하고, 최신성이 관리되고, 오류를 발견하는 절차가 있으면 단순한 모델도 꽤 좋은 결과를 낼 수 있다. 그래서 AI 도입은 기술 구매보다 업무 기록 습관을 바꾸는 일에 가깝다. 어떤 데이터를 왜 모으는지, 누가 갱신하는지, 잘못된 값은 어떻게 고치는지 정해야 한다. 좋은 AI 조직은 모델을 잘 고르는 조직이기도 하지만, 더 근본적으로는 데이터를 신뢰할 수 있게 만드는 조직이다.",
+          "titleEn": "AI Performance Often Depends on Data Habits",
+          "bodyEn": "When people explain AI, they often mention model names or parameter size first. The model matters, but in real work, data quality often determines performance. Even the same model can produce unstable results if the input data is outdated, inconsistent, duplicated, or incomplete. On the other hand, clearly defined and well-maintained data can help even a simple model produce useful results. AI adoption is therefore not only a technology purchase. It is also a change in how an organization records work. Teams need to decide what data they collect, why they collect it, who updates it, and how errors are corrected. A good AI organization chooses models well, but more fundamentally, it makes data trustworthy.",
+          "point": "AI 도입의 핵심은 모델 선택만이 아니라 데이터를 신뢰할 수 있게 관리하는 습관이다.",
+          "steps": [
+            "AI 성능을 모델 이름만으로 보면 부족하다고 시작하기",
+            "오래되거나 섞인 데이터가 결과를 흔든다고 설명하기",
+            "데이터 정의와 갱신 절차가 중요하다고 정리하기"
+          ],
+          "questions": [
+            "내가 다루는 데이터 중 AI 결과를 흐리게 만들 수 있는 것은 무엇일까?",
+            "데이터를 신뢰할 수 있게 만들려면 어떤 규칙이 필요할까?"
+          ],
+          "sources": [
+            {
+              "label": "NIST AI Risk Management Framework",
+              "url": "https://www.nist.gov/itl/ai-risk-management-framework"
+            }
+          ]
+        }
+      ]
+    },
     {
       "date": "2026-05-14",
       "title": "2026.05.14 1분 설명 아티클",
