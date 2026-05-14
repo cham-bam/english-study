@@ -1,0 +1,66 @@
+{
+  "updated_at": "2026-05-14",
+  "default_daily_count": 1,
+  "entries": [
+    {
+      "date": "2026-05-14",
+      "title": "2026.05.14 1분 설명 아티클",
+      "items": [
+        {
+          "id": "speaking-auto-software-defined-vehicle",
+          "topic": "자동차 산업",
+          "titleKo": "자동차는 점점 업데이트되는 제품이 되고 있다",
+          "bodyKo": "과거 자동차의 경쟁력은 엔진, 변속기, 차체 강성처럼 출고 시점에 완성되는 하드웨어에서 주로 나왔다. 지금도 기본 품질은 중요하지만, 차의 경험은 점점 소프트웨어로 바뀌고 있다. 운전 보조 기능, 배터리 관리, 내비게이션, 인포테인먼트, 원격 업데이트가 차량의 가치를 계속 조정한다. 이 변화는 자동차 회사를 단순 제조업체가 아니라 판매 후에도 제품을 운영하는 회사로 만든다. 소비자도 차를 고를 때 마력과 디자인뿐 아니라 업데이트 정책, 앱 안정성, 보안 대응, 기능 개선 속도를 봐야 한다. 좋은 자동차는 이제 출고 때 완성된 물건이 아니라 소유 기간 동안 계속 관리되는 시스템에 가까워지고 있다.",
+          "titleEn": "Cars Are Becoming Products That Keep Updating",
+          "bodyEn": "In the past, a car's competitiveness came mostly from hardware that was finished at the time of production: the engine, transmission, and body structure. Those basics still matter, but the ownership experience is increasingly shaped by software. Driver assistance, battery management, navigation, infotainment, and over-the-air updates can keep changing the value of a vehicle. This shift turns automakers from simple manufacturers into operators that must support the product after sale. Consumers now need to consider not only power and design, but also update policy, app reliability, security response, and the pace of feature improvement. A good car is becoming less like a finished object and more like a managed system.",
+          "point": "자동차 경쟁력은 하드웨어 완성도에 소프트웨어 운영 능력이 더해지는 방향으로 변하고 있다.",
+          "steps": [
+            "과거 자동차 경쟁력은 하드웨어 중심이었다고 배경 잡기",
+            "원격 업데이트와 운전 보조 기능이 경험을 바꾼다고 설명하기",
+            "차량을 계속 관리되는 시스템으로 봐야 한다고 정리하기"
+          ],
+          "questions": [
+            "차량 소프트웨어 업데이트가 중고차 가치에 영향을 줄 수 있을까?",
+            "자동차 회사가 판매 후에도 계속 운영 역량을 가져야 하는 이유는 무엇일까?"
+          ],
+          "sources": [
+            {
+              "label": "NHTSA Vehicle Safety",
+              "url": "https://www.nhtsa.gov/vehicle-safety"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "date": "2026-05-05",
+      "title": "2026.05.05 1분 설명 아티클",
+      "items": [
+        {
+          "id": "speaking-ai-workflow-value",
+          "topic": "AI",
+          "titleKo": "AI의 가치는 답변보다 업무 흐름에서 커진다",
+          "bodyKo": "AI를 처음 쓰면 질문에 얼마나 자연스럽게 답하는지가 눈에 띈다. 하지만 실제 생산성은 한 번의 멋진 답변보다 업무 흐름이 바뀔 때 커진다. 자료 조사, 초안 작성, 검토, 수정, 요약을 따로 하는 대신 AI와 함께 하나의 반복 과정으로 묶을 수 있다. 중요한 것은 AI에게 모든 판단을 맡기는 것이 아니다. 사람은 목표, 기준, 맥락을 정하고, AI는 빠른 초안과 대안을 제공한다. 이렇게 역할을 나누면 생각의 속도는 빨라지지만 책임은 사람에게 남는다. 좋은 AI 활용 능력은 프롬프트를 예쁘게 쓰는 기술보다, 일을 작은 단계로 나누고 결과를 검증하는 습관에 더 가깝다.",
+          "titleEn": "AI Creates More Value in Workflows Than in Answers",
+          "bodyEn": "When people first use AI, they notice how natural its answers sound. But real productivity grows more when the workflow changes than when a single answer is impressive. Research, drafting, review, revision, and summarization can be connected into one repeated process with AI. The point is not to hand every judgment to the model. The human sets the goal, criteria, and context, while AI provides fast drafts and alternatives. With this division of labor, thinking can move faster while responsibility stays with the person. Good AI use is less about writing beautiful prompts and more about breaking work into small steps and checking the result.",
+          "point": "AI 활용력은 좋은 답을 받는 능력보다 일을 단계화하고 검증하는 습관에서 나온다.",
+          "steps": [
+            "AI의 진짜 가치는 답변 하나보다 흐름 변화라고 시작하기",
+            "사람과 AI의 역할 분담을 설명하기",
+            "검증과 책임은 사람에게 남는다고 마무리하기"
+          ],
+          "questions": [
+            "내 일상 업무 중 AI와 반복 과정으로 묶을 수 있는 일은 무엇일까?",
+            "AI가 만든 초안을 검증할 기준은 어떻게 정할 수 있을까?"
+          ],
+          "sources": [
+            {
+              "label": "Google Machine Learning Crash Course",
+              "url": "https://developers.google.com/machine-learning/crash-course"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

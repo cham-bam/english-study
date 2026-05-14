@@ -1,0 +1,151 @@
+{
+  "updated_at": "2026-05-05",
+  "daily_count": 1,
+  "refill_target_unused": 14,
+  "items": [
+    {
+      "id": "speaking-real-estate-rates-cashflow",
+      "topic": "부동산",
+      "titleKo": "집값은 가격보다 월 부담으로 먼저 체감된다",
+      "bodyKo": "부동산 시장을 볼 때 사람들은 매매가가 올랐는지 내렸는지를 먼저 본다. 하지만 실제 구매 결정을 움직이는 것은 매달 감당해야 하는 현금흐름이다. 같은 가격의 집이라도 금리가 높으면 대출 이자가 커지고, 관리비와 세금까지 더하면 체감 부담은 크게 달라진다. 반대로 금리가 낮아지면 소득이 그대로여도 살 수 있는 가격대가 넓어질 수 있다. 그래서 부동산을 설명할 때는 가격 하나만 보지 말고 소득, 금리, 대출 기간, 임대료 같은 대체 선택지를 함께 봐야 한다. 좋은 판단은 '이 집이 싼가'보다 '이 집을 오래 감당할 수 있는가'에서 시작된다.",
+      "titleEn": "Housing Feels Affordable Through Monthly Cash Flow",
+      "bodyEn": "When people look at the housing market, they often focus first on whether sale prices are rising or falling. But real purchase decisions are usually driven by monthly cash flow. The same home price can feel very different when interest rates, loan payments, maintenance fees, and taxes change. When rates are high, buyers may delay a purchase or choose a smaller home. When rates fall, the affordable price range can expand even if income stays the same. That is why real estate should be explained through income, rates, loan terms, and rent alternatives together. A good decision begins not with whether a home looks cheap, but with whether the buyer can carry it over time.",
+      "point": "부동산 판단은 매매가보다 월 현금흐름과 지속 가능성을 중심으로 해야 한다.",
+      "steps": [
+        "사람들이 집값만 보지만 실제 결정은 월 부담이 좌우한다고 말하기",
+        "금리와 대출 조건이 같은 가격의 체감 부담을 바꾼다고 설명하기",
+        "가격보다 오래 감당 가능한지 확인해야 한다고 마무리하기"
+      ],
+      "questions": [
+        "집값이 그대로여도 구매 부담이 커질 수 있는 이유는 무엇일까?",
+        "내가 집을 산다면 매매가 외에 어떤 현금흐름을 먼저 계산해야 할까?"
+      ],
+      "sources": [
+        {
+          "label": "Freddie Mac Mortgage Rates",
+          "url": "https://www.freddiemac.com/pmms"
+        }
+      ]
+    },
+    {
+      "id": "speaking-auto-software-defined-vehicle",
+      "topic": "자동차 산업",
+      "titleKo": "자동차는 점점 업데이트되는 제품이 되고 있다",
+      "bodyKo": "과거 자동차의 경쟁력은 엔진, 변속기, 차체 강성처럼 출고 시점에 완성되는 하드웨어에서 주로 나왔다. 지금도 기본 품질은 중요하지만, 차의 경험은 점점 소프트웨어로 바뀌고 있다. 운전 보조 기능, 배터리 관리, 내비게이션, 인포테인먼트, 원격 업데이트가 차량의 가치를 계속 조정한다. 이 변화는 자동차 회사를 단순 제조업체가 아니라 판매 후에도 제품을 운영하는 회사로 만든다. 소비자도 차를 고를 때 마력과 디자인뿐 아니라 업데이트 정책, 앱 안정성, 보안 대응, 기능 개선 속도를 봐야 한다. 좋은 자동차는 이제 출고 때 완성된 물건이 아니라 소유 기간 동안 계속 관리되는 시스템에 가까워지고 있다.",
+      "titleEn": "Cars Are Becoming Products That Keep Updating",
+      "bodyEn": "In the past, a car's competitiveness came mostly from hardware that was finished at the time of production: the engine, transmission, and body structure. Those basics still matter, but the ownership experience is increasingly shaped by software. Driver assistance, battery management, navigation, infotainment, and over-the-air updates can keep changing the value of a vehicle. This shift turns automakers from simple manufacturers into operators that must support the product after sale. Consumers now need to consider not only power and design, but also update policy, app reliability, security response, and the pace of feature improvement. A good car is becoming less like a finished object and more like a managed system.",
+      "point": "자동차 경쟁력은 하드웨어 완성도에 소프트웨어 운영 능력이 더해지는 방향으로 변하고 있다.",
+      "steps": [
+        "과거 자동차 경쟁력은 하드웨어 중심이었다고 배경 잡기",
+        "원격 업데이트와 운전 보조 기능이 경험을 바꾼다고 설명하기",
+        "차량을 계속 관리되는 시스템으로 봐야 한다고 정리하기"
+      ],
+      "questions": [
+        "차량 소프트웨어 업데이트가 중고차 가치에 영향을 줄 수 있을까?",
+        "자동차 회사가 판매 후에도 계속 운영 역량을 가져야 하는 이유는 무엇일까?"
+      ],
+      "sources": [
+        {
+          "label": "NHTSA Vehicle Safety",
+          "url": "https://www.nhtsa.gov/vehicle-safety"
+        }
+      ]
+    },
+    {
+      "id": "speaking-ai-workflow-value",
+      "topic": "AI",
+      "titleKo": "AI의 가치는 답변보다 업무 흐름에서 커진다",
+      "bodyKo": "AI를 처음 쓰면 질문에 얼마나 자연스럽게 답하는지가 눈에 띈다. 하지만 실제 생산성은 한 번의 멋진 답변보다 업무 흐름이 바뀔 때 커진다. 자료 조사, 초안 작성, 검토, 수정, 요약을 따로 하는 대신 AI와 함께 하나의 반복 과정으로 묶을 수 있다. 중요한 것은 AI에게 모든 판단을 맡기는 것이 아니다. 사람은 목표, 기준, 맥락을 정하고, AI는 빠른 초안과 대안을 제공한다. 이렇게 역할을 나누면 생각의 속도는 빨라지지만 책임은 사람에게 남는다. 좋은 AI 활용 능력은 프롬프트를 예쁘게 쓰는 기술보다, 일을 작은 단계로 나누고 결과를 검증하는 습관에 더 가깝다.",
+      "titleEn": "AI Creates More Value in Workflows Than in Answers",
+      "bodyEn": "When people first use AI, they notice how natural its answers sound. But real productivity grows more when the workflow changes than when a single answer is impressive. Research, drafting, review, revision, and summarization can be connected into one repeated process with AI. The point is not to hand every judgment to the model. The human sets the goal, criteria, and context, while AI provides fast drafts and alternatives. With this division of labor, thinking can move faster while responsibility stays with the person. Good AI use is less about writing beautiful prompts and more about breaking work into small steps and checking the result.",
+      "point": "AI 활용력은 좋은 답을 받는 능력보다 일을 단계화하고 검증하는 습관에서 나온다.",
+      "steps": [
+        "AI의 진짜 가치는 답변 하나보다 흐름 변화라고 시작하기",
+        "사람과 AI의 역할 분담을 설명하기",
+        "검증과 책임은 사람에게 남는다고 마무리하기"
+      ],
+      "questions": [
+        "내 일상 업무 중 AI와 반복 과정으로 묶을 수 있는 일은 무엇일까?",
+        "AI가 만든 초안을 검증할 기준은 어떻게 정할 수 있을까?"
+      ],
+      "sources": [
+        {
+          "label": "Google Machine Learning Crash Course",
+          "url": "https://developers.google.com/machine-learning/crash-course"
+        }
+      ]
+    },
+    {
+      "id": "speaking-real-estate-ai-valuation",
+      "topic": "부동산 + AI",
+      "titleKo": "AI 부동산 평가는 빠르지만 현장을 대신하지 못한다",
+      "bodyKo": "AI는 부동산 평가에서 강한 장점을 가진다. 주변 거래 사례, 면적, 연식, 교통, 학군, 임대료 같은 데이터를 빠르게 비교하고 가격 범위를 추정할 수 있기 때문이다. 사람이 오래 걸려 정리할 패턴을 몇 초 안에 보여줄 수도 있다. 하지만 부동산은 숫자로만 설명되지 않는다. 같은 단지 안에서도 층, 조망, 소음, 관리 상태, 향후 공사 계획에 따라 체감 가치는 달라진다. 그래서 AI 평가는 결론이 아니라 출발점으로 쓰는 편이 좋다. 좋은 의사결정은 AI가 제시한 가격 범위를 보고, 사람이 현장과 계약 조건을 확인하는 방식에 가깝다. 빠른 분석과 느린 확인이 함께 있어야 실수가 줄어든다.",
+      "titleEn": "AI Real Estate Valuation Is Fast, but It Cannot Replace the Site",
+      "bodyEn": "AI has a strong advantage in real estate valuation because it can quickly compare nearby transactions, size, age, transit access, schools, and rents. It can show patterns in seconds that would take a person much longer to organize. But real estate is not explained by numbers alone. Even within the same complex, value can change based on floor level, view, noise, maintenance, and future construction plans. AI valuation should therefore be used as a starting point, not a final answer. Better decisions use AI to suggest a price range, then rely on people to check the site and contract details. Fast analysis and slow verification need to work together.",
+      "point": "AI 부동산 평가는 가격 범위의 출발점이고, 최종 판단은 현장과 계약 확인에서 완성된다.",
+      "steps": [
+        "AI가 거래 데이터 비교를 빠르게 한다고 시작하기",
+        "숫자로 잡히지 않는 현장 요소를 설명하기",
+        "AI 분석과 사람의 확인이 함께 필요하다고 정리하기"
+      ],
+      "questions": [
+        "AI가 놓치기 쉬운 부동산 현장 요소는 무엇일까?",
+        "가격 범위와 실제 매수 결정 사이에는 어떤 확인 과정이 필요할까?"
+      ],
+      "sources": [
+        {
+          "label": "FHFA House Price Index",
+          "url": "https://www.fhfa.gov/data/hpi"
+        }
+      ]
+    },
+    {
+      "id": "speaking-auto-ai-trust",
+      "topic": "자동차 + AI",
+      "titleKo": "자율주행은 정확도만큼 신뢰 설계가 중요하다",
+      "bodyKo": "자율주행 기술은 카메라, 레이더, 센서, 지도, AI 모델이 함께 작동하는 복잡한 시스템이다. 기술이 발전할수록 차는 차선, 보행자, 신호, 주변 차량의 움직임을 더 잘 해석한다. 하지만 소비자가 실제로 느끼는 핵심은 기능이 있다는 사실보다 믿고 맡길 수 있는지다. 한 번의 이상한 급제동이나 불안한 차선 변경은 긴 기술 설명보다 강하게 기억된다. 그래서 자동차 회사는 알고리즘 성능뿐 아니라 예측 가능한 움직임, 알기 쉬운 경고, 책임 범위를 함께 설계해야 한다. 자율주행의 대중화는 정확도 하나로 오지 않는다. 사람이 시스템의 한계를 이해하고도 안심할 수 있을 때 시장이 넓어진다.",
+      "titleEn": "Autonomous Driving Needs Trust Design as Much as Accuracy",
+      "bodyEn": "Autonomous driving is a complex system where cameras, radar, sensors, maps, and AI models work together. As the technology improves, vehicles become better at reading lanes, pedestrians, traffic lights, and surrounding cars. But for consumers, the central issue is not just whether the feature exists. It is whether they can trust it. One strange hard brake or unstable lane change can be remembered more strongly than a long technical explanation. Automakers therefore need to design not only algorithm performance, but also predictable movement, clear warnings, and responsibility boundaries. Mass adoption will not come from accuracy alone. The market grows when people understand the system's limits and still feel safe using it.",
+      "point": "자율주행 대중화에는 알고리즘 정확도와 함께 사용자가 예측 가능하다고 느끼는 신뢰가 필요하다.",
+      "steps": [
+        "자율주행이 여러 기술의 결합이라고 시작하기",
+        "소비자는 기능보다 신뢰를 본다고 설명하기",
+        "예측 가능성과 책임 범위가 필요하다고 마무리하기"
+      ],
+      "questions": [
+        "내가 자율주행 기능을 믿게 되는 기준은 무엇일까?",
+        "기술 설명보다 실제 사용 경험이 더 중요한 이유는 무엇일까?"
+      ],
+      "sources": [
+        {
+          "label": "NHTSA Automated Vehicles",
+          "url": "https://www.nhtsa.gov/technology-innovation/automated-vehicles-safety"
+        }
+      ]
+    },
+    {
+      "id": "speaking-ai-energy-demand",
+      "topic": "AI + 산업",
+      "titleKo": "AI 확산은 데이터센터와 전력 인프라를 함께 보게 만든다",
+      "bodyKo": "AI 서비스가 많아질수록 사람들은 모델 성능과 앱 기능을 먼저 떠올린다. 하지만 그 뒤에는 데이터센터, 전력, 냉각, 네트워크 같은 물리적 인프라가 있다. 대규모 모델을 학습하고 운영하려면 안정적인 전력 공급과 효율적인 냉각이 필요하다. 이 수요는 부동산과 에너지 산업에도 영향을 준다. 데이터센터는 입지, 전력망 접근성, 토지 사용 규제, 지역 전기요금과 연결되기 때문이다. 그래서 AI 산업을 설명할 때 소프트웨어만 보면 부족하다. 화면 안의 지능은 화면 밖의 전력과 공간 위에서 작동한다. AI의 성장은 디지털 산업이면서 동시에 인프라 산업이기도 하다.",
+      "titleEn": "AI Growth Makes Data Centers and Power Infrastructure More Important",
+      "bodyEn": "As AI services expand, people often think first about model performance and app features. But behind them are physical systems such as data centers, power supply, cooling, and networks. Training and operating large models require stable electricity and efficient cooling. This demand also affects real estate and energy industries because data centers depend on location, grid access, land-use rules, and local power costs. That is why AI should not be explained only as software. The intelligence on the screen runs on power and space outside the screen. AI growth is a digital trend, but it is also an infrastructure trend.",
+      "point": "AI 산업은 소프트웨어 산업인 동시에 전력, 냉각, 입지가 필요한 인프라 산업이다.",
+      "steps": [
+        "AI 뒤에는 데이터센터와 전력이 있다고 시작하기",
+        "전력망과 입지가 데이터센터 가치에 영향을 준다고 설명하기",
+        "AI 성장은 디지털이면서 인프라 흐름이라고 정리하기"
+      ],
+      "questions": [
+        "AI 데이터센터가 부동산 입지 선택에 영향을 줄 수 있는 이유는?",
+        "소프트웨어 산업을 전력 인프라와 함께 봐야 하는 이유는 무엇일까?"
+      ],
+      "sources": [
+        {
+          "label": "IEA Data Centres and Networks",
+          "url": "https://www.iea.org/energy-system/buildings/data-centres-and-data-transmission-networks"
+        }
+      ]
+    }
+  ]
+}

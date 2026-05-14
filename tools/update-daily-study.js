@@ -8,12 +8,15 @@ const printDate = process.argv.includes("--print-date");
 const DIFFICULTIES = ["초급", "중급", "고급"];
 const DEFAULT_KNOWLEDGE_QUOTA = { "초급": 2, "중급": 2, "고급": 2 };
 const DEFAULT_ENGLISH_QUOTA = { "초급": 5, "중급": 5, "고급": 5 };
+const DEFAULT_SPEAKING_DAILY_COUNT = 1;
 
 const paths = {
   knowledge: path.join(root, "data", "knowledge.json"),
   knowledgePool: path.join(root, "data", "knowledge_pool.json"),
   english: path.join(root, "data", "english_daily.json"),
-  englishSource: path.join(root, "01_기초_동사형용사.json")
+  englishSource: path.join(root, "01_기초_동사형용사.json"),
+  speaking: path.join(root, "data", "speaking_articles.json"),
+  speakingPool: path.join(root, "data", "speaking_article_pool.json")
 };
 
 function readJson(file) {
@@ -246,6 +249,92 @@ function updateEnglish(date) {
   };
 }
 
+function normalizeSources(sources) {
+  return Array.isArray(sources)
+    ? sources
+      .filter((source) => source?.url)
+      .map((source) => ({
+        label: source.label || "출처",
+        url: source.url
+      }))
+    : [];
+}
+
+function cloneSpeakingArticle(item) {
+  return {
+    id: item.id,
+    topic: item.topic || "1분 설명",
+    titleKo: item.titleKo,
+    bodyKo: item.bodyKo,
+    titleEn: item.titleEn,
+    bodyEn: item.bodyEn,
+    point: item.point,
+    steps: Array.isArray(item.steps) ? item.steps : [],
+    questions: Array.isArray(item.questions) ? item.questions : [],
+    sources: normalizeSources(item.sources)
+  };
+}
+
+function getSpeakingTopicForDate(date) {
+  const topics = ["부동산", "자동차 산업", "AI", "부동산 + AI", "자동차 + AI", "AI + 산업"];
+  const dayIndex = Math.floor(Date.parse(date + "T00:00:00Z") / 86400000);
+  return topics[Math.abs(dayIndex) % topics.length];
+}
+
+function updateSpeakingArticle(date) {
+  const speaking = readJson(paths.speaking);
+  const pool = readJson(paths.speakingPool);
+  speaking.entries = Array.isArray(speaking.entries) ? speaking.entries : [];
+
+  const existing = speaking.entries.find((entry) => entry.date === date);
+  if (existing) {
+    return {
+      changed: false,
+      reason: "speaking article already exists",
+      picked: getEntryItems(existing).map((item) => item.titleKo || item.titleEn || item.id)
+    };
+  }
+
+  const used = new Set();
+  speaking.entries.forEach((entry) => {
+    getEntryItems(entry).forEach((item) => {
+      [item.id, item.titleKo, item.titleEn]
+        .map(normalizeKey)
+        .filter(Boolean)
+        .forEach((key) => used.add(key));
+    });
+  });
+
+  const candidates = (pool.items || []).filter((item) => {
+    const keys = [item.id, item.titleKo, item.titleEn].map(normalizeKey).filter(Boolean);
+    return keys.length && !keys.some((key) => used.has(key));
+  });
+
+  if (!candidates.length) {
+    return { changed: false, reason: "speaking article pool needs refill", picked: [] };
+  }
+
+  const targetTopic = getSpeakingTopicForDate(date);
+  const picked = candidates.find((item) => item.topic === targetTopic) || candidates[0];
+  const entry = {
+    date,
+    title: `${date.replace(/-/g, ".")} 1분 설명 아티클`,
+    items: [cloneSpeakingArticle(picked)]
+  };
+
+  speaking.entries.unshift(entry);
+  speaking.updated_at = date;
+  speaking.default_daily_count = DEFAULT_SPEAKING_DAILY_COUNT;
+
+  writeJson(paths.speaking, speaking);
+
+  return {
+    changed: true,
+    reason: "speaking article added",
+    picked: [`${picked.topic || "1분 설명"}:${picked.titleKo || picked.titleEn || picked.id}`]
+  };
+}
+
 function main() {
   const date = getKstDate();
   if (printDate) {
@@ -255,14 +344,15 @@ function main() {
 
   const knowledge = updateKnowledge(date);
   const english = updateEnglish(date);
-  const changed = knowledge.changed || english.changed;
+  const speaking = updateSpeakingArticle(date);
+  const changed = knowledge.changed || english.changed || speaking.changed;
 
   if (process.env.GITHUB_OUTPUT) {
     fs.appendFileSync(process.env.GITHUB_OUTPUT, `study_date=${date}\n`);
     fs.appendFileSync(process.env.GITHUB_OUTPUT, `changed=${changed ? "true" : "false"}\n`);
   }
 
-  console.log(JSON.stringify({ date, dryRun, changed, knowledge, english }, null, 2));
+  console.log(JSON.stringify({ date, dryRun, changed, knowledge, english, speaking }, null, 2));
 }
 
 main();

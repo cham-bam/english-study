@@ -8,6 +8,7 @@
     englishDaily: "data/english_daily.json",
     knowledgePool: "data/knowledge_pool.json",
     englishSource: "01_기초_동사형용사.json",
+    speakingArticles: "data/speaking_articles.json",
     supabaseConfig: "data/supabase_config.json"
   };
   const LOCAL_WRONG_KEY = "english-study-local-wrong-words-v1";
@@ -980,6 +981,47 @@
     }).join("");
   }
 
+  function renderSpeakingArticleItems(items, limit) {
+    const list = limit ? items.slice(0, limit) : items;
+    if (!list.length) {
+      return '<div class="empty-msg">1분 설명 아티클 데이터가 없습니다.</div>';
+    }
+
+    return list.map((item) => `
+      <article class="speaking-article">
+        <div class="meta-row">
+          <span class="knowledge-category">${escapeHtml(item.topic || "말하기")}</span>
+          <span class="pill primary">읽기 3분 · 말하기 1분</span>
+        </div>
+        <h3 class="speaking-title">${escapeHtml(item.titleKo || "")}</h3>
+        <p class="speaking-body">${escapeHtml(item.bodyKo || "")}</p>
+        <div class="speaking-english">
+          <div class="speaking-label">English</div>
+          <h4>${escapeHtml(item.titleEn || "")}</h4>
+          <p>${escapeHtml(item.bodyEn || "")}</p>
+        </div>
+        ${item.point ? `<p class="speaking-point"><strong>핵심 주장:</strong> ${escapeHtml(item.point)}</p>` : ""}
+        ${Array.isArray(item.steps) && item.steps.length ? `
+          <div class="speaking-box">
+            <div class="speaking-label">1분 설명 구조</div>
+            <ol class="speaking-steps">
+              ${item.steps.map((step) => `<li>${escapeHtml(step)}</li>`).join("")}
+            </ol>
+          </div>
+        ` : ""}
+        ${Array.isArray(item.questions) && item.questions.length ? `
+          <div class="speaking-box">
+            <div class="speaking-label">생각 질문</div>
+            <ul class="speaking-questions">
+              ${item.questions.map((question) => `<li>${escapeHtml(question)}</li>`).join("")}
+            </ul>
+          </div>
+        ` : ""}
+        ${renderSourceLinks(item.sources)}
+      </article>
+    `).join("");
+  }
+
   function getWordId(item, context, index) {
     return `${context || "word"}::${index}::${String(item?.word || "").trim().toLowerCase()}`;
   }
@@ -1050,6 +1092,7 @@
           const dayId = `${kind || "day"}::${entry.date || index}`;
           const open = state.openDays.has(dayId);
           const isEnglish = renderItems === renderEnglishDailyItems;
+          const isSpeaking = renderItems === renderSpeakingArticleItems;
 
           return `
           <section class="day-section${open ? " open" : ""}">
@@ -1063,7 +1106,7 @@
                 <span class="day-indicator">${open ? "닫기" : "열기"}</span>
               </span>
             </button>
-            <div class="day-content ${isEnglish ? "word-list" : "knowledge-list"}">
+            <div class="day-content ${isEnglish ? "word-list" : isSpeaking ? "speaking-list" : "knowledge-list"}">
               ${renderItems(getEntryItems(entry), undefined, dayId)}
             </div>
           </section>
@@ -1207,7 +1250,7 @@
     `;
   }
 
-  function getDerived(prog, errors, knowledge, englishDaily) {
+  function getDerived(prog, errors, knowledge, englishDaily, speakingArticles) {
     const day = prog.current_day || 0;
     const nextDay = Math.max(1, day || 1);
     const phase = prog.current_phase || getPhase(Math.max(day, 1));
@@ -1222,6 +1265,9 @@
     const englishEntries = getDatedEntries(englishDaily);
     const latestEnglish = getLatestEntry(englishDaily);
     const englishItems = getEntryItems(latestEnglish);
+    const speakingEntries = getDatedEntries(speakingArticles || { entries: [] });
+    const latestSpeaking = getLatestEntry(speakingArticles || { entries: [] });
+    const speakingItems = getEntryItems(latestSpeaking);
     const favoriteKnowledge = getFavoriteKnowledge();
 
     return {
@@ -1239,14 +1285,18 @@
       favoriteKnowledge,
       englishEntries,
       latestEnglish,
-      englishItems
+      englishItems,
+      speakingEntries,
+      latestSpeaking,
+      speakingItems
     };
   }
 
-  function renderToday(prog, errors, knowledge, englishDaily) {
-    const d = getDerived(prog, errors, knowledge, englishDaily);
+  function renderToday(prog, errors, knowledge, englishDaily, speakingArticles) {
+    const d = getDerived(prog, errors, knowledge, englishDaily, speakingArticles);
     const studyLabel = d.day > 0 ? `Day ${d.day}` : "Day 1";
     const updated = knowledge.updated_at ? escapeHtml(knowledge.updated_at) : "-";
+    const speakingUpdated = speakingArticles?.updated_at ? escapeHtml(speakingArticles.updated_at) : "-";
 
     return `
       <section class="view today">
@@ -1254,7 +1304,7 @@
           <div class="hero-top">
             <div>
               <h2 class="hero-title">오늘 볼 것</h2>
-              <p class="hero-sub">상식은 초·중·고 2개씩, 영어는 초·중·고 5개씩 날짜별로 관리합니다.</p>
+              <p class="hero-sub">상식, 영어, 1분 설명 아티클을 날짜별로 관리합니다.</p>
             </div>
             <span class="pill primary">오늘</span>
           </div>
@@ -1268,6 +1318,10 @@
               <div class="summary-label">영어 단어</div>
             </div>
             <div class="summary-item">
+              <div class="summary-num">${d.speakingItems.length}</div>
+              <div class="summary-label">말하기</div>
+            </div>
+            <div class="summary-item">
               <div class="summary-num">${d.favoriteKnowledge.length}</div>
               <div class="summary-label">관심상식</div>
             </div>
@@ -1279,9 +1333,18 @@
           <div class="action-row">
             <button class="action-link primary" type="button" data-view-target="knowledge">상식 보기</button>
             <button class="action-link" type="button" data-view-target="english">영어 보기</button>
+            <button class="action-link" type="button" data-view-target="speaking">말하기 연습</button>
             <button class="action-link" type="button" data-action="request-extra" data-extra-kind="both">추가 학습 요청</button>
           </div>
           ${renderExtraStatus()}
+        </div>
+
+        <div class="card speaking-preview">
+          <div class="card-title">${escapeHtml(d.latestSpeaking.title || "오늘의 1분 설명 아티클")}</div>
+          <div class="speaking-list">
+            ${renderSpeakingArticleItems(d.speakingItems)}
+          </div>
+          <div class="updated-at">업데이트: ${speakingUpdated}</div>
         </div>
 
         <div class="card knowledge-preview">
@@ -1319,8 +1382,8 @@
     `;
   }
 
-  function renderEnglish(prog, errors, knowledge, englishDaily) {
-    const d = getDerived(prog, errors, knowledge, englishDaily);
+  function renderEnglish(prog, errors, knowledge, englishDaily, speakingArticles) {
+    const d = getDerived(prog, errors, knowledge, englishDaily, speakingArticles);
 
     return `
       <section class="view english">
@@ -1441,8 +1504,8 @@
     `;
   }
 
-  function renderKnowledge(prog, errors, knowledge, englishDaily) {
-    const d = getDerived(prog, errors, knowledge, englishDaily);
+  function renderKnowledge(prog, errors, knowledge, englishDaily, speakingArticles) {
+    const d = getDerived(prog, errors, knowledge, englishDaily, speakingArticles);
 
     return `
       <section class="view knowledge">
@@ -1482,18 +1545,54 @@
     `;
   }
 
+  function renderSpeaking(prog, errors, knowledge, englishDaily, speakingArticles) {
+    const d = getDerived(prog, errors, knowledge, englishDaily, speakingArticles);
+
+    return `
+      <section class="view speaking">
+        ${renderSyncPanel()}
+
+        <div class="card hero-card">
+          <div class="hero-top">
+            <div>
+              <h2 class="hero-title">1분 설명 아티클</h2>
+              <p class="hero-sub">${escapeHtml(d.latestSpeaking.date || "-")} 기준 ${d.speakingItems.length}개</p>
+            </div>
+            <span class="pill primary">말하기</span>
+          </div>
+          <div class="action-row">
+            <button class="action-link primary" type="button" data-view-target="today">오늘로 돌아가기</button>
+            <button class="action-link" type="button" data-action="refresh">새로고침</button>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="card-title">${escapeHtml(d.latestSpeaking.title || "오늘의 1분 설명 아티클")}</div>
+          <div class="speaking-list">${renderSpeakingArticleItems(d.speakingItems)}</div>
+        </div>
+
+        <div class="card">
+          <div class="card-title">날짜별 1분 설명 아티클</div>
+          ${renderDatedSections(d.speakingEntries, renderSpeakingArticleItems, "아직 1분 설명 아티클 기록 없음", "speaking")}
+        </div>
+      </section>
+    `;
+  }
+
   function renderDashboard() {
     if (!state.data) return;
 
-    const { prog, errors, knowledge, englishDaily } = state.data;
+    const { prog, errors, knowledge, englishDaily, speakingArticles } = state.data;
     const app = $("app");
 
     if (state.activeView === "english") {
-      app.innerHTML = renderEnglish(prog, errors, knowledge, englishDaily);
+      app.innerHTML = renderEnglish(prog, errors, knowledge, englishDaily, speakingArticles);
     } else if (state.activeView === "knowledge") {
-      app.innerHTML = renderKnowledge(prog, errors, knowledge, englishDaily);
+      app.innerHTML = renderKnowledge(prog, errors, knowledge, englishDaily, speakingArticles);
+    } else if (state.activeView === "speaking") {
+      app.innerHTML = renderSpeaking(prog, errors, knowledge, englishDaily, speakingArticles);
     } else {
-      app.innerHTML = renderToday(prog, errors, knowledge, englishDaily);
+      app.innerHTML = renderToday(prog, errors, knowledge, englishDaily, speakingArticles);
     }
 
     document.querySelectorAll(".tab").forEach((tab) => {
@@ -1511,17 +1610,18 @@
       state.localWrongWords = readLocalWrongWords();
       state.localFavoriteKnowledge = readLocalFavoriteKnowledge();
       state.extraStudy = readExtraStudy();
-      const [prog, errors, knowledge, englishDaily, knowledgePool, englishSource, supabaseConfig] = await Promise.all([
+      const [prog, errors, knowledge, englishDaily, knowledgePool, englishSource, speakingArticles, supabaseConfig] = await Promise.all([
         loadJSON(FILES.progress),
         loadJSON(FILES.errors),
         loadJSON(FILES.knowledge, { updated_at: "", entries: [] }),
         loadJSON(FILES.englishDaily, { updated_at: "", entries: [] }),
         loadJSON(FILES.knowledgePool, { items: [] }),
         loadJSON(FILES.englishSource, { words: [] }),
+        loadJSON(FILES.speakingArticles, { updated_at: "", default_daily_count: 1, entries: [] }),
         loadJSON(FILES.supabaseConfig, { enabled: false })
       ]);
 
-      state.data = { prog, errors, knowledge, englishDaily, knowledgePool, englishSource };
+      state.data = { prog, errors, knowledge, englishDaily, knowledgePool, englishSource, speakingArticles };
       await initSync(supabaseConfig);
       renderDashboard();
     } catch (e) {
