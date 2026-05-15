@@ -1,7 +1,37 @@
 {
-  "updated_at": "2026-05-15",
+  "updated_at": "2026-05-16",
   "default_daily_count": 1,
   "entries": [
+    {
+      "date": "2026-05-16",
+      "title": "2026.05.16 1분 설명 아티클",
+      "items": [
+        {
+          "id": "speaking-real-estate-ai-valuation",
+          "topic": "부동산 + AI",
+          "titleKo": "AI 부동산 평가는 빠르지만 현장을 대신하지 못한다",
+          "bodyKo": "AI는 부동산 평가에서 강한 장점을 가진다. 주변 거래 사례, 면적, 연식, 교통, 학군, 임대료 같은 데이터를 빠르게 비교하고 가격 범위를 추정할 수 있기 때문이다. 사람이 오래 걸려 정리할 패턴을 몇 초 안에 보여줄 수도 있다. 하지만 부동산은 숫자로만 설명되지 않는다. 같은 단지 안에서도 층, 조망, 소음, 관리 상태, 향후 공사 계획에 따라 체감 가치는 달라진다. 그래서 AI 평가는 결론이 아니라 출발점으로 쓰는 편이 좋다. 좋은 의사결정은 AI가 제시한 가격 범위를 보고, 사람이 현장과 계약 조건을 확인하는 방식에 가깝다. 빠른 분석과 느린 확인이 함께 있어야 실수가 줄어든다.",
+          "titleEn": "AI Real Estate Valuation Is Fast, but It Cannot Replace the Site",
+          "bodyEn": "AI has a strong advantage in real estate valuation because it can quickly compare nearby transactions, size, age, transit access, schools, and rents. It can show patterns in seconds that would take a person much longer to organize. But real estate is not explained by numbers alone. Even within the same complex, value can change based on floor level, view, noise, maintenance, and future construction plans. AI valuation should therefore be used as a starting point, not a final answer. Better decisions use AI to suggest a price range, then rely on people to check the site and contract details. Fast analysis and slow verification need to work together.",
+          "point": "AI 부동산 평가는 가격 범위의 출발점이고, 최종 판단은 현장과 계약 확인에서 완성된다.",
+          "steps": [
+            "AI가 거래 데이터 비교를 빠르게 한다고 시작하기",
+            "숫자로 잡히지 않는 현장 요소를 설명하기",
+            "AI 분석과 사람의 확인이 함께 필요하다고 정리하기"
+          ],
+          "questions": [
+            "AI가 놓치기 쉬운 부동산 현장 요소는 무엇일까?",
+            "가격 범위와 실제 매수 결정 사이에는 어떤 확인 과정이 필요할까?"
+          ],
+          "sources": [
+            {
+              "label": "FHFA House Price Index",
+              "url": "https://www.fhfa.gov/data/hpi"
+            }
+          ]
+        }
+      ]
+    },
     {
       "date": "2026-05-15",
       "title": "2026.05.15 1분 설명 아티클",

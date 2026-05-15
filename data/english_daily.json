@@ -1,8 +1,210 @@
 {
-  "updated_at": "2026-05-15",
+  "updated_at": "2026-05-16",
   "default_daily_count": 15,
   "source": "01_기초_동사형용사.json",
   "entries": [
+    {
+      "date": "2026-05-16",
+      "day": 15,
+      "title": "Day 15 난이도별 영단어 15개",
+      "items": [
+        {
+          "difficulty": "초급",
+          "word": "invite",
+          "meaning": "초대하다",
+          "example": "I invite my friends over.",
+          "note": "초대하다라는 뜻입니다. 예문과 함께 문장째 익혀보세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/invite"
+            }
+          ]
+        },
+        {
+          "difficulty": "초급",
+          "word": "move",
+          "meaning": "움직이다",
+          "example": "We move to a new office.",
+          "note": "움직이다라는 뜻입니다. 예문과 함께 문장째 익혀보세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/move"
+            }
+          ]
+        },
+        {
+          "difficulty": "초급",
+          "word": "pack",
+          "meaning": "싸다",
+          "example": "Please pack your bag.",
+          "note": "싸다라는 뜻입니다. 예문과 함께 문장째 익혀보세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/pack"
+            }
+          ]
+        },
+        {
+          "difficulty": "초급",
+          "word": "paint",
+          "meaning": "칠하다",
+          "example": "They paint the wall blue.",
+          "note": "칠하다라는 뜻입니다. 예문과 함께 문장째 익혀보세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/paint"
+            }
+          ]
+        },
+        {
+          "difficulty": "초급",
+          "word": "pull",
+          "meaning": "당기다",
+          "example": "Pull the door gently.",
+          "note": "당기다라는 뜻입니다. 예문과 함께 문장째 익혀보세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/pull"
+            }
+          ]
+        },
+        {
+          "difficulty": "중급",
+          "word": "disclose",
+          "meaning": "공개하다",
+          "example": "The report does not disclose the source.",
+          "note": "공개하다라는 뜻입니다. 예문과 함께 문장째 익혀보세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/disclose"
+            }
+          ]
+        },
+        {
+          "difficulty": "중급",
+          "word": "duplicate",
+          "meaning": "복제하다",
+          "example": "Do not duplicate the file.",
+          "note": "복제하다라는 뜻입니다. 예문과 함께 문장째 익혀보세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/duplicate"
+            }
+          ]
+        },
+        {
+          "difficulty": "중급",
+          "word": "enrich",
+          "meaning": "풍부하게 하다",
+          "example": "Reading can enrich your vocabulary.",
+          "note": "풍부하게 하다라는 뜻입니다. 예문과 함께 문장째 익혀보세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/enrich"
+            }
+          ]
+        },
+        {
+          "difficulty": "중급",
+          "word": "enforce",
+          "meaning": "집행하다",
+          "example": "The city must enforce the rule.",
+          "note": "집행하다라는 뜻입니다. 예문과 함께 문장째 익혀보세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/enforce"
+            }
+          ]
+        },
+        {
+          "difficulty": "중급",
+          "word": "enhance",
+          "meaning": "향상시키다",
+          "example": "This setting enhances the image.",
+          "note": "향상시키다라는 뜻입니다. 예문과 함께 문장째 익혀보세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/enhance"
+            }
+          ]
+        },
+        {
+          "difficulty": "고급",
+          "word": "exorbitant",
+          "meaning": "터무니없이 비싼",
+          "example": "The hotel charged an exorbitant fee.",
+          "note": "터무니없이 비싼라는 뜻입니다. 예문과 함께 문장째 익혀보세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/exorbitant"
+            }
+          ]
+        },
+        {
+          "difficulty": "고급",
+          "word": "heuristic",
+          "meaning": "경험적인",
+          "example": "The app uses a heuristic rule.",
+          "note": "경험적인라는 뜻입니다. 예문과 함께 문장째 익혀보세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/heuristic"
+            }
+          ]
+        },
+        {
+          "difficulty": "고급",
+          "word": "idiosyncratic",
+          "meaning": "독특한",
+          "example": "He has an idiosyncratic style.",
+          "note": "독특한라는 뜻입니다. 예문과 함께 문장째 익혀보세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/idiosyncratic"
+            }
+          ]
+        },
+        {
+          "difficulty": "고급",
+          "word": "incontrovertible",
+          "meaning": "반박할 수 없는",
+          "example": "The evidence was incontrovertible.",
+          "note": "반박할 수 없는라는 뜻입니다. 예문과 함께 문장째 익혀보세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/incontrovertible"
+            }
+          ]
+        },
+        {
+          "difficulty": "고급",
+          "word": "juxtapose",
+          "meaning": "나란히 두다",
+          "example": "The exhibit juxtaposes old and new work.",
+          "note": "나란히 두다라는 뜻입니다. 예문과 함께 문장째 익혀보세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/juxtapose"
+            }
+          ]
+        }
+      ]
+    },
     {
       "date": "2026-05-15",
       "day": 14,

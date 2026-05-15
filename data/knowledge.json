@@ -1,7 +1,97 @@
 {
-  "updated_at": "2026-05-15",
+  "updated_at": "2026-05-16",
   "default_daily_count": 6,
   "entries": [
+    {
+      "date": "2026-05-16",
+      "title": "2026.05.16 난이도별 상식 6개",
+      "items": [
+        {
+          "source_id": "food-pasteurization",
+          "difficulty": "초급",
+          "category": "생활",
+          "title": "저온살균은 음식을 완전히 끓이는 과정이 아니다",
+          "body": "저온살균은 식품을 정해진 온도와 시간으로 가열해 해로운 미생물을 줄이는 방법입니다. 맛과 품질을 최대한 유지하면서 안전성을 높이는 것이 목적입니다.",
+          "takeaway": "우유와 주스 같은 식품에서 자주 볼 수 있는 안전 처리 방식입니다.",
+          "sources": [
+            {
+              "label": "FDA Milk Guidance",
+              "url": "https://www.fda.gov/food/buy-store-serve-safe-food/what-you-need-know-about-milk"
+            }
+          ]
+        },
+        {
+          "source_id": "climate-urban-heat-island",
+          "difficulty": "초급",
+          "category": "도시",
+          "title": "도시는 주변보다 더 더워질 수 있다",
+          "body": "아스팔트와 콘크리트는 낮 동안 열을 많이 흡수하고 밤에 천천히 방출합니다. 이런 특성 때문에 도심은 주변 지역보다 기온이 높아지는 열섬 현상이 생길 수 있습니다.",
+          "takeaway": "도시의 나무, 그늘, 밝은 포장재가 더위 완화와 연결됩니다.",
+          "sources": [
+            {
+              "label": "EPA Heat Islands",
+              "url": "https://www.epa.gov/heatislands"
+            }
+          ]
+        },
+        {
+          "source_id": "geology-plate-tectonics",
+          "difficulty": "중급",
+          "category": "지구과학",
+          "title": "판구조론은 암석권을 여러 판으로 설명한다",
+          "body": "지구의 단단한 바깥층인 암석권은 여러 큰 판과 작은 판으로 나뉘어 움직입니다. 판의 경계에서는 지진, 화산, 산맥 형성이 자주 일어납니다.",
+          "takeaway": "대륙은 고정된 조각이 아니라 움직이는 판 위에 놓여 있습니다.",
+          "sources": [
+            {
+              "label": "Britannica",
+              "url": "https://www.britannica.com/science/plate-tectonics"
+            }
+          ]
+        },
+        {
+          "source_id": "civics-federalism-powers",
+          "difficulty": "중급",
+          "category": "사회",
+          "title": "연방제는 중앙과 지방의 권한을 나눈다",
+          "body": "연방제는 여러 구성 단위가 하나의 정치 체계 안에서 각자 정체성을 유지하도록 하는 방식입니다. 미국처럼 중앙정부와 주정부가 권한을 나눠 가질 수 있습니다.",
+          "takeaway": "연방제는 권력의 집중을 줄이고 지역 차이를 반영합니다.",
+          "sources": [
+            {
+              "label": "Britannica",
+              "url": "https://www.britannica.com/topic/federalism"
+            }
+          ]
+        },
+        {
+          "source_id": "space-blackhole-collapse",
+          "difficulty": "고급",
+          "category": "우주",
+          "title": "무거운 별의 붕괴로 블랙홀이 만들어질 수 있다",
+          "body": "질량이 매우 큰 별은 진화의 마지막에 중심부가 중력에 눌리며 붕괴할 수 있습니다. 그 결과 초고밀도 블랙홀이 형성됩니다.",
+          "takeaway": "블랙홀은 별의 최후 단계 중 하나로 이해할 수 있습니다.",
+          "sources": [
+            {
+              "label": "NASA Black Holes",
+              "url": "https://science.nasa.gov/universe/black-holes"
+            }
+          ]
+        },
+        {
+          "source_id": "space-blackhole-indirect-observation",
+          "difficulty": "고급",
+          "category": "우주",
+          "title": "블랙홀은 주변 물질의 움직임으로 간접 관측된다",
+          "body": "블랙홀 자체는 빛을 내지 않지만, 주변의 가스 원반과 별의 궤도, 중력렌즈 효과는 블랙홀의 존재를 드러냅니다.",
+          "takeaway": "보이지 않는 천체도 주변에 남긴 흔적으로 찾을 수 있습니다.",
+          "sources": [
+            {
+              "label": "NASA Black Holes",
+              "url": "https://science.nasa.gov/universe/black-holes"
+            }
+          ]
+        }
+      ]
+    },
     {
       "date": "2026-05-15",
       "title": "2026.05.15 난이도별 상식 6개",
