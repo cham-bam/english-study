@@ -1,7 +1,97 @@
 {
-  "updated_at": "2026-05-16",
+  "updated_at": "2026-05-17",
   "default_daily_count": 6,
   "entries": [
+    {
+      "date": "2026-05-17",
+      "title": "2026.05.17 난이도별 상식 6개",
+      "items": [
+        {
+          "source_id": "space-light-year-distance",
+          "difficulty": "초급",
+          "category": "우주",
+          "title": "광년은 시간이 아니라 거리 단위다",
+          "body": "광년은 빛이 1년 동안 이동하는 거리를 뜻합니다. 우주에서는 별과 은하 사이 거리가 매우 크기 때문에 킬로미터보다 광년 같은 단위를 자주 씁니다.",
+          "takeaway": "먼 우주를 본다는 것은 오래전의 빛을 본다는 뜻이기도 합니다.",
+          "sources": [
+            {
+              "label": "NASA Space Place",
+              "url": "https://spaceplace.nasa.gov/light-year/en/"
+            }
+          ]
+        },
+        {
+          "source_id": "biology-dna-instructions",
+          "difficulty": "초급",
+          "category": "생물",
+          "title": "DNA는 생명 활동의 설계 정보를 담는다",
+          "body": "DNA에는 생물이 단백질을 만들고 기능을 유지하는 데 필요한 유전 정보가 저장되어 있습니다. 염기 서열의 차이가 다양한 생물학적 특성으로 이어질 수 있습니다.",
+          "takeaway": "유전 정보는 눈에 보이지 않지만 몸의 작동 방식에 깊게 관여합니다.",
+          "sources": [
+            {
+              "label": "NHGRI DNA Fact Sheet",
+              "url": "https://www.genome.gov/about-genomics/fact-sheets/Deoxyribonucleic-Acid-Fact-Sheet"
+            }
+          ]
+        },
+        {
+          "source_id": "civics-judicial-review",
+          "difficulty": "중급",
+          "category": "사회",
+          "title": "사법심사는 헌법에 맞는지 법률을 살펴본다",
+          "body": "사법심사는 입법·행정·사법의 행위가 헌법에 부합하는지 법원이 검토하는 권한입니다. 위헌이면 그 효력이 무효가 될 수 있습니다.",
+          "takeaway": "법원은 단순히 분쟁을 푸는 데서 그치지 않고 헌법 질서를 지킵니다.",
+          "sources": [
+            {
+              "label": "Britannica",
+              "url": "https://www.britannica.com/topic/judicial-review"
+            }
+          ]
+        },
+        {
+          "source_id": "biology-natural-selection",
+          "difficulty": "중급",
+          "category": "생물",
+          "title": "자연선택은 유리한 형질을 남긴다",
+          "body": "자연선택은 환경에 더 잘 맞는 유전 변이를 가진 개체가 더 많이 살아남고 번식하도록 만듭니다. 그 결과 집단의 형질 분포가 바뀔 수 있습니다.",
+          "takeaway": "적응은 우연이 아니라 선택 압력의 결과로 넓어질 수 있습니다.",
+          "sources": [
+            {
+              "label": "Britannica",
+              "url": "https://www.britannica.com/science/natural-selection"
+            }
+          ]
+        },
+        {
+          "source_id": "climate-milankovitch-obliquity",
+          "difficulty": "고급",
+          "category": "기후",
+          "title": "자전축 경사는 빙하기와 간빙기의 흐름에 영향을 준다",
+          "body": "지구 자전축의 기울기 변화는 계절의 강도와 장기 기후에 영향을 줍니다. NASA는 이 경사 변화를 빙기 주기의 중요한 요인으로 설명합니다.",
+          "takeaway": "축의 기울기 변화는 기후의 장기 리듬을 바꿀 수 있습니다.",
+          "sources": [
+            {
+              "label": "NASA Milankovitch Cycles",
+              "url": "https://science.nasa.gov/science-research/earth-science/milankovitch-orbital-cycles-and-their-role-in-earths-climate/"
+            }
+          ]
+        },
+        {
+          "source_id": "climate-milankovitch-precession",
+          "difficulty": "고급",
+          "category": "기후",
+          "title": "세차운동은 계절의 강약 배치를 바꾼다",
+          "body": "지구 자전축의 방향이 서서히 흔들리면 근일점과 원일점의 계절적 위치가 바뀝니다. 그 결과 한쪽 반구의 계절 대비가 더 극단적으로 변할 수 있습니다.",
+          "takeaway": "세차운동은 같은 계절이라도 반구별 체감 차이를 바꿉니다.",
+          "sources": [
+            {
+              "label": "NASA Earth Observatory",
+              "url": "https://science.nasa.gov/earth/earth-observatory/earths-orbital-precession-541/"
+            }
+          ]
+        }
+      ]
+    },
     {
       "date": "2026-05-16",
       "title": "2026.05.16 난이도별 상식 6개",

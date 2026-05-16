@@ -1,8 +1,210 @@
 {
-  "updated_at": "2026-05-16",
+  "updated_at": "2026-05-17",
   "default_daily_count": 15,
   "source": "01_기초_동사형용사.json",
   "entries": [
+    {
+      "date": "2026-05-17",
+      "day": 16,
+      "title": "Day 16 난이도별 영단어 15개",
+      "items": [
+        {
+          "difficulty": "초급",
+          "word": "push",
+          "meaning": "밀다",
+          "example": "Push the box forward.",
+          "note": "밀다라는 뜻입니다. 예문과 함께 문장째 익혀보세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/push"
+            }
+          ]
+        },
+        {
+          "difficulty": "초급",
+          "word": "save",
+          "meaning": "저장하다",
+          "example": "Save the file before you leave.",
+          "note": "저장하다라는 뜻입니다. 예문과 함께 문장째 익혀보세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/save"
+            }
+          ]
+        },
+        {
+          "difficulty": "초급",
+          "word": "search",
+          "meaning": "찾다",
+          "example": "We search for the missing key.",
+          "note": "찾다라는 뜻입니다. 예문과 함께 문장째 익혀보세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/search"
+            }
+          ]
+        },
+        {
+          "difficulty": "초급",
+          "word": "share",
+          "meaning": "공유하다",
+          "example": "Share your notes with me.",
+          "note": "공유하다라는 뜻입니다. 예문과 함께 문장째 익혀보세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/share"
+            }
+          ]
+        },
+        {
+          "difficulty": "초급",
+          "word": "smile",
+          "meaning": "미소 짓다",
+          "example": "She smiles at the camera.",
+          "note": "미소 짓다라는 뜻입니다. 예문과 함께 문장째 익혀보세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/smile"
+            }
+          ]
+        },
+        {
+          "difficulty": "중급",
+          "word": "filter",
+          "meaning": "걸러내다",
+          "example": "Filter the water before use.",
+          "note": "걸러내다라는 뜻입니다. 예문과 함께 문장째 익혀보세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/filter"
+            }
+          ]
+        },
+        {
+          "difficulty": "중급",
+          "word": "forecast",
+          "meaning": "예측하다",
+          "example": "Experts forecast more rain.",
+          "note": "예측하다라는 뜻입니다. 예문과 함께 문장째 익혀보세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/forecast"
+            }
+          ]
+        },
+        {
+          "difficulty": "중급",
+          "word": "highlight",
+          "meaning": "강조하다",
+          "example": "The chart highlights the trend.",
+          "note": "강조하다라는 뜻입니다. 예문과 함께 문장째 익혀보세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/highlight"
+            }
+          ]
+        },
+        {
+          "difficulty": "중급",
+          "word": "inspire",
+          "meaning": "영감을 주다",
+          "example": "Her story inspires me.",
+          "note": "영감을 주다라는 뜻입니다. 예문과 함께 문장째 익혀보세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/inspire"
+            }
+          ]
+        },
+        {
+          "difficulty": "중급",
+          "word": "calculate",
+          "meaning": "계산하다",
+          "example": "Calculate the total cost.",
+          "note": "계산하다라는 뜻입니다. 예문과 함께 문장째 익혀보세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/calculate"
+            }
+          ]
+        },
+        {
+          "difficulty": "고급",
+          "word": "labyrinthine",
+          "meaning": "미로 같은",
+          "example": "The novel has a labyrinthine plot.",
+          "note": "미로 같은라는 뜻입니다. 예문과 함께 문장째 익혀보세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/labyrinthine"
+            }
+          ]
+        },
+        {
+          "difficulty": "고급",
+          "word": "malleable",
+          "meaning": "잘 변형되는",
+          "example": "Clay is malleable when wet.",
+          "note": "잘 변형되는라는 뜻입니다. 예문과 함께 문장째 익혀보세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/malleable"
+            }
+          ]
+        },
+        {
+          "difficulty": "고급",
+          "word": "methodical",
+          "meaning": "체계적인",
+          "example": "She keeps a methodical record.",
+          "note": "체계적인라는 뜻입니다. 예문과 함께 문장째 익혀보세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/methodical"
+            }
+          ]
+        },
+        {
+          "difficulty": "고급",
+          "word": "obfuscate",
+          "meaning": "모호하게 만들다",
+          "example": "The jargon can obfuscate the point.",
+          "note": "모호하게 만들다라는 뜻입니다. 예문과 함께 문장째 익혀보세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/obfuscate"
+            }
+          ]
+        },
+        {
+          "difficulty": "고급",
+          "word": "parsimonious",
+          "meaning": "지나치게 절약하는",
+          "example": "He is parsimonious with money.",
+          "note": "지나치게 절약하는라는 뜻입니다. 예문과 함께 문장째 익혀보세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/parsimonious"
+            }
+          ]
+        }
+      ]
+    },
     {
       "date": "2026-05-16",
       "day": 15,
