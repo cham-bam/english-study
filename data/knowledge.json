@@ -1,7 +1,97 @@
 {
-  "updated_at": "2026-05-17",
+  "updated_at": "2026-05-18",
   "default_daily_count": 6,
   "entries": [
+    {
+      "date": "2026-05-18",
+      "title": "2026.05.18 난이도별 상식 6개",
+      "items": [
+        {
+          "source_id": "science-seasons-tilt",
+          "difficulty": "초급",
+          "category": "천문",
+          "title": "계절은 지구 자전축 기울기에서 생긴다",
+          "body": "지구의 자전축은 기울어져 있어 태양빛이 반구별로 다르게 들어옵니다. 공전하는 동안 어떤 반구는 더 직접적인 햇빛을 받고, 다른 반구는 덜 받게 됩니다.",
+          "takeaway": "계절은 태양과의 거리보다 자전축 기울기의 영향이 더 큽니다.",
+          "sources": [
+            {
+              "label": "NASA Space Place",
+              "url": "https://spaceplace.nasa.gov/en/kids/misr_tsunami/seasons/"
+            }
+          ]
+        },
+        {
+          "source_id": "weather-rainbow-refraction",
+          "difficulty": "초급",
+          "category": "대기",
+          "title": "무지개는 빛의 굴절과 반사로 생긴다",
+          "body": "햇빛이 물방울에 들어가면 굴절되고, 물방울 안쪽에서 반사된 뒤 다시 나오면서 색이 분리됩니다. 관찰자와 태양, 물방울의 위치가 맞아야 무지개가 보입니다.",
+          "takeaway": "무지개는 물방울 속에서 빛이 방향을 바꾸며 색이 갈라지는 현상입니다.",
+          "sources": [
+            {
+              "label": "NOAA SciJinks",
+              "url": "https://www.nesdis.noaa.gov/about/k-12-education/scijinks/what-causes-rainbow"
+            }
+          ]
+        },
+        {
+          "source_id": "internet-domain-hierarchy",
+          "difficulty": "중급",
+          "category": "기술",
+          "title": "도메인 이름은 계층 구조로 관리된다",
+          "body": "도메인 이름은 점으로 구분된 여러 단계로 이루어집니다. 하위 도메인과 상위 도메인의 구조를 이해하면 인터넷 주소 체계를 더 잘 읽을 수 있습니다.",
+          "takeaway": "도메인 이름은 단순한 문자열이 아니라 층위가 있는 주소 체계입니다.",
+          "sources": [
+            {
+              "label": "ICANN About Domain Names",
+              "url": "https://www.icann.org/resources/pages/about-domain-names-2018-08-30-en"
+            }
+          ]
+        },
+        {
+          "source_id": "weather-rainbow-observer",
+          "difficulty": "중급",
+          "category": "대기",
+          "title": "무지개는 관찰자 위치에 따라 보인다",
+          "body": "무지개는 실제 물체라기보다 광학 현상입니다. 태양이 뒤에 있고 물방울이 앞에 있어야 관찰자의 시야에 색 띠가 나타납니다.",
+          "takeaway": "무지개는 빛과 관찰 위치가 함께 맞아야 생기는 현상입니다.",
+          "sources": [
+            {
+              "label": "NOAA SciJinks",
+              "url": "https://www.nesdis.noaa.gov/about/k-12-education/scijinks/what-causes-rainbow"
+            }
+          ]
+        },
+        {
+          "source_id": "civics-judicial-review-nullification",
+          "difficulty": "고급",
+          "category": "사회",
+          "title": "사법심사는 위헌인 권한 행사를 무효로 만들 수 있다",
+          "body": "사법심사는 단순한 검토에 그치지 않고, 헌법에 맞지 않는 법률이나 행정을 무효라고 선언할 수 있는 권한입니다. 미국 헌정 체계의 핵심 장치입니다.",
+          "takeaway": "법원은 헌법 위반을 발견하면 그 효력을 없앨 수 있습니다.",
+          "sources": [
+            {
+              "label": "Britannica",
+              "url": "https://www.britannica.com/summary/judicial-review"
+            }
+          ]
+        },
+        {
+          "source_id": "biology-natural-selection-adaptation",
+          "difficulty": "고급",
+          "category": "생물",
+          "title": "자연선택은 적응이 퍼지는 과정을 설명한다",
+          "body": "자연선택은 생존과 번식에 유리한 형질이 세대를 거치며 더 많이 남는 메커니즘입니다. 그래서 환경과 개체군의 관계를 설명하는 기본 개념이 됩니다.",
+          "takeaway": "적응은 개체의 노력뿐 아니라 집단 수준의 선택 압력으로도 설명됩니다.",
+          "sources": [
+            {
+              "label": "Britannica",
+              "url": "https://www.britannica.com/science/natural-selection"
+            }
+          ]
+        }
+      ]
+    },
     {
       "date": "2026-05-17",
       "title": "2026.05.17 난이도별 상식 6개",

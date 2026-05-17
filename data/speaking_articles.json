@@ -1,7 +1,37 @@
 {
-  "updated_at": "2026-05-17",
+  "updated_at": "2026-05-18",
   "default_daily_count": 1,
   "entries": [
+    {
+      "date": "2026-05-18",
+      "title": "2026.05.18 1분 설명 아티클",
+      "items": [
+        {
+          "id": "speaking-ai-energy-demand",
+          "topic": "AI + 산업",
+          "titleKo": "AI 확산은 데이터센터와 전력 인프라를 함께 보게 만든다",
+          "bodyKo": "AI 서비스가 많아질수록 사람들은 모델 성능과 앱 기능을 먼저 떠올린다. 하지만 그 뒤에는 데이터센터, 전력, 냉각, 네트워크 같은 물리적 인프라가 있다. 대규모 모델을 학습하고 운영하려면 안정적인 전력 공급과 효율적인 냉각이 필요하다. 이 수요는 부동산과 에너지 산업에도 영향을 준다. 데이터센터는 입지, 전력망 접근성, 토지 사용 규제, 지역 전기요금과 연결되기 때문이다. 그래서 AI 산업을 설명할 때 소프트웨어만 보면 부족하다. 화면 안의 지능은 화면 밖의 전력과 공간 위에서 작동한다. AI의 성장은 디지털 산업이면서 동시에 인프라 산업이기도 하다.",
+          "titleEn": "AI Growth Makes Data Centers and Power Infrastructure More Important",
+          "bodyEn": "As AI services expand, people often think first about model performance and app features. But behind them are physical systems such as data centers, power supply, cooling, and networks. Training and operating large models require stable electricity and efficient cooling. This demand also affects real estate and energy industries because data centers depend on location, grid access, land-use rules, and local power costs. That is why AI should not be explained only as software. The intelligence on the screen runs on power and space outside the screen. AI growth is a digital trend, but it is also an infrastructure trend.",
+          "point": "AI 산업은 소프트웨어 산업인 동시에 전력, 냉각, 입지가 필요한 인프라 산업이다.",
+          "steps": [
+            "AI 뒤에는 데이터센터와 전력이 있다고 시작하기",
+            "전력망과 입지가 데이터센터 가치에 영향을 준다고 설명하기",
+            "AI 성장은 디지털이면서 인프라 흐름이라고 정리하기"
+          ],
+          "questions": [
+            "AI 데이터센터가 부동산 입지 선택에 영향을 줄 수 있는 이유는?",
+            "소프트웨어 산업을 전력 인프라와 함께 봐야 하는 이유는 무엇일까?"
+          ],
+          "sources": [
+            {
+              "label": "IEA Data Centres and Networks",
+              "url": "https://www.iea.org/energy-system/buildings/data-centres-and-data-transmission-networks"
+            }
+          ]
+        }
+      ]
+    },
     {
       "date": "2026-05-17",
       "title": "2026.05.17 1분 설명 아티클",

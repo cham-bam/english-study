@@ -1,8 +1,210 @@
 {
-  "updated_at": "2026-05-17",
+  "updated_at": "2026-05-18",
   "default_daily_count": 15,
   "source": "01_기초_동사형용사.json",
   "entries": [
+    {
+      "date": "2026-05-18",
+      "day": 17,
+      "title": "Day 17 난이도별 영단어 15개",
+      "items": [
+        {
+          "difficulty": "초급",
+          "word": "travel",
+          "meaning": "여행하다",
+          "example": "We travel by train.",
+          "note": "여행하다라는 뜻입니다. 예문과 함께 문장째 익혀보세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/travel"
+            }
+          ]
+        },
+        {
+          "difficulty": "초급",
+          "word": "wash",
+          "meaning": "씻다",
+          "example": "Please wash your hands.",
+          "note": "씻다라는 뜻입니다. 예문과 함께 문장째 익혀보세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/wash"
+            }
+          ]
+        },
+        {
+          "difficulty": "초급",
+          "word": "worry",
+          "meaning": "걱정하다",
+          "example": "Don't worry about it.",
+          "note": "걱정하다라는 뜻입니다. 예문과 함께 문장째 익혀보세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/worry"
+            }
+          ]
+        },
+        {
+          "difficulty": "초급",
+          "word": "bright",
+          "meaning": "밝은",
+          "example": "The room is bright.",
+          "note": "밝은라는 뜻입니다. 예문과 함께 문장째 익혀보세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/bright"
+            }
+          ]
+        },
+        {
+          "difficulty": "초급",
+          "word": "calm",
+          "meaning": "차분한",
+          "example": "He stayed calm in the crowd.",
+          "note": "차분한라는 뜻입니다. 예문과 함께 문장째 익혀보세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/calm"
+            }
+          ]
+        },
+        {
+          "difficulty": "중급",
+          "word": "manipulate",
+          "meaning": "조작하다",
+          "example": "The software can manipulate images.",
+          "note": "조작하다라는 뜻입니다. 예문과 함께 문장째 익혀보세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/manipulate"
+            }
+          ]
+        },
+        {
+          "difficulty": "중급",
+          "word": "motivate",
+          "meaning": "동기를 부여하다",
+          "example": "Good feedback motivates the team.",
+          "note": "동기를 부여하다라는 뜻입니다. 예문과 함께 문장째 익혀보세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/motivate"
+            }
+          ]
+        },
+        {
+          "difficulty": "중급",
+          "word": "narrow",
+          "meaning": "좁히다",
+          "example": "We narrow the list to three.",
+          "note": "좁히다라는 뜻입니다. 예문과 함께 문장째 익혀보세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/narrow"
+            }
+          ]
+        },
+        {
+          "difficulty": "중급",
+          "word": "offset",
+          "meaning": "상쇄하다",
+          "example": "A small gain offsets the loss.",
+          "note": "상쇄하다라는 뜻입니다. 예문과 함께 문장째 익혀보세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/offset"
+            }
+          ]
+        },
+        {
+          "difficulty": "중급",
+          "word": "polish",
+          "meaning": "다듬다",
+          "example": "Please polish the draft.",
+          "note": "다듬다라는 뜻입니다. 예문과 함께 문장째 익혀보세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/polish"
+            }
+          ]
+        },
+        {
+          "difficulty": "고급",
+          "word": "perfunctory",
+          "meaning": "형식적인",
+          "example": "The review felt perfunctory.",
+          "note": "형식적인라는 뜻입니다. 예문과 함께 문장째 익혀보세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/perfunctory"
+            }
+          ]
+        },
+        {
+          "difficulty": "고급",
+          "word": "precarious",
+          "meaning": "불안정한",
+          "example": "The ladder is in a precarious position.",
+          "note": "불안정한라는 뜻입니다. 예문과 함께 문장째 익혀보세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/precarious"
+            }
+          ]
+        },
+        {
+          "difficulty": "고급",
+          "word": "quixotic",
+          "meaning": "비현실적인",
+          "example": "The plan seemed quixotic.",
+          "note": "비현실적인라는 뜻입니다. 예문과 함께 문장째 익혀보세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/quixotic"
+            }
+          ]
+        },
+        {
+          "difficulty": "고급",
+          "word": "recalcitrant",
+          "meaning": "반항적인",
+          "example": "The recalcitrant child refused.",
+          "note": "반항적인라는 뜻입니다. 예문과 함께 문장째 익혀보세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/recalcitrant"
+            }
+          ]
+        },
+        {
+          "difficulty": "고급",
+          "word": "scrupulous",
+          "meaning": "꼼꼼한",
+          "example": "She is scrupulous about accuracy.",
+          "note": "꼼꼼한라는 뜻입니다. 예문과 함께 문장째 익혀보세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/scrupulous"
+            }
+          ]
+        }
+      ]
+    },
     {
       "date": "2026-05-17",
       "day": 16,
