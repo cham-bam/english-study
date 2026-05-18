@@ -1,7 +1,37 @@
 {
-  "updated_at": "2026-05-18",
+  "updated_at": "2026-05-19",
   "default_daily_count": 1,
   "entries": [
+    {
+      "date": "2026-05-19",
+      "title": "2026.05.19 1분 설명 아티클",
+      "items": [
+        {
+          "id": "speaking-real-estate-rates-cashflow",
+          "topic": "부동산",
+          "titleKo": "집값은 가격보다 월 부담으로 먼저 체감된다",
+          "bodyKo": "부동산 시장을 볼 때 사람들은 매매가가 올랐는지 내렸는지를 먼저 본다. 하지만 실제 구매 결정을 움직이는 것은 매달 감당해야 하는 현금흐름이다. 같은 가격의 집이라도 금리가 높으면 대출 이자가 커지고, 관리비와 세금까지 더하면 체감 부담은 크게 달라진다. 반대로 금리가 낮아지면 소득이 그대로여도 살 수 있는 가격대가 넓어질 수 있다. 그래서 부동산을 설명할 때는 가격 하나만 보지 말고 소득, 금리, 대출 기간, 임대료 같은 대체 선택지를 함께 봐야 한다. 좋은 판단은 '이 집이 싼가'보다 '이 집을 오래 감당할 수 있는가'에서 시작된다.",
+          "titleEn": "Housing Feels Affordable Through Monthly Cash Flow",
+          "bodyEn": "When people look at the housing market, they often focus first on whether sale prices are rising or falling. But real purchase decisions are usually driven by monthly cash flow. The same home price can feel very different when interest rates, loan payments, maintenance fees, and taxes change. When rates are high, buyers may delay a purchase or choose a smaller home. When rates fall, the affordable price range can expand even if income stays the same. That is why real estate should be explained through income, rates, loan terms, and rent alternatives together. A good decision begins not with whether a home looks cheap, but with whether the buyer can carry it over time.",
+          "point": "부동산 판단은 매매가보다 월 현금흐름과 지속 가능성을 중심으로 해야 한다.",
+          "steps": [
+            "사람들이 집값만 보지만 실제 결정은 월 부담이 좌우한다고 말하기",
+            "금리와 대출 조건이 같은 가격의 체감 부담을 바꾼다고 설명하기",
+            "가격보다 오래 감당 가능한지 확인해야 한다고 마무리하기"
+          ],
+          "questions": [
+            "집값이 그대로여도 구매 부담이 커질 수 있는 이유는 무엇일까?",
+            "내가 집을 산다면 매매가 외에 어떤 현금흐름을 먼저 계산해야 할까?"
+          ],
+          "sources": [
+            {
+              "label": "Freddie Mac Mortgage Rates",
+              "url": "https://www.freddiemac.com/pmms"
+            }
+          ]
+        }
+      ]
+    },
     {
       "date": "2026-05-18",
       "title": "2026.05.18 1분 설명 아티클",

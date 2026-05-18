@@ -1,8 +1,210 @@
 {
-  "updated_at": "2026-05-18",
+  "updated_at": "2026-05-19",
   "default_daily_count": 15,
   "source": "01_기초_동사형용사.json",
   "entries": [
+    {
+      "date": "2026-05-19",
+      "day": 18,
+      "title": "Day 18 난이도별 영단어 15개",
+      "items": [
+        {
+          "difficulty": "초급",
+          "word": "empty",
+          "meaning": "빈",
+          "example": "The box is empty.",
+          "note": "빈라는 뜻입니다. 예문과 함께 문장째 익혀보세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/empty"
+            }
+          ]
+        },
+        {
+          "difficulty": "초급",
+          "word": "gentle",
+          "meaning": "부드러운",
+          "example": "Use a gentle touch.",
+          "note": "부드러운라는 뜻입니다. 예문과 함께 문장째 익혀보세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/gentle"
+            }
+          ]
+        },
+        {
+          "difficulty": "초급",
+          "word": "happy",
+          "meaning": "행복한",
+          "example": "She looks happy today.",
+          "note": "행복한라는 뜻입니다. 예문과 함께 문장째 익혀보세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/happy"
+            }
+          ]
+        },
+        {
+          "difficulty": "초급",
+          "word": "quick",
+          "meaning": "빠른",
+          "example": "He gave a quick answer.",
+          "note": "빠른라는 뜻입니다. 예문과 함께 문장째 익혀보세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/quick"
+            }
+          ]
+        },
+        {
+          "difficulty": "초급",
+          "word": "quiet",
+          "meaning": "조용한",
+          "example": "The library is quiet.",
+          "note": "조용한라는 뜻입니다. 예문과 함께 문장째 익혀보세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/quiet"
+            }
+          ]
+        },
+        {
+          "difficulty": "중급",
+          "word": "promote",
+          "meaning": "촉진하다",
+          "example": "The campaign promotes healthy habits.",
+          "note": "촉진하다라는 뜻입니다. 예문과 함께 문장째 익혀보세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/promote"
+            }
+          ]
+        },
+        {
+          "difficulty": "중급",
+          "word": "retain",
+          "meaning": "유지하다",
+          "example": "Keep notes to retain the idea.",
+          "note": "유지하다라는 뜻입니다. 예문과 함께 문장째 익혀보세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/retain"
+            }
+          ]
+        },
+        {
+          "difficulty": "중급",
+          "word": "schedule",
+          "meaning": "일정을 잡다",
+          "example": "We schedule the interview for Friday.",
+          "note": "일정을 잡다라는 뜻입니다. 예문과 함께 문장째 익혀보세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/schedule"
+            }
+          ]
+        },
+        {
+          "difficulty": "중급",
+          "word": "sequence",
+          "meaning": "순서대로 배열하다",
+          "example": "Sequence the steps carefully.",
+          "note": "순서대로 배열하다라는 뜻입니다. 예문과 함께 문장째 익혀보세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/sequence"
+            }
+          ]
+        },
+        {
+          "difficulty": "중급",
+          "word": "substitute",
+          "meaning": "대체하다",
+          "example": "Use yogurt as a substitute for cream.",
+          "note": "대체하다라는 뜻입니다. 예문과 함께 문장째 익혀보세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/substitute"
+            }
+          ]
+        },
+        {
+          "difficulty": "고급",
+          "word": "superfluous",
+          "meaning": "불필요한",
+          "example": "Cut the superfluous words.",
+          "note": "불필요한라는 뜻입니다. 예문과 함께 문장째 익혀보세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/superfluous"
+            }
+          ]
+        },
+        {
+          "difficulty": "고급",
+          "word": "taciturn",
+          "meaning": "말수가 적은",
+          "example": "He was taciturn during the meeting.",
+          "note": "말수가 적은라는 뜻입니다. 예문과 함께 문장째 익혀보세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/taciturn"
+            }
+          ]
+        },
+        {
+          "difficulty": "고급",
+          "word": "tenacious",
+          "meaning": "끈기 있는",
+          "example": "She is tenacious in her work.",
+          "note": "끈기 있는라는 뜻입니다. 예문과 함께 문장째 익혀보세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/tenacious"
+            }
+          ]
+        },
+        {
+          "difficulty": "고급",
+          "word": "uncanny",
+          "meaning": "기묘한",
+          "example": "He has an uncanny memory.",
+          "note": "기묘한라는 뜻입니다. 예문과 함께 문장째 익혀보세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/uncanny"
+            }
+          ]
+        },
+        {
+          "difficulty": "고급",
+          "word": "unconventional",
+          "meaning": "관습에 얽매이지 않는",
+          "example": "Their method is unconventional.",
+          "note": "관습에 얽매이지 않는라는 뜻입니다. 예문과 함께 문장째 익혀보세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/unconventional"
+            }
+          ]
+        }
+      ]
+    },
     {
       "date": "2026-05-18",
       "day": 17,

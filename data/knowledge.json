@@ -1,7 +1,97 @@
 {
-  "updated_at": "2026-05-18",
+  "updated_at": "2026-05-19",
   "default_daily_count": 6,
   "entries": [
+    {
+      "date": "2026-05-19",
+      "title": "2026.05.19 난이도별 상식 6개",
+      "items": [
+        {
+          "source_id": "internet-dns-address-book",
+          "difficulty": "초급",
+          "category": "기술",
+          "title": "도메인 이름은 IP 주소를 대신해 인터넷을 쉽게 쓴다",
+          "body": "DNS는 숫자로 된 IP 주소 대신 사람이 기억하기 쉬운 도메인 이름을 사용하게 해 줍니다. 브라우저에 주소를 입력하면 DNS가 대응하는 IP를 찾아줍니다.",
+          "takeaway": "DNS는 인터넷의 주소록처럼 동작합니다.",
+          "sources": [
+            {
+              "label": "ICANN",
+              "url": "https://www.icann.org/resources/pages/dns-2022-09-13-en"
+            }
+          ]
+        },
+        {
+          "source_id": "earth-faults-fractures",
+          "difficulty": "초급",
+          "category": "지질",
+          "title": "단층은 암석이 서로 어긋나 움직이는 경계다",
+          "body": "단층은 두 암석 블록 사이의 균열이나 균열대입니다. 이곳에서 암석은 천천히 또는 지진처럼 갑자기 움직일 수 있습니다.",
+          "takeaway": "단층은 지각의 움직임을 보여 주는 대표적인 흔적입니다.",
+          "sources": [
+            {
+              "label": "USGS",
+              "url": "https://www.usgs.gov/faqs/what-a-fault-and-what-are-different-types"
+            }
+          ]
+        },
+        {
+          "source_id": "biology-type-o-antigens",
+          "difficulty": "중급",
+          "category": "생물",
+          "title": "O형은 A와 B 항원이 없다",
+          "body": "ABO 체계에서 O형은 A나 B 항원을 만들지 않습니다. 이 차이는 혈액형을 이해할 때 자주 쓰이는 기본 예입니다.",
+          "takeaway": "O형은 항원이 없다는 점에서 ABO 체계의 기준점처럼 다뤄집니다.",
+          "sources": [
+            {
+              "label": "NCBI Bookshelf",
+              "url": "https://www.ncbi.nlm.nih.gov/books/NBK100894"
+            }
+          ]
+        },
+        {
+          "source_id": "climate-milankovitch-cycles",
+          "difficulty": "중급",
+          "category": "기후",
+          "title": "밀란코비치 주기는 장기 기후 변화를 만든다",
+          "body": "지구 궤도의 이심률, 자전축 경사, 세차운동은 수만 년 단위로 태양 복사량 분포를 바꿉니다. 이런 변화가 빙기와 간빙기의 긴 흐름에 영향을 줍니다.",
+          "takeaway": "장기 기후는 단순한 해마다의 날씨 변동보다 훨씬 큰 천문학적 주기의 영향을 받습니다.",
+          "sources": [
+            {
+              "label": "NASA Science",
+              "url": "https://science.nasa.gov/science-research/earth-science/milankovitch-orbital-cycles-and-their-role-in-earths-climate/"
+            }
+          ]
+        },
+        {
+          "source_id": "physics-blackhole-singularity",
+          "difficulty": "고급",
+          "category": "우주",
+          "title": "블랙홀은 중심 특이점과 사건의 지평선으로 설명된다",
+          "body": "블랙홀은 보통 중심의 특이점과 그 바깥의 사건의 지평선이라는 두 부분으로 설명됩니다. 외부 관측은 주로 경계 바깥의 효과를 통해 이뤄집니다.",
+          "takeaway": "블랙홀의 구조를 말할 때는 중심과 경계를 함께 봐야 합니다.",
+          "sources": [
+            {
+              "label": "NASA Black Holes",
+              "url": "https://science.nasa.gov/universe/black-holes/anatomy/"
+            }
+          ]
+        },
+        {
+          "source_id": "physics-entropy-irreversible",
+          "difficulty": "고급",
+          "category": "물리",
+          "title": "엔트로피는 비가역 과정에서 증가하는 경향이 있다",
+          "body": "열역학의 엔트로피는 자발적인 변화와 비가역 과정을 이해하는 핵심입니다. 예를 들어 뜨거운 것과 차가운 것이 섞이면 전체 엔트로피는 커지는 방향으로 갑니다.",
+          "takeaway": "엔트로피는 시간이 한 방향으로 흐르는 느낌을 물리적으로 설명합니다.",
+          "sources": [
+            {
+              "label": "Britannica",
+              "url": "https://www.britannica.com/summary/entropy-physics"
+            }
+          ]
+        }
+      ]
+    },
     {
       "date": "2026-05-18",
       "title": "2026.05.18 난이도별 상식 6개",
