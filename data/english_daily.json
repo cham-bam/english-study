@@ -1,8 +1,210 @@
 {
-  "updated_at": "2026-05-19",
+  "updated_at": "2026-05-20",
   "default_daily_count": 15,
   "source": "01_기초_동사형용사.json",
   "entries": [
+    {
+      "date": "2026-05-20",
+      "day": 19,
+      "title": "Day 19 난이도별 영단어 15개",
+      "items": [
+        {
+          "difficulty": "초급",
+          "word": "ready",
+          "meaning": "준비된",
+          "example": "I'm ready to go.",
+          "note": "준비된라는 뜻입니다. 예문과 함께 문장째 익혀보세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/ready"
+            }
+          ]
+        },
+        {
+          "difficulty": "초급",
+          "word": "safe",
+          "meaning": "안전한",
+          "example": "This route is safe.",
+          "note": "안전한라는 뜻입니다. 예문과 함께 문장째 익혀보세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/safe"
+            }
+          ]
+        },
+        {
+          "difficulty": "초급",
+          "word": "soft",
+          "meaning": "부드러운",
+          "example": "The blanket feels soft.",
+          "note": "부드러운라는 뜻입니다. 예문과 함께 문장째 익혀보세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/soft"
+            }
+          ]
+        },
+        {
+          "difficulty": "초급",
+          "word": "warm",
+          "meaning": "따뜻한",
+          "example": "The tea is warm.",
+          "note": "따뜻한라는 뜻입니다. 예문과 함께 문장째 익혀보세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/warm"
+            }
+          ]
+        },
+        {
+          "difficulty": "초급",
+          "word": "fold",
+          "meaning": "접다",
+          "example": "Fold the paper in half.",
+          "note": "접다라는 뜻입니다. 예문과 함께 문장째 익혀보세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/fold"
+            }
+          ]
+        },
+        {
+          "difficulty": "중급",
+          "word": "sustain",
+          "meaning": "지속하다",
+          "example": "The bridge must sustain heavy loads.",
+          "note": "지속하다라는 뜻입니다. 예문과 함께 문장째 익혀보세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/sustain"
+            }
+          ]
+        },
+        {
+          "difficulty": "중급",
+          "word": "tackle",
+          "meaning": "다루다",
+          "example": "We tackle the problem early.",
+          "note": "다루다라는 뜻입니다. 예문과 함께 문장째 익혀보세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/tackle"
+            }
+          ]
+        },
+        {
+          "difficulty": "중급",
+          "word": "transition",
+          "meaning": "전환하다",
+          "example": "The city will transition to clean energy.",
+          "note": "전환하다라는 뜻입니다. 예문과 함께 문장째 익혀보세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/transition"
+            }
+          ]
+        },
+        {
+          "difficulty": "중급",
+          "word": "trim",
+          "meaning": "다듬다",
+          "example": "Trim the edges neatly.",
+          "note": "다듬다라는 뜻입니다. 예문과 함께 문장째 익혀보세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/trim"
+            }
+          ]
+        },
+        {
+          "difficulty": "중급",
+          "word": "upgrade",
+          "meaning": "업그레이드하다",
+          "example": "We upgrade the system every year.",
+          "note": "업그레이드하다라는 뜻입니다. 예문과 함께 문장째 익혀보세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/upgrade"
+            }
+          ]
+        },
+        {
+          "difficulty": "고급",
+          "word": "verbose",
+          "meaning": "장황한",
+          "example": "The report is too verbose.",
+          "note": "장황한라는 뜻입니다. 예문과 함께 문장째 익혀보세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/verbose"
+            }
+          ]
+        },
+        {
+          "difficulty": "고급",
+          "word": "vindicate",
+          "meaning": "정당함을 입증하다",
+          "example": "The documents vindicate her.",
+          "note": "정당함을 입증하다라는 뜻입니다. 예문과 함께 문장째 익혀보세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/vindicate"
+            }
+          ]
+        },
+        {
+          "difficulty": "고급",
+          "word": "vociferous",
+          "meaning": "시끄럽게 목소리를 내는",
+          "example": "The crowd was vociferous.",
+          "note": "시끄럽게 목소리를 내는라는 뜻입니다. 예문과 함께 문장째 익혀보세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/vociferous"
+            }
+          ]
+        },
+        {
+          "difficulty": "고급",
+          "word": "wary",
+          "meaning": "경계하는",
+          "example": "Be wary of scams.",
+          "note": "경계하는라는 뜻입니다. 예문과 함께 문장째 익혀보세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/wary"
+            }
+          ]
+        },
+        {
+          "difficulty": "고급",
+          "word": "zealous",
+          "meaning": "열성적인",
+          "example": "He is zealous about learning.",
+          "note": "열성적인라는 뜻입니다. 예문과 함께 문장째 익혀보세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/zealous"
+            }
+          ]
+        }
+      ]
+    },
     {
       "date": "2026-05-19",
       "day": 18,
