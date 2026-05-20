@@ -1,7 +1,7 @@
 {
   "category": "난이도별 핵심 영어",
-  "day_range": "Pool 1~29",
-  "total_words": 275,
+  "day_range": "Pool 1~31",
+  "total_words": 305,
   "words": [
     {
       "day": 1,
@@ -1927,6 +1927,216 @@
       "word": "zealous",
       "meaning": "열성적인",
       "example": "He is zealous about learning."
+    },
+    {
+      "day": 30,
+      "difficulty": "초급",
+      "word": "laugh",
+      "meaning": "웃다",
+      "example": "We laugh at the joke."
+    },
+    {
+      "day": 30,
+      "difficulty": "초급",
+      "word": "play",
+      "meaning": "놀다",
+      "example": "The children play outside."
+    },
+    {
+      "day": 30,
+      "difficulty": "초급",
+      "word": "talk",
+      "meaning": "말하다",
+      "example": "We talk after class."
+    },
+    {
+      "day": 30,
+      "difficulty": "초급",
+      "word": "walk",
+      "meaning": "걷다",
+      "example": "I walk to work."
+    },
+    {
+      "day": 30,
+      "difficulty": "초급",
+      "word": "write",
+      "meaning": "쓰다",
+      "example": "Please write your name."
+    },
+    {
+      "day": 30,
+      "difficulty": "중급",
+      "word": "combine",
+      "meaning": "결합하다",
+      "example": "Combine the two ideas."
+    },
+    {
+      "day": 30,
+      "difficulty": "중급",
+      "word": "distribute",
+      "meaning": "분배하다",
+      "example": "Distribute the materials evenly."
+    },
+    {
+      "day": 30,
+      "difficulty": "중급",
+      "word": "predict",
+      "meaning": "예측하다",
+      "example": "The model predicts demand."
+    },
+    {
+      "day": 30,
+      "difficulty": "중급",
+      "word": "prevent",
+      "meaning": "막다",
+      "example": "Masks can help prevent spread."
+    },
+    {
+      "day": 30,
+      "difficulty": "중급",
+      "word": "reflect",
+      "meaning": "곰곰이 생각하다",
+      "example": "Take time to reflect on the results."
+    },
+    {
+      "day": 30,
+      "difficulty": "고급",
+      "word": "feasible",
+      "meaning": "실현 가능한",
+      "example": "The plan is feasible within a month."
+    },
+    {
+      "day": 30,
+      "difficulty": "고급",
+      "word": "lucid",
+      "meaning": "명료한",
+      "example": "Her explanation was lucid."
+    },
+    {
+      "day": 30,
+      "difficulty": "고급",
+      "word": "prudent",
+      "meaning": "신중한",
+      "example": "It is prudent to save cash."
+    },
+    {
+      "day": 30,
+      "difficulty": "고급",
+      "word": "succinct",
+      "meaning": "간결한",
+      "example": "He gave a succinct answer."
+    },
+    {
+      "day": 30,
+      "difficulty": "고급",
+      "word": "furtive",
+      "meaning": "은밀한",
+      "example": "He gave a furtive glance at his notes."
+    },
+    {
+      "day": 31,
+      "difficulty": "초급",
+      "word": "dream",
+      "meaning": "꿈꾸다",
+      "example": "I dream of summer."
+    },
+    {
+      "day": 31,
+      "difficulty": "초급",
+      "word": "glow",
+      "meaning": "빛나다",
+      "example": "The lamp glows softly."
+    },
+    {
+      "day": 31,
+      "difficulty": "초급",
+      "word": "escape",
+      "meaning": "도망치다",
+      "example": "The cat tried to escape."
+    },
+    {
+      "day": 31,
+      "difficulty": "초급",
+      "word": "whisper",
+      "meaning": "속삭이다",
+      "example": "Please whisper in the library."
+    },
+    {
+      "day": 31,
+      "difficulty": "초급",
+      "word": "yawn",
+      "meaning": "하품하다",
+      "example": "I yawn when I am tired."
+    },
+    {
+      "day": 31,
+      "difficulty": "중급",
+      "word": "launch",
+      "meaning": "시작하다",
+      "example": "They launch the project today."
+    },
+    {
+      "day": 31,
+      "difficulty": "중급",
+      "word": "measure",
+      "meaning": "측정하다",
+      "example": "We measure the room carefully."
+    },
+    {
+      "day": 31,
+      "difficulty": "중급",
+      "word": "notify",
+      "meaning": "알리다",
+      "example": "Notify me when you arrive."
+    },
+    {
+      "day": 31,
+      "difficulty": "중급",
+      "word": "repair",
+      "meaning": "수리하다",
+      "example": "They repair the phone quickly."
+    },
+    {
+      "day": 31,
+      "difficulty": "중급",
+      "word": "support",
+      "meaning": "지원하다",
+      "example": "We support the new team."
+    },
+    {
+      "day": 31,
+      "difficulty": "고급",
+      "word": "adroit",
+      "meaning": "능숙한",
+      "example": "She is adroit at negotiations."
+    },
+    {
+      "day": 31,
+      "difficulty": "고급",
+      "word": "decisive",
+      "meaning": "단호한",
+      "example": "He made a decisive choice."
+    },
+    {
+      "day": 31,
+      "difficulty": "고급",
+      "word": "elaborate",
+      "meaning": "정교한",
+      "example": "The plan became more elaborate."
+    },
+    {
+      "day": 31,
+      "difficulty": "고급",
+      "word": "precise",
+      "meaning": "정확한",
+      "example": "Please give a precise answer."
+    },
+    {
+      "day": 31,
+      "difficulty": "고급",
+      "word": "versatile",
+      "meaning": "다재다능한",
+      "example": "This tool is versatile."
     }
   ],
   "daily_by_difficulty": {

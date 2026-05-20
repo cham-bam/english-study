@@ -1,8 +1,210 @@
 {
-  "updated_at": "2026-05-20",
+  "updated_at": "2026-05-21",
   "default_daily_count": 15,
   "source": "01_기초_동사형용사.json",
   "entries": [
+    {
+      "date": "2026-05-21",
+      "day": 20,
+      "title": "Day 20 난이도별 영단어 15개",
+      "items": [
+        {
+          "difficulty": "초급",
+          "word": "laugh",
+          "meaning": "웃다",
+          "example": "We laugh at the joke.",
+          "note": "웃다라는 뜻입니다. 예문과 함께 문장째 익혀보세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/laugh"
+            }
+          ]
+        },
+        {
+          "difficulty": "초급",
+          "word": "play",
+          "meaning": "놀다",
+          "example": "The children play outside.",
+          "note": "놀다라는 뜻입니다. 예문과 함께 문장째 익혀보세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/play"
+            }
+          ]
+        },
+        {
+          "difficulty": "초급",
+          "word": "talk",
+          "meaning": "말하다",
+          "example": "We talk after class.",
+          "note": "말하다라는 뜻입니다. 예문과 함께 문장째 익혀보세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/talk"
+            }
+          ]
+        },
+        {
+          "difficulty": "초급",
+          "word": "walk",
+          "meaning": "걷다",
+          "example": "I walk to work.",
+          "note": "걷다라는 뜻입니다. 예문과 함께 문장째 익혀보세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/walk"
+            }
+          ]
+        },
+        {
+          "difficulty": "초급",
+          "word": "write",
+          "meaning": "쓰다",
+          "example": "Please write your name.",
+          "note": "쓰다라는 뜻입니다. 예문과 함께 문장째 익혀보세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/write"
+            }
+          ]
+        },
+        {
+          "difficulty": "중급",
+          "word": "combine",
+          "meaning": "결합하다",
+          "example": "Combine the two ideas.",
+          "note": "결합하다라는 뜻입니다. 예문과 함께 문장째 익혀보세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/combine"
+            }
+          ]
+        },
+        {
+          "difficulty": "중급",
+          "word": "distribute",
+          "meaning": "분배하다",
+          "example": "Distribute the materials evenly.",
+          "note": "분배하다라는 뜻입니다. 예문과 함께 문장째 익혀보세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/distribute"
+            }
+          ]
+        },
+        {
+          "difficulty": "중급",
+          "word": "predict",
+          "meaning": "예측하다",
+          "example": "The model predicts demand.",
+          "note": "예측하다라는 뜻입니다. 예문과 함께 문장째 익혀보세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/predict"
+            }
+          ]
+        },
+        {
+          "difficulty": "중급",
+          "word": "prevent",
+          "meaning": "막다",
+          "example": "Masks can help prevent spread.",
+          "note": "막다라는 뜻입니다. 예문과 함께 문장째 익혀보세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/prevent"
+            }
+          ]
+        },
+        {
+          "difficulty": "중급",
+          "word": "reflect",
+          "meaning": "곰곰이 생각하다",
+          "example": "Take time to reflect on the results.",
+          "note": "곰곰이 생각하다라는 뜻입니다. 예문과 함께 문장째 익혀보세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/reflect"
+            }
+          ]
+        },
+        {
+          "difficulty": "고급",
+          "word": "feasible",
+          "meaning": "실현 가능한",
+          "example": "The plan is feasible within a month.",
+          "note": "실현 가능한라는 뜻입니다. 예문과 함께 문장째 익혀보세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/feasible"
+            }
+          ]
+        },
+        {
+          "difficulty": "고급",
+          "word": "lucid",
+          "meaning": "명료한",
+          "example": "Her explanation was lucid.",
+          "note": "명료한라는 뜻입니다. 예문과 함께 문장째 익혀보세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/lucid"
+            }
+          ]
+        },
+        {
+          "difficulty": "고급",
+          "word": "prudent",
+          "meaning": "신중한",
+          "example": "It is prudent to save cash.",
+          "note": "신중한라는 뜻입니다. 예문과 함께 문장째 익혀보세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/prudent"
+            }
+          ]
+        },
+        {
+          "difficulty": "고급",
+          "word": "succinct",
+          "meaning": "간결한",
+          "example": "He gave a succinct answer.",
+          "note": "간결한라는 뜻입니다. 예문과 함께 문장째 익혀보세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/succinct"
+            }
+          ]
+        },
+        {
+          "difficulty": "고급",
+          "word": "furtive",
+          "meaning": "은밀한",
+          "example": "He gave a furtive glance at his notes.",
+          "note": "은밀한라는 뜻입니다. 예문과 함께 문장째 익혀보세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/furtive"
+            }
+          ]
+        }
+      ]
+    },
     {
       "date": "2026-05-20",
       "day": 19,

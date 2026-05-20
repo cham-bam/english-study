@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-05-07",
+  "updated_at": "2026-05-17",
   "daily_count": 6,
   "refill_target_unused": 42,
   "items": [
@@ -1352,6 +1352,174 @@
         {
           "label": "Cloudflare Learning Center",
           "url": "https://www.cloudflare.com/learning/cryptography/hash-functions/"
+        }
+      ]
+    },
+    {
+      "difficulty": "초급",
+      "id": "biology-heart-pumps-blood",
+      "category": "생물",
+      "title": "심장은 혈액을 온몸으로 보내는 펌프다",
+      "body": "심장은 수축과 이완을 반복하며 혈액을 혈관으로 밀어 보냅니다. 이렇게 혈액이 돌면서 산소와 영양분이 몸 구석구석에 전달됩니다.",
+      "takeaway": "심장은 멈추지 않고 혈액을 순환시키는 중심 기관입니다.",
+      "sources": [
+        {
+          "label": "NHLBI Heart",
+          "url": "https://www.nhlbi.nih.gov/health/heart"
+        }
+      ]
+    },
+    {
+      "difficulty": "초급",
+      "id": "health-handwashing-removes-germs",
+      "category": "건강",
+      "title": "손 씻기는 감염 확산을 줄이는 기본 습관이다",
+      "body": "비누와 물로 손을 씻으면 눈에 보이지 않는 세균과 바이러스가 물리적으로 떨어져 나갑니다. 식사 전후와 외출 뒤 손 씻기는 가장 간단한 예방 행동입니다.",
+      "takeaway": "짧은 손 씻기 습관이 여러 감염의 전파를 줄입니다.",
+      "sources": [
+        {
+          "label": "CDC Handwashing",
+          "url": "https://www.cdc.gov/clean-hands/about/handwashing.html"
+        }
+      ]
+    },
+    {
+      "difficulty": "중급",
+      "id": "ocean-currents-redistribute-heat",
+      "category": "해양",
+      "title": "해류는 열을 옮겨 지역 기후에 영향을 준다",
+      "body": "바다의 표층 해류는 따뜻한 물과 찬 물을 이동시켜 해안의 기온과 강수 패턴을 바꿉니다. 같은 위도라도 해류의 영향으로 체감 기후가 달라질 수 있습니다.",
+      "takeaway": "해류는 바닷물의 움직임을 넘어 기후를 조절하는 큰 요소입니다.",
+      "sources": [
+        {
+          "label": "NOAA Ocean Currents",
+          "url": "https://oceanservice.noaa.gov/facts/oceancurrents.html"
+        }
+      ]
+    },
+    {
+      "difficulty": "중급",
+      "id": "ecology-food-webs-connect-species",
+      "category": "생태",
+      "title": "먹이그물은 생물 사이의 연결을 보여 준다",
+      "body": "먹이사슬이 한 줄 연결이라면 먹이그물은 여러 종이 서로 먹고 먹히는 관계를 묶어 보여 줍니다. 한 종의 변화가 다른 종에도 연쇄적으로 영향을 줄 수 있습니다.",
+      "takeaway": "생태계는 개별 생물보다 연결 구조로 보는 편이 더 정확합니다.",
+      "sources": [
+        {
+          "label": "National Geographic Food Web",
+          "url": "https://education.nationalgeographic.org/resource/food-web/"
+        }
+      ]
+    },
+    {
+      "difficulty": "고급",
+      "id": "statistics-standard-deviation-spread",
+      "category": "통계",
+      "title": "표준편차는 데이터의 흩어짐을 수치로 보여 준다",
+      "body": "표준편차는 각 값이 평균에서 얼마나 떨어져 있는지의 전형적인 크기를 나타냅니다. 평균이 같아도 표준편차가 다르면 자료의 성질이 달라질 수 있습니다.",
+      "takeaway": "평균만 보면 놓치기 쉬운 데이터의 퍼짐을 표준편차가 드러냅니다.",
+      "sources": [
+        {
+          "label": "NIST Engineering Statistics Handbook",
+          "url": "https://www.itl.nist.gov/div898/handbook/eda/section3/eda356.htm"
+        }
+      ]
+    },
+    {
+      "difficulty": "고급",
+      "id": "math-central-limit-theorem-pattern",
+      "category": "수학",
+      "title": "중심극한정리는 많은 합이 정규분포에 가까워짐을 설명한다",
+      "body": "독립적인 변수가 충분히 많이 더해지면 원래 분포와 무관하게 합의 분포가 종 모양에 가까워집니다. 표본평균이 자주 정규분포처럼 다뤄지는 이유를 설명하는 핵심 정리입니다.",
+      "takeaway": "복잡한 데이터도 많이 모이면 일정한 통계적 패턴을 보일 수 있습니다.",
+      "sources": [
+        {
+          "label": "Britannica",
+          "url": "https://www.britannica.com/science/central-limit-theorem"
+        }
+      ]
+    },
+    {
+      "difficulty": "초급",
+      "id": "astronomy-moon-reflects-sunlight",
+      "category": "천문",
+      "title": "달은 스스로 빛나지 않고 태양빛을 반사한다",
+      "body": "달은 자체적으로 빛을 내지 않습니다. 우리가 달을 보는 것은 달 표면이 태양빛을 반사하기 때문입니다.",
+      "takeaway": "달의 밝기는 달 자체의 빛이 아니라 반사된 햇빛에서 옵니다.",
+      "sources": [
+        {
+          "label": "NASA Moon",
+          "url": "https://science.nasa.gov/moon/"
+        }
+      ]
+    },
+    {
+      "difficulty": "초급",
+      "id": "biology-plants-use-photosynthesis",
+      "category": "생물",
+      "title": "식물은 광합성으로 에너지를 만든다",
+      "body": "식물은 잎의 엽록체에서 햇빛, 물, 이산화탄소를 이용해 당을 만듭니다. 이 과정이 광합성입니다.",
+      "takeaway": "식물은 햇빛을 에너지로 바꾸는 대표적인 생명체입니다.",
+      "sources": [
+        {
+          "label": "Britannica Photosynthesis",
+          "url": "https://www.britannica.com/science/photosynthesis"
+        }
+      ]
+    },
+    {
+      "difficulty": "중급",
+      "id": "earthquake-magnitude-intensity-differ",
+      "category": "지구과학",
+      "title": "지진의 규모와 진도는 서로 다르다",
+      "body": "규모는 지진이 방출한 에너지의 크기이고, 진도는 특정 장소에서 느끼는 흔들림의 세기입니다. 같은 지진이라도 거리와 지반 조건에 따라 진도는 달라질 수 있습니다.",
+      "takeaway": "규모는 하나, 진도는 장소마다 달라질 수 있습니다.",
+      "sources": [
+        {
+          "label": "USGS Earthquake Magnitude and Intensity",
+          "url": "https://www.usgs.gov/programs/earthquake-hazards/earthquake-magnitude-energy-release-and-intensity"
+        }
+      ]
+    },
+    {
+      "difficulty": "중급",
+      "id": "meteorology-pressure-differences-create-wind",
+      "category": "기상",
+      "title": "대기의 흐름은 기압 차이에서 시작된다",
+      "body": "공기는 기압이 높은 곳에서 낮은 곳으로 이동하려는 성질이 있습니다. 그 움직임이 바로 바람이며, 기압 차이가 클수록 바람도 강해질 수 있습니다.",
+      "takeaway": "바람은 공기가 움직이는 결과이고, 그 출발점은 기압 차이입니다.",
+      "sources": [
+        {
+          "label": "NASA SciJinks Wind",
+          "url": "https://scijinks.gov/wind/"
+        }
+      ]
+    },
+    {
+      "difficulty": "고급",
+      "id": "statistics-bayes-theorem-updates-beliefs",
+      "category": "통계",
+      "title": "베이즈 정리는 새로운 정보로 확률을 갱신한다",
+      "body": "베이즈 정리는 어떤 사건의 기존 확률에 새 관측 정보를 결합해 더 나은 추정값을 만드는 방법입니다. 진단, 예측, 머신러닝에서 자주 활용됩니다.",
+      "takeaway": "확률은 고정값이 아니라 새로운 증거로 계속 업데이트될 수 있습니다.",
+      "sources": [
+        {
+          "label": "Britannica Bayes Theorem",
+          "url": "https://www.britannica.com/science/Bayes-theorem"
+        }
+      ]
+    },
+    {
+      "difficulty": "고급",
+      "id": "physics-entropy-microstates",
+      "category": "물리",
+      "title": "엔트로피는 가능한 미시상태 수와 관련된다",
+      "body": "열역학과 통계물리에서 엔트로피는 거시적으로 보이는 상태를 만들 수 있는 미시적인 배열의 수와 연결됩니다. 가능한 미시상태가 많을수록 엔트로피는 커집니다.",
+      "takeaway": "엔트로피는 단순한 '무질서'보다 가능한 상태의 다양성에 가깝습니다.",
+      "sources": [
+        {
+          "label": "Britannica Entropy",
+          "url": "https://www.britannica.com/science/entropy"
         }
       ]
     }
