@@ -1,7 +1,82 @@
 {
-  "updated_at": "2026-05-21",
+  "updated_at": "2026-05-22",
   "default_daily_count": 6,
   "entries": [
+    {
+      "date": "2026-05-22",
+      "title": "2026.05.22 난이도별 상식 6개",
+      "items": [
+        {
+          "source_id": "generated-knowledge-초급-9-2",
+          "difficulty": "초급",
+          "category": "생활과학",
+          "title": "음식 보관은 미생물 성장을 늦추는 일이다: 생활 속 판단으로 확장하기",
+          "body": "음식을 차갑게 보관하거나 건조하게 두는 이유는 미생물이 빠르게 늘어나는 조건을 줄이기 위해서입니다. 보관법은 맛뿐 아니라 안전과도 연결됩니다. 이 개념을 생활에 적용하면 단순한 암기보다 원인과 결과를 더 잘 구분할 수 있습니다.",
+          "takeaway": "식품 보관의 핵심은 미생물이 좋아하는 조건을 줄이는 것입니다.",
+          "sources": [
+            {
+              "label": "FDA Food Safety",
+              "url": "https://www.fda.gov/food/buy-store-serve-safe-food"
+            }
+          ]
+        },
+        {
+          "source_id": "generated-knowledge-초급-9-3",
+          "difficulty": "초급",
+          "category": "생활과학",
+          "title": "음식 보관은 미생물 성장을 늦추는 일이다: 비교로 핵심 보기",
+          "body": "음식을 차갑게 보관하거나 건조하게 두는 이유는 미생물이 빠르게 늘어나는 조건을 줄이기 위해서입니다. 보관법은 맛뿐 아니라 안전과도 연결됩니다. 비슷한 사례와 비교해 보면 이 개념이 언제 중요해지는지 더 분명해집니다.",
+          "takeaway": "식품 보관의 핵심은 미생물이 좋아하는 조건을 줄이는 것입니다.",
+          "sources": [
+            {
+              "label": "FDA Food Safety",
+              "url": "https://www.fda.gov/food/buy-store-serve-safe-food"
+            }
+          ]
+        },
+        {
+          "source_id": "generated-knowledge-중급-1-1",
+          "difficulty": "중급",
+          "category": "경제",
+          "title": "기회비용은 선택하지 않은 대안의 가치다",
+          "body": "어떤 선택을 하면 동시에 포기하는 선택지가 생깁니다. 기회비용은 그중 가장 가치 있는 대안을 포기한 비용을 뜻합니다.",
+          "takeaway": "좋은 선택은 가격뿐 아니라 포기한 가능성까지 함께 보는 일입니다.",
+          "sources": []
+        },
+        {
+          "source_id": "generated-knowledge-중급-1-2",
+          "difficulty": "중급",
+          "category": "경제",
+          "title": "기회비용은 선택하지 않은 대안의 가치다: 생활 속 판단으로 확장하기",
+          "body": "어떤 선택을 하면 동시에 포기하는 선택지가 생깁니다. 기회비용은 그중 가장 가치 있는 대안을 포기한 비용을 뜻합니다. 이 개념을 생활에 적용하면 단순한 암기보다 원인과 결과를 더 잘 구분할 수 있습니다.",
+          "takeaway": "좋은 선택은 가격뿐 아니라 포기한 가능성까지 함께 보는 일입니다.",
+          "sources": []
+        },
+        {
+          "source_id": "generated-knowledge-고급-4-3",
+          "difficulty": "고급",
+          "category": "철학",
+          "title": "환원주의는 복잡한 대상을 작은 단위로 설명하려 한다: 비교로 핵심 보기",
+          "body": "환원주의는 복잡한 현상을 더 작은 구성 요소로 나누어 이해하려는 관점입니다. 강력한 분석 방법이지만 전체 맥락을 놓칠 수도 있습니다. 비슷한 사례와 비교해 보면 이 개념이 언제 중요해지는지 더 분명해집니다.",
+          "takeaway": "복잡한 문제는 부분의 설명과 전체의 관계를 함께 봐야 합니다.",
+          "sources": []
+        },
+        {
+          "source_id": "generated-knowledge-고급-5-1",
+          "difficulty": "고급",
+          "category": "AI",
+          "title": "과적합은 훈련 데이터에는 강하지만 새 상황에 약한 상태다",
+          "body": "모델이 훈련 데이터의 세부 패턴까지 지나치게 외우면 실제 새 데이터에서 성능이 떨어질 수 있습니다. 이를 과적합이라고 합니다.",
+          "takeaway": "좋은 모델은 본 데이터를 외우는 것이 아니라 보지 못한 상황에도 일반화해야 합니다.",
+          "sources": [
+            {
+              "label": "Google ML Crash Course",
+              "url": "https://developers.google.com/machine-learning/crash-course/overfitting/overfitting"
+            }
+          ]
+        }
+      ]
+    },
     {
       "date": "2026-05-21",
       "title": "2026.05.21 난이도별 상식 6개",

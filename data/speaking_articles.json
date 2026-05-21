@@ -1,7 +1,32 @@
 {
-  "updated_at": "2026-05-21",
+  "updated_at": "2026-05-22",
   "default_daily_count": 1,
   "entries": [
+    {
+      "date": "2026-05-22",
+      "title": "2026.05.22 1분 설명 아티클",
+      "items": [
+        {
+          "id": "speaking-real-estate-ai-neighborhood-signals",
+          "topic": "부동산 + AI",
+          "titleKo": "AI는 동네 변화를 신호로 묶어 보여줄 수 있다",
+          "bodyKo": "부동산에서 입지는 한 문장으로 설명하기 어렵다. 교통, 학군, 상권, 일자리, 공원, 병원, 소음, 치안 같은 요소가 서로 겹쳐 체감 가치를 만든다. AI는 이런 다양한 신호를 한 번에 정리하는 데 강점이 있다. 예를 들어 지도 데이터, 거래 사례, 임대료 흐름, 생활시설 분포를 묶어 동네의 장단점을 비교할 수 있다. 하지만 AI가 만든 점수는 현실의 느낌을 모두 대신하지 못한다. 출근길의 피로감, 밤 시간의 분위기, 건물 관리 상태, 이웃의 생활 소음은 직접 확인해야 한다. 그래서 AI는 동네를 고르는 최종 판사가 아니라 후보지를 좁혀 주는 필터에 가깝다. 좋은 활용은 넓게 찾을 때 AI를 쓰고, 마지막 결정은 현장에서 확인하는 방식이다.",
+          "titleEn": "AI Can Organize Neighborhood Change Into Signals",
+          "bodyEn": "Location in real estate is hard to explain in one sentence. Transit, schools, retail, jobs, parks, hospitals, noise, and safety all overlap to create perceived value. AI is useful because it can organize many of these signals at once. For example, it can combine map data, transaction examples, rent patterns, and the distribution of local facilities to compare neighborhood strengths and weaknesses. But an AI score cannot replace the feeling of reality. Commute fatigue, the atmosphere at night, building maintenance, and neighbor noise still require direct checking. AI should therefore be treated less as the final judge of a neighborhood and more as a filter that narrows the search. Use AI to search broadly, then use field visits to decide carefully.",
+          "point": "AI는 동네 후보를 좁히는 필터로 유용하지만 최종 판단은 현장 확인과 함께 해야 한다.",
+          "steps": [
+            "입지는 여러 신호가 겹친 결과라고 시작하기",
+            "AI가 지도와 거래 데이터를 묶어 비교할 수 있다고 설명하기",
+            "최종 결정은 현장 확인이 필요하다고 정리하기"
+          ],
+          "questions": [
+            "AI 점수로는 알기 어려운 동네의 체감 요소는 무엇일까?",
+            "후보지를 좁힐 때 AI가 가장 잘 도와줄 수 있는 부분은 무엇일까?"
+          ],
+          "sources": []
+        }
+      ]
+    },
     {
       "date": "2026-05-21",
       "title": "2026.05.21 1분 설명 아티클",
