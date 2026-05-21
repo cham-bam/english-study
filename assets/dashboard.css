@@ -191,7 +191,7 @@ a {
 
 .tabs {
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: repeat(5, 1fr);
   gap: 6px;
   margin-bottom: 12px;
 }
@@ -356,6 +356,7 @@ a {
 
 .knowledge-list,
 .speaking-list,
+.care-list,
 .word-list,
 .day-list,
 .review-list,
@@ -367,6 +368,7 @@ a {
 
 .knowledge-item,
 .speaking-article,
+.care-item,
 .word-item,
 .day-section,
 .review-item,
@@ -497,6 +499,10 @@ a {
   border-color: #cde0e5;
 }
 
+.care-preview {
+  border-color: #f1d0dc;
+}
+
 .speaking-article {
   display: grid;
   gap: 10px;
@@ -561,6 +567,42 @@ a {
   padding-left: 18px;
 }
 
+.care-list {
+  gap: 8px;
+}
+
+.care-item {
+  display: grid;
+  gap: 8px;
+}
+
+.care-title {
+  color: var(--primary-dark);
+  font-size: 0.98rem;
+  font-weight: 950;
+  line-height: 1.35;
+}
+
+.care-action {
+  color: #344452;
+  font-size: 0.86rem;
+  line-height: 1.6;
+}
+
+.care-why,
+.care-practice {
+  border-left: 3px solid var(--accent);
+  color: #74435a;
+  font-size: 0.82rem;
+  line-height: 1.55;
+  padding-left: 9px;
+}
+
+.care-practice {
+  border-left-color: var(--primary);
+  color: var(--primary-dark);
+}
+
 .word-list {
   gap: 8px;
 }
@@ -613,9 +655,19 @@ a {
 }
 
 .word-meaning {
+  display: grid;
+  grid-template-columns: 42px 1fr;
+  gap: 8px;
   color: var(--text);
   font-size: 0.86rem;
   font-weight: 800;
+}
+
+.word-meaning span,
+.word-example-ko span {
+  color: var(--muted);
+  font-size: 0.72rem;
+  font-weight: 950;
 }
 
 .word-actions {
@@ -657,6 +709,8 @@ a {
 }
 
 .word-detail {
+  display: grid;
+  gap: 7px;
   margin-top: 10px;
 }
 
@@ -723,6 +777,21 @@ a {
   font-size: 0.86rem;
   line-height: 1.5;
   margin-top: 9px;
+}
+
+.word-example.english {
+  color: #405160;
+  font-weight: 700;
+  margin-top: 5px;
+}
+
+.word-example-ko {
+  display: grid;
+  grid-template-columns: 42px 1fr;
+  gap: 8px;
+  color: #344452;
+  font-size: 0.84rem;
+  line-height: 1.5;
 }
 
 .word-note {

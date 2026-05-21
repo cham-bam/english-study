@@ -1,5 +1,12 @@
 const fs = require("fs");
 const path = require("path");
+const {
+  makeGeneratedKnowledge,
+  makeGeneratedEnglish,
+  makeGeneratedCare,
+  lookupEnglishWord,
+  lookupExampleTranslation
+} = require("./generated-content");
 
 const root = path.resolve(__dirname, "..");
 const dryRun = process.argv.includes("--dry-run");
@@ -9,6 +16,7 @@ const DIFFICULTIES = ["초급", "중급", "고급"];
 const DEFAULT_KNOWLEDGE_QUOTA = { "초급": 2, "중급": 2, "고급": 2 };
 const DEFAULT_ENGLISH_QUOTA = { "초급": 5, "중급": 5, "고급": 5 };
 const DEFAULT_SPEAKING_DAILY_COUNT = 1;
+const DEFAULT_CARE_DAILY_COUNT = 2;
 
 const paths = {
   knowledge: path.join(root, "data", "knowledge.json"),
@@ -16,7 +24,8 @@ const paths = {
   english: path.join(root, "data", "english_daily.json"),
   englishSource: path.join(root, "01_기초_동사형용사.json"),
   speaking: path.join(root, "data", "speaking_articles.json"),
-  speakingPool: path.join(root, "data", "speaking_article_pool.json")
+  speakingPool: path.join(root, "data", "speaking_article_pool.json"),
+  care: path.join(root, "data", "care_daily.json")
 };
 
 function readJson(file) {
@@ -120,7 +129,6 @@ function cloneKnowledgeItem(item) {
 
 function updateKnowledge(date) {
   const knowledge = readJson(paths.knowledge);
-  const pool = readJson(paths.knowledgePool);
   knowledge.entries = Array.isArray(knowledge.entries) ? knowledge.entries : [];
 
   const existing = knowledge.entries.find((entry) => entry.date === date);
@@ -128,7 +136,7 @@ function updateKnowledge(date) {
     return { changed: false, reason: "knowledge already exists", picked: [] };
   }
 
-  const quota = getQuotaMap(knowledge.daily_by_difficulty || pool.daily_by_difficulty, DEFAULT_KNOWLEDGE_QUOTA);
+  const quota = getQuotaMap(knowledge.daily_by_difficulty, DEFAULT_KNOWLEDGE_QUOTA);
   const dailyCount = quotaTotal(quota);
   const used = new Set();
   knowledge.entries.forEach((entry) => {
@@ -140,23 +148,12 @@ function updateKnowledge(date) {
     });
   });
 
-  const picked = pickByDifficulty(pool.items || [], quota, used, [
-    (item) => item.id,
-    (item) => item.title
-  ]);
-
-  if (!picked.ok) {
-    return {
-      changed: false,
-      reason: `knowledge pool needs refill: ${picked.difficulty} ${picked.found}/${picked.needed}`,
-      picked: picked.picked.map((item) => item.title)
-    };
-  }
+  const picked = makeGeneratedKnowledge(date, quota, used);
 
   const entry = {
     date,
     title: `${date.replace(/-/g, ".")} 난이도별 상식 ${dailyCount}개`,
-    items: picked.picked.map(cloneKnowledgeItem)
+    items: picked.map(cloneKnowledgeItem)
   };
 
   knowledge.entries.unshift(entry);
@@ -168,8 +165,8 @@ function updateKnowledge(date) {
 
   return {
     changed: true,
-    reason: "knowledge added",
-    picked: picked.picked.map((item) => `${normalizeDifficulty(item.difficulty)}:${item.title}`)
+    reason: "knowledge generated",
+    picked: picked.map((item) => `${normalizeDifficulty(item.difficulty)}:${item.title}`)
   };
 }
 
@@ -184,6 +181,7 @@ function cloneEnglishWord(item) {
     word: item.word,
     meaning: item.meaning,
     example: item.example,
+    exampleKo: item.exampleKo || "",
     note: item.note || `${item.meaning}라는 뜻입니다. 예문과 함께 문장째 익혀보세요.`,
     sources: item.sources || [
       {
@@ -194,17 +192,44 @@ function cloneEnglishWord(item) {
   };
 }
 
+function normalizeEnglishTranslations(english) {
+  let changed = false;
+  english.entries.forEach((entry) => {
+    getEntryItems(entry).forEach((item) => {
+      const exactExampleKo = lookupExampleTranslation(item.example);
+      if (exactExampleKo && item.exampleKo !== exactExampleKo) {
+        item.exampleKo = exactExampleKo;
+        changed = true;
+        return;
+      }
+
+      if (item.exampleKo) return;
+      const generated = lookupEnglishWord(item.word);
+      if (!generated?.exampleKo) return;
+      item.exampleKo = generated.exampleKo;
+      changed = true;
+    });
+  });
+  return changed;
+}
+
 function updateEnglish(date) {
   const english = readJson(paths.english);
-  const source = readJson(paths.englishSource);
   english.entries = Array.isArray(english.entries) ? english.entries : [];
+  const normalized = normalizeEnglishTranslations(english);
 
   const existing = english.entries.find((entry) => entry.date === date);
   if (existing) {
-    return { changed: false, reason: "english already exists", day: existing.day, picked: [] };
+    if (normalized) writeJson(paths.english, english);
+    return {
+      changed: normalized,
+      reason: normalized ? "english translations normalized" : "english already exists",
+      day: existing.day,
+      picked: []
+    };
   }
 
-  const quota = getQuotaMap(english.daily_by_difficulty || source.daily_by_difficulty, DEFAULT_ENGLISH_QUOTA);
+  const quota = getQuotaMap(english.daily_by_difficulty, DEFAULT_ENGLISH_QUOTA);
   const dailyCount = quotaTotal(quota);
   const usedWords = new Set();
   let maxUsedDay = 0;
@@ -213,25 +238,14 @@ function updateEnglish(date) {
     getEntryItems(entry).forEach((item) => usedWords.add(normalizeKey(item.word)));
   });
 
-  const picked = pickByDifficulty(source.words || [], quota, usedWords, [
-    (item) => item.word
-  ]);
-
-  if (!picked.ok) {
-    return {
-      changed: false,
-      reason: `english pool needs refill: ${picked.difficulty} ${picked.found}/${picked.needed}`,
-      day: null,
-      picked: picked.picked.map((item) => item.word)
-    };
-  }
+  const picked = makeGeneratedEnglish(date, quota, usedWords);
 
   const nextDay = maxUsedDay + 1;
   const entry = {
     date,
     day: nextDay,
     title: `Day ${nextDay} 난이도별 영단어 ${dailyCount}개`,
-    items: picked.picked.map(cloneEnglishWord)
+    items: picked.map(cloneEnglishWord)
   };
 
   english.entries.unshift(entry);
@@ -243,9 +257,9 @@ function updateEnglish(date) {
 
   return {
     changed: true,
-    reason: "english added",
+    reason: "english generated",
     day: nextDay,
-    picked: picked.picked.map((item) => `${normalizeDifficulty(item.difficulty)}:${item.word}`)
+    picked: picked.map((item) => `${normalizeDifficulty(item.difficulty)}:${item.word}`)
   };
 }
 
@@ -335,6 +349,49 @@ function updateSpeakingArticle(date) {
   };
 }
 
+function updateCare(date) {
+  const care = readJson(paths.care);
+  care.entries = Array.isArray(care.entries) ? care.entries : [];
+
+  const existing = care.entries.find((entry) => entry.date === date);
+  if (existing) {
+    return {
+      changed: false,
+      reason: "care already exists",
+      picked: getEntryItems(existing).map((item) => item.title || item.id)
+    };
+  }
+
+  const used = new Set();
+  care.entries.forEach((entry) => {
+    getEntryItems(entry).forEach((item) => {
+      [item.id, item.title]
+        .map(normalizeKey)
+        .filter(Boolean)
+        .forEach((key) => used.add(key));
+    });
+  });
+
+  const picked = makeGeneratedCare(date, Number(care.default_daily_count || DEFAULT_CARE_DAILY_COUNT), used);
+  const entry = {
+    date,
+    title: `${date.replace(/-/g, ".")} 오늘의 배려 ${picked.length}가지`,
+    items: picked
+  };
+
+  care.entries.unshift(entry);
+  care.updated_at = date;
+  care.default_daily_count = DEFAULT_CARE_DAILY_COUNT;
+
+  writeJson(paths.care, care);
+
+  return {
+    changed: true,
+    reason: "care generated",
+    picked: picked.map((item) => item.title)
+  };
+}
+
 function main() {
   const date = getKstDate();
   if (printDate) {
@@ -345,14 +402,15 @@ function main() {
   const knowledge = updateKnowledge(date);
   const english = updateEnglish(date);
   const speaking = updateSpeakingArticle(date);
-  const changed = knowledge.changed || english.changed || speaking.changed;
+  const care = updateCare(date);
+  const changed = knowledge.changed || english.changed || speaking.changed || care.changed;
 
   if (process.env.GITHUB_OUTPUT) {
     fs.appendFileSync(process.env.GITHUB_OUTPUT, `study_date=${date}\n`);
     fs.appendFileSync(process.env.GITHUB_OUTPUT, `changed=${changed ? "true" : "false"}\n`);
   }
 
-  console.log(JSON.stringify({ date, dryRun, changed, knowledge, english, speaking }, null, 2));
+  console.log(JSON.stringify({ date, dryRun, changed, knowledge, english, speaking, care }, null, 2));
 }
 
 main();
