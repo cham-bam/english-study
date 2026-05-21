@@ -1,7 +1,7 @@
 {
   "category": "난이도별 핵심 영어",
-  "day_range": "Pool 1~31",
-  "total_words": 305,
+  "day_range": "Pool 1~39",
+  "total_words": 402,
   "words": [
     {
       "day": 1,
@@ -2137,6 +2137,685 @@
       "word": "versatile",
       "meaning": "다재다능한",
       "example": "This tool is versatile."
+    },
+    {
+      "day": 32,
+      "difficulty": "초급",
+      "word": "rest",
+      "meaning": "쉬다",
+      "example": "You should rest today."
+    },
+    {
+      "day": 32,
+      "difficulty": "초급",
+      "word": "send",
+      "meaning": "보내다",
+      "example": "I send a message at night."
+    },
+    {
+      "day": 32,
+      "difficulty": "초급",
+      "word": "stand",
+      "meaning": "서다",
+      "example": "They stand near the door."
+    },
+    {
+      "day": 32,
+      "difficulty": "초급",
+      "word": "stay",
+      "meaning": "머무르다",
+      "example": "We stay home on Sunday."
+    },
+    {
+      "day": 32,
+      "difficulty": "초급",
+      "word": "turn",
+      "meaning": "돌다, 바꾸다",
+      "example": "Turn left at the corner."
+    },
+    {
+      "day": 32,
+      "difficulty": "중급",
+      "word": "draft",
+      "meaning": "초안을 작성하다",
+      "example": "I draft the proposal first."
+    },
+    {
+      "day": 32,
+      "difficulty": "중급",
+      "word": "align",
+      "meaning": "정렬하다, 맞추다",
+      "example": "The plan aligns with our goal."
+    },
+    {
+      "day": 32,
+      "difficulty": "중급",
+      "word": "streamline",
+      "meaning": "간소화하다",
+      "example": "Automation streamlines repeated work."
+    },
+    {
+      "day": 32,
+      "difficulty": "중급",
+      "word": "monitor",
+      "meaning": "감시하다, 살피다",
+      "example": "We monitor the system daily."
+    },
+    {
+      "day": 32,
+      "difficulty": "중급",
+      "word": "verify",
+      "meaning": "검증하다",
+      "example": "Please verify the source first."
+    },
+    {
+      "day": 32,
+      "difficulty": "고급",
+      "word": "robust",
+      "meaning": "탄탄한",
+      "example": "A robust plan survives small errors."
+    },
+    {
+      "day": 32,
+      "difficulty": "고급",
+      "word": "granular",
+      "meaning": "세분화된",
+      "example": "Granular data reveals hidden patterns."
+    },
+    {
+      "day": 32,
+      "difficulty": "고급",
+      "word": "iterative",
+      "meaning": "반복적인",
+      "example": "Writing is an iterative process."
+    },
+    {
+      "day": 32,
+      "difficulty": "고급",
+      "word": "discreet",
+      "meaning": "신중한",
+      "example": "Be discreet with sensitive details."
+    },
+    {
+      "day": 32,
+      "difficulty": "고급",
+      "word": "proactive",
+      "meaning": "선제적인",
+      "example": "A proactive response prevents delays."
+    },
+    {
+      "day": 33,
+      "difficulty": "초급",
+      "word": "visit",
+      "meaning": "방문하다",
+      "example": "I visit my parents often."
+    },
+    {
+      "day": 33,
+      "difficulty": "초급",
+      "word": "wait",
+      "meaning": "기다리다",
+      "example": "Please wait for five minutes."
+    },
+    {
+      "day": 33,
+      "difficulty": "초급",
+      "word": "fill",
+      "meaning": "채우다",
+      "example": "Fill the bottle with water."
+    },
+    {
+      "day": 33,
+      "difficulty": "초급",
+      "word": "guess",
+      "meaning": "추측하다",
+      "example": "Can you guess the meaning?"
+    },
+    {
+      "day": 33,
+      "difficulty": "초급",
+      "word": "reach",
+      "meaning": "도착하다, 닿다",
+      "example": "We reach the station early."
+    },
+    {
+      "day": 33,
+      "difficulty": "중급",
+      "word": "integrate",
+      "meaning": "통합하다",
+      "example": "The app integrates several tools."
+    },
+    {
+      "day": 33,
+      "difficulty": "중급",
+      "word": "reduce",
+      "meaning": "줄이다",
+      "example": "Good design reduces confusion."
+    },
+    {
+      "day": 33,
+      "difficulty": "중급",
+      "word": "expand",
+      "meaning": "확장하다",
+      "example": "The company expands its service."
+    },
+    {
+      "day": 33,
+      "difficulty": "중급",
+      "word": "detect",
+      "meaning": "감지하다",
+      "example": "Sensors detect small changes."
+    },
+    {
+      "day": 33,
+      "difficulty": "중급",
+      "word": "convert",
+      "meaning": "전환하다",
+      "example": "The tool converts speech into text."
+    },
+    {
+      "day": 33,
+      "difficulty": "고급",
+      "word": "tangible",
+      "meaning": "분명히 느낄 수 있는",
+      "example": "The change produced tangible benefits."
+    },
+    {
+      "day": 33,
+      "difficulty": "고급",
+      "word": "latent",
+      "meaning": "잠재된",
+      "example": "The data shows latent demand."
+    },
+    {
+      "day": 33,
+      "difficulty": "고급",
+      "word": "cohesive",
+      "meaning": "응집력 있는",
+      "example": "The team built a cohesive strategy."
+    },
+    {
+      "day": 33,
+      "difficulty": "고급",
+      "word": "incremental",
+      "meaning": "점진적인",
+      "example": "Incremental progress still matters."
+    },
+    {
+      "day": 33,
+      "difficulty": "고급",
+      "word": "contextual",
+      "meaning": "맥락적인",
+      "example": "Contextual clues clarify the meaning."
+    },
+    {
+      "day": 34,
+      "difficulty": "초급",
+      "word": "start",
+      "meaning": "시작하다",
+      "example": "The class starts at nine."
+    },
+    {
+      "day": 34,
+      "difficulty": "초급",
+      "word": "miss",
+      "meaning": "놓치다, 그리워하다",
+      "example": "I miss the morning bus."
+    },
+    {
+      "day": 34,
+      "difficulty": "초급",
+      "word": "draw",
+      "meaning": "그리다",
+      "example": "She draws a small map."
+    },
+    {
+      "day": 34,
+      "difficulty": "초급",
+      "word": "drink",
+      "meaning": "마시다",
+      "example": "I drink water after lunch."
+    },
+    {
+      "day": 34,
+      "difficulty": "초급",
+      "word": "hope",
+      "meaning": "바라다",
+      "example": "I hope you feel better."
+    },
+    {
+      "day": 34,
+      "difficulty": "중급",
+      "word": "balance",
+      "meaning": "균형을 맞추다",
+      "example": "We balance speed and safety."
+    },
+    {
+      "day": 34,
+      "difficulty": "중급",
+      "word": "protect",
+      "meaning": "보호하다",
+      "example": "Encryption protects private data."
+    },
+    {
+      "day": 34,
+      "difficulty": "중급",
+      "word": "restore",
+      "meaning": "복원하다",
+      "example": "The backup restores lost files."
+    },
+    {
+      "day": 34,
+      "difficulty": "중급",
+      "word": "evaluate",
+      "meaning": "평가하다",
+      "example": "We evaluate the result every week."
+    },
+    {
+      "day": 34,
+      "difficulty": "중급",
+      "word": "coordinate",
+      "meaning": "조율하다",
+      "example": "She coordinates the project schedule."
+    },
+    {
+      "day": 34,
+      "difficulty": "고급",
+      "word": "deliberate",
+      "meaning": "의도적인, 신중한",
+      "example": "Deliberate practice targets weak points."
+    },
+    {
+      "day": 34,
+      "difficulty": "고급",
+      "word": "credible",
+      "meaning": "믿을 만한",
+      "example": "The claim needs credible evidence."
+    },
+    {
+      "day": 34,
+      "difficulty": "고급",
+      "word": "subtle",
+      "meaning": "미묘한",
+      "example": "A subtle change improved the tone."
+    },
+    {
+      "day": 34,
+      "difficulty": "고급",
+      "word": "composed",
+      "meaning": "침착한",
+      "example": "She stayed composed under pressure."
+    },
+    {
+      "day": 34,
+      "difficulty": "고급",
+      "word": "judicious",
+      "meaning": "현명한",
+      "example": "A judicious choice saves time."
+    },
+    {
+      "day": 35,
+      "difficulty": "초급",
+      "word": "carry",
+      "meaning": "나르다",
+      "example": "Can you carry this bag?"
+    },
+    {
+      "day": 35,
+      "difficulty": "초급",
+      "word": "catch",
+      "meaning": "잡다",
+      "example": "He catches the ball."
+    },
+    {
+      "day": 35,
+      "difficulty": "초급",
+      "word": "build",
+      "meaning": "짓다, 만들다",
+      "example": "They build a small house."
+    },
+    {
+      "day": 35,
+      "difficulty": "초급",
+      "word": "change",
+      "meaning": "바꾸다",
+      "example": "I change my plan."
+    },
+    {
+      "day": 35,
+      "difficulty": "초급",
+      "word": "check",
+      "meaning": "확인하다",
+      "example": "Check your answer again."
+    },
+    {
+      "day": 35,
+      "difficulty": "중급",
+      "word": "combine",
+      "meaning": "결합하다",
+      "example": "We combine two ideas."
+    },
+    {
+      "day": 35,
+      "difficulty": "중급",
+      "word": "distribute",
+      "meaning": "분배하다",
+      "example": "The system distributes the workload."
+    },
+    {
+      "day": 35,
+      "difficulty": "중급",
+      "word": "predict",
+      "meaning": "예측하다",
+      "example": "The model predicts future demand."
+    },
+    {
+      "day": 35,
+      "difficulty": "중급",
+      "word": "prevent",
+      "meaning": "예방하다",
+      "example": "Early action prevents bigger problems."
+    },
+    {
+      "day": 35,
+      "difficulty": "중급",
+      "word": "reflect",
+      "meaning": "반영하다, 성찰하다",
+      "example": "The result reflects user behavior."
+    },
+    {
+      "day": 35,
+      "difficulty": "고급",
+      "word": "compelling",
+      "meaning": "강력한, 설득력 있는",
+      "example": "The data tells a compelling story."
+    },
+    {
+      "day": 35,
+      "difficulty": "고급",
+      "word": "discernible",
+      "meaning": "식별 가능한",
+      "example": "There is a discernible pattern."
+    },
+    {
+      "day": 35,
+      "difficulty": "고급",
+      "word": "substantive",
+      "meaning": "실질적인",
+      "example": "The meeting led to substantive changes."
+    },
+    {
+      "day": 35,
+      "difficulty": "고급",
+      "word": "cogent",
+      "meaning": "설득력 있는",
+      "example": "She made a cogent argument."
+    },
+    {
+      "day": 35,
+      "difficulty": "고급",
+      "word": "assiduous",
+      "meaning": "성실한, 꾸준한",
+      "example": "Assiduous practice improves fluency."
+    },
+    {
+      "day": 36,
+      "difficulty": "초급",
+      "word": "brush",
+      "meaning": "닦다",
+      "example": "I brush my teeth every morning."
+    },
+    {
+      "day": 36,
+      "difficulty": "초급",
+      "word": "clap",
+      "meaning": "박수치다",
+      "example": "The children clap for the singer."
+    },
+    {
+      "day": 36,
+      "difficulty": "초급",
+      "word": "kick",
+      "meaning": "차다",
+      "example": "He kicks the ball softly."
+    },
+    {
+      "day": 36,
+      "difficulty": "초급",
+      "word": "reply",
+      "meaning": "답장하다",
+      "example": "Please reply by noon."
+    },
+    {
+      "day": 36,
+      "difficulty": "초급",
+      "word": "stir",
+      "meaning": "저어 섞다",
+      "example": "Stir the soup slowly."
+    },
+    {
+      "day": 36,
+      "difficulty": "중급",
+      "word": "diagnose",
+      "meaning": "진단하다",
+      "example": "The technician diagnosed the fault quickly."
+    },
+    {
+      "day": 36,
+      "difficulty": "중급",
+      "word": "imagine",
+      "meaning": "상상하다",
+      "example": "Imagine a faster way to finish the task."
+    },
+    {
+      "day": 36,
+      "difficulty": "중급",
+      "word": "manage",
+      "meaning": "관리하다",
+      "example": "She manages several projects at once."
+    },
+    {
+      "day": 36,
+      "difficulty": "중급",
+      "word": "prepare",
+      "meaning": "준비하다",
+      "example": "Please prepare the report by Friday."
+    },
+    {
+      "day": 36,
+      "difficulty": "중급",
+      "word": "replace",
+      "meaning": "대체하다",
+      "example": "We replace the battery every year."
+    },
+    {
+      "day": 36,
+      "difficulty": "고급",
+      "word": "efficient",
+      "meaning": "효율적인",
+      "example": "The efficient process saved time."
+    },
+    {
+      "day": 36,
+      "difficulty": "고급",
+      "word": "flexible",
+      "meaning": "유연한",
+      "example": "A flexible plan helps in uncertain times."
+    },
+    {
+      "day": 36,
+      "difficulty": "고급",
+      "word": "robust",
+      "meaning": "견고한",
+      "example": "The robust system handled the load well."
+    },
+    {
+      "day": 36,
+      "difficulty": "고급",
+      "word": "strategic",
+      "meaning": "전략적인",
+      "example": "They made a strategic decision early."
+    },
+    {
+      "day": 36,
+      "difficulty": "고급",
+      "word": "sustainable",
+      "meaning": "지속 가능한",
+      "example": "The project aims for a sustainable future."
+    },
+    {
+      "day": 37,
+      "difficulty": "초급",
+      "word": "wear",
+      "meaning": "입다, 착용하다",
+      "example": "Wear a jacket today."
+    },
+    {
+      "day": 37,
+      "difficulty": "초급",
+      "word": "zoom",
+      "meaning": "빠르게 움직이다",
+      "example": "The car zooms past the park."
+    },
+    {
+      "day": 37,
+      "difficulty": "초급",
+      "word": "jump",
+      "meaning": "뛰다",
+      "example": "The cat jumps onto the chair."
+    },
+    {
+      "day": 37,
+      "difficulty": "초급",
+      "word": "knock",
+      "meaning": "두드리다",
+      "example": "Knock before you enter."
+    },
+    {
+      "day": 37,
+      "difficulty": "초급",
+      "word": "mix",
+      "meaning": "섞다",
+      "example": "Mix the ingredients well."
+    },
+    {
+      "day": 37,
+      "difficulty": "중급",
+      "word": "transform",
+      "meaning": "변형하다",
+      "example": "The update transformed the workflow."
+    },
+    {
+      "day": 37,
+      "difficulty": "중급",
+      "word": "assist",
+      "meaning": "돕다",
+      "example": "Volunteers assist the visitors at the entrance."
+    },
+    {
+      "day": 37,
+      "difficulty": "중급",
+      "word": "locate",
+      "meaning": "찾아내다",
+      "example": "We located the missing file."
+    },
+    {
+      "day": 37,
+      "difficulty": "중급",
+      "word": "review",
+      "meaning": "다시 살펴보다",
+      "example": "Review the contract before signing."
+    },
+    {
+      "day": 37,
+      "difficulty": "중급",
+      "word": "translate",
+      "meaning": "번역하다",
+      "example": "The app translates the message instantly."
+    },
+    {
+      "day": 37,
+      "difficulty": "고급",
+      "word": "adaptable",
+      "meaning": "적응력이 있는",
+      "example": "An adaptable team learns quickly."
+    },
+    {
+      "day": 37,
+      "difficulty": "고급",
+      "word": "authentic",
+      "meaning": "진짜의",
+      "example": "She gave an authentic answer."
+    },
+    {
+      "day": 37,
+      "difficulty": "고급",
+      "word": "critical",
+      "meaning": "중요한",
+      "example": "Timing is critical in this case."
+    },
+    {
+      "day": 37,
+      "difficulty": "고급",
+      "word": "dynamic",
+      "meaning": "역동적인",
+      "example": "The market is dynamic and fast-moving."
+    },
+    {
+      "day": 37,
+      "difficulty": "고급",
+      "word": "holistic",
+      "meaning": "총체적인",
+      "example": "We need a holistic view of the problem."
+    },
+    {
+      "day": 38,
+      "difficulty": "중급",
+      "word": "delegate",
+      "meaning": "위임하다",
+      "example": "The manager delegates tasks to the team."
+    },
+    {
+      "day": 38,
+      "difficulty": "중급",
+      "word": "inspect",
+      "meaning": "점검하다",
+      "example": "We inspect the machine before use."
+    },
+    {
+      "day": 38,
+      "difficulty": "중급",
+      "word": "operate",
+      "meaning": "운영하다",
+      "example": "They operate the service all year."
+    },
+    {
+      "day": 38,
+      "difficulty": "중급",
+      "word": "supply",
+      "meaning": "공급하다",
+      "example": "The company supplies fresh water."
+    },
+    {
+      "day": 38,
+      "difficulty": "중급",
+      "word": "contrast",
+      "meaning": "대조하다",
+      "example": "Contrast the two reports carefully."
+    },
+    {
+      "day": 39,
+      "difficulty": "중급",
+      "word": "consult",
+      "meaning": "상담하다",
+      "example": "Please consult a specialist first."
+    },
+    {
+      "day": 39,
+      "difficulty": "중급",
+      "word": "examine",
+      "meaning": "검토하다",
+      "example": "Examine the evidence closely."
     }
   ],
   "daily_by_difficulty": {
@@ -2148,5 +2827,6 @@
     "초급": 35,
     "중급": 35,
     "고급": 35
-  }
+  },
+  "updated_at": "2026-05-21"
 }
