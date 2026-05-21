@@ -1,7 +1,7 @@
 {
   "category": "난이도별 핵심 영어",
-  "day_range": "Pool 1~39",
-  "total_words": 402,
+  "day_range": "Pool 1~40",
+  "total_words": 407,
   "words": [
     {
       "day": 1,
@@ -2816,6 +2816,41 @@
       "word": "examine",
       "meaning": "검토하다",
       "example": "Examine the evidence closely."
+    },
+    {
+      "day": 40,
+      "difficulty": "초급",
+      "word": "nod",
+      "meaning": "끄덕이다",
+      "example": "She nods to agree."
+    },
+    {
+      "day": 40,
+      "difficulty": "초급",
+      "word": "point",
+      "meaning": "가리키다",
+      "example": "He points to the map."
+    },
+    {
+      "day": 40,
+      "difficulty": "초급",
+      "word": "ring",
+      "meaning": "울리다",
+      "example": "The bell rings at noon."
+    },
+    {
+      "day": 40,
+      "difficulty": "초급",
+      "word": "shout",
+      "meaning": "외치다",
+      "example": "Do not shout indoors."
+    },
+    {
+      "day": 40,
+      "difficulty": "초급",
+      "word": "touch",
+      "meaning": "만지다",
+      "example": "Please touch the screen gently."
     }
   ],
   "daily_by_difficulty": {
