@@ -1,7 +1,37 @@
 {
-  "updated_at": "2026-05-22",
+  "updated_at": "2026-05-23",
   "default_daily_count": 1,
   "entries": [
+    {
+      "date": "2026-05-23",
+      "title": "2026.05.23 1분 설명 아티클",
+      "items": [
+        {
+          "id": "speaking-auto-ai-cabin-experience",
+          "topic": "자동차 + AI",
+          "titleKo": "차 안의 AI는 운전보다 생활 경험부터 바꿀 수 있다",
+          "bodyKo": "자동차 AI를 생각하면 많은 사람이 완전 자율주행을 먼저 떠올린다. 하지만 더 가까운 변화는 차 안의 생활 경험에서 시작될 수 있다. 음성 비서가 목적지를 이해하고, 일정에 맞춰 경로를 제안하고, 운전자의 피로를 감지하고, 음악과 온도와 충전 계획을 상황에 맞게 조정하는 식이다. 이런 기능은 운전대를 완전히 넘겨받지 않아도 차를 더 개인화된 공간으로 만든다. 중요한 점은 편리함과 안전의 균형이다. AI가 지나치게 많은 알림을 주거나 운전자의 주의를 빼앗으면 오히려 위험해질 수 있다. 좋은 차량 AI는 많이 말하는 시스템이 아니라 필요한 순간에 정확히 돕는 시스템이다. 자동차의 경쟁력은 이동 수단에서 이동 중 경험을 관리하는 능력으로 넓어지고 있다.",
+          "titleEn": "In-Car AI May Change Daily Experience Before Full Autonomy",
+          "bodyEn": "When people think about AI in cars, they often imagine full self-driving first. But the nearer change may begin with the everyday experience inside the cabin. A voice assistant can understand destinations, suggest routes based on schedules, detect driver fatigue, and adjust music, temperature, or charging plans according to context. These features can make the car feel more personal even before it takes over the steering wheel. The key is balancing convenience and safety. If AI gives too many alerts or steals the driver's attention, it can become dangerous. Good in-car AI is not a system that talks constantly. It helps accurately at the right moment. Auto competition is expanding from transportation to managing the experience during movement.",
+          "point": "차량 AI의 가까운 가치는 완전 자율주행보다 운전 중 생활 경험을 안전하게 개인화하는 데 있다.",
+          "steps": [
+            "자동차 AI를 자율주행만으로 보면 좁다고 시작하기",
+            "음성, 일정, 피로 감지 같은 실내 경험을 설명하기",
+            "편리함과 안전 균형이 핵심이라고 정리하기"
+          ],
+          "questions": [
+            "운전 중 AI가 도와주면 좋지만 방해하면 안 되는 일은 무엇일까?",
+            "차량 경험이 개인화되면 자동차 선택 기준은 어떻게 바뀔까?"
+          ],
+          "sources": [
+            {
+              "label": "NHTSA Driver Assistance Technologies",
+              "url": "https://www.nhtsa.gov/vehicle-safety/driver-assistance-technologies"
+            }
+          ]
+        }
+      ]
+    },
     {
       "date": "2026-05-22",
       "title": "2026.05.22 1분 설명 아티클",

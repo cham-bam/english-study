@@ -1,8 +1,225 @@
 {
-  "updated_at": "2026-05-22",
+  "updated_at": "2026-05-23",
   "default_daily_count": 15,
   "source": "01_기초_동사형용사.json",
   "entries": [
+    {
+      "date": "2026-05-23",
+      "day": 22,
+      "title": "Day 22 난이도별 영단어 15개",
+      "items": [
+        {
+          "difficulty": "초급",
+          "word": "wait",
+          "meaning": "기다리다",
+          "example": "Please wait for five minutes.",
+          "exampleKo": "5분만 기다려 주세요.",
+          "note": "기다리다라는 뜻입니다. 예문과 함께 문장째 익혀보세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/wait"
+            }
+          ]
+        },
+        {
+          "difficulty": "초급",
+          "word": "fill",
+          "meaning": "채우다",
+          "example": "Fill the bottle with water.",
+          "exampleKo": "병을 물로 채우세요.",
+          "note": "채우다라는 뜻입니다. 예문과 함께 문장째 익혀보세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/fill"
+            }
+          ]
+        },
+        {
+          "difficulty": "초급",
+          "word": "guess",
+          "meaning": "추측하다",
+          "example": "Can you guess the meaning?",
+          "exampleKo": "그 뜻을 추측할 수 있나요?",
+          "note": "추측하다라는 뜻입니다. 예문과 함께 문장째 익혀보세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/guess"
+            }
+          ]
+        },
+        {
+          "difficulty": "초급",
+          "word": "reach",
+          "meaning": "도착하다, 닿다",
+          "example": "We reach the station early.",
+          "exampleKo": "우리는 역에 일찍 도착한다.",
+          "note": "도착하다, 닿다라는 뜻입니다. 예문과 함께 문장째 익혀보세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/reach"
+            }
+          ]
+        },
+        {
+          "difficulty": "초급",
+          "word": "start",
+          "meaning": "시작하다",
+          "example": "The class starts at nine.",
+          "exampleKo": "수업은 9시에 시작한다.",
+          "note": "시작하다라는 뜻입니다. 예문과 함께 문장째 익혀보세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/start"
+            }
+          ]
+        },
+        {
+          "difficulty": "중급",
+          "word": "support",
+          "meaning": "지원하다",
+          "example": "The policy supports small firms.",
+          "exampleKo": "그 정책은 소규모 기업을 지원한다.",
+          "note": "지원하다라는 뜻입니다. 예문과 함께 문장째 익혀보세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/support"
+            }
+          ]
+        },
+        {
+          "difficulty": "중급",
+          "word": "reduce",
+          "meaning": "줄이다",
+          "example": "Good design reduces confusion.",
+          "exampleKo": "좋은 설계는 혼란을 줄인다.",
+          "note": "줄이다라는 뜻입니다. 예문과 함께 문장째 익혀보세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/reduce"
+            }
+          ]
+        },
+        {
+          "difficulty": "중급",
+          "word": "expand",
+          "meaning": "확장하다",
+          "example": "The company expands its service.",
+          "exampleKo": "그 회사는 서비스를 확장한다.",
+          "note": "확장하다라는 뜻입니다. 예문과 함께 문장째 익혀보세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/expand"
+            }
+          ]
+        },
+        {
+          "difficulty": "중급",
+          "word": "detect",
+          "meaning": "감지하다",
+          "example": "Sensors detect small changes.",
+          "exampleKo": "센서는 작은 변화를 감지한다.",
+          "note": "감지하다라는 뜻입니다. 예문과 함께 문장째 익혀보세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/detect"
+            }
+          ]
+        },
+        {
+          "difficulty": "중급",
+          "word": "convert",
+          "meaning": "전환하다",
+          "example": "The tool converts speech into text.",
+          "exampleKo": "그 도구는 음성을 텍스트로 전환한다.",
+          "note": "전환하다라는 뜻입니다. 예문과 함께 문장째 익혀보세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/convert"
+            }
+          ]
+        },
+        {
+          "difficulty": "고급",
+          "word": "tangible",
+          "meaning": "분명히 느낄 수 있는",
+          "example": "The change produced tangible benefits.",
+          "exampleKo": "그 변화는 분명한 이익을 만들었다.",
+          "note": "분명히 느낄 수 있는라는 뜻입니다. 예문과 함께 문장째 익혀보세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/tangible"
+            }
+          ]
+        },
+        {
+          "difficulty": "고급",
+          "word": "latent",
+          "meaning": "잠재된",
+          "example": "The data shows latent demand.",
+          "exampleKo": "그 데이터는 잠재 수요를 보여 준다.",
+          "note": "잠재된라는 뜻입니다. 예문과 함께 문장째 익혀보세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/latent"
+            }
+          ]
+        },
+        {
+          "difficulty": "고급",
+          "word": "cohesive",
+          "meaning": "응집력 있는",
+          "example": "The team built a cohesive strategy.",
+          "exampleKo": "그 팀은 응집력 있는 전략을 세웠다.",
+          "note": "응집력 있는라는 뜻입니다. 예문과 함께 문장째 익혀보세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/cohesive"
+            }
+          ]
+        },
+        {
+          "difficulty": "고급",
+          "word": "incremental",
+          "meaning": "점진적인",
+          "example": "Incremental progress still matters.",
+          "exampleKo": "점진적인 진전도 여전히 중요하다.",
+          "note": "점진적인라는 뜻입니다. 예문과 함께 문장째 익혀보세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/incremental"
+            }
+          ]
+        },
+        {
+          "difficulty": "고급",
+          "word": "contextual",
+          "meaning": "맥락적인",
+          "example": "Contextual clues clarify the meaning.",
+          "exampleKo": "맥락 단서는 의미를 명확히 한다.",
+          "note": "맥락적인라는 뜻입니다. 예문과 함께 문장째 익혀보세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/contextual"
+            }
+          ]
+        }
+      ]
+    },
     {
       "date": "2026-05-22",
       "day": 21,

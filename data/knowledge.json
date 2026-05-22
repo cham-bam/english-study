@@ -1,7 +1,77 @@
 {
-  "updated_at": "2026-05-22",
+  "updated_at": "2026-05-23",
   "default_daily_count": 6,
   "entries": [
+    {
+      "date": "2026-05-23",
+      "title": "2026.05.23 난이도별 상식 6개",
+      "items": [
+        {
+          "source_id": "generated-knowledge-초급-10-1",
+          "difficulty": "초급",
+          "category": "심리",
+          "title": "주의는 한 번에 많은 것을 담기 어렵다",
+          "body": "사람은 여러 정보를 동시에 보는 것 같아도 실제로는 중요한 것에 주의를 나누어 씁니다. 그래서 알림이 많으면 집중이 쉽게 흔들립니다.",
+          "takeaway": "집중력을 지키려면 주의를 빼앗는 자극을 줄여야 합니다.",
+          "sources": []
+        },
+        {
+          "source_id": "generated-knowledge-초급-10-2",
+          "difficulty": "초급",
+          "category": "심리",
+          "title": "주의는 한 번에 많은 것을 담기 어렵다: 생활 속 판단으로 확장하기",
+          "body": "사람은 여러 정보를 동시에 보는 것 같아도 실제로는 중요한 것에 주의를 나누어 씁니다. 그래서 알림이 많으면 집중이 쉽게 흔들립니다. 이 개념을 생활에 적용하면 단순한 암기보다 원인과 결과를 더 잘 구분할 수 있습니다.",
+          "takeaway": "집중력을 지키려면 주의를 빼앗는 자극을 줄여야 합니다.",
+          "sources": []
+        },
+        {
+          "source_id": "generated-knowledge-중급-1-3",
+          "difficulty": "중급",
+          "category": "경제",
+          "title": "기회비용은 선택하지 않은 대안의 가치다: 비교로 핵심 보기",
+          "body": "어떤 선택을 하면 동시에 포기하는 선택지가 생깁니다. 기회비용은 그중 가장 가치 있는 대안을 포기한 비용을 뜻합니다. 비슷한 사례와 비교해 보면 이 개념이 언제 중요해지는지 더 분명해집니다.",
+          "takeaway": "좋은 선택은 가격뿐 아니라 포기한 가능성까지 함께 보는 일입니다.",
+          "sources": []
+        },
+        {
+          "source_id": "generated-knowledge-중급-2-1",
+          "difficulty": "중급",
+          "category": "과학",
+          "title": "피드백은 시스템을 안정시키거나 증폭시킨다",
+          "body": "피드백은 결과가 다시 원인에 영향을 주는 구조입니다. 음의 피드백은 변화를 줄이고, 양의 피드백은 변화를 키울 수 있습니다.",
+          "takeaway": "복잡한 현상은 원인과 결과가 되돌아 연결될 때 더 잘 이해됩니다.",
+          "sources": []
+        },
+        {
+          "source_id": "generated-knowledge-고급-5-2",
+          "difficulty": "고급",
+          "category": "AI",
+          "title": "과적합은 훈련 데이터에는 강하지만 새 상황에 약한 상태다: 생활 속 판단으로 확장하기",
+          "body": "모델이 훈련 데이터의 세부 패턴까지 지나치게 외우면 실제 새 데이터에서 성능이 떨어질 수 있습니다. 이를 과적합이라고 합니다. 이 개념을 생활에 적용하면 단순한 암기보다 원인과 결과를 더 잘 구분할 수 있습니다.",
+          "takeaway": "좋은 모델은 본 데이터를 외우는 것이 아니라 보지 못한 상황에도 일반화해야 합니다.",
+          "sources": [
+            {
+              "label": "Google ML Crash Course",
+              "url": "https://developers.google.com/machine-learning/crash-course/overfitting/overfitting"
+            }
+          ]
+        },
+        {
+          "source_id": "generated-knowledge-고급-5-3",
+          "difficulty": "고급",
+          "category": "AI",
+          "title": "과적합은 훈련 데이터에는 강하지만 새 상황에 약한 상태다: 비교로 핵심 보기",
+          "body": "모델이 훈련 데이터의 세부 패턴까지 지나치게 외우면 실제 새 데이터에서 성능이 떨어질 수 있습니다. 이를 과적합이라고 합니다. 비슷한 사례와 비교해 보면 이 개념이 언제 중요해지는지 더 분명해집니다.",
+          "takeaway": "좋은 모델은 본 데이터를 외우는 것이 아니라 보지 못한 상황에도 일반화해야 합니다.",
+          "sources": [
+            {
+              "label": "Google ML Crash Course",
+              "url": "https://developers.google.com/machine-learning/crash-course/overfitting/overfitting"
+            }
+          ]
+        }
+      ]
+    },
     {
       "date": "2026-05-22",
       "title": "2026.05.22 난이도별 상식 6개",
