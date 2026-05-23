@@ -1,8 +1,225 @@
 {
-  "updated_at": "2026-05-23",
+  "updated_at": "2026-05-24",
   "default_daily_count": 15,
   "source": "01_기초_동사형용사.json",
   "entries": [
+    {
+      "date": "2026-05-24",
+      "day": 23,
+      "title": "Day 23 난이도별 영단어 15개",
+      "items": [
+        {
+          "difficulty": "초급",
+          "word": "miss",
+          "meaning": "놓치다, 그리워하다",
+          "example": "I miss the morning bus.",
+          "exampleKo": "나는 아침 버스를 놓친다.",
+          "note": "놓치다, 그리워하다라는 뜻입니다. 예문과 함께 문장째 익혀보세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/miss"
+            }
+          ]
+        },
+        {
+          "difficulty": "초급",
+          "word": "draw",
+          "meaning": "그리다",
+          "example": "She draws a small map.",
+          "exampleKo": "그녀는 작은 지도를 그린다.",
+          "note": "그리다라는 뜻입니다. 예문과 함께 문장째 익혀보세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/draw"
+            }
+          ]
+        },
+        {
+          "difficulty": "초급",
+          "word": "drink",
+          "meaning": "마시다",
+          "example": "I drink water after lunch.",
+          "exampleKo": "나는 점심 후에 물을 마신다.",
+          "note": "마시다라는 뜻입니다. 예문과 함께 문장째 익혀보세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/drink"
+            }
+          ]
+        },
+        {
+          "difficulty": "초급",
+          "word": "hope",
+          "meaning": "바라다",
+          "example": "I hope you feel better.",
+          "exampleKo": "나는 네가 좀 나아지길 바란다.",
+          "note": "바라다라는 뜻입니다. 예문과 함께 문장째 익혀보세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/hope"
+            }
+          ]
+        },
+        {
+          "difficulty": "초급",
+          "word": "rest",
+          "meaning": "쉬다",
+          "example": "You should rest today.",
+          "exampleKo": "너는 오늘 쉬어야 한다.",
+          "note": "쉬다라는 뜻입니다. 예문과 함께 문장째 익혀보세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/rest"
+            }
+          ]
+        },
+        {
+          "difficulty": "중급",
+          "word": "balance",
+          "meaning": "균형을 맞추다",
+          "example": "We balance speed and safety.",
+          "exampleKo": "우리는 속도와 안전의 균형을 맞춘다.",
+          "note": "균형을 맞추다라는 뜻입니다. 예문과 함께 문장째 익혀보세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/balance"
+            }
+          ]
+        },
+        {
+          "difficulty": "중급",
+          "word": "measure",
+          "meaning": "측정하다",
+          "example": "The survey measures customer trust.",
+          "exampleKo": "그 설문은 고객 신뢰를 측정한다.",
+          "note": "측정하다라는 뜻입니다. 예문과 함께 문장째 익혀보세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/measure"
+            }
+          ]
+        },
+        {
+          "difficulty": "중급",
+          "word": "protect",
+          "meaning": "보호하다",
+          "example": "Encryption protects private data.",
+          "exampleKo": "암호화는 개인 데이터를 보호한다.",
+          "note": "보호하다라는 뜻입니다. 예문과 함께 문장째 익혀보세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/protect"
+            }
+          ]
+        },
+        {
+          "difficulty": "중급",
+          "word": "restore",
+          "meaning": "복원하다",
+          "example": "The backup restores lost files.",
+          "exampleKo": "백업은 잃어버린 파일을 복원한다.",
+          "note": "복원하다라는 뜻입니다. 예문과 함께 문장째 익혀보세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/restore"
+            }
+          ]
+        },
+        {
+          "difficulty": "중급",
+          "word": "draft",
+          "meaning": "초안을 작성하다",
+          "example": "I draft the proposal first.",
+          "exampleKo": "나는 먼저 제안서 초안을 작성한다.",
+          "note": "초안을 작성하다라는 뜻입니다. 예문과 함께 문장째 익혀보세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/draft"
+            }
+          ]
+        },
+        {
+          "difficulty": "고급",
+          "word": "deliberate",
+          "meaning": "의도적인, 신중한",
+          "example": "Deliberate practice targets weak points.",
+          "exampleKo": "의도적인 연습은 약점을 겨냥한다.",
+          "note": "의도적인, 신중한라는 뜻입니다. 예문과 함께 문장째 익혀보세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/deliberate"
+            }
+          ]
+        },
+        {
+          "difficulty": "고급",
+          "word": "credible",
+          "meaning": "믿을 만한",
+          "example": "The claim needs credible evidence.",
+          "exampleKo": "그 주장은 믿을 만한 증거가 필요하다.",
+          "note": "믿을 만한라는 뜻입니다. 예문과 함께 문장째 익혀보세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/credible"
+            }
+          ]
+        },
+        {
+          "difficulty": "고급",
+          "word": "subtle",
+          "meaning": "미묘한",
+          "example": "A subtle change improved the tone.",
+          "exampleKo": "미묘한 변화가 어조를 개선했다.",
+          "note": "미묘한라는 뜻입니다. 예문과 함께 문장째 익혀보세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/subtle"
+            }
+          ]
+        },
+        {
+          "difficulty": "고급",
+          "word": "decisive",
+          "meaning": "결정적인",
+          "example": "The final test was decisive.",
+          "exampleKo": "마지막 시험은 결정적이었다.",
+          "note": "결정적인라는 뜻입니다. 예문과 함께 문장째 익혀보세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/decisive"
+            }
+          ]
+        },
+        {
+          "difficulty": "고급",
+          "word": "composed",
+          "meaning": "침착한",
+          "example": "She stayed composed under pressure.",
+          "exampleKo": "그녀는 압박 속에서도 침착함을 유지했다.",
+          "note": "침착한라는 뜻입니다. 예문과 함께 문장째 익혀보세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/composed"
+            }
+          ]
+        }
+      ]
+    },
     {
       "date": "2026-05-23",
       "day": 22,
