@@ -1,7 +1,37 @@
 {
-  "updated_at": "2026-05-24",
+  "updated_at": "2026-05-25",
   "default_daily_count": 1,
   "entries": [
+    {
+      "date": "2026-05-25",
+      "title": "2026.05.25 1분 설명 아티클",
+      "items": [
+        {
+          "id": "speaking-real-estate-transaction-costs",
+          "topic": "부동산",
+          "titleKo": "부동산 가격은 거래비용까지 합쳐서 봐야 한다",
+          "bodyKo": "집을 볼 때 가장 먼저 눈에 들어오는 숫자는 매매가다. 하지만 실제 부담은 매매가 하나로 끝나지 않는다. 취득세, 중개보수, 대출 관련 비용, 이사비, 수리비, 가전과 가구 교체 비용까지 더해지면 처음 예상한 금액보다 훨씬 큰 현금이 필요해진다. 특히 부동산은 한 번 사고파는 과정에 시간이 오래 걸리고 비용도 크기 때문에, 작은 판단 실수가 오래 남을 수 있다. 그래서 좋은 부동산 판단은 '얼마에 샀는가'보다 '전체 비용을 알고 들어갔는가'에 가깝다. 매수자는 계약 전 총비용표를 만들어야 하고, 보유 중 비용과 다시 팔 때의 비용도 함께 생각해야 한다. 가격은 시작점이고, 거래비용은 실제 의사결정의 바닥이다.",
+          "titleEn": "Real Estate Prices Should Include Transaction Costs",
+          "bodyEn": "The first number people notice in real estate is the purchase price. But the real burden does not end there. Taxes, brokerage fees, loan-related costs, moving expenses, repairs, appliances, and furniture can require much more cash than expected. Real estate also takes time to buy and sell, and the cost of a small mistake can last for years. That is why a good property decision is less about the headline price and more about whether the buyer understands the full cost of entering the deal. Before signing, a buyer should build a total cost sheet and also consider ownership costs and future selling costs. Price is the starting point, but transaction cost is the floor of the real decision.",
+          "point": "부동산 매수 판단은 매매가가 아니라 취득, 보유, 매각까지 포함한 총비용에서 시작해야 한다.",
+          "steps": [
+            "매매가만 보면 부담을 과소평가할 수 있다고 시작하기",
+            "취득세, 중개보수, 수리비 같은 거래비용을 예로 들기",
+            "총비용표를 만들고 오래 감당 가능한지 봐야 한다고 정리하기"
+          ],
+          "questions": [
+            "매매가 외에 내가 놓치기 쉬운 비용은 무엇일까?",
+            "총비용을 미리 계산하면 어떤 실수를 줄일 수 있을까?"
+          ],
+          "sources": [
+            {
+              "label": "Consumer Financial Protection Bureau",
+              "url": "https://www.consumerfinance.gov/owning-a-home/"
+            }
+          ]
+        }
+      ]
+    },
     {
       "date": "2026-05-24",
       "title": "2026.05.24 1분 설명 아티클",

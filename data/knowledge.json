@@ -1,7 +1,87 @@
 {
-  "updated_at": "2026-05-24",
+  "updated_at": "2026-05-25",
   "default_daily_count": 6,
   "entries": [
+    {
+      "date": "2026-05-25",
+      "title": "2026.05.25 난이도별 상식 6개",
+      "items": [
+        {
+          "source_id": "generated-knowledge-초급-11-2",
+          "difficulty": "초급",
+          "category": "환경",
+          "title": "재활용은 분리보다 오염 줄이기가 중요하다: 생활 속 판단으로 확장하기",
+          "body": "재활용품에 음식물이나 다른 재질이 섞이면 처리 효율이 떨어집니다. 깨끗하게 비우고 재질별로 나누는 습관이 재활용의 품질을 높입니다. 이 개념을 생활에 적용하면 단순한 암기보다 원인과 결과를 더 잘 구분할 수 있습니다.",
+          "takeaway": "재활용은 버리는 행동이 아니라 다시 쓰기 쉽게 준비하는 과정입니다.",
+          "sources": [
+            {
+              "label": "EPA Recycling",
+              "url": "https://www.epa.gov/recycle"
+            }
+          ]
+        },
+        {
+          "source_id": "generated-knowledge-초급-11-3",
+          "difficulty": "초급",
+          "category": "환경",
+          "title": "재활용은 분리보다 오염 줄이기가 중요하다: 비교로 핵심 보기",
+          "body": "재활용품에 음식물이나 다른 재질이 섞이면 처리 효율이 떨어집니다. 깨끗하게 비우고 재질별로 나누는 습관이 재활용의 품질을 높입니다. 비슷한 사례와 비교해 보면 이 개념이 언제 중요해지는지 더 분명해집니다.",
+          "takeaway": "재활용은 버리는 행동이 아니라 다시 쓰기 쉽게 준비하는 과정입니다.",
+          "sources": [
+            {
+              "label": "EPA Recycling",
+              "url": "https://www.epa.gov/recycle"
+            }
+          ]
+        },
+        {
+          "source_id": "generated-knowledge-중급-3-1",
+          "difficulty": "중급",
+          "category": "기술",
+          "title": "암호화는 내용을 읽을 수 없게 바꾸는 기술이다",
+          "body": "암호화는 데이터를 정해진 규칙과 열쇠로 변환해 허가받은 사람만 읽을 수 있게 합니다. 온라인 결제와 메시지 보호에 널리 쓰입니다.",
+          "takeaway": "암호화는 디지털 신뢰를 지탱하는 기본 보안 기술입니다.",
+          "sources": [
+            {
+              "label": "NIST Cryptography",
+              "url": "https://www.nist.gov/cryptography"
+            }
+          ]
+        },
+        {
+          "source_id": "generated-knowledge-중급-3-2",
+          "difficulty": "중급",
+          "category": "기술",
+          "title": "암호화는 내용을 읽을 수 없게 바꾸는 기술이다: 생활 속 판단으로 확장하기",
+          "body": "암호화는 데이터를 정해진 규칙과 열쇠로 변환해 허가받은 사람만 읽을 수 있게 합니다. 온라인 결제와 메시지 보호에 널리 쓰입니다. 이 개념을 생활에 적용하면 단순한 암기보다 원인과 결과를 더 잘 구분할 수 있습니다.",
+          "takeaway": "암호화는 디지털 신뢰를 지탱하는 기본 보안 기술입니다.",
+          "sources": [
+            {
+              "label": "NIST Cryptography",
+              "url": "https://www.nist.gov/cryptography"
+            }
+          ]
+        },
+        {
+          "source_id": "generated-knowledge-고급-6-3",
+          "difficulty": "고급",
+          "category": "법과사회",
+          "title": "규제는 혁신 속도와 사회적 위험 사이에서 균형을 찾는다: 비교로 핵심 보기",
+          "body": "새 기술은 편익을 만들지만 개인정보, 안전, 시장 독점 같은 위험도 가져올 수 있습니다. 규제는 금지가 아니라 위험 배분의 방식이기도 합니다. 비슷한 사례와 비교해 보면 이 개념이 언제 중요해지는지 더 분명해집니다.",
+          "takeaway": "좋은 규제는 변화를 막는 것이 아니라 위험을 보이게 만들고 책임을 배치합니다.",
+          "sources": []
+        },
+        {
+          "source_id": "generated-knowledge-고급-7-1",
+          "difficulty": "고급",
+          "category": "경영",
+          "title": "전략은 하지 않을 일을 정하는 능력이다",
+          "body": "자원이 제한된 조직은 모든 기회를 동시에 잡을 수 없습니다. 전략은 목표를 위해 집중할 영역과 포기할 영역을 명확히 정하는 일입니다.",
+          "takeaway": "전략의 선명함은 선택한 것보다 포기한 것에서 드러날 때가 많습니다.",
+          "sources": []
+        }
+      ]
+    },
     {
       "date": "2026-05-24",
       "title": "2026.05.24 난이도별 상식 6개",
