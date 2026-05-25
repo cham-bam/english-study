@@ -1,7 +1,37 @@
 {
-  "updated_at": "2026-05-25",
+  "updated_at": "2026-05-26",
   "default_daily_count": 1,
   "entries": [
+    {
+      "date": "2026-05-26",
+      "title": "2026.05.26 1분 설명 아티클",
+      "items": [
+        {
+          "id": "speaking-auto-ev-total-cost",
+          "topic": "자동차 산업",
+          "titleKo": "전기차는 구매가보다 총소유비용으로 봐야 한다",
+          "bodyKo": "전기차를 비교할 때 많은 사람은 보조금 적용 후 구매가격을 먼저 본다. 하지만 전기차의 경제성은 구매가 하나로 판단하기 어렵다. 충전 비용, 주행거리, 보험료, 타이어 마모, 배터리 보증, 중고차 잔존가치가 모두 총소유비용에 들어간다. 출퇴근 거리가 길고 집이나 회사에서 충전이 쉬운 사람에게는 전기차가 유리할 수 있지만, 충전 인프라가 부족하거나 장거리 운행이 잦은 사람에게는 불편이 비용으로 바뀔 수 있다. 또한 차량의 소프트웨어 업데이트와 배터리 관리 능력은 시간이 지나며 체감 가치를 바꾼다. 그래서 전기차 선택은 '차값이 얼마인가'보다 '내 사용 패턴에서 5년 동안 어떤 비용과 편익이 생기는가'를 묻는 쪽이 더 정확하다.",
+          "titleEn": "Electric Vehicles Should Be Judged by Total Cost of Ownership",
+          "bodyEn": "When comparing electric vehicles, many people first look at the purchase price after incentives. But the economics of an EV cannot be judged by price alone. Charging cost, driving range, insurance, tire wear, battery warranty, and resale value all belong in total cost of ownership. EVs can be attractive for people with long commutes and easy charging at home or work. But if charging access is limited or long-distance trips are frequent, inconvenience can become a real cost. Software updates and battery management also change the vehicle's value over time. A better EV decision asks not simply how much the car costs, but what costs and benefits will appear over five years of actual use.",
+          "point": "전기차 경제성은 구매가격보다 충전 환경과 사용 패턴을 포함한 총소유비용으로 판단해야 한다.",
+          "steps": [
+            "전기차 판단이 구매가 하나로 끝나지 않는다고 시작하기",
+            "충전비, 보증, 잔존가치 같은 요소를 설명하기",
+            "내 사용 패턴 기준의 5년 비용으로 정리하기"
+          ],
+          "questions": [
+            "내 생활 패턴에서 전기차의 가장 큰 비용 변수는 무엇일까?",
+            "충전 편의성은 왜 경제성 판단에 들어가야 할까?"
+          ],
+          "sources": [
+            {
+              "label": "U.S. Department of Energy Electric Vehicles",
+              "url": "https://www.energy.gov/eere/electricvehicles/electric-vehicles"
+            }
+          ]
+        }
+      ]
+    },
     {
       "date": "2026-05-25",
       "title": "2026.05.25 1분 설명 아티클",
