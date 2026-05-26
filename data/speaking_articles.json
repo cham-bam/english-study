@@ -1,7 +1,32 @@
 {
-  "updated_at": "2026-05-26",
+  "updated_at": "2026-05-27",
   "default_daily_count": 1,
   "entries": [
+    {
+      "date": "2026-05-27",
+      "title": "2026.05.27 1분 설명 아티클",
+      "items": [
+        {
+          "id": "speaking-real-estate-rent-own-flexibility",
+          "topic": "부동산",
+          "titleKo": "전세와 월세와 매수는 유연성의 차이이기도 하다",
+          "bodyKo": "주거 선택을 비교할 때 사람들은 보통 어느 쪽이 더 싼지를 묻는다. 하지만 주거 방식은 비용만이 아니라 유연성의 차이이기도 하다. 매수는 안정감과 자산 형성 가능성을 주지만, 이사와 직장 변화에 빠르게 대응하기 어렵고 거래비용도 크다. 월세는 자산으로 남는 부분이 적어 보이지만, 이동이 쉽고 큰 목돈을 묶지 않는 장점이 있다. 전세는 두 선택의 중간처럼 보이지만 보증금 안전성, 금리, 대체 투자수익까지 함께 봐야 한다. 결국 좋은 선택은 하나의 정답을 찾는 일이 아니라 나의 소득 안정성, 직업 이동 가능성, 가족 계획, 현금 보유 전략에 맞는 방식을 고르는 일이다. 집은 사는 물건이면서 동시에 삶의 선택지를 조정하는 장치다.",
+          "titleEn": "Renting and Buying Also Differ in Flexibility",
+          "bodyEn": "When people compare housing options, they often ask which one is cheaper. But housing choices are also choices about flexibility. Buying can provide stability and the possibility of asset building, but it makes moving harder and creates large transaction costs. Monthly rent may seem less rewarding as an asset, yet it preserves mobility and avoids tying up a large amount of cash. Korea's jeonse system can look like a middle ground, but it requires thinking about deposit safety, interest rates, and alternative returns. The better choice is not a universal answer. It depends on income stability, job mobility, family plans, and cash strategy. A home is both a place to live and a tool that shapes your future options.",
+          "point": "주거 선택은 비용 비교를 넘어 내가 얼마나 이동성과 현금 유연성을 필요로 하는지의 문제다.",
+          "steps": [
+            "주거 선택은 싸고 비싼 문제만은 아니라고 시작하기",
+            "매수, 월세, 전세가 주는 유연성 차이를 비교하기",
+            "소득과 이동 가능성에 맞춰 선택해야 한다고 마무리하기"
+          ],
+          "questions": [
+            "내 생활에서 주거 안정성과 이동성 중 무엇이 더 중요한가?",
+            "목돈을 집에 묶어두는 것의 장점과 단점은 무엇일까?"
+          ],
+          "sources": []
+        }
+      ]
+    },
     {
       "date": "2026-05-26",
       "title": "2026.05.26 1분 설명 아티클",
