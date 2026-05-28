@@ -2,6 +2,7 @@ const fs = require("fs");
 const path = require("path");
 const {
   makeGeneratedKnowledge,
+  KNOWLEDGE_GENERATION_VERSION,
   makeGeneratedEnglish,
   makeGeneratedCare,
   lookupEnglishWord,
@@ -127,12 +128,23 @@ function cloneKnowledgeItem(item) {
   };
 }
 
+function isGeneratedKnowledgeEntry(entry) {
+  return getEntryItems(entry).some((item) => {
+    const key = String(item.source_id || item.id || "");
+    return key.startsWith("generated-knowledge-");
+  });
+}
+
 function updateKnowledge(date) {
   const knowledge = readJson(paths.knowledge);
   knowledge.entries = Array.isArray(knowledge.entries) ? knowledge.entries : [];
 
   const existing = knowledge.entries.find((entry) => entry.date === date);
-  if (existing) {
+  const shouldRegenerate = existing
+    && existing.generation_version !== KNOWLEDGE_GENERATION_VERSION
+    && isGeneratedKnowledgeEntry(existing);
+
+  if (existing && !shouldRegenerate) {
     return { changed: false, reason: "knowledge already exists", picked: [] };
   }
 
@@ -140,6 +152,7 @@ function updateKnowledge(date) {
   const dailyCount = quotaTotal(quota);
   const used = new Set();
   knowledge.entries.forEach((entry) => {
+    if (entry.date === date) return;
     getEntryItems(entry).forEach((item) => {
       [item.source_id, item.id, item.title]
         .map(normalizeKey)
@@ -153,10 +166,15 @@ function updateKnowledge(date) {
   const entry = {
     date,
     title: `${date.replace(/-/g, ".")} 난이도별 상식 ${dailyCount}개`,
+    generation_version: KNOWLEDGE_GENERATION_VERSION,
     items: picked.map(cloneKnowledgeItem)
   };
 
-  knowledge.entries.unshift(entry);
+  if (existing) {
+    Object.assign(existing, entry);
+  } else {
+    knowledge.entries.unshift(entry);
+  }
   knowledge.updated_at = date;
   knowledge.default_daily_count = dailyCount;
   knowledge.daily_by_difficulty = quota;
@@ -165,7 +183,7 @@ function updateKnowledge(date) {
 
   return {
     changed: true,
-    reason: "knowledge generated",
+    reason: shouldRegenerate ? "knowledge regenerated with improved quality rules" : "knowledge generated",
     picked: picked.map((item) => `${normalizeDifficulty(item.difficulty)}:${item.title}`)
   };
 }

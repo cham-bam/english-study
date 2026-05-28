@@ -20,6 +20,8 @@ function makeSource(label, url) {
   return url ? [{ label, url }] : [];
 }
 
+const KNOWLEDGE_GENERATION_VERSION = "topic-diversity-v3";
+
 const KNOWLEDGE_TOPICS = {
   "초급": [
     ["생물", "식물은 빛으로 양분을 만든다", "식물은 햇빛, 물, 이산화탄소를 이용해 스스로 양분을 만듭니다. 이 과정에서 산소도 만들어져 생태계의 기본 에너지 흐름을 시작합니다.", "광합성은 식물이 먹이를 만들고 생태계에 에너지를 공급하는 과정입니다.", "NASA Climate Kids", "https://climatekids.nasa.gov/greenhouse-cards/"],
@@ -65,36 +67,49 @@ const KNOWLEDGE_TOPICS = {
   ]
 };
 
-const KNOWLEDGE_LENSES = [
-  ["원리", "{title}", "{body}", "{takeaway}"],
-  ["활용", "{title}: 생활 속 판단으로 확장하기", "{body} 이 개념을 생활에 적용하면 단순한 암기보다 원인과 결과를 더 잘 구분할 수 있습니다.", "{takeaway}"],
-  ["비교", "{title}: 비교로 핵심 보기", "{body} 비슷한 사례와 비교해 보면 이 개념이 언제 중요해지는지 더 분명해집니다.", "{takeaway}"]
+const KNOWLEDGE_ANGLES = [
+  {
+    id: "principle",
+    label: "핵심 원리",
+    title: (topic) => topic[1],
+    point2: "둘째, 이 지식은 단순한 사실 암기보다 원인과 결과를 연결해 볼 때 더 오래 기억됩니다.",
+    point3: (topic) => `셋째, 실제 판단에서는 '${topic[3]}'라는 결론을 기준 문장으로 삼으면 응용하기 쉽습니다.`
+  },
+  {
+    id: "application",
+    label: "생활 적용",
+    title: (topic) => `${topic[1]}: 생활 속 판단으로 확장하기`,
+    point2: "둘째, 생활 속 사례에 적용하면 같은 현상을 더 빠르게 분류하고 불필요한 오해를 줄일 수 있습니다.",
+    point3: (topic) => `셋째, '${topic[3]}'를 한 문장으로 말해 보면 설명할 때 핵심을 놓치지 않습니다.`
+  },
+  {
+    id: "comparison",
+    label: "비교 관점",
+    title: (topic) => `${topic[1]}: 비교로 핵심 보기`,
+    point2: "둘째, 비슷해 보이는 개념과 비교하면 이 주제가 언제 중요해지는지 경계가 분명해집니다.",
+    point3: (topic) => `셋째, 비교 후에는 '${topic[3]}'라는 정리 문장으로 돌아오면 이해가 흩어지지 않습니다.`
+  }
 ];
 
-function formatTemplate(template, item) {
-  return template
-    .replace(/\{title\}/g, item[1])
-    .replace(/\{body\}/g, item[2])
-    .replace(/\{takeaway\}/g, item[3]);
+function buildKnowledgeBody(topic, angle) {
+  return `핵심은 세 가지입니다. 첫째, ${topic[2]} ${angle.point2} ${angle.point3(topic)}`;
 }
 
-function generatedKnowledgeCatalog(difficulty) {
+function generatedKnowledgeCatalog(difficulty, seed) {
   const topics = KNOWLEDGE_TOPICS[difficulty] || [];
-  const catalog = [];
-  topics.forEach((topic, topicIndex) => {
-    KNOWLEDGE_LENSES.forEach((lens, lensIndex) => {
-      catalog.push({
-        id: `generated-knowledge-${difficulty}-${topicIndex + 1}-${lensIndex + 1}`,
-        difficulty,
-        category: topic[0],
-        title: formatTemplate(lens[1], topic),
-        body: formatTemplate(lens[2], topic),
-        takeaway: formatTemplate(lens[3], topic),
-        sources: makeSource(topic[4], topic[5])
-      });
-    });
+  return topics.map((topic, topicIndex) => {
+    const angle = KNOWLEDGE_ANGLES[Math.abs(seed + topicIndex) % KNOWLEDGE_ANGLES.length];
+    return {
+      id: `generated-knowledge-${KNOWLEDGE_GENERATION_VERSION}-${difficulty}-${topicIndex + 1}-${angle.id}`,
+      topicKey: `${difficulty}-${topicIndex + 1}`,
+      difficulty,
+      category: topic[0],
+      title: angle.title(topic),
+      body: buildKnowledgeBody(topic, angle),
+      takeaway: topic[3],
+      sources: makeSource(topic[4], topic[5])
+    };
   });
-  return catalog;
 }
 
 function fallbackKnowledge(date, difficulty, index) {
@@ -105,11 +120,12 @@ function fallbackKnowledge(date, difficulty, index) {
   };
   const subject = subjects[difficulty][index % subjects[difficulty].length];
   return {
-    id: `generated-knowledge-${date}-${difficulty}-${index + 1}`,
+    id: `generated-knowledge-${KNOWLEDGE_GENERATION_VERSION}-${date}-${difficulty}-${index + 1}`,
+    topicKey: `${difficulty}-fallback-${index + 1}`,
     difficulty,
     category: "생성상식",
     title: `${subject}을 이해하면 판단이 더 선명해진다`,
-    body: `${subject}은 복잡한 정보를 정리할 때 유용한 관점입니다. 먼저 대상의 핵심 요소를 나누고, 그 요소들이 서로 어떤 영향을 주는지 보면 단순한 인상보다 더 안정적인 판단을 할 수 있습니다.`,
+    body: `핵심은 세 가지입니다. 첫째, ${subject}은 복잡한 정보를 정리할 때 유용한 관점입니다. 둘째, 대상의 핵심 요소를 나누면 원인과 결과를 더 차분하게 볼 수 있습니다. 셋째, 요소들이 서로 어떤 영향을 주는지 확인하면 단순한 인상보다 더 안정적인 판단을 할 수 있습니다.`,
     takeaway: `좋은 이해는 많은 정보를 외우는 것보다 ${subject}의 구조를 잡는 데서 시작됩니다.`,
     sources: []
   };
@@ -121,13 +137,16 @@ function makeGeneratedKnowledge(date, quota, usedKeys) {
   const seed = dateSeed(date);
 
   DIFFICULTIES.forEach((difficulty, difficultyIndex) => {
-    const candidates = rotate(generatedKnowledgeCatalog(difficulty), seed + difficultyIndex * 11);
+    const candidates = rotate(generatedKnowledgeCatalog(difficulty, seed + difficultyIndex * 11), seed + difficultyIndex * 11);
+    const pickedTopicKeys = new Set();
     let count = 0;
 
     for (const item of candidates) {
       const keys = [item.id, item.title].map(normalizeKey).filter(Boolean);
+      if (pickedTopicKeys.has(item.topicKey)) continue;
       if (keys.some((key) => usedKeys.has(key) || pickedKeys.has(key))) continue;
       picked.push(item);
+      pickedTopicKeys.add(item.topicKey);
       keys.forEach((key) => pickedKeys.add(key));
       count += 1;
       if (count >= quota[difficulty]) break;
@@ -136,6 +155,7 @@ function makeGeneratedKnowledge(date, quota, usedKeys) {
     while (count < quota[difficulty]) {
       const item = fallbackKnowledge(date, difficulty, count + picked.length);
       picked.push(item);
+      pickedTopicKeys.add(item.topicKey);
       [item.id, item.title].map(normalizeKey).forEach((key) => pickedKeys.add(key));
       count += 1;
     }
@@ -372,6 +392,7 @@ function makeGeneratedCare(date, count, usedIds) {
 
 module.exports = {
   makeGeneratedKnowledge,
+  KNOWLEDGE_GENERATION_VERSION,
   makeGeneratedEnglish,
   makeGeneratedCare,
   lookupEnglishWord,
