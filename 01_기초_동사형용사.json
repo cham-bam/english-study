@@ -1,7 +1,7 @@
 {
   "category": "난이도별 핵심 영어",
-  "day_range": "Pool 1~40",
-  "total_words": 407,
+  "day_range": "Pool 1~45",
+  "total_words": 459,
   "words": [
     {
       "day": 1,
@@ -2851,6 +2851,370 @@
       "word": "touch",
       "meaning": "만지다",
       "example": "Please touch the screen gently."
+    },
+    {
+      "day": 41,
+      "difficulty": "초급",
+      "word": "blink",
+      "meaning": "눈을 깜빡이다",
+      "example": "Try not to blink during the photo."
+    },
+    {
+      "day": 41,
+      "difficulty": "초급",
+      "word": "bow",
+      "meaning": "몸을 숙여 인사하다",
+      "example": "The actors bow to the audience."
+    },
+    {
+      "day": 41,
+      "difficulty": "초급",
+      "word": "cough",
+      "meaning": "기침하다",
+      "example": "He coughs when the air is dry."
+    },
+    {
+      "day": 42,
+      "difficulty": "초급",
+      "word": "dart",
+      "meaning": "급히 움직이다",
+      "example": "The cat darts under the table."
+    },
+    {
+      "day": 42,
+      "difficulty": "초급",
+      "word": "fetch",
+      "meaning": "가져오다",
+      "example": "Please fetch the box from the shelf."
+    },
+    {
+      "day": 42,
+      "difficulty": "초급",
+      "word": "hug",
+      "meaning": "껴안다",
+      "example": "She hugs her friend after class."
+    },
+    {
+      "day": 43,
+      "difficulty": "초급",
+      "word": "kneel",
+      "meaning": "무릎을 꿇다",
+      "example": "He kneels to tie his shoe."
+    },
+    {
+      "day": 43,
+      "difficulty": "초급",
+      "word": "pour",
+      "meaning": "따르다",
+      "example": "Please pour the tea slowly."
+    },
+    {
+      "day": 43,
+      "difficulty": "초급",
+      "word": "wave",
+      "meaning": "손을 흔들다",
+      "example": "They wave goodbye at the gate."
+    },
+    {
+      "day": 44,
+      "difficulty": "초급",
+      "word": "wink",
+      "meaning": "한쪽 눈을 찡긋하다",
+      "example": "She winks at her brother."
+    },
+    {
+      "day": 44,
+      "difficulty": "초급",
+      "word": "tidy",
+      "meaning": "정돈된",
+      "example": "Keep your desk tidy."
+    },
+    {
+      "day": 44,
+      "difficulty": "초급",
+      "word": "glide",
+      "meaning": "미끄러지듯 움직이다",
+      "example": "The bird glides over the lake."
+    },
+    {
+      "day": 45,
+      "difficulty": "초급",
+      "word": "fresh",
+      "meaning": "신선한",
+      "example": "We buy fresh fruit every morning."
+    },
+    {
+      "day": 45,
+      "difficulty": "초급",
+      "word": "kind",
+      "meaning": "친절한",
+      "example": "She is kind to everyone."
+    },
+    {
+      "day": 45,
+      "difficulty": "초급",
+      "word": "brisk",
+      "meaning": "빠른, 활기찬",
+      "example": "We took a brisk walk after lunch."
+    },
+    {
+      "day": 41,
+      "difficulty": "중급",
+      "word": "cluster",
+      "meaning": "모여 있다",
+      "example": "The apps cluster similar data together."
+    },
+    {
+      "day": 41,
+      "difficulty": "중급",
+      "word": "gather",
+      "meaning": "모으다",
+      "example": "We gather feedback after each release."
+    },
+    {
+      "day": 41,
+      "difficulty": "중급",
+      "word": "link",
+      "meaning": "연결하다",
+      "example": "The report links actions to outcomes."
+    },
+    {
+      "day": 42,
+      "difficulty": "중급",
+      "word": "modify",
+      "meaning": "수정하다",
+      "example": "Please modify the settings carefully."
+    },
+    {
+      "day": 42,
+      "difficulty": "중급",
+      "word": "process",
+      "meaning": "처리하다",
+      "example": "The system processes requests quickly."
+    },
+    {
+      "day": 42,
+      "difficulty": "중급",
+      "word": "remove",
+      "meaning": "제거하다",
+      "example": "Remove the extra spaces before saving."
+    },
+    {
+      "day": 43,
+      "difficulty": "중급",
+      "word": "select",
+      "meaning": "선택하다",
+      "example": "Select the best option for the team."
+    },
+    {
+      "day": 43,
+      "difficulty": "중급",
+      "word": "separate",
+      "meaning": "분리하다",
+      "example": "Separate the files by topic."
+    },
+    {
+      "day": 43,
+      "difficulty": "중급",
+      "word": "simplify",
+      "meaning": "단순화하다",
+      "example": "Simplify the explanation for beginners."
+    },
+    {
+      "day": 44,
+      "difficulty": "중급",
+      "word": "sort",
+      "meaning": "정리하다, 분류하다",
+      "example": "Sort the messages by date."
+    },
+    {
+      "day": 44,
+      "difficulty": "중급",
+      "word": "transfer",
+      "meaning": "이동시키다",
+      "example": "Transfer the file to the new folder."
+    },
+    {
+      "day": 44,
+      "difficulty": "중급",
+      "word": "update",
+      "meaning": "업데이트하다",
+      "example": "Update the app before the meeting."
+    },
+    {
+      "day": 45,
+      "difficulty": "중급",
+      "word": "upload",
+      "meaning": "업로드하다",
+      "example": "Upload the image to the shared folder."
+    },
+    {
+      "day": 45,
+      "difficulty": "중급",
+      "word": "validate",
+      "meaning": "검증하다",
+      "example": "Validate the data before analysis."
+    },
+    {
+      "day": 45,
+      "difficulty": "중급",
+      "word": "assign",
+      "meaning": "배정하다",
+      "example": "Assign each task to one owner."
+    },
+    {
+      "day": 41,
+      "difficulty": "고급",
+      "word": "abrupt",
+      "meaning": "갑작스러운",
+      "example": "The abrupt change surprised everyone."
+    },
+    {
+      "day": 41,
+      "difficulty": "고급",
+      "word": "ambivalent",
+      "meaning": "양가적인",
+      "example": "She felt ambivalent about the decision."
+    },
+    {
+      "day": 41,
+      "difficulty": "고급",
+      "word": "arduous",
+      "meaning": "힘든",
+      "example": "The hike was arduous but rewarding."
+    },
+    {
+      "day": 41,
+      "difficulty": "고급",
+      "word": "benevolent",
+      "meaning": "자비로운",
+      "example": "A benevolent leader listens carefully."
+    },
+    {
+      "day": 41,
+      "difficulty": "고급",
+      "word": "deviate",
+      "meaning": "벗어나다",
+      "example": "Do not deviate from the plan."
+    },
+    {
+      "day": 42,
+      "difficulty": "고급",
+      "word": "fragile",
+      "meaning": "깨지기 쉬운",
+      "example": "The agreement is fragile right now."
+    },
+    {
+      "day": 42,
+      "difficulty": "고급",
+      "word": "hasten",
+      "meaning": "서두르다",
+      "example": "Please hasten your reply if possible."
+    },
+    {
+      "day": 42,
+      "difficulty": "고급",
+      "word": "illuminate",
+      "meaning": "밝히다",
+      "example": "The data illuminate a hidden pattern."
+    },
+    {
+      "day": 42,
+      "difficulty": "고급",
+      "word": "obsolete",
+      "meaning": "구식의",
+      "example": "That rule is now obsolete."
+    },
+    {
+      "day": 42,
+      "difficulty": "고급",
+      "word": "perplexing",
+      "meaning": "어리둥절하게 하는",
+      "example": "The result was perplexing at first."
+    },
+    {
+      "day": 43,
+      "difficulty": "고급",
+      "word": "tactful",
+      "meaning": "말을 잘 가리는",
+      "example": "A tactful comment softened the room."
+    },
+    {
+      "day": 43,
+      "difficulty": "고급",
+      "word": "withstand",
+      "meaning": "견디다",
+      "example": "The bridge can withstand strong winds."
+    },
+    {
+      "day": 43,
+      "difficulty": "고급",
+      "word": "fortify",
+      "meaning": "강화하다",
+      "example": "Sleep can fortify memory."
+    },
+    {
+      "day": 43,
+      "difficulty": "고급",
+      "word": "tenuous",
+      "meaning": "희미한",
+      "example": "Their claim is still tenuous."
+    },
+    {
+      "day": 44,
+      "difficulty": "고급",
+      "word": "stoic",
+      "meaning": "무덤덤한",
+      "example": "He stayed stoic during the delay."
+    },
+    {
+      "day": 44,
+      "difficulty": "고급",
+      "word": "timid",
+      "meaning": "소심한",
+      "example": "The timid student raised a hand."
+    },
+    {
+      "day": 44,
+      "difficulty": "고급",
+      "word": "trivial",
+      "meaning": "하찮은",
+      "example": "Do not waste time on trivial details."
+    },
+    {
+      "day": 44,
+      "difficulty": "고급",
+      "word": "unyielding",
+      "meaning": "굽히지 않는",
+      "example": "She kept an unyielding stance."
+    },
+    {
+      "day": 45,
+      "difficulty": "고급",
+      "word": "vivid",
+      "meaning": "생생한",
+      "example": "He gave a vivid description."
+    },
+    {
+      "day": 45,
+      "difficulty": "고급",
+      "word": "cumbersome",
+      "meaning": "다루기 불편한",
+      "example": "The old tool is cumbersome to use."
+    },
+    {
+      "day": 45,
+      "difficulty": "고급",
+      "word": "diligent",
+      "meaning": "성실한",
+      "example": "A diligent learner reviews every day."
+    },
+    {
+      "day": 45,
+      "difficulty": "고급",
+      "word": "formidable",
+      "meaning": "강력한",
+      "example": "They faced a formidable challenge."
     }
   ],
   "daily_by_difficulty": {
@@ -2863,5 +3227,5 @@
     "중급": 35,
     "고급": 35
   },
-  "updated_at": "2026-05-21"
+  "updated_at": "2026-05-28"
 }
