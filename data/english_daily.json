@@ -1,8 +1,225 @@
 {
-  "updated_at": "2026-05-31",
+  "updated_at": "2026-06-01",
   "default_daily_count": 15,
   "source": "01_기초_동사형용사.json",
   "entries": [
+    {
+      "date": "2026-06-01",
+      "day": 31,
+      "title": "Day 31 난이도별 영단어 15개",
+      "items": [
+        {
+          "difficulty": "초급",
+          "word": "hope",
+          "meaning": "바라다",
+          "example": "I hope you feel better.",
+          "exampleKo": "나는 네가 좀 나아지길 바란다.",
+          "note": "바라다라는 뜻입니다. 오늘은 복습 단어로 다시 문장 속에서 익혀보세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/hope"
+            }
+          ]
+        },
+        {
+          "difficulty": "초급",
+          "word": "rest",
+          "meaning": "쉬다",
+          "example": "You should rest today.",
+          "exampleKo": "너는 오늘 쉬어야 한다.",
+          "note": "쉬다라는 뜻입니다. 오늘은 복습 단어로 다시 문장 속에서 익혀보세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/rest"
+            }
+          ]
+        },
+        {
+          "difficulty": "초급",
+          "word": "send",
+          "meaning": "보내다",
+          "example": "I send a message at night.",
+          "exampleKo": "나는 밤에 메시지를 보낸다.",
+          "note": "보내다라는 뜻입니다. 오늘은 복습 단어로 다시 문장 속에서 익혀보세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/send"
+            }
+          ]
+        },
+        {
+          "difficulty": "초급",
+          "word": "stand",
+          "meaning": "서다",
+          "example": "They stand near the door.",
+          "exampleKo": "그들은 문 근처에 서 있다.",
+          "note": "서다라는 뜻입니다. 오늘은 복습 단어로 다시 문장 속에서 익혀보세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/stand"
+            }
+          ]
+        },
+        {
+          "difficulty": "초급",
+          "word": "stay",
+          "meaning": "머무르다",
+          "example": "We stay home on Sunday.",
+          "exampleKo": "우리는 일요일에 집에 머문다.",
+          "note": "머무르다라는 뜻입니다. 오늘은 복습 단어로 다시 문장 속에서 익혀보세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/stay"
+            }
+          ]
+        },
+        {
+          "difficulty": "중급",
+          "word": "interpret",
+          "meaning": "해석하다",
+          "example": "Analysts interpret the chart.",
+          "exampleKo": "분석가들은 그 차트를 해석한다.",
+          "note": "해석하다라는 뜻입니다. 오늘은 복습 단어로 다시 문장 속에서 익혀보세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/interpret"
+            }
+          ]
+        },
+        {
+          "difficulty": "중급",
+          "word": "draft",
+          "meaning": "초안을 작성하다",
+          "example": "I draft the proposal first.",
+          "exampleKo": "나는 먼저 제안서 초안을 작성한다.",
+          "note": "초안을 작성하다라는 뜻입니다. 오늘은 복습 단어로 다시 문장 속에서 익혀보세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/draft"
+            }
+          ]
+        },
+        {
+          "difficulty": "중급",
+          "word": "align",
+          "meaning": "정렬하다, 맞추다",
+          "example": "The plan aligns with our goal.",
+          "exampleKo": "그 계획은 우리의 목표와 맞다.",
+          "note": "정렬하다, 맞추다라는 뜻입니다. 오늘은 복습 단어로 다시 문장 속에서 익혀보세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/align"
+            }
+          ]
+        },
+        {
+          "difficulty": "중급",
+          "word": "evaluate",
+          "meaning": "평가하다",
+          "example": "We evaluate the result every week.",
+          "exampleKo": "우리는 매주 결과를 평가한다.",
+          "note": "평가하다라는 뜻입니다. 오늘은 복습 단어로 다시 문장 속에서 익혀보세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/evaluate"
+            }
+          ]
+        },
+        {
+          "difficulty": "중급",
+          "word": "coordinate",
+          "meaning": "조율하다",
+          "example": "She coordinates the project schedule.",
+          "exampleKo": "그녀는 프로젝트 일정을 조율한다.",
+          "note": "조율하다라는 뜻입니다. 오늘은 복습 단어로 다시 문장 속에서 익혀보세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/coordinate"
+            }
+          ]
+        },
+        {
+          "difficulty": "고급",
+          "word": "nuanced",
+          "meaning": "미묘한 차이를 담은",
+          "example": "The issue requires a nuanced answer.",
+          "exampleKo": "그 문제는 섬세한 답변을 필요로 한다.",
+          "note": "미묘한 차이를 담은라는 뜻입니다. 오늘은 복습 단어로 다시 문장 속에서 익혀보세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/nuanced"
+            }
+          ]
+        },
+        {
+          "difficulty": "고급",
+          "word": "salient",
+          "meaning": "두드러진",
+          "example": "The salient risk is timing.",
+          "exampleKo": "두드러진 위험은 시점이다.",
+          "note": "두드러진라는 뜻입니다. 오늘은 복습 단어로 다시 문장 속에서 익혀보세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/salient"
+            }
+          ]
+        },
+        {
+          "difficulty": "고급",
+          "word": "robust",
+          "meaning": "탄탄한",
+          "example": "A robust plan survives small errors.",
+          "exampleKo": "탄탄한 계획은 작은 오류에도 버틴다.",
+          "note": "탄탄한라는 뜻입니다. 오늘은 복습 단어로 다시 문장 속에서 익혀보세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/robust"
+            }
+          ]
+        },
+        {
+          "difficulty": "고급",
+          "word": "granular",
+          "meaning": "세분화된",
+          "example": "Granular data reveals hidden patterns.",
+          "exampleKo": "세분화된 데이터는 숨은 패턴을 드러낸다.",
+          "note": "세분화된라는 뜻입니다. 오늘은 복습 단어로 다시 문장 속에서 익혀보세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/granular"
+            }
+          ]
+        },
+        {
+          "difficulty": "고급",
+          "word": "iterative",
+          "meaning": "반복적인",
+          "example": "Writing is an iterative process.",
+          "exampleKo": "글쓰기는 반복적인 과정이다.",
+          "note": "반복적인라는 뜻입니다. 오늘은 복습 단어로 다시 문장 속에서 익혀보세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/iterative"
+            }
+          ]
+        }
+      ]
+    },
     {
       "date": "2026-05-31",
       "day": 30,

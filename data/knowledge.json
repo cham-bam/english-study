@@ -1,7 +1,78 @@
 {
-  "updated_at": "2026-05-31",
+  "updated_at": "2026-06-01",
   "default_daily_count": 6,
   "entries": [
+    {
+      "date": "2026-06-01",
+      "title": "2026.06.01 난이도별 상식 6개",
+      "generation_version": "topic-diversity-v3",
+      "items": [
+        {
+          "source_id": "generated-knowledge-topic-diversity-v3-초급-3-application",
+          "difficulty": "초급",
+          "category": "물리",
+          "title": "마찰은 물체의 움직임을 늦춘다: 생활 속 판단으로 확장하기",
+          "body": "핵심은 세 가지입니다. 첫째, 마찰은 두 표면이 맞닿아 움직일 때 생기는 저항입니다. 마찰 덕분에 우리는 미끄러지지 않고 걷지만, 기계에서는 에너지 손실을 만들기도 합니다. 둘째, 생활 속 사례에 적용하면 같은 현상을 더 빠르게 분류하고 불필요한 오해를 줄일 수 있습니다. 셋째, '마찰은 불편한 저항이면서 생활을 가능하게 하는 힘입니다.'를 한 문장으로 말해 보면 설명할 때 핵심을 놓치지 않습니다.",
+          "takeaway": "마찰은 불편한 저항이면서 생활을 가능하게 하는 힘입니다.",
+          "sources": []
+        },
+        {
+          "source_id": "generated-knowledge-topic-diversity-v3-초급-4-comparison",
+          "difficulty": "초급",
+          "category": "지구",
+          "title": "물은 순환하며 지구를 돈다: 비교로 핵심 보기",
+          "body": "핵심은 세 가지입니다. 첫째, 물은 증발해 구름이 되고, 비나 눈으로 다시 땅에 내려옵니다. 강과 지하수를 거쳐 바다로 돌아가는 과정이 물의 순환입니다. 둘째, 비슷해 보이는 개념과 비교하면 이 주제가 언제 중요해지는지 경계가 분명해집니다. 셋째, 비교 후에는 '물의 순환은 지구의 기후와 생명 활동을 이어 주는 기본 흐름입니다.'라는 정리 문장으로 돌아오면 이해가 흩어지지 않습니다.",
+          "takeaway": "물의 순환은 지구의 기후와 생명 활동을 이어 주는 기본 흐름입니다.",
+          "sources": [
+            {
+              "label": "USGS Water Cycle",
+              "url": "https://www.usgs.gov/special-topics/water-science-school/science/water-cycle"
+            }
+          ]
+        },
+        {
+          "source_id": "generated-knowledge-topic-diversity-v3-중급-11-comparison",
+          "difficulty": "중급",
+          "category": "금융",
+          "title": "분산투자는 하나의 위험에 덜 흔들리게 한다: 비교로 핵심 보기",
+          "body": "핵심은 세 가지입니다. 첫째, 자산을 여러 곳에 나누면 특정 자산의 손실이 전체에 미치는 영향을 줄일 수 있습니다. 다만 모든 위험을 없애는 것은 아닙니다. 둘째, 비슷해 보이는 개념과 비교하면 이 주제가 언제 중요해지는지 경계가 분명해집니다. 셋째, 비교 후에는 '분산투자는 수익을 보장하는 기술이 아니라 큰 흔들림을 줄이는 원칙입니다.'라는 정리 문장으로 돌아오면 이해가 흩어지지 않습니다.",
+          "takeaway": "분산투자는 수익을 보장하는 기술이 아니라 큰 흔들림을 줄이는 원칙입니다.",
+          "sources": [
+            {
+              "label": "Investor.gov Diversification",
+              "url": "https://www.investor.gov/introduction-investing/investing-basics/glossary/diversification"
+            }
+          ]
+        },
+        {
+          "source_id": "generated-knowledge-topic-diversity-v3-중급-12-principle",
+          "difficulty": "중급",
+          "category": "커뮤니케이션",
+          "title": "좋은 요약은 삭제가 아니라 구조화다",
+          "body": "핵심은 세 가지입니다. 첫째, 요약은 문장을 짧게 줄이는 일만이 아닙니다. 핵심 주장, 근거, 예시를 구분해 상대가 빠르게 이해하도록 다시 배열하는 일입니다. 둘째, 이 지식은 단순한 사실 암기보다 원인과 결과를 연결해 볼 때 더 오래 기억됩니다. 셋째, 실제 판단에서는 '요약의 힘은 내용을 줄이는 데보다 이해 순서를 만드는 데 있습니다.'라는 결론을 기준 문장으로 삼으면 응용하기 쉽습니다.",
+          "takeaway": "요약의 힘은 내용을 줄이는 데보다 이해 순서를 만드는 데 있습니다.",
+          "sources": []
+        },
+        {
+          "source_id": "generated-knowledge-topic-diversity-v3-고급-11-application",
+          "difficulty": "고급",
+          "category": "조직",
+          "title": "심리적 안전감은 반대 의견을 말할 수 있는 조건이다: 생활 속 판단으로 확장하기",
+          "body": "핵심은 세 가지입니다. 첫째, 팀원이 실수나 다른 의견을 말해도 처벌받지 않는다고 느낄 때 학습이 빨라집니다. 이는 무조건 편한 분위기와는 다릅니다. 둘째, 생활 속 사례에 적용하면 같은 현상을 더 빠르게 분류하고 불필요한 오해를 줄일 수 있습니다. 셋째, '좋은 팀은 갈등이 없는 팀이 아니라 필요한 말을 안전하게 꺼낼 수 있는 팀입니다.'를 한 문장으로 말해 보면 설명할 때 핵심을 놓치지 않습니다.",
+          "takeaway": "좋은 팀은 갈등이 없는 팀이 아니라 필요한 말을 안전하게 꺼낼 수 있는 팀입니다.",
+          "sources": []
+        },
+        {
+          "source_id": "generated-knowledge-topic-diversity-v3-고급-12-comparison",
+          "difficulty": "고급",
+          "category": "시장",
+          "title": "락인 효과는 전환 비용이 선택을 붙잡는 현상이다: 비교로 핵심 보기",
+          "body": "핵심은 세 가지입니다. 첫째, 사용자가 다른 서비스로 옮기고 싶어도 데이터 이전, 학습 비용, 관계망 때문에 머무를 수 있습니다. 이를 락인 효과라고 합니다. 둘째, 비슷해 보이는 개념과 비교하면 이 주제가 언제 중요해지는지 경계가 분명해집니다. 셋째, 비교 후에는 '시장의 힘은 제품 품질뿐 아니라 사용자가 떠나기 어려운 구조에서도 생깁니다.'라는 정리 문장으로 돌아오면 이해가 흩어지지 않습니다.",
+          "takeaway": "시장의 힘은 제품 품질뿐 아니라 사용자가 떠나기 어려운 구조에서도 생깁니다.",
+          "sources": []
+        }
+      ]
+    },
     {
       "date": "2026-05-31",
       "title": "2026.05.31 난이도별 상식 6개",
