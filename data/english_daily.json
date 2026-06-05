@@ -1,8 +1,225 @@
 {
-  "updated_at": "2026-06-05",
+  "updated_at": "2026-06-06",
   "default_daily_count": 15,
   "source": "01_기초_동사형용사.json",
   "entries": [
+    {
+      "date": "2026-06-06",
+      "day": 36,
+      "title": "Day 36 난이도별 영단어 15개",
+      "items": [
+        {
+          "difficulty": "초급",
+          "word": "turn",
+          "meaning": "돌다, 바꾸다",
+          "example": "Turn left at the corner.",
+          "exampleKo": "모퉁이에서 왼쪽으로 도세요.",
+          "note": "돌다, 바꾸다라는 뜻입니다. 오늘은 복습 단어로 다시 문장 속에서 익혀보세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/turn"
+            }
+          ]
+        },
+        {
+          "difficulty": "초급",
+          "word": "visit",
+          "meaning": "방문하다",
+          "example": "I visit my parents often.",
+          "exampleKo": "나는 부모님을 자주 방문한다.",
+          "note": "방문하다라는 뜻입니다. 오늘은 복습 단어로 다시 문장 속에서 익혀보세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/visit"
+            }
+          ]
+        },
+        {
+          "difficulty": "초급",
+          "word": "wait",
+          "meaning": "기다리다",
+          "example": "Please wait for five minutes.",
+          "exampleKo": "5분만 기다려 주세요.",
+          "note": "기다리다라는 뜻입니다. 오늘은 복습 단어로 다시 문장 속에서 익혀보세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/wait"
+            }
+          ]
+        },
+        {
+          "difficulty": "초급",
+          "word": "carry",
+          "meaning": "나르다",
+          "example": "Can you carry this bag?",
+          "exampleKo": "이 가방을 들어 줄 수 있나요?",
+          "note": "나르다라는 뜻입니다. 오늘은 복습 단어로 다시 문장 속에서 익혀보세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/carry"
+            }
+          ]
+        },
+        {
+          "difficulty": "초급",
+          "word": "catch",
+          "meaning": "잡다",
+          "example": "He catches the ball.",
+          "exampleKo": "그는 공을 잡는다.",
+          "note": "잡다라는 뜻입니다. 오늘은 복습 단어로 다시 문장 속에서 익혀보세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/catch"
+            }
+          ]
+        },
+        {
+          "difficulty": "중급",
+          "word": "streamline",
+          "meaning": "간소화하다",
+          "example": "Automation streamlines repeated work.",
+          "exampleKo": "자동화는 반복 업무를 간소화한다.",
+          "note": "간소화하다라는 뜻입니다. 오늘은 복습 단어로 다시 문장 속에서 익혀보세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/streamline"
+            }
+          ]
+        },
+        {
+          "difficulty": "중급",
+          "word": "combine",
+          "meaning": "결합하다",
+          "example": "We combine two ideas.",
+          "exampleKo": "우리는 두 가지 아이디어를 결합한다.",
+          "note": "결합하다라는 뜻입니다. 오늘은 복습 단어로 다시 문장 속에서 익혀보세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/combine"
+            }
+          ]
+        },
+        {
+          "difficulty": "중급",
+          "word": "distribute",
+          "meaning": "분배하다",
+          "example": "The system distributes the workload.",
+          "exampleKo": "그 시스템은 작업량을 분배한다.",
+          "note": "분배하다라는 뜻입니다. 오늘은 복습 단어로 다시 문장 속에서 익혀보세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/distribute"
+            }
+          ]
+        },
+        {
+          "difficulty": "중급",
+          "word": "predict",
+          "meaning": "예측하다",
+          "example": "The model predicts future demand.",
+          "exampleKo": "그 모델은 미래 수요를 예측한다.",
+          "note": "예측하다라는 뜻입니다. 오늘은 복습 단어로 다시 문장 속에서 익혀보세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/predict"
+            }
+          ]
+        },
+        {
+          "difficulty": "중급",
+          "word": "prevent",
+          "meaning": "예방하다",
+          "example": "Early action prevents bigger problems.",
+          "exampleKo": "빠른 조치는 더 큰 문제를 예방한다.",
+          "note": "예방하다라는 뜻입니다. 오늘은 복습 단어로 다시 문장 속에서 익혀보세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/prevent"
+            }
+          ]
+        },
+        {
+          "difficulty": "고급",
+          "word": "discreet",
+          "meaning": "신중한",
+          "example": "Be discreet with sensitive details.",
+          "exampleKo": "민감한 세부사항은 신중히 다루세요.",
+          "note": "신중한라는 뜻입니다. 오늘은 복습 단어로 다시 문장 속에서 익혀보세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/discreet"
+            }
+          ]
+        },
+        {
+          "difficulty": "고급",
+          "word": "proactive",
+          "meaning": "선제적인",
+          "example": "A proactive response prevents delays.",
+          "exampleKo": "선제적인 대응은 지연을 막는다.",
+          "note": "선제적인라는 뜻입니다. 오늘은 복습 단어로 다시 문장 속에서 익혀보세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/proactive"
+            }
+          ]
+        },
+        {
+          "difficulty": "고급",
+          "word": "tangible",
+          "meaning": "분명히 느낄 수 있는",
+          "example": "The change produced tangible benefits.",
+          "exampleKo": "그 변화는 분명한 이익을 만들었다.",
+          "note": "분명히 느낄 수 있는라는 뜻입니다. 오늘은 복습 단어로 다시 문장 속에서 익혀보세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/tangible"
+            }
+          ]
+        },
+        {
+          "difficulty": "고급",
+          "word": "latent",
+          "meaning": "잠재된",
+          "example": "The data shows latent demand.",
+          "exampleKo": "그 데이터는 잠재 수요를 보여 준다.",
+          "note": "잠재된라는 뜻입니다. 오늘은 복습 단어로 다시 문장 속에서 익혀보세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/latent"
+            }
+          ]
+        },
+        {
+          "difficulty": "고급",
+          "word": "cohesive",
+          "meaning": "응집력 있는",
+          "example": "The team built a cohesive strategy.",
+          "exampleKo": "그 팀은 응집력 있는 전략을 세웠다.",
+          "note": "응집력 있는라는 뜻입니다. 오늘은 복습 단어로 다시 문장 속에서 익혀보세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/cohesive"
+            }
+          ]
+        }
+      ]
+    },
     {
       "date": "2026-06-05",
       "day": 35,
