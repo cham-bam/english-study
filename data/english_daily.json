@@ -1,8 +1,225 @@
 {
-  "updated_at": "2026-06-08",
+  "updated_at": "2026-06-09",
   "default_daily_count": 15,
   "source": "01_기초_동사형용사.json",
   "entries": [
+    {
+      "date": "2026-06-09",
+      "day": 39,
+      "title": "Day 39 난이도별 영단어 15개",
+      "items": [
+        {
+          "difficulty": "초급",
+          "word": "carry",
+          "meaning": "나르다",
+          "example": "Can you carry this bag?",
+          "exampleKo": "이 가방을 들어 줄 수 있나요?",
+          "note": "나르다라는 뜻입니다. 오늘은 복습 단어로 다시 문장 속에서 익혀보세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/carry"
+            }
+          ]
+        },
+        {
+          "difficulty": "초급",
+          "word": "catch",
+          "meaning": "잡다",
+          "example": "He catches the ball.",
+          "exampleKo": "그는 공을 잡는다.",
+          "note": "잡다라는 뜻입니다. 오늘은 복습 단어로 다시 문장 속에서 익혀보세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/catch"
+            }
+          ]
+        },
+        {
+          "difficulty": "초급",
+          "word": "fill",
+          "meaning": "채우다",
+          "example": "Fill the bottle with water.",
+          "exampleKo": "병을 물로 채우세요.",
+          "note": "채우다라는 뜻입니다. 오늘은 복습 단어로 다시 문장 속에서 익혀보세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/fill"
+            }
+          ]
+        },
+        {
+          "difficulty": "초급",
+          "word": "guess",
+          "meaning": "추측하다",
+          "example": "Can you guess the meaning?",
+          "exampleKo": "그 뜻을 추측할 수 있나요?",
+          "note": "추측하다라는 뜻입니다. 오늘은 복습 단어로 다시 문장 속에서 익혀보세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/guess"
+            }
+          ]
+        },
+        {
+          "difficulty": "초급",
+          "word": "reach",
+          "meaning": "도착하다, 닿다",
+          "example": "We reach the station early.",
+          "exampleKo": "우리는 역에 일찍 도착한다.",
+          "note": "도착하다, 닿다라는 뜻입니다. 오늘은 복습 단어로 다시 문장 속에서 익혀보세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/reach"
+            }
+          ]
+        },
+        {
+          "difficulty": "중급",
+          "word": "predict",
+          "meaning": "예측하다",
+          "example": "The model predicts future demand.",
+          "exampleKo": "그 모델은 미래 수요를 예측한다.",
+          "note": "예측하다라는 뜻입니다. 오늘은 복습 단어로 다시 문장 속에서 익혀보세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/predict"
+            }
+          ]
+        },
+        {
+          "difficulty": "중급",
+          "word": "prevent",
+          "meaning": "예방하다",
+          "example": "Early action prevents bigger problems.",
+          "exampleKo": "빠른 조치는 더 큰 문제를 예방한다.",
+          "note": "예방하다라는 뜻입니다. 오늘은 복습 단어로 다시 문장 속에서 익혀보세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/prevent"
+            }
+          ]
+        },
+        {
+          "difficulty": "중급",
+          "word": "reflect",
+          "meaning": "반영하다, 성찰하다",
+          "example": "The result reflects user behavior.",
+          "exampleKo": "그 결과는 사용자 행동을 반영한다.",
+          "note": "반영하다, 성찰하다라는 뜻입니다. 오늘은 복습 단어로 다시 문장 속에서 익혀보세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/reflect"
+            }
+          ]
+        },
+        {
+          "difficulty": "중급",
+          "word": "facilitate",
+          "meaning": "촉진하다",
+          "example": "Clear rules facilitate teamwork.",
+          "exampleKo": "명확한 규칙은 팀워크를 촉진한다.",
+          "note": "촉진하다라는 뜻입니다. 오늘은 복습 단어로 다시 문장 속에서 익혀보세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/facilitate"
+            }
+          ]
+        },
+        {
+          "difficulty": "중급",
+          "word": "monitor",
+          "meaning": "감시하다, 살피다",
+          "example": "We monitor the system daily.",
+          "exampleKo": "우리는 시스템을 매일 살핀다.",
+          "note": "감시하다, 살피다라는 뜻입니다. 오늘은 복습 단어로 다시 문장 속에서 익혀보세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/monitor"
+            }
+          ]
+        },
+        {
+          "difficulty": "고급",
+          "word": "latent",
+          "meaning": "잠재된",
+          "example": "The data shows latent demand.",
+          "exampleKo": "그 데이터는 잠재 수요를 보여 준다.",
+          "note": "잠재된라는 뜻입니다. 오늘은 복습 단어로 다시 문장 속에서 익혀보세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/latent"
+            }
+          ]
+        },
+        {
+          "difficulty": "고급",
+          "word": "cohesive",
+          "meaning": "응집력 있는",
+          "example": "The team built a cohesive strategy.",
+          "exampleKo": "그 팀은 응집력 있는 전략을 세웠다.",
+          "note": "응집력 있는라는 뜻입니다. 오늘은 복습 단어로 다시 문장 속에서 익혀보세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/cohesive"
+            }
+          ]
+        },
+        {
+          "difficulty": "고급",
+          "word": "incremental",
+          "meaning": "점진적인",
+          "example": "Incremental progress still matters.",
+          "exampleKo": "점진적인 진전도 여전히 중요하다.",
+          "note": "점진적인라는 뜻입니다. 오늘은 복습 단어로 다시 문장 속에서 익혀보세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/incremental"
+            }
+          ]
+        },
+        {
+          "difficulty": "고급",
+          "word": "contextual",
+          "meaning": "맥락적인",
+          "example": "Contextual clues clarify the meaning.",
+          "exampleKo": "맥락 단서는 의미를 명확히 한다.",
+          "note": "맥락적인라는 뜻입니다. 오늘은 복습 단어로 다시 문장 속에서 익혀보세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/contextual"
+            }
+          ]
+        },
+        {
+          "difficulty": "고급",
+          "word": "deliberate",
+          "meaning": "의도적인, 신중한",
+          "example": "Deliberate practice targets weak points.",
+          "exampleKo": "의도적인 연습은 약점을 겨냥한다.",
+          "note": "의도적인, 신중한라는 뜻입니다. 오늘은 복습 단어로 다시 문장 속에서 익혀보세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/deliberate"
+            }
+          ]
+        }
+      ]
+    },
     {
       "date": "2026-06-08",
       "day": 38,
