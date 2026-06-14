@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-05-28",
+  "updated_at": "2026-06-14",
   "daily_count": 6,
   "refill_target_unused": 42,
   "items": [
@@ -2250,6 +2250,272 @@
         {
           "label": "Britannica",
           "url": "https://www.britannica.com/money/elasticity-economics"
+        }
+      ]
+    },
+    {
+      "difficulty": "초급",
+      "id": "astronomy-earth-rotation-day-night",
+      "category": "천문",
+      "title": "지구의 자전은 낮과 밤을 바꾼다",
+      "body": "지구는 스스로 회전합니다. 태양을 향한 쪽은 낮이 되고, 반대쪽은 밤이 됩니다. 그래서 하루의 변화는 지구가 도는 움직임과 연결됩니다.",
+      "takeaway": "낮과 밤은 태양이 움직여서가 아니라 지구가 도는 결과입니다.",
+      "sources": [
+        {
+          "label": "NASA Earth Facts",
+          "url": "https://science.nasa.gov/earth/facts/"
+        }
+      ]
+    },
+    {
+      "difficulty": "초급",
+      "id": "biology-seed-germination-needs-water-warmth",
+      "category": "생물",
+      "title": "씨앗은 물과 온도가 맞아야 싹튼다",
+      "body": "씨앗은 충분한 물을 흡수하고 알맞은 온도를 만나면 발아를 시작합니다. 빛만으로는 부족하고, 씨앗마다 필요한 조건도 조금씩 다릅니다.",
+      "takeaway": "발아는 물과 온도, 그리고 씨앗의 상태가 맞아야 시작됩니다.",
+      "sources": [
+        {
+          "label": "Britannica Germination",
+          "url": "https://www.britannica.com/science/germination"
+        }
+      ]
+    },
+    {
+      "difficulty": "초급",
+      "id": "physics-sound-needs-medium",
+      "category": "물리",
+      "title": "소리는 공기 같은 매질이 있어야 전달된다",
+      "body": "소리는 진동이 공기, 물, 고체를 따라 퍼지는 현상입니다. 그래서 우주처럼 물질이 거의 없는 곳에서는 소리가 잘 전달되지 않습니다.",
+      "takeaway": "소리는 빈 공간을 건너기보다 물질을 따라 이동합니다.",
+      "sources": [
+        {
+          "label": "Britannica Sound",
+          "url": "https://www.britannica.com/science/sound-physics"
+        }
+      ]
+    },
+    {
+      "difficulty": "초급",
+      "id": "health-heart-pumps-blood-continuously",
+      "category": "건강",
+      "title": "심장은 쉬지 않고 혈액을 보낸다",
+      "body": "심장은 수축과 이완을 반복하며 혈액을 온몸으로 보냅니다. 이 순환 덕분에 산소와 영양분이 필요한 곳까지 전달됩니다.",
+      "takeaway": "심장은 몸 전체의 순환을 유지하는 펌프입니다.",
+      "sources": [
+        {
+          "label": "NHLBI Heart",
+          "url": "https://www.nhlbi.nih.gov/health/heart"
+        }
+      ]
+    },
+    {
+      "difficulty": "초급",
+      "id": "geography-rivers-flow-downhill",
+      "category": "지리",
+      "title": "강물은 높은 곳에서 낮은 곳으로 흐른다",
+      "body": "물은 중력의 영향을 받아 더 낮은 곳으로 이동합니다. 그래서 강의 출발점은 높은 지대인 경우가 많고, 하류로 갈수록 넓은 평야나 바다와 연결됩니다.",
+      "takeaway": "강의 방향은 지형의 높낮이와 중력으로 설명됩니다.",
+      "sources": [
+        {
+          "label": "USGS River Basics",
+          "url": "https://www.usgs.gov/special-topics/water-science-school/science/river-basics"
+        }
+      ]
+    },
+    {
+      "difficulty": "초급",
+      "id": "physics-heat-moves-warm-to-cool",
+      "category": "물리",
+      "title": "열은 따뜻한 곳에서 차가운 곳으로 이동한다",
+      "body": "열은 온도가 높은 쪽에서 낮은 쪽으로 이동하려는 경향이 있습니다. 뜨거운 컵이 식고 얼음이 녹는 모습은 이런 열 이동의 예입니다.",
+      "takeaway": "온도 차이가 있으면 열은 균형을 향해 움직입니다.",
+      "sources": [
+        {
+          "label": "Britannica Heat Transfer",
+          "url": "https://www.britannica.com/science/heat-transfer"
+        }
+      ]
+    },
+    {
+      "difficulty": "중급",
+      "id": "meteorology-pressure-drops-with-altitude",
+      "category": "기상",
+      "title": "높이 올라갈수록 기압은 낮아진다",
+      "body": "지표면 위로 올라갈수록 그 위에 쌓인 공기 기둥의 양이 줄어듭니다. 그래서 산 위에서는 기압이 낮고 숨이 더 가빠질 수 있습니다.",
+      "takeaway": "기압은 높이에 따라 달라지고, 몸의 느낌에도 영향을 줍니다.",
+      "sources": [
+        {
+          "label": "NOAA SciJinks Pressure",
+          "url": "https://scijinks.gov/pressure/"
+        }
+      ]
+    },
+    {
+      "difficulty": "중급",
+      "id": "health-vaccines-train-immune-memory",
+      "category": "보건",
+      "title": "백신은 면역 기억을 미리 연습시킨다",
+      "body": "백신은 병원체의 일부나 약화된 형태를 이용해 면역계를 준비시킵니다. 실제 감염이 왔을 때 몸이 더 빠르고 강하게 반응하도록 돕습니다.",
+      "takeaway": "백신의 핵심은 면역계가 먼저 배우게 만드는 것입니다.",
+      "sources": [
+        {
+          "label": "CDC Vaccines Basics",
+          "url": "https://www.cdc.gov/vaccines/vac-gen/imz-basics.htm"
+        }
+      ]
+    },
+    {
+      "difficulty": "중급",
+      "id": "economics-inflation-is-general-price-rise",
+      "category": "경제",
+      "title": "인플레이션은 물가가 전반적으로 오르는 현상이다",
+      "body": "물가가 한두 품목에서만 오르는 것과 달리, 인플레이션은 상품과 서비스 전반의 가격 수준이 오르는 현상입니다. 그래서 화폐의 구매력도 함께 떨어질 수 있습니다.",
+      "takeaway": "인플레이션은 특정 물건이 아니라 전체 가격 수준의 변화입니다.",
+      "sources": [
+        {
+          "label": "Federal Reserve Inflation",
+          "url": "https://www.federalreserve.gov/monetarypolicy/inflation.htm"
+        }
+      ]
+    },
+    {
+      "difficulty": "중급",
+      "id": "statistics-sample-size-affects-uncertainty",
+      "category": "통계",
+      "title": "표본이 작을수록 추정의 흔들림이 커진다",
+      "body": "적은 데이터를 보면 우연의 영향이 더 크게 보입니다. 표본이 커질수록 평균이나 비율의 추정은 대체로 더 안정적이지만, 모집단을 완전히 대신할 수는 없습니다.",
+      "takeaway": "데이터 해석에서는 값보다 표본의 크기와 대표성을 함께 봐야 합니다.",
+      "sources": [
+        {
+          "label": "Britannica Statistical Sampling",
+          "url": "https://www.britannica.com/science/statistical-sampling"
+        }
+      ]
+    },
+    {
+      "difficulty": "중급",
+      "id": "security-least-privilege-limits-damage",
+      "category": "보안",
+      "title": "최소 권한 원칙은 피해 범위를 줄인다",
+      "body": "사용자나 시스템에 꼭 필요한 권한만 주면 실수나 공격이 전체로 퍼질 가능성이 줄어듭니다. 접근 권한을 넓힐수록 편의는 늘 수 있지만, 잘못 쓰였을 때의 피해도 커집니다.",
+      "takeaway": "권한은 넓게 주는 것보다 필요한 만큼만 주는 것이 안전합니다.",
+      "sources": [
+        {
+          "label": "NIST Glossary",
+          "url": "https://csrc.nist.gov/glossary/term/least_privilege"
+        }
+      ]
+    },
+    {
+      "difficulty": "중급",
+      "id": "health-exercise-strengthens-heart-and-lungs",
+      "category": "건강",
+      "title": "규칙적인 운동은 심폐 기능을 돕는다",
+      "body": "운동은 심장이 혈액을 보내는 효율과 폐가 산소를 쓰는 능력을 함께 자극합니다. 꾸준히 움직이면 체력과 회복력도 함께 좋아질 수 있습니다.",
+      "takeaway": "운동은 몸 전체의 순환과 호흡을 함께 훈련합니다.",
+      "sources": [
+        {
+          "label": "CDC Physical Activity Basics",
+          "url": "https://www.cdc.gov/physicalactivity/basics/index.htm"
+        }
+      ]
+    },
+    {
+      "difficulty": "고급",
+      "id": "statistics-pvalue-not-practical-importance",
+      "category": "통계",
+      "title": "p값이 작다고 결과가 실제로 중요하다는 뜻은 아니다",
+      "body": "p값은 관측된 차이가 우연만으로 나왔을 가능성을 보는 지표입니다. 하지만 효과의 크기나 현실적 의미까지 직접 알려 주지는 않으므로, 통계적 유의성과 실제 중요성을 구분해야 합니다.",
+      "takeaway": "유의함과 중요함은 같은 말이 아닙니다.",
+      "sources": [
+        {
+          "label": "Britannica Statistical Significance",
+          "url": "https://www.britannica.com/science/statistical-significance"
+        }
+      ]
+    },
+    {
+      "difficulty": "고급",
+      "id": "behavioral-economics-loss-aversion-weights-losses-more",
+      "category": "행동경제학",
+      "title": "손실회피는 같은 크기의 이익보다 손실을 더 크게 느끼게 한다",
+      "body": "사람은 보통 얻는 기쁨보다 잃는 고통을 더 강하게 느낍니다. 그래서 같은 금액이라도 벌 때와 잃을 때의 심리적 무게가 다릅니다.",
+      "takeaway": "사람의 선택은 계산뿐 아니라 손실에 대한 감정에도 좌우됩니다.",
+      "sources": [
+        {
+          "label": "Britannica Prospect Theory",
+          "url": "https://www.britannica.com/science/prospect-theory"
+        }
+      ]
+    },
+    {
+      "difficulty": "고급",
+      "id": "physics-entropy-increases-in-isolated-systems",
+      "category": "물리",
+      "title": "고립된 계에서는 엔트로피가 증가하는 경향이 있다",
+      "body": "열역학 제2법칙은 자연 과정이 한 방향으로만 쉽게 진행된다는 사실을 설명합니다. 고립된 계에서는 무질서의 정도를 나타내는 엔트로피가 감소하기보다 증가하는 쪽이 일반적입니다.",
+      "takeaway": "자연은 스스로 더 정돈되기보다 더 퍼지는 방향으로 가기 쉽습니다.",
+      "sources": [
+        {
+          "label": "Britannica Entropy",
+          "url": "https://www.britannica.com/science/entropy"
+        }
+      ]
+    },
+    {
+      "difficulty": "고급",
+      "id": "philosophy-occams-razor-favors-fewer-assumptions",
+      "category": "철학",
+      "title": "오컴의 면도날은 가정을 덜 쓰는 설명을 선호한다",
+      "body": "둘 이상의 설명이 같은 수준으로 현상을 설명한다면, 불필요한 가정을 덜 쓰는 쪽이 보통 더 낫다고 봅니다. 이 원리는 단순함이 항상 정답이라는 뜻이 아니라, 복잡함이 필요 이상으로 늘어나는 것을 경계하라는 뜻입니다.",
+      "takeaway": "좋은 설명은 복잡해 보이는 현상을 불필요한 가정 없이 정리합니다.",
+      "sources": [
+        {
+          "label": "Britannica Occam's Razor",
+          "url": "https://www.britannica.com/topic/Occams-razor"
+        }
+      ]
+    },
+    {
+      "difficulty": "고급",
+      "id": "math-chaotic-systems-amplify-small-changes",
+      "category": "수학",
+      "title": "혼돈계는 작은 차이를 크게 키울 수 있다",
+      "body": "일부 비선형 시스템에서는 초기 조건이 아주 조금만 달라도 시간이 지나며 결과가 크게 달라집니다. 그래서 날씨 예측처럼 변수 많은 시스템은 장기 예측이 어려워집니다.",
+      "takeaway": "초기값이 비슷해도 장기 결과는 크게 달라질 수 있습니다.",
+      "sources": [
+        {
+          "label": "Britannica Chaos Theory",
+          "url": "https://www.britannica.com/science/chaos-theory"
+        }
+      ]
+    },
+    {
+      "difficulty": "고급",
+      "id": "economics-externalities-spill-beyond-transactions",
+      "category": "경제",
+      "title": "외부효과는 거래 밖에 비용이나 이익을 남긴다",
+      "body": "어떤 행동의 결과가 직접 거래한 사람들만이 아니라 주변 사람에게도 영향을 줄 때 외부효과가 생깁니다. 소음, 공해, 예방접종의 집단효과처럼 시장 가격에 잘 드러나지 않는 영향이 대표적입니다.",
+      "takeaway": "시장 가격만 보면 보이지 않는 사회적 비용과 편익이 있습니다.",
+      "sources": [
+        {
+          "label": "Britannica Externality",
+          "url": "https://www.britannica.com/topic/externality-economics"
+        }
+      ]
+    },
+    {
+      "difficulty": "고급",
+      "id": "ai-bias-correction-starts-with-data-sources",
+      "category": "AI",
+      "title": "편향 보정은 모델보다 데이터 출처부터 봐야 한다",
+      "body": "모델의 결과가 치우쳐 보이면 알고리즘만 고치기보다 데이터 수집 방식과 누락된 집단이 있는지 먼저 점검해야 합니다. 입력이 한쪽으로 치우치면 출력도 그 영향을 피하기 어렵습니다.",
+      "takeaway": "편향은 모델 내부뿐 아니라 데이터 수집 단계에서 먼저 만들어질 수 있습니다.",
+      "sources": [
+        {
+          "label": "NIST AI RMF",
+          "url": "https://www.nist.gov/itl/ai-risk-management-framework"
         }
       ]
     }
