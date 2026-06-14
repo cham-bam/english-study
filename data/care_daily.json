@@ -1,7 +1,38 @@
 {
-  "updated_at": "2026-06-14",
+  "updated_at": "2026-06-15",
   "default_daily_count": 2,
   "entries": [
+    {
+      "date": "2026-06-15",
+      "title": "2026.06.15 오늘의 배려 2가지",
+      "generation_version": "relationship-variety-v2",
+      "items": [
+        {
+          "id": "care-relationship-variety-v2-share-comfort-base",
+          "baseKey": "share-comfort",
+          "category": "share-comfort",
+          "label": "동행",
+          "title": "힘든 일을 해결보다 동행으로 받아주기",
+          "action": "상대가 힘든 문제를 말할 때 바로 해결하려 들기보다 '내가 옆에 있을게'라는 메시지를 먼저 주세요. 해결책은 그다음에 물어봐도 늦지 않습니다.",
+          "why": "받는 것에 익숙했던 사람이 주는 사랑으로 바뀌려면 상대의 외로움을 줄이는 연습이 필요합니다.",
+          "practice": "조언 전에 '내가 뭘 해주면 좋을까?'라고 묻기",
+          "example": "지금은 해결책보다 그냥 같이 있어주는 게 더 필요해?",
+          "avoid": "상대의 감정을 과제처럼 빨리 처리하려 하지 않기"
+        },
+        {
+          "id": "care-relationship-variety-v2-listening-before-fixing-sentence",
+          "baseKey": "listening-before-fixing",
+          "category": "listening-before-fixing",
+          "label": "경청",
+          "title": "바로 해결책을 주기 전에 먼저 들어주기를 말로 남기기",
+          "action": "상대가 힘든 일을 말할 때 곧장 조언하기보다 '그랬구나, 많이 힘들었겠다'처럼 감정을 먼저 받아 주세요. 가능하면 마음을 짐작만 하지 말고 짧은 문장으로 표현해 주세요.",
+          "why": "받는 데 익숙했던 사람에게 가장 먼저 필요한 표현은 정답보다 상대의 마음을 놓치지 않는 태도입니다.",
+          "practice": "오늘은 조언보다 공감 한 문장을 먼저 말해보기",
+          "example": "",
+          "avoid": ""
+        }
+      ]
+    },
     {
       "date": "2026-06-14",
       "title": "2026.06.14 오늘의 배려 2가지",
