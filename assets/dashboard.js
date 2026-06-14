@@ -1037,7 +1037,9 @@
         </div>
         <h3 class="care-title">${escapeHtml(item.title || "")}</h3>
         <p class="care-action">${escapeHtml(item.action || "")}</p>
+        ${item.example ? `<p class="care-example"><strong>말로 해보기:</strong> ${escapeHtml(item.example)}</p>` : ""}
         ${item.why ? `<p class="care-why"><strong>왜 좋은가:</strong> ${escapeHtml(item.why)}</p>` : ""}
+        ${item.avoid ? `<p class="care-avoid"><strong>주의:</strong> ${escapeHtml(item.avoid)}</p>` : ""}
         ${item.practice ? `<p class="care-practice"><strong>오늘 해볼 것:</strong> ${escapeHtml(item.practice)}</p>` : ""}
       </article>
     `).join("");

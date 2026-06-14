@@ -589,13 +589,25 @@ a {
   line-height: 1.6;
 }
 
+.care-example,
 .care-why,
+.care-avoid,
 .care-practice {
   border-left: 3px solid var(--accent);
   color: #74435a;
   font-size: 0.82rem;
   line-height: 1.55;
   padding-left: 9px;
+}
+
+.care-example {
+  border-left-color: #0b8f7a;
+  color: #174b45;
+}
+
+.care-avoid {
+  border-left-color: #d97706;
+  color: #6c3f11;
 }
 
 .care-practice {

@@ -4,7 +4,10 @@ const {
   makeGeneratedKnowledge,
   KNOWLEDGE_GENERATION_VERSION,
   makeGeneratedEnglish,
+  makeGeneratedSpeakingArticle,
+  SPEAKING_GENERATION_VERSION,
   makeGeneratedCare,
+  CARE_GENERATION_VERSION,
   lookupEnglishWord,
   lookupExampleTranslation
 } = require("./generated-content");
@@ -307,19 +310,53 @@ function cloneSpeakingArticle(item) {
   };
 }
 
-function getSpeakingTopicForDate(date) {
-  const topics = ["부동산", "자동차 산업", "AI", "부동산 + AI", "자동차 + AI", "AI + 산업"];
-  const dayIndex = Math.floor(Date.parse(date + "T00:00:00Z") / 86400000);
-  return topics[Math.abs(dayIndex) % topics.length];
+function isGeneratedSpeakingEntry(entry) {
+  return getEntryItems(entry).some((item) => {
+    const key = String(item.id || "");
+    return key.startsWith("speaking-");
+  });
+}
+
+function parseDateValue(date) {
+  const time = Date.parse(`${date}T00:00:00Z`);
+  return Number.isFinite(time) ? time : 0;
+}
+
+function formatDateValue(time) {
+  return new Date(time).toISOString().slice(0, 10);
+}
+
+function getMissingSpeakingDates(entries, targetDate) {
+  const existingDates = new Set(entries.map((entry) => entry.date).filter(Boolean));
+  if (!existingDates.size) return [targetDate];
+  if (existingDates.has(targetDate)) return [targetDate];
+
+  const latestTime = Math.max(...Array.from(existingDates).map(parseDateValue));
+  const targetTime = parseDateValue(targetDate);
+  if (!targetTime || latestTime >= targetTime) return [targetDate];
+
+  const dayMs = 86400000;
+  const gap = Math.round((targetTime - latestTime) / dayMs);
+  if (gap > 45) return [targetDate];
+
+  const dates = [];
+  for (let cursor = latestTime + dayMs; cursor <= targetTime; cursor += dayMs) {
+    const next = formatDateValue(cursor);
+    if (!existingDates.has(next)) dates.push(next);
+  }
+  return dates.length ? dates : [targetDate];
 }
 
 function updateSpeakingArticle(date) {
   const speaking = readJson(paths.speaking);
-  const pool = readJson(paths.speakingPool);
   speaking.entries = Array.isArray(speaking.entries) ? speaking.entries : [];
 
   const existing = speaking.entries.find((entry) => entry.date === date);
-  if (existing) {
+  const shouldRegenerate = existing
+    && existing.generation_version !== SPEAKING_GENERATION_VERSION
+    && isGeneratedSpeakingEntry(existing);
+
+  if (existing && !shouldRegenerate) {
     return {
       changed: false,
       reason: "speaking article already exists",
@@ -329,6 +366,7 @@ function updateSpeakingArticle(date) {
 
   const used = new Set();
   speaking.entries.forEach((entry) => {
+    if (entry.date === date) return;
     getEntryItems(entry).forEach((item) => {
       [item.id, item.titleKo, item.titleEn]
         .map(normalizeKey)
@@ -337,24 +375,33 @@ function updateSpeakingArticle(date) {
     });
   });
 
-  const candidates = (pool.items || []).filter((item) => {
-    const keys = [item.id, item.titleKo, item.titleEn].map(normalizeKey).filter(Boolean);
-    return keys.length && !keys.some((key) => used.has(key));
+  const dates = shouldRegenerate ? [date] : getMissingSpeakingDates(speaking.entries, date);
+  const pickedTitles = [];
+
+  dates.forEach((targetDate) => {
+    const picked = makeGeneratedSpeakingArticle(targetDate, used);
+    const entry = {
+      date: targetDate,
+      title: `${targetDate.replace(/-/g, ".")} 1분 설명 아티클`,
+      generation_version: SPEAKING_GENERATION_VERSION,
+      items: [cloneSpeakingArticle(picked)]
+    };
+
+    const existingEntry = speaking.entries.find((candidate) => candidate.date === targetDate);
+    if (existingEntry) {
+      Object.assign(existingEntry, entry);
+    } else {
+      speaking.entries.unshift(entry);
+    }
+
+    [picked.id, picked.titleKo, picked.titleEn]
+      .map(normalizeKey)
+      .filter(Boolean)
+      .forEach((key) => used.add(key));
+    pickedTitles.push(`${picked.topic || "1분 설명"}:${picked.titleKo || picked.titleEn || picked.id}`);
   });
 
-  if (!candidates.length) {
-    return { changed: false, reason: "speaking article pool needs refill", picked: [] };
-  }
-
-  const targetTopic = getSpeakingTopicForDate(date);
-  const picked = candidates.find((item) => item.topic === targetTopic) || candidates[0];
-  const entry = {
-    date,
-    title: `${date.replace(/-/g, ".")} 1분 설명 아티클`,
-    items: [cloneSpeakingArticle(picked)]
-  };
-
-  speaking.entries.unshift(entry);
+  speaking.entries.sort((a, b) => String(b.date || "").localeCompare(String(a.date || "")));
   speaking.updated_at = date;
   speaking.default_daily_count = DEFAULT_SPEAKING_DAILY_COUNT;
 
@@ -362,9 +409,16 @@ function updateSpeakingArticle(date) {
 
   return {
     changed: true,
-    reason: "speaking article added",
-    picked: [`${picked.topic || "1분 설명"}:${picked.titleKo || picked.titleEn || picked.id}`]
+    reason: shouldRegenerate ? "speaking article regenerated" : "speaking articles generated",
+    picked: pickedTitles
   };
+}
+
+function isGeneratedCareEntry(entry) {
+  return getEntryItems(entry).some((item) => {
+    const key = String(item.id || "");
+    return key.startsWith("care-");
+  });
 }
 
 function updateCare(date) {
@@ -372,7 +426,11 @@ function updateCare(date) {
   care.entries = Array.isArray(care.entries) ? care.entries : [];
 
   const existing = care.entries.find((entry) => entry.date === date);
-  if (existing) {
+  const shouldRegenerate = existing
+    && existing.generation_version !== CARE_GENERATION_VERSION
+    && isGeneratedCareEntry(existing);
+
+  if (existing && !shouldRegenerate) {
     return {
       changed: false,
       reason: "care already exists",
@@ -382,8 +440,9 @@ function updateCare(date) {
 
   const used = new Set();
   care.entries.forEach((entry) => {
+    if (entry.date === date) return;
     getEntryItems(entry).forEach((item) => {
-      [item.id, item.title]
+      [item.id, item.baseKey, item.title]
         .map(normalizeKey)
         .filter(Boolean)
         .forEach((key) => used.add(key));
@@ -394,10 +453,16 @@ function updateCare(date) {
   const entry = {
     date,
     title: `${date.replace(/-/g, ".")} 오늘의 배려 ${picked.length}가지`,
+    generation_version: CARE_GENERATION_VERSION,
     items: picked
   };
 
-  care.entries.unshift(entry);
+  if (existing) {
+    Object.assign(existing, entry);
+  } else {
+    care.entries.unshift(entry);
+  }
+  care.entries.sort((a, b) => String(b.date || "").localeCompare(String(a.date || "")));
   care.updated_at = date;
   care.default_daily_count = DEFAULT_CARE_DAILY_COUNT;
 
@@ -405,7 +470,7 @@ function updateCare(date) {
 
   return {
     changed: true,
-    reason: "care generated",
+    reason: shouldRegenerate ? "care regenerated with improved variety rules" : "care generated",
     picked: picked.map((item) => item.title)
   };
 }

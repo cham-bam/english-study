@@ -7,24 +7,31 @@
       "title": "2026.06.14 오늘의 배려 2가지",
       "items": [
         {
-          "id": "care-16",
-          "category": "emotional-reciprocity",
-          "label": "상호성",
-          "title": "받은 배려를 말로 되돌려주기",
-          "action": "상대가 챙겨준 일을 당연하게 넘기지 말고 '네가 그렇게 해줘서 편했어'라고 말해 주세요. 받은 것을 알아차리는 사람이 줄 수 있는 사람으로 바뀝니다.",
-          "why": "감사는 배려를 사랑으로 순환시키는 가장 쉬운 시작점입니다.",
-          "practice": "오늘 받은 배려 하나를 이름 붙여 고맙다고 말하기"
+          "id": "care-relationship-variety-v2-attention-to-detail-base",
+          "baseKey": "attention-to-detail",
+          "category": "attention-to-detail",
+          "label": "관찰",
+          "title": "상대의 컨디션 변화를 작은 단서로 알아차리기",
+          "action": "말수가 줄었는지, 걷는 속도가 느려졌는지, 표정이 평소와 다른지 관찰해 보세요. 바로 캐묻기보다 쉬운 질문으로 문을 여는 것이 좋습니다.",
+          "why": "자세히 봐주는 사람 곁에서는 설명하지 않아도 이해받는 느낌이 생깁니다.",
+          "practice": "오늘 상대의 말투, 표정, 에너지 중 하나를 조용히 살피기",
+          "example": "오늘 평소보다 조용한데, 그냥 피곤한 날이야?",
+          "avoid": "관찰을 통제나 추궁으로 바꾸지 않기"
         },
         {
-          "id": "care-1",
-          "category": "listening-before-fixing",
-          "label": "경청",
-          "title": "바로 해결책을 주기 전에 먼저 들어주기",
-          "action": "상대가 힘든 일을 말할 때 곧장 조언하기보다 '그랬구나, 많이 힘들었겠다'처럼 감정을 먼저 받아 주세요.",
-          "why": "받는 데 익숙했던 사람에게 가장 먼저 필요한 표현은 정답보다 상대의 마음을 놓치지 않는 태도입니다.",
-          "practice": "오늘은 조언보다 공감 한 문장을 먼저 말해보기"
+          "id": "care-relationship-variety-v2-celebrate-effort-base",
+          "baseKey": "celebrate-effort",
+          "category": "celebrate-effort",
+          "label": "응원",
+          "title": "성과보다 준비한 과정을 먼저 축하하기",
+          "action": "결과가 나오기 전에도 상대가 준비한 시간과 버틴 마음을 인정해 주세요. 잘됐는지보다 애썼다는 사실을 먼저 말하면 부담이 줄어듭니다.",
+          "why": "사람은 성공했을 때만 사랑받는다고 느끼면 관계 안에서도 긴장하게 됩니다.",
+          "practice": "상대의 결과를 묻기 전에 준비 과정에 대한 인정 한마디 하기",
+          "example": "결과도 궁금하지만, 그동안 준비한 게 진짜 대단했어.",
+          "avoid": "결과 중심 질문으로 상대를 평가받는 기분 들게 하지 않기"
         }
-      ]
+      ],
+      "generation_version": "relationship-variety-v2"
     },
     {
       "date": "2026-06-13",
