@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-14",
+  "updated_at": "2026-06-17",
   "daily_count": 6,
   "refill_target_unused": 42,
   "items": [
@@ -335,6 +335,20 @@
     },
     {
       "difficulty": "초급",
+      "id": "health-handwashing-soap-and-water",
+      "category": "생활과학",
+      "title": "비누와 물로 손을 씻으면 오염을 줄일 수 있다",
+      "body": "비누와 물로 손 전체를 문지르고 흐르는 물로 헹구면 손에 붙은 오염과 일부 세균을 줄이는 데 도움이 됩니다. 손바닥뿐 아니라 손등, 손가락 사이, 손톱 주변까지 씻는 것이 중요합니다.",
+      "takeaway": "손 씻기는 전파를 끊는 가장 기본적인 위생 습관입니다.",
+      "sources": [
+        {
+          "label": "CDC Hand Hygiene",
+          "url": "https://www.cdc.gov/Clean-Hands/About/Hand-Hygiene-for-Healthcare.html"
+        }
+      ]
+    },
+    {
+      "difficulty": "초급",
       "id": "technology-barcode-pattern",
       "category": "기술",
       "title": "바코드는 굵기가 다른 선으로 정보를 표현한다",
@@ -652,6 +666,20 @@
         {
           "label": "MIT System Dynamics",
           "url": "https://mitsloan.mit.edu/faculty/academic-groups/system-dynamics"
+        }
+      ]
+    },
+    {
+      "difficulty": "중급",
+      "id": "environment-ozone-layer-absorbs-uvb",
+      "category": "환경",
+      "title": "오존층은 자외선 B의 대부분을 막는다",
+      "body": "EPA에 따르면 오존층은 성층권에서 태양의 유해한 자외선을 흡수해 지표에 닿는 양을 줄입니다. 특히 UVB는 대부분 오존에 흡수되며, 오존층이 약해지면 피부암과 백내장 위험이 커질 수 있습니다.",
+      "takeaway": "오존층은 눈에 보이지 않지만 지구 생명을 보호하는 방패 역할을 합니다.",
+      "sources": [
+        {
+          "label": "EPA Basic Ozone Layer Science",
+          "url": "https://www.epa.gov/ozone-layer-protection/basic-ozone-layer-science"
         }
       ]
     },
