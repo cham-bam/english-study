@@ -4,13 +4,14 @@ const {
   makeGeneratedKnowledge,
   KNOWLEDGE_GENERATION_VERSION,
   makeGeneratedEnglish,
+  ENGLISH_GENERATION_VERSION,
   makeGeneratedSpeakingArticle,
   SPEAKING_GENERATION_VERSION,
   makeGeneratedCare,
   CARE_GENERATION_VERSION,
   lookupEnglishWord,
   lookupExampleTranslation
-} = require("./generated-content");
+} = require("./source-summaries");
 
 const root = path.resolve(__dirname, "..");
 const dryRun = process.argv.includes("--dry-run");
@@ -134,7 +135,7 @@ function cloneKnowledgeItem(item) {
 function isGeneratedKnowledgeEntry(entry) {
   return getEntryItems(entry).some((item) => {
     const key = String(item.source_id || item.id || "");
-    return key.startsWith("generated-knowledge-");
+    return key.startsWith("generated-knowledge-") || key.startsWith("source-knowledge-");
   });
 }
 
@@ -213,6 +214,13 @@ function cloneEnglishWord(item) {
   };
 }
 
+function isSourceEnglishEntry(entry) {
+  return getEntryItems(entry).some((item) => {
+    const key = String(item.sources?.[0]?.url || "");
+    return key.includes("oxfordlearnersdictionaries.com");
+  });
+}
+
 function normalizeEnglishTranslations(english) {
   let changed = false;
   english.entries.forEach((entry) => {
@@ -240,7 +248,11 @@ function updateEnglish(date) {
   const normalized = normalizeEnglishTranslations(english);
 
   const existing = english.entries.find((entry) => entry.date === date);
-  if (existing) {
+  const shouldRegenerate = existing
+    && existing.generation_version !== ENGLISH_GENERATION_VERSION
+    && isSourceEnglishEntry(existing);
+
+  if (existing && !shouldRegenerate) {
     if (normalized) writeJson(paths.english, english);
     return {
       changed: normalized,
@@ -255,21 +267,28 @@ function updateEnglish(date) {
   const usedWords = new Set();
   let maxUsedDay = 0;
   english.entries.forEach((entry) => {
+    if (entry.date === date) return;
     maxUsedDay = Math.max(maxUsedDay, Number(entry.day || 0));
     getEntryItems(entry).forEach((item) => usedWords.add(normalizeKey(item.word)));
   });
 
   const picked = makeGeneratedEnglish(date, quota, usedWords);
 
-  const nextDay = maxUsedDay + 1;
+  const nextDay = existing ? Number(existing.day || maxUsedDay + 1) : maxUsedDay + 1;
   const entry = {
     date,
     day: nextDay,
     title: `Day ${nextDay} 난이도별 영단어 ${dailyCount}개`,
+    generation_version: ENGLISH_GENERATION_VERSION,
     items: picked.map(cloneEnglishWord)
   };
 
-  english.entries.unshift(entry);
+  if (existing) {
+    Object.assign(existing, entry);
+  } else {
+    english.entries.unshift(entry);
+  }
+  english.entries.sort((a, b) => String(b.date || "").localeCompare(String(a.date || "")));
   english.updated_at = date;
   english.default_daily_count = dailyCount;
   english.daily_by_difficulty = quota;
@@ -278,7 +297,7 @@ function updateEnglish(date) {
 
   return {
     changed: true,
-    reason: "english generated",
+    reason: shouldRegenerate ? "english regenerated from dictionary sources" : "english generated from dictionary sources",
     day: nextDay,
     picked: picked.map((item) => `${normalizeDifficulty(item.difficulty)}:${item.word}`)
   };

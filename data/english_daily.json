@@ -10,215 +10,216 @@
       "items": [
         {
           "difficulty": "초급",
-          "word": "wait",
-          "meaning": "기다리다",
-          "example": "Please wait for five minutes.",
-          "exampleKo": "5분만 기다려 주세요.",
-          "note": "기다리다라는 뜻입니다. 오늘은 복습 단어로 다시 문장 속에서 익혀보세요.",
+          "word": "meet",
+          "meaning": "만나다",
+          "example": "I meet my friend after work.",
+          "exampleKo": "나는 퇴근 후 친구를 만난다.",
+          "note": "Oxford Learner's Dictionaries 항목을 확인할 수 있는 단어입니다. 뜻과 예문을 함께 보고, 해석 버튼으로 한국어 의미를 확인하세요.",
           "sources": [
             {
               "label": "Oxford Learner's Dictionaries",
-              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/wait"
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/meet"
             }
           ]
         },
         {
           "difficulty": "초급",
-          "word": "carry",
-          "meaning": "나르다",
-          "example": "Can you carry this bag?",
-          "exampleKo": "이 가방을 들어 줄 수 있나요?",
-          "note": "나르다라는 뜻입니다. 오늘은 복습 단어로 다시 문장 속에서 익혀보세요.",
+          "word": "need",
+          "meaning": "필요하다",
+          "example": "You need a clear plan.",
+          "exampleKo": "너는 명확한 계획이 필요하다.",
+          "note": "Oxford Learner's Dictionaries 항목을 확인할 수 있는 단어입니다. 뜻과 예문을 함께 보고, 해석 버튼으로 한국어 의미를 확인하세요.",
           "sources": [
             {
               "label": "Oxford Learner's Dictionaries",
-              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/carry"
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/need"
             }
           ]
         },
         {
           "difficulty": "초급",
-          "word": "catch",
-          "meaning": "잡다",
-          "example": "He catches the ball.",
-          "exampleKo": "그는 공을 잡는다.",
-          "note": "잡다라는 뜻입니다. 오늘은 복습 단어로 다시 문장 속에서 익혀보세요.",
+          "word": "open",
+          "meaning": "열다",
+          "example": "Open the window, please.",
+          "exampleKo": "창문을 열어 주세요.",
+          "note": "Oxford Learner's Dictionaries 항목을 확인할 수 있는 단어입니다. 뜻과 예문을 함께 보고, 해석 버튼으로 한국어 의미를 확인하세요.",
           "sources": [
             {
               "label": "Oxford Learner's Dictionaries",
-              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/catch"
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/open"
             }
           ]
         },
         {
           "difficulty": "초급",
-          "word": "fill",
-          "meaning": "채우다",
-          "example": "Fill the bottle with water.",
-          "exampleKo": "병을 물로 채우세요.",
-          "note": "채우다라는 뜻입니다. 오늘은 복습 단어로 다시 문장 속에서 익혀보세요.",
+          "word": "move",
+          "meaning": "움직이다, 이사하다",
+          "example": "The family moves next week.",
+          "exampleKo": "그 가족은 다음 주에 이사한다.",
+          "note": "Oxford Learner's Dictionaries 출처로 다시 확인하는 복습 단어입니다. 오늘은 예문을 먼저 읽고 의미를 맞혀보세요.",
           "sources": [
             {
               "label": "Oxford Learner's Dictionaries",
-              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/fill"
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/move"
             }
           ]
         },
         {
           "difficulty": "초급",
-          "word": "guess",
-          "meaning": "추측하다",
-          "example": "Can you guess the meaning?",
-          "exampleKo": "그 뜻을 추측할 수 있나요?",
-          "note": "추측하다라는 뜻입니다. 오늘은 복습 단어로 다시 문장 속에서 익혀보세요.",
+          "word": "save",
+          "meaning": "아끼다, 저장하다",
+          "example": "This habit saves time.",
+          "exampleKo": "이 습관은 시간을 아낀다.",
+          "note": "Oxford Learner's Dictionaries 출처로 다시 확인하는 복습 단어입니다. 오늘은 예문을 먼저 읽고 의미를 맞혀보세요.",
           "sources": [
             {
               "label": "Oxford Learner's Dictionaries",
-              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/guess"
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/save"
             }
           ]
         },
         {
           "difficulty": "중급",
-          "word": "distribute",
-          "meaning": "분배하다",
-          "example": "The system distributes the workload.",
-          "exampleKo": "그 시스템은 작업량을 분배한다.",
-          "note": "분배하다라는 뜻입니다. 오늘은 복습 단어로 다시 문장 속에서 익혀보세요.",
+          "word": "optimize",
+          "meaning": "최적화하다",
+          "example": "The app optimizes the route.",
+          "exampleKo": "그 앱은 경로를 최적화한다.",
+          "note": "Oxford Learner's Dictionaries 항목을 확인할 수 있는 단어입니다. 뜻과 예문을 함께 보고, 해석 버튼으로 한국어 의미를 확인하세요.",
           "sources": [
             {
               "label": "Oxford Learner's Dictionaries",
-              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/distribute"
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/optimize"
             }
           ]
         },
         {
           "difficulty": "중급",
-          "word": "predict",
-          "meaning": "예측하다",
-          "example": "The model predicts future demand.",
-          "exampleKo": "그 모델은 미래 수요를 예측한다.",
-          "note": "예측하다라는 뜻입니다. 오늘은 복습 단어로 다시 문장 속에서 익혀보세요.",
+          "word": "distinguish",
+          "meaning": "구별하다",
+          "example": "We distinguish facts from opinions.",
+          "exampleKo": "우리는 사실과 의견을 구별한다.",
+          "note": "Oxford Learner's Dictionaries 항목을 확인할 수 있는 단어입니다. 뜻과 예문을 함께 보고, 해석 버튼으로 한국어 의미를 확인하세요.",
           "sources": [
             {
               "label": "Oxford Learner's Dictionaries",
-              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/predict"
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/distinguish"
             }
           ]
         },
         {
           "difficulty": "중급",
-          "word": "prevent",
-          "meaning": "예방하다",
-          "example": "Early action prevents bigger problems.",
-          "exampleKo": "빠른 조치는 더 큰 문제를 예방한다.",
-          "note": "예방하다라는 뜻입니다. 오늘은 복습 단어로 다시 문장 속에서 익혀보세요.",
+          "word": "allocate",
+          "meaning": "배분하다",
+          "example": "We allocate the budget carefully.",
+          "exampleKo": "우리는 예산을 신중하게 배분한다.",
+          "note": "Oxford Learner's Dictionaries 출처로 다시 확인하는 복습 단어입니다. 오늘은 예문을 먼저 읽고 의미를 맞혀보세요.",
           "sources": [
             {
               "label": "Oxford Learner's Dictionaries",
-              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/prevent"
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/allocate"
             }
           ]
         },
         {
           "difficulty": "중급",
-          "word": "reflect",
-          "meaning": "반영하다, 성찰하다",
-          "example": "The result reflects user behavior.",
-          "exampleKo": "그 결과는 사용자 행동을 반영한다.",
-          "note": "반영하다, 성찰하다라는 뜻입니다. 오늘은 복습 단어로 다시 문장 속에서 익혀보세요.",
+          "word": "adapt",
+          "meaning": "적응하다, 조정하다",
+          "example": "Companies adapt to new demand.",
+          "exampleKo": "기업들은 새로운 수요에 적응한다.",
+          "note": "Oxford Learner's Dictionaries 출처로 다시 확인하는 복습 단어입니다. 오늘은 예문을 먼저 읽고 의미를 맞혀보세요.",
           "sources": [
             {
               "label": "Oxford Learner's Dictionaries",
-              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/reflect"
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/adapt"
             }
           ]
         },
         {
           "difficulty": "중급",
-          "word": "facilitate",
-          "meaning": "촉진하다",
-          "example": "Clear rules facilitate teamwork.",
-          "exampleKo": "명확한 규칙은 팀워크를 촉진한다.",
-          "note": "촉진하다라는 뜻입니다. 오늘은 복습 단어로 다시 문장 속에서 익혀보세요.",
+          "word": "indicate",
+          "meaning": "나타내다",
+          "example": "The data indicates a clear trend.",
+          "exampleKo": "그 데이터는 뚜렷한 추세를 나타낸다.",
+          "note": "Oxford Learner's Dictionaries 출처로 다시 확인하는 복습 단어입니다. 오늘은 예문을 먼저 읽고 의미를 맞혀보세요.",
           "sources": [
             {
               "label": "Oxford Learner's Dictionaries",
-              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/facilitate"
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/indicate"
             }
           ]
         },
         {
           "difficulty": "고급",
-          "word": "tangible",
-          "meaning": "분명히 느낄 수 있는",
-          "example": "The change produced tangible benefits.",
-          "exampleKo": "그 변화는 분명한 이익을 만들었다.",
-          "note": "분명히 느낄 수 있는라는 뜻입니다. 오늘은 복습 단어로 다시 문장 속에서 익혀보세요.",
+          "word": "converge",
+          "meaning": "수렴하다",
+          "example": "Several signals converge on one conclusion.",
+          "exampleKo": "여러 신호가 하나의 결론으로 수렴한다.",
+          "note": "Oxford Learner's Dictionaries 항목을 확인할 수 있는 단어입니다. 뜻과 예문을 함께 보고, 해석 버튼으로 한국어 의미를 확인하세요.",
           "sources": [
             {
               "label": "Oxford Learner's Dictionaries",
-              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/tangible"
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/converge"
             }
           ]
         },
         {
           "difficulty": "고급",
-          "word": "latent",
-          "meaning": "잠재된",
-          "example": "The data shows latent demand.",
-          "exampleKo": "그 데이터는 잠재 수요를 보여 준다.",
-          "note": "잠재된라는 뜻입니다. 오늘은 복습 단어로 다시 문장 속에서 익혀보세요.",
+          "word": "calibrate",
+          "meaning": "조정하다",
+          "example": "We calibrate the model with new data.",
+          "exampleKo": "우리는 새 데이터로 모델을 조정한다.",
+          "note": "Oxford Learner's Dictionaries 항목을 확인할 수 있는 단어입니다. 뜻과 예문을 함께 보고, 해석 버튼으로 한국어 의미를 확인하세요.",
           "sources": [
             {
               "label": "Oxford Learner's Dictionaries",
-              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/latent"
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/calibrate"
             }
           ]
         },
         {
           "difficulty": "고급",
-          "word": "cohesive",
-          "meaning": "응집력 있는",
-          "example": "The team built a cohesive strategy.",
-          "exampleKo": "그 팀은 응집력 있는 전략을 세웠다.",
-          "note": "응집력 있는라는 뜻입니다. 오늘은 복습 단어로 다시 문장 속에서 익혀보세요.",
+          "word": "contingent",
+          "meaning": "조건부의",
+          "example": "The plan is contingent on funding.",
+          "exampleKo": "그 계획은 자금 확보에 달려 있다.",
+          "note": "Oxford Learner's Dictionaries 출처로 다시 확인하는 복습 단어입니다. 오늘은 예문을 먼저 읽고 의미를 맞혀보세요.",
           "sources": [
             {
               "label": "Oxford Learner's Dictionaries",
-              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/cohesive"
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/contingent"
             }
           ]
         },
         {
           "difficulty": "고급",
-          "word": "incremental",
-          "meaning": "점진적인",
-          "example": "Incremental progress still matters.",
-          "exampleKo": "점진적인 진전도 여전히 중요하다.",
-          "note": "점진적인라는 뜻입니다. 오늘은 복습 단어로 다시 문장 속에서 익혀보세요.",
+          "word": "empirical",
+          "meaning": "경험적, 실증적인",
+          "example": "Empirical evidence supports the model.",
+          "exampleKo": "실증적 증거가 그 모델을 뒷받침한다.",
+          "note": "Oxford Learner's Dictionaries 출처로 다시 확인하는 복습 단어입니다. 오늘은 예문을 먼저 읽고 의미를 맞혀보세요.",
           "sources": [
             {
               "label": "Oxford Learner's Dictionaries",
-              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/incremental"
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/empirical"
             }
           ]
         },
         {
           "difficulty": "고급",
-          "word": "contextual",
-          "meaning": "맥락적인",
-          "example": "Contextual clues clarify the meaning.",
-          "exampleKo": "맥락 단서는 의미를 명확히 한다.",
-          "note": "맥락적인라는 뜻입니다. 오늘은 복습 단어로 다시 문장 속에서 익혀보세요.",
+          "word": "substantiate",
+          "meaning": "입증하다",
+          "example": "The report substantiates the concern.",
+          "exampleKo": "그 보고서는 우려를 입증한다.",
+          "note": "Oxford Learner's Dictionaries 출처로 다시 확인하는 복습 단어입니다. 오늘은 예문을 먼저 읽고 의미를 맞혀보세요.",
           "sources": [
             {
               "label": "Oxford Learner's Dictionaries",
-              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/contextual"
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/substantiate"
             }
           ]
         }
-      ]
+      ],
+      "generation_version": "dictionary-source-v1"
     },
     {
       "date": "2026-06-16",
@@ -6160,7 +6161,8 @@
               "label": "Oxford Learner's Dictionaries",
               "url": "https://www.oxfordlearnersdictionaries.com/definition/english/sustain"
             }
-          ]
+          ],
+          "exampleKo": "그 도시는 장기 성장을 지속한다."
         },
         {
           "difficulty": "중급",
@@ -6714,7 +6716,8 @@
               "label": "Oxford Learner's Dictionaries",
               "url": "https://www.oxfordlearnersdictionaries.com/definition/english/save"
             }
-          ]
+          ],
+          "exampleKo": "이 습관은 시간을 아낀다."
         },
         {
           "difficulty": "초급",
@@ -6740,7 +6743,8 @@
               "label": "Oxford Learner's Dictionaries",
               "url": "https://www.oxfordlearnersdictionaries.com/definition/english/share"
             }
-          ]
+          ],
+          "exampleKo": "그들은 유용한 아이디어를 공유한다."
         },
         {
           "difficulty": "초급",
@@ -6916,7 +6920,8 @@
               "label": "Oxford Learner's Dictionaries",
               "url": "https://www.oxfordlearnersdictionaries.com/definition/english/move"
             }
-          ]
+          ],
+          "exampleKo": "그 가족은 다음 주에 이사한다."
         },
         {
           "difficulty": "초급",
@@ -7196,7 +7201,8 @@
               "label": "Oxford Learner's Dictionaries",
               "url": "https://www.oxfordlearnersdictionaries.com/definition/english/constrain"
             }
-          ]
+          ],
+          "exampleKo": "제한된 데이터가 분석을 제약한다."
         },
         {
           "difficulty": "중급",
@@ -7574,7 +7580,8 @@
               "label": "Oxford Learner's Dictionaries",
               "url": "https://www.oxfordlearnersdictionaries.com/definition/english/implement"
             }
-          ]
+          ],
+          "exampleKo": "그들은 새 정책을 실행한다."
         },
         {
           "difficulty": "중급",
@@ -7587,7 +7594,8 @@
               "label": "Oxford Learner's Dictionaries",
               "url": "https://www.oxfordlearnersdictionaries.com/definition/english/indicate"
             }
-          ]
+          ],
+          "exampleKo": "그 데이터는 뚜렷한 추세를 나타낸다."
         },
         {
           "difficulty": "중급",
@@ -7600,7 +7608,8 @@
               "label": "Oxford Learner's Dictionaries",
               "url": "https://www.oxfordlearnersdictionaries.com/definition/english/maintain"
             }
-          ]
+          ],
+          "exampleKo": "좋은 시스템은 품질을 유지한다."
         },
         {
           "difficulty": "중급",
@@ -7778,7 +7787,8 @@
               "label": "Oxford Learner's Dictionaries",
               "url": "https://www.oxfordlearnersdictionaries.com/definition/english/adapt"
             }
-          ]
+          ],
+          "exampleKo": "기업들은 새로운 수요에 적응한다."
         },
         {
           "difficulty": "중급",
@@ -7791,7 +7801,8 @@
               "label": "Oxford Learner's Dictionaries",
               "url": "https://www.oxfordlearnersdictionaries.com/definition/english/allocate"
             }
-          ]
+          ],
+          "exampleKo": "우리는 예산을 신중하게 배분한다."
         },
         {
           "difficulty": "중급",
@@ -7981,7 +7992,8 @@
               "label": "Oxford Learner's Dictionaries",
               "url": "https://www.oxfordlearnersdictionaries.com/definition/english/assess"
             }
-          ]
+          ],
+          "exampleKo": "그 팀은 위험을 평가한다."
         },
         {
           "difficulty": "중급",
@@ -8226,7 +8238,8 @@
               "label": "Oxford Learner's Dictionaries",
               "url": "https://www.oxfordlearnersdictionaries.com/definition/english/summarize"
             }
-          ]
+          ],
+          "exampleKo": "그녀는 보고서를 요약한다."
         },
         {
           "difficulty": "중급",
@@ -8392,7 +8405,8 @@
               "label": "Oxford Learner's Dictionaries",
               "url": "https://www.oxfordlearnersdictionaries.com/definition/english/learn"
             }
-          ]
+          ],
+          "exampleKo": "우리는 작은 실수에서 배운다."
         },
         {
           "difficulty": "중급",
@@ -8405,7 +8419,8 @@
               "label": "Oxford Learner's Dictionaries",
               "url": "https://www.oxfordlearnersdictionaries.com/definition/english/leave"
             }
-          ]
+          ],
+          "exampleKo": "우리는 내일 일찍 떠난다."
         },
         {
           "difficulty": "중급",
@@ -8699,7 +8714,8 @@
               "label": "Oxford Learner's Dictionaries",
               "url": "https://www.oxfordlearnersdictionaries.com/definition/english/contingent"
             }
-          ]
+          ],
+          "exampleKo": "그 계획은 자금 확보에 달려 있다."
         },
         {
           "difficulty": "고급",
@@ -8712,7 +8728,8 @@
               "label": "Oxford Learner's Dictionaries",
               "url": "https://www.oxfordlearnersdictionaries.com/definition/english/empirical"
             }
-          ]
+          ],
+          "exampleKo": "실증적 증거가 그 모델을 뒷받침한다."
         }
       ]
     },
@@ -8875,7 +8892,8 @@
               "label": "Oxford Learner's Dictionaries",
               "url": "https://www.oxfordlearnersdictionaries.com/definition/english/scrutinize"
             }
-          ]
+          ],
+          "exampleKo": "분석가들은 출처를 면밀히 살핀다."
         },
         {
           "difficulty": "고급",
@@ -8888,7 +8906,8 @@
               "label": "Oxford Learner's Dictionaries",
               "url": "https://www.oxfordlearnersdictionaries.com/definition/english/substantiate"
             }
-          ]
+          ],
+          "exampleKo": "그 보고서는 우려를 입증한다."
         },
         {
           "difficulty": "고급",
@@ -8934,7 +8953,8 @@
               "label": "Oxford Learner's Dictionaries",
               "url": "https://www.oxfordlearnersdictionaries.com/definition/english/close"
             }
-          ]
+          ],
+          "exampleKo": "문을 조용히 닫아 주세요."
         },
         {
           "difficulty": "초급",
@@ -9078,7 +9098,8 @@
               "label": "Oxford Learner's Dictionaries",
               "url": "https://www.oxfordlearnersdictionaries.com/definition/english/mitigate"
             }
-          ]
+          ],
+          "exampleKo": "그 정책은 재무 위험을 완화한다."
         },
         {
           "difficulty": "고급",
@@ -9518,7 +9539,8 @@
               "label": "Oxford Learner's Dictionaries",
               "url": "https://www.oxfordlearnersdictionaries.com/definition/english/corroborate"
             }
-          ]
+          ],
+          "exampleKo": "그 증거는 주장을 뒷받침한다."
         },
         {
           "difficulty": "고급",
@@ -9531,7 +9553,8 @@
               "label": "Oxford Learner's Dictionaries",
               "url": "https://www.oxfordlearnersdictionaries.com/definition/english/delineate"
             }
-          ]
+          ],
+          "exampleKo": "그 규칙은 책임을 명확히 구분한다."
         }
       ]
     },
@@ -9655,7 +9678,8 @@
               "url": "https://www.oxfordlearnersdictionaries.com/definition/english/bring"
             }
           ],
-          "difficulty": "초급"
+          "difficulty": "초급",
+          "exampleKo": "공책을 가져와 주세요."
         },
         {
           "word": "build",

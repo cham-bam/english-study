@@ -1041,6 +1041,7 @@
         ${item.why ? `<p class="care-why"><strong>왜 좋은가:</strong> ${escapeHtml(item.why)}</p>` : ""}
         ${item.avoid ? `<p class="care-avoid"><strong>주의:</strong> ${escapeHtml(item.avoid)}</p>` : ""}
         ${item.practice ? `<p class="care-practice"><strong>오늘 해볼 것:</strong> ${escapeHtml(item.practice)}</p>` : ""}
+        ${renderSourceLinks(item.sources)}
       </article>
     `).join("");
   }
