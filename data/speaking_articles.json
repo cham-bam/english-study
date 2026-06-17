@@ -1,7 +1,38 @@
 {
-  "updated_at": "2026-06-17",
+  "updated_at": "2026-06-18",
   "default_daily_count": 1,
   "entries": [
+    {
+      "date": "2026-06-18",
+      "title": "2026.06.18 1분 설명 아티클",
+      "generation_version": "source-speaking-v2",
+      "items": [
+        {
+          "id": "speaking-source-speaking-v2-2026-06-18-home-affordability",
+          "topic": "부동산",
+          "titleKo": "집을 살 수 있는지는 매매가가 아니라 월 부담액으로 판단해야 한다",
+          "bodyKo": "CFPB의 주택 구매 안내를 요약하면, 집값 하나만 보고 구매 가능성을 판단하면 실제 부담을 놓치기 쉽습니다. 첫째, 금리와 대출 기간은 같은 매매가의 집도 완전히 다른 월 납입액으로 바꿉니다. 둘째, 세금, 보험, 관리비, 수리비는 매달 생활비와 함께 나가는 비용입니다. 셋째, 집값 상승 기대가 있더라도 현금흐름이 버티지 못하면 생활 안정성이 흔들립니다. 1분 설명에서는 '가격보다 월 부담액, 월 부담액보다 지속 가능한 현금흐름' 순서로 말하면 구조가 잡힙니다. 출처 요약을 내 말로 바꿀 때는 세 가지를 붙이면 좋습니다. 먼저 이 출처가 어떤 문제를 경고하거나 설명하는지 말하고, 다음으로 그 문제가 실제 생활이나 산업에서 어떤 행동 변화를 요구하는지 연결합니다. 마지막으로 너무 단정하지 않고 한계를 붙입니다. 예를 들어 \"이 자료는 CFPB Owning a Home 기준의 요약이므로, 최신 수치나 개별 기업 사례는 별도 확인이 필요하다\"라고 닫으면 설명이 더 신뢰 있게 들립니다.",
+          "titleEn": "Housing affordability should be judged by monthly burden",
+          "bodyEn": "The CFPB home-buying guide shows that affordability is not the sale price alone. Interest rates and loan terms can turn the same home price into very different monthly payments. Taxes, insurance, maintenance, and repairs also affect the real cost of ownership. Even if someone expects prices to rise, weak cash flow can damage daily stability. To explain this in your own words, add three layers. Start with the problem the source is describing. Then connect it to a practical change in daily life or industry. Finally, close with a limitation: this is a summary based on CFPB Owning a Home, so current numbers or individual company cases should be checked separately.",
+          "point": "부동산 판단은 집값보다 월 부담액과 유지 가능한 현금흐름을 먼저 봐야 합니다.",
+          "steps": [
+            "출처가 말하는 핵심 배경을 한 문장으로 요약하기",
+            "근거 세 가지를 원인, 영향, 주의점 순서로 연결하기",
+            "내 판단 기준이나 생활 예시로 마무리하기"
+          ],
+          "questions": [
+            "이 출처 요약에서 가장 중요한 근거는 무엇일까?",
+            "내 말로 설명할 때 어떤 예시를 붙이면 더 쉬울까?"
+          ],
+          "sources": [
+            {
+              "label": "CFPB Owning a Home",
+              "url": "https://www.consumerfinance.gov/owning-a-home/"
+            }
+          ]
+        }
+      ]
+    },
     {
       "date": "2026-06-17",
       "title": "2026.06.17 1분 설명 아티클",
