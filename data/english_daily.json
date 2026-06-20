@@ -1,8 +1,226 @@
 {
-  "updated_at": "2026-06-20",
+  "updated_at": "2026-06-21",
   "default_daily_count": 15,
   "source": "01_기초_동사형용사.json",
   "entries": [
+    {
+      "date": "2026-06-21",
+      "day": 51,
+      "title": "Day 51 난이도별 영단어 15개",
+      "generation_version": "dictionary-source-v1",
+      "items": [
+        {
+          "difficulty": "초급",
+          "word": "need",
+          "meaning": "필요하다",
+          "example": "You need a clear plan.",
+          "exampleKo": "너는 명확한 계획이 필요하다.",
+          "note": "Oxford Learner's Dictionaries 출처로 다시 확인하는 복습 단어입니다. 오늘은 예문을 먼저 읽고 의미를 맞혀보세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/need"
+            }
+          ]
+        },
+        {
+          "difficulty": "초급",
+          "word": "open",
+          "meaning": "열다",
+          "example": "Open the window, please.",
+          "exampleKo": "창문을 열어 주세요.",
+          "note": "Oxford Learner's Dictionaries 출처로 다시 확인하는 복습 단어입니다. 오늘은 예문을 먼저 읽고 의미를 맞혀보세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/open"
+            }
+          ]
+        },
+        {
+          "difficulty": "초급",
+          "word": "close",
+          "meaning": "닫다",
+          "example": "Close the door quietly.",
+          "exampleKo": "문을 조용히 닫아 주세요.",
+          "note": "Oxford Learner's Dictionaries 출처로 다시 확인하는 복습 단어입니다. 오늘은 예문을 먼저 읽고 의미를 맞혀보세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/close"
+            }
+          ]
+        },
+        {
+          "difficulty": "초급",
+          "word": "learn",
+          "meaning": "배우다",
+          "example": "We learn from small mistakes.",
+          "exampleKo": "우리는 작은 실수에서 배운다.",
+          "note": "Oxford Learner's Dictionaries 출처로 다시 확인하는 복습 단어입니다. 오늘은 예문을 먼저 읽고 의미를 맞혀보세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/learn"
+            }
+          ]
+        },
+        {
+          "difficulty": "초급",
+          "word": "share",
+          "meaning": "공유하다",
+          "example": "They share useful ideas.",
+          "exampleKo": "그들은 유용한 아이디어를 공유한다.",
+          "note": "Oxford Learner's Dictionaries 출처로 다시 확인하는 복습 단어입니다. 오늘은 예문을 먼저 읽고 의미를 맞혀보세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/share"
+            }
+          ]
+        },
+        {
+          "difficulty": "중급",
+          "word": "summarize",
+          "meaning": "요약하다",
+          "example": "She summarizes the report.",
+          "exampleKo": "그녀는 보고서를 요약한다.",
+          "note": "Oxford Learner's Dictionaries 출처로 다시 확인하는 복습 단어입니다. 오늘은 예문을 먼저 읽고 의미를 맞혀보세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/summarize"
+            }
+          ]
+        },
+        {
+          "difficulty": "중급",
+          "word": "distinguish",
+          "meaning": "구별하다",
+          "example": "We distinguish facts from opinions.",
+          "exampleKo": "우리는 사실과 의견을 구별한다.",
+          "note": "Oxford Learner's Dictionaries 출처로 다시 확인하는 복습 단어입니다. 오늘은 예문을 먼저 읽고 의미를 맞혀보세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/distinguish"
+            }
+          ]
+        },
+        {
+          "difficulty": "중급",
+          "word": "implement",
+          "meaning": "실행하다, 구현하다",
+          "example": "They implement the new policy.",
+          "exampleKo": "그들은 새 정책을 실행한다.",
+          "note": "Oxford Learner's Dictionaries 출처로 다시 확인하는 복습 단어입니다. 오늘은 예문을 먼저 읽고 의미를 맞혀보세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/implement"
+            }
+          ]
+        },
+        {
+          "difficulty": "중급",
+          "word": "sustain",
+          "meaning": "지속하다",
+          "example": "The city sustains long-term growth.",
+          "exampleKo": "그 도시는 장기 성장을 지속한다.",
+          "note": "Oxford Learner's Dictionaries 출처로 다시 확인하는 복습 단어입니다. 오늘은 예문을 먼저 읽고 의미를 맞혀보세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/sustain"
+            }
+          ]
+        },
+        {
+          "difficulty": "중급",
+          "word": "assess",
+          "meaning": "평가하다",
+          "example": "The team assesses the risk.",
+          "exampleKo": "그 팀은 위험을 평가한다.",
+          "note": "Oxford Learner's Dictionaries 출처로 다시 확인하는 복습 단어입니다. 오늘은 예문을 먼저 읽고 의미를 맞혀보세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/assess"
+            }
+          ]
+        },
+        {
+          "difficulty": "고급",
+          "word": "calibrate",
+          "meaning": "조정하다",
+          "example": "We calibrate the model with new data.",
+          "exampleKo": "우리는 새 데이터로 모델을 조정한다.",
+          "note": "Oxford Learner's Dictionaries 출처로 다시 확인하는 복습 단어입니다. 오늘은 예문을 먼저 읽고 의미를 맞혀보세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/calibrate"
+            }
+          ]
+        },
+        {
+          "difficulty": "고급",
+          "word": "mitigate",
+          "meaning": "완화하다",
+          "example": "The policy mitigates financial risk.",
+          "exampleKo": "그 정책은 재무 위험을 완화한다.",
+          "note": "Oxford Learner's Dictionaries 출처로 다시 확인하는 복습 단어입니다. 오늘은 예문을 먼저 읽고 의미를 맞혀보세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/mitigate"
+            }
+          ]
+        },
+        {
+          "difficulty": "고급",
+          "word": "scrutinize",
+          "meaning": "면밀히 살피다",
+          "example": "Analysts scrutinize the source.",
+          "exampleKo": "분석가들은 출처를 면밀히 살핀다.",
+          "note": "Oxford Learner's Dictionaries 출처로 다시 확인하는 복습 단어입니다. 오늘은 예문을 먼저 읽고 의미를 맞혀보세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/scrutinize"
+            }
+          ]
+        },
+        {
+          "difficulty": "고급",
+          "word": "corroborate",
+          "meaning": "입증하다, 뒷받침하다",
+          "example": "The evidence corroborates the claim.",
+          "exampleKo": "그 증거는 주장을 뒷받침한다.",
+          "note": "Oxford Learner's Dictionaries 출처로 다시 확인하는 복습 단어입니다. 오늘은 예문을 먼저 읽고 의미를 맞혀보세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/corroborate"
+            }
+          ]
+        },
+        {
+          "difficulty": "고급",
+          "word": "delineate",
+          "meaning": "명확히 구분하다",
+          "example": "The rule delineates responsibility.",
+          "exampleKo": "그 규칙은 책임을 명확히 구분한다.",
+          "note": "Oxford Learner's Dictionaries 출처로 다시 확인하는 복습 단어입니다. 오늘은 예문을 먼저 읽고 의미를 맞혀보세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/delineate"
+            }
+          ]
+        }
+      ]
+    },
     {
       "date": "2026-06-20",
       "day": 50,
