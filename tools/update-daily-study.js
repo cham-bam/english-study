@@ -28,6 +28,7 @@ const paths = {
   knowledgePool: path.join(root, "data", "knowledge_pool.json"),
   english: path.join(root, "data", "english_daily.json"),
   englishSource: path.join(root, "01_기초_동사형용사.json"),
+  wrongWords: path.join(root, "오답노트.json"),
   speaking: path.join(root, "data", "speaking_articles.json"),
   speakingPool: path.join(root, "data", "speaking_article_pool.json"),
   care: path.join(root, "data", "care_daily.json")
@@ -40,6 +41,15 @@ function readJson(file) {
 function writeJson(file, value) {
   if (dryRun) return;
   fs.writeFileSync(file, JSON.stringify(value, null, 2) + "\n");
+}
+
+function readJsonSafe(file, fallback) {
+  try {
+    if (!fs.existsSync(file)) return fallback;
+    return readJson(file);
+  } catch {
+    return fallback;
+  }
 }
 
 function getKstDate() {
@@ -70,6 +80,23 @@ function normalizeDifficulty(value) {
 
 function getEntryItems(entry) {
   return Array.isArray(entry?.items) ? entry.items : [];
+}
+
+function latestEntryDate(entries) {
+  return (Array.isArray(entries) ? entries : [])
+    .map((entry) => String(entry?.date || ""))
+    .filter(Boolean)
+    .sort()
+    .at(-1) || "";
+}
+
+function setUpdatedAt(collection, date) {
+  const latest = [collection.updated_at, date, latestEntryDate(collection.entries)]
+    .map((value) => String(value || ""))
+    .filter(Boolean)
+    .sort()
+    .at(-1);
+  collection.updated_at = latest || date;
 }
 
 function getQuotaMap(source, fallback) {
@@ -179,7 +206,7 @@ function updateKnowledge(date) {
   } else {
     knowledge.entries.unshift(entry);
   }
-  knowledge.updated_at = date;
+  setUpdatedAt(knowledge, date);
   knowledge.default_daily_count = dailyCount;
   knowledge.daily_by_difficulty = quota;
 
@@ -219,6 +246,69 @@ function isSourceEnglishEntry(entry) {
     const key = String(item.sources?.[0]?.url || "");
     return key.includes("oxfordlearnersdictionaries.com");
   });
+}
+
+function isSunday(date) {
+  return new Date(`${date}T00:00:00Z`).getUTCDay() === 0;
+}
+
+function normalizeReviewWord(item) {
+  const word = typeof item === "string" ? item : item?.word;
+  if (!word) return null;
+  const fromSource = lookupEnglishWord(word);
+  if (fromSource) return fromSource;
+  if (typeof item === "object" && item.meaning && item.example) {
+    return {
+      difficulty: normalizeDifficulty(item.difficulty),
+      word: item.word,
+      meaning: item.meaning,
+      example: item.example,
+      exampleKo: item.exampleKo || "",
+      note: item.note || "",
+      sources: item.sources || [
+        {
+          label: "Oxford Learner's Dictionaries",
+          url: oxfordUrl(item.word)
+        }
+      ]
+    };
+  }
+  return null;
+}
+
+function getWrongReviewWords() {
+  const wrong = readJsonSafe(paths.wrongWords, { words: [] });
+  const words = Array.isArray(wrong.words) ? wrong.words : [];
+  const result = { "초급": [], "중급": [], "고급": [] };
+
+  words.forEach((item) => {
+    const normalized = normalizeReviewWord(item);
+    if (!normalized) return;
+    result[normalizeDifficulty(normalized.difficulty)].push(normalized);
+  });
+
+  return result;
+}
+
+function getRecentEnglishWordsByDifficulty(english, date, limit = 60) {
+  const result = { "초급": [], "중급": [], "고급": [] };
+  const seen = new Set();
+  const entries = [...english.entries]
+    .filter((entry) => entry.date !== date)
+    .sort((a, b) => String(b.date || "").localeCompare(String(a.date || "")));
+
+  entries.forEach((entry) => {
+    getEntryItems(entry).forEach((item) => {
+      const key = normalizeKey(item.word);
+      if (!key || seen.has(key)) return;
+      const difficulty = normalizeDifficulty(item.difficulty);
+      if (result[difficulty].length >= limit) return;
+      seen.add(key);
+      result[difficulty].push(cloneEnglishWord(item));
+    });
+  });
+
+  return result;
 }
 
 function normalizeEnglishTranslations(english) {
@@ -266,19 +356,25 @@ function updateEnglish(date) {
   const dailyCount = quotaTotal(quota);
   const usedWords = new Set();
   let maxUsedDay = 0;
+  const reviewWordsByDifficulty = getWrongReviewWords();
+  const recentWordsByDifficulty = getRecentEnglishWordsByDifficulty(english, date);
   english.entries.forEach((entry) => {
     if (entry.date === date) return;
     maxUsedDay = Math.max(maxUsedDay, Number(entry.day || 0));
     getEntryItems(entry).forEach((item) => usedWords.add(normalizeKey(item.word)));
   });
 
-  const picked = makeGeneratedEnglish(date, quota, usedWords);
+  const picked = makeGeneratedEnglish(date, quota, usedWords, {
+    reviewWordsByDifficulty,
+    recentWordsByDifficulty
+  });
 
   const nextDay = existing ? Number(existing.day || maxUsedDay + 1) : maxUsedDay + 1;
+  const sundayReview = isSunday(date);
   const entry = {
     date,
     day: nextDay,
-    title: `Day ${nextDay} 난이도별 영단어 ${dailyCount}개`,
+    title: sundayReview ? `Day ${nextDay} 일요일 복습 영단어 ${picked.length}개` : `Day ${nextDay} 난이도별 영단어 ${picked.length}개`,
     generation_version: ENGLISH_GENERATION_VERSION,
     items: picked.map(cloneEnglishWord)
   };
@@ -289,7 +385,7 @@ function updateEnglish(date) {
     english.entries.unshift(entry);
   }
   english.entries.sort((a, b) => String(b.date || "").localeCompare(String(a.date || "")));
-  english.updated_at = date;
+  setUpdatedAt(english, date);
   english.default_daily_count = dailyCount;
   english.daily_by_difficulty = quota;
 
@@ -297,7 +393,9 @@ function updateEnglish(date) {
 
   return {
     changed: true,
-    reason: shouldRegenerate ? "english regenerated from dictionary sources" : "english generated from dictionary sources",
+    reason: sundayReview
+      ? "english Sunday review generated from difficult words"
+      : shouldRegenerate ? "english regenerated from dictionary sources" : "english generated from dictionary sources",
     day: nextDay,
     picked: picked.map((item) => `${normalizeDifficulty(item.difficulty)}:${item.word}`)
   };
@@ -421,7 +519,7 @@ function updateSpeakingArticle(date) {
   });
 
   speaking.entries.sort((a, b) => String(b.date || "").localeCompare(String(a.date || "")));
-  speaking.updated_at = date;
+  setUpdatedAt(speaking, date);
   speaking.default_daily_count = DEFAULT_SPEAKING_DAILY_COUNT;
 
   writeJson(paths.speaking, speaking);
@@ -482,7 +580,7 @@ function updateCare(date) {
     care.entries.unshift(entry);
   }
   care.entries.sort((a, b) => String(b.date || "").localeCompare(String(a.date || "")));
-  care.updated_at = date;
+  setUpdatedAt(care, date);
   care.default_daily_count = DEFAULT_CARE_DAILY_COUNT;
 
   writeJson(paths.care, care);

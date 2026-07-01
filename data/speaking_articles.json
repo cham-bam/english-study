@@ -5,15 +5,15 @@
     {
       "date": "2026-07-01",
       "title": "2026.07.01 1분 설명 아티클",
-      "generation_version": "source-speaking-v2",
+      "generation_version": "source-speaking-v3",
       "items": [
         {
-          "id": "speaking-source-speaking-v2-2026-07-01-ev-charging",
+          "id": "speaking-source-speaking-v3-2026-07-01-ev-charging",
           "topic": "자동차 산업",
           "titleKo": "전기차 시장은 차량 스펙에서 충전 경험 경쟁으로 이동한다",
-          "bodyKo": "미국 에너지부의 전기차 자료를 요약하면, 전기차 선택은 배터리 용량이나 주행거리만으로 끝나지 않습니다. 첫째, 집이나 직장에서 충전할 수 있는 사람은 일상 사용의 불편이 크게 줄어듭니다. 둘째, 장거리 이동에서는 충전기의 위치뿐 아니라 작동 여부, 충전 속도, 대기 시간이 중요합니다. 셋째, 전기차 비용은 구매가와 연료비, 유지비를 함께 보는 총소유비용 관점으로 이해해야 합니다. 1분 설명에서는 전기차의 다음 경쟁력이 '차량 성능 + 충전 생활권'이라고 정리하면 됩니다. 출처 요약을 내 말로 바꿀 때는 세 가지를 붙이면 좋습니다. 먼저 이 출처가 어떤 문제를 경고하거나 설명하는지 말하고, 다음으로 그 문제가 실제 생활이나 산업에서 어떤 행동 변화를 요구하는지 연결합니다. 마지막으로 너무 단정하지 않고 한계를 붙입니다. 예를 들어 \"이 자료는 U.S. DOE Electric Vehicles 기준의 요약이므로, 최신 수치나 개별 기업 사례는 별도 확인이 필요하다\"라고 닫으면 설명이 더 신뢰 있게 들립니다.",
+          "bodyKo": "전기차 선택은 배터리 용량이나 주행거리만으로 끝나지 않습니다. 첫째, 집이나 직장에서 충전할 수 있는 사람은 일상 사용의 불편이 크게 줄어듭니다. 둘째, 장거리 이동에서는 충전기의 위치뿐 아니라 작동 여부, 충전 속도, 대기 시간이 중요합니다. 셋째, 전기차 비용은 구매가와 연료비, 유지비를 함께 보는 총소유비용 관점으로 이해해야 합니다. 1분 설명에서는 전기차의 다음 경쟁력이 '차량 성능 + 충전 생활권'이라고 정리하면 됩니다. 1분 설명은 세 단계로 잡으면 좋습니다. 먼저 핵심 변화나 문제를 한 문장으로 말하고, 다음으로 실제 생활이나 산업에서 바뀌는 행동을 연결합니다. 마지막으로 최신 수치와 개별 사례는 출처를 다시 확인해야 한다고 덧붙이면 설명이 단단해집니다.",
           "titleEn": "EV competition is shifting toward charging experience",
-          "bodyEn": "The U.S. Department of Energy explains that EV choice is not just battery size or driving range. Home or workplace charging greatly reduces daily friction. On long trips, charger reliability, speed, and waiting time matter. EV cost should also be understood through total cost of ownership, including energy and maintenance. To explain this in your own words, add three layers. Start with the problem the source is describing. Then connect it to a practical change in daily life or industry. Finally, close with a limitation: this is a summary based on U.S. DOE Electric Vehicles, so current numbers or individual company cases should be checked separately.",
+          "bodyEn": "The U.S. Department of Energy explains that EV choice is not just battery size or driving range. Home or workplace charging greatly reduces daily friction. On long trips, charger reliability, speed, and waiting time matter. EV cost should also be understood through total cost of ownership, including energy and maintenance. To explain this in your own words, use three steps. Start with the core change or problem in one sentence. Then connect it to a practical shift in daily life or industry. Finally, add that current numbers and individual cases should be checked against the source.",
           "point": "전기차 확산의 관건은 좋은 차를 넘어서 믿을 수 있는 충전 생활권입니다.",
           "steps": [
             "출처가 말하는 핵심 배경을 한 문장으로 요약하기",
@@ -21,7 +21,7 @@
             "내 판단 기준이나 생활 예시로 마무리하기"
           ],
           "questions": [
-            "이 출처 요약에서 가장 중요한 근거는 무엇일까?",
+            "이 주장에서 가장 중요한 근거는 무엇일까?",
             "내 말로 설명할 때 어떤 예시를 붙이면 더 쉬울까?"
           ],
           "sources": [
@@ -36,15 +36,15 @@
     {
       "date": "2026-06-30",
       "title": "2026.06.30 1분 설명 아티클",
-      "generation_version": "source-speaking-v2",
+      "generation_version": "source-speaking-v3",
       "items": [
         {
-          "id": "speaking-source-speaking-v2-2026-06-30-home-affordability",
+          "id": "speaking-source-speaking-v3-2026-06-30-home-affordability",
           "topic": "부동산",
           "titleKo": "집을 살 수 있는지는 매매가가 아니라 월 부담액으로 판단해야 한다",
-          "bodyKo": "CFPB의 주택 구매 안내를 요약하면, 집값 하나만 보고 구매 가능성을 판단하면 실제 부담을 놓치기 쉽습니다. 첫째, 금리와 대출 기간은 같은 매매가의 집도 완전히 다른 월 납입액으로 바꿉니다. 둘째, 세금, 보험, 관리비, 수리비는 매달 생활비와 함께 나가는 비용입니다. 셋째, 집값 상승 기대가 있더라도 현금흐름이 버티지 못하면 생활 안정성이 흔들립니다. 1분 설명에서는 '가격보다 월 부담액, 월 부담액보다 지속 가능한 현금흐름' 순서로 말하면 구조가 잡힙니다. 출처 요약을 내 말로 바꿀 때는 세 가지를 붙이면 좋습니다. 먼저 이 출처가 어떤 문제를 경고하거나 설명하는지 말하고, 다음으로 그 문제가 실제 생활이나 산업에서 어떤 행동 변화를 요구하는지 연결합니다. 마지막으로 너무 단정하지 않고 한계를 붙입니다. 예를 들어 \"이 자료는 CFPB Owning a Home 기준의 요약이므로, 최신 수치나 개별 기업 사례는 별도 확인이 필요하다\"라고 닫으면 설명이 더 신뢰 있게 들립니다.",
+          "bodyKo": "집값 하나만 보고 구매 가능성을 판단하면 실제 부담을 놓치기 쉽습니다. 첫째, 금리와 대출 기간은 같은 매매가의 집도 완전히 다른 월 납입액으로 바꿉니다. 둘째, 세금, 보험, 관리비, 수리비는 매달 생활비와 함께 나가는 비용입니다. 셋째, 집값 상승 기대가 있더라도 현금흐름이 버티지 못하면 생활 안정성이 흔들립니다. 1분 설명에서는 '가격보다 월 부담액, 월 부담액보다 지속 가능한 현금흐름' 순서로 말하면 구조가 잡힙니다. 1분 설명은 세 단계로 잡으면 좋습니다. 먼저 핵심 변화나 문제를 한 문장으로 말하고, 다음으로 실제 생활이나 산업에서 바뀌는 행동을 연결합니다. 마지막으로 최신 수치와 개별 사례는 출처를 다시 확인해야 한다고 덧붙이면 설명이 단단해집니다.",
           "titleEn": "Housing affordability should be judged by monthly burden",
-          "bodyEn": "The CFPB home-buying guide shows that affordability is not the sale price alone. Interest rates and loan terms can turn the same home price into very different monthly payments. Taxes, insurance, maintenance, and repairs also affect the real cost of ownership. Even if someone expects prices to rise, weak cash flow can damage daily stability. To explain this in your own words, add three layers. Start with the problem the source is describing. Then connect it to a practical change in daily life or industry. Finally, close with a limitation: this is a summary based on CFPB Owning a Home, so current numbers or individual company cases should be checked separately.",
+          "bodyEn": "The CFPB home-buying guide shows that affordability is not the sale price alone. Interest rates and loan terms can turn the same home price into very different monthly payments. Taxes, insurance, maintenance, and repairs also affect the real cost of ownership. Even if someone expects prices to rise, weak cash flow can damage daily stability. To explain this in your own words, use three steps. Start with the core change or problem in one sentence. Then connect it to a practical shift in daily life or industry. Finally, add that current numbers and individual cases should be checked against the source.",
           "point": "부동산 판단은 집값보다 월 부담액과 유지 가능한 현금흐름을 먼저 봐야 합니다.",
           "steps": [
             "출처가 말하는 핵심 배경을 한 문장으로 요약하기",
@@ -52,7 +52,7 @@
             "내 판단 기준이나 생활 예시로 마무리하기"
           ],
           "questions": [
-            "이 출처 요약에서 가장 중요한 근거는 무엇일까?",
+            "이 주장에서 가장 중요한 근거는 무엇일까?",
             "내 말로 설명할 때 어떤 예시를 붙이면 더 쉬울까?"
           ],
           "sources": [
@@ -67,15 +67,15 @@
     {
       "date": "2026-06-29",
       "title": "2026.06.29 1분 설명 아티클",
-      "generation_version": "source-speaking-v2",
+      "generation_version": "source-speaking-v3",
       "items": [
         {
-          "id": "speaking-source-speaking-v2-2026-06-29-industrial-ai-bottleneck",
+          "id": "speaking-source-speaking-v3-2026-06-29-industrial-ai-bottleneck",
           "topic": "AI + 산업",
           "titleKo": "산업 AI는 화려한 답변보다 병목 제거에서 가치가 난다",
-          "bodyKo": "NIST의 AI 관리 관점으로 산업 적용을 요약하면, AI의 가치는 멋진 답변보다 반복 업무의 병목을 줄일 때 분명해집니다. 첫째, 생산, 물류, 고객 응대 중 시간이 가장 많이 막히는 지점을 찾아야 적용 지점이 보입니다. 둘째, 오류 비용이 큰 단계일수록 작은 자동화도 큰 효과를 낼 수 있습니다. 셋째, 데이터가 정리되어 있지 않으면 좋은 모델도 현장 개선으로 이어지기 어렵습니다. 1분 설명에서는 '산업 AI는 모델 도입이 아니라 병목 정의와 성과 측정의 문제'라고 말하면 됩니다. 출처 요약을 내 말로 바꿀 때는 세 가지를 붙이면 좋습니다. 먼저 이 출처가 어떤 문제를 경고하거나 설명하는지 말하고, 다음으로 그 문제가 실제 생활이나 산업에서 어떤 행동 변화를 요구하는지 연결합니다. 마지막으로 너무 단정하지 않고 한계를 붙입니다. 예를 들어 \"이 자료는 NIST AI RMF 기준의 요약이므로, 최신 수치나 개별 기업 사례는 별도 확인이 필요하다\"라고 닫으면 설명이 더 신뢰 있게 들립니다.",
+          "bodyKo": "AI의 가치는 멋진 답변보다 반복 업무의 병목을 줄일 때 분명해집니다. 첫째, 생산, 물류, 고객 응대 중 시간이 가장 많이 막히는 지점을 찾아야 적용 지점이 보입니다. 둘째, 오류 비용이 큰 단계일수록 작은 자동화도 큰 효과를 낼 수 있습니다. 셋째, 데이터가 정리되어 있지 않으면 좋은 모델도 현장 개선으로 이어지기 어렵습니다. 1분 설명에서는 '산업 AI는 모델 도입이 아니라 병목 정의와 성과 측정의 문제'라고 말하면 됩니다. 1분 설명은 세 단계로 잡으면 좋습니다. 먼저 핵심 변화나 문제를 한 문장으로 말하고, 다음으로 실제 생활이나 산업에서 바뀌는 행동을 연결합니다. 마지막으로 최신 수치와 개별 사례는 출처를 다시 확인해야 한다고 덧붙이면 설명이 단단해집니다.",
           "titleEn": "Industrial AI creates value by removing bottlenecks",
-          "bodyEn": "From an AI risk-management perspective, industrial AI creates clear value when it reduces operational bottlenecks. Companies first need to identify where work is delayed in production, logistics, or service. Small automation can matter when a task repeats often or mistakes are expensive. But without clean operational data, even a strong model may not improve the field process. To explain this in your own words, add three layers. Start with the problem the source is describing. Then connect it to a practical change in daily life or industry. Finally, close with a limitation: this is a summary based on NIST AI RMF, so current numbers or individual company cases should be checked separately.",
+          "bodyEn": "From an AI risk-management perspective, industrial AI creates clear value when it reduces operational bottlenecks. Companies first need to identify where work is delayed in production, logistics, or service. Small automation can matter when a task repeats often or mistakes are expensive. But without clean operational data, even a strong model may not improve the field process. To explain this in your own words, use three steps. Start with the core change or problem in one sentence. Then connect it to a practical shift in daily life or industry. Finally, add that current numbers and individual cases should be checked against the source.",
           "point": "산업 AI는 가장 막힌 단계를 줄일 때 실제 생산성으로 바뀝니다.",
           "steps": [
             "출처가 말하는 핵심 배경을 한 문장으로 요약하기",
@@ -83,7 +83,7 @@
             "내 판단 기준이나 생활 예시로 마무리하기"
           ],
           "questions": [
-            "이 출처 요약에서 가장 중요한 근거는 무엇일까?",
+            "이 주장에서 가장 중요한 근거는 무엇일까?",
             "내 말로 설명할 때 어떤 예시를 붙이면 더 쉬울까?"
           ],
           "sources": [
@@ -98,15 +98,15 @@
     {
       "date": "2026-06-28",
       "title": "2026.06.28 1분 설명 아티클",
-      "generation_version": "source-speaking-v2",
+      "generation_version": "source-speaking-v3",
       "items": [
         {
-          "id": "speaking-source-speaking-v2-2026-06-28-auto-safety-tech",
+          "id": "speaking-source-speaking-v3-2026-06-28-auto-safety-tech",
           "topic": "자동차 + AI",
           "titleKo": "차량 안전 기술은 운전자를 없애기보다 위험 순간을 줄인다",
-          "bodyKo": "NHTSA의 차량 안전 기술 자료를 요약하면, 운전자 보조 기술은 운전자를 완전히 대체하기보다 위험 순간을 줄이는 보조 체계입니다. 첫째, 센서와 경고는 사람이 놓칠 수 있는 거리와 속도 변화를 빠르게 잡아냅니다. 둘째, 자동 긴급제동이나 차선 유지 기능은 사고 직전의 반응 시간을 늘립니다. 셋째, 기술의 한계를 모르면 운전자가 시스템을 과신해 오히려 위험해질 수 있습니다. 1분 설명에서는 '자동차 AI는 만능 조종사가 아니라 위험을 줄이는 보조자'라고 말하면 핵심이 잡힙니다. 출처 요약을 내 말로 바꿀 때는 세 가지를 붙이면 좋습니다. 먼저 이 출처가 어떤 문제를 경고하거나 설명하는지 말하고, 다음으로 그 문제가 실제 생활이나 산업에서 어떤 행동 변화를 요구하는지 연결합니다. 마지막으로 너무 단정하지 않고 한계를 붙입니다. 예를 들어 \"이 자료는 NHTSA Driver Assistance Technologies 기준의 요약이므로, 최신 수치나 개별 기업 사례는 별도 확인이 필요하다\"라고 닫으면 설명이 더 신뢰 있게 들립니다.",
+          "bodyKo": "운전자 보조 기술은 운전자를 완전히 대체하기보다 위험 순간을 줄이는 보조 체계입니다. 첫째, 센서와 경고는 사람이 놓칠 수 있는 거리와 속도 변화를 빠르게 잡아냅니다. 둘째, 자동 긴급제동이나 차선 유지 기능은 사고 직전의 반응 시간을 늘립니다. 셋째, 기술의 한계를 모르면 운전자가 시스템을 과신해 오히려 위험해질 수 있습니다. 1분 설명에서는 '자동차 AI는 만능 조종사가 아니라 위험을 줄이는 보조자'라고 말하면 핵심이 잡힙니다. 1분 설명은 세 단계로 잡으면 좋습니다. 먼저 핵심 변화나 문제를 한 문장으로 말하고, 다음으로 실제 생활이나 산업에서 바뀌는 행동을 연결합니다. 마지막으로 최신 수치와 개별 사례는 출처를 다시 확인해야 한다고 덧붙이면 설명이 단단해집니다.",
           "titleEn": "Vehicle safety technology reduces risky moments",
-          "bodyEn": "NHTSA materials on vehicle safety technology show that driver assistance is not a full replacement for drivers. Sensors and warnings detect changes in distance and speed. Emergency braking and lane support can add reaction time before a crash. But drivers still need to understand system limits to avoid overconfidence. To explain this in your own words, add three layers. Start with the problem the source is describing. Then connect it to a practical change in daily life or industry. Finally, close with a limitation: this is a summary based on NHTSA Driver Assistance Technologies, so current numbers or individual company cases should be checked separately.",
+          "bodyEn": "NHTSA materials on vehicle safety technology show that driver assistance is not a full replacement for drivers. Sensors and warnings detect changes in distance and speed. Emergency braking and lane support can add reaction time before a crash. But drivers still need to understand system limits to avoid overconfidence. To explain this in your own words, use three steps. Start with the core change or problem in one sentence. Then connect it to a practical shift in daily life or industry. Finally, add that current numbers and individual cases should be checked against the source.",
           "point": "자동차 AI의 가치는 완전 대체보다 위험 순간의 대응 여지를 넓히는 데 있습니다.",
           "steps": [
             "출처가 말하는 핵심 배경을 한 문장으로 요약하기",
@@ -114,7 +114,7 @@
             "내 판단 기준이나 생활 예시로 마무리하기"
           ],
           "questions": [
-            "이 출처 요약에서 가장 중요한 근거는 무엇일까?",
+            "이 주장에서 가장 중요한 근거는 무엇일까?",
             "내 말로 설명할 때 어떤 예시를 붙이면 더 쉬울까?"
           ],
           "sources": [
@@ -129,15 +129,15 @@
     {
       "date": "2026-06-27",
       "title": "2026.06.27 1분 설명 아티클",
-      "generation_version": "source-speaking-v2",
+      "generation_version": "source-speaking-v3",
       "items": [
         {
-          "id": "speaking-source-speaking-v2-2026-06-27-ai-building-management",
+          "id": "speaking-source-speaking-v3-2026-06-27-ai-building-management",
           "topic": "부동산 + AI",
           "titleKo": "AI 건물 관리는 고장 후 수리에서 고장 전 감지로 이동한다",
-          "bodyKo": "NIST의 AI 위험 관리 관점과 건물 운영의 일반 원리를 연결해 요약하면, AI 건물 관리는 설비 데이터를 통해 이상 신호를 더 빨리 찾는 방향으로 발전합니다. 첫째, 온도, 전력 사용, 진동, 출입 패턴 같은 데이터는 설비 상태의 단서가 됩니다. 둘째, 고장을 예측하면 입주자 불편과 운영 중단을 줄일 수 있습니다. 셋째, 건물 데이터는 사생활과 보안 문제를 만들 수 있어 수집 범위와 접근 권한을 명확히 해야 합니다. 1분 설명에서는 '효율과 신뢰를 동시에 설계해야 하는 운영 기술'이라고 정리하면 좋습니다. 출처 요약을 내 말로 바꿀 때는 세 가지를 붙이면 좋습니다. 먼저 이 출처가 어떤 문제를 경고하거나 설명하는지 말하고, 다음으로 그 문제가 실제 생활이나 산업에서 어떤 행동 변화를 요구하는지 연결합니다. 마지막으로 너무 단정하지 않고 한계를 붙입니다. 예를 들어 \"이 자료는 NIST AI RMF 기준의 요약이므로, 최신 수치나 개별 기업 사례는 별도 확인이 필요하다\"라고 닫으면 설명이 더 신뢰 있게 들립니다.",
+          "bodyKo": "AI 건물 관리는 설비 데이터를 통해 이상 신호를 더 빨리 찾는 방향으로 발전합니다. 첫째, 온도, 전력 사용, 진동, 출입 패턴 같은 데이터는 설비 상태의 단서가 됩니다. 둘째, 고장을 예측하면 입주자 불편과 운영 중단을 줄일 수 있습니다. 셋째, 건물 데이터는 사생활과 보안 문제를 만들 수 있어 수집 범위와 접근 권한을 명확히 해야 합니다. 1분 설명에서는 '효율과 신뢰를 동시에 설계해야 하는 운영 기술'이라고 정리하면 좋습니다. 1분 설명은 세 단계로 잡으면 좋습니다. 먼저 핵심 변화나 문제를 한 문장으로 말하고, 다음으로 실제 생활이나 산업에서 바뀌는 행동을 연결합니다. 마지막으로 최신 수치와 개별 사례는 출처를 다시 확인해야 한다고 덧붙이면 설명이 단단해집니다.",
           "titleEn": "AI building management moves from repair to early detection",
-          "bodyEn": "Using the NIST AI risk-management view, AI building management can be explained as a shift toward earlier detection of operational problems. Data such as temperature, energy use, vibration, and access patterns can signal equipment condition. Predictive maintenance can reduce tenant inconvenience and downtime. But building data also raises privacy and security questions, so access rules matter. To explain this in your own words, add three layers. Start with the problem the source is describing. Then connect it to a practical change in daily life or industry. Finally, close with a limitation: this is a summary based on NIST AI RMF, so current numbers or individual company cases should be checked separately.",
+          "bodyEn": "Using the NIST AI risk-management view, AI building management can be explained as a shift toward earlier detection of operational problems. Data such as temperature, energy use, vibration, and access patterns can signal equipment condition. Predictive maintenance can reduce tenant inconvenience and downtime. But building data also raises privacy and security questions, so access rules matter. To explain this in your own words, use three steps. Start with the core change or problem in one sentence. Then connect it to a practical shift in daily life or industry. Finally, add that current numbers and individual cases should be checked against the source.",
           "point": "AI 건물 관리는 비용 절감 기술이면서 데이터 신뢰와 권한 설계가 필요한 운영 방식입니다.",
           "steps": [
             "출처가 말하는 핵심 배경을 한 문장으로 요약하기",
@@ -145,7 +145,7 @@
             "내 판단 기준이나 생활 예시로 마무리하기"
           ],
           "questions": [
-            "이 출처 요약에서 가장 중요한 근거는 무엇일까?",
+            "이 주장에서 가장 중요한 근거는 무엇일까?",
             "내 말로 설명할 때 어떤 예시를 붙이면 더 쉬울까?"
           ],
           "sources": [
@@ -160,15 +160,15 @@
     {
       "date": "2026-06-26",
       "title": "2026.06.26 1분 설명 아티클",
-      "generation_version": "source-speaking-v2",
+      "generation_version": "source-speaking-v3",
       "items": [
         {
-          "id": "speaking-source-speaking-v2-2026-06-26-ai-risk-management",
+          "id": "speaking-source-speaking-v3-2026-06-26-ai-risk-management",
           "topic": "AI",
           "titleKo": "AI 도입은 모델 성능보다 위험 관리 설계가 먼저다",
-          "bodyKo": "NIST AI Risk Management Framework를 요약하면, AI를 업무에 넣을 때 가장 먼저 봐야 할 것은 모델이 얼마나 똑똑한가가 아니라 어떤 위험을 만들 수 있고 누가 관리할 것인가입니다. 첫째, 데이터 편향과 부정확한 출력은 사람의 판단과 권리에 영향을 줄 수 있습니다. 둘째, AI가 실패하는 조건을 미리 평가하고 기록해야 반복 사용에서 신뢰를 만들 수 있습니다. 셋째, 사용자는 결과를 그대로 믿는 사람이 아니라 출처, 맥락, 책임 범위를 확인하는 검토자가 되어야 합니다. 1분 설명에서는 'AI는 성능 도구이면서 동시에 위험 관리 대상'이라고 시작하면 좋습니다. 출처 요약을 내 말로 바꿀 때는 세 가지를 붙이면 좋습니다. 먼저 이 출처가 어떤 문제를 경고하거나 설명하는지 말하고, 다음으로 그 문제가 실제 생활이나 산업에서 어떤 행동 변화를 요구하는지 연결합니다. 마지막으로 너무 단정하지 않고 한계를 붙입니다. 예를 들어 \"이 자료는 NIST AI RMF 기준의 요약이므로, 최신 수치나 개별 기업 사례는 별도 확인이 필요하다\"라고 닫으면 설명이 더 신뢰 있게 들립니다.",
+          "bodyKo": "AI를 업무에 넣을 때 가장 먼저 봐야 할 것은 모델이 얼마나 똑똑한가가 아니라 어떤 위험을 만들 수 있고 누가 관리할 것인가입니다. 첫째, 데이터 편향과 부정확한 출력은 사람의 판단과 권리에 영향을 줄 수 있습니다. 둘째, AI가 실패하는 조건을 미리 평가하고 기록해야 반복 사용에서 신뢰를 만들 수 있습니다. 셋째, 사용자는 결과를 그대로 믿는 사람이 아니라 출처, 맥락, 책임 범위를 확인하는 검토자가 되어야 합니다. 1분 설명에서는 'AI는 성능 도구이면서 동시에 위험 관리 대상'이라고 시작하면 좋습니다. 1분 설명은 세 단계로 잡으면 좋습니다. 먼저 핵심 변화나 문제를 한 문장으로 말하고, 다음으로 실제 생활이나 산업에서 바뀌는 행동을 연결합니다. 마지막으로 최신 수치와 개별 사례는 출처를 다시 확인해야 한다고 덧붙이면 설명이 단단해집니다.",
           "titleEn": "AI adoption starts with risk management, not model performance",
-          "bodyEn": "A summary of the NIST AI Risk Management Framework is that organizations should not start AI adoption only by asking how powerful the model is. They should ask what risks it may create and who is responsible for managing them. Biased data and inaccurate outputs can affect decisions and rights. Failure conditions should be evaluated and documented before repeated use. Users should treat AI output as something to review with sources, context, and responsibility in mind. To explain this in your own words, add three layers. Start with the problem the source is describing. Then connect it to a practical change in daily life or industry. Finally, close with a limitation: this is a summary based on NIST AI RMF, so current numbers or individual company cases should be checked separately.",
+          "bodyEn": "Organizations should not start AI adoption only by asking how powerful the model is. They should ask what risks it may create and who is responsible for managing them. Biased data and inaccurate outputs can affect decisions and rights. Failure conditions should be evaluated and documented before repeated use. Users should treat AI output as something to review with sources, context, and responsibility in mind. To explain this in your own words, use three steps. Start with the core change or problem in one sentence. Then connect it to a practical shift in daily life or industry. Finally, add that current numbers and individual cases should be checked against the source.",
           "point": "AI 도입의 핵심은 모델 선택보다 위험, 책임, 검토 절차를 함께 설계하는 것입니다.",
           "steps": [
             "출처가 말하는 핵심 배경을 한 문장으로 요약하기",
@@ -176,7 +176,7 @@
             "내 판단 기준이나 생활 예시로 마무리하기"
           ],
           "questions": [
-            "이 출처 요약에서 가장 중요한 근거는 무엇일까?",
+            "이 주장에서 가장 중요한 근거는 무엇일까?",
             "내 말로 설명할 때 어떤 예시를 붙이면 더 쉬울까?"
           ],
           "sources": [
@@ -191,15 +191,15 @@
     {
       "date": "2026-06-25",
       "title": "2026.06.25 1분 설명 아티클",
-      "generation_version": "source-speaking-v2",
+      "generation_version": "source-speaking-v3",
       "items": [
         {
-          "id": "speaking-source-speaking-v2-2026-06-25-ev-charging",
+          "id": "speaking-source-speaking-v3-2026-06-25-ev-charging",
           "topic": "자동차 산업",
           "titleKo": "전기차 시장은 차량 스펙에서 충전 경험 경쟁으로 이동한다",
-          "bodyKo": "미국 에너지부의 전기차 자료를 요약하면, 전기차 선택은 배터리 용량이나 주행거리만으로 끝나지 않습니다. 첫째, 집이나 직장에서 충전할 수 있는 사람은 일상 사용의 불편이 크게 줄어듭니다. 둘째, 장거리 이동에서는 충전기의 위치뿐 아니라 작동 여부, 충전 속도, 대기 시간이 중요합니다. 셋째, 전기차 비용은 구매가와 연료비, 유지비를 함께 보는 총소유비용 관점으로 이해해야 합니다. 1분 설명에서는 전기차의 다음 경쟁력이 '차량 성능 + 충전 생활권'이라고 정리하면 됩니다. 출처 요약을 내 말로 바꿀 때는 세 가지를 붙이면 좋습니다. 먼저 이 출처가 어떤 문제를 경고하거나 설명하는지 말하고, 다음으로 그 문제가 실제 생활이나 산업에서 어떤 행동 변화를 요구하는지 연결합니다. 마지막으로 너무 단정하지 않고 한계를 붙입니다. 예를 들어 \"이 자료는 U.S. DOE Electric Vehicles 기준의 요약이므로, 최신 수치나 개별 기업 사례는 별도 확인이 필요하다\"라고 닫으면 설명이 더 신뢰 있게 들립니다.",
+          "bodyKo": "전기차 선택은 배터리 용량이나 주행거리만으로 끝나지 않습니다. 첫째, 집이나 직장에서 충전할 수 있는 사람은 일상 사용의 불편이 크게 줄어듭니다. 둘째, 장거리 이동에서는 충전기의 위치뿐 아니라 작동 여부, 충전 속도, 대기 시간이 중요합니다. 셋째, 전기차 비용은 구매가와 연료비, 유지비를 함께 보는 총소유비용 관점으로 이해해야 합니다. 1분 설명에서는 전기차의 다음 경쟁력이 '차량 성능 + 충전 생활권'이라고 정리하면 됩니다. 1분 설명은 세 단계로 잡으면 좋습니다. 먼저 핵심 변화나 문제를 한 문장으로 말하고, 다음으로 실제 생활이나 산업에서 바뀌는 행동을 연결합니다. 마지막으로 최신 수치와 개별 사례는 출처를 다시 확인해야 한다고 덧붙이면 설명이 단단해집니다.",
           "titleEn": "EV competition is shifting toward charging experience",
-          "bodyEn": "The U.S. Department of Energy explains that EV choice is not just battery size or driving range. Home or workplace charging greatly reduces daily friction. On long trips, charger reliability, speed, and waiting time matter. EV cost should also be understood through total cost of ownership, including energy and maintenance. To explain this in your own words, add three layers. Start with the problem the source is describing. Then connect it to a practical change in daily life or industry. Finally, close with a limitation: this is a summary based on U.S. DOE Electric Vehicles, so current numbers or individual company cases should be checked separately.",
+          "bodyEn": "The U.S. Department of Energy explains that EV choice is not just battery size or driving range. Home or workplace charging greatly reduces daily friction. On long trips, charger reliability, speed, and waiting time matter. EV cost should also be understood through total cost of ownership, including energy and maintenance. To explain this in your own words, use three steps. Start with the core change or problem in one sentence. Then connect it to a practical shift in daily life or industry. Finally, add that current numbers and individual cases should be checked against the source.",
           "point": "전기차 확산의 관건은 좋은 차를 넘어서 믿을 수 있는 충전 생활권입니다.",
           "steps": [
             "출처가 말하는 핵심 배경을 한 문장으로 요약하기",
@@ -207,7 +207,7 @@
             "내 판단 기준이나 생활 예시로 마무리하기"
           ],
           "questions": [
-            "이 출처 요약에서 가장 중요한 근거는 무엇일까?",
+            "이 주장에서 가장 중요한 근거는 무엇일까?",
             "내 말로 설명할 때 어떤 예시를 붙이면 더 쉬울까?"
           ],
           "sources": [
@@ -228,9 +228,9 @@
           "id": "speaking-source-speaking-v2-2026-06-24-home-affordability",
           "topic": "부동산",
           "titleKo": "집을 살 수 있는지는 매매가가 아니라 월 부담액으로 판단해야 한다",
-          "bodyKo": "CFPB의 주택 구매 안내를 요약하면, 집값 하나만 보고 구매 가능성을 판단하면 실제 부담을 놓치기 쉽습니다. 첫째, 금리와 대출 기간은 같은 매매가의 집도 완전히 다른 월 납입액으로 바꿉니다. 둘째, 세금, 보험, 관리비, 수리비는 매달 생활비와 함께 나가는 비용입니다. 셋째, 집값 상승 기대가 있더라도 현금흐름이 버티지 못하면 생활 안정성이 흔들립니다. 1분 설명에서는 '가격보다 월 부담액, 월 부담액보다 지속 가능한 현금흐름' 순서로 말하면 구조가 잡힙니다. 출처 요약을 내 말로 바꿀 때는 세 가지를 붙이면 좋습니다. 먼저 이 출처가 어떤 문제를 경고하거나 설명하는지 말하고, 다음으로 그 문제가 실제 생활이나 산업에서 어떤 행동 변화를 요구하는지 연결합니다. 마지막으로 너무 단정하지 않고 한계를 붙입니다. 예를 들어 \"이 자료는 CFPB Owning a Home 기준의 요약이므로, 최신 수치나 개별 기업 사례는 별도 확인이 필요하다\"라고 닫으면 설명이 더 신뢰 있게 들립니다.",
+          "bodyKo": "집값 하나만 보고 구매 가능성을 판단하면 실제 부담을 놓치기 쉽습니다. 첫째, 금리와 대출 기간은 같은 매매가의 집도 완전히 다른 월 납입액으로 바꿉니다. 둘째, 세금, 보험, 관리비, 수리비는 매달 생활비와 함께 나가는 비용입니다. 셋째, 집값 상승 기대가 있더라도 현금흐름이 버티지 못하면 생활 안정성이 흔들립니다. 1분 설명에서는 '가격보다 월 부담액, 월 부담액보다 지속 가능한 현금흐름' 순서로 말하면 구조가 잡힙니다. 1분 설명은 세 단계로 잡으면 좋습니다. 먼저 핵심 변화나 문제를 한 문장으로 말하고, 다음으로 실제 생활이나 산업에서 바뀌는 행동을 연결합니다. 마지막으로 최신 수치와 개별 사례는 출처를 다시 확인해야 한다고 덧붙이면 설명이 단단해집니다.",
           "titleEn": "Housing affordability should be judged by monthly burden",
-          "bodyEn": "The CFPB home-buying guide shows that affordability is not the sale price alone. Interest rates and loan terms can turn the same home price into very different monthly payments. Taxes, insurance, maintenance, and repairs also affect the real cost of ownership. Even if someone expects prices to rise, weak cash flow can damage daily stability. To explain this in your own words, add three layers. Start with the problem the source is describing. Then connect it to a practical change in daily life or industry. Finally, close with a limitation: this is a summary based on CFPB Owning a Home, so current numbers or individual company cases should be checked separately.",
+          "bodyEn": "The CFPB home-buying guide shows that affordability is not the sale price alone. Interest rates and loan terms can turn the same home price into very different monthly payments. Taxes, insurance, maintenance, and repairs also affect the real cost of ownership. Even if someone expects prices to rise, weak cash flow can damage daily stability. To explain this in your own words, use three steps. Start with the core change or problem in one sentence. Then connect it to a practical shift in daily life or industry. Finally, add that current numbers and individual cases should be checked against the source.",
           "point": "부동산 판단은 집값보다 월 부담액과 유지 가능한 현금흐름을 먼저 봐야 합니다.",
           "steps": [
             "출처가 말하는 핵심 배경을 한 문장으로 요약하기",
@@ -238,7 +238,7 @@
             "내 판단 기준이나 생활 예시로 마무리하기"
           ],
           "questions": [
-            "이 출처 요약에서 가장 중요한 근거는 무엇일까?",
+            "이 주장에서 가장 중요한 근거는 무엇일까?",
             "내 말로 설명할 때 어떤 예시를 붙이면 더 쉬울까?"
           ],
           "sources": [
@@ -259,9 +259,9 @@
           "id": "speaking-source-speaking-v2-2026-06-23-industrial-ai-bottleneck",
           "topic": "AI + 산업",
           "titleKo": "산업 AI는 화려한 답변보다 병목 제거에서 가치가 난다",
-          "bodyKo": "NIST의 AI 관리 관점으로 산업 적용을 요약하면, AI의 가치는 멋진 답변보다 반복 업무의 병목을 줄일 때 분명해집니다. 첫째, 생산, 물류, 고객 응대 중 시간이 가장 많이 막히는 지점을 찾아야 적용 지점이 보입니다. 둘째, 오류 비용이 큰 단계일수록 작은 자동화도 큰 효과를 낼 수 있습니다. 셋째, 데이터가 정리되어 있지 않으면 좋은 모델도 현장 개선으로 이어지기 어렵습니다. 1분 설명에서는 '산업 AI는 모델 도입이 아니라 병목 정의와 성과 측정의 문제'라고 말하면 됩니다. 출처 요약을 내 말로 바꿀 때는 세 가지를 붙이면 좋습니다. 먼저 이 출처가 어떤 문제를 경고하거나 설명하는지 말하고, 다음으로 그 문제가 실제 생활이나 산업에서 어떤 행동 변화를 요구하는지 연결합니다. 마지막으로 너무 단정하지 않고 한계를 붙입니다. 예를 들어 \"이 자료는 NIST AI RMF 기준의 요약이므로, 최신 수치나 개별 기업 사례는 별도 확인이 필요하다\"라고 닫으면 설명이 더 신뢰 있게 들립니다.",
+          "bodyKo": "AI의 가치는 멋진 답변보다 반복 업무의 병목을 줄일 때 분명해집니다. 첫째, 생산, 물류, 고객 응대 중 시간이 가장 많이 막히는 지점을 찾아야 적용 지점이 보입니다. 둘째, 오류 비용이 큰 단계일수록 작은 자동화도 큰 효과를 낼 수 있습니다. 셋째, 데이터가 정리되어 있지 않으면 좋은 모델도 현장 개선으로 이어지기 어렵습니다. 1분 설명에서는 '산업 AI는 모델 도입이 아니라 병목 정의와 성과 측정의 문제'라고 말하면 됩니다. 1분 설명은 세 단계로 잡으면 좋습니다. 먼저 핵심 변화나 문제를 한 문장으로 말하고, 다음으로 실제 생활이나 산업에서 바뀌는 행동을 연결합니다. 마지막으로 최신 수치와 개별 사례는 출처를 다시 확인해야 한다고 덧붙이면 설명이 단단해집니다.",
           "titleEn": "Industrial AI creates value by removing bottlenecks",
-          "bodyEn": "From an AI risk-management perspective, industrial AI creates clear value when it reduces operational bottlenecks. Companies first need to identify where work is delayed in production, logistics, or service. Small automation can matter when a task repeats often or mistakes are expensive. But without clean operational data, even a strong model may not improve the field process. To explain this in your own words, add three layers. Start with the problem the source is describing. Then connect it to a practical change in daily life or industry. Finally, close with a limitation: this is a summary based on NIST AI RMF, so current numbers or individual company cases should be checked separately.",
+          "bodyEn": "From an AI risk-management perspective, industrial AI creates clear value when it reduces operational bottlenecks. Companies first need to identify where work is delayed in production, logistics, or service. Small automation can matter when a task repeats often or mistakes are expensive. But without clean operational data, even a strong model may not improve the field process. To explain this in your own words, use three steps. Start with the core change or problem in one sentence. Then connect it to a practical shift in daily life or industry. Finally, add that current numbers and individual cases should be checked against the source.",
           "point": "산업 AI는 가장 막힌 단계를 줄일 때 실제 생산성으로 바뀝니다.",
           "steps": [
             "출처가 말하는 핵심 배경을 한 문장으로 요약하기",
@@ -269,7 +269,7 @@
             "내 판단 기준이나 생활 예시로 마무리하기"
           ],
           "questions": [
-            "이 출처 요약에서 가장 중요한 근거는 무엇일까?",
+            "이 주장에서 가장 중요한 근거는 무엇일까?",
             "내 말로 설명할 때 어떤 예시를 붙이면 더 쉬울까?"
           ],
           "sources": [
@@ -290,9 +290,9 @@
           "id": "speaking-source-speaking-v2-2026-06-22-auto-safety-tech",
           "topic": "자동차 + AI",
           "titleKo": "차량 안전 기술은 운전자를 없애기보다 위험 순간을 줄인다",
-          "bodyKo": "NHTSA의 차량 안전 기술 자료를 요약하면, 운전자 보조 기술은 운전자를 완전히 대체하기보다 위험 순간을 줄이는 보조 체계입니다. 첫째, 센서와 경고는 사람이 놓칠 수 있는 거리와 속도 변화를 빠르게 잡아냅니다. 둘째, 자동 긴급제동이나 차선 유지 기능은 사고 직전의 반응 시간을 늘립니다. 셋째, 기술의 한계를 모르면 운전자가 시스템을 과신해 오히려 위험해질 수 있습니다. 1분 설명에서는 '자동차 AI는 만능 조종사가 아니라 위험을 줄이는 보조자'라고 말하면 핵심이 잡힙니다. 출처 요약을 내 말로 바꿀 때는 세 가지를 붙이면 좋습니다. 먼저 이 출처가 어떤 문제를 경고하거나 설명하는지 말하고, 다음으로 그 문제가 실제 생활이나 산업에서 어떤 행동 변화를 요구하는지 연결합니다. 마지막으로 너무 단정하지 않고 한계를 붙입니다. 예를 들어 \"이 자료는 NHTSA Driver Assistance Technologies 기준의 요약이므로, 최신 수치나 개별 기업 사례는 별도 확인이 필요하다\"라고 닫으면 설명이 더 신뢰 있게 들립니다.",
+          "bodyKo": "운전자 보조 기술은 운전자를 완전히 대체하기보다 위험 순간을 줄이는 보조 체계입니다. 첫째, 센서와 경고는 사람이 놓칠 수 있는 거리와 속도 변화를 빠르게 잡아냅니다. 둘째, 자동 긴급제동이나 차선 유지 기능은 사고 직전의 반응 시간을 늘립니다. 셋째, 기술의 한계를 모르면 운전자가 시스템을 과신해 오히려 위험해질 수 있습니다. 1분 설명에서는 '자동차 AI는 만능 조종사가 아니라 위험을 줄이는 보조자'라고 말하면 핵심이 잡힙니다. 1분 설명은 세 단계로 잡으면 좋습니다. 먼저 핵심 변화나 문제를 한 문장으로 말하고, 다음으로 실제 생활이나 산업에서 바뀌는 행동을 연결합니다. 마지막으로 최신 수치와 개별 사례는 출처를 다시 확인해야 한다고 덧붙이면 설명이 단단해집니다.",
           "titleEn": "Vehicle safety technology reduces risky moments",
-          "bodyEn": "NHTSA materials on vehicle safety technology show that driver assistance is not a full replacement for drivers. Sensors and warnings detect changes in distance and speed. Emergency braking and lane support can add reaction time before a crash. But drivers still need to understand system limits to avoid overconfidence. To explain this in your own words, add three layers. Start with the problem the source is describing. Then connect it to a practical change in daily life or industry. Finally, close with a limitation: this is a summary based on NHTSA Driver Assistance Technologies, so current numbers or individual company cases should be checked separately.",
+          "bodyEn": "NHTSA materials on vehicle safety technology show that driver assistance is not a full replacement for drivers. Sensors and warnings detect changes in distance and speed. Emergency braking and lane support can add reaction time before a crash. But drivers still need to understand system limits to avoid overconfidence. To explain this in your own words, use three steps. Start with the core change or problem in one sentence. Then connect it to a practical shift in daily life or industry. Finally, add that current numbers and individual cases should be checked against the source.",
           "point": "자동차 AI의 가치는 완전 대체보다 위험 순간의 대응 여지를 넓히는 데 있습니다.",
           "steps": [
             "출처가 말하는 핵심 배경을 한 문장으로 요약하기",
@@ -300,7 +300,7 @@
             "내 판단 기준이나 생활 예시로 마무리하기"
           ],
           "questions": [
-            "이 출처 요약에서 가장 중요한 근거는 무엇일까?",
+            "이 주장에서 가장 중요한 근거는 무엇일까?",
             "내 말로 설명할 때 어떤 예시를 붙이면 더 쉬울까?"
           ],
           "sources": [
@@ -321,9 +321,9 @@
           "id": "speaking-source-speaking-v2-2026-06-21-ai-building-management",
           "topic": "부동산 + AI",
           "titleKo": "AI 건물 관리는 고장 후 수리에서 고장 전 감지로 이동한다",
-          "bodyKo": "NIST의 AI 위험 관리 관점과 건물 운영의 일반 원리를 연결해 요약하면, AI 건물 관리는 설비 데이터를 통해 이상 신호를 더 빨리 찾는 방향으로 발전합니다. 첫째, 온도, 전력 사용, 진동, 출입 패턴 같은 데이터는 설비 상태의 단서가 됩니다. 둘째, 고장을 예측하면 입주자 불편과 운영 중단을 줄일 수 있습니다. 셋째, 건물 데이터는 사생활과 보안 문제를 만들 수 있어 수집 범위와 접근 권한을 명확히 해야 합니다. 1분 설명에서는 '효율과 신뢰를 동시에 설계해야 하는 운영 기술'이라고 정리하면 좋습니다. 출처 요약을 내 말로 바꿀 때는 세 가지를 붙이면 좋습니다. 먼저 이 출처가 어떤 문제를 경고하거나 설명하는지 말하고, 다음으로 그 문제가 실제 생활이나 산업에서 어떤 행동 변화를 요구하는지 연결합니다. 마지막으로 너무 단정하지 않고 한계를 붙입니다. 예를 들어 \"이 자료는 NIST AI RMF 기준의 요약이므로, 최신 수치나 개별 기업 사례는 별도 확인이 필요하다\"라고 닫으면 설명이 더 신뢰 있게 들립니다.",
+          "bodyKo": "AI 건물 관리는 설비 데이터를 통해 이상 신호를 더 빨리 찾는 방향으로 발전합니다. 첫째, 온도, 전력 사용, 진동, 출입 패턴 같은 데이터는 설비 상태의 단서가 됩니다. 둘째, 고장을 예측하면 입주자 불편과 운영 중단을 줄일 수 있습니다. 셋째, 건물 데이터는 사생활과 보안 문제를 만들 수 있어 수집 범위와 접근 권한을 명확히 해야 합니다. 1분 설명에서는 '효율과 신뢰를 동시에 설계해야 하는 운영 기술'이라고 정리하면 좋습니다. 1분 설명은 세 단계로 잡으면 좋습니다. 먼저 핵심 변화나 문제를 한 문장으로 말하고, 다음으로 실제 생활이나 산업에서 바뀌는 행동을 연결합니다. 마지막으로 최신 수치와 개별 사례는 출처를 다시 확인해야 한다고 덧붙이면 설명이 단단해집니다.",
           "titleEn": "AI building management moves from repair to early detection",
-          "bodyEn": "Using the NIST AI risk-management view, AI building management can be explained as a shift toward earlier detection of operational problems. Data such as temperature, energy use, vibration, and access patterns can signal equipment condition. Predictive maintenance can reduce tenant inconvenience and downtime. But building data also raises privacy and security questions, so access rules matter. To explain this in your own words, add three layers. Start with the problem the source is describing. Then connect it to a practical change in daily life or industry. Finally, close with a limitation: this is a summary based on NIST AI RMF, so current numbers or individual company cases should be checked separately.",
+          "bodyEn": "Using the NIST AI risk-management view, AI building management can be explained as a shift toward earlier detection of operational problems. Data such as temperature, energy use, vibration, and access patterns can signal equipment condition. Predictive maintenance can reduce tenant inconvenience and downtime. But building data also raises privacy and security questions, so access rules matter. To explain this in your own words, use three steps. Start with the core change or problem in one sentence. Then connect it to a practical shift in daily life or industry. Finally, add that current numbers and individual cases should be checked against the source.",
           "point": "AI 건물 관리는 비용 절감 기술이면서 데이터 신뢰와 권한 설계가 필요한 운영 방식입니다.",
           "steps": [
             "출처가 말하는 핵심 배경을 한 문장으로 요약하기",
@@ -331,7 +331,7 @@
             "내 판단 기준이나 생활 예시로 마무리하기"
           ],
           "questions": [
-            "이 출처 요약에서 가장 중요한 근거는 무엇일까?",
+            "이 주장에서 가장 중요한 근거는 무엇일까?",
             "내 말로 설명할 때 어떤 예시를 붙이면 더 쉬울까?"
           ],
           "sources": [
@@ -352,9 +352,9 @@
           "id": "speaking-source-speaking-v2-2026-06-20-ai-risk-management",
           "topic": "AI",
           "titleKo": "AI 도입은 모델 성능보다 위험 관리 설계가 먼저다",
-          "bodyKo": "NIST AI Risk Management Framework를 요약하면, AI를 업무에 넣을 때 가장 먼저 봐야 할 것은 모델이 얼마나 똑똑한가가 아니라 어떤 위험을 만들 수 있고 누가 관리할 것인가입니다. 첫째, 데이터 편향과 부정확한 출력은 사람의 판단과 권리에 영향을 줄 수 있습니다. 둘째, AI가 실패하는 조건을 미리 평가하고 기록해야 반복 사용에서 신뢰를 만들 수 있습니다. 셋째, 사용자는 결과를 그대로 믿는 사람이 아니라 출처, 맥락, 책임 범위를 확인하는 검토자가 되어야 합니다. 1분 설명에서는 'AI는 성능 도구이면서 동시에 위험 관리 대상'이라고 시작하면 좋습니다. 출처 요약을 내 말로 바꿀 때는 세 가지를 붙이면 좋습니다. 먼저 이 출처가 어떤 문제를 경고하거나 설명하는지 말하고, 다음으로 그 문제가 실제 생활이나 산업에서 어떤 행동 변화를 요구하는지 연결합니다. 마지막으로 너무 단정하지 않고 한계를 붙입니다. 예를 들어 \"이 자료는 NIST AI RMF 기준의 요약이므로, 최신 수치나 개별 기업 사례는 별도 확인이 필요하다\"라고 닫으면 설명이 더 신뢰 있게 들립니다.",
+          "bodyKo": "AI를 업무에 넣을 때 가장 먼저 봐야 할 것은 모델이 얼마나 똑똑한가가 아니라 어떤 위험을 만들 수 있고 누가 관리할 것인가입니다. 첫째, 데이터 편향과 부정확한 출력은 사람의 판단과 권리에 영향을 줄 수 있습니다. 둘째, AI가 실패하는 조건을 미리 평가하고 기록해야 반복 사용에서 신뢰를 만들 수 있습니다. 셋째, 사용자는 결과를 그대로 믿는 사람이 아니라 출처, 맥락, 책임 범위를 확인하는 검토자가 되어야 합니다. 1분 설명에서는 'AI는 성능 도구이면서 동시에 위험 관리 대상'이라고 시작하면 좋습니다. 1분 설명은 세 단계로 잡으면 좋습니다. 먼저 핵심 변화나 문제를 한 문장으로 말하고, 다음으로 실제 생활이나 산업에서 바뀌는 행동을 연결합니다. 마지막으로 최신 수치와 개별 사례는 출처를 다시 확인해야 한다고 덧붙이면 설명이 단단해집니다.",
           "titleEn": "AI adoption starts with risk management, not model performance",
-          "bodyEn": "A summary of the NIST AI Risk Management Framework is that organizations should not start AI adoption only by asking how powerful the model is. They should ask what risks it may create and who is responsible for managing them. Biased data and inaccurate outputs can affect decisions and rights. Failure conditions should be evaluated and documented before repeated use. Users should treat AI output as something to review with sources, context, and responsibility in mind. To explain this in your own words, add three layers. Start with the problem the source is describing. Then connect it to a practical change in daily life or industry. Finally, close with a limitation: this is a summary based on NIST AI RMF, so current numbers or individual company cases should be checked separately.",
+          "bodyEn": "Organizations should not start AI adoption only by asking how powerful the model is. They should ask what risks it may create and who is responsible for managing them. Biased data and inaccurate outputs can affect decisions and rights. Failure conditions should be evaluated and documented before repeated use. Users should treat AI output as something to review with sources, context, and responsibility in mind. To explain this in your own words, use three steps. Start with the core change or problem in one sentence. Then connect it to a practical shift in daily life or industry. Finally, add that current numbers and individual cases should be checked against the source.",
           "point": "AI 도입의 핵심은 모델 선택보다 위험, 책임, 검토 절차를 함께 설계하는 것입니다.",
           "steps": [
             "출처가 말하는 핵심 배경을 한 문장으로 요약하기",
@@ -362,7 +362,7 @@
             "내 판단 기준이나 생활 예시로 마무리하기"
           ],
           "questions": [
-            "이 출처 요약에서 가장 중요한 근거는 무엇일까?",
+            "이 주장에서 가장 중요한 근거는 무엇일까?",
             "내 말로 설명할 때 어떤 예시를 붙이면 더 쉬울까?"
           ],
           "sources": [
@@ -383,9 +383,9 @@
           "id": "speaking-source-speaking-v2-2026-06-19-ev-charging",
           "topic": "자동차 산업",
           "titleKo": "전기차 시장은 차량 스펙에서 충전 경험 경쟁으로 이동한다",
-          "bodyKo": "미국 에너지부의 전기차 자료를 요약하면, 전기차 선택은 배터리 용량이나 주행거리만으로 끝나지 않습니다. 첫째, 집이나 직장에서 충전할 수 있는 사람은 일상 사용의 불편이 크게 줄어듭니다. 둘째, 장거리 이동에서는 충전기의 위치뿐 아니라 작동 여부, 충전 속도, 대기 시간이 중요합니다. 셋째, 전기차 비용은 구매가와 연료비, 유지비를 함께 보는 총소유비용 관점으로 이해해야 합니다. 1분 설명에서는 전기차의 다음 경쟁력이 '차량 성능 + 충전 생활권'이라고 정리하면 됩니다. 출처 요약을 내 말로 바꿀 때는 세 가지를 붙이면 좋습니다. 먼저 이 출처가 어떤 문제를 경고하거나 설명하는지 말하고, 다음으로 그 문제가 실제 생활이나 산업에서 어떤 행동 변화를 요구하는지 연결합니다. 마지막으로 너무 단정하지 않고 한계를 붙입니다. 예를 들어 \"이 자료는 U.S. DOE Electric Vehicles 기준의 요약이므로, 최신 수치나 개별 기업 사례는 별도 확인이 필요하다\"라고 닫으면 설명이 더 신뢰 있게 들립니다.",
+          "bodyKo": "전기차 선택은 배터리 용량이나 주행거리만으로 끝나지 않습니다. 첫째, 집이나 직장에서 충전할 수 있는 사람은 일상 사용의 불편이 크게 줄어듭니다. 둘째, 장거리 이동에서는 충전기의 위치뿐 아니라 작동 여부, 충전 속도, 대기 시간이 중요합니다. 셋째, 전기차 비용은 구매가와 연료비, 유지비를 함께 보는 총소유비용 관점으로 이해해야 합니다. 1분 설명에서는 전기차의 다음 경쟁력이 '차량 성능 + 충전 생활권'이라고 정리하면 됩니다. 1분 설명은 세 단계로 잡으면 좋습니다. 먼저 핵심 변화나 문제를 한 문장으로 말하고, 다음으로 실제 생활이나 산업에서 바뀌는 행동을 연결합니다. 마지막으로 최신 수치와 개별 사례는 출처를 다시 확인해야 한다고 덧붙이면 설명이 단단해집니다.",
           "titleEn": "EV competition is shifting toward charging experience",
-          "bodyEn": "The U.S. Department of Energy explains that EV choice is not just battery size or driving range. Home or workplace charging greatly reduces daily friction. On long trips, charger reliability, speed, and waiting time matter. EV cost should also be understood through total cost of ownership, including energy and maintenance. To explain this in your own words, add three layers. Start with the problem the source is describing. Then connect it to a practical change in daily life or industry. Finally, close with a limitation: this is a summary based on U.S. DOE Electric Vehicles, so current numbers or individual company cases should be checked separately.",
+          "bodyEn": "The U.S. Department of Energy explains that EV choice is not just battery size or driving range. Home or workplace charging greatly reduces daily friction. On long trips, charger reliability, speed, and waiting time matter. EV cost should also be understood through total cost of ownership, including energy and maintenance. To explain this in your own words, use three steps. Start with the core change or problem in one sentence. Then connect it to a practical shift in daily life or industry. Finally, add that current numbers and individual cases should be checked against the source.",
           "point": "전기차 확산의 관건은 좋은 차를 넘어서 믿을 수 있는 충전 생활권입니다.",
           "steps": [
             "출처가 말하는 핵심 배경을 한 문장으로 요약하기",
@@ -393,7 +393,7 @@
             "내 판단 기준이나 생활 예시로 마무리하기"
           ],
           "questions": [
-            "이 출처 요약에서 가장 중요한 근거는 무엇일까?",
+            "이 주장에서 가장 중요한 근거는 무엇일까?",
             "내 말로 설명할 때 어떤 예시를 붙이면 더 쉬울까?"
           ],
           "sources": [
@@ -414,9 +414,9 @@
           "id": "speaking-source-speaking-v2-2026-06-18-home-affordability",
           "topic": "부동산",
           "titleKo": "집을 살 수 있는지는 매매가가 아니라 월 부담액으로 판단해야 한다",
-          "bodyKo": "CFPB의 주택 구매 안내를 요약하면, 집값 하나만 보고 구매 가능성을 판단하면 실제 부담을 놓치기 쉽습니다. 첫째, 금리와 대출 기간은 같은 매매가의 집도 완전히 다른 월 납입액으로 바꿉니다. 둘째, 세금, 보험, 관리비, 수리비는 매달 생활비와 함께 나가는 비용입니다. 셋째, 집값 상승 기대가 있더라도 현금흐름이 버티지 못하면 생활 안정성이 흔들립니다. 1분 설명에서는 '가격보다 월 부담액, 월 부담액보다 지속 가능한 현금흐름' 순서로 말하면 구조가 잡힙니다. 출처 요약을 내 말로 바꿀 때는 세 가지를 붙이면 좋습니다. 먼저 이 출처가 어떤 문제를 경고하거나 설명하는지 말하고, 다음으로 그 문제가 실제 생활이나 산업에서 어떤 행동 변화를 요구하는지 연결합니다. 마지막으로 너무 단정하지 않고 한계를 붙입니다. 예를 들어 \"이 자료는 CFPB Owning a Home 기준의 요약이므로, 최신 수치나 개별 기업 사례는 별도 확인이 필요하다\"라고 닫으면 설명이 더 신뢰 있게 들립니다.",
+          "bodyKo": "집값 하나만 보고 구매 가능성을 판단하면 실제 부담을 놓치기 쉽습니다. 첫째, 금리와 대출 기간은 같은 매매가의 집도 완전히 다른 월 납입액으로 바꿉니다. 둘째, 세금, 보험, 관리비, 수리비는 매달 생활비와 함께 나가는 비용입니다. 셋째, 집값 상승 기대가 있더라도 현금흐름이 버티지 못하면 생활 안정성이 흔들립니다. 1분 설명에서는 '가격보다 월 부담액, 월 부담액보다 지속 가능한 현금흐름' 순서로 말하면 구조가 잡힙니다. 1분 설명은 세 단계로 잡으면 좋습니다. 먼저 핵심 변화나 문제를 한 문장으로 말하고, 다음으로 실제 생활이나 산업에서 바뀌는 행동을 연결합니다. 마지막으로 최신 수치와 개별 사례는 출처를 다시 확인해야 한다고 덧붙이면 설명이 단단해집니다.",
           "titleEn": "Housing affordability should be judged by monthly burden",
-          "bodyEn": "The CFPB home-buying guide shows that affordability is not the sale price alone. Interest rates and loan terms can turn the same home price into very different monthly payments. Taxes, insurance, maintenance, and repairs also affect the real cost of ownership. Even if someone expects prices to rise, weak cash flow can damage daily stability. To explain this in your own words, add three layers. Start with the problem the source is describing. Then connect it to a practical change in daily life or industry. Finally, close with a limitation: this is a summary based on CFPB Owning a Home, so current numbers or individual company cases should be checked separately.",
+          "bodyEn": "The CFPB home-buying guide shows that affordability is not the sale price alone. Interest rates and loan terms can turn the same home price into very different monthly payments. Taxes, insurance, maintenance, and repairs also affect the real cost of ownership. Even if someone expects prices to rise, weak cash flow can damage daily stability. To explain this in your own words, use three steps. Start with the core change or problem in one sentence. Then connect it to a practical shift in daily life or industry. Finally, add that current numbers and individual cases should be checked against the source.",
           "point": "부동산 판단은 집값보다 월 부담액과 유지 가능한 현금흐름을 먼저 봐야 합니다.",
           "steps": [
             "출처가 말하는 핵심 배경을 한 문장으로 요약하기",
@@ -424,7 +424,7 @@
             "내 판단 기준이나 생활 예시로 마무리하기"
           ],
           "questions": [
-            "이 출처 요약에서 가장 중요한 근거는 무엇일까?",
+            "이 주장에서 가장 중요한 근거는 무엇일까?",
             "내 말로 설명할 때 어떤 예시를 붙이면 더 쉬울까?"
           ],
           "sources": [
@@ -445,9 +445,9 @@
           "id": "speaking-source-speaking-v2-2026-06-17-industrial-ai-bottleneck",
           "topic": "AI + 산업",
           "titleKo": "산업 AI는 화려한 답변보다 병목 제거에서 가치가 난다",
-          "bodyKo": "NIST의 AI 관리 관점으로 산업 적용을 요약하면, AI의 가치는 멋진 답변보다 반복 업무의 병목을 줄일 때 분명해집니다. 첫째, 생산, 물류, 고객 응대 중 시간이 가장 많이 막히는 지점을 찾아야 적용 지점이 보입니다. 둘째, 오류 비용이 큰 단계일수록 작은 자동화도 큰 효과를 낼 수 있습니다. 셋째, 데이터가 정리되어 있지 않으면 좋은 모델도 현장 개선으로 이어지기 어렵습니다. 1분 설명에서는 '산업 AI는 모델 도입이 아니라 병목 정의와 성과 측정의 문제'라고 말하면 됩니다. 출처 요약을 내 말로 바꿀 때는 세 가지를 붙이면 좋습니다. 먼저 이 출처가 어떤 문제를 경고하거나 설명하는지 말하고, 다음으로 그 문제가 실제 생활이나 산업에서 어떤 행동 변화를 요구하는지 연결합니다. 마지막으로 너무 단정하지 않고 한계를 붙입니다. 예를 들어 \"이 자료는 NIST AI RMF 기준의 요약이므로, 최신 수치나 개별 기업 사례는 별도 확인이 필요하다\"라고 닫으면 설명이 더 신뢰 있게 들립니다.",
+          "bodyKo": "AI의 가치는 멋진 답변보다 반복 업무의 병목을 줄일 때 분명해집니다. 첫째, 생산, 물류, 고객 응대 중 시간이 가장 많이 막히는 지점을 찾아야 적용 지점이 보입니다. 둘째, 오류 비용이 큰 단계일수록 작은 자동화도 큰 효과를 낼 수 있습니다. 셋째, 데이터가 정리되어 있지 않으면 좋은 모델도 현장 개선으로 이어지기 어렵습니다. 1분 설명에서는 '산업 AI는 모델 도입이 아니라 병목 정의와 성과 측정의 문제'라고 말하면 됩니다. 1분 설명은 세 단계로 잡으면 좋습니다. 먼저 핵심 변화나 문제를 한 문장으로 말하고, 다음으로 실제 생활이나 산업에서 바뀌는 행동을 연결합니다. 마지막으로 최신 수치와 개별 사례는 출처를 다시 확인해야 한다고 덧붙이면 설명이 단단해집니다.",
           "titleEn": "Industrial AI creates value by removing bottlenecks",
-          "bodyEn": "From an AI risk-management perspective, industrial AI creates clear value when it reduces operational bottlenecks. Companies first need to identify where work is delayed in production, logistics, or service. Small automation can matter when a task repeats often or mistakes are expensive. But without clean operational data, even a strong model may not improve the field process. To explain this in your own words, add three layers. Start with the problem the source is describing. Then connect it to a practical change in daily life or industry. Finally, close with a limitation: this is a summary based on NIST AI RMF, so current numbers or individual company cases should be checked separately.",
+          "bodyEn": "From an AI risk-management perspective, industrial AI creates clear value when it reduces operational bottlenecks. Companies first need to identify where work is delayed in production, logistics, or service. Small automation can matter when a task repeats often or mistakes are expensive. But without clean operational data, even a strong model may not improve the field process. To explain this in your own words, use three steps. Start with the core change or problem in one sentence. Then connect it to a practical shift in daily life or industry. Finally, add that current numbers and individual cases should be checked against the source.",
           "point": "산업 AI는 가장 막힌 단계를 줄일 때 실제 생산성으로 바뀝니다.",
           "steps": [
             "출처가 말하는 핵심 배경을 한 문장으로 요약하기",
@@ -455,7 +455,7 @@
             "내 판단 기준이나 생활 예시로 마무리하기"
           ],
           "questions": [
-            "이 출처 요약에서 가장 중요한 근거는 무엇일까?",
+            "이 주장에서 가장 중요한 근거는 무엇일까?",
             "내 말로 설명할 때 어떤 예시를 붙이면 더 쉬울까?"
           ],
           "sources": [
@@ -1149,7 +1149,7 @@
           "id": "speaking-ai-industry-process-redesign",
           "topic": "AI + 산업",
           "titleKo": "AI 도입은 사람을 줄이는 일보다 과정 재설계에 가깝다",
-          "bodyKo": "기업이 AI를 도입한다고 하면 사람을 대체한다는 이미지가 먼저 떠오르기 쉽다. 하지만 실제 효과는 단순한 인력 감소보다 업무 과정 재설계에서 더 크게 나온다. 예를 들어 고객 문의를 자동 분류하고, 반복 문서를 초안화하고, 품질 이상 신호를 먼저 찾아내고, 보고서를 요약하면 사람은 더 판단이 필요한 일에 시간을 쓸 수 있다. 여기서 중요한 것은 기존 과정을 그대로 둔 채 AI만 붙이는 것이 아니다. 어떤 일을 자동화하고, 어떤 결정은 사람이 승인하며, 오류가 생기면 어디서 멈출지 새로 설계해야 한다. AI는 마법 도구라기보다 병목을 드러내는 거울에 가깝다. 좋은 도입은 기술을 넣는 프로젝트가 아니라 일의 흐름을 다시 그리는 프로젝트다.",
+          "bodyKo": "기업이 AI를 도입한다고 하면 사람을 대체한다는 이미지가 먼저 떠오르기 쉽다. 하지만 실제 효과는 단순한 인력 감소보다 업무 과정 재설계에서 더 크게 나온다. 예를 들어 고객 문의를 자동 분류하고, 반복 문서를 초안화하고, 품질 이상 신호를 먼저 찾아내고, 보고서를 압축해 주면 사람은 더 판단이 필요한 일에 시간을 쓸 수 있다. 여기서 중요한 것은 기존 과정을 그대로 둔 채 AI만 붙이는 것이 아니다. 어떤 일을 자동화하고, 어떤 결정은 사람이 승인하며, 오류가 생기면 어디서 멈출지 새로 설계해야 한다. AI는 마법 도구라기보다 병목을 드러내는 거울에 가깝다. 좋은 도입은 기술을 넣는 프로젝트가 아니라 일의 흐름을 다시 그리는 프로젝트다.",
           "titleEn": "AI Adoption Is More About Process Redesign Than Cutting People",
           "bodyEn": "When companies adopt AI, people often imagine replacement first. But the bigger effect usually comes from redesigning work processes, not simply reducing headcount. AI can classify customer inquiries, draft repetitive documents, detect quality signals earlier, and summarize reports, giving people more time for judgment-heavy work. The key is not to attach AI to an unchanged process. Teams must decide which tasks should be automated, which decisions require human approval, and where the system should stop when errors appear. AI is less like a magic tool and more like a mirror that reveals bottlenecks. A good AI adoption project is not only about adding technology. It is about redrawing the flow of work.",
           "point": "AI 도입의 가치는 인력 대체보다 업무 흐름을 다시 설계해 판단이 필요한 일에 집중하게 만드는 데 있다.",
