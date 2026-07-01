@@ -1,8 +1,226 @@
 {
-  "updated_at": "2026-07-01",
+  "updated_at": "2026-07-02",
   "default_daily_count": 15,
   "source": "01_기초_동사형용사.json",
   "entries": [
+    {
+      "date": "2026-07-02",
+      "day": 62,
+      "title": "Day 62 난이도별 영단어 15개",
+      "generation_version": "dictionary-source-v2",
+      "items": [
+        {
+          "difficulty": "초급",
+          "word": "tidy",
+          "meaning": "정돈된",
+          "example": "Keep your desk tidy.",
+          "exampleKo": "",
+          "note": "Oxford Learner's Dictionaries 항목을 확인할 수 있는 단어입니다. 뜻과 예문을 함께 보고, 해석 버튼으로 한국어 의미를 확인하세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/tidy"
+            }
+          ]
+        },
+        {
+          "difficulty": "초급",
+          "word": "glide",
+          "meaning": "미끄러지듯 움직이다",
+          "example": "The bird glides over the lake.",
+          "exampleKo": "",
+          "note": "Oxford Learner's Dictionaries 항목을 확인할 수 있는 단어입니다. 뜻과 예문을 함께 보고, 해석 버튼으로 한국어 의미를 확인하세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/glide"
+            }
+          ]
+        },
+        {
+          "difficulty": "초급",
+          "word": "fresh",
+          "meaning": "신선한",
+          "example": "We buy fresh fruit every morning.",
+          "exampleKo": "",
+          "note": "Oxford Learner's Dictionaries 항목을 확인할 수 있는 단어입니다. 뜻과 예문을 함께 보고, 해석 버튼으로 한국어 의미를 확인하세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/fresh"
+            }
+          ]
+        },
+        {
+          "difficulty": "초급",
+          "word": "kind",
+          "meaning": "친절한",
+          "example": "She is kind to everyone.",
+          "exampleKo": "",
+          "note": "Oxford Learner's Dictionaries 항목을 확인할 수 있는 단어입니다. 뜻과 예문을 함께 보고, 해석 버튼으로 한국어 의미를 확인하세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/kind"
+            }
+          ]
+        },
+        {
+          "difficulty": "초급",
+          "word": "brisk",
+          "meaning": "빠른, 활기찬",
+          "example": "We took a brisk walk after lunch.",
+          "exampleKo": "",
+          "note": "Oxford Learner's Dictionaries 항목을 확인할 수 있는 단어입니다. 뜻과 예문을 함께 보고, 해석 버튼으로 한국어 의미를 확인하세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/brisk"
+            }
+          ]
+        },
+        {
+          "difficulty": "중급",
+          "word": "recommend",
+          "meaning": "추천하다",
+          "example": "I recommend a simpler approach.",
+          "exampleKo": "",
+          "note": "Oxford Learner's Dictionaries 항목을 확인할 수 있는 단어입니다. 뜻과 예문을 함께 보고, 해석 버튼으로 한국어 의미를 확인하세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/recommend"
+            }
+          ]
+        },
+        {
+          "difficulty": "중급",
+          "word": "compose",
+          "meaning": "구성하다",
+          "example": "Compose your email carefully.",
+          "exampleKo": "",
+          "note": "Oxford Learner's Dictionaries 항목을 확인할 수 있는 단어입니다. 뜻과 예문을 함께 보고, 해석 버튼으로 한국어 의미를 확인하세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/compose"
+            }
+          ]
+        },
+        {
+          "difficulty": "중급",
+          "word": "derive",
+          "meaning": "도출하다",
+          "example": "We derive the formula from the rule.",
+          "exampleKo": "",
+          "note": "Oxford Learner's Dictionaries 항목을 확인할 수 있는 단어입니다. 뜻과 예문을 함께 보고, 해석 버튼으로 한국어 의미를 확인하세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/derive"
+            }
+          ]
+        },
+        {
+          "difficulty": "중급",
+          "word": "execute",
+          "meaning": "실행하다",
+          "example": "Execute the plan on Monday.",
+          "exampleKo": "",
+          "note": "Oxford Learner's Dictionaries 항목을 확인할 수 있는 단어입니다. 뜻과 예문을 함께 보고, 해석 버튼으로 한국어 의미를 확인하세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/execute"
+            }
+          ]
+        },
+        {
+          "difficulty": "중급",
+          "word": "deploy",
+          "meaning": "배치하다",
+          "example": "The team deploys the update tonight.",
+          "exampleKo": "",
+          "note": "Oxford Learner's Dictionaries 항목을 확인할 수 있는 단어입니다. 뜻과 예문을 함께 보고, 해석 버튼으로 한국어 의미를 확인하세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/deploy"
+            }
+          ]
+        },
+        {
+          "difficulty": "고급",
+          "word": "versatile",
+          "meaning": "다재다능한",
+          "example": "This tool is versatile.",
+          "exampleKo": "",
+          "note": "Oxford Learner's Dictionaries 항목을 확인할 수 있는 단어입니다. 뜻과 예문을 함께 보고, 해석 버튼으로 한국어 의미를 확인하세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/versatile"
+            }
+          ]
+        },
+        {
+          "difficulty": "고급",
+          "word": "efficient",
+          "meaning": "효율적인",
+          "example": "The efficient process saved time.",
+          "exampleKo": "",
+          "note": "Oxford Learner's Dictionaries 항목을 확인할 수 있는 단어입니다. 뜻과 예문을 함께 보고, 해석 버튼으로 한국어 의미를 확인하세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/efficient"
+            }
+          ]
+        },
+        {
+          "difficulty": "고급",
+          "word": "flexible",
+          "meaning": "유연한",
+          "example": "A flexible plan helps in uncertain times.",
+          "exampleKo": "",
+          "note": "Oxford Learner's Dictionaries 항목을 확인할 수 있는 단어입니다. 뜻과 예문을 함께 보고, 해석 버튼으로 한국어 의미를 확인하세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/flexible"
+            }
+          ]
+        },
+        {
+          "difficulty": "고급",
+          "word": "strategic",
+          "meaning": "전략적인",
+          "example": "They made a strategic decision early.",
+          "exampleKo": "",
+          "note": "Oxford Learner's Dictionaries 항목을 확인할 수 있는 단어입니다. 뜻과 예문을 함께 보고, 해석 버튼으로 한국어 의미를 확인하세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/strategic"
+            }
+          ]
+        },
+        {
+          "difficulty": "고급",
+          "word": "sustainable",
+          "meaning": "지속 가능한",
+          "example": "The project aims for a sustainable future.",
+          "exampleKo": "",
+          "note": "Oxford Learner's Dictionaries 항목을 확인할 수 있는 단어입니다. 뜻과 예문을 함께 보고, 해석 버튼으로 한국어 의미를 확인하세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/sustainable"
+            }
+          ]
+        }
+      ]
+    },
     {
       "date": "2026-07-01",
       "day": 61,
