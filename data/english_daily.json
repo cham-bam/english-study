@@ -1,8 +1,226 @@
 {
-  "updated_at": "2026-07-02",
+  "updated_at": "2026-07-03",
   "default_daily_count": 15,
   "source": "01_기초_동사형용사.json",
   "entries": [
+    {
+      "date": "2026-07-03",
+      "day": 63,
+      "title": "Day 63 난이도별 영단어 15개",
+      "generation_version": "dictionary-source-v2",
+      "items": [
+        {
+          "difficulty": "초급",
+          "word": "boil",
+          "meaning": "끓이다",
+          "example": "Boil the water first.",
+          "exampleKo": "",
+          "note": "Oxford Learner's Dictionaries 항목을 확인할 수 있는 단어입니다. 뜻과 예문을 함께 보고, 해석 버튼으로 한국어 의미를 확인하세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/boil"
+            }
+          ]
+        },
+        {
+          "difficulty": "초급",
+          "word": "chase",
+          "meaning": "쫓다",
+          "example": "The dog chases the ball.",
+          "exampleKo": "",
+          "note": "Oxford Learner's Dictionaries 항목을 확인할 수 있는 단어입니다. 뜻과 예문을 함께 보고, 해석 버튼으로 한국어 의미를 확인하세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/chase"
+            }
+          ]
+        },
+        {
+          "difficulty": "초급",
+          "word": "dig",
+          "meaning": "파다",
+          "example": "They dig a small hole.",
+          "exampleKo": "",
+          "note": "Oxford Learner's Dictionaries 항목을 확인할 수 있는 단어입니다. 뜻과 예문을 함께 보고, 해석 버튼으로 한국어 의미를 확인하세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/dig"
+            }
+          ]
+        },
+        {
+          "difficulty": "초급",
+          "word": "dress",
+          "meaning": "옷을 입다",
+          "example": "Please dress warmly.",
+          "exampleKo": "",
+          "note": "Oxford Learner's Dictionaries 항목을 확인할 수 있는 단어입니다. 뜻과 예문을 함께 보고, 해석 버튼으로 한국어 의미를 확인하세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/dress"
+            }
+          ]
+        },
+        {
+          "difficulty": "초급",
+          "word": "fry",
+          "meaning": "튀기다",
+          "example": "Fry the eggs slowly.",
+          "exampleKo": "",
+          "note": "Oxford Learner's Dictionaries 항목을 확인할 수 있는 단어입니다. 뜻과 예문을 함께 보고, 해석 버튼으로 한국어 의미를 확인하세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/fry"
+            }
+          ]
+        },
+        {
+          "difficulty": "중급",
+          "word": "leverage",
+          "meaning": "활용하다",
+          "example": "We leverage past experience here.",
+          "exampleKo": "",
+          "note": "Oxford Learner's Dictionaries 항목을 확인할 수 있는 단어입니다. 뜻과 예문을 함께 보고, 해석 버튼으로 한국어 의미를 확인하세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/leverage"
+            }
+          ]
+        },
+        {
+          "difficulty": "중급",
+          "word": "maximize",
+          "meaning": "극대화하다",
+          "example": "Maximize your study time.",
+          "exampleKo": "",
+          "note": "Oxford Learner's Dictionaries 항목을 확인할 수 있는 단어입니다. 뜻과 예문을 함께 보고, 해석 버튼으로 한국어 의미를 확인하세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/maximize"
+            }
+          ]
+        },
+        {
+          "difficulty": "중급",
+          "word": "minimize",
+          "meaning": "최소화하다",
+          "example": "Minimize distractions during class.",
+          "exampleKo": "",
+          "note": "Oxford Learner's Dictionaries 항목을 확인할 수 있는 단어입니다. 뜻과 예문을 함께 보고, 해석 버튼으로 한국어 의미를 확인하세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/minimize"
+            }
+          ]
+        },
+        {
+          "difficulty": "중급",
+          "word": "accelerate",
+          "meaning": "가속하다",
+          "example": "The new policy accelerates growth.",
+          "exampleKo": "",
+          "note": "Oxford Learner's Dictionaries 항목을 확인할 수 있는 단어입니다. 뜻과 예문을 함께 보고, 해석 버튼으로 한국어 의미를 확인하세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/accelerate"
+            }
+          ]
+        },
+        {
+          "difficulty": "중급",
+          "word": "consolidate",
+          "meaning": "통합하다",
+          "example": "Consolidate your notes after class.",
+          "exampleKo": "",
+          "note": "Oxford Learner's Dictionaries 항목을 확인할 수 있는 단어입니다. 뜻과 예문을 함께 보고, 해석 버튼으로 한국어 의미를 확인하세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/consolidate"
+            }
+          ]
+        },
+        {
+          "difficulty": "고급",
+          "word": "adaptable",
+          "meaning": "적응력이 있는",
+          "example": "An adaptable team learns quickly.",
+          "exampleKo": "",
+          "note": "Oxford Learner's Dictionaries 항목을 확인할 수 있는 단어입니다. 뜻과 예문을 함께 보고, 해석 버튼으로 한국어 의미를 확인하세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/adaptable"
+            }
+          ]
+        },
+        {
+          "difficulty": "고급",
+          "word": "authentic",
+          "meaning": "진짜의",
+          "example": "She gave an authentic answer.",
+          "exampleKo": "",
+          "note": "Oxford Learner's Dictionaries 항목을 확인할 수 있는 단어입니다. 뜻과 예문을 함께 보고, 해석 버튼으로 한국어 의미를 확인하세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/authentic"
+            }
+          ]
+        },
+        {
+          "difficulty": "고급",
+          "word": "critical",
+          "meaning": "중요한",
+          "example": "Timing is critical in this case.",
+          "exampleKo": "",
+          "note": "Oxford Learner's Dictionaries 항목을 확인할 수 있는 단어입니다. 뜻과 예문을 함께 보고, 해석 버튼으로 한국어 의미를 확인하세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/critical"
+            }
+          ]
+        },
+        {
+          "difficulty": "고급",
+          "word": "dynamic",
+          "meaning": "역동적인",
+          "example": "The market is dynamic and fast-moving.",
+          "exampleKo": "",
+          "note": "Oxford Learner's Dictionaries 항목을 확인할 수 있는 단어입니다. 뜻과 예문을 함께 보고, 해석 버튼으로 한국어 의미를 확인하세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/dynamic"
+            }
+          ]
+        },
+        {
+          "difficulty": "고급",
+          "word": "holistic",
+          "meaning": "총체적인",
+          "example": "We need a holistic view of the problem.",
+          "exampleKo": "",
+          "note": "Oxford Learner's Dictionaries 항목을 확인할 수 있는 단어입니다. 뜻과 예문을 함께 보고, 해석 버튼으로 한국어 의미를 확인하세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/holistic"
+            }
+          ]
+        }
+      ]
+    },
     {
       "date": "2026-07-02",
       "day": 62,
