@@ -1,8 +1,226 @@
 {
-  "updated_at": "2026-07-03",
+  "updated_at": "2026-07-04",
   "default_daily_count": 15,
   "source": "01_기초_동사형용사.json",
   "entries": [
+    {
+      "date": "2026-07-04",
+      "day": 64,
+      "title": "Day 64 난이도별 영단어 15개",
+      "generation_version": "dictionary-source-v2",
+      "items": [
+        {
+          "difficulty": "초급",
+          "word": "grab",
+          "meaning": "잡다",
+          "example": "Grab your bag and go.",
+          "exampleKo": "",
+          "note": "Oxford Learner's Dictionaries 항목을 확인할 수 있는 단어입니다. 뜻과 예문을 함께 보고, 해석 버튼으로 한국어 의미를 확인하세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/grab"
+            }
+          ]
+        },
+        {
+          "difficulty": "초급",
+          "word": "hide",
+          "meaning": "숨기다",
+          "example": "Hide the keys here.",
+          "exampleKo": "",
+          "note": "Oxford Learner's Dictionaries 항목을 확인할 수 있는 단어입니다. 뜻과 예문을 함께 보고, 해석 버튼으로 한국어 의미를 확인하세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/hide"
+            }
+          ]
+        },
+        {
+          "difficulty": "초급",
+          "word": "hop",
+          "meaning": "깡충 뛰다",
+          "example": "The rabbit hops away.",
+          "exampleKo": "",
+          "note": "Oxford Learner's Dictionaries 항목을 확인할 수 있는 단어입니다. 뜻과 예문을 함께 보고, 해석 버튼으로 한국어 의미를 확인하세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/hop"
+            }
+          ]
+        },
+        {
+          "difficulty": "초급",
+          "word": "peel",
+          "meaning": "껍질을 벗기다",
+          "example": "Peel the apple carefully.",
+          "exampleKo": "",
+          "note": "Oxford Learner's Dictionaries 항목을 확인할 수 있는 단어입니다. 뜻과 예문을 함께 보고, 해석 버튼으로 한국어 의미를 확인하세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/peel"
+            }
+          ]
+        },
+        {
+          "difficulty": "초급",
+          "word": "roll",
+          "meaning": "굴리다",
+          "example": "Roll the ball to me.",
+          "exampleKo": "",
+          "note": "Oxford Learner's Dictionaries 항목을 확인할 수 있는 단어입니다. 뜻과 예문을 함께 보고, 해석 버튼으로 한국어 의미를 확인하세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/roll"
+            }
+          ]
+        },
+        {
+          "difficulty": "중급",
+          "word": "launch",
+          "meaning": "시작하다",
+          "example": "They launch the project today.",
+          "exampleKo": "",
+          "note": "Oxford Learner's Dictionaries 항목을 확인할 수 있는 단어입니다. 뜻과 예문을 함께 보고, 해석 버튼으로 한국어 의미를 확인하세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/launch"
+            }
+          ]
+        },
+        {
+          "difficulty": "중급",
+          "word": "notify",
+          "meaning": "알리다",
+          "example": "Notify me when you arrive.",
+          "exampleKo": "",
+          "note": "Oxford Learner's Dictionaries 항목을 확인할 수 있는 단어입니다. 뜻과 예문을 함께 보고, 해석 버튼으로 한국어 의미를 확인하세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/notify"
+            }
+          ]
+        },
+        {
+          "difficulty": "중급",
+          "word": "repair",
+          "meaning": "수리하다",
+          "example": "They repair the phone quickly.",
+          "exampleKo": "",
+          "note": "Oxford Learner's Dictionaries 항목을 확인할 수 있는 단어입니다. 뜻과 예문을 함께 보고, 해석 버튼으로 한국어 의미를 확인하세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/repair"
+            }
+          ]
+        },
+        {
+          "difficulty": "중급",
+          "word": "diagnose",
+          "meaning": "진단하다",
+          "example": "The technician diagnosed the fault quickly.",
+          "exampleKo": "",
+          "note": "Oxford Learner's Dictionaries 항목을 확인할 수 있는 단어입니다. 뜻과 예문을 함께 보고, 해석 버튼으로 한국어 의미를 확인하세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/diagnose"
+            }
+          ]
+        },
+        {
+          "difficulty": "중급",
+          "word": "imagine",
+          "meaning": "상상하다",
+          "example": "Imagine a faster way to finish the task.",
+          "exampleKo": "",
+          "note": "Oxford Learner's Dictionaries 항목을 확인할 수 있는 단어입니다. 뜻과 예문을 함께 보고, 해석 버튼으로 한국어 의미를 확인하세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/imagine"
+            }
+          ]
+        },
+        {
+          "difficulty": "고급",
+          "word": "abrupt",
+          "meaning": "갑작스러운",
+          "example": "The abrupt change surprised everyone.",
+          "exampleKo": "",
+          "note": "Oxford Learner's Dictionaries 항목을 확인할 수 있는 단어입니다. 뜻과 예문을 함께 보고, 해석 버튼으로 한국어 의미를 확인하세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/abrupt"
+            }
+          ]
+        },
+        {
+          "difficulty": "고급",
+          "word": "ambivalent",
+          "meaning": "양가적인",
+          "example": "She felt ambivalent about the decision.",
+          "exampleKo": "",
+          "note": "Oxford Learner's Dictionaries 항목을 확인할 수 있는 단어입니다. 뜻과 예문을 함께 보고, 해석 버튼으로 한국어 의미를 확인하세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/ambivalent"
+            }
+          ]
+        },
+        {
+          "difficulty": "고급",
+          "word": "arduous",
+          "meaning": "힘든",
+          "example": "The hike was arduous but rewarding.",
+          "exampleKo": "",
+          "note": "Oxford Learner's Dictionaries 항목을 확인할 수 있는 단어입니다. 뜻과 예문을 함께 보고, 해석 버튼으로 한국어 의미를 확인하세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/arduous"
+            }
+          ]
+        },
+        {
+          "difficulty": "고급",
+          "word": "benevolent",
+          "meaning": "자비로운",
+          "example": "A benevolent leader listens carefully.",
+          "exampleKo": "",
+          "note": "Oxford Learner's Dictionaries 항목을 확인할 수 있는 단어입니다. 뜻과 예문을 함께 보고, 해석 버튼으로 한국어 의미를 확인하세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/benevolent"
+            }
+          ]
+        },
+        {
+          "difficulty": "고급",
+          "word": "deviate",
+          "meaning": "벗어나다",
+          "example": "Do not deviate from the plan.",
+          "exampleKo": "",
+          "note": "Oxford Learner's Dictionaries 항목을 확인할 수 있는 단어입니다. 뜻과 예문을 함께 보고, 해석 버튼으로 한국어 의미를 확인하세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/deviate"
+            }
+          ]
+        }
+      ]
+    },
     {
       "date": "2026-07-03",
       "day": 63,
