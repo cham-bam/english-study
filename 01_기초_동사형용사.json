@@ -1,7 +1,7 @@
 {
   "category": "난이도별 핵심 영어",
-  "day_range": "Pool 1~52",
-  "total_words": 564,
+  "day_range": "Pool 1~55",
+  "total_words": 596,
   "words": [
     {
       "day": 1,
@@ -3951,6 +3951,231 @@
       "meaning": "판정하다",
       "example": "The panel will adjudicate the dispute."
     }
+    ,
+    {
+      "day": 53,
+      "difficulty": "초급",
+      "word": "rub",
+      "meaning": "문지르다",
+      "example": "Rub your hands together."
+    },
+    {
+      "day": 53,
+      "difficulty": "초급",
+      "word": "sail",
+      "meaning": "항해하다",
+      "example": "We sail on the lake."
+    },
+    {
+      "day": 53,
+      "difficulty": "초급",
+      "word": "shake",
+      "meaning": "흔들다",
+      "example": "Please shake the bottle."
+    },
+    {
+      "day": 53,
+      "difficulty": "초급",
+      "word": "sleep",
+      "meaning": "자다",
+      "example": "I sleep eight hours."
+    },
+    {
+      "day": 53,
+      "difficulty": "초급",
+      "word": "sneeze",
+      "meaning": "재채기하다",
+      "example": "He sneezes loudly."
+    },
+    {
+      "day": 53,
+      "difficulty": "초급",
+      "word": "spread",
+      "meaning": "펼치다",
+      "example": "Spread the butter on bread."
+    },
+    {
+      "day": 53,
+      "difficulty": "초급",
+      "word": "swim",
+      "meaning": "수영하다",
+      "example": "They swim in the pool."
+    },
+    {
+      "day": 53,
+      "difficulty": "초급",
+      "word": "swing",
+      "meaning": "흔들리다",
+      "example": "The child swings high."
+    },
+    {
+      "day": 53,
+      "difficulty": "초급",
+      "word": "teach",
+      "meaning": "가르치다",
+      "example": "She teaches young children."
+    },
+    {
+      "day": 53,
+      "difficulty": "초급",
+      "word": "throw",
+      "meaning": "던지다",
+      "example": "Throw the paper away."
+    },
+    {
+      "day": 54,
+      "difficulty": "중급",
+      "word": "manage",
+      "meaning": "관리하다",
+      "example": "She manages the project well."
+    },
+    {
+      "day": 54,
+      "difficulty": "중급",
+      "word": "prepare",
+      "meaning": "준비하다",
+      "example": "Prepare the report before noon."
+    },
+    {
+      "day": 54,
+      "difficulty": "중급",
+      "word": "replace",
+      "meaning": "교체하다",
+      "example": "Please replace the old battery."
+    },
+    {
+      "day": 54,
+      "difficulty": "중급",
+      "word": "transform",
+      "meaning": "변형하다",
+      "example": "The app can transform raw data."
+    },
+    {
+      "day": 54,
+      "difficulty": "중급",
+      "word": "assist",
+      "meaning": "돕다",
+      "example": "The nurse will assist the doctor."
+    },
+    {
+      "day": 54,
+      "difficulty": "중급",
+      "word": "locate",
+      "meaning": "찾다",
+      "example": "Can you locate the source of the error?"
+    },
+    {
+      "day": 54,
+      "difficulty": "중급",
+      "word": "review",
+      "meaning": "검토하다",
+      "example": "Review the draft before sending it."
+    },
+    {
+      "day": 54,
+      "difficulty": "중급",
+      "word": "translate",
+      "meaning": "번역하다",
+      "example": "Translate the sentence into Korean."
+    },
+    {
+      "day": 54,
+      "difficulty": "중급",
+      "word": "delegate",
+      "meaning": "위임하다",
+      "example": "A good manager delegates routine tasks."
+    },
+    {
+      "day": 54,
+      "difficulty": "중급",
+      "word": "inspect",
+      "meaning": "점검하다",
+      "example": "Inspect the machine before use."
+    },
+    {
+      "day": 54,
+      "difficulty": "중급",
+      "word": "operate",
+      "meaning": "운영하다",
+      "example": "They operate the service 24 hours a day."
+    },
+    {
+      "day": 55,
+      "difficulty": "고급",
+      "word": "fragile",
+      "meaning": "취약한",
+      "example": "The fragile system needs careful handling."
+    },
+    {
+      "day": 55,
+      "difficulty": "고급",
+      "word": "hasten",
+      "meaning": "서두르다",
+      "example": "Do not hasten the decision."
+    },
+    {
+      "day": 55,
+      "difficulty": "고급",
+      "word": "illuminate",
+      "meaning": "비추다",
+      "example": "The lamp illuminates the desk."
+    },
+    {
+      "day": 55,
+      "difficulty": "고급",
+      "word": "obsolete",
+      "meaning": "구식의",
+      "example": "That tool is now obsolete."
+    },
+    {
+      "day": 55,
+      "difficulty": "고급",
+      "word": "perplexing",
+      "meaning": "난처하게 하는",
+      "example": "The result was perplexing at first."
+    },
+    {
+      "day": 55,
+      "difficulty": "고급",
+      "word": "tactful",
+      "meaning": "신중한",
+      "example": "She gave a tactful reply."
+    },
+    {
+      "day": 55,
+      "difficulty": "고급",
+      "word": "withstand",
+      "meaning": "견디다",
+      "example": "The bridge can withstand strong winds."
+    },
+    {
+      "day": 55,
+      "difficulty": "고급",
+      "word": "fortify",
+      "meaning": "강화하다",
+      "example": "Exercise can fortify your health."
+    },
+    {
+      "day": 55,
+      "difficulty": "고급",
+      "word": "tenuous",
+      "meaning": "희박한",
+      "example": "Their connection was tenuous."
+    },
+    {
+      "day": 55,
+      "difficulty": "고급",
+      "word": "stoic",
+      "meaning": "담담한",
+      "example": "He remained stoic during the delay."
+    },
+    {
+      "day": 55,
+      "difficulty": "고급",
+      "word": "timid",
+      "meaning": "소심한",
+      "example": "The timid student raised a hand."
+    }
   ],
   "daily_by_difficulty": {
     "초급": 5,
@@ -3962,5 +4187,5 @@
     "중급": 35,
     "고급": 35
   },
-  "updated_at": "2026-06-21"
+  "updated_at": "2026-07-05"
 }
