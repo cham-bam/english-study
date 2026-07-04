@@ -1,8 +1,226 @@
 {
-  "updated_at": "2026-07-04",
+  "updated_at": "2026-07-05",
   "default_daily_count": 15,
   "source": "01_기초_동사형용사.json",
   "entries": [
+    {
+      "date": "2026-07-05",
+      "day": 65,
+      "title": "Day 65 일요일 복습 영단어 15개",
+      "generation_version": "dictionary-source-v2",
+      "items": [
+        {
+          "difficulty": "초급",
+          "word": "glow",
+          "meaning": "빛나다",
+          "example": "The lamp glows softly.",
+          "exampleKo": "",
+          "note": "일요일 복습 단어입니다. 어렵게 느꼈거나 최근에 다시 확인할 가치가 있는 단어로, 예문을 먼저 읽고 뜻을 떠올려보세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/glow"
+            }
+          ]
+        },
+        {
+          "difficulty": "초급",
+          "word": "escape",
+          "meaning": "도망치다",
+          "example": "The cat tried to escape.",
+          "exampleKo": "",
+          "note": "일요일 복습 단어입니다. 어렵게 느꼈거나 최근에 다시 확인할 가치가 있는 단어로, 예문을 먼저 읽고 뜻을 떠올려보세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/escape"
+            }
+          ]
+        },
+        {
+          "difficulty": "초급",
+          "word": "whisper",
+          "meaning": "속삭이다",
+          "example": "Please whisper in the library.",
+          "exampleKo": "",
+          "note": "일요일 복습 단어입니다. 어렵게 느꼈거나 최근에 다시 확인할 가치가 있는 단어로, 예문을 먼저 읽고 뜻을 떠올려보세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/whisper"
+            }
+          ]
+        },
+        {
+          "difficulty": "초급",
+          "word": "yawn",
+          "meaning": "하품하다",
+          "example": "I yawn when I am tired.",
+          "exampleKo": "",
+          "note": "일요일 복습 단어입니다. 어렵게 느꼈거나 최근에 다시 확인할 가치가 있는 단어로, 예문을 먼저 읽고 뜻을 떠올려보세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/yawn"
+            }
+          ]
+        },
+        {
+          "difficulty": "초급",
+          "word": "hug",
+          "meaning": "껴안다",
+          "example": "She hugs her friend after class.",
+          "exampleKo": "",
+          "note": "일요일 복습 단어입니다. 어렵게 느꼈거나 최근에 다시 확인할 가치가 있는 단어로, 예문을 먼저 읽고 뜻을 떠올려보세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/hug"
+            }
+          ]
+        },
+        {
+          "difficulty": "중급",
+          "word": "interpret",
+          "meaning": "해석하다",
+          "example": "Analysts interpret the chart.",
+          "exampleKo": "분석가들은 그 차트를 해석한다.",
+          "note": "일요일 복습 단어입니다. 어렵게 느꼈거나 최근에 다시 확인할 가치가 있는 단어로, 예문을 먼저 읽고 뜻을 떠올려보세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/interpret"
+            }
+          ]
+        },
+        {
+          "difficulty": "중급",
+          "word": "facilitate",
+          "meaning": "촉진하다",
+          "example": "Clear rules facilitate teamwork.",
+          "exampleKo": "명확한 규칙은 팀워크를 촉진한다.",
+          "note": "일요일 복습 단어입니다. 어렵게 느꼈거나 최근에 다시 확인할 가치가 있는 단어로, 예문을 먼저 읽고 뜻을 떠올려보세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/facilitate"
+            }
+          ]
+        },
+        {
+          "difficulty": "중급",
+          "word": "instruct",
+          "meaning": "지시하다",
+          "example": "The coach instructs the team clearly.",
+          "exampleKo": "",
+          "note": "일요일 복습 단어입니다. 어렵게 느꼈거나 최근에 다시 확인할 가치가 있는 단어로, 예문을 먼저 읽고 뜻을 떠올려보세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/instruct"
+            }
+          ]
+        },
+        {
+          "difficulty": "중급",
+          "word": "investigate",
+          "meaning": "조사하다",
+          "example": "They investigate the cause carefully.",
+          "exampleKo": "",
+          "note": "일요일 복습 단어입니다. 어렵게 느꼈거나 최근에 다시 확인할 가치가 있는 단어로, 예문을 먼저 읽고 뜻을 떠올려보세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/investigate"
+            }
+          ]
+        },
+        {
+          "difficulty": "중급",
+          "word": "limit",
+          "meaning": "제한하다",
+          "example": "Limit the number of retries.",
+          "exampleKo": "",
+          "note": "일요일 복습 단어입니다. 어렵게 느꼈거나 최근에 다시 확인할 가치가 있는 단어로, 예문을 먼저 읽고 뜻을 떠올려보세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/limit"
+            }
+          ]
+        },
+        {
+          "difficulty": "고급",
+          "word": "corroborate",
+          "meaning": "입증하다, 뒷받침하다",
+          "example": "The evidence corroborates the claim.",
+          "exampleKo": "그 증거는 주장을 뒷받침한다.",
+          "note": "일요일 복습 단어입니다. 어렵게 느꼈거나 최근에 다시 확인할 가치가 있는 단어로, 예문을 먼저 읽고 뜻을 떠올려보세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/corroborate"
+            }
+          ]
+        },
+        {
+          "difficulty": "고급",
+          "word": "delineate",
+          "meaning": "명확히 구분하다",
+          "example": "The rule delineates responsibility.",
+          "exampleKo": "그 규칙은 책임을 명확히 구분한다.",
+          "note": "일요일 복습 단어입니다. 어렵게 느꼈거나 최근에 다시 확인할 가치가 있는 단어로, 예문을 먼저 읽고 뜻을 떠올려보세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/delineate"
+            }
+          ]
+        },
+        {
+          "difficulty": "고급",
+          "word": "contingent",
+          "meaning": "조건부의",
+          "example": "The plan is contingent on funding.",
+          "exampleKo": "그 계획은 자금 확보에 달려 있다.",
+          "note": "일요일 복습 단어입니다. 어렵게 느꼈거나 최근에 다시 확인할 가치가 있는 단어로, 예문을 먼저 읽고 뜻을 떠올려보세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/contingent"
+            }
+          ]
+        },
+        {
+          "difficulty": "고급",
+          "word": "empirical",
+          "meaning": "경험적, 실증적인",
+          "example": "Empirical evidence supports the model.",
+          "exampleKo": "실증적 증거가 그 모델을 뒷받침한다.",
+          "note": "일요일 복습 단어입니다. 어렵게 느꼈거나 최근에 다시 확인할 가치가 있는 단어로, 예문을 먼저 읽고 뜻을 떠올려보세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/empirical"
+            }
+          ]
+        },
+        {
+          "difficulty": "고급",
+          "word": "substantiate",
+          "meaning": "입증하다",
+          "example": "The report substantiates the concern.",
+          "exampleKo": "그 보고서는 우려를 입증한다.",
+          "note": "일요일 복습 단어입니다. 어렵게 느꼈거나 최근에 다시 확인할 가치가 있는 단어로, 예문을 먼저 읽고 뜻을 떠올려보세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/substantiate"
+            }
+          ]
+        }
+      ]
+    },
     {
       "date": "2026-07-04",
       "day": 64,
