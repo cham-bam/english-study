@@ -1,8 +1,226 @@
 {
-  "updated_at": "2026-07-06",
+  "updated_at": "2026-07-07",
   "default_daily_count": 15,
   "source": "01_기초_동사형용사.json",
   "entries": [
+    {
+      "date": "2026-07-07",
+      "day": 67,
+      "title": "Day 67 난이도별 영단어 15개",
+      "generation_version": "dictionary-source-v2",
+      "items": [
+        {
+          "difficulty": "초급",
+          "word": "spread",
+          "meaning": "펼치다",
+          "example": "Spread the butter on bread.",
+          "exampleKo": "",
+          "note": "Oxford Learner's Dictionaries 항목을 확인할 수 있는 단어입니다. 뜻과 예문을 함께 보고, 해석 버튼으로 한국어 의미를 확인하세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/spread"
+            }
+          ]
+        },
+        {
+          "difficulty": "초급",
+          "word": "swim",
+          "meaning": "수영하다",
+          "example": "They swim in the pool.",
+          "exampleKo": "",
+          "note": "Oxford Learner's Dictionaries 항목을 확인할 수 있는 단어입니다. 뜻과 예문을 함께 보고, 해석 버튼으로 한국어 의미를 확인하세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/swim"
+            }
+          ]
+        },
+        {
+          "difficulty": "초급",
+          "word": "swing",
+          "meaning": "흔들리다",
+          "example": "The child swings high.",
+          "exampleKo": "",
+          "note": "Oxford Learner's Dictionaries 항목을 확인할 수 있는 단어입니다. 뜻과 예문을 함께 보고, 해석 버튼으로 한국어 의미를 확인하세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/swing"
+            }
+          ]
+        },
+        {
+          "difficulty": "초급",
+          "word": "teach",
+          "meaning": "가르치다",
+          "example": "She teaches young children.",
+          "exampleKo": "",
+          "note": "Oxford Learner's Dictionaries 항목을 확인할 수 있는 단어입니다. 뜻과 예문을 함께 보고, 해석 버튼으로 한국어 의미를 확인하세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/teach"
+            }
+          ]
+        },
+        {
+          "difficulty": "초급",
+          "word": "throw",
+          "meaning": "던지다",
+          "example": "Throw the paper away.",
+          "exampleKo": "",
+          "note": "Oxford Learner's Dictionaries 항목을 확인할 수 있는 단어입니다. 뜻과 예문을 함께 보고, 해석 버튼으로 한국어 의미를 확인하세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/throw"
+            }
+          ]
+        },
+        {
+          "difficulty": "중급",
+          "word": "contrast",
+          "meaning": "대조하다",
+          "example": "Contrast the two reports carefully.",
+          "exampleKo": "",
+          "note": "Oxford Learner's Dictionaries 항목을 확인할 수 있는 단어입니다. 뜻과 예문을 함께 보고, 해석 버튼으로 한국어 의미를 확인하세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/contrast"
+            }
+          ]
+        },
+        {
+          "difficulty": "중급",
+          "word": "consult",
+          "meaning": "상담하다",
+          "example": "Please consult a specialist first.",
+          "exampleKo": "",
+          "note": "Oxford Learner's Dictionaries 항목을 확인할 수 있는 단어입니다. 뜻과 예문을 함께 보고, 해석 버튼으로 한국어 의미를 확인하세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/consult"
+            }
+          ]
+        },
+        {
+          "difficulty": "중급",
+          "word": "examine",
+          "meaning": "검토하다",
+          "example": "Examine the evidence closely.",
+          "exampleKo": "",
+          "note": "Oxford Learner's Dictionaries 항목을 확인할 수 있는 단어입니다. 뜻과 예문을 함께 보고, 해석 버튼으로 한국어 의미를 확인하세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/examine"
+            }
+          ]
+        },
+        {
+          "difficulty": "중급",
+          "word": "cluster",
+          "meaning": "모여 있다",
+          "example": "The apps cluster similar data together.",
+          "exampleKo": "",
+          "note": "Oxford Learner's Dictionaries 항목을 확인할 수 있는 단어입니다. 뜻과 예문을 함께 보고, 해석 버튼으로 한국어 의미를 확인하세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/cluster"
+            }
+          ]
+        },
+        {
+          "difficulty": "중급",
+          "word": "gather",
+          "meaning": "모으다",
+          "example": "We gather feedback after each release.",
+          "exampleKo": "",
+          "note": "Oxford Learner's Dictionaries 항목을 확인할 수 있는 단어입니다. 뜻과 예문을 함께 보고, 해석 버튼으로 한국어 의미를 확인하세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/gather"
+            }
+          ]
+        },
+        {
+          "difficulty": "고급",
+          "word": "unyielding",
+          "meaning": "굽히지 않는",
+          "example": "She kept an unyielding stance.",
+          "exampleKo": "",
+          "note": "Oxford Learner's Dictionaries 항목을 확인할 수 있는 단어입니다. 뜻과 예문을 함께 보고, 해석 버튼으로 한국어 의미를 확인하세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/unyielding"
+            }
+          ]
+        },
+        {
+          "difficulty": "고급",
+          "word": "vivid",
+          "meaning": "생생한",
+          "example": "He gave a vivid description.",
+          "exampleKo": "",
+          "note": "Oxford Learner's Dictionaries 항목을 확인할 수 있는 단어입니다. 뜻과 예문을 함께 보고, 해석 버튼으로 한국어 의미를 확인하세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/vivid"
+            }
+          ]
+        },
+        {
+          "difficulty": "고급",
+          "word": "cumbersome",
+          "meaning": "다루기 불편한",
+          "example": "The old tool is cumbersome to use.",
+          "exampleKo": "",
+          "note": "Oxford Learner's Dictionaries 항목을 확인할 수 있는 단어입니다. 뜻과 예문을 함께 보고, 해석 버튼으로 한국어 의미를 확인하세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/cumbersome"
+            }
+          ]
+        },
+        {
+          "difficulty": "고급",
+          "word": "diligent",
+          "meaning": "성실한",
+          "example": "A diligent learner reviews every day.",
+          "exampleKo": "",
+          "note": "Oxford Learner's Dictionaries 항목을 확인할 수 있는 단어입니다. 뜻과 예문을 함께 보고, 해석 버튼으로 한국어 의미를 확인하세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/diligent"
+            }
+          ]
+        },
+        {
+          "difficulty": "고급",
+          "word": "formidable",
+          "meaning": "강력한",
+          "example": "They faced a formidable challenge.",
+          "exampleKo": "",
+          "note": "Oxford Learner's Dictionaries 항목을 확인할 수 있는 단어입니다. 뜻과 예문을 함께 보고, 해석 버튼으로 한국어 의미를 확인하세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/formidable"
+            }
+          ]
+        }
+      ]
+    },
     {
       "date": "2026-07-06",
       "day": 66,
