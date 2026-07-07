@@ -1,8 +1,226 @@
 {
-  "updated_at": "2026-07-07",
+  "updated_at": "2026-07-08",
   "default_daily_count": 15,
   "source": "01_기초_동사형용사.json",
   "entries": [
+    {
+      "date": "2026-07-08",
+      "day": 68,
+      "title": "Day 68 난이도별 영단어 15개",
+      "generation_version": "dictionary-source-v2",
+      "items": [
+        {
+          "difficulty": "초급",
+          "word": "twist",
+          "meaning": "비틀다",
+          "example": "Twist the cap gently.",
+          "exampleKo": "",
+          "note": "Oxford Learner's Dictionaries 항목을 확인할 수 있는 단어입니다. 뜻과 예문을 함께 보고, 해석 버튼으로 한국어 의미를 확인하세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/twist"
+            }
+          ]
+        },
+        {
+          "difficulty": "초급",
+          "word": "whistle",
+          "meaning": "휘파람을 불다",
+          "example": "He whistles a tune.",
+          "exampleKo": "",
+          "note": "Oxford Learner's Dictionaries 항목을 확인할 수 있는 단어입니다. 뜻과 예문을 함께 보고, 해석 버튼으로 한국어 의미를 확인하세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/whistle"
+            }
+          ]
+        },
+        {
+          "difficulty": "초급",
+          "word": "breathe",
+          "meaning": "숨 쉬다",
+          "example": "Breathe slowly and relax.",
+          "exampleKo": "",
+          "note": "Oxford Learner's Dictionaries 항목을 확인할 수 있는 단어입니다. 뜻과 예문을 함께 보고, 해석 버튼으로 한국어 의미를 확인하세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/breathe"
+            }
+          ]
+        },
+        {
+          "difficulty": "초급",
+          "word": "crawl",
+          "meaning": "기어가다",
+          "example": "The baby crawls forward.",
+          "exampleKo": "",
+          "note": "Oxford Learner's Dictionaries 항목을 확인할 수 있는 단어입니다. 뜻과 예문을 함께 보고, 해석 버튼으로 한국어 의미를 확인하세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/crawl"
+            }
+          ]
+        },
+        {
+          "difficulty": "초급",
+          "word": "feed",
+          "meaning": "먹이를 주다",
+          "example": "Feed the cat after dinner.",
+          "exampleKo": "",
+          "note": "Oxford Learner's Dictionaries 항목을 확인할 수 있는 단어입니다. 뜻과 예문을 함께 보고, 해석 버튼으로 한국어 의미를 확인하세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/feed"
+            }
+          ]
+        },
+        {
+          "difficulty": "중급",
+          "word": "link",
+          "meaning": "연결하다",
+          "example": "The report links actions to outcomes.",
+          "exampleKo": "",
+          "note": "Oxford Learner's Dictionaries 항목을 확인할 수 있는 단어입니다. 뜻과 예문을 함께 보고, 해석 버튼으로 한국어 의미를 확인하세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/link"
+            }
+          ]
+        },
+        {
+          "difficulty": "중급",
+          "word": "modify",
+          "meaning": "수정하다",
+          "example": "Please modify the settings carefully.",
+          "exampleKo": "",
+          "note": "Oxford Learner's Dictionaries 항목을 확인할 수 있는 단어입니다. 뜻과 예문을 함께 보고, 해석 버튼으로 한국어 의미를 확인하세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/modify"
+            }
+          ]
+        },
+        {
+          "difficulty": "중급",
+          "word": "process",
+          "meaning": "처리하다",
+          "example": "The system processes requests quickly.",
+          "exampleKo": "",
+          "note": "Oxford Learner's Dictionaries 항목을 확인할 수 있는 단어입니다. 뜻과 예문을 함께 보고, 해석 버튼으로 한국어 의미를 확인하세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/process"
+            }
+          ]
+        },
+        {
+          "difficulty": "중급",
+          "word": "remove",
+          "meaning": "제거하다",
+          "example": "Remove the extra spaces before saving.",
+          "exampleKo": "",
+          "note": "Oxford Learner's Dictionaries 항목을 확인할 수 있는 단어입니다. 뜻과 예문을 함께 보고, 해석 버튼으로 한국어 의미를 확인하세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/remove"
+            }
+          ]
+        },
+        {
+          "difficulty": "중급",
+          "word": "select",
+          "meaning": "선택하다",
+          "example": "Select the best option for the team.",
+          "exampleKo": "",
+          "note": "Oxford Learner's Dictionaries 항목을 확인할 수 있는 단어입니다. 뜻과 예문을 함께 보고, 해석 버튼으로 한국어 의미를 확인하세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/select"
+            }
+          ]
+        },
+        {
+          "difficulty": "고급",
+          "word": "enunciate",
+          "meaning": "명확히 발음하다",
+          "example": "Enunciate each word clearly in the speech.",
+          "exampleKo": "",
+          "note": "Oxford Learner's Dictionaries 항목을 확인할 수 있는 단어입니다. 뜻과 예문을 함께 보고, 해석 버튼으로 한국어 의미를 확인하세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/enunciate"
+            }
+          ]
+        },
+        {
+          "difficulty": "고급",
+          "word": "expound",
+          "meaning": "자세히 설명하다",
+          "example": "Expound on your main argument.",
+          "exampleKo": "",
+          "note": "Oxford Learner's Dictionaries 항목을 확인할 수 있는 단어입니다. 뜻과 예문을 함께 보고, 해석 버튼으로 한국어 의미를 확인하세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/expound"
+            }
+          ]
+        },
+        {
+          "difficulty": "고급",
+          "word": "declare",
+          "meaning": "선언하다",
+          "example": "They declare their goals openly.",
+          "exampleKo": "",
+          "note": "Oxford Learner's Dictionaries 항목을 확인할 수 있는 단어입니다. 뜻과 예문을 함께 보고, 해석 버튼으로 한국어 의미를 확인하세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/declare"
+            }
+          ]
+        },
+        {
+          "difficulty": "고급",
+          "word": "proclaim",
+          "meaning": "공식적으로 선언하다",
+          "example": "The leader proclaims a new policy.",
+          "exampleKo": "",
+          "note": "Oxford Learner's Dictionaries 항목을 확인할 수 있는 단어입니다. 뜻과 예문을 함께 보고, 해석 버튼으로 한국어 의미를 확인하세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/proclaim"
+            }
+          ]
+        },
+        {
+          "difficulty": "고급",
+          "word": "insinuate",
+          "meaning": "넌지시 비치다",
+          "example": "Avoid words that insinuate blame.",
+          "exampleKo": "",
+          "note": "Oxford Learner's Dictionaries 항목을 확인할 수 있는 단어입니다. 뜻과 예문을 함께 보고, 해석 버튼으로 한국어 의미를 확인하세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/insinuate"
+            }
+          ]
+        }
+      ]
+    },
     {
       "date": "2026-07-07",
       "day": 67,
