@@ -1,8 +1,226 @@
 {
-  "updated_at": "2026-07-08",
+  "updated_at": "2026-07-09",
   "default_daily_count": 15,
   "source": "01_기초_동사형용사.json",
   "entries": [
+    {
+      "date": "2026-07-09",
+      "day": 69,
+      "title": "Day 69 난이도별 영단어 15개",
+      "generation_version": "dictionary-source-v2",
+      "items": [
+        {
+          "difficulty": "초급",
+          "word": "pick",
+          "meaning": "고르다",
+          "example": "Pick the red pencil.",
+          "exampleKo": "",
+          "note": "Oxford Learner's Dictionaries 항목을 확인할 수 있는 단어입니다. 뜻과 예문을 함께 보고, 해석 버튼으로 한국어 의미를 확인하세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/pick"
+            }
+          ]
+        },
+        {
+          "difficulty": "초급",
+          "word": "plant",
+          "meaning": "심다",
+          "example": "They plant trees in spring.",
+          "exampleKo": "",
+          "note": "Oxford Learner's Dictionaries 항목을 확인할 수 있는 단어입니다. 뜻과 예문을 함께 보고, 해석 버튼으로 한국어 의미를 확인하세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/plant"
+            }
+          ]
+        },
+        {
+          "difficulty": "초급",
+          "word": "print",
+          "meaning": "인쇄하다",
+          "example": "Print the report now.",
+          "exampleKo": "",
+          "note": "Oxford Learner's Dictionaries 항목을 확인할 수 있는 단어입니다. 뜻과 예문을 함께 보고, 해석 버튼으로 한국어 의미를 확인하세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/print"
+            }
+          ]
+        },
+        {
+          "difficulty": "초급",
+          "word": "ride",
+          "meaning": "타다",
+          "example": "We ride our bikes home.",
+          "exampleKo": "",
+          "note": "Oxford Learner's Dictionaries 항목을 확인할 수 있는 단어입니다. 뜻과 예문을 함께 보고, 해석 버튼으로 한국어 의미를 확인하세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/ride"
+            }
+          ]
+        },
+        {
+          "difficulty": "초급",
+          "word": "sing",
+          "meaning": "노래하다",
+          "example": "They sing together after class.",
+          "exampleKo": "",
+          "note": "Oxford Learner's Dictionaries 항목을 확인할 수 있는 단어입니다. 뜻과 예문을 함께 보고, 해석 버튼으로 한국어 의미를 확인하세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/sing"
+            }
+          ]
+        },
+        {
+          "difficulty": "중급",
+          "word": "separate",
+          "meaning": "분리하다",
+          "example": "Separate the files by topic.",
+          "exampleKo": "",
+          "note": "Oxford Learner's Dictionaries 항목을 확인할 수 있는 단어입니다. 뜻과 예문을 함께 보고, 해석 버튼으로 한국어 의미를 확인하세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/separate"
+            }
+          ]
+        },
+        {
+          "difficulty": "중급",
+          "word": "simplify",
+          "meaning": "단순화하다",
+          "example": "Simplify the explanation for beginners.",
+          "exampleKo": "",
+          "note": "Oxford Learner's Dictionaries 항목을 확인할 수 있는 단어입니다. 뜻과 예문을 함께 보고, 해석 버튼으로 한국어 의미를 확인하세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/simplify"
+            }
+          ]
+        },
+        {
+          "difficulty": "중급",
+          "word": "manage",
+          "meaning": "관리하다",
+          "example": "She manages the project well.",
+          "exampleKo": "",
+          "note": "Oxford Learner's Dictionaries 항목을 확인할 수 있는 단어입니다. 뜻과 예문을 함께 보고, 해석 버튼으로 한국어 의미를 확인하세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/manage"
+            }
+          ]
+        },
+        {
+          "difficulty": "중급",
+          "word": "prepare",
+          "meaning": "준비하다",
+          "example": "Prepare the report before noon.",
+          "exampleKo": "",
+          "note": "Oxford Learner's Dictionaries 항목을 확인할 수 있는 단어입니다. 뜻과 예문을 함께 보고, 해석 버튼으로 한국어 의미를 확인하세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/prepare"
+            }
+          ]
+        },
+        {
+          "difficulty": "중급",
+          "word": "replace",
+          "meaning": "교체하다",
+          "example": "Please replace the old battery.",
+          "exampleKo": "",
+          "note": "Oxford Learner's Dictionaries 항목을 확인할 수 있는 단어입니다. 뜻과 예문을 함께 보고, 해석 버튼으로 한국어 의미를 확인하세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/replace"
+            }
+          ]
+        },
+        {
+          "difficulty": "고급",
+          "word": "innovate",
+          "meaning": "혁신하다",
+          "example": "We innovate to solve old problems.",
+          "exampleKo": "",
+          "note": "Oxford Learner's Dictionaries 항목을 확인할 수 있는 단어입니다. 뜻과 예문을 함께 보고, 해석 버튼으로 한국어 의미를 확인하세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/innovate"
+            }
+          ]
+        },
+        {
+          "difficulty": "고급",
+          "word": "revolutionize",
+          "meaning": "혁신적으로 바꾸다",
+          "example": "The new tool can revolutionize the workflow.",
+          "exampleKo": "",
+          "note": "Oxford Learner's Dictionaries 항목을 확인할 수 있는 단어입니다. 뜻과 예문을 함께 보고, 해석 버튼으로 한국어 의미를 확인하세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/revolutionize"
+            }
+          ]
+        },
+        {
+          "difficulty": "고급",
+          "word": "fragile",
+          "meaning": "취약한",
+          "example": "The fragile system needs careful handling.",
+          "exampleKo": "",
+          "note": "Oxford Learner's Dictionaries 항목을 확인할 수 있는 단어입니다. 뜻과 예문을 함께 보고, 해석 버튼으로 한국어 의미를 확인하세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/fragile"
+            }
+          ]
+        },
+        {
+          "difficulty": "고급",
+          "word": "hasten",
+          "meaning": "서두르다",
+          "example": "Do not hasten the decision.",
+          "exampleKo": "",
+          "note": "Oxford Learner's Dictionaries 항목을 확인할 수 있는 단어입니다. 뜻과 예문을 함께 보고, 해석 버튼으로 한국어 의미를 확인하세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/hasten"
+            }
+          ]
+        },
+        {
+          "difficulty": "고급",
+          "word": "illuminate",
+          "meaning": "비추다",
+          "example": "The lamp illuminates the desk.",
+          "exampleKo": "",
+          "note": "Oxford Learner's Dictionaries 항목을 확인할 수 있는 단어입니다. 뜻과 예문을 함께 보고, 해석 버튼으로 한국어 의미를 확인하세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/illuminate"
+            }
+          ]
+        }
+      ]
+    },
     {
       "date": "2026-07-08",
       "day": 68,
