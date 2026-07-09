@@ -1,8 +1,198 @@
 {
-  "updated_at": "2026-07-09",
+  "updated_at": "2026-07-10",
   "default_daily_count": 15,
   "source": "01_기초_동사형용사.json",
   "entries": [
+    {
+      "date": "2026-07-10",
+      "day": 70,
+      "title": "Day 70 난이도별 영단어 13개",
+      "generation_version": "dictionary-source-v2",
+      "items": [
+        {
+          "difficulty": "초급",
+          "word": "skate",
+          "meaning": "스케이트를 타다",
+          "example": "She skates on the ice.",
+          "exampleKo": "",
+          "note": "Oxford Learner's Dictionaries 항목을 확인할 수 있는 단어입니다. 뜻과 예문을 함께 보고, 해석 버튼으로 한국어 의미를 확인하세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/skate"
+            }
+          ]
+        },
+        {
+          "difficulty": "초급",
+          "word": "smell",
+          "meaning": "냄새가 나다",
+          "example": "The soup smells good.",
+          "exampleKo": "",
+          "note": "Oxford Learner's Dictionaries 항목을 확인할 수 있는 단어입니다. 뜻과 예문을 함께 보고, 해석 버튼으로 한국어 의미를 확인하세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/smell"
+            }
+          ]
+        },
+        {
+          "difficulty": "초급",
+          "word": "step",
+          "meaning": "발을 내딛다",
+          "example": "Step carefully on the rocks.",
+          "exampleKo": "",
+          "note": "Oxford Learner's Dictionaries 항목을 확인할 수 있는 단어입니다. 뜻과 예문을 함께 보고, 해석 버튼으로 한국어 의미를 확인하세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/step"
+            }
+          ]
+        },
+        {
+          "difficulty": "초급",
+          "word": "zip",
+          "meaning": "지퍼를 채우다",
+          "example": "Zip your coat before going out.",
+          "exampleKo": "",
+          "note": "Oxford Learner's Dictionaries 항목을 확인할 수 있는 단어입니다. 뜻과 예문을 함께 보고, 해석 버튼으로 한국어 의미를 확인하세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/zip"
+            }
+          ]
+        },
+        {
+          "difficulty": "초급",
+          "word": "dark",
+          "meaning": "어두운",
+          "example": "The room is dark at night.",
+          "exampleKo": "",
+          "note": "Oxford Learner's Dictionaries 항목을 확인할 수 있는 단어입니다. 뜻과 예문을 함께 보고, 해석 버튼으로 한국어 의미를 확인하세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/dark"
+            }
+          ]
+        },
+        {
+          "difficulty": "중급",
+          "word": "transform",
+          "meaning": "변형하다",
+          "example": "The update transformed the workflow.",
+          "exampleKo": "",
+          "note": "Oxford Learner's Dictionaries 항목을 확인할 수 있는 단어입니다. 뜻과 예문을 함께 보고, 해석 버튼으로 한국어 의미를 확인하세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/transform"
+            }
+          ]
+        },
+        {
+          "difficulty": "중급",
+          "word": "assist",
+          "meaning": "돕다",
+          "example": "Volunteers assist the visitors at the entrance.",
+          "exampleKo": "",
+          "note": "Oxford Learner's Dictionaries 항목을 확인할 수 있는 단어입니다. 뜻과 예문을 함께 보고, 해석 버튼으로 한국어 의미를 확인하세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/assist"
+            }
+          ]
+        },
+        {
+          "difficulty": "중급",
+          "word": "locate",
+          "meaning": "찾아내다",
+          "example": "We located the missing file.",
+          "exampleKo": "",
+          "note": "Oxford Learner's Dictionaries 항목을 확인할 수 있는 단어입니다. 뜻과 예문을 함께 보고, 해석 버튼으로 한국어 의미를 확인하세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/locate"
+            }
+          ]
+        },
+        {
+          "difficulty": "중급",
+          "word": "review",
+          "meaning": "다시 살펴보다",
+          "example": "Review the contract before signing.",
+          "exampleKo": "",
+          "note": "Oxford Learner's Dictionaries 항목을 확인할 수 있는 단어입니다. 뜻과 예문을 함께 보고, 해석 버튼으로 한국어 의미를 확인하세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/review"
+            }
+          ]
+        },
+        {
+          "difficulty": "고급",
+          "word": "obsolete",
+          "meaning": "구식의",
+          "example": "That rule is now obsolete.",
+          "exampleKo": "",
+          "note": "Oxford Learner's Dictionaries 항목을 확인할 수 있는 단어입니다. 뜻과 예문을 함께 보고, 해석 버튼으로 한국어 의미를 확인하세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/obsolete"
+            }
+          ]
+        },
+        {
+          "difficulty": "고급",
+          "word": "perplexing",
+          "meaning": "어리둥절하게 하는",
+          "example": "The result was perplexing at first.",
+          "exampleKo": "",
+          "note": "Oxford Learner's Dictionaries 항목을 확인할 수 있는 단어입니다. 뜻과 예문을 함께 보고, 해석 버튼으로 한국어 의미를 확인하세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/perplexing"
+            }
+          ]
+        },
+        {
+          "difficulty": "고급",
+          "word": "tactful",
+          "meaning": "말을 잘 가리는",
+          "example": "A tactful comment softened the room.",
+          "exampleKo": "",
+          "note": "Oxford Learner's Dictionaries 항목을 확인할 수 있는 단어입니다. 뜻과 예문을 함께 보고, 해석 버튼으로 한국어 의미를 확인하세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/tactful"
+            }
+          ]
+        },
+        {
+          "difficulty": "고급",
+          "word": "withstand",
+          "meaning": "견디다",
+          "example": "The bridge can withstand strong winds.",
+          "exampleKo": "",
+          "note": "Oxford Learner's Dictionaries 항목을 확인할 수 있는 단어입니다. 뜻과 예문을 함께 보고, 해석 버튼으로 한국어 의미를 확인하세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/withstand"
+            }
+          ]
+        }
+      ]
+    },
     {
       "date": "2026-07-09",
       "day": 69,
