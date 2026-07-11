@@ -1,8 +1,226 @@
 {
-  "updated_at": "2026-07-11",
+  "updated_at": "2026-07-12",
   "default_daily_count": 15,
   "source": "01_기초_동사형용사.json",
   "entries": [
+    {
+      "date": "2026-07-12",
+      "day": 72,
+      "title": "Day 72 일요일 복습 영단어 15개",
+      "generation_version": "dictionary-source-v2",
+      "items": [
+        {
+          "difficulty": "초급",
+          "word": "feed",
+          "meaning": "먹이를 주다",
+          "example": "Feed the cat after dinner.",
+          "exampleKo": "",
+          "note": "일요일 복습 단어입니다. 어렵게 느꼈거나 최근에 다시 확인할 가치가 있는 단어로, 예문을 먼저 읽고 뜻을 떠올려보세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/feed"
+            }
+          ]
+        },
+        {
+          "difficulty": "초급",
+          "word": "spread",
+          "meaning": "펼치다",
+          "example": "Spread the butter on bread.",
+          "exampleKo": "",
+          "note": "일요일 복습 단어입니다. 어렵게 느꼈거나 최근에 다시 확인할 가치가 있는 단어로, 예문을 먼저 읽고 뜻을 떠올려보세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/spread"
+            }
+          ]
+        },
+        {
+          "difficulty": "초급",
+          "word": "swim",
+          "meaning": "수영하다",
+          "example": "They swim in the pool.",
+          "exampleKo": "",
+          "note": "일요일 복습 단어입니다. 어렵게 느꼈거나 최근에 다시 확인할 가치가 있는 단어로, 예문을 먼저 읽고 뜻을 떠올려보세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/swim"
+            }
+          ]
+        },
+        {
+          "difficulty": "초급",
+          "word": "swing",
+          "meaning": "흔들리다",
+          "example": "The child swings high.",
+          "exampleKo": "",
+          "note": "일요일 복습 단어입니다. 어렵게 느꼈거나 최근에 다시 확인할 가치가 있는 단어로, 예문을 먼저 읽고 뜻을 떠올려보세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/swing"
+            }
+          ]
+        },
+        {
+          "difficulty": "초급",
+          "word": "teach",
+          "meaning": "가르치다",
+          "example": "She teaches young children.",
+          "exampleKo": "",
+          "note": "일요일 복습 단어입니다. 어렵게 느꼈거나 최근에 다시 확인할 가치가 있는 단어로, 예문을 먼저 읽고 뜻을 떠올려보세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/teach"
+            }
+          ]
+        },
+        {
+          "difficulty": "중급",
+          "word": "repair",
+          "meaning": "수리하다",
+          "example": "They repair the phone quickly.",
+          "exampleKo": "",
+          "note": "일요일 복습 단어입니다. 어렵게 느꼈거나 최근에 다시 확인할 가치가 있는 단어로, 예문을 먼저 읽고 뜻을 떠올려보세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/repair"
+            }
+          ]
+        },
+        {
+          "difficulty": "중급",
+          "word": "diagnose",
+          "meaning": "진단하다",
+          "example": "The technician diagnosed the fault quickly.",
+          "exampleKo": "",
+          "note": "일요일 복습 단어입니다. 어렵게 느꼈거나 최근에 다시 확인할 가치가 있는 단어로, 예문을 먼저 읽고 뜻을 떠올려보세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/diagnose"
+            }
+          ]
+        },
+        {
+          "difficulty": "중급",
+          "word": "imagine",
+          "meaning": "상상하다",
+          "example": "Imagine a faster way to finish the task.",
+          "exampleKo": "",
+          "note": "일요일 복습 단어입니다. 어렵게 느꼈거나 최근에 다시 확인할 가치가 있는 단어로, 예문을 먼저 읽고 뜻을 떠올려보세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/imagine"
+            }
+          ]
+        },
+        {
+          "difficulty": "중급",
+          "word": "leverage",
+          "meaning": "활용하다",
+          "example": "We leverage past experience here.",
+          "exampleKo": "",
+          "note": "일요일 복습 단어입니다. 어렵게 느꼈거나 최근에 다시 확인할 가치가 있는 단어로, 예문을 먼저 읽고 뜻을 떠올려보세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/leverage"
+            }
+          ]
+        },
+        {
+          "difficulty": "중급",
+          "word": "maximize",
+          "meaning": "극대화하다",
+          "example": "Maximize your study time.",
+          "exampleKo": "",
+          "note": "일요일 복습 단어입니다. 어렵게 느꼈거나 최근에 다시 확인할 가치가 있는 단어로, 예문을 먼저 읽고 뜻을 떠올려보세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/maximize"
+            }
+          ]
+        },
+        {
+          "difficulty": "고급",
+          "word": "catalyze",
+          "meaning": "촉진하다",
+          "example": "Good feedback can catalyze change.",
+          "exampleKo": "",
+          "note": "일요일 복습 단어입니다. 어렵게 느꼈거나 최근에 다시 확인할 가치가 있는 단어로, 예문을 먼저 읽고 뜻을 떠올려보세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/catalyze"
+            }
+          ]
+        },
+        {
+          "difficulty": "고급",
+          "word": "abolish",
+          "meaning": "폐지하다",
+          "example": "The council will abolish the outdated rule.",
+          "exampleKo": "",
+          "note": "일요일 복습 단어입니다. 어렵게 느꼈거나 최근에 다시 확인할 가치가 있는 단어로, 예문을 먼저 읽고 뜻을 떠올려보세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/abolish"
+            }
+          ]
+        },
+        {
+          "difficulty": "고급",
+          "word": "adjudicate",
+          "meaning": "판정하다",
+          "example": "The panel will adjudicate the dispute.",
+          "exampleKo": "",
+          "note": "일요일 복습 단어입니다. 어렵게 느꼈거나 최근에 다시 확인할 가치가 있는 단어로, 예문을 먼저 읽고 뜻을 떠올려보세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/adjudicate"
+            }
+          ]
+        },
+        {
+          "difficulty": "고급",
+          "word": "adroit",
+          "meaning": "능숙한",
+          "example": "She is adroit at negotiations.",
+          "exampleKo": "",
+          "note": "일요일 복습 단어입니다. 어렵게 느꼈거나 최근에 다시 확인할 가치가 있는 단어로, 예문을 먼저 읽고 뜻을 떠올려보세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/adroit"
+            }
+          ]
+        },
+        {
+          "difficulty": "고급",
+          "word": "elaborate",
+          "meaning": "정교한",
+          "example": "The plan became more elaborate.",
+          "exampleKo": "",
+          "note": "일요일 복습 단어입니다. 어렵게 느꼈거나 최근에 다시 확인할 가치가 있는 단어로, 예문을 먼저 읽고 뜻을 떠올려보세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/elaborate"
+            }
+          ]
+        }
+      ]
+    },
     {
       "date": "2026-07-11",
       "day": 71,
