@@ -1,7 +1,48 @@
 {
-  "updated_at": "2026-07-16",
+  "updated_at": "2026-07-17",
   "default_daily_count": 2,
   "entries": [
+    {
+      "date": "2026-07-17",
+      "title": "2026.07.17 오늘의 배려 2가지",
+      "generation_version": "relationship-source-v1",
+      "items": [
+        {
+          "id": "care-relationship-source-v1-2026-07-17-healthy-communication",
+          "label": "대화",
+          "title": "내 감정과 요구를 공격이 아니라 설명으로 말하기: 출처 복습",
+          "action": "건강한 관계에서는 상대를 비난하기보다 자신의 감정과 필요를 명확히 말하는 방식이 중요합니다. '너는 항상 그래'보다 '나는 이 상황에서 서운했고 다음에는 이렇게 해주면 좋겠어'가 더 안전한 대화입니다.",
+          "why": "비난은 방어를 부르고, 설명은 조정할 수 있는 정보를 줍니다.",
+          "practice": "오늘 불편한 일이 있으면 '너'로 시작하는 문장을 '나는'으로 바꿔 말하기",
+          "example": "나는 기다리는 동안 조금 서운했어. 다음엔 늦을 것 같으면 먼저 말해주면 좋겠어.",
+          "avoid": "상대 성격을 단정하는 말로 문제를 키우지 않기",
+          "sources": [
+            {
+              "label": "APA Relationships",
+              "url": "https://www.apa.org/topics/relationships"
+            }
+          ],
+          "baseKey": "healthy-communication"
+        },
+        {
+          "id": "care-relationship-source-v1-2026-07-17-appreciation",
+          "label": "감사",
+          "title": "받은 배려를 구체적인 감사로 되돌려주기: 출처 복습",
+          "action": "좋은 관계는 긍정적 상호작용을 자주 쌓는 쪽으로 강해집니다. 상대가 해준 일을 그냥 넘기지 말고 무엇이 편했고 왜 고마웠는지 구체적으로 말해 주세요.",
+          "why": "구체적인 감사는 상대의 행동이 당연하게 소비되지 않았다는 신호가 됩니다.",
+          "practice": "오늘 받은 배려 하나를 '무엇이, 왜' 고마웠는지 붙여 말하기",
+          "example": "네가 먼저 시간 맞춰줘서 내가 덜 조급했어. 고마워.",
+          "avoid": "고맙다는 말을 생략한 채 다음 배려를 기대하지 않기",
+          "sources": [
+            {
+              "label": "The Gottman Institute",
+              "url": "https://www.gottman.com/blog/turn-toward-instead-of-away/"
+            }
+          ],
+          "baseKey": "appreciation"
+        }
+      ]
+    },
     {
       "date": "2026-07-16",
       "title": "2026.07.16 오늘의 배려 2가지",
