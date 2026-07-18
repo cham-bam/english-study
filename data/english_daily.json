@@ -1,8 +1,226 @@
 {
-  "updated_at": "2026-07-18",
+  "updated_at": "2026-07-19",
   "default_daily_count": 15,
   "source": "01_기초_동사형용사.json",
   "entries": [
+    {
+      "date": "2026-07-19",
+      "day": 79,
+      "title": "Day 79 일요일 복습 영단어 15개",
+      "generation_version": "dictionary-source-v2",
+      "items": [
+        {
+          "difficulty": "초급",
+          "word": "sail",
+          "meaning": "항해하다",
+          "example": "We sail on the lake.",
+          "exampleKo": "",
+          "note": "일요일 복습 단어입니다. 어렵게 느꼈거나 최근에 다시 확인할 가치가 있는 단어로, 예문을 먼저 읽고 뜻을 떠올려보세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/sail"
+            }
+          ]
+        },
+        {
+          "difficulty": "초급",
+          "word": "shake",
+          "meaning": "흔들다",
+          "example": "Please shake the bottle.",
+          "exampleKo": "",
+          "note": "일요일 복습 단어입니다. 어렵게 느꼈거나 최근에 다시 확인할 가치가 있는 단어로, 예문을 먼저 읽고 뜻을 떠올려보세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/shake"
+            }
+          ]
+        },
+        {
+          "difficulty": "초급",
+          "word": "sleep",
+          "meaning": "자다",
+          "example": "I sleep eight hours.",
+          "exampleKo": "",
+          "note": "일요일 복습 단어입니다. 어렵게 느꼈거나 최근에 다시 확인할 가치가 있는 단어로, 예문을 먼저 읽고 뜻을 떠올려보세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/sleep"
+            }
+          ]
+        },
+        {
+          "difficulty": "초급",
+          "word": "sneeze",
+          "meaning": "재채기하다",
+          "example": "He sneezes loudly.",
+          "exampleKo": "",
+          "note": "일요일 복습 단어입니다. 어렵게 느꼈거나 최근에 다시 확인할 가치가 있는 단어로, 예문을 먼저 읽고 뜻을 떠올려보세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/sneeze"
+            }
+          ]
+        },
+        {
+          "difficulty": "초급",
+          "word": "glow",
+          "meaning": "빛나다",
+          "example": "The lamp glows softly.",
+          "exampleKo": "",
+          "note": "일요일 복습 단어입니다. 어렵게 느꼈거나 최근에 다시 확인할 가치가 있는 단어로, 예문을 먼저 읽고 뜻을 떠올려보세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/glow"
+            }
+          ]
+        },
+        {
+          "difficulty": "중급",
+          "word": "consolidate",
+          "meaning": "통합하다",
+          "example": "Consolidate your notes after class.",
+          "exampleKo": "",
+          "note": "일요일 복습 단어입니다. 어렵게 느꼈거나 최근에 다시 확인할 가치가 있는 단어로, 예문을 먼저 읽고 뜻을 떠올려보세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/consolidate"
+            }
+          ]
+        },
+        {
+          "difficulty": "중급",
+          "word": "recommend",
+          "meaning": "추천하다",
+          "example": "I recommend a simpler approach.",
+          "exampleKo": "",
+          "note": "일요일 복습 단어입니다. 어렵게 느꼈거나 최근에 다시 확인할 가치가 있는 단어로, 예문을 먼저 읽고 뜻을 떠올려보세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/recommend"
+            }
+          ]
+        },
+        {
+          "difficulty": "중급",
+          "word": "compose",
+          "meaning": "구성하다",
+          "example": "Compose your email carefully.",
+          "exampleKo": "",
+          "note": "일요일 복습 단어입니다. 어렵게 느꼈거나 최근에 다시 확인할 가치가 있는 단어로, 예문을 먼저 읽고 뜻을 떠올려보세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/compose"
+            }
+          ]
+        },
+        {
+          "difficulty": "중급",
+          "word": "derive",
+          "meaning": "도출하다",
+          "example": "We derive the formula from the rule.",
+          "exampleKo": "",
+          "note": "일요일 복습 단어입니다. 어렵게 느꼈거나 최근에 다시 확인할 가치가 있는 단어로, 예문을 먼저 읽고 뜻을 떠올려보세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/derive"
+            }
+          ]
+        },
+        {
+          "difficulty": "중급",
+          "word": "execute",
+          "meaning": "실행하다",
+          "example": "Execute the plan on Monday.",
+          "exampleKo": "",
+          "note": "일요일 복습 단어입니다. 어렵게 느꼈거나 최근에 다시 확인할 가치가 있는 단어로, 예문을 먼저 읽고 뜻을 떠올려보세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/execute"
+            }
+          ]
+        },
+        {
+          "difficulty": "고급",
+          "word": "astute",
+          "meaning": "통찰력 있는",
+          "example": "She made an astute observation.",
+          "exampleKo": "",
+          "note": "일요일 복습 단어입니다. 어렵게 느꼈거나 최근에 다시 확인할 가치가 있는 단어로, 예문을 먼저 읽고 뜻을 떠올려보세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/astute"
+            }
+          ]
+        },
+        {
+          "difficulty": "고급",
+          "word": "stringent",
+          "meaning": "엄격한",
+          "example": "The lab follows stringent standards.",
+          "exampleKo": "",
+          "note": "일요일 복습 단어입니다. 어렵게 느꼈거나 최근에 다시 확인할 가치가 있는 단어로, 예문을 먼저 읽고 뜻을 떠올려보세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/stringent"
+            }
+          ]
+        },
+        {
+          "difficulty": "고급",
+          "word": "daunting",
+          "meaning": "벅찬",
+          "example": "The task looked daunting at first.",
+          "exampleKo": "",
+          "note": "일요일 복습 단어입니다. 어렵게 느꼈거나 최근에 다시 확인할 가치가 있는 단어로, 예문을 먼저 읽고 뜻을 떠올려보세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/daunting"
+            }
+          ]
+        },
+        {
+          "difficulty": "고급",
+          "word": "stagnant",
+          "meaning": "정체된",
+          "example": "The stagnant market needs new ideas.",
+          "exampleKo": "",
+          "note": "일요일 복습 단어입니다. 어렵게 느꼈거나 최근에 다시 확인할 가치가 있는 단어로, 예문을 먼저 읽고 뜻을 떠올려보세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/stagnant"
+            }
+          ]
+        },
+        {
+          "difficulty": "고급",
+          "word": "lucid",
+          "meaning": "명료한",
+          "example": "Her explanation was lucid.",
+          "exampleKo": "그녀의 설명은 명료했다.",
+          "note": "일요일 복습 단어입니다. 어렵게 느꼈거나 최근에 다시 확인할 가치가 있는 단어로, 예문을 먼저 읽고 뜻을 떠올려보세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/lucid"
+            }
+          ]
+        }
+      ]
+    },
     {
       "date": "2026-07-18",
       "day": 78,
