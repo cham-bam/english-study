@@ -1,8 +1,226 @@
 {
-  "updated_at": "2026-07-25",
+  "updated_at": "2026-07-26",
   "default_daily_count": 15,
   "source": "01_기초_동사형용사.json",
   "entries": [
+    {
+      "date": "2026-07-26",
+      "day": 86,
+      "title": "Day 86 일요일 복습 영단어 15개",
+      "generation_version": "dictionary-source-v2",
+      "items": [
+        {
+          "difficulty": "초급",
+          "word": "sing",
+          "meaning": "노래하다",
+          "example": "They sing together after class.",
+          "exampleKo": "",
+          "note": "일요일 복습 단어입니다. 어렵게 느꼈거나 최근에 다시 확인할 가치가 있는 단어로, 예문을 먼저 읽고 뜻을 떠올려보세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/sing"
+            }
+          ]
+        },
+        {
+          "difficulty": "초급",
+          "word": "twist",
+          "meaning": "비틀다",
+          "example": "Twist the cap gently.",
+          "exampleKo": "",
+          "note": "일요일 복습 단어입니다. 어렵게 느꼈거나 최근에 다시 확인할 가치가 있는 단어로, 예문을 먼저 읽고 뜻을 떠올려보세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/twist"
+            }
+          ]
+        },
+        {
+          "difficulty": "초급",
+          "word": "whistle",
+          "meaning": "휘파람을 불다",
+          "example": "He whistles a tune.",
+          "exampleKo": "",
+          "note": "일요일 복습 단어입니다. 어렵게 느꼈거나 최근에 다시 확인할 가치가 있는 단어로, 예문을 먼저 읽고 뜻을 떠올려보세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/whistle"
+            }
+          ]
+        },
+        {
+          "difficulty": "초급",
+          "word": "breathe",
+          "meaning": "숨 쉬다",
+          "example": "Breathe slowly and relax.",
+          "exampleKo": "",
+          "note": "일요일 복습 단어입니다. 어렵게 느꼈거나 최근에 다시 확인할 가치가 있는 단어로, 예문을 먼저 읽고 뜻을 떠올려보세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/breathe"
+            }
+          ]
+        },
+        {
+          "difficulty": "초급",
+          "word": "crawl",
+          "meaning": "기어가다",
+          "example": "The baby crawls forward.",
+          "exampleKo": "",
+          "note": "일요일 복습 단어입니다. 어렵게 느꼈거나 최근에 다시 확인할 가치가 있는 단어로, 예문을 먼저 읽고 뜻을 떠올려보세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/crawl"
+            }
+          ]
+        },
+        {
+          "difficulty": "중급",
+          "word": "instruct",
+          "meaning": "지시하다",
+          "example": "The coach instructs the team clearly.",
+          "exampleKo": "",
+          "note": "일요일 복습 단어입니다. 어렵게 느꼈거나 최근에 다시 확인할 가치가 있는 단어로, 예문을 먼저 읽고 뜻을 떠올려보세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/instruct"
+            }
+          ]
+        },
+        {
+          "difficulty": "중급",
+          "word": "investigate",
+          "meaning": "조사하다",
+          "example": "They investigate the cause carefully.",
+          "exampleKo": "",
+          "note": "일요일 복습 단어입니다. 어렵게 느꼈거나 최근에 다시 확인할 가치가 있는 단어로, 예문을 먼저 읽고 뜻을 떠올려보세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/investigate"
+            }
+          ]
+        },
+        {
+          "difficulty": "중급",
+          "word": "limit",
+          "meaning": "제한하다",
+          "example": "Limit the number of retries.",
+          "exampleKo": "",
+          "note": "일요일 복습 단어입니다. 어렵게 느꼈거나 최근에 다시 확인할 가치가 있는 단어로, 예문을 먼저 읽고 뜻을 떠올려보세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/limit"
+            }
+          ]
+        },
+        {
+          "difficulty": "중급",
+          "word": "launch",
+          "meaning": "시작하다",
+          "example": "They launch the project today.",
+          "exampleKo": "",
+          "note": "일요일 복습 단어입니다. 어렵게 느꼈거나 최근에 다시 확인할 가치가 있는 단어로, 예문을 먼저 읽고 뜻을 떠올려보세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/launch"
+            }
+          ]
+        },
+        {
+          "difficulty": "중급",
+          "word": "notify",
+          "meaning": "알리다",
+          "example": "Notify me when you arrive.",
+          "exampleKo": "",
+          "note": "일요일 복습 단어입니다. 어렵게 느꼈거나 최근에 다시 확인할 가치가 있는 단어로, 예문을 먼저 읽고 뜻을 떠올려보세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/notify"
+            }
+          ]
+        },
+        {
+          "difficulty": "고급",
+          "word": "sustainable",
+          "meaning": "지속 가능한",
+          "example": "The project aims for a sustainable future.",
+          "exampleKo": "",
+          "note": "일요일 복습 단어입니다. 어렵게 느꼈거나 최근에 다시 확인할 가치가 있는 단어로, 예문을 먼저 읽고 뜻을 떠올려보세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/sustainable"
+            }
+          ]
+        },
+        {
+          "difficulty": "고급",
+          "word": "pioneer",
+          "meaning": "개척하다",
+          "example": "She pioneers a new method.",
+          "exampleKo": "",
+          "note": "일요일 복습 단어입니다. 어렵게 느꼈거나 최근에 다시 확인할 가치가 있는 단어로, 예문을 먼저 읽고 뜻을 떠올려보세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/pioneer"
+            }
+          ]
+        },
+        {
+          "difficulty": "고급",
+          "word": "reshape",
+          "meaning": "다시 형성하다",
+          "example": "The policy reshapes the market.",
+          "exampleKo": "",
+          "note": "일요일 복습 단어입니다. 어렵게 느꼈거나 최근에 다시 확인할 가치가 있는 단어로, 예문을 먼저 읽고 뜻을 떠올려보세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/reshape"
+            }
+          ]
+        },
+        {
+          "difficulty": "고급",
+          "word": "redefine",
+          "meaning": "재정의하다",
+          "example": "We redefine what success means.",
+          "exampleKo": "",
+          "note": "일요일 복습 단어입니다. 어렵게 느꼈거나 최근에 다시 확인할 가치가 있는 단어로, 예문을 먼저 읽고 뜻을 떠올려보세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/redefine"
+            }
+          ]
+        },
+        {
+          "difficulty": "고급",
+          "word": "disrupt",
+          "meaning": "방해하다",
+          "example": "The app can disrupt old habits.",
+          "exampleKo": "",
+          "note": "일요일 복습 단어입니다. 어렵게 느꼈거나 최근에 다시 확인할 가치가 있는 단어로, 예문을 먼저 읽고 뜻을 떠올려보세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/disrupt"
+            }
+          ]
+        }
+      ]
+    },
     {
       "date": "2026-07-25",
       "day": 85,
