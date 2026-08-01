@@ -1,8 +1,226 @@
 {
-  "updated_at": "2026-08-01",
+  "updated_at": "2026-08-02",
   "default_daily_count": 15,
   "source": "01_기초_동사형용사.json",
   "entries": [
+    {
+      "date": "2026-08-02",
+      "day": 93,
+      "title": "Day 93 일요일 복습 영단어 15개",
+      "generation_version": "dictionary-source-v2",
+      "items": [
+        {
+          "difficulty": "초급",
+          "word": "teach",
+          "meaning": "가르치다",
+          "example": "She teaches young children.",
+          "exampleKo": "",
+          "note": "일요일 복습 단어입니다. 어렵게 느꼈거나 최근에 다시 확인할 가치가 있는 단어로, 예문을 먼저 읽고 뜻을 떠올려보세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/teach"
+            }
+          ]
+        },
+        {
+          "difficulty": "초급",
+          "word": "skate",
+          "meaning": "스케이트를 타다",
+          "example": "She skates on the ice.",
+          "exampleKo": "",
+          "note": "일요일 복습 단어입니다. 어렵게 느꼈거나 최근에 다시 확인할 가치가 있는 단어로, 예문을 먼저 읽고 뜻을 떠올려보세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/skate"
+            }
+          ]
+        },
+        {
+          "difficulty": "초급",
+          "word": "smell",
+          "meaning": "냄새가 나다",
+          "example": "The soup smells good.",
+          "exampleKo": "",
+          "note": "일요일 복습 단어입니다. 어렵게 느꼈거나 최근에 다시 확인할 가치가 있는 단어로, 예문을 먼저 읽고 뜻을 떠올려보세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/smell"
+            }
+          ]
+        },
+        {
+          "difficulty": "초급",
+          "word": "step",
+          "meaning": "발을 내딛다",
+          "example": "Step carefully on the rocks.",
+          "exampleKo": "",
+          "note": "일요일 복습 단어입니다. 어렵게 느꼈거나 최근에 다시 확인할 가치가 있는 단어로, 예문을 먼저 읽고 뜻을 떠올려보세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/step"
+            }
+          ]
+        },
+        {
+          "difficulty": "초급",
+          "word": "zip",
+          "meaning": "지퍼를 채우다",
+          "example": "Zip your coat before going out.",
+          "exampleKo": "",
+          "note": "일요일 복습 단어입니다. 어렵게 느꼈거나 최근에 다시 확인할 가치가 있는 단어로, 예문을 먼저 읽고 뜻을 떠올려보세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/zip"
+            }
+          ]
+        },
+        {
+          "difficulty": "중급",
+          "word": "examine",
+          "meaning": "검토하다",
+          "example": "Examine the evidence closely.",
+          "exampleKo": "",
+          "note": "일요일 복습 단어입니다. 어렵게 느꼈거나 최근에 다시 확인할 가치가 있는 단어로, 예문을 먼저 읽고 뜻을 떠올려보세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/examine"
+            }
+          ]
+        },
+        {
+          "difficulty": "중급",
+          "word": "cluster",
+          "meaning": "모여 있다",
+          "example": "The apps cluster similar data together.",
+          "exampleKo": "",
+          "note": "일요일 복습 단어입니다. 어렵게 느꼈거나 최근에 다시 확인할 가치가 있는 단어로, 예문을 먼저 읽고 뜻을 떠올려보세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/cluster"
+            }
+          ]
+        },
+        {
+          "difficulty": "중급",
+          "word": "gather",
+          "meaning": "모으다",
+          "example": "We gather feedback after each release.",
+          "exampleKo": "",
+          "note": "일요일 복습 단어입니다. 어렵게 느꼈거나 최근에 다시 확인할 가치가 있는 단어로, 예문을 먼저 읽고 뜻을 떠올려보세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/gather"
+            }
+          ]
+        },
+        {
+          "difficulty": "중급",
+          "word": "translate",
+          "meaning": "번역하다",
+          "example": "The app translates the message instantly.",
+          "exampleKo": "",
+          "note": "일요일 복습 단어입니다. 어렵게 느꼈거나 최근에 다시 확인할 가치가 있는 단어로, 예문을 먼저 읽고 뜻을 떠올려보세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/translate"
+            }
+          ]
+        },
+        {
+          "difficulty": "중급",
+          "word": "delegate",
+          "meaning": "위임하다",
+          "example": "The manager delegates tasks to the team.",
+          "exampleKo": "",
+          "note": "일요일 복습 단어입니다. 어렵게 느꼈거나 최근에 다시 확인할 가치가 있는 단어로, 예문을 먼저 읽고 뜻을 떠올려보세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/delegate"
+            }
+          ]
+        },
+        {
+          "difficulty": "고급",
+          "word": "deviate",
+          "meaning": "벗어나다",
+          "example": "Do not deviate from the plan.",
+          "exampleKo": "",
+          "note": "일요일 복습 단어입니다. 어렵게 느꼈거나 최근에 다시 확인할 가치가 있는 단어로, 예문을 먼저 읽고 뜻을 떠올려보세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/deviate"
+            }
+          ]
+        },
+        {
+          "difficulty": "고급",
+          "word": "adaptable",
+          "meaning": "적응력이 있는",
+          "example": "An adaptable team learns quickly.",
+          "exampleKo": "",
+          "note": "일요일 복습 단어입니다. 어렵게 느꼈거나 최근에 다시 확인할 가치가 있는 단어로, 예문을 먼저 읽고 뜻을 떠올려보세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/adaptable"
+            }
+          ]
+        },
+        {
+          "difficulty": "고급",
+          "word": "authentic",
+          "meaning": "진짜의",
+          "example": "She gave an authentic answer.",
+          "exampleKo": "",
+          "note": "일요일 복습 단어입니다. 어렵게 느꼈거나 최근에 다시 확인할 가치가 있는 단어로, 예문을 먼저 읽고 뜻을 떠올려보세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/authentic"
+            }
+          ]
+        },
+        {
+          "difficulty": "고급",
+          "word": "critical",
+          "meaning": "중요한",
+          "example": "Timing is critical in this case.",
+          "exampleKo": "",
+          "note": "일요일 복습 단어입니다. 어렵게 느꼈거나 최근에 다시 확인할 가치가 있는 단어로, 예문을 먼저 읽고 뜻을 떠올려보세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/critical"
+            }
+          ]
+        },
+        {
+          "difficulty": "고급",
+          "word": "dynamic",
+          "meaning": "역동적인",
+          "example": "The market is dynamic and fast-moving.",
+          "exampleKo": "",
+          "note": "일요일 복습 단어입니다. 어렵게 느꼈거나 최근에 다시 확인할 가치가 있는 단어로, 예문을 먼저 읽고 뜻을 떠올려보세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/dynamic"
+            }
+          ]
+        }
+      ]
+    },
     {
       "date": "2026-08-01",
       "day": 92,
