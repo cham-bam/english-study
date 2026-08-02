@@ -1,8 +1,226 @@
 {
-  "updated_at": "2026-08-02",
+  "updated_at": "2026-08-03",
   "default_daily_count": 15,
   "source": "01_기초_동사형용사.json",
   "entries": [
+    {
+      "date": "2026-08-03",
+      "day": 94,
+      "title": "Day 94 난이도별 영단어 15개",
+      "generation_version": "dictionary-source-v2",
+      "items": [
+        {
+          "difficulty": "초급",
+          "word": "erase",
+          "meaning": "지우다",
+          "example": "Erase the wrong answer.",
+          "exampleKo": "",
+          "note": "Oxford Learner's Dictionaries 항목을 확인할 수 있는 단어입니다. 뜻과 예문을 함께 보고, 해석 버튼으로 한국어 의미를 확인하세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/erase"
+            }
+          ]
+        },
+        {
+          "difficulty": "초급",
+          "word": "glance",
+          "meaning": "힐끗 보다",
+          "example": "She glances at the clock.",
+          "exampleKo": "",
+          "note": "Oxford Learner's Dictionaries 항목을 확인할 수 있는 단어입니다. 뜻과 예문을 함께 보고, 해석 버튼으로 한국어 의미를 확인하세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/glance"
+            }
+          ]
+        },
+        {
+          "difficulty": "초급",
+          "word": "jog",
+          "meaning": "조깅하다",
+          "example": "We jog after dinner.",
+          "exampleKo": "",
+          "note": "Oxford Learner's Dictionaries 항목을 확인할 수 있는 단어입니다. 뜻과 예문을 함께 보고, 해석 버튼으로 한국어 의미를 확인하세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/jog"
+            }
+          ]
+        },
+        {
+          "difficulty": "초급",
+          "word": "melt",
+          "meaning": "녹다",
+          "example": "The ice melts quickly.",
+          "exampleKo": "",
+          "note": "Oxford Learner's Dictionaries 항목을 확인할 수 있는 단어입니다. 뜻과 예문을 함께 보고, 해석 버튼으로 한국어 의미를 확인하세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/melt"
+            }
+          ]
+        },
+        {
+          "difficulty": "초급",
+          "word": "mop",
+          "meaning": "대걸레질하다",
+          "example": "Please mop the floor.",
+          "exampleKo": "",
+          "note": "Oxford Learner's Dictionaries 항목을 확인할 수 있는 단어입니다. 뜻과 예문을 함께 보고, 해석 버튼으로 한국어 의미를 확인하세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/mop"
+            }
+          ]
+        },
+        {
+          "difficulty": "중급",
+          "word": "assure",
+          "meaning": "확신시키다",
+          "example": "I assure you the plan is safe.",
+          "exampleKo": "",
+          "note": "Oxford Learner's Dictionaries 항목을 확인할 수 있는 단어입니다. 뜻과 예문을 함께 보고, 해석 버튼으로 한국어 의미를 확인하세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/assure"
+            }
+          ]
+        },
+        {
+          "difficulty": "중급",
+          "word": "convey",
+          "meaning": "전달하다",
+          "example": "This sign conveys a warning.",
+          "exampleKo": "",
+          "note": "Oxford Learner's Dictionaries 항목을 확인할 수 있는 단어입니다. 뜻과 예문을 함께 보고, 해석 버튼으로 한국어 의미를 확인하세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/convey"
+            }
+          ]
+        },
+        {
+          "difficulty": "중급",
+          "word": "imply",
+          "meaning": "암시하다",
+          "example": "His tone implied a refusal.",
+          "exampleKo": "",
+          "note": "Oxford Learner's Dictionaries 항목을 확인할 수 있는 단어입니다. 뜻과 예문을 함께 보고, 해석 버튼으로 한국어 의미를 확인하세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/imply"
+            }
+          ]
+        },
+        {
+          "difficulty": "중급",
+          "word": "respond",
+          "meaning": "응답하다",
+          "example": "Please respond by Friday.",
+          "exampleKo": "",
+          "note": "Oxford Learner's Dictionaries 항목을 확인할 수 있는 단어입니다. 뜻과 예문을 함께 보고, 해석 버튼으로 한국어 의미를 확인하세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/respond"
+            }
+          ]
+        },
+        {
+          "difficulty": "중급",
+          "word": "undertake",
+          "meaning": "착수하다",
+          "example": "She undertook the task alone.",
+          "exampleKo": "",
+          "note": "Oxford Learner's Dictionaries 항목을 확인할 수 있는 단어입니다. 뜻과 예문을 함께 보고, 해석 버튼으로 한국어 의미를 확인하세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/undertake"
+            }
+          ]
+        },
+        {
+          "difficulty": "고급",
+          "word": "sanction",
+          "meaning": "승인하다",
+          "example": "The committee sanctioned the proposal.",
+          "exampleKo": "",
+          "note": "Oxford Learner's Dictionaries 항목을 확인할 수 있는 단어입니다. 뜻과 예문을 함께 보고, 해석 버튼으로 한국어 의미를 확인하세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/sanction"
+            }
+          ]
+        },
+        {
+          "difficulty": "고급",
+          "word": "vicissitude",
+          "meaning": "변천",
+          "example": "She adapted to every vicissitude.",
+          "exampleKo": "",
+          "note": "Oxford Learner's Dictionaries 항목을 확인할 수 있는 단어입니다. 뜻과 예문을 함께 보고, 해석 버튼으로 한국어 의미를 확인하세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/vicissitude"
+            }
+          ]
+        },
+        {
+          "difficulty": "고급",
+          "word": "vituperate",
+          "meaning": "독설을 퍼붓다",
+          "example": "The critic vituperated the policy.",
+          "exampleKo": "",
+          "note": "Oxford Learner's Dictionaries 항목을 확인할 수 있는 단어입니다. 뜻과 예문을 함께 보고, 해석 버튼으로 한국어 의미를 확인하세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/vituperate"
+            }
+          ]
+        },
+        {
+          "difficulty": "고급",
+          "word": "winnow",
+          "meaning": "키질하다",
+          "example": "Farmers winnow the grain.",
+          "exampleKo": "",
+          "note": "Oxford Learner's Dictionaries 항목을 확인할 수 있는 단어입니다. 뜻과 예문을 함께 보고, 해석 버튼으로 한국어 의미를 확인하세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/winnow"
+            }
+          ]
+        },
+        {
+          "difficulty": "고급",
+          "word": "sagacious",
+          "meaning": "현명한",
+          "example": "The sagacious judge saw the issue clearly.",
+          "exampleKo": "",
+          "note": "Oxford Learner's Dictionaries 항목을 확인할 수 있는 단어입니다. 뜻과 예문을 함께 보고, 해석 버튼으로 한국어 의미를 확인하세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/sagacious"
+            }
+          ]
+        }
+      ]
+    },
     {
       "date": "2026-08-02",
       "day": 93,
