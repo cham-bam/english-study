@@ -1,8 +1,226 @@
 {
-  "updated_at": "2026-08-03",
+  "updated_at": "2026-08-04",
   "default_daily_count": 15,
   "source": "01_기초_동사형용사.json",
   "entries": [
+    {
+      "date": "2026-08-04",
+      "day": 95,
+      "title": "Day 95 난이도별 영단어 15개",
+      "generation_version": "dictionary-source-v2",
+      "items": [
+        {
+          "difficulty": "초급",
+          "word": "obey",
+          "meaning": "복종하다",
+          "example": "Children should obey rules.",
+          "exampleKo": "",
+          "note": "Oxford Learner's Dictionaries 항목을 확인할 수 있는 단어입니다. 뜻과 예문을 함께 보고, 해석 버튼으로 한국어 의미를 확인하세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/obey"
+            }
+          ]
+        },
+        {
+          "difficulty": "초급",
+          "word": "rinse",
+          "meaning": "헹구다",
+          "example": "Rinse the cup well.",
+          "exampleKo": "",
+          "note": "Oxford Learner's Dictionaries 항목을 확인할 수 있는 단어입니다. 뜻과 예문을 함께 보고, 해석 버튼으로 한국어 의미를 확인하세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/rinse"
+            }
+          ]
+        },
+        {
+          "difficulty": "초급",
+          "word": "slide",
+          "meaning": "미끄러지다",
+          "example": "The door slides open.",
+          "exampleKo": "",
+          "note": "Oxford Learner's Dictionaries 항목을 확인할 수 있는 단어입니다. 뜻과 예문을 함께 보고, 해석 버튼으로 한국어 의미를 확인하세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/slide"
+            }
+          ]
+        },
+        {
+          "difficulty": "초급",
+          "word": "sniff",
+          "meaning": "냄새를 맡다",
+          "example": "The dog sniffs the air.",
+          "exampleKo": "",
+          "note": "Oxford Learner's Dictionaries 항목을 확인할 수 있는 단어입니다. 뜻과 예문을 함께 보고, 해석 버튼으로 한국어 의미를 확인하세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/sniff"
+            }
+          ]
+        },
+        {
+          "difficulty": "초급",
+          "word": "spin",
+          "meaning": "돌다",
+          "example": "The wheel spins fast.",
+          "exampleKo": "",
+          "note": "Oxford Learner's Dictionaries 항목을 확인할 수 있는 단어입니다. 뜻과 예문을 함께 보고, 해석 버튼으로 한국어 의미를 확인하세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/spin"
+            }
+          ]
+        },
+        {
+          "difficulty": "중급",
+          "word": "yield",
+          "meaning": "산출하다",
+          "example": "The field yields a good harvest.",
+          "exampleKo": "",
+          "note": "Oxford Learner's Dictionaries 항목을 확인할 수 있는 단어입니다. 뜻과 예문을 함께 보고, 해석 버튼으로 한국어 의미를 확인하세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/yield"
+            }
+          ]
+        },
+        {
+          "difficulty": "중급",
+          "word": "authorize",
+          "meaning": "승인하다",
+          "example": "The manager authorized the plan.",
+          "exampleKo": "",
+          "note": "Oxford Learner's Dictionaries 항목을 확인할 수 있는 단어입니다. 뜻과 예문을 함께 보고, 해석 버튼으로 한국어 의미를 확인하세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/authorize"
+            }
+          ]
+        },
+        {
+          "difficulty": "중급",
+          "word": "communicate",
+          "meaning": "소통하다",
+          "example": "We communicate by email.",
+          "exampleKo": "",
+          "note": "Oxford Learner's Dictionaries 항목을 확인할 수 있는 단어입니다. 뜻과 예문을 함께 보고, 해석 버튼으로 한국어 의미를 확인하세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/communicate"
+            }
+          ]
+        },
+        {
+          "difficulty": "중급",
+          "word": "compete",
+          "meaning": "경쟁하다",
+          "example": "Teams compete for the prize.",
+          "exampleKo": "",
+          "note": "Oxford Learner's Dictionaries 항목을 확인할 수 있는 단어입니다. 뜻과 예문을 함께 보고, 해석 버튼으로 한국어 의미를 확인하세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/compete"
+            }
+          ]
+        },
+        {
+          "difficulty": "중급",
+          "word": "conserve",
+          "meaning": "아끼다",
+          "example": "We should conserve water.",
+          "exampleKo": "",
+          "note": "Oxford Learner's Dictionaries 항목을 확인할 수 있는 단어입니다. 뜻과 예문을 함께 보고, 해석 버튼으로 한국어 의미를 확인하세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/conserve"
+            }
+          ]
+        },
+        {
+          "difficulty": "고급",
+          "word": "abrogate",
+          "meaning": "폐지하다",
+          "example": "The court can abrogate the rule.",
+          "exampleKo": "",
+          "note": "Oxford Learner's Dictionaries 항목을 확인할 수 있는 단어입니다. 뜻과 예문을 함께 보고, 해석 버튼으로 한국어 의미를 확인하세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/abrogate"
+            }
+          ]
+        },
+        {
+          "difficulty": "고급",
+          "word": "aggregate",
+          "meaning": "집계하다",
+          "example": "The report aggregates the results.",
+          "exampleKo": "",
+          "note": "Oxford Learner's Dictionaries 항목을 확인할 수 있는 단어입니다. 뜻과 예문을 함께 보고, 해석 버튼으로 한국어 의미를 확인하세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/aggregate"
+            }
+          ]
+        },
+        {
+          "difficulty": "고급",
+          "word": "ameliorate",
+          "meaning": "개선하다",
+          "example": "The policy may ameliorate the issue.",
+          "exampleKo": "",
+          "note": "Oxford Learner's Dictionaries 항목을 확인할 수 있는 단어입니다. 뜻과 예문을 함께 보고, 해석 버튼으로 한국어 의미를 확인하세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/ameliorate"
+            }
+          ]
+        },
+        {
+          "difficulty": "고급",
+          "word": "ascertain",
+          "meaning": "확인하다",
+          "example": "We must ascertain the cause.",
+          "exampleKo": "",
+          "note": "Oxford Learner's Dictionaries 항목을 확인할 수 있는 단어입니다. 뜻과 예문을 함께 보고, 해석 버튼으로 한국어 의미를 확인하세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/ascertain"
+            }
+          ]
+        },
+        {
+          "difficulty": "고급",
+          "word": "circumscribe",
+          "meaning": "제한하다",
+          "example": "The rules circumscribe the use.",
+          "exampleKo": "",
+          "note": "Oxford Learner's Dictionaries 항목을 확인할 수 있는 단어입니다. 뜻과 예문을 함께 보고, 해석 버튼으로 한국어 의미를 확인하세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/circumscribe"
+            }
+          ]
+        }
+      ]
+    },
     {
       "date": "2026-08-03",
       "day": 94,
