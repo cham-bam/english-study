@@ -1,8 +1,226 @@
 {
-  "updated_at": "2026-08-04",
+  "updated_at": "2026-08-05",
   "default_daily_count": 15,
   "source": "01_기초_동사형용사.json",
   "entries": [
+    {
+      "date": "2026-08-05",
+      "day": 96,
+      "title": "Day 96 난이도별 영단어 15개",
+      "generation_version": "dictionary-source-v2",
+      "items": [
+        {
+          "difficulty": "초급",
+          "word": "stack",
+          "meaning": "쌓다",
+          "example": "Stack the books neatly.",
+          "exampleKo": "",
+          "note": "Oxford Learner's Dictionaries 항목을 확인할 수 있는 단어입니다. 뜻과 예문을 함께 보고, 해석 버튼으로 한국어 의미를 확인하세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/stack"
+            }
+          ]
+        },
+        {
+          "difficulty": "초급",
+          "word": "taste",
+          "meaning": "맛보다",
+          "example": "Taste the soup now.",
+          "exampleKo": "",
+          "note": "Oxford Learner's Dictionaries 항목을 확인할 수 있는 단어입니다. 뜻과 예문을 함께 보고, 해석 버튼으로 한국어 의미를 확인하세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/taste"
+            }
+          ]
+        },
+        {
+          "difficulty": "초급",
+          "word": "tear",
+          "meaning": "찢다",
+          "example": "Do not tear the paper.",
+          "exampleKo": "",
+          "note": "Oxford Learner's Dictionaries 항목을 확인할 수 있는 단어입니다. 뜻과 예문을 함께 보고, 해석 버튼으로 한국어 의미를 확인하세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/tear"
+            }
+          ]
+        },
+        {
+          "difficulty": "초급",
+          "word": "thank",
+          "meaning": "감사하다",
+          "example": "I thank you sincerely.",
+          "exampleKo": "",
+          "note": "Oxford Learner's Dictionaries 항목을 확인할 수 있는 단어입니다. 뜻과 예문을 함께 보고, 해석 버튼으로 한국어 의미를 확인하세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/thank"
+            }
+          ]
+        },
+        {
+          "difficulty": "초급",
+          "word": "toss",
+          "meaning": "던지다",
+          "example": "Toss me the keys.",
+          "exampleKo": "",
+          "note": "Oxford Learner's Dictionaries 항목을 확인할 수 있는 단어입니다. 뜻과 예문을 함께 보고, 해석 버튼으로 한국어 의미를 확인하세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/toss"
+            }
+          ]
+        },
+        {
+          "difficulty": "중급",
+          "word": "correlate",
+          "meaning": "연관되다",
+          "example": "The two factors correlate closely.",
+          "exampleKo": "",
+          "note": "Oxford Learner's Dictionaries 항목을 확인할 수 있는 단어입니다. 뜻과 예문을 함께 보고, 해석 버튼으로 한국어 의미를 확인하세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/correlate"
+            }
+          ]
+        },
+        {
+          "difficulty": "중급",
+          "word": "criticize",
+          "meaning": "비판하다",
+          "example": "Do not criticize too quickly.",
+          "exampleKo": "",
+          "note": "Oxford Learner's Dictionaries 항목을 확인할 수 있는 단어입니다. 뜻과 예문을 함께 보고, 해석 버튼으로 한국어 의미를 확인하세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/criticize"
+            }
+          ]
+        },
+        {
+          "difficulty": "중급",
+          "word": "fluctuate",
+          "meaning": "변동하다",
+          "example": "Prices fluctuate every week.",
+          "exampleKo": "",
+          "note": "Oxford Learner's Dictionaries 항목을 확인할 수 있는 단어입니다. 뜻과 예문을 함께 보고, 해석 버튼으로 한국어 의미를 확인하세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/fluctuate"
+            }
+          ]
+        },
+        {
+          "difficulty": "중급",
+          "word": "influence",
+          "meaning": "영향을 미치다",
+          "example": "The report influenced our choice.",
+          "exampleKo": "",
+          "note": "Oxford Learner's Dictionaries 항목을 확인할 수 있는 단어입니다. 뜻과 예문을 함께 보고, 해석 버튼으로 한국어 의미를 확인하세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/influence"
+            }
+          ]
+        },
+        {
+          "difficulty": "중급",
+          "word": "insist",
+          "meaning": "주장하다",
+          "example": "She insisted on honesty.",
+          "exampleKo": "",
+          "note": "Oxford Learner's Dictionaries 항목을 확인할 수 있는 단어입니다. 뜻과 예문을 함께 보고, 해석 버튼으로 한국어 의미를 확인하세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/insist"
+            }
+          ]
+        },
+        {
+          "difficulty": "고급",
+          "word": "decrypt",
+          "meaning": "복호화하다",
+          "example": "The app decrypts the file.",
+          "exampleKo": "",
+          "note": "Oxford Learner's Dictionaries 항목을 확인할 수 있는 단어입니다. 뜻과 예문을 함께 보고, 해석 버튼으로 한국어 의미를 확인하세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/decrypt"
+            }
+          ]
+        },
+        {
+          "difficulty": "고급",
+          "word": "demarcate",
+          "meaning": "경계를 나누다",
+          "example": "The fence demarcates the lot.",
+          "exampleKo": "",
+          "note": "Oxford Learner's Dictionaries 항목을 확인할 수 있는 단어입니다. 뜻과 예문을 함께 보고, 해석 버튼으로 한국어 의미를 확인하세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/demarcate"
+            }
+          ]
+        },
+        {
+          "difficulty": "고급",
+          "word": "dissuade",
+          "meaning": "말리다",
+          "example": "I tried to dissuade her.",
+          "exampleKo": "",
+          "note": "Oxford Learner's Dictionaries 항목을 확인할 수 있는 단어입니다. 뜻과 예문을 함께 보고, 해석 버튼으로 한국어 의미를 확인하세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/dissuade"
+            }
+          ]
+        },
+        {
+          "difficulty": "고급",
+          "word": "elucidate",
+          "meaning": "명확히 설명하다",
+          "example": "The speaker elucidates the theory.",
+          "exampleKo": "",
+          "note": "Oxford Learner's Dictionaries 항목을 확인할 수 있는 단어입니다. 뜻과 예문을 함께 보고, 해석 버튼으로 한국어 의미를 확인하세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/elucidate"
+            }
+          ]
+        },
+        {
+          "difficulty": "고급",
+          "word": "equivocate",
+          "meaning": "애매하게 말하다",
+          "example": "Do not equivocate in the report.",
+          "exampleKo": "",
+          "note": "Oxford Learner's Dictionaries 항목을 확인할 수 있는 단어입니다. 뜻과 예문을 함께 보고, 해석 버튼으로 한국어 의미를 확인하세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/equivocate"
+            }
+          ]
+        }
+      ]
+    },
     {
       "date": "2026-08-04",
       "day": 95,

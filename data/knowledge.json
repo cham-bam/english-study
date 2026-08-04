@@ -1,7 +1,98 @@
 {
-  "updated_at": "2026-08-04",
+  "updated_at": "2026-08-05",
   "default_daily_count": 6,
   "entries": [
+    {
+      "date": "2026-08-05",
+      "title": "2026.08.05 난이도별 상식 6개",
+      "generation_version": "source-summary-v2",
+      "items": [
+        {
+          "source_id": "source-knowledge-review-2026-08-05-sleep-nih",
+          "difficulty": "초급",
+          "category": "건강",
+          "title": "수면은 쉬는 시간이 아니라 몸의 유지보수 시간이다: 출처 복습",
+          "body": "수면은 에너지를 아끼는 시간이 아니라 뇌와 몸이 회복 작업을 하는 시간입니다. 첫째, 충분한 수면은 기억과 학습에 관여합니다. 둘째, 심장, 호르몬, 면역 기능처럼 몸의 기본 조절에도 영향을 줍니다. 셋째, 잠이 부족하면 집중력과 감정 조절이 흔들려 다음 날 판단 품질까지 떨어질 수 있습니다.",
+          "takeaway": "수면은 게으름이 아니라 다음 날의 기억, 회복, 판단을 준비하는 생리적 과정입니다.",
+          "sources": [
+            {
+              "label": "NIH Sleep",
+              "url": "https://www.nhlbi.nih.gov/health/sleep"
+            }
+          ]
+        },
+        {
+          "source_id": "source-knowledge-review-2026-08-05-food-safety-fda",
+          "difficulty": "초급",
+          "category": "생활과학",
+          "title": "식품 보관은 맛보다 미생물 조건을 관리하는 일이다: 출처 복습",
+          "body": "음식을 안전하게 보관하려면 온도, 시간, 오염 가능성을 함께 봐야 합니다. 첫째, 차갑게 보관하면 미생물 증식 속도를 낮출 수 있습니다. 둘째, 익힌 음식과 날음식을 분리하면 교차오염 위험이 줄어듭니다. 셋째, 남은 음식은 오래 두는 것보다 빨리 식히고 밀폐해 보관하는 편이 안전합니다.",
+          "takeaway": "식품 안전의 핵심은 음식의 상태보다 미생물이 자라기 어려운 조건을 만드는 데 있습니다.",
+          "sources": [
+            {
+              "label": "FDA Food Safety",
+              "url": "https://www.fda.gov/food/buy-store-serve-safe-food"
+            }
+          ]
+        },
+        {
+          "source_id": "source-knowledge-review-2026-08-05-ai-risk-nist",
+          "difficulty": "중급",
+          "category": "AI",
+          "title": "AI 신뢰성은 성능 점수보다 위험 관리에서 나온다: 출처 복습",
+          "body": "AI는 정확도만으로 평가하기 어렵고 위험을 식별하고 줄이는 절차가 함께 필요합니다. 첫째, 데이터 편향이나 부정확한 출력은 실제 사람의 판단과 권리에 영향을 줄 수 있습니다. 둘째, 모델이 어떤 상황에서 실패하는지 기록하고 평가해야 합니다. 셋째, 조직은 AI의 책임자, 검토 기준, 사용 제한을 정해야 신뢰 가능한 도입이 가능합니다.",
+          "takeaway": "AI를 잘 쓰려면 모델 선택보다 데이터, 평가, 책임 구조를 함께 설계해야 합니다.",
+          "sources": [
+            {
+              "label": "NIST AI RMF",
+              "url": "https://www.nist.gov/itl/ai-risk-management-framework"
+            }
+          ]
+        },
+        {
+          "source_id": "source-knowledge-review-2026-08-05-diversification-investor",
+          "difficulty": "중급",
+          "category": "금융",
+          "title": "분산투자는 수익을 보장하지 않고 충격을 나눈다: 출처 복습",
+          "body": "분산투자는 여러 자산에 나누어 투자해 특정 위험에 덜 흔들리도록 만드는 원칙입니다. 첫째, 한 자산의 손실이 전체 자산을 한 번에 무너뜨리는 것을 줄입니다. 둘째, 서로 다르게 움직이는 자산을 섞을수록 충격 흡수 효과가 커질 수 있습니다. 셋째, 분산은 손실을 없애는 기술이 아니라 과도한 집중을 피하는 위험 관리입니다.",
+          "takeaway": "분산투자는 더 많이 벌기 위한 보증서가 아니라 크게 흔들리지 않기 위한 구조입니다.",
+          "sources": [
+            {
+              "label": "Investor.gov Diversification",
+              "url": "https://www.investor.gov/introduction-investing/investing-basics/glossary/diversification"
+            }
+          ]
+        },
+        {
+          "source_id": "source-knowledge-review-2026-08-05-automated-vehicles-nhtsa",
+          "difficulty": "고급",
+          "category": "모빌리티",
+          "title": "자율주행의 난점은 평범한 도로보다 예외 상황이다: 출처 복습",
+          "body": "자율주행은 모든 상황에서 사람을 바로 대체하는 기술이라기보다 자동화 수준과 책임 범위를 구분해야 하는 분야입니다. 첫째, 평범한 차선 유지보다 공사 구간, 악천후, 돌발 보행자 같은 예외가 어렵습니다. 둘째, 시스템이 언제 운전자 개입을 요구하는지 명확해야 합니다. 셋째, 안전 검증은 기술 성능뿐 아니라 책임, 규제, 사용자의 이해를 함께 요구합니다.",
+          "takeaway": "자율주행은 얼마나 자동으로 달리느냐보다 예외 상황에서 얼마나 안전하게 실패하느냐가 중요합니다.",
+          "sources": [
+            {
+              "label": "NHTSA Automated Vehicles",
+              "url": "https://www.nhtsa.gov/vehicle-safety/automated-vehicles-safety"
+            }
+          ]
+        },
+        {
+          "source_id": "source-knowledge-review-2026-08-05-overfitting-google",
+          "difficulty": "고급",
+          "category": "AI",
+          "title": "과적합은 훈련 문제를 잘 푼 모델이 현실 문제에 약한 상태다: 출처 복습",
+          "body": "모델이 훈련 데이터의 세부 패턴을 지나치게 외우면 새 데이터에서 성능이 떨어질 수 있습니다. 첫째, 훈련 점수만 높다고 좋은 모델이라고 말할 수 없습니다. 둘째, 검증 데이터와 테스트 데이터는 모델이 일반화하는지 확인하는 장치입니다. 셋째, 단순화, 정규화, 더 나은 데이터 분할은 과적합을 줄이는 데 쓰입니다.",
+          "takeaway": "좋은 AI 모델은 본 데이터를 외우는 모델이 아니라 보지 못한 상황에도 안정적으로 작동하는 모델입니다.",
+          "sources": [
+            {
+              "label": "Google ML Crash Course",
+              "url": "https://developers.google.com/machine-learning/crash-course/overfitting/overfitting"
+            }
+          ]
+        }
+      ]
+    },
     {
       "date": "2026-08-04",
       "title": "2026.08.04 난이도별 상식 6개",
