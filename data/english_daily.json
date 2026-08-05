@@ -1,8 +1,226 @@
 {
-  "updated_at": "2026-08-05",
+  "updated_at": "2026-08-06",
   "default_daily_count": 15,
   "source": "01_기초_동사형용사.json",
   "entries": [
+    {
+      "date": "2026-08-06",
+      "day": 97,
+      "title": "Day 97 난이도별 영단어 15개",
+      "generation_version": "dictionary-source-v2",
+      "items": [
+        {
+          "difficulty": "초급",
+          "word": "tug",
+          "meaning": "잡아당기다",
+          "example": "Tug the rope gently.",
+          "exampleKo": "",
+          "note": "Oxford Learner's Dictionaries 항목을 확인할 수 있는 단어입니다. 뜻과 예문을 함께 보고, 해석 버튼으로 한국어 의미를 확인하세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/tug"
+            }
+          ]
+        },
+        {
+          "difficulty": "초급",
+          "word": "unite",
+          "meaning": "연합하다",
+          "example": "The teams unite for one goal.",
+          "exampleKo": "",
+          "note": "Oxford Learner's Dictionaries 항목을 확인할 수 있는 단어입니다. 뜻과 예문을 함께 보고, 해석 버튼으로 한국어 의미를 확인하세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/unite"
+            }
+          ]
+        },
+        {
+          "difficulty": "초급",
+          "word": "wrap",
+          "meaning": "싸다",
+          "example": "Wrap the gift carefully.",
+          "exampleKo": "",
+          "note": "Oxford Learner's Dictionaries 항목을 확인할 수 있는 단어입니다. 뜻과 예문을 함께 보고, 해석 버튼으로 한국어 의미를 확인하세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/wrap"
+            }
+          ]
+        },
+        {
+          "difficulty": "초급",
+          "word": "beam",
+          "meaning": "환하게 웃다",
+          "example": "She beams at the news.",
+          "exampleKo": "",
+          "note": "Oxford Learner's Dictionaries 항목을 확인할 수 있는 단어입니다. 뜻과 예문을 함께 보고, 해석 버튼으로 한국어 의미를 확인하세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/beam"
+            }
+          ]
+        },
+        {
+          "difficulty": "초급",
+          "word": "brave",
+          "meaning": "용감한",
+          "example": "She is brave in storms.",
+          "exampleKo": "",
+          "note": "Oxford Learner's Dictionaries 항목을 확인할 수 있는 단어입니다. 뜻과 예문을 함께 보고, 해석 버튼으로 한국어 의미를 확인하세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/brave"
+            }
+          ]
+        },
+        {
+          "difficulty": "중급",
+          "word": "persuade",
+          "meaning": "설득하다",
+          "example": "He persuaded me to join.",
+          "exampleKo": "",
+          "note": "Oxford Learner's Dictionaries 항목을 확인할 수 있는 단어입니다. 뜻과 예문을 함께 보고, 해석 버튼으로 한국어 의미를 확인하세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/persuade"
+            }
+          ]
+        },
+        {
+          "difficulty": "중급",
+          "word": "reveal",
+          "meaning": "드러내다",
+          "example": "The test revealed a problem.",
+          "exampleKo": "",
+          "note": "Oxford Learner's Dictionaries 항목을 확인할 수 있는 단어입니다. 뜻과 예문을 함께 보고, 해석 버튼으로 한국어 의미를 확인하세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/reveal"
+            }
+          ]
+        },
+        {
+          "difficulty": "중급",
+          "word": "approximate",
+          "meaning": "대략적으로 추정하다",
+          "example": "We approximate the cost.",
+          "exampleKo": "",
+          "note": "Oxford Learner's Dictionaries 항목을 확인할 수 있는 단어입니다. 뜻과 예문을 함께 보고, 해석 버튼으로 한국어 의미를 확인하세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/approximate"
+            }
+          ]
+        },
+        {
+          "difficulty": "중급",
+          "word": "automate",
+          "meaning": "자동화하다",
+          "example": "The app automates daily reports.",
+          "exampleKo": "",
+          "note": "Oxford Learner's Dictionaries 항목을 확인할 수 있는 단어입니다. 뜻과 예문을 함께 보고, 해석 버튼으로 한국어 의미를 확인하세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/automate"
+            }
+          ]
+        },
+        {
+          "difficulty": "중급",
+          "word": "conclude",
+          "meaning": "결론짓다",
+          "example": "We conclude the test early.",
+          "exampleKo": "",
+          "note": "Oxford Learner's Dictionaries 항목을 확인할 수 있는 단어입니다. 뜻과 예문을 함께 보고, 해석 버튼으로 한국어 의미를 확인하세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/conclude"
+            }
+          ]
+        },
+        {
+          "difficulty": "고급",
+          "word": "expurgate",
+          "meaning": "삭제하다",
+          "example": "Editors expurgate sensitive details.",
+          "exampleKo": "",
+          "note": "Oxford Learner's Dictionaries 항목을 확인할 수 있는 단어입니다. 뜻과 예문을 함께 보고, 해석 버튼으로 한국어 의미를 확인하세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/expurgate"
+            }
+          ]
+        },
+        {
+          "difficulty": "고급",
+          "word": "interpolate",
+          "meaning": "끼워 넣다",
+          "example": "We interpolate the missing value.",
+          "exampleKo": "",
+          "note": "Oxford Learner's Dictionaries 항목을 확인할 수 있는 단어입니다. 뜻과 예문을 함께 보고, 해석 버튼으로 한국어 의미를 확인하세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/interpolate"
+            }
+          ]
+        },
+        {
+          "difficulty": "고급",
+          "word": "obviate",
+          "meaning": "피하다",
+          "example": "This step obviates future errors.",
+          "exampleKo": "",
+          "note": "Oxford Learner's Dictionaries 항목을 확인할 수 있는 단어입니다. 뜻과 예문을 함께 보고, 해석 버튼으로 한국어 의미를 확인하세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/obviate"
+            }
+          ]
+        },
+        {
+          "difficulty": "고급",
+          "word": "preclude",
+          "meaning": "막다",
+          "example": "The lock precludes access.",
+          "exampleKo": "",
+          "note": "Oxford Learner's Dictionaries 항목을 확인할 수 있는 단어입니다. 뜻과 예문을 함께 보고, 해석 버튼으로 한국어 의미를 확인하세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/preclude"
+            }
+          ]
+        },
+        {
+          "difficulty": "고급",
+          "word": "precipitate",
+          "meaning": "촉발하다",
+          "example": "The mistake precipitated the delay.",
+          "exampleKo": "",
+          "note": "Oxford Learner's Dictionaries 항목을 확인할 수 있는 단어입니다. 뜻과 예문을 함께 보고, 해석 버튼으로 한국어 의미를 확인하세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/precipitate"
+            }
+          ]
+        }
+      ]
+    },
     {
       "date": "2026-08-05",
       "day": 96,
