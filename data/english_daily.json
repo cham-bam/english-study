@@ -1,8 +1,226 @@
 {
-  "updated_at": "2026-08-07",
+  "updated_at": "2026-08-08",
   "default_daily_count": 15,
   "source": "01_기초_동사형용사.json",
   "entries": [
+    {
+      "date": "2026-08-08",
+      "day": 99,
+      "title": "Day 99 난이도별 영단어 15개",
+      "generation_version": "dictionary-source-v2",
+      "items": [
+        {
+          "difficulty": "초급",
+          "word": "smart",
+          "meaning": "영리한",
+          "example": "That is a smart choice.",
+          "exampleKo": "",
+          "note": "Oxford Learner's Dictionaries 항목을 확인할 수 있는 단어입니다. 뜻과 예문을 함께 보고, 해석 버튼으로 한국어 의미를 확인하세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/smart"
+            }
+          ]
+        },
+        {
+          "difficulty": "초급",
+          "word": "strong",
+          "meaning": "강한",
+          "example": "The bridge is strong.",
+          "exampleKo": "",
+          "note": "Oxford Learner's Dictionaries 항목을 확인할 수 있는 단어입니다. 뜻과 예문을 함께 보고, 해석 버튼으로 한국어 의미를 확인하세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/strong"
+            }
+          ]
+        },
+        {
+          "difficulty": "초급",
+          "word": "swift",
+          "meaning": "빠른",
+          "example": "They made a swift reply.",
+          "exampleKo": "",
+          "note": "Oxford Learner's Dictionaries 항목을 확인할 수 있는 단어입니다. 뜻과 예문을 함께 보고, 해석 버튼으로 한국어 의미를 확인하세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/swift"
+            }
+          ]
+        },
+        {
+          "difficulty": "초급",
+          "word": "wide",
+          "meaning": "넓은",
+          "example": "The river is wide.",
+          "exampleKo": "",
+          "note": "Oxford Learner's Dictionaries 항목을 확인할 수 있는 단어입니다. 뜻과 예문을 함께 보고, 해석 버튼으로 한국어 의미를 확인하세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/wide"
+            }
+          ]
+        },
+        {
+          "difficulty": "초급",
+          "word": "young",
+          "meaning": "젊은",
+          "example": "The young tree needs water.",
+          "exampleKo": "",
+          "note": "Oxford Learner's Dictionaries 항목을 확인할 수 있는 단어입니다. 뜻과 예문을 함께 보고, 해석 버튼으로 한국어 의미를 확인하세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/young"
+            }
+          ]
+        },
+        {
+          "difficulty": "중급",
+          "word": "isolate",
+          "meaning": "분리하다",
+          "example": "The lab isolates the sample.",
+          "exampleKo": "",
+          "note": "Oxford Learner's Dictionaries 항목을 확인할 수 있는 단어입니다. 뜻과 예문을 함께 보고, 해석 버튼으로 한국어 의미를 확인하세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/isolate"
+            }
+          ]
+        },
+        {
+          "difficulty": "중급",
+          "word": "obtain",
+          "meaning": "얻다",
+          "example": "We obtain the data from logs.",
+          "exampleKo": "",
+          "note": "Oxford Learner's Dictionaries 항목을 확인할 수 있는 단어입니다. 뜻과 예문을 함께 보고, 해석 버튼으로 한국어 의미를 확인하세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/obtain"
+            }
+          ]
+        },
+        {
+          "difficulty": "중급",
+          "word": "present",
+          "meaning": "제시하다",
+          "example": "She presents the findings.",
+          "exampleKo": "",
+          "note": "Oxford Learner's Dictionaries 항목을 확인할 수 있는 단어입니다. 뜻과 예문을 함께 보고, 해석 버튼으로 한국어 의미를 확인하세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/present"
+            }
+          ]
+        },
+        {
+          "difficulty": "중급",
+          "word": "quantify",
+          "meaning": "수치화하다",
+          "example": "We quantify the benefit.",
+          "exampleKo": "",
+          "note": "Oxford Learner's Dictionaries 항목을 확인할 수 있는 단어입니다. 뜻과 예문을 함께 보고, 해석 버튼으로 한국어 의미를 확인하세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/quantify"
+            }
+          ]
+        },
+        {
+          "difficulty": "중급",
+          "word": "refine",
+          "meaning": "다듬다",
+          "example": "Refine the plan before launch.",
+          "exampleKo": "",
+          "note": "Oxford Learner's Dictionaries 항목을 확인할 수 있는 단어입니다. 뜻과 예문을 함께 보고, 해석 버튼으로 한국어 의미를 확인하세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/refine"
+            }
+          ]
+        },
+        {
+          "difficulty": "고급",
+          "word": "unequivocal",
+          "meaning": "명백한",
+          "example": "We need an unequivocal answer.",
+          "exampleKo": "",
+          "note": "Oxford Learner's Dictionaries 항목을 확인할 수 있는 단어입니다. 뜻과 예문을 함께 보고, 해석 버튼으로 한국어 의미를 확인하세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/unequivocal"
+            }
+          ]
+        },
+        {
+          "difficulty": "고급",
+          "word": "vacillate",
+          "meaning": "우유부단하게 흔들리다",
+          "example": "He vacillated for hours.",
+          "exampleKo": "",
+          "note": "Oxford Learner's Dictionaries 항목을 확인할 수 있는 단어입니다. 뜻과 예문을 함께 보고, 해석 버튼으로 한국어 의미를 확인하세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/vacillate"
+            }
+          ]
+        },
+        {
+          "difficulty": "고급",
+          "word": "vestigial",
+          "meaning": "흔적만 남은",
+          "example": "The organ is vestigial.",
+          "exampleKo": "",
+          "note": "Oxford Learner's Dictionaries 항목을 확인할 수 있는 단어입니다. 뜻과 예문을 함께 보고, 해석 버튼으로 한국어 의미를 확인하세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/vestigial"
+            }
+          ]
+        },
+        {
+          "difficulty": "고급",
+          "word": "untenable",
+          "meaning": "설 수 없는",
+          "example": "The position is untenable.",
+          "exampleKo": "",
+          "note": "Oxford Learner's Dictionaries 항목을 확인할 수 있는 단어입니다. 뜻과 예문을 함께 보고, 해석 버튼으로 한국어 의미를 확인하세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/untenable"
+            }
+          ]
+        },
+        {
+          "difficulty": "고급",
+          "word": "propitiate",
+          "meaning": "달래다",
+          "example": "They tried to propitiate the crowd.",
+          "exampleKo": "",
+          "note": "Oxford Learner's Dictionaries 항목을 확인할 수 있는 단어입니다. 뜻과 예문을 함께 보고, 해석 버튼으로 한국어 의미를 확인하세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/propitiate"
+            }
+          ]
+        }
+      ]
+    },
     {
       "date": "2026-08-07",
       "day": 98,
