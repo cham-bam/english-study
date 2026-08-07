@@ -1,8 +1,226 @@
 {
-  "updated_at": "2026-08-06",
+  "updated_at": "2026-08-07",
   "default_daily_count": 15,
   "source": "01_기초_동사형용사.json",
   "entries": [
+    {
+      "date": "2026-08-07",
+      "day": 98,
+      "title": "Day 98 난이도별 영단어 15개",
+      "generation_version": "dictionary-source-v2",
+      "items": [
+        {
+          "difficulty": "초급",
+          "word": "cool",
+          "meaning": "시원한",
+          "example": "The room feels cool.",
+          "exampleKo": "",
+          "note": "Oxford Learner's Dictionaries 항목을 확인할 수 있는 단어입니다. 뜻과 예문을 함께 보고, 해석 버튼으로 한국어 의미를 확인하세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/cool"
+            }
+          ]
+        },
+        {
+          "difficulty": "초급",
+          "word": "glad",
+          "meaning": "기쁜",
+          "example": "I am glad to help.",
+          "exampleKo": "",
+          "note": "Oxford Learner's Dictionaries 항목을 확인할 수 있는 단어입니다. 뜻과 예문을 함께 보고, 해석 버튼으로 한국어 의미를 확인하세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/glad"
+            }
+          ]
+        },
+        {
+          "difficulty": "초급",
+          "word": "loose",
+          "meaning": "느슨한",
+          "example": "The bolt is loose.",
+          "exampleKo": "",
+          "note": "Oxford Learner's Dictionaries 항목을 확인할 수 있는 단어입니다. 뜻과 예문을 함께 보고, 해석 버튼으로 한국어 의미를 확인하세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/loose"
+            }
+          ]
+        },
+        {
+          "difficulty": "초급",
+          "word": "plain",
+          "meaning": "단순한",
+          "example": "Keep the design plain.",
+          "exampleKo": "",
+          "note": "Oxford Learner's Dictionaries 항목을 확인할 수 있는 단어입니다. 뜻과 예문을 함께 보고, 해석 버튼으로 한국어 의미를 확인하세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/plain"
+            }
+          ]
+        },
+        {
+          "difficulty": "초급",
+          "word": "rough",
+          "meaning": "거친",
+          "example": "The road is rough.",
+          "exampleKo": "",
+          "note": "Oxford Learner's Dictionaries 항목을 확인할 수 있는 단어입니다. 뜻과 예문을 함께 보고, 해석 버튼으로 한국어 의미를 확인하세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/rough"
+            }
+          ]
+        },
+        {
+          "difficulty": "중급",
+          "word": "depict",
+          "meaning": "묘사하다",
+          "example": "The chart depicts the trend.",
+          "exampleKo": "",
+          "note": "Oxford Learner's Dictionaries 항목을 확인할 수 있는 단어입니다. 뜻과 예문을 함께 보고, 해석 버튼으로 한국어 의미를 확인하세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/depict"
+            }
+          ]
+        },
+        {
+          "difficulty": "중급",
+          "word": "exceed",
+          "meaning": "초과하다",
+          "example": "Sales exceed expectations.",
+          "exampleKo": "",
+          "note": "Oxford Learner's Dictionaries 항목을 확인할 수 있는 단어입니다. 뜻과 예문을 함께 보고, 해석 버튼으로 한국어 의미를 확인하세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/exceed"
+            }
+          ]
+        },
+        {
+          "difficulty": "중급",
+          "word": "function",
+          "meaning": "작동하다",
+          "example": "The device functions well.",
+          "exampleKo": "",
+          "note": "Oxford Learner's Dictionaries 항목을 확인할 수 있는 단어입니다. 뜻과 예문을 함께 보고, 해석 버튼으로 한국어 의미를 확인하세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/function"
+            }
+          ]
+        },
+        {
+          "difficulty": "중급",
+          "word": "generate",
+          "meaning": "생성하다",
+          "example": "The system generates a summary.",
+          "exampleKo": "",
+          "note": "Oxford Learner's Dictionaries 항목을 확인할 수 있는 단어입니다. 뜻과 예문을 함께 보고, 해석 버튼으로 한국어 의미를 확인하세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/generate"
+            }
+          ]
+        },
+        {
+          "difficulty": "중급",
+          "word": "illustrate",
+          "meaning": "예시로 설명하다",
+          "example": "The teacher illustrates the rule.",
+          "exampleKo": "",
+          "note": "Oxford Learner's Dictionaries 항목을 확인할 수 있는 단어입니다. 뜻과 예문을 함께 보고, 해석 버튼으로 한국어 의미를 확인하세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/illustrate"
+            }
+          ]
+        },
+        {
+          "difficulty": "고급",
+          "word": "proliferate",
+          "meaning": "급증하다",
+          "example": "Rumors proliferate online.",
+          "exampleKo": "",
+          "note": "Oxford Learner's Dictionaries 항목을 확인할 수 있는 단어입니다. 뜻과 예문을 함께 보고, 해석 버튼으로 한국어 의미를 확인하세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/proliferate"
+            }
+          ]
+        },
+        {
+          "difficulty": "고급",
+          "word": "reiterate",
+          "meaning": "반복해서 강조하다",
+          "example": "I reiterate the main rule.",
+          "exampleKo": "",
+          "note": "Oxford Learner's Dictionaries 항목을 확인할 수 있는 단어입니다. 뜻과 예문을 함께 보고, 해석 버튼으로 한국어 의미를 확인하세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/reiterate"
+            }
+          ]
+        },
+        {
+          "difficulty": "고급",
+          "word": "rescind",
+          "meaning": "철회하다",
+          "example": "They rescind the offer.",
+          "exampleKo": "",
+          "note": "Oxford Learner's Dictionaries 항목을 확인할 수 있는 단어입니다. 뜻과 예문을 함께 보고, 해석 버튼으로 한국어 의미를 확인하세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/rescind"
+            }
+          ]
+        },
+        {
+          "difficulty": "고급",
+          "word": "supersede",
+          "meaning": "대체하다",
+          "example": "The new method supersedes the old one.",
+          "exampleKo": "",
+          "note": "Oxford Learner's Dictionaries 항목을 확인할 수 있는 단어입니다. 뜻과 예문을 함께 보고, 해석 버튼으로 한국어 의미를 확인하세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/supersede"
+            }
+          ]
+        },
+        {
+          "difficulty": "고급",
+          "word": "tenable",
+          "meaning": "유지할 수 있는",
+          "example": "That claim is not tenable.",
+          "exampleKo": "",
+          "note": "Oxford Learner's Dictionaries 항목을 확인할 수 있는 단어입니다. 뜻과 예문을 함께 보고, 해석 버튼으로 한국어 의미를 확인하세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/tenable"
+            }
+          ]
+        }
+      ]
+    },
     {
       "date": "2026-08-06",
       "day": 97,
