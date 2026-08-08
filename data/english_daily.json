@@ -1,8 +1,226 @@
 {
-  "updated_at": "2026-08-08",
+  "updated_at": "2026-08-09",
   "default_daily_count": 15,
   "source": "01_기초_동사형용사.json",
   "entries": [
+    {
+      "date": "2026-08-09",
+      "day": 100,
+      "title": "Day 100 일요일 복습 영단어 15개",
+      "generation_version": "dictionary-source-v2",
+      "items": [
+        {
+          "difficulty": "초급",
+          "word": "rinse",
+          "meaning": "헹구다",
+          "example": "Rinse the cup well.",
+          "exampleKo": "",
+          "note": "일요일 복습 단어입니다. 어렵게 느꼈거나 최근에 다시 확인할 가치가 있는 단어로, 예문을 먼저 읽고 뜻을 떠올려보세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/rinse"
+            }
+          ]
+        },
+        {
+          "difficulty": "초급",
+          "word": "slide",
+          "meaning": "미끄러지다",
+          "example": "The door slides open.",
+          "exampleKo": "",
+          "note": "일요일 복습 단어입니다. 어렵게 느꼈거나 최근에 다시 확인할 가치가 있는 단어로, 예문을 먼저 읽고 뜻을 떠올려보세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/slide"
+            }
+          ]
+        },
+        {
+          "difficulty": "초급",
+          "word": "sniff",
+          "meaning": "냄새를 맡다",
+          "example": "The dog sniffs the air.",
+          "exampleKo": "",
+          "note": "일요일 복습 단어입니다. 어렵게 느꼈거나 최근에 다시 확인할 가치가 있는 단어로, 예문을 먼저 읽고 뜻을 떠올려보세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/sniff"
+            }
+          ]
+        },
+        {
+          "difficulty": "초급",
+          "word": "spin",
+          "meaning": "돌다",
+          "example": "The wheel spins fast.",
+          "exampleKo": "",
+          "note": "일요일 복습 단어입니다. 어렵게 느꼈거나 최근에 다시 확인할 가치가 있는 단어로, 예문을 먼저 읽고 뜻을 떠올려보세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/spin"
+            }
+          ]
+        },
+        {
+          "difficulty": "초급",
+          "word": "erase",
+          "meaning": "지우다",
+          "example": "Erase the wrong answer.",
+          "exampleKo": "",
+          "note": "일요일 복습 단어입니다. 어렵게 느꼈거나 최근에 다시 확인할 가치가 있는 단어로, 예문을 먼저 읽고 뜻을 떠올려보세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/erase"
+            }
+          ]
+        },
+        {
+          "difficulty": "중급",
+          "word": "launch",
+          "meaning": "시작하다",
+          "example": "They launch the project today.",
+          "exampleKo": "",
+          "note": "일요일 복습 단어입니다. 어렵게 느꼈거나 최근에 다시 확인할 가치가 있는 단어로, 예문을 먼저 읽고 뜻을 떠올려보세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/launch"
+            }
+          ]
+        },
+        {
+          "difficulty": "중급",
+          "word": "notify",
+          "meaning": "알리다",
+          "example": "Notify me when you arrive.",
+          "exampleKo": "",
+          "note": "일요일 복습 단어입니다. 어렵게 느꼈거나 최근에 다시 확인할 가치가 있는 단어로, 예문을 먼저 읽고 뜻을 떠올려보세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/notify"
+            }
+          ]
+        },
+        {
+          "difficulty": "중급",
+          "word": "consolidate",
+          "meaning": "통합하다",
+          "example": "Consolidate your notes after class.",
+          "exampleKo": "",
+          "note": "일요일 복습 단어입니다. 어렵게 느꼈거나 최근에 다시 확인할 가치가 있는 단어로, 예문을 먼저 읽고 뜻을 떠올려보세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/consolidate"
+            }
+          ]
+        },
+        {
+          "difficulty": "중급",
+          "word": "recommend",
+          "meaning": "추천하다",
+          "example": "I recommend a simpler approach.",
+          "exampleKo": "",
+          "note": "일요일 복습 단어입니다. 어렵게 느꼈거나 최근에 다시 확인할 가치가 있는 단어로, 예문을 먼저 읽고 뜻을 떠올려보세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/recommend"
+            }
+          ]
+        },
+        {
+          "difficulty": "중급",
+          "word": "compose",
+          "meaning": "구성하다",
+          "example": "Compose your email carefully.",
+          "exampleKo": "",
+          "note": "일요일 복습 단어입니다. 어렵게 느꼈거나 최근에 다시 확인할 가치가 있는 단어로, 예문을 먼저 읽고 뜻을 떠올려보세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/compose"
+            }
+          ]
+        },
+        {
+          "difficulty": "고급",
+          "word": "revolutionize",
+          "meaning": "혁신적으로 바꾸다",
+          "example": "The new tool can revolutionize the workflow.",
+          "exampleKo": "",
+          "note": "일요일 복습 단어입니다. 어렵게 느꼈거나 최근에 다시 확인할 가치가 있는 단어로, 예문을 먼저 읽고 뜻을 떠올려보세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/revolutionize"
+            }
+          ]
+        },
+        {
+          "difficulty": "고급",
+          "word": "fragile",
+          "meaning": "취약한",
+          "example": "The fragile system needs careful handling.",
+          "exampleKo": "",
+          "note": "일요일 복습 단어입니다. 어렵게 느꼈거나 최근에 다시 확인할 가치가 있는 단어로, 예문을 먼저 읽고 뜻을 떠올려보세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/fragile"
+            }
+          ]
+        },
+        {
+          "difficulty": "고급",
+          "word": "hasten",
+          "meaning": "서두르다",
+          "example": "Do not hasten the decision.",
+          "exampleKo": "",
+          "note": "일요일 복습 단어입니다. 어렵게 느꼈거나 최근에 다시 확인할 가치가 있는 단어로, 예문을 먼저 읽고 뜻을 떠올려보세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/hasten"
+            }
+          ]
+        },
+        {
+          "difficulty": "고급",
+          "word": "illuminate",
+          "meaning": "비추다",
+          "example": "The lamp illuminates the desk.",
+          "exampleKo": "",
+          "note": "일요일 복습 단어입니다. 어렵게 느꼈거나 최근에 다시 확인할 가치가 있는 단어로, 예문을 먼저 읽고 뜻을 떠올려보세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/illuminate"
+            }
+          ]
+        },
+        {
+          "difficulty": "고급",
+          "word": "enunciate",
+          "meaning": "명확히 발음하다",
+          "example": "Enunciate each word clearly in the speech.",
+          "exampleKo": "",
+          "note": "일요일 복습 단어입니다. 어렵게 느꼈거나 최근에 다시 확인할 가치가 있는 단어로, 예문을 먼저 읽고 뜻을 떠올려보세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/enunciate"
+            }
+          ]
+        }
+      ]
+    },
     {
       "date": "2026-08-08",
       "day": 99,
