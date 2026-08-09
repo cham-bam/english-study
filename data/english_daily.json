@@ -1,8 +1,226 @@
 {
-  "updated_at": "2026-08-09",
+  "updated_at": "2026-08-10",
   "default_daily_count": 15,
   "source": "01_기초_동사형용사.json",
   "entries": [
+    {
+      "date": "2026-08-10",
+      "day": 101,
+      "title": "Day 101 난이도별 영단어 15개",
+      "generation_version": "dictionary-source-v2",
+      "items": [
+        {
+          "difficulty": "초급",
+          "word": "chew",
+          "meaning": "씹다",
+          "example": "Chew your food slowly.",
+          "exampleKo": "",
+          "note": "Oxford Learner's Dictionaries 항목을 확인할 수 있는 단어입니다. 뜻과 예문을 함께 보고, 해석 버튼으로 한국어 의미를 확인하세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/chew"
+            }
+          ]
+        },
+        {
+          "difficulty": "초급",
+          "word": "dry",
+          "meaning": "마르다",
+          "example": "Dry the dishes first.",
+          "exampleKo": "",
+          "note": "Oxford Learner's Dictionaries 항목을 확인할 수 있는 단어입니다. 뜻과 예문을 함께 보고, 해석 버튼으로 한국어 의미를 확인하세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/dry"
+            }
+          ]
+        },
+        {
+          "difficulty": "초급",
+          "word": "bloom",
+          "meaning": "피어나다",
+          "example": "The flowers bloom in spring.",
+          "exampleKo": "",
+          "note": "Oxford Learner's Dictionaries 항목을 확인할 수 있는 단어입니다. 뜻과 예문을 함께 보고, 해석 버튼으로 한국어 의미를 확인하세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/bloom"
+            }
+          ]
+        },
+        {
+          "difficulty": "초급",
+          "word": "buzz",
+          "meaning": "윙윙거리다",
+          "example": "The bees buzz near the hive.",
+          "exampleKo": "",
+          "note": "Oxford Learner's Dictionaries 항목을 확인할 수 있는 단어입니다. 뜻과 예문을 함께 보고, 해석 버튼으로 한국어 의미를 확인하세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/buzz"
+            }
+          ]
+        },
+        {
+          "difficulty": "초급",
+          "word": "chop",
+          "meaning": "자르다",
+          "example": "Please chop the onions.",
+          "exampleKo": "",
+          "note": "Oxford Learner's Dictionaries 항목을 확인할 수 있는 단어입니다. 뜻과 예문을 함께 보고, 해석 버튼으로 한국어 의미를 확인하세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/chop"
+            }
+          ]
+        },
+        {
+          "difficulty": "중급",
+          "word": "amend",
+          "meaning": "수정하다",
+          "example": "They amended the contract.",
+          "exampleKo": "",
+          "note": "Oxford Learner's Dictionaries 항목을 확인할 수 있는 단어입니다. 뜻과 예문을 함께 보고, 해석 버튼으로 한국어 의미를 확인하세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/amend"
+            }
+          ]
+        },
+        {
+          "difficulty": "중급",
+          "word": "contribute",
+          "meaning": "기여하다",
+          "example": "Everyone contributes ideas.",
+          "exampleKo": "",
+          "note": "Oxford Learner's Dictionaries 항목을 확인할 수 있는 단어입니다. 뜻과 예문을 함께 보고, 해석 버튼으로 한국어 의미를 확인하세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/contribute"
+            }
+          ]
+        },
+        {
+          "difficulty": "중급",
+          "word": "register",
+          "meaning": "등록하다",
+          "example": "Register the device online.",
+          "exampleKo": "",
+          "note": "Oxford Learner's Dictionaries 항목을 확인할 수 있는 단어입니다. 뜻과 예문을 함께 보고, 해석 버튼으로 한국어 의미를 확인하세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/register"
+            }
+          ]
+        },
+        {
+          "difficulty": "중급",
+          "word": "simulate",
+          "meaning": "모의실험하다",
+          "example": "The team simulates the scenario.",
+          "exampleKo": "",
+          "note": "Oxford Learner's Dictionaries 항목을 확인할 수 있는 단어입니다. 뜻과 예문을 함께 보고, 해석 버튼으로 한국어 의미를 확인하세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/simulate"
+            }
+          ]
+        },
+        {
+          "difficulty": "중급",
+          "word": "trigger",
+          "meaning": "촉발하다",
+          "example": "The error triggers an alert.",
+          "exampleKo": "",
+          "note": "Oxford Learner's Dictionaries 항목을 확인할 수 있는 단어입니다. 뜻과 예문을 함께 보고, 해석 버튼으로 한국어 의미를 확인하세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/trigger"
+            }
+          ]
+        },
+        {
+          "difficulty": "고급",
+          "word": "prevaricate",
+          "meaning": "얼버무리다",
+          "example": "Do not prevaricate during the interview.",
+          "exampleKo": "",
+          "note": "Oxford Learner's Dictionaries 항목을 확인할 수 있는 단어입니다. 뜻과 예문을 함께 보고, 해석 버튼으로 한국어 의미를 확인하세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/prevaricate"
+            }
+          ]
+        },
+        {
+          "difficulty": "고급",
+          "word": "reprobate",
+          "meaning": "불량자",
+          "example": "The story follows a lovable reprobate.",
+          "exampleKo": "",
+          "note": "Oxford Learner's Dictionaries 항목을 확인할 수 있는 단어입니다. 뜻과 예문을 함께 보고, 해석 버튼으로 한국어 의미를 확인하세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/reprobate"
+            }
+          ]
+        },
+        {
+          "difficulty": "고급",
+          "word": "recondite",
+          "meaning": "난해한",
+          "example": "The text is recondite.",
+          "exampleKo": "",
+          "note": "Oxford Learner's Dictionaries 항목을 확인할 수 있는 단어입니다. 뜻과 예문을 함께 보고, 해석 버튼으로 한국어 의미를 확인하세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/recondite"
+            }
+          ]
+        },
+        {
+          "difficulty": "고급",
+          "word": "salubrious",
+          "meaning": "건강에 좋은",
+          "example": "The climate is salubrious.",
+          "exampleKo": "",
+          "note": "Oxford Learner's Dictionaries 항목을 확인할 수 있는 단어입니다. 뜻과 예문을 함께 보고, 해석 버튼으로 한국어 의미를 확인하세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/salubrious"
+            }
+          ]
+        },
+        {
+          "difficulty": "고급",
+          "word": "laconic",
+          "meaning": "간결한",
+          "example": "She gave a laconic reply.",
+          "exampleKo": "",
+          "note": "Oxford Learner's Dictionaries 항목을 확인할 수 있는 단어입니다. 뜻과 예문을 함께 보고, 해석 버튼으로 한국어 의미를 확인하세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/laconic"
+            }
+          ]
+        }
+      ]
+    },
     {
       "date": "2026-08-09",
       "day": 100,
