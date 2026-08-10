@@ -1,8 +1,226 @@
 {
-  "updated_at": "2026-08-10",
+  "updated_at": "2026-08-11",
   "default_daily_count": 15,
   "source": "01_기초_동사형용사.json",
   "entries": [
+    {
+      "date": "2026-08-11",
+      "day": 102,
+      "title": "Day 102 난이도별 영단어 15개",
+      "generation_version": "dictionary-source-v2",
+      "items": [
+        {
+          "difficulty": "초급",
+          "word": "crash",
+          "meaning": "충돌하다",
+          "example": "The waves crash on the rocks.",
+          "exampleKo": "",
+          "note": "Oxford Learner's Dictionaries 항목을 확인할 수 있는 단어입니다. 뜻과 예문을 함께 보고, 해석 버튼으로 한국어 의미를 확인하세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/crash"
+            }
+          ]
+        },
+        {
+          "difficulty": "초급",
+          "word": "cross",
+          "meaning": "건너다",
+          "example": "We cross the street together.",
+          "exampleKo": "",
+          "note": "Oxford Learner's Dictionaries 항목을 확인할 수 있는 단어입니다. 뜻과 예문을 함께 보고, 해석 버튼으로 한국어 의미를 확인하세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/cross"
+            }
+          ]
+        },
+        {
+          "difficulty": "초급",
+          "word": "dive",
+          "meaning": "뛰어들다",
+          "example": "The children dive into the pool.",
+          "exampleKo": "",
+          "note": "Oxford Learner's Dictionaries 항목을 확인할 수 있는 단어입니다. 뜻과 예문을 함께 보고, 해석 버튼으로 한국어 의미를 확인하세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/dive"
+            }
+          ]
+        },
+        {
+          "difficulty": "초급",
+          "word": "drip",
+          "meaning": "뚝뚝 떨어지다",
+          "example": "Water drips from the faucet.",
+          "exampleKo": "",
+          "note": "Oxford Learner's Dictionaries 항목을 확인할 수 있는 단어입니다. 뜻과 예문을 함께 보고, 해석 버튼으로 한국어 의미를 확인하세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/drip"
+            }
+          ]
+        },
+        {
+          "difficulty": "초급",
+          "word": "dust",
+          "meaning": "먼지를 털다",
+          "example": "Please dust the shelf.",
+          "exampleKo": "",
+          "note": "Oxford Learner's Dictionaries 항목을 확인할 수 있는 단어입니다. 뜻과 예문을 함께 보고, 해석 버튼으로 한국어 의미를 확인하세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/dust"
+            }
+          ]
+        },
+        {
+          "difficulty": "중급",
+          "word": "durable",
+          "meaning": "오래가는",
+          "example": "The case is durable.",
+          "exampleKo": "",
+          "note": "Oxford Learner's Dictionaries 항목을 확인할 수 있는 단어입니다. 뜻과 예문을 함께 보고, 해석 버튼으로 한국어 의미를 확인하세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/durable"
+            }
+          ]
+        },
+        {
+          "difficulty": "중급",
+          "word": "integral",
+          "meaning": "필수적인",
+          "example": "Feedback is integral to learning.",
+          "exampleKo": "",
+          "note": "Oxford Learner's Dictionaries 항목을 확인할 수 있는 단어입니다. 뜻과 예문을 함께 보고, 해석 버튼으로 한국어 의미를 확인하세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/integral"
+            }
+          ]
+        },
+        {
+          "difficulty": "중급",
+          "word": "minimal",
+          "meaning": "최소한의",
+          "example": "Use a minimal setup.",
+          "exampleKo": "",
+          "note": "Oxford Learner's Dictionaries 항목을 확인할 수 있는 단어입니다. 뜻과 예문을 함께 보고, 해석 버튼으로 한국어 의미를 확인하세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/minimal"
+            }
+          ]
+        },
+        {
+          "difficulty": "중급",
+          "word": "prominent",
+          "meaning": "두드러진",
+          "example": "A prominent issue remains.",
+          "exampleKo": "",
+          "note": "Oxford Learner's Dictionaries 항목을 확인할 수 있는 단어입니다. 뜻과 예문을 함께 보고, 해석 버튼으로 한국어 의미를 확인하세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/prominent"
+            }
+          ]
+        },
+        {
+          "difficulty": "중급",
+          "word": "relevant",
+          "meaning": "관련 있는",
+          "example": "Only relevant details matter.",
+          "exampleKo": "",
+          "note": "Oxford Learner's Dictionaries 항목을 확인할 수 있는 단어입니다. 뜻과 예문을 함께 보고, 해석 버튼으로 한국어 의미를 확인하세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/relevant"
+            }
+          ]
+        },
+        {
+          "difficulty": "고급",
+          "word": "mercurial",
+          "meaning": "변덕스러운",
+          "example": "His mood is mercurial.",
+          "exampleKo": "",
+          "note": "Oxford Learner's Dictionaries 항목을 확인할 수 있는 단어입니다. 뜻과 예문을 함께 보고, 해석 버튼으로 한국어 의미를 확인하세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/mercurial"
+            }
+          ]
+        },
+        {
+          "difficulty": "고급",
+          "word": "mendacious",
+          "meaning": "거짓말하는",
+          "example": "The statement was mendacious.",
+          "exampleKo": "",
+          "note": "Oxford Learner's Dictionaries 항목을 확인할 수 있는 단어입니다. 뜻과 예문을 함께 보고, 해석 버튼으로 한국어 의미를 확인하세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/mendacious"
+            }
+          ]
+        },
+        {
+          "difficulty": "고급",
+          "word": "deleterious",
+          "meaning": "해로운",
+          "example": "The fumes are deleterious.",
+          "exampleKo": "",
+          "note": "Oxford Learner's Dictionaries 항목을 확인할 수 있는 단어입니다. 뜻과 예문을 함께 보고, 해석 버튼으로 한국어 의미를 확인하세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/deleterious"
+            }
+          ]
+        },
+        {
+          "difficulty": "고급",
+          "word": "insidious",
+          "meaning": "교묘히 해로운",
+          "example": "The illness is insidious.",
+          "exampleKo": "",
+          "note": "Oxford Learner's Dictionaries 항목을 확인할 수 있는 단어입니다. 뜻과 예문을 함께 보고, 해석 버튼으로 한국어 의미를 확인하세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/insidious"
+            }
+          ]
+        },
+        {
+          "difficulty": "고급",
+          "word": "pernicious",
+          "meaning": "심각하게 해로운",
+          "example": "The rumor had a pernicious effect.",
+          "exampleKo": "",
+          "note": "Oxford Learner's Dictionaries 항목을 확인할 수 있는 단어입니다. 뜻과 예문을 함께 보고, 해석 버튼으로 한국어 의미를 확인하세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/pernicious"
+            }
+          ]
+        }
+      ]
+    },
     {
       "date": "2026-08-10",
       "day": 101,
