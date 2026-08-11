@@ -1,8 +1,226 @@
 {
-  "updated_at": "2026-08-11",
+  "updated_at": "2026-08-12",
   "default_daily_count": 15,
   "source": "01_기초_동사형용사.json",
   "entries": [
+    {
+      "date": "2026-08-12",
+      "day": 103,
+      "title": "Day 103 난이도별 영단어 15개",
+      "generation_version": "dictionary-source-v2",
+      "items": [
+        {
+          "difficulty": "초급",
+          "word": "float",
+          "meaning": "떠다니다",
+          "example": "The boat floats on the lake.",
+          "exampleKo": "",
+          "note": "Oxford Learner's Dictionaries 항목을 확인할 수 있는 단어입니다. 뜻과 예문을 함께 보고, 해석 버튼으로 한국어 의미를 확인하세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/float"
+            }
+          ]
+        },
+        {
+          "difficulty": "초급",
+          "word": "fluff",
+          "meaning": "푹신하게 하다",
+          "example": "Fluff the pillow before bed.",
+          "exampleKo": "",
+          "note": "Oxford Learner's Dictionaries 항목을 확인할 수 있는 단어입니다. 뜻과 예문을 함께 보고, 해석 버튼으로 한국어 의미를 확인하세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/fluff"
+            }
+          ]
+        },
+        {
+          "difficulty": "초급",
+          "word": "flick",
+          "meaning": "휙 튀기다",
+          "example": "He flicks the light switch.",
+          "exampleKo": "",
+          "note": "Oxford Learner's Dictionaries 항목을 확인할 수 있는 단어입니다. 뜻과 예문을 함께 보고, 해석 버튼으로 한국어 의미를 확인하세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/flick"
+            }
+          ]
+        },
+        {
+          "difficulty": "초급",
+          "word": "flip",
+          "meaning": "뒤집다",
+          "example": "Flip the pancake carefully.",
+          "exampleKo": "",
+          "note": "Oxford Learner's Dictionaries 항목을 확인할 수 있는 단어입니다. 뜻과 예문을 함께 보고, 해석 버튼으로 한국어 의미를 확인하세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/flip"
+            }
+          ]
+        },
+        {
+          "difficulty": "초급",
+          "word": "grin",
+          "meaning": "씩 웃다",
+          "example": "The child grins at the joke.",
+          "exampleKo": "",
+          "note": "Oxford Learner's Dictionaries 항목을 확인할 수 있는 단어입니다. 뜻과 예문을 함께 보고, 해석 버튼으로 한국어 의미를 확인하세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/grin"
+            }
+          ]
+        },
+        {
+          "difficulty": "중급",
+          "word": "adjacent",
+          "meaning": "인접한",
+          "example": "The adjacent room is quiet.",
+          "exampleKo": "",
+          "note": "Oxford Learner's Dictionaries 항목을 확인할 수 있는 단어입니다. 뜻과 예문을 함께 보고, 해석 버튼으로 한국어 의미를 확인하세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/adjacent"
+            }
+          ]
+        },
+        {
+          "difficulty": "중급",
+          "word": "explicit",
+          "meaning": "명시적인",
+          "example": "Be explicit about the deadline.",
+          "exampleKo": "",
+          "note": "Oxford Learner's Dictionaries 항목을 확인할 수 있는 단어입니다. 뜻과 예문을 함께 보고, 해석 버튼으로 한국어 의미를 확인하세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/explicit"
+            }
+          ]
+        },
+        {
+          "difficulty": "중급",
+          "word": "gradual",
+          "meaning": "점진적인",
+          "example": "The change was gradual.",
+          "exampleKo": "",
+          "note": "Oxford Learner's Dictionaries 항목을 확인할 수 있는 단어입니다. 뜻과 예문을 함께 보고, 해석 버튼으로 한국어 의미를 확인하세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/gradual"
+            }
+          ]
+        },
+        {
+          "difficulty": "중급",
+          "word": "portable",
+          "meaning": "휴대 가능한",
+          "example": "This portable charger fits my bag.",
+          "exampleKo": "",
+          "note": "Oxford Learner's Dictionaries 항목을 확인할 수 있는 단어입니다. 뜻과 예문을 함께 보고, 해석 버튼으로 한국어 의미를 확인하세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/portable"
+            }
+          ]
+        },
+        {
+          "difficulty": "중급",
+          "word": "systematic",
+          "meaning": "체계적인",
+          "example": "Use a systematic approach.",
+          "exampleKo": "",
+          "note": "Oxford Learner's Dictionaries 항목을 확인할 수 있는 단어입니다. 뜻과 예문을 함께 보고, 해석 버튼으로 한국어 의미를 확인하세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/systematic"
+            }
+          ]
+        },
+        {
+          "difficulty": "고급",
+          "word": "censure",
+          "meaning": "비난하다",
+          "example": "The committee censured the breach.",
+          "exampleKo": "",
+          "note": "Oxford Learner's Dictionaries 항목을 확인할 수 있는 단어입니다. 뜻과 예문을 함께 보고, 해석 버튼으로 한국어 의미를 확인하세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/censure"
+            }
+          ]
+        },
+        {
+          "difficulty": "고급",
+          "word": "contravene",
+          "meaning": "위반하다",
+          "example": "The action contravenes the rule.",
+          "exampleKo": "",
+          "note": "Oxford Learner's Dictionaries 항목을 확인할 수 있는 단어입니다. 뜻과 예문을 함께 보고, 해석 버튼으로 한국어 의미를 확인하세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/contravene"
+            }
+          ]
+        },
+        {
+          "difficulty": "고급",
+          "word": "abjure",
+          "meaning": "단념하다",
+          "example": "He abjured his bad habit.",
+          "exampleKo": "",
+          "note": "Oxford Learner's Dictionaries 항목을 확인할 수 있는 단어입니다. 뜻과 예문을 함께 보고, 해석 버튼으로 한국어 의미를 확인하세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/abjure"
+            }
+          ]
+        },
+        {
+          "difficulty": "고급",
+          "word": "acquiesce",
+          "meaning": "묵인하다",
+          "example": "She acquiesced in the decision.",
+          "exampleKo": "",
+          "note": "Oxford Learner's Dictionaries 항목을 확인할 수 있는 단어입니다. 뜻과 예문을 함께 보고, 해석 버튼으로 한국어 의미를 확인하세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/acquiesce"
+            }
+          ]
+        },
+        {
+          "difficulty": "고급",
+          "word": "adjure",
+          "meaning": "간청하다",
+          "example": "I adjure you to tell the truth.",
+          "exampleKo": "",
+          "note": "Oxford Learner's Dictionaries 항목을 확인할 수 있는 단어입니다. 뜻과 예문을 함께 보고, 해석 버튼으로 한국어 의미를 확인하세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/adjure"
+            }
+          ]
+        }
+      ]
+    },
     {
       "date": "2026-08-11",
       "day": 102,
