@@ -1,8 +1,226 @@
 {
-  "updated_at": "2026-08-12",
+  "updated_at": "2026-08-13",
   "default_daily_count": 15,
   "source": "01_기초_동사형용사.json",
   "entries": [
+    {
+      "date": "2026-08-13",
+      "day": 104,
+      "title": "Day 104 난이도별 영단어 15개",
+      "generation_version": "dictionary-source-v2",
+      "items": [
+        {
+          "difficulty": "초급",
+          "word": "hunt",
+          "meaning": "찾다",
+          "example": "They hunt for clues.",
+          "exampleKo": "",
+          "note": "Oxford Learner's Dictionaries 항목을 확인할 수 있는 단어입니다. 뜻과 예문을 함께 보고, 해석 버튼으로 한국어 의미를 확인하세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/hunt"
+            }
+          ]
+        },
+        {
+          "difficulty": "초급",
+          "word": "iron",
+          "meaning": "다리미질하다",
+          "example": "I iron my shirt.",
+          "exampleKo": "",
+          "note": "Oxford Learner's Dictionaries 항목을 확인할 수 있는 단어입니다. 뜻과 예문을 함께 보고, 해석 버튼으로 한국어 의미를 확인하세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/iron"
+            }
+          ]
+        },
+        {
+          "difficulty": "초급",
+          "word": "lift",
+          "meaning": "들어 올리다",
+          "example": "Please lift the box.",
+          "exampleKo": "",
+          "note": "Oxford Learner's Dictionaries 항목을 확인할 수 있는 단어입니다. 뜻과 예문을 함께 보고, 해석 버튼으로 한국어 의미를 확인하세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/lift"
+            }
+          ]
+        },
+        {
+          "difficulty": "초급",
+          "word": "mend",
+          "meaning": "고치다",
+          "example": "She mends the torn bag.",
+          "exampleKo": "",
+          "note": "Oxford Learner's Dictionaries 항목을 확인할 수 있는 단어입니다. 뜻과 예문을 함께 보고, 해석 버튼으로 한국어 의미를 확인하세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/mend"
+            }
+          ]
+        },
+        {
+          "difficulty": "초급",
+          "word": "nudge",
+          "meaning": "살짝 밀다",
+          "example": "He nudged the door open.",
+          "exampleKo": "",
+          "note": "Oxford Learner's Dictionaries 항목을 확인할 수 있는 단어입니다. 뜻과 예문을 함께 보고, 해석 버튼으로 한국어 의미를 확인하세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/nudge"
+            }
+          ]
+        },
+        {
+          "difficulty": "중급",
+          "word": "temporary",
+          "meaning": "임시의",
+          "example": "We need a temporary fix.",
+          "exampleKo": "",
+          "note": "Oxford Learner's Dictionaries 항목을 확인할 수 있는 단어입니다. 뜻과 예문을 함께 보고, 해석 버튼으로 한국어 의미를 확인하세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/temporary"
+            }
+          ]
+        },
+        {
+          "difficulty": "중급",
+          "word": "coincide",
+          "meaning": "동시에 일어나다",
+          "example": "The dates coincide this week.",
+          "exampleKo": "",
+          "note": "Oxford Learner's Dictionaries 항목을 확인할 수 있는 단어입니다. 뜻과 예문을 함께 보고, 해석 버튼으로 한국어 의미를 확인하세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/coincide"
+            }
+          ]
+        },
+        {
+          "difficulty": "중급",
+          "word": "audit",
+          "meaning": "점검하다",
+          "example": "The team audits the accounts.",
+          "exampleKo": "",
+          "note": "Oxford Learner's Dictionaries 항목을 확인할 수 있는 단어입니다. 뜻과 예문을 함께 보고, 해석 버튼으로 한국어 의미를 확인하세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/audit"
+            }
+          ]
+        },
+        {
+          "difficulty": "중급",
+          "word": "compact",
+          "meaning": "작고 밀집한",
+          "example": "The device is compact.",
+          "exampleKo": "",
+          "note": "Oxford Learner's Dictionaries 항목을 확인할 수 있는 단어입니다. 뜻과 예문을 함께 보고, 해석 버튼으로 한국어 의미를 확인하세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/compact"
+            }
+          ]
+        },
+        {
+          "difficulty": "중급",
+          "word": "direct",
+          "meaning": "직접적인",
+          "example": "Give a direct answer.",
+          "exampleKo": "",
+          "note": "Oxford Learner's Dictionaries 항목을 확인할 수 있는 단어입니다. 뜻과 예문을 함께 보고, 해석 버튼으로 한국어 의미를 확인하세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/direct"
+            }
+          ]
+        },
+        {
+          "difficulty": "고급",
+          "word": "adumbrate",
+          "meaning": "대략적으로 설명하다",
+          "example": "The report adumbrates the main idea.",
+          "exampleKo": "",
+          "note": "Oxford Learner's Dictionaries 항목을 확인할 수 있는 단어입니다. 뜻과 예문을 함께 보고, 해석 버튼으로 한국어 의미를 확인하세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/adumbrate"
+            }
+          ]
+        },
+        {
+          "difficulty": "고급",
+          "word": "anodyne",
+          "meaning": "무난한",
+          "example": "The anodyne comment calmed the room.",
+          "exampleKo": "",
+          "note": "Oxford Learner's Dictionaries 항목을 확인할 수 있는 단어입니다. 뜻과 예문을 함께 보고, 해석 버튼으로 한국어 의미를 확인하세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/anodyne"
+            }
+          ]
+        },
+        {
+          "difficulty": "고급",
+          "word": "apprise",
+          "meaning": "알리다",
+          "example": "Please apprise me of any changes.",
+          "exampleKo": "",
+          "note": "Oxford Learner's Dictionaries 항목을 확인할 수 있는 단어입니다. 뜻과 예문을 함께 보고, 해석 버튼으로 한국어 의미를 확인하세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/apprise"
+            }
+          ]
+        },
+        {
+          "difficulty": "고급",
+          "word": "assuage",
+          "meaning": "완화하다",
+          "example": "A walk can assuage stress.",
+          "exampleKo": "",
+          "note": "Oxford Learner's Dictionaries 항목을 확인할 수 있는 단어입니다. 뜻과 예문을 함께 보고, 해석 버튼으로 한국어 의미를 확인하세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/assuage"
+            }
+          ]
+        },
+        {
+          "difficulty": "고급",
+          "word": "circumvent",
+          "meaning": "우회하다",
+          "example": "They tried to circumvent the rule.",
+          "exampleKo": "",
+          "note": "Oxford Learner's Dictionaries 항목을 확인할 수 있는 단어입니다. 뜻과 예문을 함께 보고, 해석 버튼으로 한국어 의미를 확인하세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/circumvent"
+            }
+          ]
+        }
+      ]
+    },
     {
       "date": "2026-08-12",
       "day": 103,
