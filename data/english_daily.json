@@ -1,8 +1,226 @@
 {
-  "updated_at": "2026-08-13",
+  "updated_at": "2026-08-14",
   "default_daily_count": 15,
   "source": "01_기초_동사형용사.json",
   "entries": [
+    {
+      "date": "2026-08-14",
+      "day": 105,
+      "title": "Day 105 난이도별 영단어 15개",
+      "generation_version": "dictionary-source-v2",
+      "items": [
+        {
+          "difficulty": "초급",
+          "word": "peek",
+          "meaning": "슬쩍 보다",
+          "example": "Don't peek at the answer.",
+          "exampleKo": "",
+          "note": "Oxford Learner's Dictionaries 항목을 확인할 수 있는 단어입니다. 뜻과 예문을 함께 보고, 해석 버튼으로 한국어 의미를 확인하세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/peek"
+            }
+          ]
+        },
+        {
+          "difficulty": "초급",
+          "word": "pluck",
+          "meaning": "뽑다",
+          "example": "She plucked the weed from the garden.",
+          "exampleKo": "",
+          "note": "Oxford Learner's Dictionaries 항목을 확인할 수 있는 단어입니다. 뜻과 예문을 함께 보고, 해석 버튼으로 한국어 의미를 확인하세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/pluck"
+            }
+          ]
+        },
+        {
+          "difficulty": "초급",
+          "word": "pry",
+          "meaning": "억지로 열다",
+          "example": "He tried to pry open the lid.",
+          "exampleKo": "",
+          "note": "Oxford Learner's Dictionaries 항목을 확인할 수 있는 단어입니다. 뜻과 예문을 함께 보고, 해석 버튼으로 한국어 의미를 확인하세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/pry"
+            }
+          ]
+        },
+        {
+          "difficulty": "초급",
+          "word": "read",
+          "meaning": "읽다",
+          "example": "I read before bed.",
+          "exampleKo": "",
+          "note": "Oxford Learner's Dictionaries 항목을 확인할 수 있는 단어입니다. 뜻과 예문을 함께 보고, 해석 버튼으로 한국어 의미를 확인하세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/read"
+            }
+          ]
+        },
+        {
+          "difficulty": "초급",
+          "word": "roam",
+          "meaning": "돌아다니다",
+          "example": "The dog roams the yard.",
+          "exampleKo": "",
+          "note": "Oxford Learner's Dictionaries 항목을 확인할 수 있는 단어입니다. 뜻과 예문을 함께 보고, 해석 버튼으로 한국어 의미를 확인하세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/roam"
+            }
+          ]
+        },
+        {
+          "difficulty": "중급",
+          "word": "mediate",
+          "meaning": "중재하다",
+          "example": "A manager mediates the dispute.",
+          "exampleKo": "",
+          "note": "Oxford Learner's Dictionaries 항목을 확인할 수 있는 단어입니다. 뜻과 예문을 함께 보고, 해석 버튼으로 한국어 의미를 확인하세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/mediate"
+            }
+          ]
+        },
+        {
+          "difficulty": "중급",
+          "word": "moderate",
+          "meaning": "온건한",
+          "example": "The policy is moderate.",
+          "exampleKo": "",
+          "note": "Oxford Learner's Dictionaries 항목을 확인할 수 있는 단어입니다. 뜻과 예문을 함께 보고, 해석 버튼으로 한국어 의미를 확인하세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/moderate"
+            }
+          ]
+        },
+        {
+          "difficulty": "중급",
+          "word": "practical",
+          "meaning": "실용적인",
+          "example": "Choose the practical option.",
+          "exampleKo": "",
+          "note": "Oxford Learner's Dictionaries 항목을 확인할 수 있는 단어입니다. 뜻과 예문을 함께 보고, 해석 버튼으로 한국어 의미를 확인하세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/practical"
+            }
+          ]
+        },
+        {
+          "difficulty": "중급",
+          "word": "reliable",
+          "meaning": "믿을 수 있는",
+          "example": "We need reliable data.",
+          "exampleKo": "",
+          "note": "Oxford Learner's Dictionaries 항목을 확인할 수 있는 단어입니다. 뜻과 예문을 함께 보고, 해석 버튼으로 한국어 의미를 확인하세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/reliable"
+            }
+          ]
+        },
+        {
+          "difficulty": "중급",
+          "word": "amplify",
+          "meaning": "증폭하다",
+          "example": "The speaker amplifies the sound.",
+          "exampleKo": "",
+          "note": "Oxford Learner's Dictionaries 항목을 확인할 수 있는 단어입니다. 뜻과 예문을 함께 보고, 해석 버튼으로 한국어 의미를 확인하세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/amplify"
+            }
+          ]
+        },
+        {
+          "difficulty": "고급",
+          "word": "connive",
+          "meaning": "결탁하다",
+          "example": "They connived to hide the mistake.",
+          "exampleKo": "",
+          "note": "Oxford Learner's Dictionaries 항목을 확인할 수 있는 단어입니다. 뜻과 예문을 함께 보고, 해석 버튼으로 한국어 의미를 확인하세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/connive"
+            }
+          ]
+        },
+        {
+          "difficulty": "고급",
+          "word": "conjecture",
+          "meaning": "추측하다",
+          "example": "We can only conjecture about the cause.",
+          "exampleKo": "",
+          "note": "Oxford Learner's Dictionaries 항목을 확인할 수 있는 단어입니다. 뜻과 예문을 함께 보고, 해석 버튼으로 한국어 의미를 확인하세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/conjecture"
+            }
+          ]
+        },
+        {
+          "difficulty": "고급",
+          "word": "demur",
+          "meaning": "이의를 제기하다",
+          "example": "She demurred at the request.",
+          "exampleKo": "",
+          "note": "Oxford Learner's Dictionaries 항목을 확인할 수 있는 단어입니다. 뜻과 예문을 함께 보고, 해석 버튼으로 한국어 의미를 확인하세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/demur"
+            }
+          ]
+        },
+        {
+          "difficulty": "고급",
+          "word": "deprecate",
+          "meaning": "낮추어 평가하다",
+          "example": "She deprecates wasteful spending.",
+          "exampleKo": "",
+          "note": "Oxford Learner's Dictionaries 항목을 확인할 수 있는 단어입니다. 뜻과 예문을 함께 보고, 해석 버튼으로 한국어 의미를 확인하세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/deprecate"
+            }
+          ]
+        },
+        {
+          "difficulty": "고급",
+          "word": "descry",
+          "meaning": "멀리서 알아보다",
+          "example": "We could descry the ship on the horizon.",
+          "exampleKo": "",
+          "note": "Oxford Learner's Dictionaries 항목을 확인할 수 있는 단어입니다. 뜻과 예문을 함께 보고, 해석 버튼으로 한국어 의미를 확인하세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/descry"
+            }
+          ]
+        }
+      ]
+    },
     {
       "date": "2026-08-13",
       "day": 104,
