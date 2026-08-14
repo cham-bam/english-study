@@ -1,8 +1,226 @@
 {
-  "updated_at": "2026-08-14",
+  "updated_at": "2026-08-15",
   "default_daily_count": 15,
   "source": "01_기초_동사형용사.json",
   "entries": [
+    {
+      "date": "2026-08-15",
+      "day": 106,
+      "title": "Day 106 난이도별 영단어 15개",
+      "generation_version": "dictionary-source-v2",
+      "items": [
+        {
+          "difficulty": "초급",
+          "word": "scrub",
+          "meaning": "문질러 닦다",
+          "example": "Scrub the floor well.",
+          "exampleKo": "",
+          "note": "Oxford Learner's Dictionaries 항목을 확인할 수 있는 단어입니다. 뜻과 예문을 함께 보고, 해석 버튼으로 한국어 의미를 확인하세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/scrub"
+            }
+          ]
+        },
+        {
+          "difficulty": "초급",
+          "word": "skip",
+          "meaning": "건너뛰다",
+          "example": "Don't skip breakfast.",
+          "exampleKo": "",
+          "note": "Oxford Learner's Dictionaries 항목을 확인할 수 있는 단어입니다. 뜻과 예문을 함께 보고, 해석 버튼으로 한국어 의미를 확인하세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/skip"
+            }
+          ]
+        },
+        {
+          "difficulty": "초급",
+          "word": "snap",
+          "meaning": "딱 부러지다",
+          "example": "The twig snapped under his foot.",
+          "exampleKo": "",
+          "note": "Oxford Learner's Dictionaries 항목을 확인할 수 있는 단어입니다. 뜻과 예문을 함께 보고, 해석 버튼으로 한국어 의미를 확인하세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/snap"
+            }
+          ]
+        },
+        {
+          "difficulty": "초급",
+          "word": "splash",
+          "meaning": "튀기다",
+          "example": "The kids splash in the water.",
+          "exampleKo": "",
+          "note": "Oxford Learner's Dictionaries 항목을 확인할 수 있는 단어입니다. 뜻과 예문을 함께 보고, 해석 버튼으로 한국어 의미를 확인하세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/splash"
+            }
+          ]
+        },
+        {
+          "difficulty": "초급",
+          "word": "tap",
+          "meaning": "톡톡 두드리다",
+          "example": "She tapped the table twice.",
+          "exampleKo": "",
+          "note": "Oxford Learner's Dictionaries 항목을 확인할 수 있는 단어입니다. 뜻과 예문을 함께 보고, 해석 버튼으로 한국어 의미를 확인하세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/tap"
+            }
+          ]
+        },
+        {
+          "difficulty": "중급",
+          "word": "anticipate",
+          "meaning": "예상하다",
+          "example": "We anticipate a delay.",
+          "exampleKo": "",
+          "note": "Oxford Learner's Dictionaries 항목을 확인할 수 있는 단어입니다. 뜻과 예문을 함께 보고, 해석 버튼으로 한국어 의미를 확인하세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/anticipate"
+            }
+          ]
+        },
+        {
+          "difficulty": "중급",
+          "word": "appraise",
+          "meaning": "평가하다",
+          "example": "A manager appraises the work.",
+          "exampleKo": "",
+          "note": "Oxford Learner's Dictionaries 항목을 확인할 수 있는 단어입니다. 뜻과 예문을 함께 보고, 해석 버튼으로 한국어 의미를 확인하세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/appraise"
+            }
+          ]
+        },
+        {
+          "difficulty": "중급",
+          "word": "broaden",
+          "meaning": "넓히다",
+          "example": "Travel can broaden your view.",
+          "exampleKo": "",
+          "note": "Oxford Learner's Dictionaries 항목을 확인할 수 있는 단어입니다. 뜻과 예문을 함께 보고, 해석 버튼으로 한국어 의미를 확인하세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/broaden"
+            }
+          ]
+        },
+        {
+          "difficulty": "중급",
+          "word": "construct",
+          "meaning": "건설하다",
+          "example": "They construct a new bridge.",
+          "exampleKo": "",
+          "note": "Oxford Learner's Dictionaries 항목을 확인할 수 있는 단어입니다. 뜻과 예문을 함께 보고, 해석 버튼으로 한국어 의미를 확인하세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/construct"
+            }
+          ]
+        },
+        {
+          "difficulty": "중급",
+          "word": "decorate",
+          "meaning": "꾸미다",
+          "example": "We decorate the room for the party.",
+          "exampleKo": "",
+          "note": "Oxford Learner's Dictionaries 항목을 확인할 수 있는 단어입니다. 뜻과 예문을 함께 보고, 해석 버튼으로 한국어 의미를 확인하세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/decorate"
+            }
+          ]
+        },
+        {
+          "difficulty": "고급",
+          "word": "eschew",
+          "meaning": "피하다",
+          "example": "She eschews processed food.",
+          "exampleKo": "",
+          "note": "Oxford Learner's Dictionaries 항목을 확인할 수 있는 단어입니다. 뜻과 예문을 함께 보고, 해석 버튼으로 한국어 의미를 확인하세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/eschew"
+            }
+          ]
+        },
+        {
+          "difficulty": "고급",
+          "word": "exculpate",
+          "meaning": "무죄를 입증하다",
+          "example": "The evidence may exculpate him.",
+          "exampleKo": "",
+          "note": "Oxford Learner's Dictionaries 항목을 확인할 수 있는 단어입니다. 뜻과 예문을 함께 보고, 해석 버튼으로 한국어 의미를 확인하세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/exculpate"
+            }
+          ]
+        },
+        {
+          "difficulty": "고급",
+          "word": "expatiate",
+          "meaning": "장황하게 설명하다",
+          "example": "He expatiated on the topic for hours.",
+          "exampleKo": "",
+          "note": "Oxford Learner's Dictionaries 항목을 확인할 수 있는 단어입니다. 뜻과 예문을 함께 보고, 해석 버튼으로 한국어 의미를 확인하세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/expatiate"
+            }
+          ]
+        },
+        {
+          "difficulty": "고급",
+          "word": "expunge",
+          "meaning": "삭제하다",
+          "example": "The clerk expunged the record.",
+          "exampleKo": "",
+          "note": "Oxford Learner's Dictionaries 항목을 확인할 수 있는 단어입니다. 뜻과 예문을 함께 보고, 해석 버튼으로 한국어 의미를 확인하세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/expunge"
+            }
+          ]
+        },
+        {
+          "difficulty": "고급",
+          "word": "extirpate",
+          "meaning": "근절하다",
+          "example": "The new policy aims to extirpate fraud.",
+          "exampleKo": "",
+          "note": "Oxford Learner's Dictionaries 항목을 확인할 수 있는 단어입니다. 뜻과 예문을 함께 보고, 해석 버튼으로 한국어 의미를 확인하세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/extirpate"
+            }
+          ]
+        }
+      ]
+    },
     {
       "date": "2026-08-14",
       "day": 105,
