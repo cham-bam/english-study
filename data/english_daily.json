@@ -1,8 +1,226 @@
 {
-  "updated_at": "2026-08-15",
+  "updated_at": "2026-08-16",
   "default_daily_count": 15,
   "source": "01_기초_동사형용사.json",
   "entries": [
+    {
+      "date": "2026-08-16",
+      "day": 107,
+      "title": "Day 107 일요일 복습 영단어 15개",
+      "generation_version": "dictionary-source-v2",
+      "items": [
+        {
+          "difficulty": "초급",
+          "word": "grin",
+          "meaning": "씩 웃다",
+          "example": "The child grins at the joke.",
+          "exampleKo": "",
+          "note": "일요일 복습 단어입니다. 어렵게 느꼈거나 최근에 다시 확인할 가치가 있는 단어로, 예문을 먼저 읽고 뜻을 떠올려보세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/grin"
+            }
+          ]
+        },
+        {
+          "difficulty": "초급",
+          "word": "crash",
+          "meaning": "충돌하다",
+          "example": "The waves crash on the rocks.",
+          "exampleKo": "",
+          "note": "일요일 복습 단어입니다. 어렵게 느꼈거나 최근에 다시 확인할 가치가 있는 단어로, 예문을 먼저 읽고 뜻을 떠올려보세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/crash"
+            }
+          ]
+        },
+        {
+          "difficulty": "초급",
+          "word": "cross",
+          "meaning": "건너다",
+          "example": "We cross the street together.",
+          "exampleKo": "",
+          "note": "일요일 복습 단어입니다. 어렵게 느꼈거나 최근에 다시 확인할 가치가 있는 단어로, 예문을 먼저 읽고 뜻을 떠올려보세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/cross"
+            }
+          ]
+        },
+        {
+          "difficulty": "초급",
+          "word": "dive",
+          "meaning": "뛰어들다",
+          "example": "The children dive into the pool.",
+          "exampleKo": "",
+          "note": "일요일 복습 단어입니다. 어렵게 느꼈거나 최근에 다시 확인할 가치가 있는 단어로, 예문을 먼저 읽고 뜻을 떠올려보세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/dive"
+            }
+          ]
+        },
+        {
+          "difficulty": "초급",
+          "word": "drip",
+          "meaning": "뚝뚝 떨어지다",
+          "example": "Water drips from the faucet.",
+          "exampleKo": "",
+          "note": "일요일 복습 단어입니다. 어렵게 느꼈거나 최근에 다시 확인할 가치가 있는 단어로, 예문을 먼저 읽고 뜻을 떠올려보세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/drip"
+            }
+          ]
+        },
+        {
+          "difficulty": "중급",
+          "word": "obtain",
+          "meaning": "얻다",
+          "example": "We obtain the data from logs.",
+          "exampleKo": "",
+          "note": "일요일 복습 단어입니다. 어렵게 느꼈거나 최근에 다시 확인할 가치가 있는 단어로, 예문을 먼저 읽고 뜻을 떠올려보세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/obtain"
+            }
+          ]
+        },
+        {
+          "difficulty": "중급",
+          "word": "present",
+          "meaning": "제시하다",
+          "example": "She presents the findings.",
+          "exampleKo": "",
+          "note": "일요일 복습 단어입니다. 어렵게 느꼈거나 최근에 다시 확인할 가치가 있는 단어로, 예문을 먼저 읽고 뜻을 떠올려보세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/present"
+            }
+          ]
+        },
+        {
+          "difficulty": "중급",
+          "word": "quantify",
+          "meaning": "수치화하다",
+          "example": "We quantify the benefit.",
+          "exampleKo": "",
+          "note": "일요일 복습 단어입니다. 어렵게 느꼈거나 최근에 다시 확인할 가치가 있는 단어로, 예문을 먼저 읽고 뜻을 떠올려보세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/quantify"
+            }
+          ]
+        },
+        {
+          "difficulty": "중급",
+          "word": "refine",
+          "meaning": "다듬다",
+          "example": "Refine the plan before launch.",
+          "exampleKo": "",
+          "note": "일요일 복습 단어입니다. 어렵게 느꼈거나 최근에 다시 확인할 가치가 있는 단어로, 예문을 먼저 읽고 뜻을 떠올려보세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/refine"
+            }
+          ]
+        },
+        {
+          "difficulty": "중급",
+          "word": "depict",
+          "meaning": "묘사하다",
+          "example": "The chart depicts the trend.",
+          "exampleKo": "",
+          "note": "일요일 복습 단어입니다. 어렵게 느꼈거나 최근에 다시 확인할 가치가 있는 단어로, 예문을 먼저 읽고 뜻을 떠올려보세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/depict"
+            }
+          ]
+        },
+        {
+          "difficulty": "고급",
+          "word": "elucidate",
+          "meaning": "명확히 설명하다",
+          "example": "The speaker elucidates the theory.",
+          "exampleKo": "",
+          "note": "일요일 복습 단어입니다. 어렵게 느꼈거나 최근에 다시 확인할 가치가 있는 단어로, 예문을 먼저 읽고 뜻을 떠올려보세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/elucidate"
+            }
+          ]
+        },
+        {
+          "difficulty": "고급",
+          "word": "equivocate",
+          "meaning": "애매하게 말하다",
+          "example": "Do not equivocate in the report.",
+          "exampleKo": "",
+          "note": "일요일 복습 단어입니다. 어렵게 느꼈거나 최근에 다시 확인할 가치가 있는 단어로, 예문을 먼저 읽고 뜻을 떠올려보세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/equivocate"
+            }
+          ]
+        },
+        {
+          "difficulty": "고급",
+          "word": "abrogate",
+          "meaning": "폐지하다",
+          "example": "The court can abrogate the rule.",
+          "exampleKo": "",
+          "note": "일요일 복습 단어입니다. 어렵게 느꼈거나 최근에 다시 확인할 가치가 있는 단어로, 예문을 먼저 읽고 뜻을 떠올려보세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/abrogate"
+            }
+          ]
+        },
+        {
+          "difficulty": "고급",
+          "word": "aggregate",
+          "meaning": "집계하다",
+          "example": "The report aggregates the results.",
+          "exampleKo": "",
+          "note": "일요일 복습 단어입니다. 어렵게 느꼈거나 최근에 다시 확인할 가치가 있는 단어로, 예문을 먼저 읽고 뜻을 떠올려보세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/aggregate"
+            }
+          ]
+        },
+        {
+          "difficulty": "고급",
+          "word": "ameliorate",
+          "meaning": "개선하다",
+          "example": "The policy may ameliorate the issue.",
+          "exampleKo": "",
+          "note": "일요일 복습 단어입니다. 어렵게 느꼈거나 최근에 다시 확인할 가치가 있는 단어로, 예문을 먼저 읽고 뜻을 떠올려보세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/ameliorate"
+            }
+          ]
+        }
+      ]
+    },
     {
       "date": "2026-08-15",
       "day": 106,
