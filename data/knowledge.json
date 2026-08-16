@@ -1,7 +1,98 @@
 {
-  "updated_at": "2026-08-16",
+  "updated_at": "2026-08-17",
   "default_daily_count": 6,
   "entries": [
+    {
+      "date": "2026-08-17",
+      "title": "2026.08.17 난이도별 상식 6개",
+      "generation_version": "source-summary-v2",
+      "items": [
+        {
+          "source_id": "source-knowledge-review-2026-08-17-water-cycle-usgs",
+          "difficulty": "초급",
+          "category": "지구",
+          "title": "물의 순환은 지구의 냉각 장치이자 운반 시스템이다: 출처 복습",
+          "body": "물은 증발, 응결, 강수, 지표 흐름, 지하수 흐름을 거치며 지구 안에서 계속 위치를 바꿉니다. 첫째, 이 과정은 바다와 대기와 땅을 연결해 기후와 날씨를 움직입니다. 둘째, 강과 지하수는 생태계와 사람이 쓸 물을 옮기는 통로가 됩니다. 셋째, 물은 사라지는 것이 아니라 상태와 위치가 바뀌기 때문에 오염과 사용 습관도 결국 순환 안에서 되돌아옵니다.",
+          "takeaway": "물은 사라지는 자원이 아니라 순환하는 자원이므로 사용과 오염을 함께 생각해야 합니다.",
+          "sources": [
+            {
+              "label": "USGS Water Cycle",
+              "url": "https://www.usgs.gov/special-topics/water-science-school/science/water-cycle"
+            }
+          ]
+        },
+        {
+          "source_id": "source-knowledge-review-2026-08-17-sleep-nih",
+          "difficulty": "초급",
+          "category": "건강",
+          "title": "수면은 쉬는 시간이 아니라 몸의 유지보수 시간이다: 출처 복습",
+          "body": "수면은 에너지를 아끼는 시간이 아니라 뇌와 몸이 회복 작업을 하는 시간입니다. 첫째, 충분한 수면은 기억과 학습에 관여합니다. 둘째, 심장, 호르몬, 면역 기능처럼 몸의 기본 조절에도 영향을 줍니다. 셋째, 잠이 부족하면 집중력과 감정 조절이 흔들려 다음 날 판단 품질까지 떨어질 수 있습니다.",
+          "takeaway": "수면은 게으름이 아니라 다음 날의 기억, 회복, 판단을 준비하는 생리적 과정입니다.",
+          "sources": [
+            {
+              "label": "NIH Sleep",
+              "url": "https://www.nhlbi.nih.gov/health/sleep"
+            }
+          ]
+        },
+        {
+          "source_id": "source-knowledge-review-2026-08-17-ev-doe",
+          "difficulty": "중급",
+          "category": "자동차",
+          "title": "전기차 선택은 차량 스펙과 충전 생활권을 함께 보는 일이다: 출처 복습",
+          "body": "전기차는 배터리와 모터만의 문제가 아니라 충전 환경과 사용 패턴의 문제입니다. 첫째, 집이나 직장에서 충전할 수 있으면 일상 사용의 불편이 크게 줄어듭니다. 둘째, 주행거리와 충전 속도는 장거리 이동에서 중요해집니다. 셋째, 전기차의 비용 판단은 구매가뿐 아니라 에너지 비용과 유지관리 비용까지 함께 봐야 합니다.",
+          "takeaway": "전기차의 실사용 가치는 차의 성능과 내가 사는 충전 환경이 함께 결정합니다.",
+          "sources": [
+            {
+              "label": "U.S. DOE Electric Vehicles",
+              "url": "https://www.energy.gov/eere/electricvehicles/electric-vehicles"
+            }
+          ]
+        },
+        {
+          "source_id": "source-knowledge-review-2026-08-17-ai-risk-nist",
+          "difficulty": "중급",
+          "category": "AI",
+          "title": "AI 신뢰성은 성능 점수보다 위험 관리에서 나온다: 출처 복습",
+          "body": "AI는 정확도만으로 평가하기 어렵고 위험을 식별하고 줄이는 절차가 함께 필요합니다. 첫째, 데이터 편향이나 부정확한 출력은 실제 사람의 판단과 권리에 영향을 줄 수 있습니다. 둘째, 모델이 어떤 상황에서 실패하는지 기록하고 평가해야 합니다. 셋째, 조직은 AI의 책임자, 검토 기준, 사용 제한을 정해야 신뢰 가능한 도입이 가능합니다.",
+          "takeaway": "AI를 잘 쓰려면 모델 선택보다 데이터, 평가, 책임 구조를 함께 설계해야 합니다.",
+          "sources": [
+            {
+              "label": "NIST AI RMF",
+              "url": "https://www.nist.gov/itl/ai-risk-management-framework"
+            }
+          ]
+        },
+        {
+          "source_id": "source-knowledge-review-2026-08-17-cryptography-nist",
+          "difficulty": "고급",
+          "category": "보안",
+          "title": "암호화는 비밀을 숨기는 기술이 아니라 신뢰를 나누는 약속이다: 출처 복습",
+          "body": "암호화는 데이터를 정해진 규칙과 열쇠로 바꾸어 허가된 사람만 읽게 하는 기술입니다. 첫째, 온라인 결제와 메시지 보호는 암호 기술 위에서 작동합니다. 둘째, 안전한 시스템은 알고리즘뿐 아니라 키 관리와 인증 절차가 함께 필요합니다. 셋째, 암호화는 데이터를 완전히 안전하게 만드는 마법이 아니라 공격 비용을 높이고 접근 권한을 통제하는 방법입니다.",
+          "takeaway": "암호화의 핵심은 데이터를 숨기는 것보다 누가 읽을 수 있는지를 안전하게 정하는 데 있습니다.",
+          "sources": [
+            {
+              "label": "NIST Cryptography",
+              "url": "https://www.nist.gov/cryptography"
+            }
+          ]
+        },
+        {
+          "source_id": "source-knowledge-review-2026-08-17-automated-vehicles-nhtsa",
+          "difficulty": "고급",
+          "category": "모빌리티",
+          "title": "자율주행의 난점은 평범한 도로보다 예외 상황이다: 출처 복습",
+          "body": "자율주행은 모든 상황에서 사람을 바로 대체하는 기술이라기보다 자동화 수준과 책임 범위를 구분해야 하는 분야입니다. 첫째, 평범한 차선 유지보다 공사 구간, 악천후, 돌발 보행자 같은 예외가 어렵습니다. 둘째, 시스템이 언제 운전자 개입을 요구하는지 명확해야 합니다. 셋째, 안전 검증은 기술 성능뿐 아니라 책임, 규제, 사용자의 이해를 함께 요구합니다.",
+          "takeaway": "자율주행은 얼마나 자동으로 달리느냐보다 예외 상황에서 얼마나 안전하게 실패하느냐가 중요합니다.",
+          "sources": [
+            {
+              "label": "NHTSA Automated Vehicles",
+              "url": "https://www.nhtsa.gov/vehicle-safety/automated-vehicles-safety"
+            }
+          ]
+        }
+      ]
+    },
     {
       "date": "2026-08-16",
       "title": "2026.08.16 난이도별 상식 6개",

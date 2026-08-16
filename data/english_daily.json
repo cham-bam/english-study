@@ -1,8 +1,226 @@
 {
-  "updated_at": "2026-08-16",
+  "updated_at": "2026-08-17",
   "default_daily_count": 15,
   "source": "01_기초_동사형용사.json",
   "entries": [
+    {
+      "date": "2026-08-17",
+      "day": 108,
+      "title": "Day 108 난이도별 영단어 15개",
+      "generation_version": "dictionary-source-v2",
+      "items": [
+        {
+          "difficulty": "초급",
+          "word": "tease",
+          "meaning": "놀리다",
+          "example": "Don't tease your friend.",
+          "exampleKo": "",
+          "note": "Oxford Learner's Dictionaries 항목을 확인할 수 있는 단어입니다. 뜻과 예문을 함께 보고, 해석 버튼으로 한국어 의미를 확인하세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/tease"
+            }
+          ]
+        },
+        {
+          "difficulty": "초급",
+          "word": "thaw",
+          "meaning": "녹다",
+          "example": "The snow begins to thaw.",
+          "exampleKo": "",
+          "note": "Oxford Learner's Dictionaries 항목을 확인할 수 있는 단어입니다. 뜻과 예문을 함께 보고, 해석 버튼으로 한국어 의미를 확인하세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/thaw"
+            }
+          ]
+        },
+        {
+          "difficulty": "초급",
+          "word": "tickle",
+          "meaning": "간지럽히다",
+          "example": "The feather tickles my nose.",
+          "exampleKo": "",
+          "note": "Oxford Learner's Dictionaries 항목을 확인할 수 있는 단어입니다. 뜻과 예문을 함께 보고, 해석 버튼으로 한국어 의미를 확인하세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/tickle"
+            }
+          ]
+        },
+        {
+          "difficulty": "초급",
+          "word": "twirl",
+          "meaning": "빙빙 돌리다",
+          "example": "The dancer twirls on stage.",
+          "exampleKo": "",
+          "note": "Oxford Learner's Dictionaries 항목을 확인할 수 있는 단어입니다. 뜻과 예문을 함께 보고, 해석 버튼으로 한국어 의미를 확인하세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/twirl"
+            }
+          ]
+        },
+        {
+          "difficulty": "초급",
+          "word": "unwrap",
+          "meaning": "포장을 풀다",
+          "example": "He unwraps the gift slowly.",
+          "exampleKo": "",
+          "note": "Oxford Learner's Dictionaries 항목을 확인할 수 있는 단어입니다. 뜻과 예문을 함께 보고, 해석 버튼으로 한국어 의미를 확인하세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/unwrap"
+            }
+          ]
+        },
+        {
+          "difficulty": "중급",
+          "word": "educate",
+          "meaning": "교육하다",
+          "example": "Schools educate young people.",
+          "exampleKo": "",
+          "note": "Oxford Learner's Dictionaries 항목을 확인할 수 있는 단어입니다. 뜻과 예문을 함께 보고, 해석 버튼으로 한국어 의미를 확인하세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/educate"
+            }
+          ]
+        },
+        {
+          "difficulty": "중급",
+          "word": "inquire",
+          "meaning": "문의하다",
+          "example": "I inquired about the schedule.",
+          "exampleKo": "",
+          "note": "Oxford Learner's Dictionaries 항목을 확인할 수 있는 단어입니다. 뜻과 예문을 함께 보고, 해석 버튼으로 한국어 의미를 확인하세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/inquire"
+            }
+          ]
+        },
+        {
+          "difficulty": "중급",
+          "word": "produce",
+          "meaning": "생산하다",
+          "example": "The farm produces fresh milk.",
+          "exampleKo": "",
+          "note": "Oxford Learner's Dictionaries 항목을 확인할 수 있는 단어입니다. 뜻과 예문을 함께 보고, 해석 버튼으로 한국어 의미를 확인하세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/produce"
+            }
+          ]
+        },
+        {
+          "difficulty": "중급",
+          "word": "specify",
+          "meaning": "명시하다",
+          "example": "Please specify the size.",
+          "exampleKo": "",
+          "note": "Oxford Learner's Dictionaries 항목을 확인할 수 있는 단어입니다. 뜻과 예문을 함께 보고, 해석 버튼으로 한국어 의미를 확인하세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/specify"
+            }
+          ]
+        },
+        {
+          "difficulty": "중급",
+          "word": "structure",
+          "meaning": "구성하다",
+          "example": "We structure the report clearly.",
+          "exampleKo": "",
+          "note": "Oxford Learner's Dictionaries 항목을 확인할 수 있는 단어입니다. 뜻과 예문을 함께 보고, 해석 버튼으로 한국어 의미를 확인하세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/structure"
+            }
+          ]
+        },
+        {
+          "difficulty": "고급",
+          "word": "flout",
+          "meaning": "무시하다",
+          "example": "Do not flout the rules.",
+          "exampleKo": "",
+          "note": "Oxford Learner's Dictionaries 항목을 확인할 수 있는 단어입니다. 뜻과 예문을 함께 보고, 해석 버튼으로 한국어 의미를 확인하세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/flout"
+            }
+          ]
+        },
+        {
+          "difficulty": "고급",
+          "word": "frustrate",
+          "meaning": "좌절시키다",
+          "example": "Delays frustrate the team.",
+          "exampleKo": "",
+          "note": "Oxford Learner's Dictionaries 항목을 확인할 수 있는 단어입니다. 뜻과 예문을 함께 보고, 해석 버튼으로 한국어 의미를 확인하세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/frustrate"
+            }
+          ]
+        },
+        {
+          "difficulty": "고급",
+          "word": "heterodox",
+          "meaning": "이단적인",
+          "example": "The scholar offered a heterodox view.",
+          "exampleKo": "",
+          "note": "Oxford Learner's Dictionaries 항목을 확인할 수 있는 단어입니다. 뜻과 예문을 함께 보고, 해석 버튼으로 한국어 의미를 확인하세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/heterodox"
+            }
+          ]
+        },
+        {
+          "difficulty": "고급",
+          "word": "impecunious",
+          "meaning": "무일푼의",
+          "example": "He was an impecunious student.",
+          "exampleKo": "",
+          "note": "Oxford Learner's Dictionaries 항목을 확인할 수 있는 단어입니다. 뜻과 예문을 함께 보고, 해석 버튼으로 한국어 의미를 확인하세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/impecunious"
+            }
+          ]
+        },
+        {
+          "difficulty": "고급",
+          "word": "impugn",
+          "meaning": "비난하다",
+          "example": "Do not impugn her honesty.",
+          "exampleKo": "",
+          "note": "Oxford Learner's Dictionaries 항목을 확인할 수 있는 단어입니다. 뜻과 예문을 함께 보고, 해석 버튼으로 한국어 의미를 확인하세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/impugn"
+            }
+          ]
+        }
+      ]
+    },
     {
       "date": "2026-08-16",
       "day": 107,
