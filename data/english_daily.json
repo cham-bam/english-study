@@ -1,8 +1,198 @@
 {
-  "updated_at": "2026-08-17",
+  "updated_at": "2026-08-18",
   "default_daily_count": 15,
   "source": "01_기초_동사형용사.json",
   "entries": [
+    {
+      "date": "2026-08-18",
+      "day": 109,
+      "title": "Day 109 난이도별 영단어 13개",
+      "generation_version": "dictionary-source-v2",
+      "items": [
+        {
+          "difficulty": "초급",
+          "word": "vow",
+          "meaning": "맹세하다",
+          "example": "She vowed to study every day.",
+          "exampleKo": "",
+          "note": "Oxford Learner's Dictionaries 항목을 확인할 수 있는 단어입니다. 뜻과 예문을 함께 보고, 해석 버튼으로 한국어 의미를 확인하세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/vow"
+            }
+          ]
+        },
+        {
+          "difficulty": "초급",
+          "word": "wiggle",
+          "meaning": "꼼지락거리다",
+          "example": "The puppy wiggles with excitement.",
+          "exampleKo": "",
+          "note": "Oxford Learner's Dictionaries 항목을 확인할 수 있는 단어입니다. 뜻과 예문을 함께 보고, 해석 버튼으로 한국어 의미를 확인하세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/wiggle"
+            }
+          ]
+        },
+        {
+          "difficulty": "초급",
+          "word": "admire",
+          "meaning": "존경하다",
+          "example": "I admire your patience.",
+          "exampleKo": "",
+          "note": "Oxford Learner's Dictionaries 항목을 확인할 수 있는 단어입니다. 뜻과 예문을 함께 보고, 해석 버튼으로 한국어 의미를 확인하세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/admire"
+            }
+          ]
+        },
+        {
+          "difficulty": "초급",
+          "word": "bounce",
+          "meaning": "튀다",
+          "example": "The ball bounces high.",
+          "exampleKo": "",
+          "note": "Oxford Learner's Dictionaries 항목을 확인할 수 있는 단어입니다. 뜻과 예문을 함께 보고, 해석 버튼으로 한국어 의미를 확인하세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/bounce"
+            }
+          ]
+        },
+        {
+          "difficulty": "초급",
+          "word": "carve",
+          "meaning": "새기다",
+          "example": "They carve the pumpkin.",
+          "exampleKo": "",
+          "note": "Oxford Learner's Dictionaries 항목을 확인할 수 있는 단어입니다. 뜻과 예문을 함께 보고, 해석 버튼으로 한국어 의미를 확인하세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/carve"
+            }
+          ]
+        },
+        {
+          "difficulty": "중급",
+          "word": "utilize",
+          "meaning": "활용하다",
+          "example": "We utilize the space well.",
+          "exampleKo": "",
+          "note": "Oxford Learner's Dictionaries 항목을 확인할 수 있는 단어입니다. 뜻과 예문을 함께 보고, 해석 버튼으로 한국어 의미를 확인하세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/utilize"
+            }
+          ]
+        },
+        {
+          "difficulty": "중급",
+          "word": "vary",
+          "meaning": "달라지다",
+          "example": "Weather conditions vary by season.",
+          "exampleKo": "",
+          "note": "Oxford Learner's Dictionaries 항목을 확인할 수 있는 단어입니다. 뜻과 예문을 함께 보고, 해석 버튼으로 한국어 의미를 확인하세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/vary"
+            }
+          ]
+        },
+        {
+          "difficulty": "중급",
+          "word": "visualize",
+          "meaning": "상상하다",
+          "example": "Try to visualize the layout.",
+          "exampleKo": "",
+          "note": "Oxford Learner's Dictionaries 항목을 확인할 수 있는 단어입니다. 뜻과 예문을 함께 보고, 해석 버튼으로 한국어 의미를 확인하세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/visualize"
+            }
+          ]
+        },
+        {
+          "difficulty": "고급",
+          "word": "indurate",
+          "meaning": "굳어지다",
+          "example": "The shell became indurate after drying.",
+          "exampleKo": "",
+          "note": "Oxford Learner's Dictionaries 항목을 확인할 수 있는 단어입니다. 뜻과 예문을 함께 보고, 해석 버튼으로 한국어 의미를 확인하세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/indurate"
+            }
+          ]
+        },
+        {
+          "difficulty": "고급",
+          "word": "lachrymose",
+          "meaning": "눈물 많은",
+          "example": "The movie left everyone lachrymose.",
+          "exampleKo": "",
+          "note": "Oxford Learner's Dictionaries 항목을 확인할 수 있는 단어입니다. 뜻과 예문을 함께 보고, 해석 버튼으로 한국어 의미를 확인하세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/lachrymose"
+            }
+          ]
+        },
+        {
+          "difficulty": "고급",
+          "word": "lucubrate",
+          "meaning": "밤늦게 공부하다",
+          "example": "He lucubrated late into the night.",
+          "exampleKo": "",
+          "note": "Oxford Learner's Dictionaries 항목을 확인할 수 있는 단어입니다. 뜻과 예문을 함께 보고, 해석 버튼으로 한국어 의미를 확인하세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/lucubrate"
+            }
+          ]
+        },
+        {
+          "difficulty": "고급",
+          "word": "palpitate",
+          "meaning": "두근거리다",
+          "example": "His heart began to palpitate.",
+          "exampleKo": "",
+          "note": "Oxford Learner's Dictionaries 항목을 확인할 수 있는 단어입니다. 뜻과 예문을 함께 보고, 해석 버튼으로 한국어 의미를 확인하세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/palpitate"
+            }
+          ]
+        },
+        {
+          "difficulty": "고급",
+          "word": "perorate",
+          "meaning": "장황하게 연설하다",
+          "example": "He perorated for twenty minutes.",
+          "exampleKo": "",
+          "note": "Oxford Learner's Dictionaries 항목을 확인할 수 있는 단어입니다. 뜻과 예문을 함께 보고, 해석 버튼으로 한국어 의미를 확인하세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/perorate"
+            }
+          ]
+        }
+      ]
+    },
     {
       "date": "2026-08-17",
       "day": 108,
