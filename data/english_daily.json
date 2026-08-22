@@ -1,8 +1,226 @@
 {
-  "updated_at": "2026-08-22",
+  "updated_at": "2026-08-23",
   "default_daily_count": 15,
   "source": "01_기초_동사형용사.json",
   "entries": [
+    {
+      "date": "2026-08-23",
+      "day": 114,
+      "title": "Day 114 일요일 복습 영단어 15개",
+      "generation_version": "dictionary-source-v2",
+      "items": [
+        {
+          "difficulty": "초급",
+          "word": "snap",
+          "meaning": "딱 부러지다",
+          "example": "The twig snapped under his foot.",
+          "exampleKo": "",
+          "note": "일요일 복습 단어입니다. 어렵게 느꼈거나 최근에 다시 확인할 가치가 있는 단어로, 예문을 먼저 읽고 뜻을 떠올려보세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/snap"
+            }
+          ]
+        },
+        {
+          "difficulty": "초급",
+          "word": "splash",
+          "meaning": "튀기다",
+          "example": "The kids splash in the water.",
+          "exampleKo": "",
+          "note": "일요일 복습 단어입니다. 어렵게 느꼈거나 최근에 다시 확인할 가치가 있는 단어로, 예문을 먼저 읽고 뜻을 떠올려보세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/splash"
+            }
+          ]
+        },
+        {
+          "difficulty": "초급",
+          "word": "tap",
+          "meaning": "톡톡 두드리다",
+          "example": "She tapped the table twice.",
+          "exampleKo": "",
+          "note": "일요일 복습 단어입니다. 어렵게 느꼈거나 최근에 다시 확인할 가치가 있는 단어로, 예문을 먼저 읽고 뜻을 떠올려보세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/tap"
+            }
+          ]
+        },
+        {
+          "difficulty": "초급",
+          "word": "peek",
+          "meaning": "슬쩍 보다",
+          "example": "Don't peek at the answer.",
+          "exampleKo": "",
+          "note": "일요일 복습 단어입니다. 어렵게 느꼈거나 최근에 다시 확인할 가치가 있는 단어로, 예문을 먼저 읽고 뜻을 떠올려보세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/peek"
+            }
+          ]
+        },
+        {
+          "difficulty": "초급",
+          "word": "pluck",
+          "meaning": "뽑다",
+          "example": "She plucked the weed from the garden.",
+          "exampleKo": "",
+          "note": "일요일 복습 단어입니다. 어렵게 느꼈거나 최근에 다시 확인할 가치가 있는 단어로, 예문을 먼저 읽고 뜻을 떠올려보세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/pluck"
+            }
+          ]
+        },
+        {
+          "difficulty": "중급",
+          "word": "integral",
+          "meaning": "필수적인",
+          "example": "Feedback is integral to learning.",
+          "exampleKo": "",
+          "note": "일요일 복습 단어입니다. 어렵게 느꼈거나 최근에 다시 확인할 가치가 있는 단어로, 예문을 먼저 읽고 뜻을 떠올려보세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/integral"
+            }
+          ]
+        },
+        {
+          "difficulty": "중급",
+          "word": "minimal",
+          "meaning": "최소한의",
+          "example": "Use a minimal setup.",
+          "exampleKo": "",
+          "note": "일요일 복습 단어입니다. 어렵게 느꼈거나 최근에 다시 확인할 가치가 있는 단어로, 예문을 먼저 읽고 뜻을 떠올려보세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/minimal"
+            }
+          ]
+        },
+        {
+          "difficulty": "중급",
+          "word": "prominent",
+          "meaning": "두드러진",
+          "example": "A prominent issue remains.",
+          "exampleKo": "",
+          "note": "일요일 복습 단어입니다. 어렵게 느꼈거나 최근에 다시 확인할 가치가 있는 단어로, 예문을 먼저 읽고 뜻을 떠올려보세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/prominent"
+            }
+          ]
+        },
+        {
+          "difficulty": "중급",
+          "word": "relevant",
+          "meaning": "관련 있는",
+          "example": "Only relevant details matter.",
+          "exampleKo": "",
+          "note": "일요일 복습 단어입니다. 어렵게 느꼈거나 최근에 다시 확인할 가치가 있는 단어로, 예문을 먼저 읽고 뜻을 떠올려보세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/relevant"
+            }
+          ]
+        },
+        {
+          "difficulty": "중급",
+          "word": "amend",
+          "meaning": "수정하다",
+          "example": "They amended the contract.",
+          "exampleKo": "",
+          "note": "일요일 복습 단어입니다. 어렵게 느꼈거나 최근에 다시 확인할 가치가 있는 단어로, 예문을 먼저 읽고 뜻을 떠올려보세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/amend"
+            }
+          ]
+        },
+        {
+          "difficulty": "고급",
+          "word": "vacillate",
+          "meaning": "우유부단하게 흔들리다",
+          "example": "He vacillated for hours.",
+          "exampleKo": "",
+          "note": "일요일 복습 단어입니다. 어렵게 느꼈거나 최근에 다시 확인할 가치가 있는 단어로, 예문을 먼저 읽고 뜻을 떠올려보세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/vacillate"
+            }
+          ]
+        },
+        {
+          "difficulty": "고급",
+          "word": "vestigial",
+          "meaning": "흔적만 남은",
+          "example": "The organ is vestigial.",
+          "exampleKo": "",
+          "note": "일요일 복습 단어입니다. 어렵게 느꼈거나 최근에 다시 확인할 가치가 있는 단어로, 예문을 먼저 읽고 뜻을 떠올려보세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/vestigial"
+            }
+          ]
+        },
+        {
+          "difficulty": "고급",
+          "word": "untenable",
+          "meaning": "설 수 없는",
+          "example": "The position is untenable.",
+          "exampleKo": "",
+          "note": "일요일 복습 단어입니다. 어렵게 느꼈거나 최근에 다시 확인할 가치가 있는 단어로, 예문을 먼저 읽고 뜻을 떠올려보세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/untenable"
+            }
+          ]
+        },
+        {
+          "difficulty": "고급",
+          "word": "propitiate",
+          "meaning": "달래다",
+          "example": "They tried to propitiate the crowd.",
+          "exampleKo": "",
+          "note": "일요일 복습 단어입니다. 어렵게 느꼈거나 최근에 다시 확인할 가치가 있는 단어로, 예문을 먼저 읽고 뜻을 떠올려보세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/propitiate"
+            }
+          ]
+        },
+        {
+          "difficulty": "고급",
+          "word": "proliferate",
+          "meaning": "급증하다",
+          "example": "Rumors proliferate online.",
+          "exampleKo": "",
+          "note": "일요일 복습 단어입니다. 어렵게 느꼈거나 최근에 다시 확인할 가치가 있는 단어로, 예문을 먼저 읽고 뜻을 떠올려보세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/proliferate"
+            }
+          ]
+        }
+      ]
+    },
     {
       "date": "2026-08-22",
       "day": 113,

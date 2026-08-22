@@ -1,7 +1,48 @@
 {
-  "updated_at": "2026-08-22",
+  "updated_at": "2026-08-23",
   "default_daily_count": 2,
   "entries": [
+    {
+      "date": "2026-08-23",
+      "title": "2026.08.23 오늘의 배려 2가지",
+      "generation_version": "relationship-source-v1",
+      "items": [
+        {
+          "id": "care-relationship-source-v1-2026-08-23-boundary",
+          "label": "존중",
+          "title": "좋은 의도라도 먼저 물어보고 행동하기: 출처 복습",
+          "action": "존중은 상대의 경계와 선택권을 인정하는 데서 시작됩니다. 사진을 올리거나 일정을 정하거나 누군가에게 소개할 때는 내 의도가 좋아도 먼저 물어보는 편이 안전합니다.",
+          "why": "배려는 내가 좋다고 생각한 것을 밀어붙이는 것이 아니라 상대가 선택할 공간을 남기는 것입니다.",
+          "practice": "대신 정하려던 일을 오늘 하나만 질문으로 바꾸기",
+          "example": "이 사진 올려도 괜찮아? 싫으면 안 올릴게.",
+          "avoid": "허락을 구하는 척하면서 이미 결정해두지 않기",
+          "sources": [
+            {
+              "label": "APA Relationships",
+              "url": "https://www.apa.org/topics/relationships"
+            }
+          ],
+          "baseKey": "boundary"
+        },
+        {
+          "id": "care-relationship-source-v1-2026-08-23-turn-toward",
+          "label": "반응",
+          "title": "상대의 작은 신호에 돌아서서 반응하기: 출처 복습",
+          "action": "관계의 신뢰는 큰 이벤트보다 작은 관심 요청에 어떻게 반응하는지에서 자주 쌓입니다. 상대가 말을 걸거나 피곤함을 비칠 때 휴대폰을 잠깐 내려놓고 눈을 맞추는 행동이 작은 신호에 응답하는 방식입니다.",
+          "why": "작은 관심 요청을 반복해서 받아주는 사람은 상대에게 안전한 사람으로 느껴집니다.",
+          "practice": "오늘 상대가 말을 시작하면 하던 일을 멈추고 첫 문장만큼은 완전히 듣기",
+          "example": "응, 그 얘기 궁금해. 잠깐 이것만 내려놓고 들을게.",
+          "avoid": "대답은 하면서 시선과 몸은 계속 다른 곳에 두지 않기",
+          "sources": [
+            {
+              "label": "The Gottman Institute",
+              "url": "https://www.gottman.com/blog/turn-toward-instead-of-away/"
+            }
+          ],
+          "baseKey": "turn-toward"
+        }
+      ]
+    },
     {
       "date": "2026-08-22",
       "title": "2026.08.22 오늘의 배려 2가지",
