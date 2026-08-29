@@ -1,8 +1,226 @@
 {
-  "updated_at": "2026-08-29",
+  "updated_at": "2026-08-30",
   "default_daily_count": 15,
   "source": "01_기초_동사형용사.json",
   "entries": [
+    {
+      "date": "2026-08-30",
+      "day": 121,
+      "title": "Day 121 일요일 복습 영단어 15개",
+      "generation_version": "dictionary-source-v2",
+      "items": [
+        {
+          "difficulty": "초급",
+          "word": "grin",
+          "meaning": "씩 웃다",
+          "example": "The child grins at the joke.",
+          "exampleKo": "",
+          "note": "일요일 복습 단어입니다. 어렵게 느꼈거나 최근에 다시 확인할 가치가 있는 단어로, 예문을 먼저 읽고 뜻을 떠올려보세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/grin"
+            }
+          ]
+        },
+        {
+          "difficulty": "초급",
+          "word": "crash",
+          "meaning": "충돌하다",
+          "example": "The waves crash on the rocks.",
+          "exampleKo": "",
+          "note": "일요일 복습 단어입니다. 어렵게 느꼈거나 최근에 다시 확인할 가치가 있는 단어로, 예문을 먼저 읽고 뜻을 떠올려보세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/crash"
+            }
+          ]
+        },
+        {
+          "difficulty": "초급",
+          "word": "cross",
+          "meaning": "건너다",
+          "example": "We cross the street together.",
+          "exampleKo": "",
+          "note": "일요일 복습 단어입니다. 어렵게 느꼈거나 최근에 다시 확인할 가치가 있는 단어로, 예문을 먼저 읽고 뜻을 떠올려보세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/cross"
+            }
+          ]
+        },
+        {
+          "difficulty": "초급",
+          "word": "dive",
+          "meaning": "뛰어들다",
+          "example": "The children dive into the pool.",
+          "exampleKo": "",
+          "note": "일요일 복습 단어입니다. 어렵게 느꼈거나 최근에 다시 확인할 가치가 있는 단어로, 예문을 먼저 읽고 뜻을 떠올려보세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/dive"
+            }
+          ]
+        },
+        {
+          "difficulty": "초급",
+          "word": "drip",
+          "meaning": "뚝뚝 떨어지다",
+          "example": "Water drips from the faucet.",
+          "exampleKo": "",
+          "note": "일요일 복습 단어입니다. 어렵게 느꼈거나 최근에 다시 확인할 가치가 있는 단어로, 예문을 먼저 읽고 뜻을 떠올려보세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/drip"
+            }
+          ]
+        },
+        {
+          "difficulty": "중급",
+          "word": "direct",
+          "meaning": "직접적인",
+          "example": "Give a direct answer.",
+          "exampleKo": "",
+          "note": "일요일 복습 단어입니다. 어렵게 느꼈거나 최근에 다시 확인할 가치가 있는 단어로, 예문을 먼저 읽고 뜻을 떠올려보세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/direct"
+            }
+          ]
+        },
+        {
+          "difficulty": "중급",
+          "word": "adjacent",
+          "meaning": "인접한",
+          "example": "The adjacent room is quiet.",
+          "exampleKo": "",
+          "note": "일요일 복습 단어입니다. 어렵게 느꼈거나 최근에 다시 확인할 가치가 있는 단어로, 예문을 먼저 읽고 뜻을 떠올려보세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/adjacent"
+            }
+          ]
+        },
+        {
+          "difficulty": "중급",
+          "word": "explicit",
+          "meaning": "명시적인",
+          "example": "Be explicit about the deadline.",
+          "exampleKo": "",
+          "note": "일요일 복습 단어입니다. 어렵게 느꼈거나 최근에 다시 확인할 가치가 있는 단어로, 예문을 먼저 읽고 뜻을 떠올려보세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/explicit"
+            }
+          ]
+        },
+        {
+          "difficulty": "중급",
+          "word": "gradual",
+          "meaning": "점진적인",
+          "example": "The change was gradual.",
+          "exampleKo": "",
+          "note": "일요일 복습 단어입니다. 어렵게 느꼈거나 최근에 다시 확인할 가치가 있는 단어로, 예문을 먼저 읽고 뜻을 떠올려보세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/gradual"
+            }
+          ]
+        },
+        {
+          "difficulty": "중급",
+          "word": "portable",
+          "meaning": "휴대 가능한",
+          "example": "This portable charger fits my bag.",
+          "exampleKo": "",
+          "note": "일요일 복습 단어입니다. 어렵게 느꼈거나 최근에 다시 확인할 가치가 있는 단어로, 예문을 먼저 읽고 뜻을 떠올려보세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/portable"
+            }
+          ]
+        },
+        {
+          "difficulty": "고급",
+          "word": "laconic",
+          "meaning": "간결한",
+          "example": "She gave a laconic reply.",
+          "exampleKo": "",
+          "note": "일요일 복습 단어입니다. 어렵게 느꼈거나 최근에 다시 확인할 가치가 있는 단어로, 예문을 먼저 읽고 뜻을 떠올려보세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/laconic"
+            }
+          ]
+        },
+        {
+          "difficulty": "고급",
+          "word": "revolutionize",
+          "meaning": "혁신적으로 바꾸다",
+          "example": "The new tool can revolutionize the workflow.",
+          "exampleKo": "",
+          "note": "일요일 복습 단어입니다. 어렵게 느꼈거나 최근에 다시 확인할 가치가 있는 단어로, 예문을 먼저 읽고 뜻을 떠올려보세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/revolutionize"
+            }
+          ]
+        },
+        {
+          "difficulty": "고급",
+          "word": "fragile",
+          "meaning": "취약한",
+          "example": "The fragile system needs careful handling.",
+          "exampleKo": "",
+          "note": "일요일 복습 단어입니다. 어렵게 느꼈거나 최근에 다시 확인할 가치가 있는 단어로, 예문을 먼저 읽고 뜻을 떠올려보세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/fragile"
+            }
+          ]
+        },
+        {
+          "difficulty": "고급",
+          "word": "hasten",
+          "meaning": "서두르다",
+          "example": "Do not hasten the decision.",
+          "exampleKo": "",
+          "note": "일요일 복습 단어입니다. 어렵게 느꼈거나 최근에 다시 확인할 가치가 있는 단어로, 예문을 먼저 읽고 뜻을 떠올려보세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/hasten"
+            }
+          ]
+        },
+        {
+          "difficulty": "고급",
+          "word": "illuminate",
+          "meaning": "비추다",
+          "example": "The lamp illuminates the desk.",
+          "exampleKo": "",
+          "note": "일요일 복습 단어입니다. 어렵게 느꼈거나 최근에 다시 확인할 가치가 있는 단어로, 예문을 먼저 읽고 뜻을 떠올려보세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/illuminate"
+            }
+          ]
+        }
+      ]
+    },
     {
       "date": "2026-08-29",
       "day": 120,
