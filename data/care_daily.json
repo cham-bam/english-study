@@ -1,7 +1,48 @@
 {
-  "updated_at": "2026-09-01",
+  "updated_at": "2026-09-02",
   "default_daily_count": 2,
   "entries": [
+    {
+      "date": "2026-09-02",
+      "title": "2026.09.02 오늘의 배려 2가지",
+      "generation_version": "relationship-source-v1",
+      "items": [
+        {
+          "id": "care-relationship-source-v1-2026-09-02-repair",
+          "label": "회복",
+          "title": "다툰 뒤에는 사과보다 회복 행동을 붙이기: 출처 복습",
+          "action": "갈등 후에는 '미안해'에서 멈추지 않고 다음 행동을 말해야 신뢰가 회복됩니다. 인정, 영향 이해, 다음 행동을 짧게 연결하세요.",
+          "why": "상대는 완벽함보다 같은 상처가 반복되지 않을 것이라는 신호를 원합니다.",
+          "practice": "갈등 후 '내가 한 행동', '네가 느꼈을 영향', '다음 행동'을 한 문장씩 말하기",
+          "example": "내가 말 끊은 건 미안해. 무시당한 느낌이었을 것 같아. 다음엔 끝까지 듣고 말할게.",
+          "avoid": "사과 직후 바로 변명으로 넘어가지 않기",
+          "sources": [
+            {
+              "label": "APA Relationships",
+              "url": "https://www.apa.org/topics/relationships"
+            }
+          ],
+          "baseKey": "repair"
+        },
+        {
+          "id": "care-relationship-source-v1-2026-09-02-small-care",
+          "label": "센스",
+          "title": "큰 선물보다 반복되는 작은 불편을 줄이기: 출처 복습",
+          "action": "관계의 온도는 거창한 이벤트보다 자주 반복되는 작은 행동에서 유지됩니다. 추운 날 실내 동선을 잡거나, 피곤한 날 이동을 줄여주는 식의 행동이 실제 체감 배려입니다.",
+          "why": "상대가 불편해진 뒤 해결하는 것보다 불편해지기 전에 알아차리는 편이 더 깊게 느껴집니다.",
+          "practice": "다음 만남 전 날씨, 이동, 식사 대기 시간을 한 번 확인하기",
+          "example": "오늘 춥다길래 오래 걷지 않는 쪽으로 잡아봤어.",
+          "avoid": "준비를 해놓고 칭찬을 요구하지 않기",
+          "sources": [
+            {
+              "label": "The Gottman Institute",
+              "url": "https://www.gottman.com/blog/turn-toward-instead-of-away/"
+            }
+          ],
+          "baseKey": "small-care"
+        }
+      ]
+    },
     {
       "date": "2026-09-01",
       "title": "2026.09.01 오늘의 배려 2가지",
