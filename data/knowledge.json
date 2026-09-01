@@ -1,7 +1,98 @@
 {
-  "updated_at": "2026-08-31",
+  "updated_at": "2026-09-01",
   "default_daily_count": 6,
   "entries": [
+    {
+      "date": "2026-09-01",
+      "title": "2026.09.01 난이도별 상식 6개",
+      "generation_version": "source-summary-v2",
+      "items": [
+        {
+          "source_id": "source-knowledge-review-2026-09-01-food-safety-fda",
+          "difficulty": "초급",
+          "category": "생활과학",
+          "title": "식품 보관은 맛보다 미생물 조건을 관리하는 일이다: 출처 복습",
+          "body": "음식을 안전하게 보관하려면 온도, 시간, 오염 가능성을 함께 봐야 합니다. 첫째, 차갑게 보관하면 미생물 증식 속도를 낮출 수 있습니다. 둘째, 익힌 음식과 날음식을 분리하면 교차오염 위험이 줄어듭니다. 셋째, 남은 음식은 오래 두는 것보다 빨리 식히고 밀폐해 보관하는 편이 안전합니다.",
+          "takeaway": "식품 안전의 핵심은 음식의 상태보다 미생물이 자라기 어려운 조건을 만드는 데 있습니다.",
+          "sources": [
+            {
+              "label": "FDA Food Safety",
+              "url": "https://www.fda.gov/food/buy-store-serve-safe-food"
+            }
+          ]
+        },
+        {
+          "source_id": "source-knowledge-review-2026-09-01-recycling-epa",
+          "difficulty": "초급",
+          "category": "환경",
+          "title": "재활용은 분리보다 오염을 줄이는 과정이다: 출처 복습",
+          "body": "재활용은 버리는 행동이 아니라 다시 쓸 수 있는 재료로 준비하는 과정입니다. 첫째, 음식물과 액체가 남아 있으면 재활용품 전체 품질이 떨어집니다. 둘째, 지역마다 처리 가능한 재질이 다르기 때문에 표시와 지역 기준을 확인해야 합니다. 셋째, 재사용과 감량은 재활용보다 앞단에서 폐기물 자체를 줄이는 방법입니다.",
+          "takeaway": "재활용의 품질은 많이 버리는 것보다 깨끗하게 비우고 지역 기준에 맞추는 데서 올라갑니다.",
+          "sources": [
+            {
+              "label": "EPA Recycling",
+              "url": "https://www.epa.gov/recycle"
+            }
+          ]
+        },
+        {
+          "source_id": "source-knowledge-review-2026-09-01-diversification-investor",
+          "difficulty": "중급",
+          "category": "금융",
+          "title": "분산투자는 수익을 보장하지 않고 충격을 나눈다: 출처 복습",
+          "body": "분산투자는 여러 자산에 나누어 투자해 특정 위험에 덜 흔들리도록 만드는 원칙입니다. 첫째, 한 자산의 손실이 전체 자산을 한 번에 무너뜨리는 것을 줄입니다. 둘째, 서로 다르게 움직이는 자산을 섞을수록 충격 흡수 효과가 커질 수 있습니다. 셋째, 분산은 손실을 없애는 기술이 아니라 과도한 집중을 피하는 위험 관리입니다.",
+          "takeaway": "분산투자는 더 많이 벌기 위한 보증서가 아니라 크게 흔들리지 않기 위한 구조입니다.",
+          "sources": [
+            {
+              "label": "Investor.gov Diversification",
+              "url": "https://www.investor.gov/introduction-investing/investing-basics/glossary/diversification"
+            }
+          ]
+        },
+        {
+          "source_id": "source-knowledge-review-2026-09-01-home-affordability-cfpb",
+          "difficulty": "중급",
+          "category": "부동산",
+          "title": "주택 구매 가능성은 가격보다 월 부담액에서 먼저 갈린다: 출처 복습",
+          "body": "집을 살 수 있는지는 매매가 하나가 아니라 대출 조건과 월 지출 전체로 판단해야 합니다. 첫째, 금리가 바뀌면 같은 가격의 집도 월 납입액이 크게 달라집니다. 둘째, 세금, 보험, 관리비, 유지보수비가 실제 주거비에 포함됩니다. 셋째, 무리한 대출은 가격 상승 기대가 맞아도 생활 현금흐름을 압박할 수 있습니다.",
+          "takeaway": "부동산 판단은 집값이 아니라 월 부담액과 유지 가능한 현금흐름을 기준으로 해야 합니다.",
+          "sources": [
+            {
+              "label": "CFPB Owning a Home",
+              "url": "https://www.consumerfinance.gov/owning-a-home/"
+            }
+          ]
+        },
+        {
+          "source_id": "source-knowledge-review-2026-09-01-overfitting-google",
+          "difficulty": "고급",
+          "category": "AI",
+          "title": "과적합은 훈련 문제를 잘 푼 모델이 현실 문제에 약한 상태다: 출처 복습",
+          "body": "모델이 훈련 데이터의 세부 패턴을 지나치게 외우면 새 데이터에서 성능이 떨어질 수 있습니다. 첫째, 훈련 점수만 높다고 좋은 모델이라고 말할 수 없습니다. 둘째, 검증 데이터와 테스트 데이터는 모델이 일반화하는지 확인하는 장치입니다. 셋째, 단순화, 정규화, 더 나은 데이터 분할은 과적합을 줄이는 데 쓰입니다.",
+          "takeaway": "좋은 AI 모델은 본 데이터를 외우는 모델이 아니라 보지 못한 상황에도 안정적으로 작동하는 모델입니다.",
+          "sources": [
+            {
+              "label": "Google ML Crash Course",
+              "url": "https://developers.google.com/machine-learning/crash-course/overfitting/overfitting"
+            }
+          ]
+        },
+        {
+          "source_id": "source-knowledge-review-2026-09-01-auto-safety-nhtsa",
+          "difficulty": "고급",
+          "category": "자동차",
+          "title": "자동차 안전 기술은 운전자를 대체하기보다 위험 순간을 줄인다: 출처 복습",
+          "body": "자동 긴급제동, 차선 유지, 경고 시스템 같은 기술은 운전자를 없애기보다 위험을 빠르게 감지하고 반응 시간을 줄이는 데 초점이 있습니다. 첫째, 센서는 사람이 놓칠 수 있는 거리와 속도 변화를 감지합니다. 둘째, 경고와 보조 기능은 사고 전 몇 초의 대응 여지를 늘립니다. 셋째, 기술이 있어도 운전 책임과 시스템 한계를 이해해야 안전 효과가 커집니다.",
+          "takeaway": "차량 안전 기술은 만능 자동화가 아니라 위험 순간의 대응 여지를 넓히는 보조 체계입니다.",
+          "sources": [
+            {
+              "label": "NHTSA Driver Assistance Technologies",
+              "url": "https://www.nhtsa.gov/vehicle-safety/driver-assistance-technologies"
+            }
+          ]
+        }
+      ]
+    },
     {
       "date": "2026-08-31",
       "title": "2026.08.31 난이도별 상식 6개",

@@ -1,8 +1,15 @@
 {
-  "updated_at": "2026-08-31",
+  "updated_at": "2026-09-01",
   "default_daily_count": 15,
   "source": "01_기초_동사형용사.json",
   "entries": [
+    {
+      "date": "2026-09-01",
+      "day": 123,
+      "title": "Day 123 난이도별 영단어 0개",
+      "generation_version": "dictionary-source-v2",
+      "items": []
+    },
     {
       "date": "2026-08-31",
       "day": 122,
