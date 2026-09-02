@@ -1,7 +1,48 @@
 {
-  "updated_at": "2026-09-02",
+  "updated_at": "2026-09-03",
   "default_daily_count": 2,
   "entries": [
+    {
+      "date": "2026-09-03",
+      "title": "2026.09.03 오늘의 배려 2가지",
+      "generation_version": "relationship-source-v1",
+      "items": [
+        {
+          "id": "care-relationship-source-v1-2026-09-03-small-care",
+          "label": "센스",
+          "title": "큰 선물보다 반복되는 작은 불편을 줄이기: 출처 복습",
+          "action": "관계의 온도는 거창한 이벤트보다 자주 반복되는 작은 행동에서 유지됩니다. 추운 날 실내 동선을 잡거나, 피곤한 날 이동을 줄여주는 식의 행동이 실제 체감 배려입니다.",
+          "why": "상대가 불편해진 뒤 해결하는 것보다 불편해지기 전에 알아차리는 편이 더 깊게 느껴집니다.",
+          "practice": "다음 만남 전 날씨, 이동, 식사 대기 시간을 한 번 확인하기",
+          "example": "오늘 춥다길래 오래 걷지 않는 쪽으로 잡아봤어.",
+          "avoid": "준비를 해놓고 칭찬을 요구하지 않기",
+          "sources": [
+            {
+              "label": "The Gottman Institute",
+              "url": "https://www.gottman.com/blog/turn-toward-instead-of-away/"
+            }
+          ],
+          "baseKey": "small-care"
+        },
+        {
+          "id": "care-relationship-source-v1-2026-09-03-boundary",
+          "label": "존중",
+          "title": "좋은 의도라도 먼저 물어보고 행동하기: 출처 복습",
+          "action": "존중은 상대의 경계와 선택권을 인정하는 데서 시작됩니다. 사진을 올리거나 일정을 정하거나 누군가에게 소개할 때는 내 의도가 좋아도 먼저 물어보는 편이 안전합니다.",
+          "why": "배려는 내가 좋다고 생각한 것을 밀어붙이는 것이 아니라 상대가 선택할 공간을 남기는 것입니다.",
+          "practice": "대신 정하려던 일을 오늘 하나만 질문으로 바꾸기",
+          "example": "이 사진 올려도 괜찮아? 싫으면 안 올릴게.",
+          "avoid": "허락을 구하는 척하면서 이미 결정해두지 않기",
+          "sources": [
+            {
+              "label": "APA Relationships",
+              "url": "https://www.apa.org/topics/relationships"
+            }
+          ],
+          "baseKey": "boundary"
+        }
+      ]
+    },
     {
       "date": "2026-09-02",
       "title": "2026.09.02 오늘의 배려 2가지",
