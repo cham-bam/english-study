@@ -1,8 +1,226 @@
 {
-  "updated_at": "2026-09-05",
+  "updated_at": "2026-09-06",
   "default_daily_count": 15,
   "source": "01_기초_동사형용사.json",
   "entries": [
+    {
+      "date": "2026-09-06",
+      "day": 128,
+      "title": "Day 128 일요일 복습 영단어 15개",
+      "generation_version": "dictionary-source-v2",
+      "items": [
+        {
+          "difficulty": "초급",
+          "word": "unwrap",
+          "meaning": "포장을 풀다",
+          "example": "He unwraps the gift slowly.",
+          "exampleKo": "",
+          "note": "일요일 복습 단어입니다. 어렵게 느꼈거나 최근에 다시 확인할 가치가 있는 단어로, 예문을 먼저 읽고 뜻을 떠올려보세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/unwrap"
+            }
+          ]
+        },
+        {
+          "difficulty": "초급",
+          "word": "scrub",
+          "meaning": "문질러 닦다",
+          "example": "Scrub the floor well.",
+          "exampleKo": "",
+          "note": "일요일 복습 단어입니다. 어렵게 느꼈거나 최근에 다시 확인할 가치가 있는 단어로, 예문을 먼저 읽고 뜻을 떠올려보세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/scrub"
+            }
+          ]
+        },
+        {
+          "difficulty": "초급",
+          "word": "skip",
+          "meaning": "건너뛰다",
+          "example": "Don't skip breakfast.",
+          "exampleKo": "",
+          "note": "일요일 복습 단어입니다. 어렵게 느꼈거나 최근에 다시 확인할 가치가 있는 단어로, 예문을 먼저 읽고 뜻을 떠올려보세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/skip"
+            }
+          ]
+        },
+        {
+          "difficulty": "초급",
+          "word": "pry",
+          "meaning": "억지로 열다",
+          "example": "He tried to pry open the lid.",
+          "exampleKo": "",
+          "note": "일요일 복습 단어입니다. 어렵게 느꼈거나 최근에 다시 확인할 가치가 있는 단어로, 예문을 먼저 읽고 뜻을 떠올려보세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/pry"
+            }
+          ]
+        },
+        {
+          "difficulty": "초급",
+          "word": "read",
+          "meaning": "읽다",
+          "example": "I read before bed.",
+          "exampleKo": "",
+          "note": "일요일 복습 단어입니다. 어렵게 느꼈거나 최근에 다시 확인할 가치가 있는 단어로, 예문을 먼저 읽고 뜻을 떠올려보세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/read"
+            }
+          ]
+        },
+        {
+          "difficulty": "중급",
+          "word": "compact",
+          "meaning": "작고 밀집한",
+          "example": "The device is compact.",
+          "exampleKo": "",
+          "note": "일요일 복습 단어입니다. 어렵게 느꼈거나 최근에 다시 확인할 가치가 있는 단어로, 예문을 먼저 읽고 뜻을 떠올려보세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/compact"
+            }
+          ]
+        },
+        {
+          "difficulty": "중급",
+          "word": "systematic",
+          "meaning": "체계적인",
+          "example": "Use a systematic approach.",
+          "exampleKo": "",
+          "note": "일요일 복습 단어입니다. 어렵게 느꼈거나 최근에 다시 확인할 가치가 있는 단어로, 예문을 먼저 읽고 뜻을 떠올려보세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/systematic"
+            }
+          ]
+        },
+        {
+          "difficulty": "중급",
+          "word": "durable",
+          "meaning": "오래가는",
+          "example": "The case is durable.",
+          "exampleKo": "",
+          "note": "일요일 복습 단어입니다. 어렵게 느꼈거나 최근에 다시 확인할 가치가 있는 단어로, 예문을 먼저 읽고 뜻을 떠올려보세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/durable"
+            }
+          ]
+        },
+        {
+          "difficulty": "중급",
+          "word": "contribute",
+          "meaning": "기여하다",
+          "example": "Everyone contributes ideas.",
+          "exampleKo": "",
+          "note": "일요일 복습 단어입니다. 어렵게 느꼈거나 최근에 다시 확인할 가치가 있는 단어로, 예문을 먼저 읽고 뜻을 떠올려보세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/contribute"
+            }
+          ]
+        },
+        {
+          "difficulty": "중급",
+          "word": "register",
+          "meaning": "등록하다",
+          "example": "Register the device online.",
+          "exampleKo": "",
+          "note": "일요일 복습 단어입니다. 어렵게 느꼈거나 최근에 다시 확인할 가치가 있는 단어로, 예문을 먼저 읽고 뜻을 떠올려보세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/register"
+            }
+          ]
+        },
+        {
+          "difficulty": "고급",
+          "word": "salubrious",
+          "meaning": "건강에 좋은",
+          "example": "The climate is salubrious.",
+          "exampleKo": "",
+          "note": "일요일 복습 단어입니다. 어렵게 느꼈거나 최근에 다시 확인할 가치가 있는 단어로, 예문을 먼저 읽고 뜻을 떠올려보세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/salubrious"
+            }
+          ]
+        },
+        {
+          "difficulty": "고급",
+          "word": "enunciate",
+          "meaning": "명확히 발음하다",
+          "example": "Enunciate each word clearly in the speech.",
+          "exampleKo": "",
+          "note": "일요일 복습 단어입니다. 어렵게 느꼈거나 최근에 다시 확인할 가치가 있는 단어로, 예문을 먼저 읽고 뜻을 떠올려보세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/enunciate"
+            }
+          ]
+        },
+        {
+          "difficulty": "고급",
+          "word": "unequivocal",
+          "meaning": "명백한",
+          "example": "We need an unequivocal answer.",
+          "exampleKo": "",
+          "note": "일요일 복습 단어입니다. 어렵게 느꼈거나 최근에 다시 확인할 가치가 있는 단어로, 예문을 먼저 읽고 뜻을 떠올려보세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/unequivocal"
+            }
+          ]
+        },
+        {
+          "difficulty": "고급",
+          "word": "reiterate",
+          "meaning": "반복해서 강조하다",
+          "example": "I reiterate the main rule.",
+          "exampleKo": "",
+          "note": "일요일 복습 단어입니다. 어렵게 느꼈거나 최근에 다시 확인할 가치가 있는 단어로, 예문을 먼저 읽고 뜻을 떠올려보세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/reiterate"
+            }
+          ]
+        },
+        {
+          "difficulty": "고급",
+          "word": "rescind",
+          "meaning": "철회하다",
+          "example": "They rescind the offer.",
+          "exampleKo": "",
+          "note": "일요일 복습 단어입니다. 어렵게 느꼈거나 최근에 다시 확인할 가치가 있는 단어로, 예문을 먼저 읽고 뜻을 떠올려보세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/rescind"
+            }
+          ]
+        }
+      ]
+    },
     {
       "date": "2026-09-05",
       "day": 127,
