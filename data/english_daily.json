@@ -1,8 +1,226 @@
 {
-  "updated_at": "2026-09-12",
+  "updated_at": "2026-09-13",
   "default_daily_count": 15,
   "source": "01_기초_동사형용사.json",
   "entries": [
+    {
+      "date": "2026-09-13",
+      "day": 135,
+      "title": "Day 135 일요일 복습 영단어 15개",
+      "generation_version": "dictionary-source-v2",
+      "items": [
+        {
+          "difficulty": "초급",
+          "word": "admire",
+          "meaning": "존경하다",
+          "example": "I admire your patience.",
+          "exampleKo": "",
+          "note": "일요일 복습 단어입니다. 어렵게 느꼈거나 최근에 다시 확인할 가치가 있는 단어로, 예문을 먼저 읽고 뜻을 떠올려보세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/admire"
+            }
+          ]
+        },
+        {
+          "difficulty": "초급",
+          "word": "bounce",
+          "meaning": "튀다",
+          "example": "The ball bounces high.",
+          "exampleKo": "",
+          "note": "일요일 복습 단어입니다. 어렵게 느꼈거나 최근에 다시 확인할 가치가 있는 단어로, 예문을 먼저 읽고 뜻을 떠올려보세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/bounce"
+            }
+          ]
+        },
+        {
+          "difficulty": "초급",
+          "word": "carve",
+          "meaning": "새기다",
+          "example": "They carve the pumpkin.",
+          "exampleKo": "",
+          "note": "일요일 복습 단어입니다. 어렵게 느꼈거나 최근에 다시 확인할 가치가 있는 단어로, 예문을 먼저 읽고 뜻을 떠올려보세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/carve"
+            }
+          ]
+        },
+        {
+          "difficulty": "초급",
+          "word": "tease",
+          "meaning": "놀리다",
+          "example": "Don't tease your friend.",
+          "exampleKo": "",
+          "note": "일요일 복습 단어입니다. 어렵게 느꼈거나 최근에 다시 확인할 가치가 있는 단어로, 예문을 먼저 읽고 뜻을 떠올려보세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/tease"
+            }
+          ]
+        },
+        {
+          "difficulty": "초급",
+          "word": "thaw",
+          "meaning": "녹다",
+          "example": "The snow begins to thaw.",
+          "exampleKo": "",
+          "note": "일요일 복습 단어입니다. 어렵게 느꼈거나 최근에 다시 확인할 가치가 있는 단어로, 예문을 먼저 읽고 뜻을 떠올려보세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/thaw"
+            }
+          ]
+        },
+        {
+          "difficulty": "중급",
+          "word": "moderate",
+          "meaning": "온건한",
+          "example": "The policy is moderate.",
+          "exampleKo": "",
+          "note": "일요일 복습 단어입니다. 어렵게 느꼈거나 최근에 다시 확인할 가치가 있는 단어로, 예문을 먼저 읽고 뜻을 떠올려보세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/moderate"
+            }
+          ]
+        },
+        {
+          "difficulty": "중급",
+          "word": "practical",
+          "meaning": "실용적인",
+          "example": "Choose the practical option.",
+          "exampleKo": "",
+          "note": "일요일 복습 단어입니다. 어렵게 느꼈거나 최근에 다시 확인할 가치가 있는 단어로, 예문을 먼저 읽고 뜻을 떠올려보세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/practical"
+            }
+          ]
+        },
+        {
+          "difficulty": "중급",
+          "word": "reliable",
+          "meaning": "믿을 수 있는",
+          "example": "We need reliable data.",
+          "exampleKo": "",
+          "note": "일요일 복습 단어입니다. 어렵게 느꼈거나 최근에 다시 확인할 가치가 있는 단어로, 예문을 먼저 읽고 뜻을 떠올려보세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/reliable"
+            }
+          ]
+        },
+        {
+          "difficulty": "중급",
+          "word": "amplify",
+          "meaning": "증폭하다",
+          "example": "The speaker amplifies the sound.",
+          "exampleKo": "",
+          "note": "일요일 복습 단어입니다. 어렵게 느꼈거나 최근에 다시 확인할 가치가 있는 단어로, 예문을 먼저 읽고 뜻을 떠올려보세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/amplify"
+            }
+          ]
+        },
+        {
+          "difficulty": "중급",
+          "word": "temporary",
+          "meaning": "임시의",
+          "example": "We need a temporary fix.",
+          "exampleKo": "",
+          "note": "일요일 복습 단어입니다. 어렵게 느꼈거나 최근에 다시 확인할 가치가 있는 단어로, 예문을 먼저 읽고 뜻을 떠올려보세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/temporary"
+            }
+          ]
+        },
+        {
+          "difficulty": "고급",
+          "word": "mendacious",
+          "meaning": "거짓말하는",
+          "example": "The statement was mendacious.",
+          "exampleKo": "",
+          "note": "일요일 복습 단어입니다. 어렵게 느꼈거나 최근에 다시 확인할 가치가 있는 단어로, 예문을 먼저 읽고 뜻을 떠올려보세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/mendacious"
+            }
+          ]
+        },
+        {
+          "difficulty": "고급",
+          "word": "deleterious",
+          "meaning": "해로운",
+          "example": "The fumes are deleterious.",
+          "exampleKo": "",
+          "note": "일요일 복습 단어입니다. 어렵게 느꼈거나 최근에 다시 확인할 가치가 있는 단어로, 예문을 먼저 읽고 뜻을 떠올려보세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/deleterious"
+            }
+          ]
+        },
+        {
+          "difficulty": "고급",
+          "word": "insidious",
+          "meaning": "교묘히 해로운",
+          "example": "The illness is insidious.",
+          "exampleKo": "",
+          "note": "일요일 복습 단어입니다. 어렵게 느꼈거나 최근에 다시 확인할 가치가 있는 단어로, 예문을 먼저 읽고 뜻을 떠올려보세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/insidious"
+            }
+          ]
+        },
+        {
+          "difficulty": "고급",
+          "word": "pernicious",
+          "meaning": "심각하게 해로운",
+          "example": "The rumor had a pernicious effect.",
+          "exampleKo": "",
+          "note": "일요일 복습 단어입니다. 어렵게 느꼈거나 최근에 다시 확인할 가치가 있는 단어로, 예문을 먼저 읽고 뜻을 떠올려보세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/pernicious"
+            }
+          ]
+        },
+        {
+          "difficulty": "고급",
+          "word": "prevaricate",
+          "meaning": "얼버무리다",
+          "example": "Do not prevaricate during the interview.",
+          "exampleKo": "",
+          "note": "일요일 복습 단어입니다. 어렵게 느꼈거나 최근에 다시 확인할 가치가 있는 단어로, 예문을 먼저 읽고 뜻을 떠올려보세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/prevaricate"
+            }
+          ]
+        }
+      ]
+    },
     {
       "date": "2026-09-12",
       "day": 134,
