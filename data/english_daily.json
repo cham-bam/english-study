@@ -1,8 +1,226 @@
 {
-  "updated_at": "2026-09-19",
+  "updated_at": "2026-09-20",
   "default_daily_count": 15,
   "source": "01_기초_동사형용사.json",
   "entries": [
+    {
+      "date": "2026-09-20",
+      "day": 142,
+      "title": "Day 142 일요일 복습 영단어 15개",
+      "generation_version": "dictionary-source-v2",
+      "items": [
+        {
+          "difficulty": "초급",
+          "word": "snap",
+          "meaning": "딱 부러지다",
+          "example": "The twig snapped under his foot.",
+          "exampleKo": "",
+          "note": "일요일 복습 단어입니다. 어렵게 느꼈거나 최근에 다시 확인할 가치가 있는 단어로, 예문을 먼저 읽고 뜻을 떠올려보세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/snap"
+            }
+          ]
+        },
+        {
+          "difficulty": "초급",
+          "word": "splash",
+          "meaning": "튀기다",
+          "example": "The kids splash in the water.",
+          "exampleKo": "",
+          "note": "일요일 복습 단어입니다. 어렵게 느꼈거나 최근에 다시 확인할 가치가 있는 단어로, 예문을 먼저 읽고 뜻을 떠올려보세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/splash"
+            }
+          ]
+        },
+        {
+          "difficulty": "초급",
+          "word": "tap",
+          "meaning": "톡톡 두드리다",
+          "example": "She tapped the table twice.",
+          "exampleKo": "",
+          "note": "일요일 복습 단어입니다. 어렵게 느꼈거나 최근에 다시 확인할 가치가 있는 단어로, 예문을 먼저 읽고 뜻을 떠올려보세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/tap"
+            }
+          ]
+        },
+        {
+          "difficulty": "초급",
+          "word": "peek",
+          "meaning": "슬쩍 보다",
+          "example": "Don't peek at the answer.",
+          "exampleKo": "",
+          "note": "일요일 복습 단어입니다. 어렵게 느꼈거나 최근에 다시 확인할 가치가 있는 단어로, 예문을 먼저 읽고 뜻을 떠올려보세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/peek"
+            }
+          ]
+        },
+        {
+          "difficulty": "초급",
+          "word": "pluck",
+          "meaning": "뽑다",
+          "example": "She plucked the weed from the garden.",
+          "exampleKo": "",
+          "note": "일요일 복습 단어입니다. 어렵게 느꼈거나 최근에 다시 확인할 가치가 있는 단어로, 예문을 먼저 읽고 뜻을 떠올려보세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/pluck"
+            }
+          ]
+        },
+        {
+          "difficulty": "중급",
+          "word": "depict",
+          "meaning": "묘사하다",
+          "example": "The chart depicts the trend.",
+          "exampleKo": "",
+          "note": "일요일 복습 단어입니다. 어렵게 느꼈거나 최근에 다시 확인할 가치가 있는 단어로, 예문을 먼저 읽고 뜻을 떠올려보세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/depict"
+            }
+          ]
+        },
+        {
+          "difficulty": "중급",
+          "word": "anticipate",
+          "meaning": "예상하다",
+          "example": "We anticipate a delay.",
+          "exampleKo": "",
+          "note": "일요일 복습 단어입니다. 어렵게 느꼈거나 최근에 다시 확인할 가치가 있는 단어로, 예문을 먼저 읽고 뜻을 떠올려보세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/anticipate"
+            }
+          ]
+        },
+        {
+          "difficulty": "중급",
+          "word": "appraise",
+          "meaning": "평가하다",
+          "example": "A manager appraises the work.",
+          "exampleKo": "",
+          "note": "일요일 복습 단어입니다. 어렵게 느꼈거나 최근에 다시 확인할 가치가 있는 단어로, 예문을 먼저 읽고 뜻을 떠올려보세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/appraise"
+            }
+          ]
+        },
+        {
+          "difficulty": "중급",
+          "word": "broaden",
+          "meaning": "넓히다",
+          "example": "Travel can broaden your view.",
+          "exampleKo": "",
+          "note": "일요일 복습 단어입니다. 어렵게 느꼈거나 최근에 다시 확인할 가치가 있는 단어로, 예문을 먼저 읽고 뜻을 떠올려보세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/broaden"
+            }
+          ]
+        },
+        {
+          "difficulty": "중급",
+          "word": "construct",
+          "meaning": "건설하다",
+          "example": "They construct a new bridge.",
+          "exampleKo": "",
+          "note": "일요일 복습 단어입니다. 어렵게 느꼈거나 최근에 다시 확인할 가치가 있는 단어로, 예문을 먼저 읽고 뜻을 떠올려보세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/construct"
+            }
+          ]
+        },
+        {
+          "difficulty": "고급",
+          "word": "circumvent",
+          "meaning": "우회하다",
+          "example": "They tried to circumvent the rule.",
+          "exampleKo": "",
+          "note": "일요일 복습 단어입니다. 어렵게 느꼈거나 최근에 다시 확인할 가치가 있는 단어로, 예문을 먼저 읽고 뜻을 떠올려보세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/circumvent"
+            }
+          ]
+        },
+        {
+          "difficulty": "고급",
+          "word": "censure",
+          "meaning": "비난하다",
+          "example": "The committee censured the breach.",
+          "exampleKo": "",
+          "note": "일요일 복습 단어입니다. 어렵게 느꼈거나 최근에 다시 확인할 가치가 있는 단어로, 예문을 먼저 읽고 뜻을 떠올려보세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/censure"
+            }
+          ]
+        },
+        {
+          "difficulty": "고급",
+          "word": "contravene",
+          "meaning": "위반하다",
+          "example": "The action contravenes the rule.",
+          "exampleKo": "",
+          "note": "일요일 복습 단어입니다. 어렵게 느꼈거나 최근에 다시 확인할 가치가 있는 단어로, 예문을 먼저 읽고 뜻을 떠올려보세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/contravene"
+            }
+          ]
+        },
+        {
+          "difficulty": "고급",
+          "word": "abjure",
+          "meaning": "단념하다",
+          "example": "He abjured his bad habit.",
+          "exampleKo": "",
+          "note": "일요일 복습 단어입니다. 어렵게 느꼈거나 최근에 다시 확인할 가치가 있는 단어로, 예문을 먼저 읽고 뜻을 떠올려보세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/abjure"
+            }
+          ]
+        },
+        {
+          "difficulty": "고급",
+          "word": "acquiesce",
+          "meaning": "묵인하다",
+          "example": "She acquiesced in the decision.",
+          "exampleKo": "",
+          "note": "일요일 복습 단어입니다. 어렵게 느꼈거나 최근에 다시 확인할 가치가 있는 단어로, 예문을 먼저 읽고 뜻을 떠올려보세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/acquiesce"
+            }
+          ]
+        }
+      ]
+    },
     {
       "date": "2026-09-19",
       "day": 141,
