@@ -1,8 +1,226 @@
 {
-  "updated_at": "2026-09-26",
+  "updated_at": "2026-09-27",
   "default_daily_count": 15,
   "source": "01_기초_동사형용사.json",
   "entries": [
+    {
+      "date": "2026-09-27",
+      "day": 149,
+      "title": "Day 149 일요일 복습 영단어 15개",
+      "generation_version": "dictionary-source-v2",
+      "items": [
+        {
+          "difficulty": "초급",
+          "word": "tickle",
+          "meaning": "간지럽히다",
+          "example": "The feather tickles my nose.",
+          "exampleKo": "",
+          "note": "일요일 복습 단어입니다. 어렵게 느꼈거나 최근에 다시 확인할 가치가 있는 단어로, 예문을 먼저 읽고 뜻을 떠올려보세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/tickle"
+            }
+          ]
+        },
+        {
+          "difficulty": "초급",
+          "word": "twirl",
+          "meaning": "빙빙 돌리다",
+          "example": "The dancer twirls on stage.",
+          "exampleKo": "",
+          "note": "일요일 복습 단어입니다. 어렵게 느꼈거나 최근에 다시 확인할 가치가 있는 단어로, 예문을 먼저 읽고 뜻을 떠올려보세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/twirl"
+            }
+          ]
+        },
+        {
+          "difficulty": "초급",
+          "word": "roam",
+          "meaning": "돌아다니다",
+          "example": "The dog roams the yard.",
+          "exampleKo": "",
+          "note": "일요일 복습 단어입니다. 어렵게 느꼈거나 최근에 다시 확인할 가치가 있는 단어로, 예문을 먼저 읽고 뜻을 떠올려보세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/roam"
+            }
+          ]
+        },
+        {
+          "difficulty": "초급",
+          "word": "hunt",
+          "meaning": "찾다",
+          "example": "They hunt for clues.",
+          "exampleKo": "",
+          "note": "일요일 복습 단어입니다. 어렵게 느꼈거나 최근에 다시 확인할 가치가 있는 단어로, 예문을 먼저 읽고 뜻을 떠올려보세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/hunt"
+            }
+          ]
+        },
+        {
+          "difficulty": "초급",
+          "word": "iron",
+          "meaning": "다리미질하다",
+          "example": "I iron my shirt.",
+          "exampleKo": "",
+          "note": "일요일 복습 단어입니다. 어렵게 느꼈거나 최근에 다시 확인할 가치가 있는 단어로, 예문을 먼저 읽고 뜻을 떠올려보세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/iron"
+            }
+          ]
+        },
+        {
+          "difficulty": "중급",
+          "word": "coincide",
+          "meaning": "동시에 일어나다",
+          "example": "The dates coincide this week.",
+          "exampleKo": "",
+          "note": "일요일 복습 단어입니다. 어렵게 느꼈거나 최근에 다시 확인할 가치가 있는 단어로, 예문을 먼저 읽고 뜻을 떠올려보세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/coincide"
+            }
+          ]
+        },
+        {
+          "difficulty": "중급",
+          "word": "audit",
+          "meaning": "점검하다",
+          "example": "The team audits the accounts.",
+          "exampleKo": "",
+          "note": "일요일 복습 단어입니다. 어렵게 느꼈거나 최근에 다시 확인할 가치가 있는 단어로, 예문을 먼저 읽고 뜻을 떠올려보세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/audit"
+            }
+          ]
+        },
+        {
+          "difficulty": "중급",
+          "word": "simulate",
+          "meaning": "모의실험하다",
+          "example": "The team simulates the scenario.",
+          "exampleKo": "",
+          "note": "일요일 복습 단어입니다. 어렵게 느꼈거나 최근에 다시 확인할 가치가 있는 단어로, 예문을 먼저 읽고 뜻을 떠올려보세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/simulate"
+            }
+          ]
+        },
+        {
+          "difficulty": "중급",
+          "word": "trigger",
+          "meaning": "촉발하다",
+          "example": "The error triggers an alert.",
+          "exampleKo": "",
+          "note": "일요일 복습 단어입니다. 어렵게 느꼈거나 최근에 다시 확인할 가치가 있는 단어로, 예문을 먼저 읽고 뜻을 떠올려보세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/trigger"
+            }
+          ]
+        },
+        {
+          "difficulty": "중급",
+          "word": "launch",
+          "meaning": "시작하다",
+          "example": "They launch the project today.",
+          "exampleKo": "",
+          "note": "일요일 복습 단어입니다. 어렵게 느꼈거나 최근에 다시 확인할 가치가 있는 단어로, 예문을 먼저 읽고 뜻을 떠올려보세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/launch"
+            }
+          ]
+        },
+        {
+          "difficulty": "고급",
+          "word": "reprobate",
+          "meaning": "불량자",
+          "example": "The story follows a lovable reprobate.",
+          "exampleKo": "",
+          "note": "일요일 복습 단어입니다. 어렵게 느꼈거나 최근에 다시 확인할 가치가 있는 단어로, 예문을 먼저 읽고 뜻을 떠올려보세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/reprobate"
+            }
+          ]
+        },
+        {
+          "difficulty": "고급",
+          "word": "recondite",
+          "meaning": "난해한",
+          "example": "The text is recondite.",
+          "exampleKo": "",
+          "note": "일요일 복습 단어입니다. 어렵게 느꼈거나 최근에 다시 확인할 가치가 있는 단어로, 예문을 먼저 읽고 뜻을 떠올려보세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/recondite"
+            }
+          ]
+        },
+        {
+          "difficulty": "고급",
+          "word": "supersede",
+          "meaning": "대체하다",
+          "example": "The new method supersedes the old one.",
+          "exampleKo": "",
+          "note": "일요일 복습 단어입니다. 어렵게 느꼈거나 최근에 다시 확인할 가치가 있는 단어로, 예문을 먼저 읽고 뜻을 떠올려보세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/supersede"
+            }
+          ]
+        },
+        {
+          "difficulty": "고급",
+          "word": "tenable",
+          "meaning": "유지할 수 있는",
+          "example": "That claim is not tenable.",
+          "exampleKo": "",
+          "note": "일요일 복습 단어입니다. 어렵게 느꼈거나 최근에 다시 확인할 가치가 있는 단어로, 예문을 먼저 읽고 뜻을 떠올려보세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/tenable"
+            }
+          ]
+        },
+        {
+          "difficulty": "고급",
+          "word": "circumvent",
+          "meaning": "우회하다",
+          "example": "They tried to circumvent the rule.",
+          "exampleKo": "",
+          "note": "일요일 복습 단어입니다. 어렵게 느꼈거나 최근에 다시 확인할 가치가 있는 단어로, 예문을 먼저 읽고 뜻을 떠올려보세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/circumvent"
+            }
+          ]
+        }
+      ]
+    },
     {
       "date": "2026-09-26",
       "day": 148,
