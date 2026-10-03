@@ -1,8 +1,226 @@
 {
-  "updated_at": "2026-10-03",
+  "updated_at": "2026-10-04",
   "default_daily_count": 15,
   "source": "01_기초_동사형용사.json",
   "entries": [
+    {
+      "date": "2026-10-04",
+      "day": 156,
+      "title": "Day 156 일요일 복습 영단어 15개",
+      "generation_version": "dictionary-source-v2",
+      "items": [
+        {
+          "difficulty": "초급",
+          "word": "pluck",
+          "meaning": "뽑다",
+          "example": "She plucked the weed from the garden.",
+          "exampleKo": "",
+          "note": "일요일 복습 단어입니다. 어렵게 느꼈거나 최근에 다시 확인할 가치가 있는 단어로, 예문을 먼저 읽고 뜻을 떠올려보세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/pluck"
+            }
+          ]
+        },
+        {
+          "difficulty": "초급",
+          "word": "admire",
+          "meaning": "존경하다",
+          "example": "I admire your patience.",
+          "exampleKo": "",
+          "note": "일요일 복습 단어입니다. 어렵게 느꼈거나 최근에 다시 확인할 가치가 있는 단어로, 예문을 먼저 읽고 뜻을 떠올려보세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/admire"
+            }
+          ]
+        },
+        {
+          "difficulty": "초급",
+          "word": "bounce",
+          "meaning": "튀다",
+          "example": "The ball bounces high.",
+          "exampleKo": "",
+          "note": "일요일 복습 단어입니다. 어렵게 느꼈거나 최근에 다시 확인할 가치가 있는 단어로, 예문을 먼저 읽고 뜻을 떠올려보세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/bounce"
+            }
+          ]
+        },
+        {
+          "difficulty": "초급",
+          "word": "carve",
+          "meaning": "새기다",
+          "example": "They carve the pumpkin.",
+          "exampleKo": "",
+          "note": "일요일 복습 단어입니다. 어렵게 느꼈거나 최근에 다시 확인할 가치가 있는 단어로, 예문을 먼저 읽고 뜻을 떠올려보세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/carve"
+            }
+          ]
+        },
+        {
+          "difficulty": "초급",
+          "word": "tease",
+          "meaning": "놀리다",
+          "example": "Don't tease your friend.",
+          "exampleKo": "",
+          "note": "일요일 복습 단어입니다. 어렵게 느꼈거나 최근에 다시 확인할 가치가 있는 단어로, 예문을 먼저 읽고 뜻을 떠올려보세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/tease"
+            }
+          ]
+        },
+        {
+          "difficulty": "중급",
+          "word": "minimal",
+          "meaning": "최소한의",
+          "example": "Use a minimal setup.",
+          "exampleKo": "",
+          "note": "일요일 복습 단어입니다. 어렵게 느꼈거나 최근에 다시 확인할 가치가 있는 단어로, 예문을 먼저 읽고 뜻을 떠올려보세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/minimal"
+            }
+          ]
+        },
+        {
+          "difficulty": "중급",
+          "word": "prominent",
+          "meaning": "두드러진",
+          "example": "A prominent issue remains.",
+          "exampleKo": "",
+          "note": "일요일 복습 단어입니다. 어렵게 느꼈거나 최근에 다시 확인할 가치가 있는 단어로, 예문을 먼저 읽고 뜻을 떠올려보세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/prominent"
+            }
+          ]
+        },
+        {
+          "difficulty": "중급",
+          "word": "relevant",
+          "meaning": "관련 있는",
+          "example": "Only relevant details matter.",
+          "exampleKo": "",
+          "note": "일요일 복습 단어입니다. 어렵게 느꼈거나 최근에 다시 확인할 가치가 있는 단어로, 예문을 먼저 읽고 뜻을 떠올려보세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/relevant"
+            }
+          ]
+        },
+        {
+          "difficulty": "중급",
+          "word": "amend",
+          "meaning": "수정하다",
+          "example": "They amended the contract.",
+          "exampleKo": "",
+          "note": "일요일 복습 단어입니다. 어렵게 느꼈거나 최근에 다시 확인할 가치가 있는 단어로, 예문을 먼저 읽고 뜻을 떠올려보세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/amend"
+            }
+          ]
+        },
+        {
+          "difficulty": "중급",
+          "word": "utilize",
+          "meaning": "활용하다",
+          "example": "We utilize the space well.",
+          "exampleKo": "",
+          "note": "일요일 복습 단어입니다. 어렵게 느꼈거나 최근에 다시 확인할 가치가 있는 단어로, 예문을 먼저 읽고 뜻을 떠올려보세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/utilize"
+            }
+          ]
+        },
+        {
+          "difficulty": "고급",
+          "word": "ameliorate",
+          "meaning": "개선하다",
+          "example": "The policy may ameliorate the issue.",
+          "exampleKo": "",
+          "note": "일요일 복습 단어입니다. 어렵게 느꼈거나 최근에 다시 확인할 가치가 있는 단어로, 예문을 먼저 읽고 뜻을 떠올려보세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/ameliorate"
+            }
+          ]
+        },
+        {
+          "difficulty": "고급",
+          "word": "eschew",
+          "meaning": "피하다",
+          "example": "She eschews processed food.",
+          "exampleKo": "",
+          "note": "일요일 복습 단어입니다. 어렵게 느꼈거나 최근에 다시 확인할 가치가 있는 단어로, 예문을 먼저 읽고 뜻을 떠올려보세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/eschew"
+            }
+          ]
+        },
+        {
+          "difficulty": "고급",
+          "word": "exculpate",
+          "meaning": "무죄를 입증하다",
+          "example": "The evidence may exculpate him.",
+          "exampleKo": "",
+          "note": "일요일 복습 단어입니다. 어렵게 느꼈거나 최근에 다시 확인할 가치가 있는 단어로, 예문을 먼저 읽고 뜻을 떠올려보세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/exculpate"
+            }
+          ]
+        },
+        {
+          "difficulty": "고급",
+          "word": "expatiate",
+          "meaning": "장황하게 설명하다",
+          "example": "He expatiated on the topic for hours.",
+          "exampleKo": "",
+          "note": "일요일 복습 단어입니다. 어렵게 느꼈거나 최근에 다시 확인할 가치가 있는 단어로, 예문을 먼저 읽고 뜻을 떠올려보세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/expatiate"
+            }
+          ]
+        },
+        {
+          "difficulty": "고급",
+          "word": "expunge",
+          "meaning": "삭제하다",
+          "example": "The clerk expunged the record.",
+          "exampleKo": "",
+          "note": "일요일 복습 단어입니다. 어렵게 느꼈거나 최근에 다시 확인할 가치가 있는 단어로, 예문을 먼저 읽고 뜻을 떠올려보세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/expunge"
+            }
+          ]
+        }
+      ]
+    },
     {
       "date": "2026-10-03",
       "day": 155,
