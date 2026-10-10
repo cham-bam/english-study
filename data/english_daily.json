@@ -1,8 +1,226 @@
 {
-  "updated_at": "2026-10-10",
+  "updated_at": "2026-10-11",
   "default_daily_count": 15,
   "source": "01_기초_동사형용사.json",
   "entries": [
+    {
+      "date": "2026-10-11",
+      "day": 163,
+      "title": "Day 163 일요일 복습 영단어 15개",
+      "generation_version": "dictionary-source-v2",
+      "items": [
+        {
+          "difficulty": "초급",
+          "word": "roam",
+          "meaning": "돌아다니다",
+          "example": "The dog roams the yard.",
+          "exampleKo": "",
+          "note": "일요일 복습 단어입니다. 어렵게 느꼈거나 최근에 다시 확인할 가치가 있는 단어로, 예문을 먼저 읽고 뜻을 떠올려보세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/roam"
+            }
+          ]
+        },
+        {
+          "difficulty": "초급",
+          "word": "hunt",
+          "meaning": "찾다",
+          "example": "They hunt for clues.",
+          "exampleKo": "",
+          "note": "일요일 복습 단어입니다. 어렵게 느꼈거나 최근에 다시 확인할 가치가 있는 단어로, 예문을 먼저 읽고 뜻을 떠올려보세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/hunt"
+            }
+          ]
+        },
+        {
+          "difficulty": "초급",
+          "word": "iron",
+          "meaning": "다리미질하다",
+          "example": "I iron my shirt.",
+          "exampleKo": "",
+          "note": "일요일 복습 단어입니다. 어렵게 느꼈거나 최근에 다시 확인할 가치가 있는 단어로, 예문을 먼저 읽고 뜻을 떠올려보세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/iron"
+            }
+          ]
+        },
+        {
+          "difficulty": "초급",
+          "word": "snap",
+          "meaning": "딱 부러지다",
+          "example": "The twig snapped under his foot.",
+          "exampleKo": "",
+          "note": "일요일 복습 단어입니다. 어렵게 느꼈거나 최근에 다시 확인할 가치가 있는 단어로, 예문을 먼저 읽고 뜻을 떠올려보세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/snap"
+            }
+          ]
+        },
+        {
+          "difficulty": "초급",
+          "word": "splash",
+          "meaning": "튀기다",
+          "example": "The kids splash in the water.",
+          "exampleKo": "",
+          "note": "일요일 복습 단어입니다. 어렵게 느꼈거나 최근에 다시 확인할 가치가 있는 단어로, 예문을 먼저 읽고 뜻을 떠올려보세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/splash"
+            }
+          ]
+        },
+        {
+          "difficulty": "중급",
+          "word": "register",
+          "meaning": "등록하다",
+          "example": "Register the device online.",
+          "exampleKo": "",
+          "note": "일요일 복습 단어입니다. 어렵게 느꼈거나 최근에 다시 확인할 가치가 있는 단어로, 예문을 먼저 읽고 뜻을 떠올려보세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/register"
+            }
+          ]
+        },
+        {
+          "difficulty": "중급",
+          "word": "direct",
+          "meaning": "직접적인",
+          "example": "Give a direct answer.",
+          "exampleKo": "",
+          "note": "일요일 복습 단어입니다. 어렵게 느꼈거나 최근에 다시 확인할 가치가 있는 단어로, 예문을 먼저 읽고 뜻을 떠올려보세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/direct"
+            }
+          ]
+        },
+        {
+          "difficulty": "중급",
+          "word": "adjacent",
+          "meaning": "인접한",
+          "example": "The adjacent room is quiet.",
+          "exampleKo": "",
+          "note": "일요일 복습 단어입니다. 어렵게 느꼈거나 최근에 다시 확인할 가치가 있는 단어로, 예문을 먼저 읽고 뜻을 떠올려보세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/adjacent"
+            }
+          ]
+        },
+        {
+          "difficulty": "중급",
+          "word": "explicit",
+          "meaning": "명시적인",
+          "example": "Be explicit about the deadline.",
+          "exampleKo": "",
+          "note": "일요일 복습 단어입니다. 어렵게 느꼈거나 최근에 다시 확인할 가치가 있는 단어로, 예문을 먼저 읽고 뜻을 떠올려보세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/explicit"
+            }
+          ]
+        },
+        {
+          "difficulty": "중급",
+          "word": "gradual",
+          "meaning": "점진적인",
+          "example": "The change was gradual.",
+          "exampleKo": "",
+          "note": "일요일 복습 단어입니다. 어렵게 느꼈거나 최근에 다시 확인할 가치가 있는 단어로, 예문을 먼저 읽고 뜻을 떠올려보세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/gradual"
+            }
+          ]
+        },
+        {
+          "difficulty": "고급",
+          "word": "heterodox",
+          "meaning": "이단적인",
+          "example": "The scholar offered a heterodox view.",
+          "exampleKo": "",
+          "note": "일요일 복습 단어입니다. 어렵게 느꼈거나 최근에 다시 확인할 가치가 있는 단어로, 예문을 먼저 읽고 뜻을 떠올려보세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/heterodox"
+            }
+          ]
+        },
+        {
+          "difficulty": "고급",
+          "word": "impecunious",
+          "meaning": "무일푼의",
+          "example": "He was an impecunious student.",
+          "exampleKo": "",
+          "note": "일요일 복습 단어입니다. 어렵게 느꼈거나 최근에 다시 확인할 가치가 있는 단어로, 예문을 먼저 읽고 뜻을 떠올려보세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/impecunious"
+            }
+          ]
+        },
+        {
+          "difficulty": "고급",
+          "word": "impugn",
+          "meaning": "비난하다",
+          "example": "Do not impugn her honesty.",
+          "exampleKo": "",
+          "note": "일요일 복습 단어입니다. 어렵게 느꼈거나 최근에 다시 확인할 가치가 있는 단어로, 예문을 먼저 읽고 뜻을 떠올려보세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/impugn"
+            }
+          ]
+        },
+        {
+          "difficulty": "고급",
+          "word": "elucidate",
+          "meaning": "명확히 설명하다",
+          "example": "The speaker elucidates the theory.",
+          "exampleKo": "",
+          "note": "일요일 복습 단어입니다. 어렵게 느꼈거나 최근에 다시 확인할 가치가 있는 단어로, 예문을 먼저 읽고 뜻을 떠올려보세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/elucidate"
+            }
+          ]
+        },
+        {
+          "difficulty": "고급",
+          "word": "equivocate",
+          "meaning": "애매하게 말하다",
+          "example": "Do not equivocate in the report.",
+          "exampleKo": "",
+          "note": "일요일 복습 단어입니다. 어렵게 느꼈거나 최근에 다시 확인할 가치가 있는 단어로, 예문을 먼저 읽고 뜻을 떠올려보세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/equivocate"
+            }
+          ]
+        }
+      ]
+    },
     {
       "date": "2026-10-10",
       "day": 162,
