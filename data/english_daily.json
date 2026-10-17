@@ -1,8 +1,226 @@
 {
-  "updated_at": "2026-10-17",
+  "updated_at": "2026-10-18",
   "default_daily_count": 15,
   "source": "01_기초_동사형용사.json",
   "entries": [
+    {
+      "date": "2026-10-18",
+      "day": 170,
+      "title": "Day 170 일요일 복습 영단어 15개",
+      "generation_version": "dictionary-source-v2",
+      "items": [
+        {
+          "difficulty": "초급",
+          "word": "thaw",
+          "meaning": "녹다",
+          "example": "The snow begins to thaw.",
+          "exampleKo": "",
+          "note": "일요일 복습 단어입니다. 어렵게 느꼈거나 최근에 다시 확인할 가치가 있는 단어로, 예문을 먼저 읽고 뜻을 떠올려보세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/thaw"
+            }
+          ]
+        },
+        {
+          "difficulty": "초급",
+          "word": "unwrap",
+          "meaning": "포장을 풀다",
+          "example": "He unwraps the gift slowly.",
+          "exampleKo": "",
+          "note": "일요일 복습 단어입니다. 어렵게 느꼈거나 최근에 다시 확인할 가치가 있는 단어로, 예문을 먼저 읽고 뜻을 떠올려보세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/unwrap"
+            }
+          ]
+        },
+        {
+          "difficulty": "초급",
+          "word": "scrub",
+          "meaning": "문질러 닦다",
+          "example": "Scrub the floor well.",
+          "exampleKo": "",
+          "note": "일요일 복습 단어입니다. 어렵게 느꼈거나 최근에 다시 확인할 가치가 있는 단어로, 예문을 먼저 읽고 뜻을 떠올려보세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/scrub"
+            }
+          ]
+        },
+        {
+          "difficulty": "초급",
+          "word": "skip",
+          "meaning": "건너뛰다",
+          "example": "Don't skip breakfast.",
+          "exampleKo": "",
+          "note": "일요일 복습 단어입니다. 어렵게 느꼈거나 최근에 다시 확인할 가치가 있는 단어로, 예문을 먼저 읽고 뜻을 떠올려보세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/skip"
+            }
+          ]
+        },
+        {
+          "difficulty": "초급",
+          "word": "pry",
+          "meaning": "억지로 열다",
+          "example": "He tried to pry open the lid.",
+          "exampleKo": "",
+          "note": "일요일 복습 단어입니다. 어렵게 느꼈거나 최근에 다시 확인할 가치가 있는 단어로, 예문을 먼저 읽고 뜻을 떠올려보세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/pry"
+            }
+          ]
+        },
+        {
+          "difficulty": "중급",
+          "word": "vary",
+          "meaning": "달라지다",
+          "example": "Weather conditions vary by season.",
+          "exampleKo": "",
+          "note": "일요일 복습 단어입니다. 어렵게 느꼈거나 최근에 다시 확인할 가치가 있는 단어로, 예문을 먼저 읽고 뜻을 떠올려보세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/vary"
+            }
+          ]
+        },
+        {
+          "difficulty": "중급",
+          "word": "visualize",
+          "meaning": "상상하다",
+          "example": "Try to visualize the layout.",
+          "exampleKo": "",
+          "note": "일요일 복습 단어입니다. 어렵게 느꼈거나 최근에 다시 확인할 가치가 있는 단어로, 예문을 먼저 읽고 뜻을 떠올려보세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/visualize"
+            }
+          ]
+        },
+        {
+          "difficulty": "중급",
+          "word": "educate",
+          "meaning": "교육하다",
+          "example": "Schools educate young people.",
+          "exampleKo": "",
+          "note": "일요일 복습 단어입니다. 어렵게 느꼈거나 최근에 다시 확인할 가치가 있는 단어로, 예문을 먼저 읽고 뜻을 떠올려보세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/educate"
+            }
+          ]
+        },
+        {
+          "difficulty": "중급",
+          "word": "inquire",
+          "meaning": "문의하다",
+          "example": "I inquired about the schedule.",
+          "exampleKo": "",
+          "note": "일요일 복습 단어입니다. 어렵게 느꼈거나 최근에 다시 확인할 가치가 있는 단어로, 예문을 먼저 읽고 뜻을 떠올려보세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/inquire"
+            }
+          ]
+        },
+        {
+          "difficulty": "중급",
+          "word": "produce",
+          "meaning": "생산하다",
+          "example": "The farm produces fresh milk.",
+          "exampleKo": "",
+          "note": "일요일 복습 단어입니다. 어렵게 느꼈거나 최근에 다시 확인할 가치가 있는 단어로, 예문을 먼저 읽고 뜻을 떠올려보세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/produce"
+            }
+          ]
+        },
+        {
+          "difficulty": "고급",
+          "word": "extirpate",
+          "meaning": "근절하다",
+          "example": "The new policy aims to extirpate fraud.",
+          "exampleKo": "",
+          "note": "일요일 복습 단어입니다. 어렵게 느꼈거나 최근에 다시 확인할 가치가 있는 단어로, 예문을 먼저 읽고 뜻을 떠올려보세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/extirpate"
+            }
+          ]
+        },
+        {
+          "difficulty": "고급",
+          "word": "connive",
+          "meaning": "결탁하다",
+          "example": "They connived to hide the mistake.",
+          "exampleKo": "",
+          "note": "일요일 복습 단어입니다. 어렵게 느꼈거나 최근에 다시 확인할 가치가 있는 단어로, 예문을 먼저 읽고 뜻을 떠올려보세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/connive"
+            }
+          ]
+        },
+        {
+          "difficulty": "고급",
+          "word": "conjecture",
+          "meaning": "추측하다",
+          "example": "We can only conjecture about the cause.",
+          "exampleKo": "",
+          "note": "일요일 복습 단어입니다. 어렵게 느꼈거나 최근에 다시 확인할 가치가 있는 단어로, 예문을 먼저 읽고 뜻을 떠올려보세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/conjecture"
+            }
+          ]
+        },
+        {
+          "difficulty": "고급",
+          "word": "demur",
+          "meaning": "이의를 제기하다",
+          "example": "She demurred at the request.",
+          "exampleKo": "",
+          "note": "일요일 복습 단어입니다. 어렵게 느꼈거나 최근에 다시 확인할 가치가 있는 단어로, 예문을 먼저 읽고 뜻을 떠올려보세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/demur"
+            }
+          ]
+        },
+        {
+          "difficulty": "고급",
+          "word": "deprecate",
+          "meaning": "낮추어 평가하다",
+          "example": "She deprecates wasteful spending.",
+          "exampleKo": "",
+          "note": "일요일 복습 단어입니다. 어렵게 느꼈거나 최근에 다시 확인할 가치가 있는 단어로, 예문을 먼저 읽고 뜻을 떠올려보세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/deprecate"
+            }
+          ]
+        }
+      ]
+    },
     {
       "date": "2026-10-17",
       "day": 169,
