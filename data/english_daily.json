@@ -1,8 +1,226 @@
 {
-  "updated_at": "2026-11-14",
+  "updated_at": "2026-11-15",
   "default_daily_count": 15,
   "source": "01_기초_동사형용사.json",
   "entries": [
+    {
+      "date": "2026-11-15",
+      "day": 198,
+      "title": "Day 198 일요일 복습 영단어 15개",
+      "generation_version": "dictionary-source-v2",
+      "items": [
+        {
+          "difficulty": "초급",
+          "word": "tease",
+          "meaning": "놀리다",
+          "example": "Don't tease your friend.",
+          "exampleKo": "",
+          "note": "일요일 복습 단어입니다. 어렵게 느꼈거나 최근에 다시 확인할 가치가 있는 단어로, 예문을 먼저 읽고 뜻을 떠올려보세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/tease"
+            }
+          ]
+        },
+        {
+          "difficulty": "초급",
+          "word": "tickle",
+          "meaning": "간지럽히다",
+          "example": "The feather tickles my nose.",
+          "exampleKo": "",
+          "note": "일요일 복습 단어입니다. 어렵게 느꼈거나 최근에 다시 확인할 가치가 있는 단어로, 예문을 먼저 읽고 뜻을 떠올려보세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/tickle"
+            }
+          ]
+        },
+        {
+          "difficulty": "초급",
+          "word": "twirl",
+          "meaning": "빙빙 돌리다",
+          "example": "The dancer twirls on stage.",
+          "exampleKo": "",
+          "note": "일요일 복습 단어입니다. 어렵게 느꼈거나 최근에 다시 확인할 가치가 있는 단어로, 예문을 먼저 읽고 뜻을 떠올려보세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/twirl"
+            }
+          ]
+        },
+        {
+          "difficulty": "초급",
+          "word": "thaw",
+          "meaning": "녹다",
+          "example": "The snow begins to thaw.",
+          "exampleKo": "",
+          "note": "일요일 복습 단어입니다. 어렵게 느꼈거나 최근에 다시 확인할 가치가 있는 단어로, 예문을 먼저 읽고 뜻을 떠올려보세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/thaw"
+            }
+          ]
+        },
+        {
+          "difficulty": "초급",
+          "word": "unwrap",
+          "meaning": "포장을 풀다",
+          "example": "He unwraps the gift slowly.",
+          "exampleKo": "",
+          "note": "일요일 복습 단어입니다. 어렵게 느꼈거나 최근에 다시 확인할 가치가 있는 단어로, 예문을 먼저 읽고 뜻을 떠올려보세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/unwrap"
+            }
+          ]
+        },
+        {
+          "difficulty": "중급",
+          "word": "utilize",
+          "meaning": "활용하다",
+          "example": "We utilize the space well.",
+          "exampleKo": "",
+          "note": "일요일 복습 단어입니다. 어렵게 느꼈거나 최근에 다시 확인할 가치가 있는 단어로, 예문을 먼저 읽고 뜻을 떠올려보세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/utilize"
+            }
+          ]
+        },
+        {
+          "difficulty": "중급",
+          "word": "coincide",
+          "meaning": "동시에 일어나다",
+          "example": "The dates coincide this week.",
+          "exampleKo": "",
+          "note": "일요일 복습 단어입니다. 어렵게 느꼈거나 최근에 다시 확인할 가치가 있는 단어로, 예문을 먼저 읽고 뜻을 떠올려보세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/coincide"
+            }
+          ]
+        },
+        {
+          "difficulty": "중급",
+          "word": "audit",
+          "meaning": "점검하다",
+          "example": "The team audits the accounts.",
+          "exampleKo": "",
+          "note": "일요일 복습 단어입니다. 어렵게 느꼈거나 최근에 다시 확인할 가치가 있는 단어로, 예문을 먼저 읽고 뜻을 떠올려보세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/audit"
+            }
+          ]
+        },
+        {
+          "difficulty": "중급",
+          "word": "simulate",
+          "meaning": "모의실험하다",
+          "example": "The team simulates the scenario.",
+          "exampleKo": "",
+          "note": "일요일 복습 단어입니다. 어렵게 느꼈거나 최근에 다시 확인할 가치가 있는 단어로, 예문을 먼저 읽고 뜻을 떠올려보세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/simulate"
+            }
+          ]
+        },
+        {
+          "difficulty": "중급",
+          "word": "trigger",
+          "meaning": "촉발하다",
+          "example": "The error triggers an alert.",
+          "exampleKo": "",
+          "note": "일요일 복습 단어입니다. 어렵게 느꼈거나 최근에 다시 확인할 가치가 있는 단어로, 예문을 먼저 읽고 뜻을 떠올려보세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/trigger"
+            }
+          ]
+        },
+        {
+          "difficulty": "고급",
+          "word": "unequivocal",
+          "meaning": "명백한",
+          "example": "We need an unequivocal answer.",
+          "exampleKo": "",
+          "note": "일요일 복습 단어입니다. 어렵게 느꼈거나 최근에 다시 확인할 가치가 있는 단어로, 예문을 먼저 읽고 뜻을 떠올려보세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/unequivocal"
+            }
+          ]
+        },
+        {
+          "difficulty": "고급",
+          "word": "reiterate",
+          "meaning": "반복해서 강조하다",
+          "example": "I reiterate the main rule.",
+          "exampleKo": "",
+          "note": "일요일 복습 단어입니다. 어렵게 느꼈거나 최근에 다시 확인할 가치가 있는 단어로, 예문을 먼저 읽고 뜻을 떠올려보세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/reiterate"
+            }
+          ]
+        },
+        {
+          "difficulty": "고급",
+          "word": "rescind",
+          "meaning": "철회하다",
+          "example": "They rescind the offer.",
+          "exampleKo": "",
+          "note": "일요일 복습 단어입니다. 어렵게 느꼈거나 최근에 다시 확인할 가치가 있는 단어로, 예문을 먼저 읽고 뜻을 떠올려보세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/rescind"
+            }
+          ]
+        },
+        {
+          "difficulty": "고급",
+          "word": "laconic",
+          "meaning": "간결한",
+          "example": "She gave a laconic reply.",
+          "exampleKo": "",
+          "note": "일요일 복습 단어입니다. 어렵게 느꼈거나 최근에 다시 확인할 가치가 있는 단어로, 예문을 먼저 읽고 뜻을 떠올려보세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/laconic"
+            }
+          ]
+        },
+        {
+          "difficulty": "고급",
+          "word": "revolutionize",
+          "meaning": "혁신적으로 바꾸다",
+          "example": "The new tool can revolutionize the workflow.",
+          "exampleKo": "",
+          "note": "일요일 복습 단어입니다. 어렵게 느꼈거나 최근에 다시 확인할 가치가 있는 단어로, 예문을 먼저 읽고 뜻을 떠올려보세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/revolutionize"
+            }
+          ]
+        }
+      ]
+    },
     {
       "date": "2026-11-14",
       "day": 197,
