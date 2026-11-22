@@ -1,8 +1,226 @@
 {
-  "updated_at": "2026-11-21",
+  "updated_at": "2026-11-22",
   "default_daily_count": 15,
   "source": "01_기초_동사형용사.json",
   "entries": [
+    {
+      "date": "2026-11-22",
+      "day": 205,
+      "title": "Day 205 일요일 복습 영단어 15개",
+      "generation_version": "dictionary-source-v2",
+      "items": [
+        {
+          "difficulty": "초급",
+          "word": "scrub",
+          "meaning": "문질러 닦다",
+          "example": "Scrub the floor well.",
+          "exampleKo": "",
+          "note": "일요일 복습 단어입니다. 어렵게 느꼈거나 최근에 다시 확인할 가치가 있는 단어로, 예문을 먼저 읽고 뜻을 떠올려보세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/scrub"
+            }
+          ]
+        },
+        {
+          "difficulty": "초급",
+          "word": "skip",
+          "meaning": "건너뛰다",
+          "example": "Don't skip breakfast.",
+          "exampleKo": "",
+          "note": "일요일 복습 단어입니다. 어렵게 느꼈거나 최근에 다시 확인할 가치가 있는 단어로, 예문을 먼저 읽고 뜻을 떠올려보세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/skip"
+            }
+          ]
+        },
+        {
+          "difficulty": "초급",
+          "word": "pry",
+          "meaning": "억지로 열다",
+          "example": "He tried to pry open the lid.",
+          "exampleKo": "",
+          "note": "일요일 복습 단어입니다. 어렵게 느꼈거나 최근에 다시 확인할 가치가 있는 단어로, 예문을 먼저 읽고 뜻을 떠올려보세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/pry"
+            }
+          ]
+        },
+        {
+          "difficulty": "초급",
+          "word": "roam",
+          "meaning": "돌아다니다",
+          "example": "The dog roams the yard.",
+          "exampleKo": "",
+          "note": "일요일 복습 단어입니다. 어렵게 느꼈거나 최근에 다시 확인할 가치가 있는 단어로, 예문을 먼저 읽고 뜻을 떠올려보세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/roam"
+            }
+          ]
+        },
+        {
+          "difficulty": "초급",
+          "word": "hunt",
+          "meaning": "찾다",
+          "example": "They hunt for clues.",
+          "exampleKo": "",
+          "note": "일요일 복습 단어입니다. 어렵게 느꼈거나 최근에 다시 확인할 가치가 있는 단어로, 예문을 먼저 읽고 뜻을 떠올려보세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/hunt"
+            }
+          ]
+        },
+        {
+          "difficulty": "중급",
+          "word": "adjacent",
+          "meaning": "인접한",
+          "example": "The adjacent room is quiet.",
+          "exampleKo": "",
+          "note": "일요일 복습 단어입니다. 어렵게 느꼈거나 최근에 다시 확인할 가치가 있는 단어로, 예문을 먼저 읽고 뜻을 떠올려보세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/adjacent"
+            }
+          ]
+        },
+        {
+          "difficulty": "중급",
+          "word": "explicit",
+          "meaning": "명시적인",
+          "example": "Be explicit about the deadline.",
+          "exampleKo": "",
+          "note": "일요일 복습 단어입니다. 어렵게 느꼈거나 최근에 다시 확인할 가치가 있는 단어로, 예문을 먼저 읽고 뜻을 떠올려보세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/explicit"
+            }
+          ]
+        },
+        {
+          "difficulty": "중급",
+          "word": "gradual",
+          "meaning": "점진적인",
+          "example": "The change was gradual.",
+          "exampleKo": "",
+          "note": "일요일 복습 단어입니다. 어렵게 느꼈거나 최근에 다시 확인할 가치가 있는 단어로, 예문을 먼저 읽고 뜻을 떠올려보세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/gradual"
+            }
+          ]
+        },
+        {
+          "difficulty": "중급",
+          "word": "minimal",
+          "meaning": "최소한의",
+          "example": "Use a minimal setup.",
+          "exampleKo": "",
+          "note": "일요일 복습 단어입니다. 어렵게 느꼈거나 최근에 다시 확인할 가치가 있는 단어로, 예문을 먼저 읽고 뜻을 떠올려보세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/minimal"
+            }
+          ]
+        },
+        {
+          "difficulty": "중급",
+          "word": "prominent",
+          "meaning": "두드러진",
+          "example": "A prominent issue remains.",
+          "exampleKo": "",
+          "note": "일요일 복습 단어입니다. 어렵게 느꼈거나 최근에 다시 확인할 가치가 있는 단어로, 예문을 먼저 읽고 뜻을 떠올려보세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/prominent"
+            }
+          ]
+        },
+        {
+          "difficulty": "고급",
+          "word": "mendacious",
+          "meaning": "거짓말하는",
+          "example": "The statement was mendacious.",
+          "exampleKo": "",
+          "note": "일요일 복습 단어입니다. 어렵게 느꼈거나 최근에 다시 확인할 가치가 있는 단어로, 예문을 먼저 읽고 뜻을 떠올려보세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/mendacious"
+            }
+          ]
+        },
+        {
+          "difficulty": "고급",
+          "word": "deleterious",
+          "meaning": "해로운",
+          "example": "The fumes are deleterious.",
+          "exampleKo": "",
+          "note": "일요일 복습 단어입니다. 어렵게 느꼈거나 최근에 다시 확인할 가치가 있는 단어로, 예문을 먼저 읽고 뜻을 떠올려보세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/deleterious"
+            }
+          ]
+        },
+        {
+          "difficulty": "고급",
+          "word": "insidious",
+          "meaning": "교묘히 해로운",
+          "example": "The illness is insidious.",
+          "exampleKo": "",
+          "note": "일요일 복습 단어입니다. 어렵게 느꼈거나 최근에 다시 확인할 가치가 있는 단어로, 예문을 먼저 읽고 뜻을 떠올려보세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/insidious"
+            }
+          ]
+        },
+        {
+          "difficulty": "고급",
+          "word": "pernicious",
+          "meaning": "심각하게 해로운",
+          "example": "The rumor had a pernicious effect.",
+          "exampleKo": "",
+          "note": "일요일 복습 단어입니다. 어렵게 느꼈거나 최근에 다시 확인할 가치가 있는 단어로, 예문을 먼저 읽고 뜻을 떠올려보세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/pernicious"
+            }
+          ]
+        },
+        {
+          "difficulty": "고급",
+          "word": "prevaricate",
+          "meaning": "얼버무리다",
+          "example": "Do not prevaricate during the interview.",
+          "exampleKo": "",
+          "note": "일요일 복습 단어입니다. 어렵게 느꼈거나 최근에 다시 확인할 가치가 있는 단어로, 예문을 먼저 읽고 뜻을 떠올려보세요.",
+          "sources": [
+            {
+              "label": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/prevaricate"
+            }
+          ]
+        }
+      ]
+    },
     {
       "date": "2026-11-21",
       "day": 204,
